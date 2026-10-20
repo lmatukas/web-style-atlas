@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "pitcher",
+      "path": "assets/pitcher.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S05)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Web Style Atlas ceramic illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "bowl",
+      "path": "assets/bowl.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S05)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Web Style Atlas ceramic illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "vase",
+      "path": "assets/vase.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S05)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Web Style Atlas ceramic illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}

@@ -155,6 +155,60 @@
       ]
     },
     {
+      "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "craft",
+        "products",
+        "portfolio"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "tactile",
+      "id": "organic-craft",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Organic Craft",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm cream, sand, brown and terracotta; restrained grain stays inside artwork.",
+        "composition": "Unequal object stages, soft backplates and asymmetric story/collection arrangements.",
+        "content_rhythm": "Short material observations alternating with process chapters or individual object studies.",
+        "imagery": "Three original shaded, speckled SVG ceramic illustrations with readable silhouettes.",
+        "interaction": "Native dimensions/care disclosures, local anchors and clearly visible keyboard focus.",
+        "motion": "Settled still objects and brief link transitions, removed for reduced motion.",
+        "navigation": "Visible making/collection links and local object anchors, wrapping on mobile.",
+        "typography": "Personable serif display, occasional italic annotation and clear sans-serif practical notes."
+      },
+      "status": "ready",
+      "style_path": "styles/organic-craft/style.md",
+      "summary": "Warm material surfaces, irregular object forms and asymmetric compositions for independent makers.",
+      "tags": [
+        "handmade",
+        "warm",
+        "asymmetric",
+        "product-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/organic-craft/preview-mobile.png",
+          "preview_path": "styles/organic-craft/preview.png",
+          "reference_path": "styles/organic-craft/reference/index.html",
+          "title": "Materials and making story"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/organic-craft/preview-alt-mobile.png",
+          "preview_path": "styles/organic-craft/preview-alt.png",
+          "reference_path": "styles/organic-craft/reference/alternate.html",
+          "title": "Asymmetric object collection"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "services",

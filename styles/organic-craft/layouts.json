@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Materials and making story",
+      "page_type": "craft",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible material/process anchors and a working collection link.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce the studio",
+          "pattern": "Unequal text and illustrated pitcher",
+          "content_requirements": [
+            "Heading",
+            "Studio premise",
+            "Pitcher illustration"
+          ]
+        },
+        {
+          "purpose": "Introduce material",
+          "pattern": "Quiet material strip",
+          "content_requirements": [
+            "Clay and glaze notes"
+          ]
+        },
+        {
+          "purpose": "Explain making",
+          "pattern": "Numbered process beside bowl illustration",
+          "content_requirements": [
+            "Three process stages"
+          ]
+        },
+        {
+          "purpose": "Describe the approach",
+          "pattern": "Uneven studio note",
+          "content_requirements": [
+            "Material philosophy",
+            "Collection link"
+          ]
+        },
+        {
+          "purpose": "Provide practical context",
+          "pattern": "Care disclosure and colophon",
+          "content_requirements": [
+            "Care guidance",
+            "Demonstration identity"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack promise and uncropped pitcher, then process illustration and numbered stages; navigation wraps.",
+      "distinguishing_features": [
+        "Irregular backplates",
+        "Large vessel against short material notes",
+        "Narrative process sequence"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Asymmetric object collection",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Three local object anchors and a working making-story link.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient the collection",
+          "pattern": "Short heading and object index",
+          "content_requirements": [
+            "Collection title",
+            "Three anchor links"
+          ]
+        },
+        {
+          "purpose": "Study a pitcher",
+          "pattern": "Large unequal object stage",
+          "content_requirements": [
+            "Pitcher",
+            "Material note",
+            "Dimensions disclosure"
+          ]
+        },
+        {
+          "purpose": "Study a bowl",
+          "pattern": "Smaller offset object stage",
+          "content_requirements": [
+            "Bowl",
+            "Material note",
+            "Dimensions disclosure"
+          ]
+        },
+        {
+          "purpose": "Study a vase",
+          "pattern": "Horizontal object and note pairing",
+          "content_requirements": [
+            "Vase",
+            "Material note",
+            "Dimensions disclosure"
+          ]
+        },
+        {
+          "purpose": "Care and close",
+          "pattern": "Shared practical note",
+          "content_requirements": [
+            "Care guidance",
+            "Return link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Remove vertical offsets; stack each illustration with its own notes and native dimensions control.",
+      "distinguishing_features": [
+        "Unequal collection stages",
+        "Offset bowl and wide vase row",
+        "Attached per-piece specifications"
+      ]
+    }
+  ]
+}

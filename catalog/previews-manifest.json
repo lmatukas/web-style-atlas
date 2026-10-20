@@ -136,6 +136,46 @@
       "width": 390
     },
     {
+      "height": 2188,
+      "output_sha256": "2729809218879bd1abc7c82b3d8f3682254fd9c8fd87d3a6a905265890a2697e",
+      "path": "styles/organic-craft/preview.png",
+      "source_sha256": "21231f6e56ff3cef0b3354a09bc9ed4f82883efb4710dfe969a5123d6a8324b4",
+      "style_id": "organic-craft",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2996,
+      "output_sha256": "a9540b258983fe573d25d269ffa12850f5260a0fc68f90213e412e87852b17c3",
+      "path": "styles/organic-craft/preview-mobile.png",
+      "source_sha256": "21231f6e56ff3cef0b3354a09bc9ed4f82883efb4710dfe969a5123d6a8324b4",
+      "style_id": "organic-craft",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2340,
+      "output_sha256": "c1b9936f666245a0496799a5b9f9666ed187f86abb94a0cc52737705894e35a5",
+      "path": "styles/organic-craft/preview-alt.png",
+      "source_sha256": "21231f6e56ff3cef0b3354a09bc9ed4f82883efb4710dfe969a5123d6a8324b4",
+      "style_id": "organic-craft",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2992,
+      "output_sha256": "3fe62f323df23fc783c16cb7eb628bdaa3acd788ac51fff05ce993eb13ba6917",
+      "path": "styles/organic-craft/preview-alt-mobile.png",
+      "source_sha256": "21231f6e56ff3cef0b3354a09bc9ed4f82883efb4710dfe969a5123d6a8324b4",
+      "style_id": "organic-craft",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2615,
       "output_sha256": "d5b65d784a3d2ffd6d52470ff540a3a7ece50005f399265d15d094fc314a9eea",
       "path": "styles/swiss-grid/preview.png",
