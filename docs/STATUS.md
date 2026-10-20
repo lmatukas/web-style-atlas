@@ -4,13 +4,13 @@
 
 **Baigta: 0/38.**
 
-**Pirmiausia patikrinti P01: Vykdoma; vykdytojas Codex/839dbcebb83d.**
+**Pirmiausia patikrinti P01: Laukia peržiūros; vykdytojas Codex/839dbcebb83d.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
 | Užduotis | Pavadinimas | Būsena | Vykdytojas | Šaka | PR | Atnaujinta UTC | Blokatorius / kitas veiksmas |
 |---|---|---|---|---|---|---|---|
-| [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Vykdoma | Codex/839dbcebb83d | task/p01-contract | — | 2026-10-20T16:46:09Z | Implement P01 schemas, template and scaffold; publish one implementation PR. |
+| [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Laukia peržiūros | Codex/839dbcebb83d | task/p01-contract | [PR](https://github.com/lmatukas/web-style-atlas/pull/1) | 2026-10-20T16:54:58Z | Review and merge PR #1 when authorized; verify evidence and record done before selecting P02. |
 | [P02](tasks/P02.md) | Validavimas ir deterministinis generavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P03](tasks/P03.md) | Renderinimas ir preview generavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S01](tasks/S01.md) | Swiss Grid | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
