@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "forest",
+      "path": "assets/forest.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg",
+      "creator": "Austin Schmid",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Austin Schmid via Wikimedia Commons",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized to maximum 1440px",
+        "Metadata stripped",
+        "WebP quality 80"
+      ]
+    },
+    {
+      "id": "lake",
+      "path": "assets/lake.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sprague_Lake_at_Sunset_(29560309357).jpg",
+      "creator": "NPS / M. Reed",
+      "license": "PD-USGov",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "NPS / M. Reed via Wikimedia Commons",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized to maximum 1440px",
+        "Metadata stripped",
+        "WebP quality 80"
+      ]
+    }
+  ]
+}

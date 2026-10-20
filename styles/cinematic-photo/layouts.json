@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Photographic cover and selected scenes",
+      "page_type": "travel",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible local journal links and a working notebook reference.",
+      "ordered_sections": [
+        {
+          "purpose": "Create atmosphere",
+          "pattern": "Large framed photograph",
+          "content_requirements": [
+            "Headline",
+            "Subject alt",
+            "Caption"
+          ]
+        },
+        {
+          "purpose": "Explain purpose",
+          "pattern": "Quiet editorial introduction",
+          "content_requirements": [
+            "Journal premise"
+          ]
+        },
+        {
+          "purpose": "Show a scene",
+          "pattern": "Unequal image/text pair",
+          "content_requirements": [
+            "Sunset photograph",
+            "Reflection"
+          ]
+        },
+        {
+          "purpose": "Explain approach",
+          "pattern": "Closing method note",
+          "content_requirements": [
+            "Editorial values"
+          ]
+        },
+        {
+          "purpose": "Credit images",
+          "pattern": "Colophon",
+          "content_requirements": [
+            "Photographers",
+            "Demo identity"
+          ]
+        }
+      ],
+      "mobile_reflow": "Portrait hero crop with lower dark title; scene image and prose stack.",
+      "distinguishing_features": [
+        "Dominant photographic opening",
+        "Dark negative space",
+        "Attached captions"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Vertical photographic notebook",
+      "page_type": "travel",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Two numbered chapter anchors and return to cover.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Centred notebook title",
+          "content_requirements": [
+            "Title",
+            "Chapter links"
+          ]
+        },
+        {
+          "purpose": "Read first scene",
+          "pattern": "Forest filmstrip frame",
+          "content_requirements": [
+            "Image",
+            "Caption",
+            "Observation"
+          ]
+        },
+        {
+          "purpose": "Read second scene",
+          "pattern": "Sunset filmstrip frame",
+          "content_requirements": [
+            "Image",
+            "Caption",
+            "Observation"
+          ]
+        },
+        {
+          "purpose": "Reflect",
+          "pattern": "Quiet closing text",
+          "content_requirements": [
+            "Closing thought"
+          ]
+        },
+        {
+          "purpose": "Provide sources",
+          "pattern": "Native credit disclosure",
+          "content_requirements": [
+            "Rights note"
+          ]
+        }
+      ],
+      "mobile_reflow": "Keep one image per row; chapter numbers move above the frame.",
+      "distinguishing_features": [
+        "Numbered vertical scenes",
+        "Image-first narrative sequence"
+      ]
+    }
+  ]
+}
