@@ -13,7 +13,7 @@ const source = fileURLToPath(new URL('../', import.meta.url));
 function fixture(t, { status = 'ready', id = 'example-style' } = {}) {
   const root = mkdtempSync(join(tmpdir(), 'atlas-p02-'));
   t.after(() => rmSync(root, { recursive: true, force: true }));
-  for (const path of ['schema', 'core/vocabularies.json', 'docs/progress.json', 'docs/STATUS.md']) {
+  for (const path of ['gallery', 'schema', 'core/vocabularies.json', 'docs/progress.json', 'docs/STATUS.md']) {
     mkdirSync(join(root, path.includes('.') ? path.slice(0, path.lastIndexOf('/')) : path), { recursive: true });
     cpSync(join(source, path), join(root, path), { recursive: true });
   }
