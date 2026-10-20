@@ -450,23 +450,46 @@
     {
       "id": "P07",
       "title": "Palyginimas ir pasirinkimo perdavimas agentui",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P06"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:31:08Z",
-      "updated_at": "2026-10-20T19:31:08Z",
+      "updated_at": "2026-10-20T19:35:54Z",
       "branch": "task/p07-atlas",
       "base_commit": "0b08412c49c063c112fd56f317b5b29a68615130",
-      "evidence_commit": null,
+      "evidence_commit": "c20fbc4c4f2da8f0ddec9acac6512dabf72602b4",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/10",
+      "checks": [
+        {
+          "name": "selection and gallery unit tests",
+          "status": "pass",
+          "details": "3 prompt/comparison cases plus 2 deterministic gallery cases."
+        },
+        {
+          "name": "npm run test:gallery",
+          "status": "pass",
+          "details": "3 real Chromium cases: subpaths/mobile, all reference pages, comparison/URL/clipboard success and fallback."
+        },
+        {
+          "name": "comparison visual inspection",
+          "status": "pass",
+          "details": "Actual desktop/mobile comparison images viewed; mobile readable with no overflow."
+        },
+        {
+          "name": "build/check/whitespace",
+          "status": "pass",
+          "details": "Fresh generated gallery and source previews; clean whitespace."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P07.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P08",
