@@ -266,24 +266,47 @@
     {
       "id": "S03",
       "title": "Neo Brutalist",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P03",
         "S02"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:11:18Z",
-      "updated_at": "2026-10-20T19:11:18Z",
+      "updated_at": "2026-10-20T19:15:24Z",
       "branch": "task/s03-atlas",
       "base_commit": "1b52981fae4ac665da0cdea94099e0077dbe6933",
-      "evidence_commit": null,
+      "evidence_commit": "d1fe98e130401ad9a02b9cb9ae1f21b9d81171cb",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/6",
+      "checks": [
+        {
+          "name": "source/build/previews/check",
+          "status": "pass",
+          "details": "Four canonical real PNGs and fresh source/output manifest."
+        },
+        {
+          "name": "responsive/interaction QA",
+          "status": "pass",
+          "details": "Six A/B widths plus actual mobile day filter, keyboard, pressed state, hidden lists and live status."
+        },
+        {
+          "name": "visual rubric",
+          "status": "pass",
+          "details": "Four actual previews compared with Swiss Grid and Editorial Journal; 12/12."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "No whitespace errors."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S03.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P04",
