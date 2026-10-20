@@ -2,7 +2,7 @@ import {createServer} from 'node:http';
 import {readFileSync,existsSync} from 'node:fs';
 import {extname,resolve} from 'node:path';
 import {ROOT,isMain,localFile} from './lib/files.mjs';
-const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.md':'text/plain; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.woff':'font/woff','.ttf':'font/ttf','.otf':'font/otf'};
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.md':'text/plain; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.woff':'font/woff','.ttf':'font/ttf','.otf':'font/otf'};
 export async function serveGallery(root=resolve(ROOT,'dist'),{basePath='/',port=0}={}){
  if(!/^\/(?:[a-zA-Z0-9_-]+\/)*$/.test(basePath))throw new Error('basePath must be a safe absolute path with a trailing slash');
  const server=createServer((req,res)=>{try{if(!['GET','HEAD'].includes(req.method)){res.writeHead(405).end();return;}const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(!pathname.startsWith(basePath)){res.writeHead(404).end();return;}let path=pathname.slice(basePath.length)||'index.html';const data=readFileSync(localFile(root,path));res.writeHead(200,{'Content-Type':mime[extname(path)]||'application/octet-stream','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(req.method==='HEAD'?undefined:data);}catch{res.writeHead(404).end('Not found');}});

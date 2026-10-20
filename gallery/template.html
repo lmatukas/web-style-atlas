@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="A visual field guide to distinct web design directions, built for people and AI coding agents.">
 <title>Web Style Atlas — Find your direction</title>
-<link rel="stylesheet" href="gallery.css"><script src="gallery.js" defer></script>
+<link rel="stylesheet" href="gallery.css"><script src="gallery.js" type="module"></script>
 </head>
 <body>
 <a class="skip" href="#results">Skip to styles</a>
@@ -15,10 +15,14 @@
 <div class="search-line"><label for="search">Search the atlas<input id="search" type="search" placeholder="Try editorial, services, grid…" autocomplete="off"></label><button id="reset" type="button">Reset filters ↺</button></div>
 <div class="filters">{{FILTERS}}</div>
 <div class="view-bar"><p id="result-count" role="status" aria-live="polite">{{COUNT}} directions</p><div class="view-controls"><div role="group" aria-label="Composition"><button type="button" data-variant="a" aria-pressed="true">A</button><button type="button" data-variant="b" aria-pressed="false">B</button></div><div role="group" aria-label="Preview viewport"><button type="button" data-viewport="desktop" aria-pressed="true">Desktop</button><button type="button" data-viewport="mobile" aria-pressed="false">Mobile</button></div></div></div>
+<div class="selection-bar"><p id="compare-status" role="status">Choose up to 3 directions to compare.</p><a id="compare-jump" href="#comparison" hidden>Compare selected ↓</a></div>
 <div id="results" class="cards" tabindex="-1">{{CARDS}}</div><p id="empty" class="empty" hidden>No directions match these filters. Try a broader search or reset the filters.</p>
+<section id="comparison" class="comparison" hidden aria-labelledby="comparison-heading"><div class="comparison-heading"><h2 id="comparison-heading">Side by side.</h2><button id="clear-comparison" type="button">Clear comparison</button></div><div id="compare-cards" class="compare-cards"></div></section>
+<section id="handoff" class="handoff" hidden aria-labelledby="handoff-heading"><p class="eyebrow">YOUR CHOSEN DIRECTION</p><h2 id="handoff-heading"></h2><p id="chosen-variant"></p><button id="copy-prompt" type="button">Copy selection prompt</button><p id="copy-status" role="status" aria-live="polite"></p><div id="prompt-fallback" hidden><label for="selection-prompt">Selection prompt — select and copy this text</label><textarea id="selection-prompt" readonly rows="14"></textarea></div></section>
 <noscript><p class="no-script">All ready directions are shown. Enable JavaScript for filtering and preview switches; reference links work without it.</p></noscript>
 </section>
 <section class="how"><p class="eyebrow">FROM REFERENCE TO REAL WEBSITE</p><h2>Keep the idea.<br>Make it yours.</h2><ol><li><span>01</span>Compare real compositions.</li><li><span>02</span>Choose a direction and variant.</li><li><span>03</span>Give your agent the source and your brief.</li></ol><p>Keep your brand, content and platform. Preserve the structure that makes the direction recognizable.</p></section>
 </main><footer><span>WEB STYLE ATLAS / ORIGINAL DIRECTIONS</span><span>Local references. Honest provenance.</span><a href="https://github.com/lmatukas/web-style-atlas/blob/main/START_HERE.md">Start here ↗</a></footer>
+<script id="atlas-config" type="application/json">{{CONFIG}}</script>
 <script id="atlas-data" type="application/json">{{DATA}}</script>
 </body></html>
