@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "unspecified",
+      "request": "Build a small service website; show three directions.",
+      "mode": "choices",
+      "expected_ids": [
+        "swiss-grid",
+        "editorial-journal",
+        "neo-brutalist"
+      ],
+      "reason": "Swiss is the best direct service fit; alternatives preserve three distinct structural families."
+    },
+    {
+      "id": "specific",
+      "request": "Use neo-brutalist variant b for the event programme.",
+      "mode": "direct",
+      "expected_ids": [
+        "neo-brutalist"
+      ],
+      "variant": "b",
+      "reason": "Exact ready ID and variant exist; no choice loop."
+    },
+    {
+      "id": "automatic",
+      "request": "Choose for me: an image-light studio portfolio.",
+      "mode": "automatic",
+      "expected_ids": [
+        "swiss-grid"
+      ],
+      "variant": "b",
+      "reason": "Ready portfolio fit and asymmetric catalogue; proceed without approval."
+    },
+    {
+      "id": "no-images",
+      "request": "Show directions; I have no photographs or image budget.",
+      "mode": "choices",
+      "expected_ids": [
+        "swiss-grid",
+        "editorial-journal",
+        "neo-brutalist"
+      ],
+      "reason": "All three actual ready entries have low image dependency and original CSS geometry."
+    },
+    {
+      "id": "existing-brand",
+      "request": "Build a service page; keep our approved logo, navy palette and typography.",
+      "mode": "choices",
+      "expected_ids": [
+        "swiss-grid",
+        "editorial-journal",
+        "neo-brutalist"
+      ],
+      "preserve_brand": true,
+      "reason": "Present structural directions, explicitly adapt tokens to the approved brand rather than replace it."
+    },
+    {
+      "id": "missing-id",
+      "request": "Use space-rainbow-v9.",
+      "mode": "unavailable",
+      "missing_id": "space-rainbow-v9",
+      "expected_ids": [
+        "swiss-grid",
+        "editorial-journal",
+        "neo-brutalist"
+      ],
+      "reason": "Absent from the actual ready index; offer only genuine alternatives."
+    },
+    {
+      "id": "no-visual-viewer",
+      "request": "Show directions; this agent cannot open images.",
+      "mode": "metadata-and-links",
+      "expected_ids": [
+        "swiss-grid",
+        "editorial-journal",
+        "neo-brutalist"
+      ],
+      "claim_visual_inspection": false,
+      "reason": "Use genuine indexed links and disclose metadata-based selection."
+    },
+    {
+      "id": "mixed",
+      "request": "Use Swiss Grid with only Editorial Journal serif contrast.",
+      "mode": "primary-and-influence",
+      "expected_ids": [
+        "swiss-grid",
+        "editorial-journal"
+      ],
+      "primary": "swiss-grid",
+      "secondary_scope": "Typography contrast only; keep Swiss composition."
+    }
+  ]
+}
