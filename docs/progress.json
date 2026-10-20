@@ -357,17 +357,17 @@
     {
       "id": "P05",
       "title": "Atranka ir universali agento instrukcija",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P04"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:19:08Z",
-      "updated_at": "2026-10-20T19:23:27Z",
+      "updated_at": "2026-10-20T19:23:37Z",
       "branch": "task/p05-atlas",
       "base_commit": "431310484426c50368a929c846b8a317d1286eb8",
       "evidence_commit": "9b4629a7f4ecb71cfdad611b67ff02a6253ab691",
-      "merge_commit": null,
+      "merge_commit": "6645990e922f6dcc1e43cc478087318ead8fadd2",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/8",
       "checks": [
         {
@@ -395,28 +395,28 @@
         "docs/evidence/P05.md"
       ],
       "blocker": null,
-      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
-      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
+      "next_action": "Select the next eligible task within the authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Owner-authorized sequential batch continues; no scheduled automation."
     },
     {
       "id": "P06",
       "title": "Galerijos pirmas veikiantis variantas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P05"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "claimed_at": "2026-10-20T19:23:37Z",
+      "updated_at": "2026-10-20T19:23:37Z",
+      "branch": "task/p06-atlas",
+      "base_commit": "6645990e922f6dcc1e43cc478087318ead8fadd2",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
       "handoff": null
     },
     {
