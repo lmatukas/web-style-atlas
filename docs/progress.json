@@ -598,23 +598,61 @@
     {
       "id": "S05",
       "title": "Organic Craft",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S04"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T20:03:48Z",
-      "updated_at": "2026-10-20T20:03:48Z",
+      "updated_at": "2026-10-20T20:12:01Z",
       "branch": "task/s05-atlas",
       "base_commit": "5cd9f09b2d992aeb6d6c5096fc504f6950ad9b19",
-      "evidence_commit": null,
+      "evidence_commit": "548ffcd52e90276e04fdbb6077be3dd41117771d",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/13",
+      "checks": [
+        {
+          "name": "source/build/previews/freshness",
+          "status": "pass",
+          "details": "Five ready catalogue entries; four fresh Organic Craft PNGs, all below 1 MiB; generated-text gate passed."
+        },
+        {
+          "name": "responsive and accessibility browser QA",
+          "status": "pass",
+          "details": "A/B at 360/768/1440: six combinations, axe, controls, resources, disclosures, focus, reduced motion, glyph load and real token consumption."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "All three browser cases passed with fifth ready direction and new local references under a subpath."
+        },
+        {
+          "name": "visual and rights review",
+          "status": "pass",
+          "details": "Four actual previews inspected; compared Editorial and Swiss, rubric 12/12; three original MIT SVGs registered."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "No whitespace errors."
+        },
+        {
+          "name": "complete unit suite",
+          "status": "pass",
+          "details": "69/69 unit tests passed on the final implementation tree."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39489587870 succeeded on 548ffcd52e90276e04fdbb6077be3dd41117771d."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S05.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S06",

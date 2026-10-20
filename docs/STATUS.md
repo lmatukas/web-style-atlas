@@ -4,7 +4,7 @@
 
 **Baigta: 12/38.**
 
-**Pirmiausia patikrinti S05: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Pirmiausia patikrinti S05: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -22,7 +22,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P07](tasks/P07.md) | Palyginimas ir pasirinkimo perdavimas agentui | Baigta | Codex/839dbcebb83d/sequential-ten | task/p07-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/10) | 2026-10-20T19:36:04Z | Select the next eligible task within the authorized sequential batch. |
 | [P08](tasks/P08.md) | CI ir kokybės vartai | Baigta | Codex/839dbcebb83d/sequential-ten | task/p08-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/11) | 2026-10-20T19:51:31Z | Select the next eligible task within the authorized sequential batch. |
 | [S04](tasks/S04.md) | Cinematic Photo | Baigta | Codex/839dbcebb83d/sequential-ten | task/s04-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/12) | 2026-10-20T20:03:48Z | Select the next eligible task within the authorized sequential batch. |
-| [S05](tasks/S05.md) | Organic Craft | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/s05-atlas | — | 2026-10-20T20:03:48Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
+| [S05](tasks/S05.md) | Organic Craft | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/s05-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/13) | 2026-10-20T20:12:01Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
 | [S06](tasks/S06.md) | Terminal Utility | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S07](tasks/S07.md) | Quiet Luxury | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S08](tasks/S08.md) | Bauhaus Geometric | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
