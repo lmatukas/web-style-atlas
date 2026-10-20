@@ -177,23 +177,46 @@
     {
       "id": "S01",
       "title": "Swiss Grid",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P03"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T18:58:46Z",
-      "updated_at": "2026-10-20T18:58:46Z",
+      "updated_at": "2026-10-20T19:04:24Z",
       "branch": "task/s01-atlas",
       "base_commit": "b86526b13dd6c0bed97679c4a729cdc63f4ba06f",
-      "evidence_commit": null,
+      "evidence_commit": "6c6ba3ed97a09bfb02e55327beab56beb8d4c7c7",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/4",
+      "checks": [
+        {
+          "name": "style validate/build/previews/check",
+          "status": "pass",
+          "details": "Real four-PNG generation and source/output freshness."
+        },
+        {
+          "name": "Chromium responsive and interaction QA",
+          "status": "pass",
+          "details": "A/B at 360/768/1440: six combinations, keyboard, disclosure, links, resources, reduced motion and actual tokens."
+        },
+        {
+          "name": "visual rubric",
+          "status": "pass",
+          "details": "All four actual PNGs inspected; 12/12, first-style baseline documented."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "No whitespace errors."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S01.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S02",
