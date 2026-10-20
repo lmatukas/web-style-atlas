@@ -7,15 +7,15 @@
     {
       "id": "P01",
       "title": "Esamos būsenos patikra ir sutartas kontraktas",
-      "status": "review",
+      "status": "done",
       "depends_on": [],
       "worker": "Codex/839dbcebb83d",
       "claimed_at": "2026-10-20T16:46:09Z",
-      "updated_at": "2026-10-20T16:54:58Z",
+      "updated_at": "2026-10-20T17:16:44Z",
       "branch": "task/p01-contract",
       "base_commit": "087cc47853b394364bf421f9eeb9f9726dc5bebb",
       "evidence_commit": "3786112c5b4157a5c311b2326e98880dde4ac833",
-      "merge_commit": null,
+      "merge_commit": "2603bd4a7885ca297b107b9f7dfa6fc22eb9edfd",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/1",
       "checks": [
         {
@@ -48,28 +48,28 @@
         "docs/evidence/P01.md"
       ],
       "blocker": null,
-      "next_action": "Review and merge PR #1 when authorized; verify evidence and record done before selecting P02.",
-      "handoff": "Implementation and acceptance evidence are on task/p01-contract at 3786112c5b4157a5c311b2326e98880dde4ac833. Explicit handoff to the next coordinator for PR review/findings, authorized merge and completion tracking. No remaining P01 implementation blocker; P02 awaits merged acceptance."
+      "next_action": "P01 accepted; P02 can proceed.",
+      "handoff": "PR #1 merged by owner. Verified exact implementation parent and retained evidence/check results; only main tracking files differ from the tested implementation."
     },
     {
       "id": "P02",
       "title": "Validavimas ir deterministinis generavimas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P01"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/839dbcebb83d/P02",
+      "claimed_at": "2026-10-20T17:16:44Z",
+      "updated_at": "2026-10-20T17:16:44Z",
+      "branch": "task/p02-validation-build",
+      "base_commit": "2603bd4a7885ca297b107b9f7dfa6fc22eb9edfd",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement P02 source validation and deterministic build; publish one PR.",
       "handoff": null
     },
     {

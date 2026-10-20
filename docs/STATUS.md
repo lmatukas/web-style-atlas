@@ -2,16 +2,16 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 0/38.**
+**Baigta: 1/38.**
 
-**Pirmiausia patikrinti P01: Laukia peržiūros; vykdytojas Codex/839dbcebb83d.**
+**Pirmiausia patikrinti P02: Vykdoma; vykdytojas Codex/839dbcebb83d/P02.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
 | Užduotis | Pavadinimas | Būsena | Vykdytojas | Šaka | PR | Atnaujinta UTC | Blokatorius / kitas veiksmas |
 |---|---|---|---|---|---|---|---|
-| [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Laukia peržiūros | Codex/839dbcebb83d | task/p01-contract | [PR](https://github.com/lmatukas/web-style-atlas/pull/1) | 2026-10-20T16:54:58Z | Review and merge PR #1 when authorized; verify evidence and record done before selecting P02. |
-| [P02](tasks/P02.md) | Validavimas ir deterministinis generavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Baigta | Codex/839dbcebb83d | task/p01-contract | [PR](https://github.com/lmatukas/web-style-atlas/pull/1) | 2026-10-20T17:16:44Z | P01 accepted; P02 can proceed. |
+| [P02](tasks/P02.md) | Validavimas ir deterministinis generavimas | Vykdoma | Codex/839dbcebb83d/P02 | task/p02-validation-build | — | 2026-10-20T17:16:44Z | Implement P02 source validation and deterministic build; publish one PR. |
 | [P03](tasks/P03.md) | Renderinimas ir preview generavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S01](tasks/S01.md) | Swiss Grid | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S02](tasks/S02.md) | Editorial Journal | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
