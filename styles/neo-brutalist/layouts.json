@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Poster-led event offer",
+      "page_type": "events",
+      "reference_path": "reference/index.html",
+      "navigation": "Utility header, manifesto and working programme links.",
+      "ordered_sections": [
+        {
+          "purpose": "Announce",
+          "pattern": "Oversized poster",
+          "content_requirements": [
+            "Proposition",
+            "Date",
+            "Place"
+          ]
+        },
+        {
+          "purpose": "State values",
+          "pattern": "Numbered manifesto bands",
+          "content_requirements": [
+            "Three statements"
+          ]
+        },
+        {
+          "purpose": "Show sessions",
+          "pattern": "List and side statement",
+          "content_requirements": [
+            "Three programme previews"
+          ]
+        },
+        {
+          "purpose": "Explain attendance",
+          "pattern": "Bordered notice",
+          "content_requirements": [
+            "Demo booking state"
+          ]
+        },
+        {
+          "purpose": "Resolve access",
+          "pattern": "Native disclosure",
+          "content_requirements": [
+            "Access guidance"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack the poster and stamp, keep borders inset and wrap labels.",
+      "distinguishing_features": [
+        "Exposed thick outlines",
+        "Offset circular stamp",
+        "Manifesto bands"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Framed two-day programme",
+      "page_type": "events",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Day selector and local venue/conduct links.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Programme mast",
+          "content_requirements": [
+            "Event title"
+          ]
+        },
+        {
+          "purpose": "Choose day",
+          "pattern": "Pressed-state buttons",
+          "content_requirements": [
+            "Two real day lists"
+          ]
+        },
+        {
+          "purpose": "Browse sessions",
+          "pattern": "Thick framed rows",
+          "content_requirements": [
+            "Time",
+            "Title",
+            "Format",
+            "Room"
+          ]
+        },
+        {
+          "purpose": "Find venue",
+          "pattern": "Practical notice",
+          "content_requirements": [
+            "Location",
+            "Access"
+          ]
+        },
+        {
+          "purpose": "Set conduct",
+          "pattern": "Closing statement",
+          "content_requirements": [
+            "Community guidance"
+          ]
+        }
+      ],
+      "mobile_reflow": "Session time and content stack into bordered blocks without sideways scrolling.",
+      "distinguishing_features": [
+        "Day filtering",
+        "Four-column exposed programme grid"
+      ]
+    }
+  ]
+}

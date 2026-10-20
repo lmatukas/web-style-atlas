@@ -56,6 +56,46 @@
       "width": 390
     },
     {
+      "height": 2517,
+      "output_sha256": "94bd4242dad51521b6b266a47d21deb767c15521502a75cef51bed578135462b",
+      "path": "styles/neo-brutalist/preview.png",
+      "source_sha256": "328a264c11f639f43f2660dd98c7239f5cab933719022d0a9fde4c3433e3c7ce",
+      "style_id": "neo-brutalist",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2982,
+      "output_sha256": "e84bf422d009dd7f3b561b0e68844e74919cd40d2245e7a0adacfdc854e2f8c7",
+      "path": "styles/neo-brutalist/preview-mobile.png",
+      "source_sha256": "328a264c11f639f43f2660dd98c7239f5cab933719022d0a9fde4c3433e3c7ce",
+      "style_id": "neo-brutalist",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2193,
+      "output_sha256": "e2a09e7dea9628ca06fbcf7942ba6aac787e8f570262f6ee092da497195ebc0d",
+      "path": "styles/neo-brutalist/preview-alt.png",
+      "source_sha256": "328a264c11f639f43f2660dd98c7239f5cab933719022d0a9fde4c3433e3c7ce",
+      "style_id": "neo-brutalist",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2271,
+      "output_sha256": "bcd2d93c34d214fe84c6c1db59b6ca5d15e77cdee2d98de46d0b2084ff703633",
+      "path": "styles/neo-brutalist/preview-alt-mobile.png",
+      "source_sha256": "328a264c11f639f43f2660dd98c7239f5cab933719022d0a9fde4c3433e3c7ce",
+      "style_id": "neo-brutalist",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2615,
       "output_sha256": "d5b65d784a3d2ffd6d52470ff540a3a7ece50005f399265d15d094fc314a9eea",
       "path": "styles/swiss-grid/preview.png",
