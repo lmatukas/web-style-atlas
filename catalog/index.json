@@ -1,4 +1,54 @@
 {
   "schema_version": 1,
-  "styles": []
+  "styles": [
+    {
+      "avoid_for": [],
+      "best_for": [
+        "services",
+        "portfolio"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "typographic",
+      "id": "swiss-grid",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Swiss Grid",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm paper, near-black text, one red signal and hairline dividers.",
+        "composition": "Twelve-column alignment, oversized flush-left type and numbered horizontal divisions.",
+        "content_rhythm": "Long ruled service rows in A; staggered project fields and a colophon in B.",
+        "imagery": "Original CSS typographic studies instead of dependent photography.",
+        "interaction": "Underlined text links, offset focus rings and native details disclosures.",
+        "motion": "Only brief link-color changes; reduced motion removes transitions.",
+        "navigation": "A visible compact numbered index; no hidden mobile drawer.",
+        "typography": "One sans-serif family with abrupt scale changes and tight display tracking."
+      },
+      "status": "ready",
+      "style_path": "styles/swiss-grid/style.md",
+      "summary": "Numbered typographic grids, oversized alignment and precise service or portfolio indexes.",
+      "tags": [
+        "grid",
+        "precise",
+        "asymmetric"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/swiss-grid/preview-mobile.png",
+          "preview_path": "styles/swiss-grid/preview.png",
+          "reference_path": "styles/swiss-grid/reference/index.html",
+          "title": "Typographic service index"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/swiss-grid/preview-alt-mobile.png",
+          "preview_path": "styles/swiss-grid/preview-alt.png",
+          "reference_path": "styles/swiss-grid/reference/alternate.html",
+          "title": "Asymmetric work catalogue"
+        }
+      ]
+    }
+  ]
 }

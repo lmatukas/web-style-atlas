@@ -1,0 +1,60 @@
+{
+  "environment": {
+    "browser": "chromium-headless-shell",
+    "browser_version": "151.0.7922.34",
+    "color_scheme": "light",
+    "device_scale_factor": 1,
+    "fixed_time": "2026-01-01T00:00:00.000Z",
+    "locale": "en-US",
+    "node": "v24.19.0",
+    "platform": "ubuntu-24.04-x64",
+    "playwright": "1.62.1",
+    "random_seed": 1,
+    "reduced_motion": "reduce",
+    "renderer_version": 1,
+    "timezone": "UTC"
+  },
+  "previews": [
+    {
+      "height": 2615,
+      "output_sha256": "d5b65d784a3d2ffd6d52470ff540a3a7ece50005f399265d15d094fc314a9eea",
+      "path": "styles/swiss-grid/preview.png",
+      "source_sha256": "f6f54d0cbc2d3481b1b061e90d683f94245d75ed8ae68696c2cd915fcaf0d7b9",
+      "style_id": "swiss-grid",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3130,
+      "output_sha256": "d55624d8029da5e47e073ff0f5bcf6d4e605f9f563e7c494a11bd8c000fd5598",
+      "path": "styles/swiss-grid/preview-mobile.png",
+      "source_sha256": "f6f54d0cbc2d3481b1b061e90d683f94245d75ed8ae68696c2cd915fcaf0d7b9",
+      "style_id": "swiss-grid",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2388,
+      "output_sha256": "8078910dc7f831739e89564f15018fa8d0b4de73972ef0d183513e623905e1d9",
+      "path": "styles/swiss-grid/preview-alt.png",
+      "source_sha256": "f6f54d0cbc2d3481b1b061e90d683f94245d75ed8ae68696c2cd915fcaf0d7b9",
+      "style_id": "swiss-grid",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2219,
+      "output_sha256": "c14c2fd711c23892d8323811f91861cc1f41154ce35141a08442ae1360e6cb64",
+      "path": "styles/swiss-grid/preview-alt-mobile.png",
+      "source_sha256": "f6f54d0cbc2d3481b1b061e90d683f94245d75ed8ae68696c2cd915fcaf0d7b9",
+      "style_id": "swiss-grid",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    }
+  ],
+  "schema_version": 1
+}
