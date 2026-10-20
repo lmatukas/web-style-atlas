@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 4/38.**
+**Baigta: 5/38.**
 
-**Pirmiausia patikrinti S02: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Pirmiausia patikrinti S03: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -14,8 +14,8 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P02](tasks/P02.md) | Validavimas ir deterministinis generavimas | Baigta | Codex/839dbcebb83d/P02 | task/p02-validation-build | [PR](https://github.com/lmatukas/web-style-atlas/pull/2) | 2026-10-20T17:36:12Z | P02 accepted; P03 can proceed. |
 | [P03](tasks/P03.md) | Renderinimas ir preview generavimas | Baigta | Codex/839dbcebb83d/P03 | task/p03-preview-renderer | [PR](https://github.com/lmatukas/web-style-atlas/pull/3) | 2026-10-20T18:58:45Z | Select the next eligible task within the authorized sequential batch. |
 | [S01](tasks/S01.md) | Swiss Grid | Baigta | Codex/839dbcebb83d/sequential-ten | task/s01-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/4) | 2026-10-20T19:04:49Z | Select the next eligible task within the authorized sequential batch. |
-| [S02](tasks/S02.md) | Editorial Journal | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/s02-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/5) | 2026-10-20T19:10:42Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
-| [S03](tasks/S03.md) | Neo Brutalist | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [S02](tasks/S02.md) | Editorial Journal | Baigta | Codex/839dbcebb83d/sequential-ten | task/s02-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/5) | 2026-10-20T19:11:18Z | Select the next eligible task within the authorized sequential batch. |
+| [S03](tasks/S03.md) | Neo Brutalist | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/s03-atlas | — | 2026-10-20T19:11:18Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
 | [P04](tasks/P04.md) | Trijų stilių pilotas ir kontrakto užfiksavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P05](tasks/P05.md) | Atranka ir universali agento instrukcija | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P06](tasks/P06.md) | Galerijos pirmas veikiantis variantas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
