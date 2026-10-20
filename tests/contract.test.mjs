@@ -1,4 +1,5 @@
 import test from 'node:test';
+import { ENVIRONMENT } from '../scripts/preview.config.mjs';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import Ajv from 'ajv/dist/2020.js';
@@ -106,7 +107,7 @@ test('public index excludes drafts and carries compact A/B paths', () => {
 });
 
 test('preview manifest requires source and output hash plus a render environment', () => {
-  const manifest = { schema_version: 1, environment: { node: '24', browser: 'test-fixture', browser_version: 'fixture', platform: 'linux', device_scale_factor: 1, locale: 'en-US', timezone: 'UTC' }, previews: [{ style_id: 'example-style', variant: 'a', viewport: 'desktop', path: 'styles/example-style/preview.png', width: 1440, height: 1000, output_sha256: 'a'.repeat(64), source_sha256: 'b'.repeat(64) }] };
+  const manifest = { schema_version: 1, environment: { ...ENVIRONMENT }, previews: [{ style_id: 'example-style', variant: 'a', viewport: 'desktop', path: 'styles/example-style/preview.png', width: 1440, height: 1000, output_sha256: 'a'.repeat(64), source_sha256: 'b'.repeat(64) }] };
   pass('previews-manifest', manifest);
   delete manifest.previews[0].source_sha256; fail('previews-manifest', manifest);
 });

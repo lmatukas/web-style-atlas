@@ -3,8 +3,8 @@
 These JSON Schemas use draft 2020-12. Schema IDs are local filenames; register
 all files in this directory with a validator before resolving references. No
 network access is needed to compile them. They describe authored data and the
-future generated formats; their presence does not implement the P02 build or
-the P03 renderer.
+generated formats. The P02 build and P03 renderer implement their semantic
+checks; schema validation alone does not prove rendering succeeded.
 
 | Schema | Document | Scope |
 |---|---|---|
@@ -57,3 +57,14 @@ The progress schema preserves the bootstrap's worker, timestamps, pr_url,
 merge_commit and handoff. scripts/tasks.mjs remains responsible for dependency
 order, one active task and generated board consistency. Remote claim ownership
 and GitHub merge evidence still require the WORKFLOW protocol.
+
+P03 pins the preview environment in `scripts/preview.config.mjs`: Ubuntu 24.04
+x64, Node v24.19.0, Playwright 1.62.1 / Chromium Headless Shell 151.0.7922.34,
+DPR 1, en-US, UTC, light scheme and reduced motion. Environment fields also
+record the fixed clock, random seed and renderer version. Full-page PNG width
+matches the 1440 or 390 CSS-pixel viewport; height may exceed 1000 or 844.
+The source hash conservatively covers the style directory (excluding its four
+PNG outputs), shared core/assets roots, renderer, server, settings, path helper
+and package/lock files. Reference resources outside these roots are rejected.
+`npm run check` verifies current source and output hashes without a browser or
+writes; draft previews are optional unless a style is selected explicitly.

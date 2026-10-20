@@ -1,5 +1,6 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, posix } from 'node:path';
+import { checkPreviews } from './previews.mjs';
 import { loadAtlas } from './validate.mjs';
 import { ROOT, fail, entries, localFile, argumentsFor, isMain, existsSync } from './lib/files.mjs';
 
@@ -86,11 +87,7 @@ export function build({ root = ROOT, style, check = false } = {}) {
     for (const { path, contents, absolute } of outputs) {
       if (!existsSync(absolute) || readFileSync(absolute, 'utf8') !== contents) fail(path, '/', 'generated drift; run npm run build');
     }
-    // P03 owns hashes, render environment and preview freshness. Refuse to
-    // approve a ready publication before that gate has been implemented.
-    if (atlas.styles.some(entry => entry.metadata.status === 'ready')) {
-      fail('catalog/previews-manifest.json', '/', 'ready publication requires the P03 preview freshness gate; P02 checks generated text only');
-    }
+    checkPreviews(atlas, { style });
   } else {
     for (const { contents, absolute } of outputs) {
       if (existsSync(absolute) && readFileSync(absolute, 'utf8') === contents) continue;
@@ -105,6 +102,6 @@ if (isMain(import.meta.url)) {
   try {
     const options = argumentsFor(process.argv.slice(2), { check: true });
     const result = build(options);
-    console.log(`PASS: ${options.check ? 'generated text matches' : 'generated text built'}; ${result.styles} style(s), ${result.outputs} output(s), ${result.ready} ready. Preview rendering/freshness belongs to P03.`);
+    console.log(`PASS: ${options.check ? 'generated text matches' : 'generated text built'}; ${result.styles} style(s), ${result.outputs} output(s), ${result.ready} ready. Preview freshness checked for publication in check mode.`);
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

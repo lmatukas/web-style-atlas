@@ -219,8 +219,8 @@ test('validate CLI reports failures with nonzero exit status', () => {
   assert.match(result.stderr, /styles\/nonexistent-style \/id: unknown style ID/);
 });
 
-test('ready publication check refuses to invent a passing P03 preview gate', t => {
+test('ready publication check requires an actual preview manifest', t => {
   const { root } = fixture(t);
   build({ root });
-  assert.throws(() => build({ root, check: true }), /P03 preview freshness gate/);
+  assert.throws(() => build({ root, check: true }), /previews-manifest.json.*file does not exist/);
 });

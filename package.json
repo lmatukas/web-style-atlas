@@ -13,15 +13,19 @@
     "tasks:validate": "node scripts/tasks.mjs validate",
     "tasks:render": "node scripts/tasks.mjs render",
     "tasks:check": "node scripts/tasks.mjs check",
-    "test": "node --test",
+    "test": "npm run test:unit",
     "check:contract": "node --test tests/contract.test.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "check": "node scripts/build.mjs --check",
-    "test:unit": "node --test"
+    "test:unit": "node --test tests/*.test.mjs",
+    "previews": "node scripts/previews.mjs",
+    "test:previews": "node --test tests/browser/*.test.mjs",
+    "test:browser": "node scripts/previews.mjs --test"
   },
   "devDependencies": {
     "ajv": "8.20.0",
+    "playwright": "1.62.1",
     "yaml": "2.9.1"
   }
 }
