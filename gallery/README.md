@@ -17,3 +17,10 @@ Keep dist/ untracked and reproducible. Build updates changed files and removes
 obsolete generated files; check is read-only and rejects drift. Do not put
 hand-authored material in dist/. The source template renders real links and all
 ready cards without JavaScript; search, facets and preview switching enhance it.
+
+Comparison allows up to three real ready directions. It persists separately from
+filters, so narrowing search does not lose a chosen comparison. `compare`, `style`,
+`variant` and `viewport` are restored from the URL; unknown IDs are ignored.
+Use one direction as the primary handoff and copy its actual ID/A/B composition.
+`config.json` supplies the repository URL. An unset/unsafe URL produces an explicit
+ATLAS_REPOSITORY_URL placeholder. Clipboard denial exposes selectable text.
