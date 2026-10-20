@@ -27,6 +27,7 @@ test('provenance covers style sources, assets, shared resources, toolchain and e
     assert.notEqual(sourceHash(root, style), original, file); writeFileSync(absolute, before);
   }
   writeFileSync(path('preview.png'), 'output is excluded');
+  writeFileSync(join(root, 'core/notes.md'), 'Documentation is not a render resource');
   assert.equal(sourceHash(root, style), original);
   assert.notEqual(sourceHash(root, style, { ...ENVIRONMENT, locale: 'lt-LT' }), original);
 });
@@ -55,6 +56,8 @@ test('server restricts methods, shared roots, traversal, missing files and symli
   assert.equal((await get('/styles/example-style/reference/index.html')).status, 200);
   assert.equal((await get('/styles/example-style/reference/style.css')).headers.get('content-type'), 'text/css; charset=utf-8');
   assert.equal((await get('/package.json')).status, 403);
+  writeFileSync(join(root,'core/notes.md'),'not a render input');
+  assert.equal((await get('/core/notes.md')).status,403);
   assert.equal((await get('/styles/other-style/reference/index.html')).status, 403);
   assert.equal((await get('/styles/example-style/assets/missing.png')).status, 404);
   assert.equal((await get('/styles/example-style/assets/linked.json')).status, 404);

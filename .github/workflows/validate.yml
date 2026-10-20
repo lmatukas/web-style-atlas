@@ -1,0 +1,117 @@
+name: Atlas validation
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: atlas-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  scope:
+    name: Scope and queue
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    outputs:
+      validation: ${{ steps.scope.outputs.validation }}
+      browser: ${{ steps.scope.outputs.browser }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+      - name: Validate shared registry without installing packages
+        run: node scripts/tasks.mjs validate && node scripts/tasks.mjs check
+      - id: scope
+        name: Select changed styles and shared dependents
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          FULL_CHECK: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          if [ "$FULL_CHECK" = "true" ]; then
+            node scripts/ci-scope.mjs --full
+          else
+            node scripts/ci-scope.mjs --base "$BASE_SHA"
+          fi
+      - name: Summarize actual scope
+        run: |
+          node -e "const fs=require('fs');const s=require('./.ci-scope.json');fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'## Atlas scope\n'+s.reason+'\n\nStyles: '+(s.styles.join(', ')||'none')+'\nBuild/browser: '+s.validation+'/'+s.browser+'\n');"
+  validate:
+    name: Source and generated gates
+    outputs:
+      browser: ${{ steps.gates.outputs.browser }}
+    needs: scope
+    if: needs.scope.outputs.validation == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Restore the same scope
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          FULL_CHECK: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          if [ "$FULL_CHECK" = "true" ]; then
+            node scripts/ci-scope.mjs --full
+          else
+            node scripts/ci-scope.mjs --base "$BASE_SHA"
+          fi
+      - id: gates
+        name: Reject committed drift before building; validate selected dependents
+        run: node scripts/ci.mjs validate
+      - name: Assert CI did not rewrite committed sources
+        run: git diff --exit-code
+  browser:
+    name: Browser and accessibility gates
+    needs: [scope, validate]
+    if: needs.scope.outputs.browser == 'true' && needs.validate.outputs.browser == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Restore the same scope
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          FULL_CHECK: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          if [ "$FULL_CHECK" = "true" ]; then
+            node scripts/ci-scope.mjs --full
+          else
+            node scripts/ci-scope.mjs --base "$BASE_SHA"
+          fi
+      - name: Install only the locked Chromium headless shell
+        run: npx playwright install --with-deps --only-shell chromium
+      - name: Run selected real browser and axe gates
+        run: node scripts/ci.mjs browser
+      - name: Small failure diagnostics only
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-failure
+          path: test-results/ci-diagnostics/
+          retention-days: 1
+          if-no-files-found: ignore

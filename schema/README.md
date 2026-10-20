@@ -64,7 +64,11 @@ DPR 1, en-US, UTC, light scheme and reduced motion. Environment fields also
 record the fixed clock, random seed and renderer version. Full-page PNG width
 matches the 1440 or 390 CSS-pixel viewport; height may exceed 1000 or 844.
 The source hash conservatively covers the style directory (excluding its four
-PNG outputs), shared core/assets roots, renderer, server, settings, path helper
+PNG outputs), renderable shared core/assets files (excluding Markdown and consumer skill instructions), renderer, server, settings, path helper
 and package/lock files. Reference resources outside these roots are rejected.
 `npm run check` verifies current source and output hashes without a browser or
 writes; draft previews are optional unless a style is selected explicitly.
+
+Shared Markdown and core/skill instructions are forbidden as preview resources.
+They are excluded from render provenance so documentation-only updates can stay
+lightweight. Authored style descriptions remain style data, not maintenance docs.

@@ -10,7 +10,7 @@ export async function servePreviews(root, styleIds) {
     try {
       if (!['GET', 'HEAD'].includes(req.method)) { res.writeHead(405).end(); return; }
       const path = decodeURIComponent(new URL(req.url, 'http://localhost').pathname).slice(1);
-      if (!allowed(path)) { res.writeHead(403).end('Forbidden'); return; }
+      if (!allowed(path) || ((path.startsWith('core/') || path.startsWith('assets/')) && (path.endsWith('.md') || path.startsWith('core/skill/')))) { res.writeHead(403).end('Forbidden'); return; }
       const body = readFileSync(localFile(root, path));
       res.writeHead(200, { 'Content-Type': MIME[extname(path)] || 'application/octet-stream', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' });
       res.end(req.method === 'HEAD' ? undefined : body);

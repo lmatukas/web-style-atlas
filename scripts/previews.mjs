@@ -32,7 +32,7 @@ export function sourceHash(root, style, environment = ENVIRONMENT) {
   // allowed shared resource roots, plus renderer/config/server and locked tools.
   // Other styles cannot be requested; output PNGs never hash themselves.
   const outputs = new Set(['a', 'b'].flatMap(v => Object.keys(VIEWPORTS).map(p => previewPath(style, v, p))));
-  const paths = [ ...walk(root, style.base).filter(path => !outputs.has(path)), ...walk(root, 'core'), ...walk(root, 'assets'),
+  const paths = [ ...walk(root, style.base).filter(path => !outputs.has(path)), ...walk(root, 'core').filter(path => !path.endsWith('.md') && !path.startsWith('core/skill/')), ...walk(root, 'assets').filter(path => !path.endsWith('.md')),
     'scripts/previews.mjs', 'scripts/preview-server.mjs', 'scripts/preview.config.mjs', 'scripts/lib/files.mjs', 'package.json', 'package-lock.json' ].sort(compare);
   return sha(serialize({ environment, viewports: VIEWPORTS, files: paths.map(path => [path, sha(readFileSync(localFile(root, path)))]) }));
 }

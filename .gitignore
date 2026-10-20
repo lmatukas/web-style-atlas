@@ -5,3 +5,5 @@ test-results/
 coverage/
 *.log
 .DS_Store
+
+.ci-scope.json
