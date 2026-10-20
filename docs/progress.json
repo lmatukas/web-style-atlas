@@ -108,23 +108,71 @@
     {
       "id": "P03",
       "title": "Renderinimas ir preview generavimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P02"
       ],
       "worker": "Codex/839dbcebb83d/P03",
       "claimed_at": "2026-10-20T17:36:12Z",
-      "updated_at": "2026-10-20T17:36:12Z",
+      "updated_at": "2026-10-20T17:46:56Z",
       "branch": "task/p03-preview-renderer",
       "base_commit": "e5f4e5ede687e531dc7e0d8c4f20ba0383a15f64",
-      "evidence_commit": null,
+      "evidence_commit": "8f6128055fe8686583ca3c8ec08f79753c204748",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/3",
+      "checks": [
+        {
+          "name": "npm ci --ignore-scripts --no-audit --no-fund",
+          "status": "pass",
+          "details": "Locked eight-package Linux development installation; Playwright 1.62.1 pinned."
+        },
+        {
+          "name": "npm run test:unit",
+          "status": "pass",
+          "details": "49/49: existing contract/pipeline/queue regressions plus provenance, server, manifest and real missing-browser checks."
+        },
+        {
+          "name": "npm run test:previews",
+          "status": "pass",
+          "details": "3/3 real Chromium 151.0.7922.34 tests: four readable PNGs, deterministic repeated bytes, freshness/failure/scoped generation."
+        },
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "Source validation passes; zero product styles, template excluded."
+        },
+        {
+          "name": "npm run build",
+          "status": "pass",
+          "details": "Deterministic empty product indexes unchanged; no preview prerequisite."
+        },
+        {
+          "name": "npm run check",
+          "status": "pass",
+          "details": "Read-only generated check; ready fixture preview gate exercised by integration tests."
+        },
+        {
+          "name": "visual fixture inspection",
+          "status": "pass",
+          "details": "Actually viewed desktop 1440x1524 and mobile 390x1642 PNGs, including below-fold content and local asset."
+        },
+        {
+          "name": "node scripts/tasks.mjs check",
+          "status": "pass",
+          "details": "Generated board consistent with canonical registry."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Implementation and tracking whitespace checks."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P03.md"
+      ],
       "blocker": null,
-      "next_action": "Implement P03 preview renderer and freshness checks.",
-      "handoff": null
+      "next_action": "Owner reviews and merges PR #3; after acceptance mark P03 done and claim S01 Swiss Grid.",
+      "handoff": "Four canonical A/B desktop/mobile previews, real source/output freshness and read-only smoke are implemented. 49 unit + 3 real Chromium tests passed. Fixture desktop/mobile images actually inspected; missing browser correctly returns not_run. No product style, gallery or GitHub CI is claimed. S01 should author original references, build, render, inspect all four previews, set ready, then rebuild/regenerate/check."
     },
     {
       "id": "S01",
