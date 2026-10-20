@@ -598,17 +598,17 @@
     {
       "id": "S05",
       "title": "Organic Craft",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S04"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T20:03:48Z",
-      "updated_at": "2026-10-20T20:12:01Z",
+      "updated_at": "2026-10-20T20:12:12Z",
       "branch": "task/s05-atlas",
       "base_commit": "5cd9f09b2d992aeb6d6c5096fc504f6950ad9b19",
       "evidence_commit": "548ffcd52e90276e04fdbb6077be3dd41117771d",
-      "merge_commit": null,
+      "merge_commit": "c1da0b4e3d623d7edd8f4a4a8d5bb46197ab7009",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/13",
       "checks": [
         {
@@ -651,8 +651,8 @@
         "docs/evidence/S05.md"
       ],
       "blocker": null,
-      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
-      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
+      "next_action": "Select the next eligible task within the authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Owner-authorized sequential batch continues; no scheduled automation."
     },
     {
       "id": "S06",
