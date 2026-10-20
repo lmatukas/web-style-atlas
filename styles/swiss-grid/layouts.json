@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Typographic service index",
+      "page_type": "services",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible numbered anchors to services, method and contact.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient visitors",
+          "pattern": "Grid masthead",
+          "content_requirements": [
+            "Studio identity",
+            "Local index"
+          ]
+        },
+        {
+          "purpose": "State the offer",
+          "pattern": "Oversized asymmetric proposition",
+          "content_requirements": [
+            "Short promise",
+            "Studio description"
+          ]
+        },
+        {
+          "purpose": "Explain services",
+          "pattern": "Numbered ruled rows",
+          "content_requirements": [
+            "Four deliverables",
+            "Specific names"
+          ]
+        },
+        {
+          "purpose": "Explain the process",
+          "pattern": "Three-column sequence",
+          "content_requirements": [
+            "Three stages"
+          ]
+        },
+        {
+          "purpose": "Resolve questions",
+          "pattern": "Native disclosure",
+          "content_requirements": [
+            "Engagement answer"
+          ]
+        },
+        {
+          "purpose": "Contact",
+          "pattern": "Red contact band",
+          "content_requirements": [
+            "Demo guidance"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack the proposition and service descriptions; keep visible navigation.",
+      "distinguishing_features": [
+        "Twelve-column service index",
+        "Ruled numbered rows"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Asymmetric work catalogue",
+      "page_type": "portfolio",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Identity rail and direct project anchors.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Narrow identity rail",
+          "content_requirements": [
+            "Studio note",
+            "Work index"
+          ]
+        },
+        {
+          "purpose": "Show work",
+          "pattern": "Alternating typographic studies",
+          "content_requirements": [
+            "Three named projects",
+            "Captions"
+          ]
+        },
+        {
+          "purpose": "Explain practice",
+          "pattern": "Method annotation",
+          "content_requirements": [
+            "Scope",
+            "Approach"
+          ]
+        },
+        {
+          "purpose": "Close",
+          "pattern": "Colophon",
+          "content_requirements": [
+            "Demo disclosure"
+          ]
+        }
+      ],
+      "mobile_reflow": "Identity rail becomes top navigation; alternate fields stack in reading order.",
+      "distinguishing_features": [
+        "Identity rail",
+        "Staggered project fields"
+      ]
+    }
+  ]
+}
