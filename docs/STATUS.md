@@ -4,13 +4,13 @@
 
 **Baigta: 0/38.**
 
-**Kita užduotis: [P01](tasks/P01.md).**
+**Pirmiausia patikrinti P01: Vykdoma; vykdytojas Codex/839dbcebb83d.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
 | Užduotis | Pavadinimas | Būsena | Vykdytojas | Šaka | PR | Atnaujinta UTC | Blokatorius / kitas veiksmas |
 |---|---|---|---|---|---|---|---|
-| [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Vykdoma | Codex/839dbcebb83d | task/p01-contract | — | 2026-10-20T16:46:09Z | Implement P01 schemas, template and scaffold; publish one implementation PR. |
 | [P02](tasks/P02.md) | Validavimas ir deterministinis generavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P03](tasks/P03.md) | Renderinimas ir preview generavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S01](tasks/S01.md) | Swiss Grid | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
