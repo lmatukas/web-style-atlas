@@ -54,6 +54,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "events",
+        "campaign",
+        "culture"
+      ],
+      "complexity": "medium",
+      "density": "dense",
+      "family": "expressive",
+      "id": "neo-brutalist",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Neo Brutalist",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Lemon field, violet signal, near-black thick borders and hard shadows.",
+        "composition": "Oversized poster words and offset stamp; thick framed programme in B.",
+        "content_rhythm": "Manifesto bands and exposed rows replace generic feature cards.",
+        "imagery": "Original CSS symbols and hard-edged type, without required photography.",
+        "interaction": "Pressed-state day filtering, local links and native access disclosure.",
+        "motion": "Short link changes; no flashing or running marquee.",
+        "navigation": "Blunt utility links and accessible day-selector buttons.",
+        "typography": "Heavy sans-serif with abrupt display/body scale contrast."
+      },
+      "status": "ready",
+      "style_path": "styles/neo-brutalist/style.md",
+      "summary": "Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme.",
+      "tags": [
+        "poster",
+        "high-contrast",
+        "playful"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/neo-brutalist/preview-mobile.png",
+          "preview_path": "styles/neo-brutalist/preview.png",
+          "reference_path": "styles/neo-brutalist/reference/index.html",
+          "title": "Poster-led event offer"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/neo-brutalist/preview-alt-mobile.png",
+          "preview_path": "styles/neo-brutalist/preview-alt.png",
+          "reference_path": "styles/neo-brutalist/reference/alternate.html",
+          "title": "Framed two-day programme"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "services",
         "portfolio"
       ],
