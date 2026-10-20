@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "style.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "family": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "description": "Member of core/vocabularies.json families; checked by source validation."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "best_for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "avoid_for": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "density": {
+      "type": "string",
+      "enum": [
+        "sparse",
+        "balanced",
+        "dense"
+      ]
+    },
+    "image_dependency": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "motion_level": {
+      "type": "string",
+      "enum": [
+        "none",
+        "subtle",
+        "expressive"
+      ]
+    },
+    "complexity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "signature": {
+      "type": "object",
+      "properties": {
+        "composition": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "typography": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "navigation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "content_rhythm": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "imagery": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "color_and_material": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "interaction": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "motion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        }
+      },
+      "required": [
+        "composition",
+        "typography",
+        "navigation",
+        "content_rhythm",
+        "imagery",
+        "color_and_material",
+        "interaction",
+        "motion"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "ready"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "summary",
+    "family",
+    "tags",
+    "best_for",
+    "avoid_for",
+    "density",
+    "image_dependency",
+    "motion_level",
+    "complexity",
+    "signature",
+    "status"
+  ],
+  "additionalProperties": false
+}

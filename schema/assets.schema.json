@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assets.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "image",
+              "font",
+              "icon",
+              "texture",
+              "illustration",
+              "other"
+            ]
+          },
+          "origin": {
+            "type": "string",
+            "enum": [
+              "third_party",
+              "generated",
+              "original"
+            ]
+          },
+          "source_url": {
+            "type": "string",
+            "pattern": "^https://[^\\s]+$"
+          },
+          "generation_note": {
+            "type": "string",
+            "minLength": 1
+          },
+          "creator": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "license": {
+            "type": "string",
+            "minLength": 1
+          },
+          "license_file": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+          },
+          "attribution": {
+            "type": "string",
+            "minLength": 1
+          },
+          "redistribution_allowed": {
+            "const": true
+          },
+          "modifications": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "path",
+          "type",
+          "origin",
+          "creator",
+          "license",
+          "attribution",
+          "redistribution_allowed",
+          "modifications"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "origin": {
+                  "const": "third_party"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "source_url"
+              ],
+              "properties": {
+                "source_url": {
+                  "type": "string",
+                  "pattern": "^https://[^\\s]+$"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "origin": {
+                  "const": "generated"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "generation_note"
+              ],
+              "properties": {
+                "generation_note": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "font"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "license_file"
+              ],
+              "properties": {
+                "license_file": {
+                  "type": "string",
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "assets"
+  ],
+  "additionalProperties": false
+}

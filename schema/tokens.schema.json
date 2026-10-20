@@ -1,0 +1,485 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tokens.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "color": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "surface": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "text": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "muted": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "accent": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "on_accent": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "border": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        },
+        "focus": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$"
+        }
+      },
+      "required": [
+        "background",
+        "surface",
+        "text",
+        "muted",
+        "accent",
+        "on_accent",
+        "border",
+        "focus"
+      ],
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^#[0-9a-fA-F]{6}$"
+      }
+    },
+    "typography": {
+      "type": "object",
+      "properties": {
+        "display": {
+          "type": "object",
+          "properties": {
+            "family": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fallback_stack": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "source": {
+              "type": "string",
+              "enum": [
+                "system",
+                "local"
+              ]
+            },
+            "file": {
+              "type": "string",
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+            },
+            "asset_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            }
+          },
+          "required": [
+            "family",
+            "fallback_stack",
+            "source"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "source": {
+                    "const": "local"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "file",
+                  "asset_id"
+                ],
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+                  },
+                  "asset_id": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+                  }
+                }
+              },
+              "else": {
+                "not": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "file"
+                      ],
+                      "properties": {
+                        "file": {
+                          "type": "string",
+                          "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+                        }
+                      }
+                    },
+                    {
+                      "required": [
+                        "asset_id"
+                      ],
+                      "properties": {
+                        "asset_id": {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "body": {
+          "type": "object",
+          "properties": {
+            "family": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fallback_stack": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "source": {
+              "type": "string",
+              "enum": [
+                "system",
+                "local"
+              ]
+            },
+            "file": {
+              "type": "string",
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+            },
+            "asset_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            }
+          },
+          "required": [
+            "family",
+            "fallback_stack",
+            "source"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "source": {
+                    "const": "local"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "file",
+                  "asset_id"
+                ],
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+                  },
+                  "asset_id": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+                  }
+                }
+              },
+              "else": {
+                "not": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "file"
+                      ],
+                      "properties": {
+                        "file": {
+                          "type": "string",
+                          "pattern": "^(?!/)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*[\\\\?#:])[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*$"
+                        }
+                      }
+                    },
+                    {
+                      "required": [
+                        "asset_id"
+                      ],
+                      "properties": {
+                        "asset_id": {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^(?:0|\\d+(?:\\.\\d+)?(?:px|rem|em|ch|vw|vh|%))$"
+          }
+        },
+        "weight": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 100,
+            "maximum": 900,
+            "multipleOf": 100
+          }
+        },
+        "line_height": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 3
+          }
+        },
+        "letter_spacing": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^-?\\d+(?:\\.\\d+)?(?:em|px)$"
+          }
+        },
+        "language_test": {
+          "const": "\u0104\u010c\u0118\u0116\u012e\u0160\u0172\u016a\u017d \u0105\u010d\u0119\u0117\u012f\u0161\u0173\u016b\u017e"
+        }
+      },
+      "required": [
+        "display",
+        "body",
+        "size",
+        "weight",
+        "line_height",
+        "letter_spacing",
+        "language_test"
+      ],
+      "additionalProperties": false
+    },
+    "spacing": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 12,
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^(?:0|\\d+(?:\\.\\d+)?(?:px|rem|em|ch|vw|vh|%))$"
+      }
+    },
+    "radius": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 12,
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^(?:0|\\d+(?:\\.\\d+)?(?:px|rem|em|ch|vw|vh|%))$"
+      }
+    },
+    "shadow": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 12,
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "motion": {
+      "type": "object",
+      "properties": {
+        "duration": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2000
+          }
+        },
+        "easing": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reduced_motion": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "duration",
+        "easing",
+        "reduced_motion"
+      ],
+      "additionalProperties": false
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "content_max_width": {
+          "type": "string",
+          "pattern": "^(?:0|\\d+(?:\\.\\d+)?(?:px|rem|em|ch|vw|vh|%))$"
+        },
+        "text_max_width": {
+          "type": "string",
+          "pattern": "^(?:0|\\d+(?:\\.\\d+)?(?:px|rem|em|ch|vw|vh|%))$"
+        },
+        "breakpoints": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4000
+          }
+        }
+      },
+      "required": [
+        "content_max_width",
+        "text_max_width",
+        "breakpoints"
+      ],
+      "additionalProperties": false
+    },
+    "contrast_pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "foreground": {
+            "type": "string",
+            "minLength": 1
+          },
+          "background": {
+            "type": "string",
+            "minLength": 1
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minimum_ratio": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 21
+          }
+        },
+        "required": [
+          "foreground",
+          "background",
+          "purpose",
+          "minimum_ratio"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "color",
+    "typography",
+    "spacing",
+    "radius",
+    "shadow",
+    "motion",
+    "layout",
+    "contrast_pairs"
+  ],
+  "additionalProperties": false
+}

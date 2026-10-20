@@ -224,6 +224,12 @@ Indekse laikyti frontmatter santrauką, preview ir reference santykinius kelius,
 
 Atrankos algoritmas pirmiausia atmeta netinkančias kryptis pagal būtinus apribojimus, paskui vertina paskirtį, nuotaiką, vaizdų poreikį ir įgyvendinimo sudėtingumą. Iš tinkamų atrenka skirtingas šeimas. Jei tinkamų mažiau nei 3, pateikia mažiau ir paaiškina kodėl. Jokios AI API ar vektorinės DB šiai versijai nereikia.
 
+P01 struktūrinės schemos yra `schema/*.schema.json` (JSON Schema draft 2020-12).
+Tikslūs laukų tipai, kelių bazės, matavimo vienetai ir P02/P03 semantinių patikrų
+riba aprašyti `schema/README.md`. Autoriaus šablonas – `templates/style/`;
+šeimų, žymių ir tinkamumo reikšmių registras – `core/vocabularies.json`.
+Šablonas nėra katalogo įrašas; jo buvimas nepatvirtina stilių įgyvendinimo.
+
 ## 8. Pavyzdžiai ir galerija
 
 Kiekvienas variantas turi būti užbaigtas mažas puslapis: navigacija, bent 4 prasmingos turinio sritys ir užbaigimas. Naudoti realistišką išgalvotą turinį, aiškiai demonstracinę paskirtį ir veikiančias vietines nuorodas. Neužpildyti visko lorem ipsum. Demo formos aiškiai nesiunčia duomenų.
