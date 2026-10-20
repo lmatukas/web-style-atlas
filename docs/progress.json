@@ -230,7 +230,7 @@
       "claimed_at": "2026-10-20T19:04:49Z",
       "updated_at": "2026-10-20T19:04:49Z",
       "branch": "task/s02-atlas",
-      "base_commit": "db92b2d869cca0a600d26e3b9f58e440ec1443c5",
+      "base_commit": "df5d08c1ed0a7144a52520a9dd013217b02e67d5",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
