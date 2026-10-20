@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 2/38.**
+**Baigta: 3/38.**
 
-**Pirmiausia patikrinti P03: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/P03.**
+**Pirmiausia patikrinti S01: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -12,8 +12,8 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 |---|---|---|---|---|---|---|---|
 | [P01](tasks/P01.md) | Esamos būsenos patikra ir sutartas kontraktas | Baigta | Codex/839dbcebb83d | task/p01-contract | [PR](https://github.com/lmatukas/web-style-atlas/pull/1) | 2026-10-20T17:16:44Z | P01 accepted; P02 can proceed. |
 | [P02](tasks/P02.md) | Validavimas ir deterministinis generavimas | Baigta | Codex/839dbcebb83d/P02 | task/p02-validation-build | [PR](https://github.com/lmatukas/web-style-atlas/pull/2) | 2026-10-20T17:36:12Z | P02 accepted; P03 can proceed. |
-| [P03](tasks/P03.md) | Renderinimas ir preview generavimas | Laukia peržiūros | Codex/839dbcebb83d/P03 | task/p03-preview-renderer | [PR](https://github.com/lmatukas/web-style-atlas/pull/3) | 2026-10-20T17:46:56Z | Owner reviews and merges PR #3; after acceptance mark P03 done and claim S01 Swiss Grid. |
-| [S01](tasks/S01.md) | Swiss Grid | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [P03](tasks/P03.md) | Renderinimas ir preview generavimas | Baigta | Codex/839dbcebb83d/P03 | task/p03-preview-renderer | [PR](https://github.com/lmatukas/web-style-atlas/pull/3) | 2026-10-20T18:58:45Z | Select the next eligible task within the authorized sequential batch. |
+| [S01](tasks/S01.md) | Swiss Grid | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/s01-atlas | — | 2026-10-20T18:58:46Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
 | [S02](tasks/S02.md) | Editorial Journal | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S03](tasks/S03.md) | Neo Brutalist | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P04](tasks/P04.md) | Trijų stilių pilotas ir kontrakto užfiksavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
