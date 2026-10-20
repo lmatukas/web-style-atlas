@@ -266,18 +266,18 @@
     {
       "id": "S03",
       "title": "Neo Brutalist",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P03",
         "S02"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:11:18Z",
-      "updated_at": "2026-10-20T19:15:24Z",
+      "updated_at": "2026-10-20T19:15:33Z",
       "branch": "task/s03-atlas",
       "base_commit": "1b52981fae4ac665da0cdea94099e0077dbe6933",
       "evidence_commit": "d1fe98e130401ad9a02b9cb9ae1f21b9d81171cb",
-      "merge_commit": null,
+      "merge_commit": "a4d372997ca32a13691c16ce438e40cf43a4775d",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/6",
       "checks": [
         {
@@ -305,30 +305,30 @@
         "docs/evidence/S03.md"
       ],
       "blocker": null,
-      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
-      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
+      "next_action": "Select the next eligible task within the authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Owner-authorized sequential batch continues; no scheduled automation."
     },
     {
       "id": "P04",
       "title": "Trijų stilių pilotas ir kontrakto užfiksavimas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S01",
         "S02",
         "S03"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "claimed_at": "2026-10-20T19:15:33Z",
+      "updated_at": "2026-10-20T19:15:33Z",
+      "branch": "task/p04-atlas",
+      "base_commit": "a4d372997ca32a13691c16ce438e40cf43a4775d",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
       "handoff": null
     },
     {
