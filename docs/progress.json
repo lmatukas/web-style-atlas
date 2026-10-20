@@ -543,24 +543,57 @@
     {
       "id": "S04",
       "title": "Cinematic Photo",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P04",
         "P08"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:51:32Z",
-      "updated_at": "2026-10-20T19:51:32Z",
+      "updated_at": "2026-10-20T20:03:37Z",
       "branch": "task/s04-atlas",
       "base_commit": "eeea33b665982a001723f361ed069028531cd34d",
-      "evidence_commit": null,
+      "evidence_commit": "402235124e3ffa8409eb941e5103ea5527763166",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/12",
+      "checks": [
+        {
+          "name": "style source/build/previews/check",
+          "status": "pass",
+          "details": "Real rights-documented local photos, four fresh canonical PNGs below 1 MiB."
+        },
+        {
+          "name": "responsive and P08 accessibility QA",
+          "status": "pass",
+          "details": "A/B at 360/768/1440: six real combinations, axe, overflow, controls, resources, focus and semantic tokens."
+        },
+        {
+          "name": "scoped gallery browser checks",
+          "status": "pass",
+          "details": "Three gallery cases with four ready directions and changed-reference scope."
+        },
+        {
+          "name": "visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews and source photos inspected; 12/12 rubric, provenance/credits retained."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39487997886 succeeded on 402235124e3ffa8409eb941e5103ea5527763166."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S04.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S05",
