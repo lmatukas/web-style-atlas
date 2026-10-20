@@ -4,6 +4,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "publishing",
+        "culture",
+        "personal"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "editorial",
+      "id": "editorial-journal",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Editorial Journal",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Ivory paper, deep ink, muted olive and restrained editorial rules.",
+        "composition": "Literary masthead and unequal cover columns; narrow essay measure with a note margin.",
+        "content_rhythm": "Cover, departments and editor letter versus continuous argument and pull quotation.",
+        "imagery": "A static original CSS still-life, paired with a descriptive caption.",
+        "interaction": "Underlined local story links and native reading-note disclosure.",
+        "motion": "Short color transitions only; reading remains still.",
+        "navigation": "Publication departments in A; issue return and article contents in B.",
+        "typography": "Georgia serif headlines and reading text with quiet sans-serif metadata."
+      },
+      "status": "ready",
+      "style_path": "styles/editorial-journal/style.md",
+      "summary": "A literary issue cover and long-form essay, with serif reading rhythm, margin notes and quiet paper surfaces.",
+      "tags": [
+        "reading-led",
+        "warm",
+        "annotated"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/editorial-journal/preview-mobile.png",
+          "preview_path": "styles/editorial-journal/preview.png",
+          "reference_path": "styles/editorial-journal/reference/index.html",
+          "title": "Cover story and departments"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/editorial-journal/preview-alt-mobile.png",
+          "preview_path": "styles/editorial-journal/preview-alt.png",
+          "reference_path": "styles/editorial-journal/reference/alternate.html",
+          "title": "Essay with margin notes"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "services",
         "portfolio"
       ],

@@ -16,6 +16,46 @@
   },
   "previews": [
     {
+      "height": 2066,
+      "output_sha256": "99e1dc40266f2f3193e49e396989b78adebe1fab186d1479b2604f420ba61cd0",
+      "path": "styles/editorial-journal/preview.png",
+      "source_sha256": "a1aaf67c8a8f8b536412a2efcc3891a0e5d4e711d56b733010af744293e1e811",
+      "style_id": "editorial-journal",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3103,
+      "output_sha256": "29de5e85ef102aaf5871af89675bd591de70d778fc62bf23792c0df2c64f0915",
+      "path": "styles/editorial-journal/preview-mobile.png",
+      "source_sha256": "a1aaf67c8a8f8b536412a2efcc3891a0e5d4e711d56b733010af744293e1e811",
+      "style_id": "editorial-journal",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2842,
+      "output_sha256": "80077a34db3c34eba3bbc741b6d64ee23cd6c10b475e2ff54b8c768484fa7366",
+      "path": "styles/editorial-journal/preview-alt.png",
+      "source_sha256": "a1aaf67c8a8f8b536412a2efcc3891a0e5d4e711d56b733010af744293e1e811",
+      "style_id": "editorial-journal",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3693,
+      "output_sha256": "9d1306e83233171672a1ed2e9d96b34c49ab1c060710c4d9e022aa59b338f32b",
+      "path": "styles/editorial-journal/preview-alt-mobile.png",
+      "source_sha256": "a1aaf67c8a8f8b536412a2efcc3891a0e5d4e711d56b733010af744293e1e811",
+      "style_id": "editorial-journal",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2615,
       "output_sha256": "d5b65d784a3d2ffd6d52470ff540a3a7ece50005f399265d15d094fc314a9eea",
       "path": "styles/swiss-grid/preview.png",
