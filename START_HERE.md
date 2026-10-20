@@ -1,8 +1,8 @@
 # Start here
 
 Web Style Atlas is being built as a visual catalogue of distinct web design
-directions for AI coding agents. The current repository contains the implementation
-plan and work queue; design styles are not implemented yet.
+directions for AI coding agents. Read `catalog/index.json` for the actual ready catalogue; the work queue tracks
+ongoing implementation. Do not infer completion from planned task cards.
 
 ## Continue building the atlas
 
@@ -32,7 +32,10 @@ and scaffolding are not completed product features.
 
 ## Use the atlas to build another website
 
-When `catalog/index.json` exists and contains ready styles, follow
-`core/selection-guide.md`, read that index, show appropriate visual choices and
-load only the selected style. Never invent unavailable styles or previews.
-Before the catalogue exists, explain that it is under construction.
+Read `core/agent-entry.md`, `core/selection-guide.md` and the actual ready index.
+This is a consumer route: build in the target project, without claiming atlas work.
+Honor a specific ready ID or “choose for me” directly; otherwise offer up to three
+real diverse previews with a fit and tradeoff, then load only the selected style.
+The portable consumer skill is `core/skill/SKILL.md`; reading a URL does not
+install it. Never invent unavailable styles, hosting URLs or visual inspections.
+If the index is absent/empty, explain that no ready direction is available.
