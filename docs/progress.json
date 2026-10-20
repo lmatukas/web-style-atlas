@@ -311,7 +311,7 @@
     {
       "id": "P04",
       "title": "Trijų stilių pilotas ir kontrakto užfiksavimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S01",
         "S02",
@@ -319,17 +319,40 @@
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:15:33Z",
-      "updated_at": "2026-10-20T19:15:33Z",
+      "updated_at": "2026-10-20T19:18:59Z",
       "branch": "task/p04-atlas",
       "base_commit": "a4d372997ca32a13691c16ce438e40cf43a4775d",
-      "evidence_commit": null,
+      "evidence_commit": "095c3723a878875ce3ec5fb7ee19a23bed7ec93e",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/7",
+      "checks": [
+        {
+          "name": "pilot visual and neutral-brief test",
+          "status": "pass",
+          "details": "12 actual product images plus six real same-brief captures inspected in comparison sheets; all styles 12/12."
+        },
+        {
+          "name": "build/previews/check",
+          "status": "pass",
+          "details": "All three dependents regenerated after shared core additions; 12 unchanged output hashes and fresh source hashes."
+        },
+        {
+          "name": "contract freeze",
+          "status": "pass",
+          "details": "Existing schema_version 1 accepted without schema changes."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P04.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P05",

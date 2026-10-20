@@ -4,7 +4,7 @@
 
 **Baigta: 6/38.**
 
-**Pirmiausia patikrinti P04: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Pirmiausia patikrinti P04: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -16,7 +16,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S01](tasks/S01.md) | Swiss Grid | Baigta | Codex/839dbcebb83d/sequential-ten | task/s01-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/4) | 2026-10-20T19:04:49Z | Select the next eligible task within the authorized sequential batch. |
 | [S02](tasks/S02.md) | Editorial Journal | Baigta | Codex/839dbcebb83d/sequential-ten | task/s02-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/5) | 2026-10-20T19:11:18Z | Select the next eligible task within the authorized sequential batch. |
 | [S03](tasks/S03.md) | Neo Brutalist | Baigta | Codex/839dbcebb83d/sequential-ten | task/s03-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/6) | 2026-10-20T19:15:33Z | Select the next eligible task within the authorized sequential batch. |
-| [P04](tasks/P04.md) | Trijų stilių pilotas ir kontrakto užfiksavimas | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/p04-atlas | — | 2026-10-20T19:15:33Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
+| [P04](tasks/P04.md) | Trijų stilių pilotas ir kontrakto užfiksavimas | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/p04-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/7) | 2026-10-20T19:18:59Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
 | [P05](tasks/P05.md) | Atranka ir universali agento instrukcija | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P06](tasks/P06.md) | Galerijos pirmas veikiantis variantas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P07](tasks/P07.md) | Palyginimas ir pasirinkimo perdavimas agentui | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
