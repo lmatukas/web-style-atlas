@@ -6,7 +6,7 @@ plan and work queue; design styles are not implemented yet.
 
 ## Continue building the atlas
 
-1. Read `docs/WORKFLOW.md` and fresh remote `docs/progress.json`.
+1. Read `docs/WORKFLOW.md`, `docs/COST_POLICY.md` and fresh remote `docs/progress.json`.
 2. Run `node scripts/tasks.mjs next` (no package install required).
 3. Reconcile any active task and real GitHub PR state before choosing new work.
 4. Claim the eligible task on the remote default branch before implementation.

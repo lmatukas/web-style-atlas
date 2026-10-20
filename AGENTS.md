@@ -24,3 +24,9 @@ This bootstrap is not a completed P01; P01 must inspect and extend existing work
 
 For a request to build a different website using this atlas, follow the consumer
 instructions in START_HERE instead of changing the atlas or claiming queue work.
+
+## Cost control
+
+Read `docs/COST_POLICY.md` before executing work. No paid runners, automatic AI
+review loops, unnecessary full-suite reruns or large artifacts. Preserve this
+policy in any future generated agent instructions. Required checks still apply.
