@@ -54,23 +54,56 @@
     {
       "id": "P02",
       "title": "Validavimas ir deterministinis generavimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P01"
       ],
       "worker": "Codex/839dbcebb83d/P02",
       "claimed_at": "2026-10-20T17:16:44Z",
-      "updated_at": "2026-10-20T17:16:44Z",
+      "updated_at": "2026-10-20T17:24:05Z",
       "branch": "task/p02-validation-build",
       "base_commit": "2603bd4a7885ca297b107b9f7dfa6fc22eb9edfd",
-      "evidence_commit": null,
+      "evidence_commit": "ac12452bd0e970bc243130e7536e59566c24c84d",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/2",
+      "checks": [
+        {
+          "name": "npm ci --ignore-scripts --no-audit --no-fund",
+          "status": "pass",
+          "details": "Existing locked six-package dev tree; no new dependencies."
+        },
+        {
+          "name": "npm run test:unit",
+          "status": "pass",
+          "details": "41/41; 21 pipeline and 20 existing contract/queue tests."
+        },
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "Source validation; template excluded; real catalogue has zero authored styles."
+        },
+        {
+          "name": "npm run build",
+          "status": "pass",
+          "details": "Deterministic token/index generation, no preview prerequisite; two empty product indexes."
+        },
+        {
+          "name": "npm run check",
+          "status": "pass",
+          "details": "Generated text matches; zero ready styles. P03 preview freshness remains explicitly gated for ready publication."
+        },
+        {
+          "name": "node scripts/tasks.mjs check and git diff --check",
+          "status": "pass",
+          "details": "Board consistent and no whitespace errors."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P02.md"
+      ],
       "blocker": null,
-      "next_action": "Implement P02 source validation and deterministic build; publish one PR.",
-      "handoff": null
+      "next_action": "Review and merge PR #2 when authorized; verify evidence, mark P02 done, then select P03.",
+      "handoff": "P02 implementation and 41 passing tests are at ac12452bd0e970bc243130e7536e59566c24c84d on task/p02-validation-build. Explicit handoff to the next coordinator for review/findings, authorized merge and done tracking. P03 must replace the ready-publication stop with its actual preview manifest/source freshness gate; see docs/evidence/P02.md. No P02 blocker."
     },
     {
       "id": "P03",
