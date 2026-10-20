@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Replace with the primary composition",
+      "page_type": "services",
+      "reference_path": "reference/index.html",
+      "navigation": "Describe desktop links and the mobile disclosure behavior.",
+      "ordered_sections": [
+        {
+          "purpose": "Explain the primary user task.",
+          "pattern": "Replace with a concrete composition pattern.",
+          "content_requirements": [
+            "A descriptive heading",
+            "A useful action label"
+          ]
+        }
+      ],
+      "mobile_reflow": "Describe reading order, column stacking and image behavior at 360px.",
+      "distinguishing_features": [
+        "Replace with the primary spatial relationship."
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Replace with a structurally different composition",
+      "page_type": "portfolio",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Describe an alternative navigation structure appropriate to the content.",
+      "ordered_sections": [
+        {
+          "purpose": "Help visitors browse a body of work.",
+          "pattern": "Replace with a different content rhythm from variant A.",
+          "content_requirements": [
+            "Meaningful item titles",
+            "Captions identifying each item"
+          ]
+        }
+      ],
+      "mobile_reflow": "Preserve the information hierarchy while replacing desktop spatial relationships.",
+      "distinguishing_features": [
+        "Replace with a meaningful difference from variant A beyond color."
+      ]
+    }
+  ]
+}
