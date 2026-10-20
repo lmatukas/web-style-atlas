@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Cover story and departments",
+      "page_type": "publishing",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible departments and essay links.",
+      "ordered_sections": [
+        {
+          "purpose": "Identify issue",
+          "pattern": "Literary masthead",
+          "content_requirements": [
+            "Issue number",
+            "Publication name"
+          ]
+        },
+        {
+          "purpose": "Invite reading",
+          "pattern": "Unequal cover composition",
+          "content_requirements": [
+            "Headline",
+            "Standfirst",
+            "Illustration caption"
+          ]
+        },
+        {
+          "purpose": "Browse departments",
+          "pattern": "Ruled editorial columns",
+          "content_requirements": [
+            "Three teasers"
+          ]
+        },
+        {
+          "purpose": "Hear the editor",
+          "pattern": "Letter block",
+          "content_requirements": [
+            "Editorial note"
+          ]
+        },
+        {
+          "purpose": "Understand publication",
+          "pattern": "Colophon",
+          "content_requirements": [
+            "Demo disclosure"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack cover text and still-life; story columns become vertical departments.",
+      "distinguishing_features": [
+        "Oversized literary masthead",
+        "Editorial teaser columns"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Essay with margin notes",
+      "page_type": "publishing",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Return to issue and local article sections.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame story",
+          "pattern": "Centred essay header",
+          "content_requirements": [
+            "Title",
+            "Byline",
+            "Standfirst"
+          ]
+        },
+        {
+          "purpose": "Explain argument",
+          "pattern": "Narrow reading column",
+          "content_requirements": [
+            "Three sections"
+          ]
+        },
+        {
+          "purpose": "Provide context",
+          "pattern": "Margin note rail",
+          "content_requirements": [
+            "Contents",
+            "Disclosure"
+          ]
+        },
+        {
+          "purpose": "Create pause",
+          "pattern": "Pull quotation",
+          "content_requirements": [
+            "Quoted original line"
+          ]
+        },
+        {
+          "purpose": "Close argument",
+          "pattern": "Coda",
+          "content_requirements": [
+            "Closing observation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Move the margin after the introduction and keep a comfortable reading measure.",
+      "distinguishing_features": [
+        "Narrow essay measure",
+        "Numbered margin notes"
+      ]
+    }
+  ]
+}
