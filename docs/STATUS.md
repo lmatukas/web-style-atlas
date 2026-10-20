@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 8/38.**
+**Baigta: 9/38.**
 
-**Pirmiausia patikrinti P06: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Pirmiausia patikrinti P07: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -18,8 +18,8 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S03](tasks/S03.md) | Neo Brutalist | Baigta | Codex/839dbcebb83d/sequential-ten | task/s03-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/6) | 2026-10-20T19:15:33Z | Select the next eligible task within the authorized sequential batch. |
 | [P04](tasks/P04.md) | Trijų stilių pilotas ir kontrakto užfiksavimas | Baigta | Codex/839dbcebb83d/sequential-ten | task/p04-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/7) | 2026-10-20T19:19:08Z | Select the next eligible task within the authorized sequential batch. |
 | [P05](tasks/P05.md) | Atranka ir universali agento instrukcija | Baigta | Codex/839dbcebb83d/sequential-ten | task/p05-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/8) | 2026-10-20T19:23:37Z | Select the next eligible task within the authorized sequential batch. |
-| [P06](tasks/P06.md) | Galerijos pirmas veikiantis variantas | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/p06-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/9) | 2026-10-20T19:30:58Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
-| [P07](tasks/P07.md) | Palyginimas ir pasirinkimo perdavimas agentui | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [P06](tasks/P06.md) | Galerijos pirmas veikiantis variantas | Baigta | Codex/839dbcebb83d/sequential-ten | task/p06-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/9) | 2026-10-20T19:31:08Z | Select the next eligible task within the authorized sequential batch. |
+| [P07](tasks/P07.md) | Palyginimas ir pasirinkimo perdavimas agentui | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/p07-atlas | — | 2026-10-20T19:31:08Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
 | [P08](tasks/P08.md) | CI ir kokybės vartai | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S04](tasks/S04.md) | Cinematic Photo | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S05](tasks/S05.md) | Organic Craft | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
