@@ -357,23 +357,46 @@
     {
       "id": "P05",
       "title": "Atranka ir universali agento instrukcija",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P04"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:19:08Z",
-      "updated_at": "2026-10-20T19:19:08Z",
+      "updated_at": "2026-10-20T19:23:27Z",
       "branch": "task/p05-atlas",
       "base_commit": "431310484426c50368a929c846b8a317d1286eb8",
-      "evidence_commit": null,
+      "evidence_commit": "9b4629a7f4ecb71cfdad611b67ff02a6253ab691",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/8",
+      "checks": [
+        {
+          "name": "node --test tests/selection.test.mjs",
+          "status": "pass",
+          "details": "9 tests: 8 grounded scenario fixtures and resolved consumer/maintenance links."
+        },
+        {
+          "name": "skill quick_validate.py",
+          "status": "pass",
+          "details": "Portable frontmatter/body valid; no personal installation."
+        },
+        {
+          "name": "build/previews/check",
+          "status": "pass",
+          "details": "Three dependent styles regenerated after core additions; fresh manifest."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P05.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P06",
