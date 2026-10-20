@@ -14,7 +14,11 @@
     "tasks:render": "node scripts/tasks.mjs render",
     "tasks:check": "node scripts/tasks.mjs check",
     "test": "node --test",
-    "check:contract": "node --test tests/contract.test.mjs"
+    "check:contract": "node --test tests/contract.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "test:unit": "node --test"
   },
   "devDependencies": {
     "ajv": "8.20.0",
