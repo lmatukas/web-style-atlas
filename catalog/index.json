@@ -2,6 +2,59 @@
   "schema_version": 1,
   "styles": [
     {
+      "avoid_for": [
+        "documentation",
+        "data"
+      ],
+      "best_for": [
+        "travel",
+        "portfolio",
+        "hospitality"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "photographic",
+      "id": "cinematic-photo",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Cinematic Photo",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep green-black, off-white, muted captions and a restrained warm signal.",
+        "composition": "Broad photographic cover and dark breathing space; centred vertical scene filmstrip in B.",
+        "content_rhythm": "Large real photographic scenes interrupted by short reflections.",
+        "imagery": "Rights-documented local forest mist and sunset lake photographs, deliberately cropped.",
+        "interaction": "Local scene navigation, visible focus and native credit disclosure.",
+        "motion": "Static frames with short link transitions; no required video or parallax.",
+        "navigation": "Visible journal links and numbered local chapter anchors.",
+        "typography": "Quiet serif narrative headings and small neutral caption hierarchy."
+      },
+      "status": "ready",
+      "style_path": "styles/cinematic-photo/style.md",
+      "summary": "Large photographic frames, dark breathing space and a slow scene sequence for visual storytelling.",
+      "tags": [
+        "image-led",
+        "cinematic",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/cinematic-photo/preview-mobile.png",
+          "preview_path": "styles/cinematic-photo/preview.png",
+          "reference_path": "styles/cinematic-photo/reference/index.html",
+          "title": "Photographic cover and selected scenes"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/cinematic-photo/preview-alt-mobile.png",
+          "preview_path": "styles/cinematic-photo/preview-alt.png",
+          "reference_path": "styles/cinematic-photo/reference/alternate.html",
+          "title": "Vertical photographic notebook"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "publishing",

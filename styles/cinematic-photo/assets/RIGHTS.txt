@@ -1,0 +1,17 @@
+Image sources and rights declarations
+
+Forest: Austin Schmid, Mist around a forest (2016). Source:
+https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg
+The file page identifies publication before 5 June 2017 under CC0 1.0.
+License deed: https://creativecommons.org/publicdomain/zero/1.0/
+
+Lake: NPS / M. Reed, Sprague Lake at Sunset (2018). Source:
+https://commons.wikimedia.org/wiki/File:Sprague_Lake_at_Sunset_(29560309357).jpg
+The file page declares a National Park Service employee work produced in official
+duties, public domain in the United States (PD-USGov), and a reviewed Public Domain Mark.
+
+Local modifications: resized to at most 1440px wide, metadata stripped, encoded
+as WebP quality 80. Display crops and a token-derived dark hero overlay are CSS.
+Photographs retain the source rights declarations; repository MIT applies to
+original code, not an invented relicense of third-party media. Source declarations
+were checked; this record does not independently prove authorship.
