@@ -1,5 +1,6 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, posix } from 'node:path';
+import { buildGallery } from './gallery.mjs';
 import { checkPreviews } from './previews.mjs';
 import { loadAtlas } from './validate.mjs';
 import { ROOT, fail, entries, localFile, argumentsFor, isMain, existsSync } from './lib/files.mjs';
@@ -95,6 +96,7 @@ export function build({ root = ROOT, style, check = false } = {}) {
       writeFileSync(absolute, contents);
     }
   }
+  buildGallery(atlas, JSON.parse(files.get('catalog/index.json')), { check });
   return { styles: atlas.styles.length, outputs: selected.length, ready: atlas.styles.filter(entry => entry.metadata.status === 'ready').length };
 }
 

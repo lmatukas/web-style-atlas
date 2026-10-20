@@ -19,7 +19,7 @@ test('canonical Chromium creates four readable full-page PNGs; rerun is a no-op;
     assert.equal(size.width, record.viewport === 'desktop' ? 1440 : 390); assert.ok(size.height > 1100);
     assert.ok(png.length < 1024 * 1024);
   }
-  build({ root, check: true });
+  build({ root }); build({ root, check: true });
   const smokeManifest = readFileSync(manifestPath);
   assert.equal((await smokePreviews({ root, style: 'example-style' })).status, 'pass');
   assert.deepEqual(readFileSync(manifestPath), smokeManifest);
@@ -35,7 +35,7 @@ test('canonical Chromium creates four readable full-page PNGs; rerun is a no-op;
   assert.throws(() => build({ root, check: true }), /stale preview sources/);
   assert.deepEqual(readFileSync(manifestPath), before[0]);
   await renderPreviews({ root });
-  assert.notDeepEqual(readFileSync(path('preview.png')), before[1]); build({ root, check: true });
+  assert.notDeepEqual(readFileSync(path('preview.png')), before[1]); build({ root }); build({ root, check: true });
   const svg = readFileSync(path('assets/shape.svg'), 'utf8'); writeFileSync(path('assets/shape.svg'), svg.replace('#315349', '#993344'));
   assert.throws(() => checkPreviews(loadAtlas({ root })), /stale preview sources/);
   writeFileSync(path('assets/shape.svg'), svg);

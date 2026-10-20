@@ -20,8 +20,10 @@
     "check": "node scripts/build.mjs --check",
     "test:unit": "node --test tests/*.test.mjs",
     "previews": "node scripts/previews.mjs",
-    "test:previews": "node --test tests/browser/*.test.mjs",
-    "test:browser": "node scripts/previews.mjs --test"
+    "test:previews": "node --test tests/browser/previews.test.mjs",
+    "test:browser": "node scripts/previews.mjs --test",
+    "dev": "node scripts/dev.mjs",
+    "test:gallery": "node --test tests/browser/gallery.test.mjs"
   },
   "devDependencies": {
     "ajv": "8.20.0",

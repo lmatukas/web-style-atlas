@@ -6,7 +6,7 @@ import { build } from '../../scripts/build.mjs';
 export const project = fileURLToPath(new URL('../../', import.meta.url));
 export function fixture() {
   const root = mkdtempSync(join(tmpdir(), 'atlas-p03-'));
-  for (const path of ['schema', 'core', 'scripts', 'package.json', 'package-lock.json', 'docs/progress.json', 'docs/STATUS.md']) {
+  for (const path of ['gallery', 'schema', 'core', 'scripts', 'package.json', 'package-lock.json', 'docs/progress.json', 'docs/STATUS.md']) {
     mkdirSync(join(root, path.includes('.') ? path.slice(0, path.lastIndexOf('/')) || '.' : path), { recursive: true });
     cpSync(join(project, path), join(root, path), { recursive: true });
   }
