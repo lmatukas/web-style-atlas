@@ -819,23 +819,56 @@
     {
       "id": "S09",
       "title": "Field Notes",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S08"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:08:29Z",
-      "updated_at": "2026-10-21T03:08:29Z",
+      "updated_at": "2026-10-21T03:16:20Z",
       "branch": "task/s09-atlas",
       "base_commit": "c06b3a29d8298ab08498c8307e86394adbe2fea4",
-      "evidence_commit": null,
+      "evidence_commit": "b40f178b761358d827bafde1174e2f18cd9ebe79",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/17",
+      "checks": [
+        {
+          "name": "source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four current canonical PNGs below 1 MiB; deterministic tokens/index/gallery."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B combinations at 360/768/1440, axe/resources/controls/focus; supplemental glyph, reduced-motion and real token checks."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/selection/reference browser cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "2 / 2 / 2 / 2 / 2 / 2 = 12/12; four actual previews inspected and available neighbors compared. One existing rights-documented Austin Schmid CC0 forest photo reused locally with truthful illustrative captions and full credit. One original MIT SVG schematic, explicitly fictional and non-geographic. Supplemental keyboard checks toggle and reset every checklist input at all three widths. No location or real route claim."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39537481208 succeeded on b40f178b761358d827bafde1174e2f18cd9ebe79"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S09.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S10",
