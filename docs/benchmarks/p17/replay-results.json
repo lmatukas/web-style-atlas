@@ -1,0 +1,163 @@
+{
+  "environment": {
+    "node": "v24.19.0",
+    "browser": "151.0.7922.34",
+    "platform": "Ubuntu 24.04 x64",
+    "playwright": "1.62.1"
+  },
+  "independent_model_trial": false,
+  "results": [
+    {
+      "id": "library-light",
+      "style": "modular-light",
+      "variant": "b",
+      "revision": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
+      "method": "author-replay",
+      "prompt_sha256": "4cdcc713b9a55c28793e9216331f079d7589e9c7f83ebdf002510862e619b3f4",
+      "runtime_cases": 3,
+      "widths": [
+        360,
+        390,
+        768,
+        1440
+      ],
+      "business": "pass",
+      "resources": "local-only",
+      "result_sha256": "74a69110e87c2235b93b277394633e997874c012e954facc46657166be7a7b2c",
+      "files": [
+        {
+          "path": "atlas-assets.json",
+          "sha256": "5ac9b6e199eec84b85fe630eb9be16d5473f7cf84e4e8f4a8f36254fbf91ec28"
+        },
+        {
+          "path": "index.html",
+          "sha256": "7182f281428f0b4a6f4e97ff6e8dbcebec025f5cf5da587bf2eb7199efc3a13c"
+        },
+        {
+          "path": "lamp.mjs",
+          "sha256": "ff7cbe0a8add97a9aa70ba6f343dd9f31ba3a7d8155f77416e53e54d7682a8f1"
+        },
+        {
+          "path": "overview.html",
+          "sha256": "8dcf56de02e2a09913edf2bf8f1a4e53e14140128533e877ac7bebee61d00f8a"
+        },
+        {
+          "path": "scenario.json",
+          "sha256": "a73037bb79c84256738d1e46d81baae83ce8396cbac72d69974a009a7603d3f9"
+        },
+        {
+          "path": "style.css",
+          "sha256": "1da337170d46052420600a4a4feef4f24915a67c09f0df1b33554ecc07ffe199"
+        },
+        {
+          "path": "tokens.css",
+          "sha256": "f3aa1c1d371b2e4b83bf5412d67695f1bc4a9a1ac1251fce1aefdb8c073ac4d7"
+        }
+      ]
+    },
+    {
+      "id": "volunteer-rhythm",
+      "style": "rhythm-planner",
+      "variant": "b",
+      "revision": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
+      "method": "author-replay",
+      "prompt_sha256": "5441da84fa81167b3a0dd30299160c7538f8feb31ae08a2762fe23b74b86429c",
+      "runtime_cases": 3,
+      "widths": [
+        360,
+        390,
+        768,
+        1440
+      ],
+      "business": "pass",
+      "resources": "local-only",
+      "result_sha256": "85b99f48ede92aad6e6353e9c4cd5dc22f6b11c194ee2051ad55c2f9223b4c2c",
+      "files": [
+        {
+          "path": "app.mjs",
+          "sha256": "2aac6d58e9ead54f14be8268498f2825afb0410ef786954f7db69e42b5e882a5"
+        },
+        {
+          "path": "atlas-assets.json",
+          "sha256": "5ac9b6e199eec84b85fe630eb9be16d5473f7cf84e4e8f4a8f36254fbf91ec28"
+        },
+        {
+          "path": "index.html",
+          "sha256": "21bd25e15c2522bcc976a18dc12a92cdfd958d278c70cc06e0a8120239ae0bb7"
+        },
+        {
+          "path": "motion.mjs",
+          "sha256": "f531d0bee2a9c16bec2652771c1d80d48edec1ef4ea1299f473611c3f83ae976"
+        },
+        {
+          "path": "overview.html",
+          "sha256": "f505cc977c03ef4e2d0b83df3f2b4489de30da7843389afd016863578c7128c3"
+        },
+        {
+          "path": "scenario.json",
+          "sha256": "ae234e486f52d314490e6a4978f82f6b0a8b1ee07a6ce3e90c4f70ab3ea55dfc"
+        },
+        {
+          "path": "style.css",
+          "sha256": "77a133c088a5d8de6451abe3e24acfaad60cf795365ca4f3a58f740230796c49"
+        },
+        {
+          "path": "tokens.css",
+          "sha256": "f17c2a2edbf86f4ba569bc206cc996f6498bfac556d981de5f374ab0489af6a4"
+        }
+      ]
+    },
+    {
+      "id": "evening-sound",
+      "style": "membrane-score",
+      "variant": "a",
+      "revision": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
+      "method": "author-replay",
+      "prompt_sha256": "70b895e6e495e088e88c75897e421ca7b13ba8078df55accf07037eaa9cf6755",
+      "runtime_cases": 3,
+      "widths": [
+        360,
+        390,
+        768,
+        1440
+      ],
+      "business": "pass",
+      "resources": "local-only",
+      "result_sha256": "5c31f27fd012cc9445eaaca39f35b173fa1430c117cc4663edd7a78043b6a7cc",
+      "files": [
+        {
+          "path": "alternate.html",
+          "sha256": "4b8b312ff80b8f4400819d51bda9e6007fc3a4de5eca90456ca148b5ffc3e2cf"
+        },
+        {
+          "path": "app.mjs",
+          "sha256": "287632c41661f6de6f1e3a7fdc9a4e8d16e830498b0a7aa6ad2b4906c817660e"
+        },
+        {
+          "path": "atlas-assets.json",
+          "sha256": "5ac9b6e199eec84b85fe630eb9be16d5473f7cf84e4e8f4a8f36254fbf91ec28"
+        },
+        {
+          "path": "audio.mjs",
+          "sha256": "e6ec76fba153e0300b2c087931b7533ed283c0da73a99d7cb0deda834440cd7c"
+        },
+        {
+          "path": "index.html",
+          "sha256": "3ba7b7bbad670b26f25a853be6a78b56101e219aeb140e5444dcc0b47013d70d"
+        },
+        {
+          "path": "scenario.json",
+          "sha256": "d973c55f990d8cde4b75d745a622e11e24b1d11d16661ad1cbae08aeb7f3ee8e"
+        },
+        {
+          "path": "style.css",
+          "sha256": "1473d70b0c7099223131730691d4a4fe9b6ff903c6fb24f9e6ae76786e281b31"
+        },
+        {
+          "path": "tokens.css",
+          "sha256": "9311172ade182c5fc485072a6b8279d0bda1d4307362fd5ab69da567d40eb61e"
+        }
+      ]
+    }
+  ]
+}
