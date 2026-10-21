@@ -2174,23 +2174,41 @@
     {
       "id": "S26",
       "title": "Seasonal Terrain",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S25"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T13:23:55.064Z",
-      "updated_at": "2026-10-21T13:23:55.064Z",
+      "updated_at": "2026-10-21T13:42:40.966Z",
       "branch": "task/s26-expansion",
       "base_commit": "b80b9014db28c33e70330c8c59c8ef39d2ddd149",
-      "evidence_commit": null,
+      "evidence_commit": "2eccf1f2af1d887d9260279f30b25f522be41da3",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/57",
+      "checks": [
+        {
+          "name": "Source/build/scoped preview freshness",
+          "status": "pass",
+          "details": "26 ready styles; four final native WebGL previews below 1 MiB; existing 100 untouched."
+        },
+        {
+          "name": "Real runtime/business and browser gates",
+          "status": "pass",
+          "details": "10 A/B capability/business cases; 6 browser/axe viewport cases; 5-ingredient reflow at 360/390/768/1440, layer keyboard, season/month, size/frequency, actual draft copies, lifecycle and context-loss fallback."
+        },
+        {
+          "name": "Gallery/full prompt and visual review",
+          "status": "pass",
+          "details": "5 scoped integrations and exact actual full B prompt copy from dist; all four final PNGs viewed against two ready neighbors; rubric 11/12."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S26.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S26 within owner-authorized sequential batch of five.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
+      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
     },
     {
       "id": "S27",
