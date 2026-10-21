@@ -2785,23 +2785,38 @@
     {
       "id": "P17",
       "title": "39 krypčių ir pilnų promptų naudojimo auditas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S39"
       ],
       "worker": "Codex/8f365240145f/final-audit-release",
       "claimed_at": "2026-10-21T18:37:03.760Z",
-      "updated_at": "2026-10-21T18:37:03.760Z",
+      "updated_at": "2026-10-21T18:53:24.441Z",
       "branch": "task/p17-final",
       "base_commit": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
-      "evidence_commit": null,
+      "evidence_commit": "6bdab51373e612b3fcf08ca611a6213d45bf49bf",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/79",
+      "checks": [
+        {
+          "name": "Full catalogue source/browser audit",
+          "status": "pass",
+          "details": "81 source tests, 237 page cases, five gallery/full-copy tests, nine renderer/quality tests and 90 capability cases passed locally."
+        },
+        {
+          "name": "Visual review and actual full-prompt transfers",
+          "status": "pass",
+          "details": "60 new frames, 56 older-neighbour frames, 30 prescribed pairs, 15 explicit rubric rows; 30 exact A/B copies and business paths, three isolated author replays."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P17.md",
+        "docs/evidence/expansion-review.md",
+        "docs/benchmarks/p17/README.md"
+      ],
       "blocker": null,
-      "next_action": "Complete P17 under the owner-authorized final audit and release continuation.",
-      "handoff": null
+      "next_action": "Wait for exact-head GitHub checks, merge authorized P17, verify actual merge, then claim P18.",
+      "handoff": "All local full gates passed. PR #79 is the sole implementation. No independent-model or publication claim."
     },
     {
       "id": "P18",
