@@ -1876,23 +1876,51 @@
     {
       "id": "S24",
       "title": "Humanist Service",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S23"
       ],
       "worker": "Codex/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:44:36.967Z",
-      "updated_at": "2026-10-21T09:44:36.968Z",
+      "updated_at": "2026-10-21T09:49:55.606Z",
       "branch": "task/s24-atlas",
       "base_commit": "4402b46d40d0ad86f02620739e5e30d7268dc19a",
-      "evidence_commit": null,
+      "evidence_commit": "99217209bc65cbe0f28b36ca00d5ae73363715cd",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/36",
+      "checks": [
+        {
+          "name": "scoped source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four canonical PNGs below 1 MiB; source schema, deterministic generated data and complete freshness checks passed."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B cases at 360/768/1440 passed resources, axe, overflow, focus and actual controls; six supplemental glyph/reduced-motion/link/token checks passed."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/filter/comparison/selection cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews inspected with nearest ready neighbor; original licensed assets or code-native illustration; rubric recorded in task evidence."
+        },
+        {
+          "name": "git diff --check and generated drift",
+          "status": "pass",
+          "details": "Clean whitespace; source and generated wrapper checks passed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S24.md"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify the next task within final-queue authorization.",
-      "handoff": null
+      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
+      "handoff": "Add Humanist Service people and guided session path complete; actual local checks and visual evidence retained. Public gallery awaits release."
     },
     {
       "id": "P13",
