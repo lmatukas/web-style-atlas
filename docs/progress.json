@@ -765,23 +765,56 @@
     {
       "id": "S08",
       "title": "Bauhaus Geometric",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S07"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:02:11Z",
-      "updated_at": "2026-10-21T03:02:11Z",
+      "updated_at": "2026-10-21T03:08:17Z",
       "branch": "task/s08-atlas",
       "base_commit": "5157fe63588f517b234daa19bfc7c306a55070fb",
-      "evidence_commit": null,
+      "evidence_commit": "b903a0aec68e5a5e087625e2e386671ba56a9ba1",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/16",
+      "checks": [
+        {
+          "name": "source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four current canonical PNGs below 1 MiB; deterministic tokens/index/gallery."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B combinations at 360/768/1440, axe/resources/controls/focus; supplemental glyph, reduced-motion and real token checks."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/selection/reference browser cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "2 / 2 / 2 / 2 / 2 / 2 = 12/12; four actual previews inspected and available neighbors compared. Original CSS compositions; no separate media assets or third-party fonts. Empty registry intentional. Additional blue/on-blue, yellow/text and large yellow/blue emphasis contrast pairs are declared and validated. Event details are explicitly fictional; no inert ticket controls."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39536737538 succeeded on b903a0aec68e5a5e087625e2e386671ba56a9ba1"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S08.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S09",
