@@ -2086,17 +2086,17 @@
     {
       "id": "P16",
       "title": "Judesio, 3D, garso ir pakaitalų patikrų pagrindas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P15"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T12:34:55.651Z",
-      "updated_at": "2026-10-21T12:46:04.897Z",
+      "updated_at": "2026-10-21T12:52:50.960Z",
       "branch": "task/p16-expansion",
       "base_commit": "41d3170269926d3800b6cca46293a5c6aa079742",
       "evidence_commit": "fe47ad91fdff09ff1b347dbde3c37c34bd90d97a",
-      "merge_commit": null,
+      "merge_commit": "5936e7085dfa883b36d0a14a217a6fcf35b9fdc3",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/49",
       "checks": [
         {
@@ -2108,14 +2108,19 @@
           "name": "Unit and real capability/lifecycle checks",
           "status": "pass",
           "details": "81 unit tests and 3 canonical Chromium runtime tests; real depth-tested WebGL, actual opt-in audio, normal/reduced/disabled modes, lifecycle, repeatable PNG and fallback-only rejection."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39602172567 succeeded on fe47ad91fdff09ff1b347dbde3c37c34bd90d97a; all source, full browser/accessibility/renderer and real runtime fixture gates passed. Actual PR #49 merge verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/P16.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
-      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
+      "next_action": "Select next eligible task within the owner-authorized five-task batch.",
+      "handoff": "Actual PR merge and exact tested head verified. Required checks/evidence passed. Continue authorized batch; keep public release at P18."
     },
     {
       "id": "S25",
