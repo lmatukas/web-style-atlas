@@ -696,6 +696,46 @@
       "width": 390
     },
     {
+      "height": 2043,
+      "output_sha256": "8eb337e551a897b7a88b0eab264f128275b8e45150d45aa6c64d8e6b298bca0e",
+      "path": "styles/soft-spatial/preview.png",
+      "source_sha256": "8d3bb57ed4d92a2b7cd662f0e43318c940ecb72073214eab2a3bcc95d271cfbb",
+      "style_id": "soft-spatial",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2727,
+      "output_sha256": "def9e35335e961b58053986ce54b9499787a9fee1128943530bb0904bc619712",
+      "path": "styles/soft-spatial/preview-mobile.png",
+      "source_sha256": "8d3bb57ed4d92a2b7cd662f0e43318c940ecb72073214eab2a3bcc95d271cfbb",
+      "style_id": "soft-spatial",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2643,
+      "output_sha256": "586df079fa2609d88b5dc4112948fc4ffff4c4e58af50f65f1b5f1140bc955fc",
+      "path": "styles/soft-spatial/preview-alt.png",
+      "source_sha256": "8d3bb57ed4d92a2b7cd662f0e43318c940ecb72073214eab2a3bcc95d271cfbb",
+      "style_id": "soft-spatial",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3420,
+      "output_sha256": "98450ac688d06a0720b65b60467341ce616610390b2e667a2b9d5625349ea7c3",
+      "path": "styles/soft-spatial/preview-alt-mobile.png",
+      "source_sha256": "8d3bb57ed4d92a2b7cd662f0e43318c940ecb72073214eab2a3bcc95d271cfbb",
+      "style_id": "soft-spatial",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2615,
       "output_sha256": "d5b65d784a3d2ffd6d52470ff540a3a7ece50005f399265d15d094fc314a9eea",
       "path": "styles/swiss-grid/preview.png",

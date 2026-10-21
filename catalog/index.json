@@ -858,6 +858,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "products",
+        "portfolio",
+        "services"
+      ],
+      "complexity": "low",
+      "density": "sparse",
+      "family": "spatial",
+      "id": "soft-spatial",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Soft Spatial",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.",
+        "composition": "One softly lit sculptural object dominates A; three sequential spatial layers organize B.",
+        "content_rhythm": "Large object stage and fine form observations versus alternating layered service volumes and output records.",
+        "imagery": "Original static CSS clay forms with diffuse highlights, recessed openings and grounded contact shadows.",
+        "interaction": "Real page and section links, visible focus and working native disclosures.",
+        "motion": "Still spatial composition; no perpetual float, camera orbit or required WebGL.",
+        "navigation": "Visible object/layers links, anchored reading routes and native scope notes.",
+        "typography": "Rounded-feeling plain system sans display, open line spacing and small measured object labels."
+      },
+      "status": "ready",
+      "style_path": "styles/soft-spatial/style.md",
+      "summary": "Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview.",
+      "tags": [
+        "dimensional",
+        "calm",
+        "product-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/soft-spatial/preview-mobile.png",
+          "preview_path": "styles/soft-spatial/preview.png",
+          "reference_path": "styles/soft-spatial/reference/index.html",
+          "title": "Single ambient object"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/soft-spatial/preview-alt-mobile.png",
+          "preview_path": "styles/soft-spatial/preview-alt.png",
+          "reference_path": "styles/soft-spatial/reference/alternate.html",
+          "title": "Layered practice overview"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "services",
         "portfolio"
       ],
