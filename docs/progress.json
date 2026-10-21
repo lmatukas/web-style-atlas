@@ -1930,24 +1930,49 @@
     {
       "id": "P13",
       "title": "24 stilių įvairovės ir naudojimo auditas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S24",
         "P10"
       ],
       "worker": "Codex/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:52:08.576Z",
-      "updated_at": "2026-10-21T09:52:08.577Z",
+      "updated_at": "2026-10-21T09:59:14.014Z",
       "branch": "task/p13-atlas",
       "base_commit": "a144d01aaa464bc2e0f5bb10a8dba09f2802fddb",
-      "evidence_commit": null,
+      "evidence_commit": "eb43260646512f5bd3f10a4519fe4987f27eb7dd",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/37",
+      "checks": [
+        {
+          "name": "96-frame visual audit",
+          "status": "pass",
+          "details": "24 actual rubric rows, required close pairs and nearest comparison for every style; all 11–12/12, no zero."
+        },
+        {
+          "name": "Full browser and gallery integration",
+          "status": "pass",
+          "details": "24 styles / 147 viewport cases, then three full gallery/subpath/comparison/clipboard integration tests."
+        },
+        {
+          "name": "Affected consumer replay",
+          "status": "pass",
+          "details": "Two retained independent P10 outputs materialized anew, six viewport cases passed; current fit reviewed, no new model run."
+        },
+        {
+          "name": "Freshness/selection/whitespace",
+          "status": "pass",
+          "details": "24 ready source styles, 96 current previews, nine selection tests and clean whitespace."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P13.md",
+        "docs/evidence/catalog-review.md",
+        "docs/benchmarks/p13/replay.json"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify the next task within final-queue authorization.",
-      "handoff": null
+      "next_action": "Verify exact-head CI, merge and continue the remaining owner-authorized queue.",
+      "handoff": "Audit all 24 styles and affected consumer cases; actual scope and limitations retained in evidence."
     },
     {
       "id": "P14",
