@@ -16,6 +16,46 @@
   },
   "previews": [
     {
+      "height": 1879,
+      "output_sha256": "3ba17f6ee8835a40523cf9809aac3e6a32d6e59636b32e85f8817c70d3002b7f",
+      "path": "styles/bauhaus-geometric/preview.png",
+      "source_sha256": "21f2dda594689dc504f4926ff64e8163ba5a391fc551b7b5d7499786b8a37730",
+      "style_id": "bauhaus-geometric",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2344,
+      "output_sha256": "f3ec9b75faef86680866caa899079e9df9b94acc5c80d45cc83e5c88b9579b30",
+      "path": "styles/bauhaus-geometric/preview-mobile.png",
+      "source_sha256": "21f2dda594689dc504f4926ff64e8163ba5a391fc551b7b5d7499786b8a37730",
+      "style_id": "bauhaus-geometric",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1953,
+      "output_sha256": "4cebf61cf149712f8c393fb4833e38f29f0c751c5dcc7a0b6b8824f0e93d8543",
+      "path": "styles/bauhaus-geometric/preview-alt.png",
+      "source_sha256": "21f2dda594689dc504f4926ff64e8163ba5a391fc551b7b5d7499786b8a37730",
+      "style_id": "bauhaus-geometric",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2280,
+      "output_sha256": "6d202048ffa97ba6a1cb9e0aa3e899b39b2bede93a3317c7ff66fa9f70cf408c",
+      "path": "styles/bauhaus-geometric/preview-alt-mobile.png",
+      "source_sha256": "21f2dda594689dc504f4926ff64e8163ba5a391fc551b7b5d7499786b8a37730",
+      "style_id": "bauhaus-geometric",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1988,
       "output_sha256": "b4e6d400eab80241c1b7d14e06ca3de0263a29f905ef43bf0d4137e95f9fcdd4",
       "path": "styles/cinematic-photo/preview.png",

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Geometric event poster",
+      "page_type": "events",
+      "reference_path": "reference/index.html",
+      "navigation": "Programme and context anchors plus exhibition link.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce event",
+          "pattern": "Headline and geometric poster modules",
+          "content_requirements": [
+            "Assembly name",
+            "Date",
+            "Demo identity"
+          ]
+        },
+        {
+          "purpose": "Browse programme",
+          "pattern": "Timed open rows",
+          "content_requirements": [
+            "Three sessions"
+          ]
+        },
+        {
+          "purpose": "Explain context",
+          "pattern": "Blue statement plane",
+          "content_requirements": [
+            "Event premise"
+          ]
+        },
+        {
+          "purpose": "Clarify logistics",
+          "pattern": "Native practical notes",
+          "content_requirements": [
+            "Fictional venue boundary"
+          ]
+        },
+        {
+          "purpose": "Continue",
+          "pattern": "Exhibition link and colophon",
+          "content_requirements": [
+            "Working destination"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack poster modules and timed rows, wrap navigation, preserve full shape stages.",
+      "distinguishing_features": [
+        "Elementary forms structure the poster",
+        "Compact unboxed programme",
+        "Flat color statement plane"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Modular composition exhibition",
+      "page_type": "portfolio",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Three local work anchors and return to event.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient exhibition",
+          "pattern": "Title and numbered work index",
+          "content_requirements": [
+            "Title",
+            "Three anchors"
+          ]
+        },
+        {
+          "purpose": "Study balance",
+          "pattern": "Disc and square module",
+          "content_requirements": [
+            "Work title",
+            "Explanation"
+          ]
+        },
+        {
+          "purpose": "Study direction",
+          "pattern": "Triangle module",
+          "content_requirements": [
+            "Work title",
+            "Explanation"
+          ]
+        },
+        {
+          "purpose": "Study sequence",
+          "pattern": "Wide circular field",
+          "content_requirements": [
+            "Work title",
+            "Explanation"
+          ]
+        },
+        {
+          "purpose": "Explain process",
+          "pattern": "Closing note and return",
+          "content_requirements": [
+            "Original CSS authorship"
+          ]
+        }
+      ],
+      "mobile_reflow": "Each work becomes a full-width stage with attached label; index wraps above it.",
+      "distinguishing_features": [
+        "Unequal modular work grid",
+        "Attached composition captions",
+        "Wide spanning sequence"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,56 @@
   "schema_version": 1,
   "styles": [
     {
+      "avoid_for": [],
+      "best_for": [
+        "events",
+        "culture",
+        "portfolio"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "expressive",
+      "id": "bauhaus-geometric",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Bauhaus Geometric",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm paper, black, red, blue and yellow flat semantic planes.",
+        "composition": "Orthogonal poster modules and an unequal modular exhibition; shapes occupy real space.",
+        "content_rhythm": "Poster, compact timed rows and statement plane; or three unequal work stages.",
+        "imagery": "Original code-native CSS geometric compositions, no external assets.",
+        "interaction": "Working local anchors and native practical-note disclosure; no fake ticketing.",
+        "motion": "Static geometry and brief link-color transitions removed for reduced motion.",
+        "navigation": "Visible programme/context links and a separate work index.",
+        "typography": "Large plain sans-serif display, short numbered labels and clear practical copy."
+      },
+      "status": "ready",
+      "style_path": "styles/bauhaus-geometric/style.md",
+      "summary": "Elementary shapes, flat color planes and an orthogonal modular grid for culture and graphic work.",
+      "tags": [
+        "geometric",
+        "poster",
+        "high-contrast"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/bauhaus-geometric/preview-mobile.png",
+          "preview_path": "styles/bauhaus-geometric/preview.png",
+          "reference_path": "styles/bauhaus-geometric/reference/index.html",
+          "title": "Geometric event poster"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/bauhaus-geometric/preview-alt-mobile.png",
+          "preview_path": "styles/bauhaus-geometric/preview-alt.png",
+          "reference_path": "styles/bauhaus-geometric/reference/alternate.html",
+          "title": "Modular composition exhibition"
+        }
+      ]
+    },
+    {
       "avoid_for": [
         "documentation",
         "data"
