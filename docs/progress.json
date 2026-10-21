@@ -2453,17 +2453,17 @@
     {
       "id": "S32",
       "title": "Woven Field",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S31"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:09:29.856177Z",
-      "updated_at": "2026-10-21T16:17:56.560166Z",
+      "updated_at": "2026-10-21T16:19:59.173466Z",
       "branch": "task/s32-woven-field",
       "base_commit": "e2e95c35de5863c09a6024d5342d72fb1d0c0482",
       "evidence_commit": "c3499f41722ab2a9b8659ec75a8f902a1d02188c",
-      "merge_commit": null,
+      "merge_commit": "ccebf81bf74ef6fc933d1869a64d07be37cdaba0",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/71",
       "checks": [
         {
@@ -2485,14 +2485,19 @@
           "name": "Visual and actual full prompt integration",
           "status": "pass",
           "details": "Four actual PNGs and two ready neighbors inspected; 11/12; exact B prompt copy under /atlas/ and real sibling link."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39633457601 succeeded on c3499f41722ab2a9b8659ec75a8f902a1d02188c. Actual merge ccebf81bf74ef6fc933d1869a64d07be37cdaba0; tested parent and main tracking preserved."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S32.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
-      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
+      "next_action": "Continue authorized five-task batch; select next eligible task.",
+      "handoff": "Actual PR merge and exact tested head verified; CI and acceptance evidence passed. Continue authorized batch."
     },
     {
       "id": "S33",

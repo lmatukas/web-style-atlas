@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 47/57.**
+**Baigta: 48/57.**
 
-**Pirmiausia patikrinti S32: Laukia peržiūros; vykdytojas Codex/fa3a4cc05875/batch-five.**
+**Kita užduotis: [S33](tasks/S33.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -57,7 +57,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S29](tasks/S29.md) | Twilight Expedition | Baigta | Codex/fa3a4cc05875/S29 | task/s29-twilight-expedition | [PR](https://github.com/lmatukas/web-style-atlas/pull/68) | 2026-10-21T15:10:54.242657Z | Single continuation task completed. Next eligible task is S30 on a new request; public release remains P18. |
 | [S30](tasks/S30.md) | Light Environments | Baigta | Codex/fa3a4cc05875/S30 | task/s30-light-environments | [PR](https://github.com/lmatukas/web-style-atlas/pull/69) | 2026-10-21T15:47:54.625191Z | Single requested task completed. Next eligible task S31 on a new request; public release remains P18. |
 | [S31](tasks/S31.md) | Discovery Cabinet | Baigta | Codex/fa3a4cc05875/batch-five | task/s31-discovery-cabinet | [PR](https://github.com/lmatukas/web-style-atlas/pull/70) | 2026-10-21T16:09:11.382978Z | Continue authorized five-task batch; select next eligible task. |
-| [S32](tasks/S32.md) | Woven Field | Laukia peržiūros | Codex/fa3a4cc05875/batch-five | task/s32-woven-field | [PR](https://github.com/lmatukas/web-style-atlas/pull/71) | 2026-10-21T16:17:56.560166Z | Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch. |
+| [S32](tasks/S32.md) | Woven Field | Baigta | Codex/fa3a4cc05875/batch-five | task/s32-woven-field | [PR](https://github.com/lmatukas/web-style-atlas/pull/71) | 2026-10-21T16:19:59.173466Z | Continue authorized five-task batch; select next eligible task. |
 | [S33](tasks/S33.md) | Choreographic Stage | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S34](tasks/S34.md) | Repair Atlas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S35](tasks/S35.md) | Balcony Builder | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
