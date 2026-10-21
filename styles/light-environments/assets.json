@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "amphitheatre-diagram",
+      "path": "assets/amphitheatre.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original schematic Smėlio amfiteatras, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "vault-diagram",
+      "path": "assets/vault.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original schematic Audinio skliautas, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "valley-diagram",
+      "path": "assets/valley.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original schematic Šešėlių slėnis, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}
