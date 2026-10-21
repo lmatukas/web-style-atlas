@@ -2600,17 +2600,17 @@
     {
       "id": "S35",
       "title": "Balcony Builder",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S34"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:42:00.623327Z",
-      "updated_at": "2026-10-21T16:52:39.321075Z",
+      "updated_at": "2026-10-21T16:54:37.082183Z",
       "branch": "task/s35-balcony-builder",
       "base_commit": "0ac6810eaabd9034e86cd8b81d55571728f6dccc",
       "evidence_commit": "4c4f38d3f6c8680b7b9ccb339d0791249204ecac",
-      "merge_commit": null,
+      "merge_commit": "b6d21285d5d48ea7ff0f3c97d2043c77f498ba25",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/74",
       "checks": [
         {
@@ -2632,14 +2632,19 @@
           "name": "Visual and actual full prompt integration",
           "status": "pass",
           "details": "Four actual PNGs and both ready neighbors inspected, 11/12; exact B complete creation prompt copy and real reference under /atlas/."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39638640526 succeeded on 4c4f38d3f6c8680b7b9ccb339d0791249204ecac. Actual merge b6d21285d5d48ea7ff0f3c97d2043c77f498ba25; tested parent and main tracking preserved."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S35.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
-      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
+      "next_action": "Five-task batch complete. Next S36 on a new request; public release remains P18.",
+      "handoff": "Actual PR merge and exact tested head verified; CI and acceptance evidence passed. Stop after S35: five tasks completed."
     },
     {
       "id": "S36",
