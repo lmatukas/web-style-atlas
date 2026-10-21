@@ -1035,24 +1035,67 @@
     {
       "id": "P09",
       "title": "Agentų adapteriai ir suderinamumo matrica",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P05",
         "P08"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:40:40Z",
-      "updated_at": "2026-10-21T03:40:40Z",
+      "updated_at": "2026-10-21T03:54:51Z",
       "branch": "task/p09-atlas",
       "base_commit": "6a99224eea5a92d427500e0f5b407a628592b114",
-      "evidence_commit": null,
+      "evidence_commit": "edcbe1145dfa0e1cf4a6f3d1e862a5c127d9bb1c",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/21",
+      "checks": [
+        {
+          "name": "adapter generation and static validation",
+          "status": "pass",
+          "details": "Three thin deterministic wrappers match the canonical source; all quick_validate checks passed."
+        },
+        {
+          "name": "complete unit suite",
+          "status": "pass",
+          "details": "74/74 including root resolution, non-overwrite/symlink/drift and cheap adapter scope."
+        },
+        {
+          "name": "shared browser/renderer gate",
+          "status": "pass",
+          "details": "3 gallery cases, 75 quality page combinations and 4 renderer/failure tests."
+        },
+        {
+          "name": "build/generated/full freshness",
+          "status": "pass",
+          "details": "12 styles and all current previews remain valid; no rendering input changed."
+        },
+        {
+          "name": "universal direct-read baseline",
+          "status": "pass",
+          "details": "Actual same-session source/selection/decision walkthrough in a separate target; scope recorded honestly."
+        },
+        {
+          "name": "compatibility honesty",
+          "status": "pass",
+          "details": "Official docs and checked date recorded; all unavailable native runtimes marked not-tested."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "No whitespace errors."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39540808429 succeeded on edcbe1145dfa0e1cf4a6f3d1e862a5c127d9bb1c"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P09.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P10",
