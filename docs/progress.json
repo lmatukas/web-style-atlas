@@ -1876,17 +1876,17 @@
     {
       "id": "S24",
       "title": "Humanist Service",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S23"
       ],
       "worker": "Codex/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:44:36.967Z",
-      "updated_at": "2026-10-21T09:49:55.606Z",
+      "updated_at": "2026-10-21T09:51:43.976Z",
       "branch": "task/s24-atlas",
       "base_commit": "4402b46d40d0ad86f02620739e5e30d7268dc19a",
       "evidence_commit": "99217209bc65cbe0f28b36ca00d5ae73363715cd",
-      "merge_commit": null,
+      "merge_commit": "56317d0b9ba8a8f96d117eef6f80262dc6c48679",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/36",
       "checks": [
         {
@@ -1913,14 +1913,19 @@
           "name": "git diff --check and generated drift",
           "status": "pass",
           "details": "Clean whitespace; source and generated wrapper checks passed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39579989731 succeeded on 99217209bc65cbe0f28b36ca00d5ae73363715cd"
         }
       ],
       "evidence_paths": [
         "docs/evidence/S24.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
-      "handoff": "Add Humanist Service people and guided session path complete; actual local checks and visual evidence retained. Public gallery awaits release."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue the owner-authorized remaining queue; release work follows its task gate."
     },
     {
       "id": "P13",
