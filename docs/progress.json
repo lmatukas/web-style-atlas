@@ -2683,31 +2683,36 @@
     {
       "id": "S37",
       "title": "Spine Editions",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S36"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:31:47.408Z",
-      "updated_at": "2026-10-21T17:37:58.005Z",
+      "updated_at": "2026-10-21T17:39:57.477Z",
       "branch": "task/s37-expansion",
       "base_commit": "d126c6e5fb2a051080c06f3bf0ed7ba7edb16592",
       "evidence_commit": "8f4b6873e1537345e5c3b537c0360999977fea98",
-      "merge_commit": null,
+      "merge_commit": "c77c89feee28355ead7d08c466cf1e4aa0686821",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/76",
       "checks": [
         {
           "name": "Source/build/freshness, runtime/business, four widths and gallery prompt",
           "status": "pass",
           "details": "12 A/B cases; four original excerpts; filters/focus; exact storage, sibling restore, removal/clear, blocked/corrupt storage; 11/12 visual rubric."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39645494849 succeeded on 8f4b6873e1537345e5c3b537c0360999977fea98; PR #76 merged as c77c89feee28355ead7d08c466cf1e4aa0686821."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S37.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge before S38.",
-      "handoff": "Authorized S36–S39 sequential batch. S37 ready for exact-head CI and merge; no deployment."
+      "next_action": "S37 accepted; continue authorized S36–S39 sequence.",
+      "handoff": "PR #76 actually merged; exact tested implementation is a merge parent and merged tree matches local implementation plus review tracking. All three CI jobs passed."
     },
     {
       "id": "S38",
