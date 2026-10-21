@@ -1161,17 +1161,17 @@
     {
       "id": "P11",
       "title": "Vieša dokumentacija ir papildymo eiga",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P10"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T04:17:33Z",
-      "updated_at": "2026-10-21T04:24:31Z",
+      "updated_at": "2026-10-21T04:24:41Z",
       "branch": "task/p11-atlas",
       "base_commit": "859937275dc1ea06de5b56fd3958e0fb0d7b9500",
       "evidence_commit": "7c9925740a3ab9482eb7efe6f91bbc12984e16cf",
-      "merge_commit": null,
+      "merge_commit": "3fbd7276e8dbb42d0bb88f41cbabce8ae25706fd",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/23",
       "checks": [
         {
@@ -1207,8 +1207,8 @@
         "CONTRIBUTING.md"
       ],
       "blocker": null,
-      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
-      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
+      "next_action": "Authorized batch complete; P12 awaits a new instruction.",
+      "handoff": "All ten tasks in this batch are merged and verified."
     },
     {
       "id": "P12",

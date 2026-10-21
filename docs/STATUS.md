@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 22/38.**
+**Baigta: 23/38.**
 
-**Pirmiausia patikrinti P11: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Kita užduotis: [P12](tasks/P12.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -32,7 +32,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S12](tasks/S12.md) | Data Observatory | Baigta | Codex/839dbcebb83d/sequential-ten | task/s12-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/20) | 2026-10-21T03:40:40Z | Select the next eligible task within the authorized sequential batch. |
 | [P09](tasks/P09.md) | Agentų adapteriai ir suderinamumo matrica | Baigta | Codex/839dbcebb83d/sequential-ten | task/p09-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/21) | 2026-10-21T03:55:02Z | Select the next eligible task within the authorized sequential batch. |
 | [P10](tasks/P10.md) | Realus naudojimo kitame projekte bandymas | Baigta | Codex/839dbcebb83d/sequential-ten | task/p10-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/22) | 2026-10-21T04:17:33Z | Select the next eligible task within the authorized sequential batch. |
-| [P11](tasks/P11.md) | Vieša dokumentacija ir papildymo eiga | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/p11-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/23) | 2026-10-21T04:24:31Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
+| [P11](tasks/P11.md) | Vieša dokumentacija ir papildymo eiga | Baigta | Codex/839dbcebb83d/sequential-ten | task/p11-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/23) | 2026-10-21T04:24:41Z | Authorized batch complete; P12 awaits a new instruction. |
 | [P12](tasks/P12.md) | 12 stilių leidimo paruošimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S13](tasks/S13.md) | Gallery White Cube | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S14](tasks/S14.md) | Newspaper Ledger | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
