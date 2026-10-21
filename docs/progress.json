@@ -1714,22 +1714,22 @@
     {
       "id": "S21",
       "title": "Soft Spatial",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S20"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T07:51:43.378Z",
+      "updated_at": "2026-10-21T07:51:43.379Z",
+      "branch": "task/s21-atlas",
+      "base_commit": "fc3e04efe669af3c0942b426fb51665e8634a45f",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify next style within ten-task authorization.",
       "handoff": null
     },
     {
