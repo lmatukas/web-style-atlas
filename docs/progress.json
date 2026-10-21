@@ -1444,23 +1444,51 @@
     {
       "id": "S16",
       "title": "Retro Web",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S15"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:13:26.482Z",
-      "updated_at": "2026-10-21T07:13:26.483Z",
+      "updated_at": "2026-10-21T07:17:54.370Z",
       "branch": "task/s16-atlas",
       "base_commit": "28ce9893e11749fb83be715cee968a63f57cbf5d",
-      "evidence_commit": null,
+      "evidence_commit": "f930f377e9545b2e6ddebfa030858f985a084787",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/28",
+      "checks": [
+        {
+          "name": "scoped source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four canonical PNGs below 1 MiB; source schema, deterministic generated data and complete freshness checks passed."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B cases at 360/768/1440 passed resources, axe, overflow, focus and actual controls; six supplemental glyph/reduced-motion/link/token checks passed."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/filter/comparison/selection cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews inspected with nearest ready neighbor; original licensed assets or code-native illustration; rubric recorded in task evidence."
+        },
+        {
+          "name": "git diff --check and generated drift",
+          "status": "pass",
+          "details": "Clean whitespace; source and generated wrapper checks passed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S16.md"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify next style within ten-task authorization.",
-      "handoff": null
+      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
+      "handoff": "Add Retro Web portal and searchable archive complete; actual local checks and visual evidence retained. Public gallery awaits release."
     },
     {
       "id": "S17",
