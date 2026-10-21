@@ -2,10 +2,11 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 24. Drafts and templates are excluded.
+Ready styles: 25. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
+| [Acoustic Sculpture](../styles/acoustic-sculpture/style.md) | spatial | Seven matte copper plates become a spatial instrument, a sound-character workshop and a practical enquiry brief. | [A: Instrument and spatial stories](../styles/acoustic-sculpture/reference/index.html) · [B: Sound-character workshop](../styles/acoustic-sculpture/reference/alternate.html) |
 | [Architectural Monograph](../styles/architectural-monograph/style.md) | photographic | Large architectural photographs, interpretive plans and analytic notes form a project monograph and a contrasting indexed building atlas. | [A: Photograph and plan monograph](../styles/architectural-monograph/reference/index.html) · [B: Indexed building atlas](../styles/architectural-monograph/reference/alternate.html) |
 | [Art Deco](../styles/art-deco/style.md) | ornamental | Axial invitation compositions, stepped architectural ornament and ceremonial rules, paired with a house-story and room-concept layout. | [A: Cultural evening invitation](../styles/art-deco/reference/index.html) · [B: Hotel house story and room concepts](../styles/art-deco/reference/alternate.html) |
 | [Bauhaus Geometric](../styles/bauhaus-geometric/style.md) | expressive | Elementary shapes, flat color planes and an orthogonal modular grid for culture and graphic work. | [A: Geometric event poster](../styles/bauhaus-geometric/reference/index.html) · [B: Modular composition exhibition](../styles/bauhaus-geometric/reference/alternate.html) |

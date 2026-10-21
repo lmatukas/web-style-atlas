@@ -2,6 +2,61 @@
   "schema_version": 1,
   "styles": [
     {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "culture",
+        "services",
+        "craft",
+        "architecture"
+      ],
+      "complexity": "high",
+      "density": "balanced",
+      "family": "spatial",
+      "id": "acoustic-sculpture",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Acoustic Sculpture",
+      "prompt_path": "prompts/acoustic-sculpture/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm ivory ground, oxidized copper surfaces and deep blue text; warm flat controls remain separate from shaded metal.",
+        "composition": "A narrow humanist invitation accompanies a large seven-plate instrument; B is a three-part character workbench with a real comparison tray.",
+        "content_rhythm": "A moves from a singular object into three spatial stories; B begins with controls and compares saved character/scenario configurations.",
+        "imagery": "Original depth-tested WebGL sculpture of seven matte copper plates, directional light and an informative authored SVG fallback.",
+        "interaction": "Scenario and Ramu/Gyva/Sodru choices alter the instrument and generate a validated, copyable local enquiry; real opt-in sound.",
+        "motion": "Finite 1.2-second assembly, bounded pointer lighting, scroll separation and character spacing; pause, reduced motion and API fallbacks.",
+        "navigation": "Visible scenario, workshop and enquiry links; three spatial scenarios become an explicit enquiry selection.",
+        "typography": "Large open humanist sans invitations paired with restrained serif narrative and measured monospaced object captions."
+      },
+      "status": "ready",
+      "style_path": "styles/acoustic-sculpture/style.md",
+      "summary": "Seven matte copper plates become a spatial instrument, a sound-character workshop and a practical enquiry brief.",
+      "tags": [
+        "dimensional",
+        "warm",
+        "humanist",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/acoustic-sculpture/preview-mobile.png",
+          "preview_path": "styles/acoustic-sculpture/preview.png",
+          "reference_path": "styles/acoustic-sculpture/reference/index.html",
+          "title": "Instrument and spatial stories"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/acoustic-sculpture/preview-alt-mobile.png",
+          "preview_path": "styles/acoustic-sculpture/preview-alt.png",
+          "reference_path": "styles/acoustic-sculpture/reference/alternate.html",
+          "title": "Sound-character workshop"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "architecture",

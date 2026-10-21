@@ -16,6 +16,46 @@
   },
   "previews": [
     {
+      "height": 3763,
+      "output_sha256": "d2c10aeaff53fbaa942686cd9a3b36138cc85cffe12fbecbac013be29840b794",
+      "path": "styles/acoustic-sculpture/preview.png",
+      "source_sha256": "cd95359ca785ec878cab398c6a417b7bb49fd891336cc572a298b371d46aa414",
+      "style_id": "acoustic-sculpture",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4962,
+      "output_sha256": "97a3541af3a721406a6fa388da6c0b5bd6437da05ec09d27650b6494cb1e3f3a",
+      "path": "styles/acoustic-sculpture/preview-mobile.png",
+      "source_sha256": "cd95359ca785ec878cab398c6a417b7bb49fd891336cc572a298b371d46aa414",
+      "style_id": "acoustic-sculpture",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2846,
+      "output_sha256": "dc6dbe38d12cb7ced26b2b7c476900fa7ec953cc46a7dccbb9ce042df3e3d6f5",
+      "path": "styles/acoustic-sculpture/preview-alt.png",
+      "source_sha256": "cd95359ca785ec878cab398c6a417b7bb49fd891336cc572a298b371d46aa414",
+      "style_id": "acoustic-sculpture",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3969,
+      "output_sha256": "840eaabc5d2e362a9d9ec375a470bd7ba6ba7834a3032d3f76ecf0859cf0b350",
+      "path": "styles/acoustic-sculpture/preview-alt-mobile.png",
+      "source_sha256": "cd95359ca785ec878cab398c6a417b7bb49fd891336cc572a298b371d46aa414",
+      "style_id": "acoustic-sculpture",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2836,
       "output_sha256": "945ce1b861c8db849cf20cfd765d364f259b24b75104a80410b5f943fd0b5401",
       "path": "styles/architectural-monograph/preview.png",

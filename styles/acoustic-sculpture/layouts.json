@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Instrument and spatial stories",
+      "page_type": "services",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible anchors for scenarios, workshop and enquiry; real A/B sibling link.",
+      "ordered_sections": [
+        {
+          "purpose": "Narrow invitation beside a seven-plate study",
+          "pattern": "Narrow invitation beside a seven-plate study",
+          "content_requirements": [
+            "Original Lithuanian copy",
+            "A real labelled control or useful description"
+          ]
+        },
+        {
+          "purpose": "Three numbered spatial stories with separating plate markers",
+          "pattern": "Three numbered spatial stories with separating plate markers",
+          "content_requirements": [
+            "Original Lithuanian copy",
+            "A real labelled control or useful description"
+          ]
+        },
+        {
+          "purpose": "Measured process and validated local enquiry",
+          "pattern": "Measured process and validated local enquiry",
+          "content_requirements": [
+            "Original Lithuanian copy",
+            "A real labelled control or useful description"
+          ]
+        }
+      ],
+      "mobile_reflow": "Object above narrative; workshop controls stack into readable full-width groups at 360px.",
+      "distinguishing_features": [
+        "Narrow invitation beside a seven-plate study",
+        "Three numbered spatial stories with separating plate markers",
+        "Measured process and validated local enquiry"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Sound-character workshop",
+      "page_type": "services",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible anchors for scenarios, workshop and enquiry; real A/B sibling link.",
+      "ordered_sections": [
+        {
+          "purpose": "Three-part scenario/object/character workbench",
+          "pattern": "Three-part scenario/object/character workbench",
+          "content_requirements": [
+            "Original Lithuanian copy",
+            "A real labelled control or useful description"
+          ]
+        },
+        {
+          "purpose": "Two saved character configurations for comparison",
+          "pattern": "Two saved character configurations for comparison",
+          "content_requirements": [
+            "Original Lithuanian copy",
+            "A real labelled control or useful description"
+          ]
+        },
+        {
+          "purpose": "Compact process and local enquiry output",
+          "pattern": "Compact process and local enquiry output",
+          "content_requirements": [
+            "Original Lithuanian copy",
+            "A real labelled control or useful description"
+          ]
+        }
+      ],
+      "mobile_reflow": "Object above narrative; workshop controls stack into readable full-width groups at 360px.",
+      "distinguishing_features": [
+        "Three-part scenario/object/character workbench",
+        "Two saved character configurations for comparison",
+        "Compact process and local enquiry output"
+      ]
+    }
+  ]
+}
