@@ -1390,23 +1390,51 @@
     {
       "id": "S15",
       "title": "Industrial Spec",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S14"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:06:49.845Z",
-      "updated_at": "2026-10-21T07:06:49.845Z",
+      "updated_at": "2026-10-21T07:10:56.189Z",
       "branch": "task/s15-atlas",
       "base_commit": "8f779fc4ea827529b30fa9bef111e130f9a5bf85",
-      "evidence_commit": null,
+      "evidence_commit": "01d579a59052500188da05afd5cddbe377d8108b",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/27",
+      "checks": [
+        {
+          "name": "scoped source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four canonical PNGs below 1 MiB; source schema, deterministic generated data and complete freshness checks passed."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B cases at 360/768/1440 passed resources, axe, overflow, focus and actual controls; six supplemental glyph/reduced-motion/link/token checks passed."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/filter/comparison/selection cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews inspected with nearest ready neighbor; original licensed assets or code-native illustration; rubric recorded in task evidence."
+        },
+        {
+          "name": "git diff --check and generated drift",
+          "status": "pass",
+          "details": "Clean whitespace; source and generated wrapper checks passed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S15.md"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify next style within ten-task authorization.",
-      "handoff": null
+      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
+      "handoff": "Add Industrial Spec component and comparison sheets complete; actual local checks and visual evidence retained. Public gallery awaits release."
     },
     {
       "id": "S16",
