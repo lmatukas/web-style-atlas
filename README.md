@@ -47,3 +47,10 @@ the bootstrap does not mean P01 is complete.
 
 Original code and documentation: [MIT](LICENSE). Future third-party fonts and
 images retain their own licences and must have explicit redistribution rights.
+
+## Use the current catalogue
+
+For a new website, follow the consumer route in [START_HERE.md](START_HERE.md).
+Optional thin Codex, Claude Code and IBM Bob adapters are generated from the
+shared consumer skill. See the candid [compatibility matrix](docs/compatibility.md)
+for paths, external-checkout setup, actual smoke checks and untested runtimes.
