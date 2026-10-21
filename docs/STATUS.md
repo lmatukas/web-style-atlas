@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 58/75.**
+**Baigta: 59/75.**
 
-**Pirmiausia patikrinti P20: Laukia peržiūros; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20.**
+**Kita užduotis: [P21](tasks/P21.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -68,7 +68,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Baigta | Codex/8f365240145f/final-audit-release | task/p17-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/79) | 2026-10-21T18:53:58.915Z | Claim P18 and prepare the authorized 1.1.0 release. |
 | [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Baigta | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:31:51.953043Z | All 57 planned tasks accepted. Start new work only from the next owner-approved scope. |
 | [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19 | task/p19-distinctiveness | [PR](https://github.com/lmatukas/web-style-atlas/pull/82) | 2026-10-21T21:06:25Z | Baigta; nėra veiksmo. |
-| [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Laukia peržiūros | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:07:28Z | Sujungti PR #83 po CI |
+| [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:08:30Z | Savininkas patvirtina arba atmeta core/language-policy.md sprendimą |
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P21.md. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P24.md. |
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S40.md. |
