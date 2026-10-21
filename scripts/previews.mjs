@@ -1,3 +1,4 @@
+import {freezeClock} from './lib/clock.mjs';
 import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, lstatSync, renameSync, existsSync } from 'node:fs';
@@ -33,7 +34,7 @@ export function sourceHash(root, style, environment = ENVIRONMENT) {
   // Other styles cannot be requested; output PNGs never hash themselves.
   const outputs = new Set(['a', 'b'].flatMap(v => Object.keys(VIEWPORTS).map(p => previewPath(style, v, p))));
   const paths = [ ...walk(root, style.base).filter(path => !outputs.has(path)), ...walk(root, 'core').filter(path => !path.endsWith('.md') && !path.startsWith('core/skill/')), ...walk(root, 'assets').filter(path => !path.endsWith('.md')),
-    'scripts/previews.mjs', 'scripts/preview-server.mjs', 'scripts/preview.config.mjs', 'scripts/lib/files.mjs', 'package.json', 'package-lock.json' ].sort(compare);
+    'scripts/previews.mjs', 'scripts/preview-server.mjs', 'scripts/preview.config.mjs', 'scripts/lib/files.mjs', 'scripts/lib/clock.mjs', 'package.json', 'package-lock.json' ].sort(compare);
   return sha(serialize({ environment, viewports: VIEWPORTS, files: paths.map(path => [path, sha(readFileSync(localFile(root, path)))]) }));
 }
 
@@ -149,8 +150,7 @@ async function capture(browser, origin, path, viewport) {
     page.on('requestfinished', request => pending.delete(request));
     page.on('requestfailed', request => { pending.delete(request); errors.push(`resource failed: ${request.url()} ${request.failure()?.errorText}`); });
     page.on('response', response => { if (response.status() >= 400) errors.push(`HTTP ${response.status()}: ${response.url()}`); });
-    await page.clock.install({ time: new Date(ENVIRONMENT.fixed_time) });
-    await page.clock.pauseAt(new Date(ENVIRONMENT.fixed_time));
+    await freezeClock(page, ENVIRONMENT.fixed_time);
     await page.addInitScript(seed => { Math.random = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }; }, ENVIRONMENT.random_seed);
     await page.goto(`${origin}/${path}`, { waitUntil: 'load', timeout: TIMEOUT });
     await page.clock.runFor(1000);
@@ -174,7 +174,7 @@ async function capture(browser, origin, path, viewport) {
     const png = await page.screenshot({ fullPage: true, animations: 'disabled', caret: 'hide', scale: 'css', type: 'png', timeout: TIMEOUT });
     if (errors.length) throw new Error(errors.join('\n'));
     const dimensions = pngDimensions(png);
-    if (dimensions.width !== viewport.width || dimensions.height < viewport.height) throw new Error('unexpected screenshot dimensions');
+    if (dimensions.width !== viewport.width || dimensions.height < viewport.height) throw new Error(`unexpected screenshot dimensions ${dimensions.width}x${dimensions.height}; expected width ${viewport.width} and height >= ${viewport.height}`);
     if (png.length > MAX_PNG_BYTES) throw new Error('preview exceeds 1 MiB; simplify/resize the source assets');
     return { png, ...dimensions };
   } catch (error) { throw new Error([error.message, ...errors].join('\n')); } finally { await context.close(); }

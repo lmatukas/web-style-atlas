@@ -1,3 +1,4 @@
+import{freezeClock}from'./lib/clock.mjs';
 import{resolve}from'node:path';import{loadAtlas}from'./validate.mjs';import{launchCanonical}from'./previews.mjs';import{servePreviews}from'./preview-server.mjs';import{ROOT,isMain}from'./lib/files.mjs';
 export async function probe(context,{webgl=true,audio=true}={}){await context.addInitScript(({webgl,audio})=>{
  const data=window.__capabilityProbe={contexts:[],draws:0,deletes:0,audio:[],gains:[],starts:0};const get=HTMLCanvasElement.prototype.getContext;
@@ -9,7 +10,7 @@ async function eventually(page,predicate,message){const until=Date.now()+3000;wh
 const insist=(ok,message)=>{if(!ok)throw Error(message);};
 export async function runtimePage(browser,url,runtime,{reduced=false,webgl=true,audio=true}={}){
  const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:reduced?'reduce':'no-preference'});await probe(context,{webgl,audio});const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(url).origin?route.continue():(errors.push('External runtime resource: '+route.request().url()),route.abort()));
- try{await page.clock.install({time:new Date('2026-01-01T00:00:00Z')});await page.clock.pauseAt(new Date('2026-01-01T00:00:00Z'));await page.goto(url,{waitUntil:'networkidle'});await page.clock.runFor(100);
+ try{await freezeClock(page);await page.goto(url,{waitUntil:'networkidle'});await page.clock.runFor(100);
  const before=await page.locator('[data-runtime-scene]').screenshot({animations:'allow'});await page.clock.runFor(1800);const after=await page.locator('[data-runtime-scene]').screenshot({animations:'allow'});
  insist(errors.length===0,errors.join('; '));insist(await page.evaluate(()=>window.__capabilityProbe.audio.length===0),'Audio created before user action');
  if(runtime.renderer==='webgl'&&webgl){const actual=await page.evaluate(()=>{const d=window.__capabilityProbe,g=d.contexts[0];if(!g)return null;const b=new Uint8Array(4),colors=new Set();for(let x=0;x<g.drawingBufferWidth;x+=17)for(let y=0;y<g.drawingBufferHeight;y+=17){g.readPixels(x,y,1,1,g.RGBA,g.UNSIGNED_BYTE,b);colors.add([...b].join(','));}return{draws:d.draws,depth:g.isEnabled(g.DEPTH_TEST),colors:colors.size};});insist(actual?.draws>0&&actual.depth&&actual.colors>2,'Required real depth-tested WebGL was not rendered');}
