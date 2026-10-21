@@ -505,6 +505,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "campaign",
+        "events",
+        "culture"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "typographic",
+      "id": "kinetic-type",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Kinetic Type",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep green-black field, pale type and a single acid accent word/action role.",
+        "composition": "Three stacked oversized word fields establish the campaign; B uses giant date numerals and ruled session rows.",
+        "content_rhythm": "Word poster, manifesto and verbs versus date-led day programme and closing type statement.",
+        "imagery": "Letterforms, scale, rules and negative space replace decorative pictures.",
+        "interaction": "Actual Saturday/Sunday panels, pressed states and live day count; native practical disclosures.",
+        "motion": "One short finite typographic settling gesture; full static layout under reduced motion.",
+        "navigation": "Literal idea/weekend/notes links and two real day buttons with current state.",
+        "typography": "Heavy tight sans-serif display carries composition, with plain readable copy and monospaced time labels."
+      },
+      "status": "ready",
+      "style_path": "styles/kinetic-type/style.md",
+      "summary": "Oversized words become the campaign composition, with brief finite type motion and a contrasting date-led two-day programme.",
+      "tags": [
+        "typographic-motion",
+        "poster",
+        "high-contrast"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/kinetic-type/preview-mobile.png",
+          "preview_path": "styles/kinetic-type/preview.png",
+          "reference_path": "styles/kinetic-type/reference/index.html",
+          "title": "Oversized word campaign"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/kinetic-type/preview-alt-mobile.png",
+          "preview_path": "styles/kinetic-type/preview-alt.png",
+          "reference_path": "styles/kinetic-type/reference/alternate.html",
+          "title": "Typographic weekend calendar"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "events",
         "campaign",
         "culture"

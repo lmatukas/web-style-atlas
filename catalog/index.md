@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 19. Drafts and templates are excluded.
+Ready styles: 20. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -16,6 +16,7 @@ Ready styles: 19. Drafts and templates are excluded.
 | [Gallery White Cube](../styles/gallery-white-cube/style.md) | restrained | Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels. | [A: Exhibition works wall](../styles/gallery-white-cube/reference/index.html) · [B: Single work with exhibition index](../styles/gallery-white-cube/reference/alternate.html) |
 | [Industrial Spec](../styles/industrial-spec/style.md) | technical | Numbered engineering-sheet compositions with dimensioned elevations, explicit units and revision records, plus an orthographic comparison layout. | [A: Dimensioned component sheet](../styles/industrial-spec/reference/index.html) · [B: Orthographic views and comparison](../styles/industrial-spec/reference/alternate.html) |
 | [Institutional Clear](../styles/institutional-clear/style.md) | functional | Clear task labels, searchable services and readable information pages with predictable navigation. | [A: Task and service directory](../styles/institutional-clear/reference/index.html) · [B: Service information with contents](../styles/institutional-clear/reference/alternate.html) |
+| [Kinetic Type](../styles/kinetic-type/style.md) | typographic | Oversized words become the campaign composition, with brief finite type motion and a contrasting date-led two-day programme. | [A: Oversized word campaign](../styles/kinetic-type/reference/index.html) · [B: Typographic weekend calendar](../styles/kinetic-type/reference/alternate.html) |
 | [Neo Brutalist](../styles/neo-brutalist/style.md) | expressive | Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme. | [A: Poster-led event offer](../styles/neo-brutalist/reference/index.html) · [B: Framed two-day programme](../styles/neo-brutalist/reference/alternate.html) |
 | [Newspaper Ledger](../styles/newspaper-ledger/style.md) | editorial | Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods. | [A: Multi-story newspaper front page](../styles/newspaper-ledger/reference/index.html) · [B: Analysis with branch ledger](../styles/newspaper-ledger/reference/alternate.html) |
 | [Organic Craft](../styles/organic-craft/style.md) | tactile | Warm material surfaces, irregular object forms and asymmetric compositions for independent makers. | [A: Materials and making story](../styles/organic-craft/reference/index.html) · [B: Asymmetric object collection](../styles/organic-craft/reference/alternate.html) |

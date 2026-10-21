@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Oversized word campaign",
+      "page_type": "campaign",
+      "reference_path": "reference/index.html",
+      "navigation": "Idea, real two-day calendar and practical disclosure.",
+      "ordered_sections": [
+        {
+          "purpose": "Express campaign",
+          "pattern": "Three large word fields with context band",
+          "content_requirements": [
+            "Complete phrase",
+            "Calendar destination"
+          ]
+        },
+        {
+          "purpose": "Explain premise",
+          "pattern": "Manifesto beside readable paragraphs",
+          "content_requirements": [
+            "Purpose",
+            "Original fictional context"
+          ]
+        },
+        {
+          "purpose": "Establish participation rhythm",
+          "pattern": "Three large verbs and observations",
+          "content_requirements": [
+            "Look",
+            "Try",
+            "Share"
+          ]
+        },
+        {
+          "purpose": "Provide practical scope",
+          "pattern": "Notes with native disclosure",
+          "content_requirements": [
+            "Fictional programme",
+            "Actual calendar link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Whole words scale safely; context, manifesto and verbs stack.",
+      "distinguishing_features": [
+        "Words act as primary visual fields",
+        "One finite settling gesture",
+        "Distinct display/practical scale contrast"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Typographic weekend calendar",
+      "page_type": "events",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Two actual day buttons, selected panel and idea return.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce weekend",
+          "pattern": "Large proposition and short context",
+          "content_requirements": [
+            "Two-day scope",
+            "Dates"
+          ]
+        },
+        {
+          "purpose": "Choose and inspect day",
+          "pattern": "Pressed-state controls plus giant date and rows",
+          "content_requirements": [
+            "Three sessions per day",
+            "Times",
+            "Descriptions"
+          ]
+        },
+        {
+          "purpose": "Close the programme",
+          "pattern": "Large typographic statement",
+          "content_requirements": [
+            "One idea",
+            "Actual premise link"
+          ]
+        },
+        {
+          "purpose": "Read scope",
+          "pattern": "Native practical disclosure",
+          "content_requirements": [
+            "Six actual authored sessions",
+            "No booking implication"
+          ]
+        }
+      ],
+      "mobile_reflow": "Controls wrap; numeral and sessions stack without losing time/title/type roles.",
+      "distinguishing_features": [
+        "Giant date as structural anchor",
+        "Real two-day panel state",
+        "Ruled sessions replace campaign word bands"
+      ]
+    }
+  ]
+}
