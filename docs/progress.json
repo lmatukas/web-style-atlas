@@ -3012,12 +3012,12 @@
       "updated_at": "2026-10-21T21:09:00Z",
       "branch": "task/p24-rights-audit",
       "base_commit": "cd9e13506033b377b0e176d5afb46c3feb888f9e",
-      "evidence_commit": null,
+      "evidence_commit": "26483315bab3c5c000684fee513decb88b365835",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/84",
       "blocker": null,
       "next_action": "PR CI praeiti; tada sujungti į main ir pažymėti done",
-      "handoff": null
+      "handoff": "PR #84 atidarytas. Laukia CI vartų. Pagal rezultatus: sujungti ir pažymėti done su merge_commit. Neaiškūs atvejai (lake.webp PD-USGov, šaltinių online patikra) lieka evidence faile."
     },
     {
       "id": "S40",
