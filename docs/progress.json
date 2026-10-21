@@ -2174,17 +2174,17 @@
     {
       "id": "S26",
       "title": "Seasonal Terrain",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S25"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T13:23:55.064Z",
-      "updated_at": "2026-10-21T13:42:40.966Z",
+      "updated_at": "2026-10-21T13:44:52.132Z",
       "branch": "task/s26-expansion",
       "base_commit": "b80b9014db28c33e70330c8c59c8ef39d2ddd149",
       "evidence_commit": "2eccf1f2af1d887d9260279f30b25f522be41da3",
-      "merge_commit": null,
+      "merge_commit": "df33eb8425a97e6330c157d668f6cb42841b523e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/57",
       "checks": [
         {
@@ -2201,14 +2201,19 @@
           "name": "Gallery/full prompt and visual review",
           "status": "pass",
           "details": "5 scoped integrations and exact actual full B prompt copy from dist; all four final PNGs viewed against two ready neighbors; rubric 11/12."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39610304724 passed all scoped source/generated/gallery/browser/runtime jobs on 2eccf1f2af1d887d9260279f30b25f522be41da3. Actual PR #57 merge and tested head verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S26.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
-      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
+      "next_action": "Select next eligible task within the owner-authorized five-task batch.",
+      "handoff": "Actual PR merge and exact tested head verified. Required checks/evidence passed. Continue authorized batch; keep public release at P18."
     },
     {
       "id": "S27",
