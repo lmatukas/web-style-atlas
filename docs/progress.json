@@ -2125,17 +2125,17 @@
     {
       "id": "S25",
       "title": "Acoustic Sculpture",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P16"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T12:53:59.815Z",
-      "updated_at": "2026-10-21T13:15:41.354Z",
+      "updated_at": "2026-10-21T13:22:25.281Z",
       "branch": "task/s25-expansion",
       "base_commit": "dc58e666e393403d04ec3b4c315172342631d27f",
       "evidence_commit": "67c0d25949b4bc8235cc74ea73abf285d7413d02",
-      "merge_commit": null,
+      "merge_commit": "9d234dab4b294be67e77f8b3b5460bc0cf4c722b",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/53",
       "checks": [
         {
@@ -2157,14 +2157,19 @@
           "name": "Shared audio-state regression",
           "status": "pass",
           "details": "Three P16 real runtime tests pass after a bounded wait for native asynchronous audio transitions."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation run 39606350998 passed all jobs on 67c0d25949b4bc8235cc74ea73abf285d7413d02; full 25-style browser/accessibility/renderer gates and real runtime checks passed. PR #53 merged and exact tested head verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S25.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
-      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
+      "next_action": "Select next eligible task within the owner-authorized five-task batch.",
+      "handoff": "Actual PR merge and exact tested head verified. Required checks/evidence passed. Continue authorized batch; keep public release at P18."
     },
     {
       "id": "S26",
