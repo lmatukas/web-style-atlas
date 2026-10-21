@@ -1282,23 +1282,51 @@
     {
       "id": "S13",
       "title": "Gallery White Cube",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P12"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T06:50:33.234Z",
-      "updated_at": "2026-10-21T06:50:33.235Z",
+      "updated_at": "2026-10-21T06:57:11.724Z",
       "branch": "task/s13-atlas",
       "base_commit": "9c51ee792a39496c670b70bdaa96c08f8c6355ff",
-      "evidence_commit": null,
+      "evidence_commit": "8c696bd55cdef34f9fb94e1582d56ce184f453e1",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/25",
+      "checks": [
+        {
+          "name": "scoped source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four canonical PNGs below 1 MiB; source schema, deterministic generated data and complete freshness checks passed."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B cases at 360/768/1440 passed resources, axe, overflow, focus and actual controls; six supplemental glyph/reduced-motion/link/token checks passed."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/filter/comparison/selection cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews inspected with nearest ready neighbor; original licensed assets or code-native illustration; rubric recorded in task evidence."
+        },
+        {
+          "name": "git diff --check and generated drift",
+          "status": "pass",
+          "details": "Clean whitespace; source and generated wrapper checks passed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S13.md"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify Gallery White Cube; task 1/10 of authorized sequential batch.",
-      "handoff": null
+      "next_action": "Wait for exact-head CI; merge and continue authorized sequential batch.",
+      "handoff": "Gallery White Cube complete; local checks and visual rubric passed. PR #25 ready for CI; published 0.1.0 remains unchanged."
     },
     {
       "id": "S14",
