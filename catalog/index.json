@@ -306,6 +306,55 @@
     {
       "avoid_for": [],
       "best_for": [
+        "products",
+        "documentation"
+      ],
+      "complexity": "low",
+      "density": "dense",
+      "family": "technical",
+      "id": "industrial-spec",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Industrial Spec",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Cool sheet surfaces, dark drawing ink and bounded yellow document strip.",
+        "composition": "A dimensional drawing beside a large product identifier and document tag; B aligned orthographic views over a comparison ledger.",
+        "content_rhythm": "Drawing, dimensional record, assembly rows and document boundaries; B views, comparison table and selection context.",
+        "imagery": "Original inline vector elevations with consistent labeled envelope proportions.",
+        "interaction": "Real sheet/section links and native concept-boundary disclosures, without fake download or specification selectors.",
+        "motion": "Stable dimension lines and text; no rotating product or decorative scanning effect.",
+        "navigation": "Numbered document sections and an explicit assembly-comparison destination.",
+        "typography": "Plain industrial sans-serif display and monospaced document identifiers, units and revision labels."
+      },
+      "status": "ready",
+      "style_path": "styles/industrial-spec/style.md",
+      "summary": "Numbered engineering-sheet compositions with dimensioned elevations, explicit units and revision records, plus an orthographic comparison layout.",
+      "tags": [
+        "precise",
+        "annotated",
+        "product-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/industrial-spec/preview-mobile.png",
+          "preview_path": "styles/industrial-spec/preview.png",
+          "reference_path": "styles/industrial-spec/reference/index.html",
+          "title": "Dimensioned component sheet"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/industrial-spec/preview-alt-mobile.png",
+          "preview_path": "styles/industrial-spec/preview-alt.png",
+          "reference_path": "styles/industrial-spec/reference/alternate.html",
+          "title": "Orthographic views and comparison"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "public-information",
         "services",
         "documentation"

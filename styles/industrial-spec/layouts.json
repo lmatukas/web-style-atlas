@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Dimensioned component sheet",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible product, comparison and document-note destinations.",
+      "ordered_sections": [
+        {
+          "purpose": "Identify component and drawing",
+          "pattern": "Three-part product plate",
+          "content_requirements": [
+            "Component identifier",
+            "Front elevation",
+            "Status"
+          ]
+        },
+        {
+          "purpose": "Inspect values",
+          "pattern": "Heading beside dimensional definition list",
+          "content_requirements": [
+            "Explicit units",
+            "Envelope",
+            "Inlet"
+          ]
+        },
+        {
+          "purpose": "Read construction context",
+          "pattern": "Numbered assembly observations",
+          "content_requirements": [
+            "Housing",
+            "Inlet",
+            "Record"
+          ]
+        },
+        {
+          "purpose": "Understand document boundary",
+          "pattern": "Disclosure and comparison link",
+          "content_requirements": [
+            "Fictional status",
+            "No manufacture claim"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack identifier, complete drawing and status; record rows wrap.",
+      "distinguishing_features": [
+        "Dimensioned front elevation",
+        "Separate yellow status strip",
+        "Explicit unit-bearing specification rows"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Orthographic views and comparison",
+      "page_type": "documentation",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Drawing index, comparison ledger and component return.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame comparison",
+          "pattern": "Question plus short selection context",
+          "content_requirements": [
+            "Fictional concepts",
+            "Purpose"
+          ]
+        },
+        {
+          "purpose": "Inspect two views",
+          "pattern": "Index beside matched front and side elevations",
+          "content_requirements": [
+            "View labels",
+            "Consistent envelope height"
+          ]
+        },
+        {
+          "purpose": "Compare records",
+          "pattern": "Two-model numeric ledger",
+          "content_requirements": [
+            "Units",
+            "Status",
+            "Four dimensions"
+          ]
+        },
+        {
+          "purpose": "Bound the decision",
+          "pattern": "Selection notes and native disclosure",
+          "content_requirements": [
+            "Limitations",
+            "Actual source-sheet link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Views stack whole before the table; three concise table columns fit mobile.",
+      "distinguishing_features": [
+        "Two coordinated orthographic views",
+        "Model-to-model dimensional comparison",
+        "Selection context separated from performance claims"
+      ]
+    }
+  ]
+}

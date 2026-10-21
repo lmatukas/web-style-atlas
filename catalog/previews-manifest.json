@@ -256,6 +256,46 @@
       "width": 390
     },
     {
+      "height": 1576,
+      "output_sha256": "4f4e831d404b3aaa2e0bae407e92f761178fc058d738ee92a47df4145b7ad863",
+      "path": "styles/industrial-spec/preview.png",
+      "source_sha256": "240d5050615a0d6d51a48979a7b4e20ef1b64cfd95d91720d73d80bf7c8253ee",
+      "style_id": "industrial-spec",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2500,
+      "output_sha256": "296745132da166aa5a65069cd8cca80c6e4cb7a41338762299b4515fc5075774",
+      "path": "styles/industrial-spec/preview-mobile.png",
+      "source_sha256": "240d5050615a0d6d51a48979a7b4e20ef1b64cfd95d91720d73d80bf7c8253ee",
+      "style_id": "industrial-spec",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1586,
+      "output_sha256": "aeabcb624bca78f2434708604eff8438f8efba717c316652307535b6f2dd8b78",
+      "path": "styles/industrial-spec/preview-alt.png",
+      "source_sha256": "240d5050615a0d6d51a48979a7b4e20ef1b64cfd95d91720d73d80bf7c8253ee",
+      "style_id": "industrial-spec",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2335,
+      "output_sha256": "37bdc8ca9e801afc306f4a50191fd47b464e99f4df23546a8491c76cad085547",
+      "path": "styles/industrial-spec/preview-alt-mobile.png",
+      "source_sha256": "240d5050615a0d6d51a48979a7b4e20ef1b64cfd95d91720d73d80bf7c8253ee",
+      "style_id": "industrial-spec",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1774,
       "output_sha256": "efa2a3ea82d9bb052824031d894b8691900274191b9c2be6148b0fd3d87efe8b",
       "path": "styles/institutional-clear/preview.png",
