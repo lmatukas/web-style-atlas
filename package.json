@@ -24,7 +24,8 @@
     "test:browser": "node scripts/browser-qa.mjs",
     "dev": "node scripts/dev.mjs",
     "test:gallery": "node --test tests/browser/gallery.test.mjs",
-    "ci:generated": "node scripts/ci.mjs generated"
+    "ci:generated": "node scripts/ci.mjs generated",
+    "distinctiveness": "node scripts/distinctiveness.mjs"
   },
   "devDependencies": {
     "ajv": "8.20.0",

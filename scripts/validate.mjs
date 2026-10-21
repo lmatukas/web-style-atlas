@@ -1,3 +1,4 @@
+import { warningsFor } from './distinctiveness.mjs';
 import { lstatSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT, fail, isId, json, text, localFile, validator, frontmatter, argumentsFor, isMain, existsSync } from './lib/files.mjs';
@@ -130,5 +131,6 @@ if (isMain(import.meta.url)) {
     const options = argumentsFor(process.argv.slice(2));
     const atlas = loadAtlas(options);
     console.log(`PASS: source validation; ${atlas.styles.length} style(s), template excluded. Preview/browser checks are separate.`);
+    for (const w of warningsFor(atlas.root)) console.warn(`WARN ${w.kind}: ${w.styles.join(', ')} — ${w.detail}`);
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }
