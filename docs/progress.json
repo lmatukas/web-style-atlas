@@ -1930,18 +1930,18 @@
     {
       "id": "P13",
       "title": "24 stilių įvairovės ir naudojimo auditas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S24",
         "P10"
       ],
       "worker": "Codex/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:52:08.576Z",
-      "updated_at": "2026-10-21T09:59:14.014Z",
+      "updated_at": "2026-10-21T10:00:11.625Z",
       "branch": "task/p13-atlas",
       "base_commit": "a144d01aaa464bc2e0f5bb10a8dba09f2802fddb",
       "evidence_commit": "eb43260646512f5bd3f10a4519fe4987f27eb7dd",
-      "merge_commit": null,
+      "merge_commit": "f14b803c3319502103903dddae476cbbf716ea9b",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/37",
       "checks": [
         {
@@ -1963,6 +1963,11 @@
           "name": "Freshness/selection/whitespace",
           "status": "pass",
           "details": "24 ready source styles, 96 current previews, nine selection tests and clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39581179892 succeeded on eb43260646512f5bd3f10a4519fe4987f27eb7dd"
         }
       ],
       "evidence_paths": [
@@ -1971,8 +1976,8 @@
         "docs/benchmarks/p13/replay.json"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI, merge and continue the remaining owner-authorized queue.",
-      "handoff": "Audit all 24 styles and affected consumer cases; actual scope and limitations retained in evidence."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue the owner-authorized remaining queue; release work follows its task gate."
     },
     {
       "id": "P14",
