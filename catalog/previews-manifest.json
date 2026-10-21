@@ -376,6 +376,46 @@
       "width": 390
     },
     {
+      "height": 2472,
+      "output_sha256": "d1ee5c9e0e9e58f5525536eea18c47f428e19ba418aeb9e39b03fe353919e31d",
+      "path": "styles/humanist-service/preview.png",
+      "source_sha256": "ae7f08dbb73d73799dd9eec5f6a74afb2004198cac78287bd0f0c34f00b15d83",
+      "style_id": "humanist-service",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3474,
+      "output_sha256": "47d41d954fbdd34e7b1abe945f7813ff680a29f56c2fd850f64b87dc19d384c1",
+      "path": "styles/humanist-service/preview-mobile.png",
+      "source_sha256": "ae7f08dbb73d73799dd9eec5f6a74afb2004198cac78287bd0f0c34f00b15d83",
+      "style_id": "humanist-service",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2556,
+      "output_sha256": "66364167f7b305398e70e1950b4307d15d2a77abe5dce5150f11c049477c2dfe",
+      "path": "styles/humanist-service/preview-alt.png",
+      "source_sha256": "ae7f08dbb73d73799dd9eec5f6a74afb2004198cac78287bd0f0c34f00b15d83",
+      "style_id": "humanist-service",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3086,
+      "output_sha256": "c2408d293282ce45dadf20e9ab4cb0a668a1268e203ed0984e8a88763445ab71",
+      "path": "styles/humanist-service/preview-alt-mobile.png",
+      "source_sha256": "ae7f08dbb73d73799dd9eec5f6a74afb2004198cac78287bd0f0c34f00b15d83",
+      "style_id": "humanist-service",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1576,
       "output_sha256": "4f4e831d404b3aaa2e0bae407e92f761178fc058d738ee92a47df4145b7ad863",
       "path": "styles/industrial-spec/preview.png",

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "People and practical help",
+      "page_type": "services",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible help/people/process links and three real preselected-topic routes.",
+      "ordered_sections": [
+        {
+          "purpose": "Welcome a question",
+          "pattern": "Conversational copy beside original people scene",
+          "content_requirements": [
+            "Short purpose",
+            "Working process link"
+          ]
+        },
+        {
+          "purpose": "Offer familiar tasks",
+          "pattern": "Three descriptive service rows",
+          "content_requirements": [
+            "Phone",
+            "Files",
+            "Email",
+            "Actual topic routes"
+          ]
+        },
+        {
+          "purpose": "Introduce human context",
+          "pattern": "Two illustrated fictional profiles",
+          "content_requirements": [
+            "Names",
+            "Roles",
+            "Demonstration limits"
+          ]
+        },
+        {
+          "purpose": "Explain first step",
+          "pattern": "Broad warm statement and real process link",
+          "content_requirements": [
+            "Visitor controls pace",
+            "No private data"
+          ]
+        },
+        {
+          "purpose": "Clarify scope",
+          "pattern": "Notes and native disclosure",
+          "content_requirements": [
+            "Fictional service",
+            "Local planner only"
+          ]
+        }
+      ],
+      "mobile_reflow": "Invitation then scene; service rows, people and process note stack.",
+      "distinguishing_features": [
+        "Person-to-person scene",
+        "Warm serif invitation",
+        "Task-to-topic navigation"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "A patient three-step path",
+      "page_type": "services",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Native radio choices, visible numbered stages and focus-managed local summary.",
+      "ordered_sections": [
+        {
+          "purpose": "Explain the path",
+          "pattern": "Short heading and explicit demo premise",
+          "content_requirements": [
+            "Three stages",
+            "Nothing booked"
+          ]
+        },
+        {
+          "purpose": "Choose topic",
+          "pattern": "Native grouped radio options",
+          "content_requirements": [
+            "Phone",
+            "Files",
+            "Email"
+          ]
+        },
+        {
+          "purpose": "Prepare session",
+          "pattern": "Actual topic checklist and format radios",
+          "content_requirements": [
+            "Device",
+            "Non-private practice task",
+            "Format guidance"
+          ]
+        },
+        {
+          "purpose": "Review local outline",
+          "pattern": "Operable submit and focusable result",
+          "content_requirements": [
+            "Actual choices",
+            "Three next steps",
+            "Change choices"
+          ]
+        },
+        {
+          "purpose": "Reassure and clarify",
+          "pattern": "Closing statement and scope disclosure",
+          "content_requirements": [
+            "Repeat at own pace",
+            "No service claim"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stage number above content; choices, preparation and result stay in one readable flow.",
+      "distinguishing_features": [
+        "Topic-specific preparation",
+        "Actual local outline state",
+        "Continuous numbered path replaces people-led introduction"
+      ]
+    }
+  ]
+}

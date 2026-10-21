@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 23. Drafts and templates are excluded.
+Ready styles: 24. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -15,6 +15,7 @@ Ready styles: 23. Drafts and templates are excluded.
 | [Editorial Journal](../styles/editorial-journal/style.md) | editorial | A literary issue cover and long-form essay, with serif reading rhythm, margin notes and quiet paper surfaces. | [A: Cover story and departments](../styles/editorial-journal/reference/index.html) · [B: Essay with margin notes](../styles/editorial-journal/reference/alternate.html) |
 | [Field Notes](../styles/field-notes/style.md) | tactile | Documentary labels, marginal annotations and attached photo captions for a readable travel notebook. | [A: Travel fragment with margin notes](../styles/field-notes/reference/index.html) · [B: Route diary and photographs](../styles/field-notes/reference/alternate.html) |
 | [Gallery White Cube](../styles/gallery-white-cube/style.md) | restrained | Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels. | [A: Exhibition works wall](../styles/gallery-white-cube/reference/index.html) · [B: Single work with exhibition index](../styles/gallery-white-cube/reference/alternate.html) |
+| [Humanist Service](../styles/humanist-service/style.md) | functional | Warm serif guidance, approachable illustrated people and a clear three-step path make practical service help feel patient and understandable. | [A: People and practical help](../styles/humanist-service/reference/index.html) · [B: A patient three-step path](../styles/humanist-service/reference/alternate.html) |
 | [Industrial Spec](../styles/industrial-spec/style.md) | technical | Numbered engineering-sheet compositions with dimensioned elevations, explicit units and revision records, plus an orthographic comparison layout. | [A: Dimensioned component sheet](../styles/industrial-spec/reference/index.html) · [B: Orthographic views and comparison](../styles/industrial-spec/reference/alternate.html) |
 | [Institutional Clear](../styles/institutional-clear/style.md) | functional | Clear task labels, searchable services and readable information pages with predictable navigation. | [A: Task and service directory](../styles/institutional-clear/reference/index.html) · [B: Service information with contents](../styles/institutional-clear/reference/alternate.html) |
 | [Kinetic Type](../styles/kinetic-type/style.md) | typographic | Oversized words become the campaign composition, with brief finite type motion and a contrasting date-led two-day programme. | [A: Oversized word campaign](../styles/kinetic-type/reference/index.html) · [B: Typographic weekend calendar](../styles/kinetic-type/reference/alternate.html) |
