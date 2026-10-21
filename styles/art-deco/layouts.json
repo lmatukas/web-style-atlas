@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Cultural evening invitation",
+      "page_type": "events",
+      "reference_path": "reference/index.html",
+      "navigation": "Real programme, house story and guest-note links.",
+      "ordered_sections": [
+        {
+          "purpose": "Invite visitors",
+          "pattern": "Axial double-rule invitation",
+          "content_requirements": [
+            "Fan crown",
+            "Title",
+            "Date",
+            "Programme destination"
+          ]
+        },
+        {
+          "purpose": "Explain the evening",
+          "pattern": "Numbered heading beside three timed movements",
+          "content_requirements": [
+            "Arrival",
+            "Music",
+            "Conversation"
+          ]
+        },
+        {
+          "purpose": "Introduce the house",
+          "pattern": "Centred narrative pause",
+          "content_requirements": [
+            "Short house story",
+            "Separate destination"
+          ]
+        },
+        {
+          "purpose": "Provide guest context",
+          "pattern": "Native practical disclosure",
+          "content_requirements": [
+            "Fictional venue boundary",
+            "Programme information"
+          ]
+        }
+      ],
+      "mobile_reflow": "Central frame remains; introduction and timed rows stack.",
+      "distinguishing_features": [
+        "Axial fine-rule invitation",
+        "Stepped fan and diamond rhythm",
+        "Clear transition into timed programme"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Hotel house story and room concepts",
+      "page_type": "hospitality",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Room index and native concept disclosures with evening return.",
+      "ordered_sections": [
+        {
+          "purpose": "Arrive at the house",
+          "pattern": "Statement beside stepped elevation",
+          "content_requirements": [
+            "House premise",
+            "Original illustration"
+          ]
+        },
+        {
+          "purpose": "Understand architecture",
+          "pattern": "Broad story statement and two columns",
+          "content_requirements": [
+            "Arrival sequence",
+            "Public/private rhythm"
+          ]
+        },
+        {
+          "purpose": "Inspect room concepts",
+          "pattern": "Roman-numbered room records",
+          "content_requirements": [
+            "Garden Room",
+            "Lantern Suite",
+            "Native notes"
+          ]
+        },
+        {
+          "purpose": "Read guest record",
+          "pattern": "Closing note and programme link",
+          "content_requirements": [
+            "Original fictional status",
+            "Actual return"
+          ]
+        }
+      ],
+      "mobile_reflow": "Copy precedes complete elevation; story and numbered room records stack.",
+      "distinguishing_features": [
+        "Asymmetric narrative beside symmetrical elevation",
+        "Roman-numbered room records",
+        "Room disclosures replace event timings"
+      ]
+    }
+  ]
+}
