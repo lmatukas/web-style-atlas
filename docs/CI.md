@@ -67,3 +67,7 @@ blocker must remain visible; do not buy capacity or loosen gates to merge.
 
 Workflow readiness is a local conclusion. An actual GitHub run is separate
 remote evidence: inspect the PR's exact head and jobs before claiming it passed.
+
+The canonical consumer skill also feeds the thin native adapters. Changes to
+that source, the adapter generator or generated wrappers run source/unit drift
+checks without browser renders. Ordinary shared Markdown remains documentation.
