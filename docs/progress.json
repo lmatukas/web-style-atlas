@@ -2306,23 +2306,23 @@
     {
       "id": "S29",
       "title": "Twilight Expedition",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S28"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/fa3a4cc05875/S29",
+      "claimed_at": "2026-10-21T14:53:08.537811Z",
+      "updated_at": "2026-10-21T14:53:08.537827Z",
+      "branch": "task/s29-twilight-expedition",
+      "base_commit": "a60910954af27742a936437023dd0d432ed158a5",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
-      "handoff": null
+      "next_action": "Implement S29 A/B, actual WebGL and functional gates, four canonical previews, then PR.",
+      "handoff": "Continuation request authorizes next single task and merge after successful required checks."
     },
     {
       "id": "S30",

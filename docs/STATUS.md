@@ -4,7 +4,7 @@
 
 **Baigta: 44/57.**
 
-**Kita užduotis: [S29](tasks/S29.md).**
+**Pirmiausia patikrinti S29: Vykdoma; vykdytojas Codex/fa3a4cc05875/S29.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -54,7 +54,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S26](tasks/S26.md) | Seasonal Terrain | Baigta | Codex/162fd1aaf53b/batch-five | task/s26-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/57) | 2026-10-21T13:44:52.132Z | Select next eligible task within the owner-authorized five-task batch. |
 | [S27](tasks/S27.md) | Resonant Ribbon | Baigta | Codex/162fd1aaf53b/batch-five | task/s27-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/61) | 2026-10-21T14:20:49.681Z | Select next eligible task within the owner-authorized five-task batch. |
 | [S28](tasks/S28.md) | Modular Light | Baigta | Codex/162fd1aaf53b/batch-five | task/s28-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/65) | 2026-10-21T14:48:00.506Z | Authorized five-task batch complete. Next eligible task is S29 on a new continuation request; public release remains P18. |
-| [S29](tasks/S29.md) | Twilight Expedition | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S29](tasks/S29.md) | Twilight Expedition | Vykdoma | Codex/fa3a4cc05875/S29 | task/s29-twilight-expedition | — | 2026-10-21T14:53:08.537827Z | Implement S29 A/B, actual WebGL and functional gates, four canonical previews, then PR. |
 | [S30](tasks/S30.md) | Light Environments | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S31](tasks/S31.md) | Discovery Cabinet | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S32](tasks/S32.md) | Woven Field | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
