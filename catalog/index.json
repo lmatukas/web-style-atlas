@@ -360,6 +360,60 @@
       ]
     },
     {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "culture",
+        "publishing",
+        "campaign"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "illustrative",
+      "id": "discovery-cabinet",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Discovery Cabinet",
+      "prompt_path": "prompts/discovery-cabinet/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Paper, pale moss, deep ink and burnt clay, with a dark numbered tray and flat readable controls.",
+        "composition": "A radial six-jar tabletop beside an invitation; B a vertical drawer alongside inspection and collection.",
+        "content_rhythm": "Tabletop encounter, study/tray spread, questions and growth versus indexed drawer and immediate collection.",
+        "imagery": "Six original distinct SVG forms, individually lifting lids and an explicitly artistic three-stage sprout.",
+        "interaction": "Open/close jars, choose a free tray place, collect once, remove, restore local choices and export actual positions.",
+        "motion": "700ms opening, 350ms lid, 400ms landing and explicit three-stage 900ms growth; pause and reduced states.",
+        "navigation": "Cabinet, collection and growth anchors, a real sibling composition and a literal list alternative.",
+        "typography": "Generous Georgia discovery headings, clear Arial actions and small two-digit jar/place labels."
+      },
+      "status": "ready",
+      "style_path": "styles/discovery-cabinet/style.md",
+      "summary": "Six individually opening illustrated jars connect a radial table and a vertical drawer to a local collection tray and real discovery-sheet export.",
+      "tags": [
+        "annotated",
+        "task-led",
+        "playful",
+        "geometric"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/discovery-cabinet/preview-mobile.png",
+          "preview_path": "styles/discovery-cabinet/preview.png",
+          "reference_path": "styles/discovery-cabinet/reference/index.html",
+          "title": "Radial six-jar discovery table"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/discovery-cabinet/preview-alt-mobile.png",
+          "preview_path": "styles/discovery-cabinet/preview-alt.png",
+          "reference_path": "styles/discovery-cabinet/reference/alternate.html",
+          "title": "Vertical drawer and personal collection workbench"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "publishing",
