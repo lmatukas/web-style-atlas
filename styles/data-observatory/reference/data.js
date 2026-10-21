@@ -1,0 +1,1 @@
+const records=[{"name": "North", "q1": 280, "q2": 330}, {"name": "East", "q1": 240, "q2": 280}, {"name": "Central", "q1": 360, "q2": 400}, {"name": "Riverside", "q1": 180, "q2": 220}, {"name": "Hill", "q1": 160, "q2": 190}, {"name": "West", "q1": 280, "q2": 300}];

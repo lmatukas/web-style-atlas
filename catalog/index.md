@@ -2,12 +2,13 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 11. Drafts and templates are excluded.
+Ready styles: 12. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
 | [Bauhaus Geometric](../styles/bauhaus-geometric/style.md) | expressive | Elementary shapes, flat color planes and an orthogonal modular grid for culture and graphic work. | [A: Geometric event poster](../styles/bauhaus-geometric/reference/index.html) · [B: Modular composition exhibition](../styles/bauhaus-geometric/reference/alternate.html) |
 | [Cinematic Photo](../styles/cinematic-photo/style.md) | photographic | Large photographic frames, dark breathing space and a slow scene sequence for visual storytelling. | [A: Photographic cover and selected scenes](../styles/cinematic-photo/reference/index.html) · [B: Vertical photographic notebook](../styles/cinematic-photo/reference/alternate.html) |
+| [Data Observatory](../styles/data-observatory/style.md) | technical | Explicit units, synchronized metrics and accurate quantitative marks with a searchable comparison table. | [A: Metrics and fixed-scale chart overview](../styles/data-observatory/reference/index.html) · [B: Filtered comparison table](../styles/data-observatory/reference/alternate.html) |
 | [Editorial Journal](../styles/editorial-journal/style.md) | editorial | A literary issue cover and long-form essay, with serif reading rhythm, margin notes and quiet paper surfaces. | [A: Cover story and departments](../styles/editorial-journal/reference/index.html) · [B: Essay with margin notes](../styles/editorial-journal/reference/alternate.html) |
 | [Field Notes](../styles/field-notes/style.md) | tactile | Documentary labels, marginal annotations and attached photo captions for a readable travel notebook. | [A: Travel fragment with margin notes](../styles/field-notes/reference/index.html) · [B: Route diary and photographs](../styles/field-notes/reference/alternate.html) |
 | [Institutional Clear](../styles/institutional-clear/style.md) | functional | Clear task labels, searchable services and readable information pages with predictable navigation. | [A: Task and service directory](../styles/institutional-clear/reference/index.html) · [B: Service information with contents](../styles/institutional-clear/reference/alternate.html) |

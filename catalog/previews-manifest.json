@@ -96,6 +96,46 @@
       "width": 390
     },
     {
+      "height": 1276,
+      "output_sha256": "dc80b17576f33523a86fdf2c659b8beb1e9f4e4f8c00d2cc352d2250c1908d2e",
+      "path": "styles/data-observatory/preview.png",
+      "source_sha256": "4d37a74dcf9b00b50f0c1ea8df0a1728f39a50db918496cbe4566bdc050bbefd",
+      "style_id": "data-observatory",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2075,
+      "output_sha256": "1f14d83ba029979f9b97c10cda8436cafeb2ee51b1392a89bb138e8960f1ffee",
+      "path": "styles/data-observatory/preview-mobile.png",
+      "source_sha256": "4d37a74dcf9b00b50f0c1ea8df0a1728f39a50db918496cbe4566bdc050bbefd",
+      "style_id": "data-observatory",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1534,
+      "output_sha256": "43c07a6a823a6f3f63ff84da7337f96829367974738d49dd4a31875b46e8d660",
+      "path": "styles/data-observatory/preview-alt.png",
+      "source_sha256": "4d37a74dcf9b00b50f0c1ea8df0a1728f39a50db918496cbe4566bdc050bbefd",
+      "style_id": "data-observatory",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 1600,
+      "output_sha256": "4e507db8db93b515baed500b86c248342d9a89e3b7dba7ff75463a5b6e92670f",
+      "path": "styles/data-observatory/preview-alt-mobile.png",
+      "source_sha256": "4d37a74dcf9b00b50f0c1ea8df0a1728f39a50db918496cbe4566bdc050bbefd",
+      "style_id": "data-observatory",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2066,
       "output_sha256": "99e1dc40266f2f3193e49e396989b78adebe1fab186d1479b2604f420ba61cd0",
       "path": "styles/editorial-journal/preview.png",
