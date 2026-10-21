@@ -2355,17 +2355,17 @@
     {
       "id": "S30",
       "title": "Light Environments",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S29"
       ],
       "worker": "Codex/fa3a4cc05875/S30",
       "claimed_at": "2026-10-21T15:24:45.412424Z",
-      "updated_at": "2026-10-21T15:44:58.631713Z",
+      "updated_at": "2026-10-21T15:47:54.625191Z",
       "branch": "task/s30-light-environments",
       "base_commit": "4488b7bdd6bb9e0b7cb3acca717beccb23f98f5a",
       "evidence_commit": "e546ca1df42378f07c66cdfd46bce4616c04ea33",
-      "merge_commit": null,
+      "merge_commit": "931d7c77087c9b003b9d91e2c0bd1f8e921c7020",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/69",
       "checks": [
         {
@@ -2387,14 +2387,19 @@
           "name": "Gallery/full prompt and visual acceptance",
           "status": "pass",
           "details": "Five integrations and actual exact full B creation prompt copy; all four final PNGs and all three native scenes viewed against two actual ready neighbors; 11/12 rubric."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39628422599 succeeded all three jobs on e546ca1df42378f07c66cdfd46bce4616c04ea33. PR #69 actually merged as 931d7c77087c9b003b9d91e2c0bd1f8e921c7020; tested parent and preserved main tracking verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S30.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head GitHub CI, inspect review state, then merge under owner authorization if required checks pass.",
-      "handoff": "PR #69 is open. API commit tree exactly matches the locally tested implementation. Complete this single task and stop; public release remains P18."
+      "next_action": "Single requested task completed. Next eligible task S31 on a new request; public release remains P18.",
+      "handoff": "Actual PR #69 merged after exact-head Atlas validation 39628422599 completed successfully. Tested head is a merge parent; only main tracking differs. Stop after this single task."
     },
     {
       "id": "S31",
