@@ -981,23 +981,56 @@
     {
       "id": "S12",
       "title": "Data Observatory",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S11"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:31:37Z",
-      "updated_at": "2026-10-21T03:31:37Z",
+      "updated_at": "2026-10-21T03:40:30Z",
       "branch": "task/s12-atlas",
       "base_commit": "f6ad91b63c53b9485cb5ce38415168a351953fa1",
-      "evidence_commit": null,
+      "evidence_commit": "dfd4be944ecb9390aa3253fafc91b56271414241",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/20",
+      "checks": [
+        {
+          "name": "source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four current canonical PNGs below 1 MiB; deterministic tokens/index/gallery."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B combinations at 360/768/1440, axe/resources/controls/focus; supplemental glyph, reduced-motion and real token checks."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/selection/reference browser cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "2 / 2 / 2 / 2 / 2 / 2 = 12/12; four actual previews inspected and available neighbors compared. Original simulated dataset and code-native chart; no external assets or live-source claims. Extra QA independently verified totals 1500/1720, maxima 360/400, every 0–500 bar proportion and axis edge, period pressed states, 220/14.7% change, numeric/name sorting, focus preservation, case filtering, empty/literal input and reset at all three widths. Gallery test exposed a fixture hardcoding removal of Editorial Journal after it left the first three alphabetical choices; the narrow test now removes an actually selected entry. Gallery UI unchanged. All three gallery cases and 69/69 unit tests passed after the fixture fix."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39539696143 succeeded on dfd4be944ecb9390aa3253fafc91b56271414241"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S12.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P09",
