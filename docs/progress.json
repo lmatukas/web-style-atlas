@@ -2404,17 +2404,17 @@
     {
       "id": "S31",
       "title": "Discovery Cabinet",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S30"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T15:52:50.251701Z",
-      "updated_at": "2026-10-21T16:06:52.045464Z",
+      "updated_at": "2026-10-21T16:09:11.382978Z",
       "branch": "task/s31-discovery-cabinet",
       "base_commit": "5cd5959c3ffb3d468645933b2d0b148dd1d1ded8",
       "evidence_commit": "8fb161b09e41435435d007d556b63f069460e7dd",
-      "merge_commit": null,
+      "merge_commit": "0cbc9fd708cb66f8a138fd33a015358c90b7d3d4",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/70",
       "checks": [
         {
@@ -2436,14 +2436,19 @@
           "name": "Visual and actual full prompt integration",
           "status": "pass",
           "details": "Four actual PNGs and two ready neighbors inspected; 11/12 rubric; exact B full prompt copy and real link at four gallery widths."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39631784420 succeeded on 8fb161b09e41435435d007d556b63f069460e7dd. Actual merge 0cbc9fd708cb66f8a138fd33a015358c90b7d3d4; tested parent and main tracking preserved."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S31.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
-      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
+      "next_action": "Continue authorized five-task batch; select next eligible task.",
+      "handoff": "Actual PR merge and exact tested head verified; CI and acceptance evidence passed. Continue authorized batch."
     },
     {
       "id": "S32",
