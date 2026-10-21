@@ -2262,23 +2262,41 @@
     {
       "id": "S28",
       "title": "Modular Light",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S27"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T14:24:44.029Z",
-      "updated_at": "2026-10-21T14:24:44.029Z",
+      "updated_at": "2026-10-21T14:45:16.739Z",
       "branch": "task/s28-expansion",
       "base_commit": "629a6143fef5bac59755666de3c2918b5e267076",
-      "evidence_commit": null,
+      "evidence_commit": "abedff062a414879b1689a0f7aa59e4b6b8284f0",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/65",
+      "checks": [
+        {
+          "name": "Source/build/scoped preview freshness",
+          "status": "pass",
+          "details": "28 ready styles; four final native WebGL previews below1MiB; existing108 PNGs untouched."
+        },
+        {
+          "name": "Actual runtime/business and browser gates",
+          "status": "pass",
+          "details": "10 final A/B cases including all45 configurations each, real UTF-8 .txt export, exact clipboard/manual copy, undo, context loss, finite native assembly/cone/explosion/reflow/pause;6 capability and6 browser/axe cases,4 widths. Additional both-page no-WebGL cone/count/undo/shade/navigation passed."
+        },
+        {
+          "name": "Gallery/full prompt and visual acceptance",
+          "status": "pass",
+          "details": "5 integrations and exact actual B full prompt copy; four final PNGs viewed against two actual neighbors;11/12."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S28.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S28 within owner-authorized sequential batch of five.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
+      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
     },
     {
       "id": "S29",
