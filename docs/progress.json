@@ -2404,23 +2404,46 @@
     {
       "id": "S31",
       "title": "Discovery Cabinet",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S30"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T15:52:50.251701Z",
-      "updated_at": "2026-10-21T15:52:50.251701Z",
+      "updated_at": "2026-10-21T16:06:52.045464Z",
       "branch": "task/s31-discovery-cabinet",
       "base_commit": "5cd5959c3ffb3d468645933b2d0b148dd1d1ded8",
-      "evidence_commit": null,
+      "evidence_commit": "8fb161b09e41435435d007d556b63f069460e7dd",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/70",
+      "checks": [
+        {
+          "name": "Scoped source/build/preview freshness",
+          "status": "pass",
+          "details": "validate/build/four canonical renders/rebuild/check for discovery-cabinet."
+        },
+        {
+          "name": "Actual A/B runtime and collection",
+          "status": "pass",
+          "details": "12 normal/reduced/API- or storage-blocked cases; six jars, slots, removal, real UTF-8 download, shared restore, three-stage growth and four widths."
+        },
+        {
+          "name": "Browser accessibility and responsive gates",
+          "status": "pass",
+          "details": "Six A/B pages at 360/768/1440 plus 390 interactive matrix; axe, keyboard, focus, resources and controls."
+        },
+        {
+          "name": "Visual and actual full prompt integration",
+          "status": "pass",
+          "details": "Four actual PNGs and two ready neighbors inspected; 11/12 rubric; exact B full prompt copy and real link at four gallery widths."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S31.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S31 with A/B, actual functional/motion gates and four canonical previews.",
-      "handoff": "Owner authorizes five new sequential tasks S31–S35, each in its own verified PR and merge. Continue after this task; stop after S35. Public release remains P18."
+      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
+      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
     },
     {
       "id": "S32",
