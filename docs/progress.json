@@ -1161,23 +1161,54 @@
     {
       "id": "P11",
       "title": "Vieša dokumentacija ir papildymo eiga",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P10"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T04:17:33Z",
-      "updated_at": "2026-10-21T04:17:33Z",
+      "updated_at": "2026-10-21T04:24:31Z",
       "branch": "task/p11-atlas",
       "base_commit": "859937275dc1ea06de5b56fd3958e0fb0d7b9500",
-      "evidence_commit": null,
+      "evidence_commit": "7c9925740a3ab9482eb7efe6f91bbc12984e16cf",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/23",
+      "checks": [
+        {
+          "name": "fresh README setup and checks",
+          "status": "pass",
+          "details": "Real fresh main clone a1c13de; npm ci, validate, build, check, ci:generated and all 74 unit cases passed; checkout stayed clean."
+        },
+        {
+          "name": "documented gallery workflow",
+          "status": "pass",
+          "details": "Actual npm run dev at / and /atlas/: 12 cards, search/reset, three comparisons, B/mobile choice and real selection-prompt copy path; no page/resource errors or 360px document overflow."
+        },
+        {
+          "name": "public links, rights and limitations",
+          "status": "pass",
+          "details": "All local Markdown targets exist; commands matched actual scripts; all 12 asset inventories/RIGHTS reconciled. GitHub has_pages false, so no invented deployment. Native runtime and accessibility/originality limits explicit."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "No whitespace errors; public docs/Markdown template/evidence only, no render inputs changed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39543798954 succeeded on 7c9925740a3ab9482eb7efe6f91bbc12984e16cf"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P11.md",
+        "README.md",
+        "README.lt.md",
+        "CONTRIBUTING.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P12",
