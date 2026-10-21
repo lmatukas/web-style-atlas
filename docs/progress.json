@@ -1876,22 +1876,22 @@
     {
       "id": "S24",
       "title": "Humanist Service",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S23"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/final-four",
+      "claimed_at": "2026-10-21T09:44:36.967Z",
+      "updated_at": "2026-10-21T09:44:36.968Z",
+      "branch": "task/s24-atlas",
+      "base_commit": "4402b46d40d0ad86f02620739e5e30d7268dc19a",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify the next task within final-queue authorization.",
       "handoff": null
     },
     {
