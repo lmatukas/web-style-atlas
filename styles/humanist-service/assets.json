@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "conversation",
+      "path": "assets/conversation.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S24)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original illustration of fictional digital-help session",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}

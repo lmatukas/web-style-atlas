@@ -456,6 +456,55 @@
     {
       "avoid_for": [],
       "best_for": [
+        "services",
+        "public-information"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "functional",
+      "id": "humanist-service",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Humanist Service",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Cream, warm peach, terracotta actions and dark olive text, with gentle curves and open reading space.",
+        "composition": "Welcoming person-to-person scene beside a plain invitation in A; a numbered vertical service path in B.",
+        "content_rhythm": "Invitation, named tasks, illustrated team and first-step reassurance versus topic, preparation and local plan outline.",
+        "imagery": "Original illustration of two fictional people learning together; simple illustrative team portraits.",
+        "interaction": "Actual topic/format radio choices update preparation, local plan summary and keyboard focus; native scope notes.",
+        "motion": "Quiet immediate guidance and stable path; no rotating people, timed steps or reveal gates.",
+        "navigation": "Visible help/people/process links and direct topic routes into the example planner.",
+        "typography": "Warm Georgia display at conversational scale with readable Arial labels and practical body text."
+      },
+      "status": "ready",
+      "style_path": "styles/humanist-service/style.md",
+      "summary": "Warm serif guidance, approachable illustrated people and a clear three-step path make practical service help feel patient and understandable.",
+      "tags": [
+        "humanist",
+        "warm",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/humanist-service/preview-mobile.png",
+          "preview_path": "styles/humanist-service/preview.png",
+          "reference_path": "styles/humanist-service/reference/index.html",
+          "title": "People and practical help"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/humanist-service/preview-alt-mobile.png",
+          "preview_path": "styles/humanist-service/preview-alt.png",
+          "reference_path": "styles/humanist-service/reference/alternate.html",
+          "title": "A patient three-step path"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "products",
         "documentation"
       ],
