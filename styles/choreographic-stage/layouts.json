@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Asymmetric stage and vertical performance sequence",
+      "page_type": "culture",
+      "reference_path": "reference/index.html",
+      "navigation": "Performances, real filtered programme and enquiry anchors; working programme sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Meet the artistic direction",
+          "pattern": "Asymmetric figure above a bottom-left headline and finite ribbon trajectory",
+          "content_requirements": [
+            "One original figure",
+            "900ms settled path",
+            "Pause/replay"
+          ]
+        },
+        {
+          "purpose": "Explore three concepts",
+          "pattern": "Manifesto then three alternating vertical performance chapters",
+          "content_requirements": [
+            "Original SVG figures",
+            "Bounded scroll movement",
+            "250ms descriptions"
+          ]
+        },
+        {
+          "purpose": "Choose an introduction",
+          "pattern": "Light filtered six-session programme, method and contact sheet",
+          "content_requirements": [
+            "Format/experience filters",
+            "200ms settled rows",
+            "Actual complete query copy",
+            "Concept labels"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: figure before bottom-left title, chapters stack, programme metadata and large native controls wrap. 768: reduced asymmetric stage; 1440: broad pauses and alternating chapters.",
+      "distinguishing_features": [
+        "Figure-led asymmetric first screen",
+        "Manifesto then full vertical performance chapters",
+        "Programme and contact sheet separated by method"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Format and experience-led programme workbook",
+      "page_type": "culture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Programme-first native filters, nearby enquiry and real stage sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient to a format",
+          "pattern": "Short introduction beside a compact abstract stage",
+          "content_requirements": [
+            "Concept boundary",
+            "Finite trajectory"
+          ]
+        },
+        {
+          "purpose": "Filter and prepare an enquiry",
+          "pattern": "Filtered programme beside an immediately available contact sheet",
+          "content_requirements": [
+            "Three formats",
+            "Two experience levels",
+            "Six authored combinations",
+            "Exact copy with optional thought"
+          ]
+        },
+        {
+          "purpose": "Explore creative context",
+          "pattern": "Compact three-concept performance index, method and closing manifesto",
+          "content_requirements": [
+            "Expandable descriptions",
+            "All concepts visible",
+            "Original figures"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390/768: introduction, compact figure, programme and enquiry stack before concise concept records. 1440: programme left and contact worksheet right.",
+      "distinguishing_features": [
+        "Practical filters and enquiry dominate the first task",
+        "Compact figure replaces full-bleed stage",
+        "Concise performance index follows the working programme"
+      ]
+    }
+  ]
+}
