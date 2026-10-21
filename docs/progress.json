@@ -2649,22 +2649,22 @@
     {
       "id": "S36",
       "title": "Rhythm Planner",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S35"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/8f365240145f/S36-S39",
+      "claimed_at": "2026-10-21T17:23:56.842Z",
+      "updated_at": "2026-10-21T17:23:56.842Z",
+      "branch": "task/s36-expansion",
+      "base_commit": "f84349cab6dd3b618ee7948642da23187f63d183",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Implement S36 in the authorized sequential S36–S39 batch.",
       "handoff": null
     },
     {
