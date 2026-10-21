@@ -2306,23 +2306,46 @@
     {
       "id": "S29",
       "title": "Twilight Expedition",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S28"
       ],
       "worker": "Codex/fa3a4cc05875/S29",
       "claimed_at": "2026-10-21T14:53:08.537811Z",
-      "updated_at": "2026-10-21T14:53:08.537827Z",
+      "updated_at": "2026-10-21T15:08:45.778374Z",
       "branch": "task/s29-twilight-expedition",
       "base_commit": "a60910954af27742a936437023dd0d432ed158a5",
-      "evidence_commit": null,
+      "evidence_commit": "7e0442175212223eac3bb303401957d86bec486d",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/68",
+      "checks": [
+        {
+          "name": "Scoped source/build/canonical preview freshness",
+          "status": "pass",
+          "details": "29 ready styles; four actual WebGL PNGs below 1 MiB; existing 112 PNGs unchanged."
+        },
+        {
+          "name": "Actual A/B runtime/business/browser gates",
+          "status": "pass",
+          "details": "12 actual runtime/business cases, six browser/axe cases, 360/390/768/1440; three routes/four durations, validated exact enquiry copy, native keyboard, normal/reduced/fallback, light reversal, pause and context loss."
+        },
+        {
+          "name": "Gallery/full prompt and visual acceptance",
+          "status": "pass",
+          "details": "Five scoped integrations and actual exact full B prompt copy; all four final PNGs viewed against two actual ready neighbors; 11/12 rubric."
+        },
+        {
+          "name": "Unit regression",
+          "status": "pass",
+          "details": "81 tests passed; no shared infrastructure or dependency changes."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S29.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S29 A/B, actual WebGL and functional gates, four canonical previews, then PR.",
-      "handoff": "Continuation request authorizes next single task and merge after successful required checks."
+      "next_action": "Wait for exact-head GitHub CI, inspect PR and merge under existing owner authorization if all required checks pass.",
+      "handoff": "Implementation PR #68 is open on exact API commit whose tree matches the locally tested commit. Single continuation task; do not start S30 in this turn. Public release remains P18."
     },
     {
       "id": "S30",
