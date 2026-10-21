@@ -1223,7 +1223,7 @@
       ],
       "worker": "Codex/2875ce3dc6da",
       "claimed_at": "2026-10-21T05:45:05.251Z",
-      "updated_at": "2026-10-21T05:54:41.527Z",
+      "updated_at": "2026-10-21T06:09:38.160188Z",
       "branch": "task/p12-release",
       "base_commit": "a1c5aa3a673a30db52af590969490d02f2b08d38",
       "evidence_commit": "3f96a49ec31dee8232894e5cb961ab8aeabe324f",
@@ -1264,6 +1264,11 @@
           "name": "GitHub exact-head CI",
           "status": "pass",
           "details": "Atlas validation run 39551856700 succeeded on 3f96a49ec31dee8232894e5cb961ab8aeabe324f; actual merged PR state verified."
+        },
+        {
+          "name": "public Pages deployment and live UI smoke check",
+          "status": "pass",
+          "details": "Owner-triggered run 39553116803 verify/deploy succeeded for ac7f018111793da2d47794bc6f6778fe53f55f0c. Opened https://lmatukas.github.io/web-style-atlas/ and Bauhaus A; verified 12 cards, search/reset, three comparisons, B/mobile and real prompt copy in the cloud browser."
         }
       ],
       "evidence_paths": [
@@ -1272,7 +1277,7 @@
       ],
       "blocker": null,
       "next_action": "P12 accepted; S13 Gallery White Cube is the next eligible task.",
-      "handoff": "PR #24 exact tested head passed all GitHub validation gates and was merged; actual merged state and implementation tree verified. 0.1.0 prepared, Pages publication remains the documented manual action. One-task request complete."
+      "handoff": "0.1.0 public gallery published and live UI checked: https://lmatukas.github.io/web-style-atlas/ . Deployment run 39553116803 succeeded; actual URL and opened example retained in docs/evidence/P12.md and public READMEs. No tag/GitHub Release created. S13 remains next; later gallery updates need authorized manual publication."
     },
     {
       "id": "S13",

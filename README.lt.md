@@ -4,11 +4,13 @@
 pavyzdžiai ir 48 kompiuterio bei telefono peržiūros. Visas 24 krypčių planas dar
 nebaigtas. [Darbų būsena](docs/STATUS.md).
 
-[Peržiūrėk paruoštas kryptis](catalog/index.md),
+**[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/)** – rinkis ir palygink stilius naršyklėje.
+
+Taip pat gali [peržiūrėti paruoštų krypčių sąrašą](catalog/index.md),
 [tikrą kompiuterio peržiūrą](styles/swiss-grid/preview.png) arba
 [telefono peržiūrą](styles/swiss-grid/preview-mobile.png).
-Interaktyvi galerija paleidžiama vietoje pagal žemiau pateiktas komandas;
-patvirtinto viešai veikiančio galerijos adreso šiuo metu nėra.
+Vieša galerija paskelbta ir praktiškai patikrinta 2026-10-21. Vietinį variantą
+galima paleisti pagal žemiau pateiktas komandas.
 
 ## Paprasčiausias praktinis bandymas
 

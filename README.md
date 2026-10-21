@@ -6,10 +6,12 @@ for AI coding agents. Use a direction to build a website in your own project.
 **Ready now: 12 directions, 24 A/B reference pages and 48 desktop/mobile previews.**
 The 24-direction catalogue remains planned work; see the [work board](docs/STATUS.md).
 
-**Preview gallery:** [run the interactive gallery locally](#run-the-gallery),
+**Live gallery:** [open Web Style Atlas](https://lmatukas.github.io/web-style-atlas/).
+You can also [run the interactive gallery locally](#run-the-gallery),
 [browse the ready catalogue](catalog/index.md), or open a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
-No hosted gallery is configured in this repository at this revision.
+The public gallery was opened and checked after the successful Pages deployment
+on 2026-10-21; see [publication evidence](docs/evidence/P12.md#public-pages-publication--2026-10-21).
 
 ## Start with one prompt
 
