@@ -803,6 +803,56 @@
           "title": "Chronological log with information panels"
         }
       ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
+        "culture",
+        "campaign",
+        "products"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "nostalgic",
+      "id": "y2k-chrome",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Y2K Chrome",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Pale periwinkle ground, silver highlights and deep violet actions; live text remains solid readable ink.",
+        "composition": "Large stacked poster words beside a metallic object and orbit; B uses one featured edition followed by object-led collection rows.",
+        "content_rhythm": "Poster, release sequence, slogan band and edition record versus featured object, two smaller forms and collection note.",
+        "imagery": "Original CSS sphere, reflective orbit, disc and capsule forms with polished gradient material.",
+        "interaction": "Actual edition/track-section links and native volume-note disclosures; no simulated audio player.",
+        "motion": "Static metallic forms and light; nonessential transitions removed with reduced motion.",
+        "navigation": "Release and collection links; B adds a real numbered three-edition index.",
+        "typography": "Heavy tightly tracked sans-serif campaign display with small monospaced release identifiers."
+      },
+      "status": "ready",
+      "style_path": "styles/y2k-chrome/style.md",
+      "summary": "Futuristic pop-poster scale, polished metallic objects and tilted orbits, with a distinct indexed audio-visual collection composition.",
+      "tags": [
+        "metallic",
+        "poster",
+        "dimensional"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/y2k-chrome/preview-mobile.png",
+          "preview_path": "styles/y2k-chrome/preview.png",
+          "reference_path": "styles/y2k-chrome/reference/index.html",
+          "title": "Audio-visual release poster"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/y2k-chrome/preview-alt-mobile.png",
+          "preview_path": "styles/y2k-chrome/preview-alt.png",
+          "reference_path": "styles/y2k-chrome/reference/alternate.html",
+          "title": "Indexed edition collection"
+        }
+      ]
     }
   ]
 }

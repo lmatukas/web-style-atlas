@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Audio-visual release poster",
+      "page_type": "campaign",
+      "reference_path": "reference/index.html",
+      "navigation": "Release sequence, collection and edition-note destinations.",
+      "ordered_sections": [
+        {
+          "purpose": "Establish release world",
+          "pattern": "Oversized stacked words beside metallic sphere/orbit",
+          "content_requirements": [
+            "Release title",
+            "Object illustration"
+          ]
+        },
+        {
+          "purpose": "Inspect sequence",
+          "pattern": "Short introduction beside numbered tracks",
+          "content_requirements": [
+            "Three original titles",
+            "Durations"
+          ]
+        },
+        {
+          "purpose": "Extend campaign voice",
+          "pattern": "Large slogan and graphic pause",
+          "content_requirements": [
+            "One short message",
+            "Material motif"
+          ]
+        },
+        {
+          "purpose": "Read edition record",
+          "pattern": "Native volume notes and collection link",
+          "content_requirements": [
+            "Fictional status",
+            "Total duration"
+          ]
+        }
+      ],
+      "mobile_reflow": "Words precede complete object; strip wraps; track rows retain three roles.",
+      "distinguishing_features": [
+        "Poster-scale text/object balance",
+        "Polished sphere with open tilted orbit",
+        "Compact transmission strip and real release sequence"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Indexed edition collection",
+      "page_type": "culture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Numbered index for three real edition sections and poster return.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient in collection",
+          "pattern": "Headline beside edition index",
+          "content_requirements": [
+            "Three edition names",
+            "Anchors"
+          ]
+        },
+        {
+          "purpose": "Inspect featured edition",
+          "pattern": "Large object beside record",
+          "content_requirements": [
+            "Main object",
+            "Sequence link"
+          ]
+        },
+        {
+          "purpose": "Browse related objects",
+          "pattern": "Two horizontal object/title/number rows",
+          "content_requirements": [
+            "Disc",
+            "Capsules",
+            "Volume notes"
+          ]
+        },
+        {
+          "purpose": "Read collection record",
+          "pattern": "Concise closing and poster link",
+          "content_requirements": [
+            "Original illustration scope",
+            "Fictional release context"
+          ]
+        }
+      ],
+      "mobile_reflow": "Index wraps; each object precedes copy and number; disclosures stay inline.",
+      "distinguishing_features": [
+        "One featured edition with two smaller object rows",
+        "Actual three-section collection index",
+        "Distinct sphere/disc/capsule material forms"
+      ]
+    }
+  ]
+}

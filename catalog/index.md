@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 16. Drafts and templates are excluded.
+Ready styles: 17. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -22,3 +22,4 @@ Ready styles: 16. Drafts and templates are excluded.
 | [Retro Web](../styles/retro-web/style.md) | nostalgic | A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels. | [A: Personal web portal](../styles/retro-web/reference/index.html) · [B: Subject-filed entry archive](../styles/retro-web/reference/alternate.html) |
 | [Swiss Grid](../styles/swiss-grid/style.md) | typographic | Numbered typographic grids, oversized alignment and precise service or portfolio indexes. | [A: Typographic service index](../styles/swiss-grid/reference/index.html) · [B: Asymmetric work catalogue](../styles/swiss-grid/reference/alternate.html) |
 | [Terminal Utility](../styles/terminal-utility/style.md) | technical | A readable command index and chronological information panels with a consistent monospace voice. | [A: Command-like service index](../styles/terminal-utility/reference/index.html) · [B: Chronological log with information panels](../styles/terminal-utility/reference/alternate.html) |
+| [Y2K Chrome](../styles/y2k-chrome/style.md) | nostalgic | Futuristic pop-poster scale, polished metallic objects and tilted orbits, with a distinct indexed audio-visual collection composition. | [A: Audio-visual release poster](../styles/y2k-chrome/reference/index.html) · [B: Indexed edition collection](../styles/y2k-chrome/reference/alternate.html) |
