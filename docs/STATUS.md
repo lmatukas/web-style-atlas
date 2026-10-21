@@ -4,7 +4,7 @@
 
 **Baigta: 37/38.**
 
-**Pirmiausia patikrinti P14: Vykdoma; vykdytojas Codex/60722bd95b94/P14-resume.**
+**Pirmiausia patikrinti P14: Laukia peržiūros; vykdytojas Codex/60722bd95b94/P14-resume.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -47,6 +47,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S23](tasks/S23.md) | Pop Commerce | Baigta | Codex/2875ce3dc6da/final-four | task/s23-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/35) | 2026-10-21T09:44:11.433Z | Select next eligible task within owner-authorized sequential batch. |
 | [S24](tasks/S24.md) | Humanist Service | Baigta | Codex/2875ce3dc6da/final-four | task/s24-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/36) | 2026-10-21T09:51:43.976Z | Select next eligible task within owner-authorized sequential batch. |
 | [P13](tasks/P13.md) | 24 stilių įvairovės ir naudojimo auditas | Baigta | Codex/2875ce3dc6da/final-four | task/p13-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/37) | 2026-10-21T10:00:11.625Z | Select next eligible task within owner-authorized sequential batch. |
-| [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Vykdoma | Codex/60722bd95b94/P14-resume | task/p14-atlas | — | 2026-10-21T10:14:11.407Z | Resume the recovered 1.0.0 implementation, verify release gates and publish its single implementation PR. |
+| [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Laukia peržiūros | Codex/60722bd95b94/P14-resume | task/p14-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/39) | 2026-10-21T10:21:38.647Z | Wait for exact-head PR #39 CI, merge if all required gates pass, then record acceptance. Owner must start a new main release workflow with publish enabled; rerunning old run 39582682091 uses pre-P14 code. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

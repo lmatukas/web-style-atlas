@@ -1982,23 +1982,47 @@
     {
       "id": "P14",
       "title": "Galutinis leidimas ir perdavimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P13"
       ],
       "worker": "Codex/60722bd95b94/P14-resume",
       "claimed_at": "2026-10-21T10:00:37.372Z",
-      "updated_at": "2026-10-21T10:14:11.407Z",
+      "updated_at": "2026-10-21T10:21:38.647Z",
       "branch": "task/p14-atlas",
       "base_commit": "877fe8fa4ab887e360e15b9c5d6631fa68390ceb",
-      "evidence_commit": null,
+      "evidence_commit": "92bd299fcce7b3dfd1a964b514140e7f3917533d",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/39",
+      "checks": [
+        {
+          "name": "Clean-clone full release gates",
+          "status": "pass",
+          "details": "Recovered a6bd7b9 clean clone: 74 unit tests, 3 gallery tests covering all 48 references, 147 browser cases across 24 styles and 4 renderer/negative quality tests. Completed logs and clean source state inspected."
+        },
+        {
+          "name": "Resumed deterministic build and release inventory",
+          "status": "pass",
+          "details": "Locked install, two unchanged builds, full freshness, 24 styles / 48 unique references / 96 unique previews, largest PNG 980888 bytes, board and whitespace checks."
+        },
+        {
+          "name": "Rights, links and bounded public-source inventory",
+          "status": "pass",
+          "details": "529 tracked files, 237 local Markdown links; no missing targets, credential-pattern files or temporary build/test/archive/video artifacts. Five photographic copies accounted for."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "not_run",
+          "details": "PR #39 run 39583901851 is in progress on 92bd299fcce7b3dfd1a964b514140e7f3917533d; do not merge before success."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P14.md",
+        "docs/releases/1.0.0.md"
+      ],
       "blocker": null,
-      "next_action": "Resume the recovered 1.0.0 implementation, verify release gates and publish its single implementation PR.",
-      "handoff": "Owner handed off the interrupted final release on 2026-10-21. Previous worker: Codex/2875ce3dc6da/final-four. Recover local implementation a6bd7b9363d0cac2902029ffd1841b4f19124d3f, finish clean-clone evidence, open and merge P14 with existing authorization. Failed manual publication run 39582682091 used old main and stopped at the obsolete 12-style gate."
+      "next_action": "Wait for exact-head PR #39 CI, merge if all required gates pass, then record acceptance. Owner must start a new main release workflow with publish enabled; rerunning old run 39582682091 uses pre-P14 code.",
+      "handoff": "Recovered interrupted implementation and completed clean-clone evidence. Source release is 1.0.0 (24/48/96); public gallery remains verified 0.1.0 with 12 styles. Existing merge/publication authorization applies. GitHub app cannot dispatch and available cloud browser is signed out. No new deployment claimed."
     }
   ]
 }
