@@ -4,7 +4,7 @@
 
 **Baigta: 59/75.**
 
-**Kita užduotis: [P24](tasks/P24.md).**
+**Pirmiausia patikrinti P24: Vykdoma; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -70,7 +70,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19 | task/p19-distinctiveness | [PR](https://github.com/lmatukas/web-style-atlas/pull/82) | 2026-10-21T21:06:25Z | Baigta; nėra veiksmo. |
 | [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:08:30Z | Savininkas patvirtina arba atmeta core/language-policy.md sprendimą |
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Užblokuota | — | — | — | 2026-10-21T21:08:51Z | Keičiant styles/*/style.md (frontmatter) pasikeičia preview šaltinio hash (scripts/previews.mjs sourceHash apima visus stiliaus autorinius failus), todėl PNG ir catalog/previews-manifest.json reikia perkurti kanoninėje aplinkoje (Ubuntu 24.04, Node 24.19.0, locked Playwright). Ta aplinka šioje sesijoje neprieinama. |
-| [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P24.md. |
+| [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Vykdoma | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | — | 2026-10-21T21:09:00Z | Atlikti teisių auditą tik skaitymu; įrodymai docs/evidence/P24.md; PR [P24] |
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S40.md. |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |

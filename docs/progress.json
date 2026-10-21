@@ -2978,22 +2978,22 @@
     {
       "id": "P24",
       "title": "Teisių ir šaltinių audito papildymas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24",
+      "claimed_at": "2026-10-21T21:09:00Z",
+      "updated_at": "2026-10-21T21:09:00Z",
+      "branch": "task/p24-rights-audit",
+      "base_commit": "cd9e135",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/P24.md.",
+      "next_action": "Atlikti teisių auditą tik skaitymu; įrodymai docs/evidence/P24.md; PR [P24]",
       "handoff": null
     },
     {
