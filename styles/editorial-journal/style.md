@@ -63,7 +63,7 @@ Targets include semantic article and aside landmarks, one page-level heading, or
 
 ## Adaptation
 
-Replace the fictional essays with a real publication issue and an actual long-form story. Keep the relationship between a short cover proposition and a narrow article argument, even if WordPress or another content system supplies the text. Use excerpt lengths that fit the editorial hierarchy instead of equalising every department into the same card. Photography is optional; a publication without rights-cleared imagery can remain strongly typographic. A dense breaking-news portal should use the planned newspaper-ledger direction rather than overloading these spacious reading surfaces.
+Replace the fictional essays with a real publication issue and an actual long-form story. Keep the relationship between a short cover proposition and a narrow article argument, even if WordPress or another content system supplies the text. Use excerpt lengths that fit the editorial hierarchy instead of equalising every department into the same card. Photography is optional; a publication without rights-cleared imagery can remain strongly typographic. A dense breaking-news portal should use the ready newspaper-ledger direction rather than overloading these spacious reading surfaces.
 
 ## Avoid
 
@@ -71,4 +71,4 @@ Replace the fictional essays with a real publication issue and an actual long-fo
 
 ## Closest styles
 
-Compared with the implemented swiss-grid, this direction changes typography from neutral sans-serif to literary serif, changes navigation from a numbered practice index to departments and an essay contents list, and changes rhythm from short service rows to continuous reading with margin notes. Composition also shifts from extreme flush-left scale to centred masthead and narrow article measure. The planned newspaper-ledger is a future neighbor, not an existing comparison: it should eventually use denser multi-column information and analytic tables rather than this generous long-form pacing.
+Newspaper Ledger is the nearest ready editorial neighbor. Editorial Journal uses a generous literary masthead, a few department excerpts and a sustained essay with margin contents and a pull quote. Newspaper Ledger uses a denser front page with simultaneous lead/sidebar stories, stronger editorial rules and a numeric analysis ledger. Department and essay navigation differ from issue sections, analysis and record routes. Field Notes is another comparison: its documentary annotations, route sketch and timed observations differ from literary reading. P13 compares the actual A/B computer and phone compositions, rather than treating the shared warm serif palette as proof.
