@@ -2751,31 +2751,36 @@
     {
       "id": "S39",
       "title": "Membrane Score",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S38"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:47:54.543Z",
-      "updated_at": "2026-10-21T17:56:24.518Z",
+      "updated_at": "2026-10-21T17:58:40.633Z",
       "branch": "task/s39-expansion",
       "base_commit": "e9f31d744e92910670caf6e67aa61928cbd37e52",
       "evidence_commit": "c9fa308cb19f9217950304bfda7606b9a063ce01",
-      "merge_commit": null,
+      "merge_commit": "76985be21817a6a4b45a1c044e35d10ddf3c8688",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/78",
       "checks": [
         {
           "name": "Source/build/freshness, actual synthesis, runtime/business, four widths and prompt",
           "status": "pass",
           "details": "14 A/B cases; nonzero independent PCM and zero muted output; one-bar real tempo interpolation; 32-beat termination; exact local recipe/sibling restore; active audio lifecycle; 11/12 visual rubric."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39648214213 succeeded on c9fa308cb19f9217950304bfda7606b9a063ce01; PR #78 merged as 76985be21817a6a4b45a1c044e35d10ddf3c8688."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S39.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge; then complete the authorized S36–S39 batch.",
-      "handoff": "Fourth/final authorized S36–S39 task. S39 ready for exact-head CI and merge. Stop after accepting S39; P17/P18 are outside this batch."
+      "next_action": "S39 accepted; continue authorized S36–S39 sequence.",
+      "handoff": "PR #78 actually merged; exact tested implementation is a merge parent and merged tree matches local implementation plus review tracking. All three CI jobs passed."
     },
     {
       "id": "P17",
