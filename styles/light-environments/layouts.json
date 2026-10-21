@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Three light-environment exhibition",
+      "page_type": "culture",
+      "reference_path": "reference/index.html",
+      "navigation": "Exhibition, environments, personal route, about and actual sibling workbench.",
+      "ordered_sections": [
+        {
+          "purpose": "Enter the exhibition",
+          "pattern": "Narrow vertical title beside a broad installation scene",
+          "content_requirements": [
+            "Amphitheatre light horizon",
+            "Three light directions"
+          ]
+        },
+        {
+          "purpose": "Explore three spatial rhythms",
+          "pattern": "Alternating environment essays with distinct diagrams",
+          "content_requirements": [
+            "Sand amphitheatre",
+            "Fabric vault",
+            "Shadow valley"
+          ]
+        },
+        {
+          "purpose": "Compose a sequence",
+          "pattern": "Personal route ledger next to a large typographic invitation",
+          "content_requirements": [
+            "Add/reorder/remove",
+            "Local persistence",
+            "UTF-8 download"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: horizontal title above compact scene, all environment essays and route controls stack; 768: narrower two-column essays; 1440: vertical title and broad stage.",
+      "distinguishing_features": [
+        "Narrative exhibition precedes personal route construction.",
+        "Vertical title strip and alternating large environment studies."
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Personal exhibition route desk",
+      "page_type": "culture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Immediate environment index, live stage and personal route ledger, then about.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose the route directly",
+          "pattern": "Three-zone workbench: environment index, live installation and route ledger",
+          "content_requirements": [
+            "All three environment descriptions",
+            "Native light buttons",
+            "Immediate route list"
+          ]
+        },
+        {
+          "purpose": "Arrange and export",
+          "pattern": "Persistent numbered route with explicit moves and remove",
+          "content_requirements": [
+            "Keyboard reorder",
+            "Real local save",
+            "Actual text download"
+          ]
+        },
+        {
+          "purpose": "Understand the concept",
+          "pattern": "Short exhibition premise and storage disclosure",
+          "content_requirements": [
+            "Fictional demonstration",
+            "Device-local data"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390/768: stage first, index second, route third; 1440: three unequal workbench columns with all choices visible.",
+      "distinguishing_features": [
+        "Planning and environment comparison come first.",
+        "Numbered route stays beside the central live stage instead of following three essays."
+      ]
+    }
+  ]
+}
