@@ -2826,28 +2826,38 @@
     {
       "id": "P18",
       "title": "39 krypčių leidimo paruošimas ir publikavimas",
-      "status": "review",
+      "status": "blocked",
       "depends_on": [
         "P17"
       ],
       "worker": "Codex/8f365240145f/final-audit-release",
       "claimed_at": "2026-10-21T18:54:14.647Z",
-      "updated_at": "2026-10-21T18:59:21.682Z",
+      "updated_at": "2026-10-21T19:10:47.411Z",
       "branch": "task/p18-final",
       "base_commit": "d767ed3eaa25c168c75491195e2eeafbc72c6276",
       "evidence_commit": "ec929de963b372dfeca0eee61a743668a29f9558",
-      "merge_commit": null,
+      "merge_commit": "b462e4f79950482b9a501b4e66edf116f9398af2",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/80",
       "checks": [
         {
           "name": "Canonical release provenance",
           "status": "pass",
-          "details": "Actual canonical rerender of all 39 styles /156 frames after 1.1.0 package and lock version. All PNG output hashes unchanged, current source bindings regenerated."
+          "details": "Actual canonical rerender of all 39 styles/156 frames after 1.1.0 package and lock version. All PNG output hashes unchanged, current source bindings regenerated."
         },
         {
           "name": "Clean clone and actual distribution integration",
           "status": "pass",
           "details": "Actual clean clone and locked offline npm ci; 81 source tests, current 39/78/156, byte-identical double build, 15 exact local full prompts/30 actual A/B copies, manual fallback, subpath, business case and licence staging passed."
+        },
+        {
+          "name": "Exact-head full GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Run 39657617152 succeeded on ec929de963b372dfeca0eee61a743668a29f9558. All three jobs passed, including five gallery tests, 237 page cases, nine fixture tests and 90 runtime cases. Actual PR #80 merge, tested parent and resulting tree verified."
+        },
+        {
+          "name": "Publish and actual live 1.1.0 checks",
+          "status": "not_run",
+          "details": "Connector has no workflow-dispatch operation. Owner action: release.yml → Run workflow → main → publish=true → Run workflow. After successful verify/deploy, record run/deployed SHA and actual live 39-card/search/A-B/mobile/full-copy/new-reference checks."
         }
       ],
       "evidence_paths": [
@@ -2855,9 +2865,9 @@
         "docs/evidence/P18-clean-clone.json",
         "docs/releases/1.1.0.md"
       ],
-      "blocker": null,
-      "next_action": "Wait for full exact-head GitHub CI, merge authorized PR #80 if successful. Then record blocked publication with one precise manual workflow action.",
-      "handoff": "Source release 1.1.0 prepared and tested in a clean clone. Full exact-head CI still pending. GitHub connector cannot dispatch release; no new deployment or live 1.1.0 success claimed."
+      "blocker": "Prepared 1.1.0 PR #80 is merged and all required gates passed. The GitHub connector cannot dispatch the manual release; waiting for one owner Run workflow action with main and publish=true.",
+      "next_action": "Open https://github.com/lmatukas/web-style-atlas/actions/workflows/release.yml → Run workflow → main → publish=true → Run workflow. Then verify deploy, open actual gallery, record run/deployed SHA/live checks, and mark P18 done.",
+      "handoff": "Source preparation accepted; P17 is done and P18 remains blocked only at authorized manual publication. Exact tested head and actual merged tree verified. Preserve 1.0.0 history; do not claim live 1.1.0 until the new run and UI observations exist."
     }
   ]
 }
