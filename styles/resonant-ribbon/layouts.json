@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Travelling ribbon making story",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible making/character/enquiry anchors and real instrument choice buttons.",
+      "ordered_sections": [
+        {
+          "purpose": "Fragmentary macro and compact invitation",
+          "pattern": "Fragmentary macro and compact invitation",
+          "content_requirements": [
+            "Original Lithuanian content",
+            "Meaningful control or material explanation"
+          ]
+        },
+        {
+          "purpose": "Three manufacturing chapters beside one ribbon",
+          "pattern": "Three manufacturing chapters beside one ribbon",
+          "content_requirements": [
+            "Original Lithuanian content",
+            "Meaningful control or material explanation"
+          ]
+        },
+        {
+          "purpose": "Blue character experiment and validated enquiry",
+          "pattern": "Blue character experiment and validated enquiry",
+          "content_requirements": [
+            "Original Lithuanian content",
+            "Meaningful control or material explanation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Macro precedes text; instrument, process and character controls stack or wrap at 360px.",
+      "distinguishing_features": [
+        "Fragmentary macro and compact invitation",
+        "Three manufacturing chapters beside one ribbon",
+        "Blue character experiment and validated enquiry"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Three-instrument macro gallery",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible making/character/enquiry anchors and real instrument choice buttons.",
+      "ordered_sections": [
+        {
+          "purpose": "Three large numbered macro studies",
+          "pattern": "Three large numbered macro studies",
+          "content_requirements": [
+            "Original Lithuanian content",
+            "Meaningful control or material explanation"
+          ]
+        },
+        {
+          "purpose": "Material note and character selection",
+          "pattern": "Material note and character selection",
+          "content_requirements": [
+            "Original Lithuanian content",
+            "Meaningful control or material explanation"
+          ]
+        },
+        {
+          "purpose": "Wood-shade enquiry with actual local draft",
+          "pattern": "Wood-shade enquiry with actual local draft",
+          "content_requirements": [
+            "Original Lithuanian content",
+            "Meaningful control or material explanation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Macro precedes text; instrument, process and character controls stack or wrap at 360px.",
+      "distinguishing_features": [
+        "Three large numbered macro studies",
+        "Material note and character selection",
+        "Wood-shade enquiry with actual local draft"
+      ]
+    }
+  ]
+}
