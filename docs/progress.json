@@ -2355,23 +2355,23 @@
     {
       "id": "S30",
       "title": "Light Environments",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S29"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/fa3a4cc05875/S30",
+      "claimed_at": "2026-10-21T15:24:45.412424Z",
+      "updated_at": "2026-10-21T15:24:45.412439Z",
+      "branch": "task/s30-light-environments",
+      "base_commit": "4488b7bdd6bb9e0b7cb3acca717beccb23f98f5a",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
-      "handoff": null
+      "next_action": "Implement S30 A/B, native WebGL scenes and persistent route planner, actual checks and four canonical previews.",
+      "handoff": "Owner requested next single task; merge after successful required checks. Public release remains P18."
     },
     {
       "id": "S31",
