@@ -2717,23 +2717,31 @@
     {
       "id": "S38",
       "title": "Trail Composer",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S37"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:40:08.231Z",
-      "updated_at": "2026-10-21T17:40:08.231Z",
+      "updated_at": "2026-10-21T17:46:05.018Z",
       "branch": "task/s38-expansion",
       "base_commit": "ec4509802c411f15eb624d4dd94813a00a6e0002",
-      "evidence_commit": null,
+      "evidence_commit": "29afe8ee01660118ab69aa3998d1a766a72d7ed6",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/77",
+      "checks": [
+        {
+          "name": "Source/build/freshness, runtime/business, SVG fallback, lifecycle and gallery",
+          "status": "pass",
+          "details": "10 A/B cases, 108 complete configurations; exact TXT; constraints and empty states; four-width axe; SVG unavailable functions; active lifecycle; 11/12 visual rubric."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S38.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S38 in the authorized sequential S36–S39 batch.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge before S39.",
+      "handoff": "Authorized S36–S39 sequential batch. S38 ready for exact-head CI and merge; no deployment."
     },
     {
       "id": "S39",
