@@ -216,6 +216,46 @@
       "width": 390
     },
     {
+      "height": 6606,
+      "output_sha256": "38a0d4e408239070cd22aea268d36d5df0d2a58366849146d43bfcf34941e076",
+      "path": "styles/choreographic-stage/preview.png",
+      "source_sha256": "00ceddf795a97817b374922c3d63afde63e392e69a68bbf89b856fe98d510feb",
+      "style_id": "choreographic-stage",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6937,
+      "output_sha256": "2334d3a64d8d911497e8b4346c4fd6d5b3a2d8ce4128f86792e163678db2a63f",
+      "path": "styles/choreographic-stage/preview-mobile.png",
+      "source_sha256": "00ceddf795a97817b374922c3d63afde63e392e69a68bbf89b856fe98d510feb",
+      "style_id": "choreographic-stage",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 4558,
+      "output_sha256": "2f81419dbeea5a9dc07a31d2b21b6645ef4f77424ee07be2ce3f12c80e20c5c3",
+      "path": "styles/choreographic-stage/preview-alt.png",
+      "source_sha256": "00ceddf795a97817b374922c3d63afde63e392e69a68bbf89b856fe98d510feb",
+      "style_id": "choreographic-stage",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5911,
+      "output_sha256": "042315723bdc8cfc63a8ca0b01a3a63182ab629f231dd43a1c34285c31e75da6",
+      "path": "styles/choreographic-stage/preview-alt-mobile.png",
+      "source_sha256": "00ceddf795a97817b374922c3d63afde63e392e69a68bbf89b856fe98d510feb",
+      "style_id": "choreographic-stage",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1988,
       "output_sha256": "b4e6d400eab80241c1b7d14e06ca3de0263a29f905ef43bf0d4137e95f9fcdd4",
       "path": "styles/cinematic-photo/preview.png",

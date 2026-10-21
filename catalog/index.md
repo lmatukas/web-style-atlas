@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 32. Drafts and templates are excluded.
+Ready styles: 33. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -11,6 +11,7 @@ Ready styles: 32. Drafts and templates are excluded.
 | [Art Deco](../styles/art-deco/style.md) | ornamental | Axial invitation compositions, stepped architectural ornament and ceremonial rules, paired with a house-story and room-concept layout. | [A: Cultural evening invitation](../styles/art-deco/reference/index.html) · [B: Hotel house story and room concepts](../styles/art-deco/reference/alternate.html) |
 | [Bauhaus Geometric](../styles/bauhaus-geometric/style.md) | expressive | Elementary shapes, flat color planes and an orthogonal modular grid for culture and graphic work. | [A: Geometric event poster](../styles/bauhaus-geometric/reference/index.html) · [B: Modular composition exhibition](../styles/bauhaus-geometric/reference/alternate.html) |
 | [Botanical Engraving](../styles/botanical-engraving/style.md) | illustrative | Fine botanical line illustration with plate numbers, accepted names and attached observations, from a garden story to a classified cabinet. | [A: Plant and origin story](../styles/botanical-engraving/reference/index.html) · [B: Classified three-plate herbarium](../styles/botanical-engraving/reference/alternate.html) |
+| [Choreographic Stage](../styles/choreographic-stage/style.md) | expressive | Abstract airborne figures, a finite ribbon trajectory and generous editorial pauses connect an asymmetric stage to a real format-and-experience programme. | [A: Asymmetric stage and vertical performance sequence](../styles/choreographic-stage/reference/index.html) · [B: Format and experience-led programme workbook](../styles/choreographic-stage/reference/alternate.html) |
 | [Cinematic Photo](../styles/cinematic-photo/style.md) | photographic | Large photographic frames, dark breathing space and a slow scene sequence for visual storytelling. | [A: Photographic cover and selected scenes](../styles/cinematic-photo/reference/index.html) · [B: Vertical photographic notebook](../styles/cinematic-photo/reference/alternate.html) |
 | [Data Observatory](../styles/data-observatory/style.md) | technical | Explicit units, synchronized metrics and accurate quantitative marks with a searchable comparison table. | [A: Metrics and fixed-scale chart overview](../styles/data-observatory/reference/index.html) · [B: Filtered comparison table](../styles/data-observatory/reference/alternate.html) |
 | [Discovery Cabinet](../styles/discovery-cabinet/style.md) | illustrative | Six individually opening illustrated jars connect a radial table and a vertical drawer to a local collection tray and real discovery-sheet export. | [A: Radial six-jar discovery table](../styles/discovery-cabinet/reference/index.html) · [B: Vertical drawer and personal collection workbench](../styles/discovery-cabinet/reference/alternate.html) |

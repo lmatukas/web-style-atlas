@@ -258,6 +258,60 @@
     },
     {
       "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "culture",
+        "events",
+        "campaign"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "expressive",
+      "id": "choreographic-stage",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Choreographic Stage",
+      "prompt_path": "prompts/choreographic-stage/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep aubergine, warm peach and bone; broad theatrical pauses and a pale practical programme.",
+        "composition": "An asymmetric full stage and vertical chapters; B a compact study above a programme/enquiry workspace.",
+        "content_rhythm": "Stage, manifesto and three large studies versus programme-first work and concise illustrated concept records.",
+        "imagery": "Three original abstract body/ribbon SVG figures and a separately drawing finite trajectory.",
+        "interaction": "Three formats, two experience levels, real radio selection and exact query copy with manual fallback.",
+        "motion": "900ms path, bounded scroll displacement, 250ms descriptions and 200ms filter rows with pause/reduced states.",
+        "navigation": "Performances, programme and enquiry anchors with real sibling links and accessible native filters.",
+        "typography": "Spacious Georgia editorial phrases with quiet Arial filters and demonstration-time labels."
+      },
+      "status": "ready",
+      "style_path": "styles/choreographic-stage/style.md",
+      "summary": "Abstract airborne figures, a finite ribbon trajectory and generous editorial pauses connect an asymmetric stage to a real format-and-experience programme.",
+      "tags": [
+        "asymmetric",
+        "poster",
+        "image-led",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/choreographic-stage/preview-mobile.png",
+          "preview_path": "styles/choreographic-stage/preview.png",
+          "reference_path": "styles/choreographic-stage/reference/index.html",
+          "title": "Asymmetric stage and vertical performance sequence"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/choreographic-stage/preview-alt-mobile.png",
+          "preview_path": "styles/choreographic-stage/preview-alt.png",
+          "reference_path": "styles/choreographic-stage/reference/alternate.html",
+          "title": "Format and experience-led programme workbook"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "documentation",
         "data"
       ],

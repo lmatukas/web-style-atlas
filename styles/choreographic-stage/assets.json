@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "tarpas",
+      "path": "assets/tarpas.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original abstract movement figure, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "luzis",
+      "path": "assets/luzis.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original abstract movement figure, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "pauze",
+      "path": "assets/pauze.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original abstract movement figure, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}
