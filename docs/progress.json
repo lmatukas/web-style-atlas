@@ -2502,23 +2502,46 @@
     {
       "id": "S33",
       "title": "Choreographic Stage",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S32"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:20:19.261471Z",
-      "updated_at": "2026-10-21T16:20:19.261471Z",
+      "updated_at": "2026-10-21T16:26:34.777362Z",
       "branch": "task/s33-choreographic-stage",
       "base_commit": "ec5472a06cc0c498368b7972d6eb0e7a5769edfd",
-      "evidence_commit": null,
+      "evidence_commit": "289996b6f6c5a5a8a8bc2d11b2d445271cec0bb3",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/72",
+      "checks": [
+        {
+          "name": "Scoped source/build/preview freshness",
+          "status": "pass",
+          "details": "validate/build/four canonical renders/rebuild/check for choreographic-stage."
+        },
+        {
+          "name": "Actual A/B runtime, filters and query",
+          "status": "pass",
+          "details": "10 normal/reduced/API-blocked cases; six filter combinations, exact full draft clipboard, stale-choice clearing, denied clipboard, all descriptions and bounded scroll."
+        },
+        {
+          "name": "Accessibility, lifecycle and responsive",
+          "status": "pass",
+          "details": "Six axe/browser pages, four-width business matrix and both active A/B pause/offscreen/hidden-resume cases."
+        },
+        {
+          "name": "Visual and actual full prompt integration",
+          "status": "pass",
+          "details": "Four real PNGs and both ready neighbors inspected, 11/12; actual B full prompt clipboard and reference link under /atlas/."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S33.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S33 with A/B, actual functional/motion gates and four canonical previews.",
-      "handoff": "Owner authorizes five new sequential tasks S31–S35, each in its own verified PR and merge. Continue after this task; stop after S35. Public release remains P18."
+      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
+      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
     },
     {
       "id": "S34",
