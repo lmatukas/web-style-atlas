@@ -96,6 +96,46 @@
       "width": 390
     },
     {
+      "height": 1824,
+      "output_sha256": "c0507e6d2782c5bb0f78f3d92b2bedda9c986ef600b5745a305d7e2f691cb6de",
+      "path": "styles/botanical-engraving/preview.png",
+      "source_sha256": "79e13acaa71690bdc197949e12e3536407ca754a456710406b0d92363fd9f95a",
+      "style_id": "botanical-engraving",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3286,
+      "output_sha256": "a0960e70cb6118cc0c13b008881d0ea2095fb877b0108657ecee428de7b5b291",
+      "path": "styles/botanical-engraving/preview-mobile.png",
+      "source_sha256": "79e13acaa71690bdc197949e12e3536407ca754a456710406b0d92363fd9f95a",
+      "style_id": "botanical-engraving",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2510,
+      "output_sha256": "e688248b5773b0ae307ff464b331222054947465aac2509f9796e90a6039b7ed",
+      "path": "styles/botanical-engraving/preview-alt.png",
+      "source_sha256": "79e13acaa71690bdc197949e12e3536407ca754a456710406b0d92363fd9f95a",
+      "style_id": "botanical-engraving",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3791,
+      "output_sha256": "0d428c9591afc25c8e8cda6c4db69ceeebbc5e17ff58c5d0fd5197afed64a140",
+      "path": "styles/botanical-engraving/preview-alt-mobile.png",
+      "source_sha256": "79e13acaa71690bdc197949e12e3536407ca754a456710406b0d92363fd9f95a",
+      "style_id": "botanical-engraving",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1988,
       "output_sha256": "b4e6d400eab80241c1b7d14e06ca3de0263a29f905ef43bf0d4137e95f9fcdd4",
       "path": "styles/cinematic-photo/preview.png",

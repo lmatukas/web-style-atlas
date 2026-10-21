@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Plant and origin story",
+      "page_type": "publishing",
+      "reference_path": "reference/index.html",
+      "navigation": "Origin story, classified cabinet and name/rights records.",
+      "ordered_sections": [
+        {
+          "purpose": "Inspect one plant",
+          "pattern": "Large plate beside story and specimen label",
+          "content_requirements": [
+            "Original sage illustration",
+            "Common/accepted name"
+          ]
+        },
+        {
+          "purpose": "Read origin context",
+          "pattern": "Heading beside two short paragraphs",
+          "content_requirements": [
+            "Fictional cabinet",
+            "Visible form observations"
+          ]
+        },
+        {
+          "purpose": "Find companion studies",
+          "pattern": "Two plant figures flanking cabinet note",
+          "content_requirements": [
+            "Lavender",
+            "Rosemary",
+            "Actual cabinet link"
+          ]
+        },
+        {
+          "purpose": "Understand records",
+          "pattern": "Source and rights disclosure",
+          "content_requirements": [
+            "Kew name links",
+            "Original MIT notice"
+          ]
+        }
+      ],
+      "mobile_reflow": "Title, complete plant and label stack; companions retain captions.",
+      "distinguishing_features": [
+        "Dominant hatched botanical plate",
+        "Separate common/accepted name label",
+        "Origin-to-cabinet narrative"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Classified three-plate herbarium",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Literal Roman-numbered plant index with native records.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient in cabinet",
+          "pattern": "Introduction beside three-name index",
+          "content_requirements": [
+            "Plate numbers",
+            "Actual anchors"
+          ]
+        },
+        {
+          "purpose": "Inspect classified records",
+          "pattern": "Three full image/name/observation pairs",
+          "content_requirements": [
+            "Distinct silhouettes",
+            "Accepted names",
+            "Study focus"
+          ]
+        },
+        {
+          "purpose": "Understand classification",
+          "pattern": "Image/name/observation explanation",
+          "content_requirements": [
+            "Record roles",
+            "Accuracy boundary"
+          ]
+        },
+        {
+          "purpose": "Read cabinet note",
+          "pattern": "Original rights and name-source scope",
+          "content_requirements": [
+            "MIT illustrations",
+            "Garden-story return"
+          ]
+        }
+      ],
+      "mobile_reflow": "Each complete illustration precedes its own record; names and index wrap.",
+      "distinguishing_features": [
+        "Consistent classification ledger",
+        "Three distinct line silhouettes",
+        "Native plant/source records"
+      ]
+    }
+  ]
+}

@@ -102,6 +102,56 @@
       ]
     },
     {
+      "avoid_for": [],
+      "best_for": [
+        "culture",
+        "products",
+        "publishing"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "illustrative",
+      "id": "botanical-engraving",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Botanical Engraving",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Quiet herbarium paper and green-black ink, with sparse rules and no noisy texture.",
+        "composition": "A large botanical plate beside story and specimen label; B organizes complete illustrations with numbered classification records.",
+        "content_rhythm": "Plant, origin story and related specimens versus repeated image/name/observation records.",
+        "imagery": "Three original hatched SVG plant line studies, explicitly stylized rather than scientific identification plates.",
+        "interaction": "Actual specimen destinations and native source/plate disclosures.",
+        "motion": "Still illustration, stable captions and reduced-motion-safe navigation.",
+        "navigation": "Garden-story route and literal three-plate herbarium index.",
+        "typography": "Serif display and italic accepted names, plain readable documentary metadata."
+      },
+      "status": "ready",
+      "style_path": "styles/botanical-engraving/style.md",
+      "summary": "Fine botanical line illustration with plate numbers, accepted names and attached observations, from a garden story to a classified cabinet.",
+      "tags": [
+        "annotated",
+        "archival",
+        "reading-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/botanical-engraving/preview-mobile.png",
+          "preview_path": "styles/botanical-engraving/preview.png",
+          "reference_path": "styles/botanical-engraving/reference/index.html",
+          "title": "Plant and origin story"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/botanical-engraving/preview-alt-mobile.png",
+          "preview_path": "styles/botanical-engraving/preview-alt.png",
+          "reference_path": "styles/botanical-engraving/reference/alternate.html",
+          "title": "Classified three-plate herbarium"
+        }
+      ]
+    },
+    {
       "avoid_for": [
         "documentation",
         "data"

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "sage",
+      "path": "assets/sage.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S19)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original stylized botanical line study",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "lavender",
+      "path": "assets/lavender.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S19)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original stylized botanical line study",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "rosemary",
+      "path": "assets/rosemary.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S19)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original stylized botanical line study",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}
