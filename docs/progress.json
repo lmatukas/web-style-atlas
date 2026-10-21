@@ -2355,23 +2355,46 @@
     {
       "id": "S30",
       "title": "Light Environments",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S29"
       ],
       "worker": "Codex/fa3a4cc05875/S30",
       "claimed_at": "2026-10-21T15:24:45.412424Z",
-      "updated_at": "2026-10-21T15:24:45.412439Z",
+      "updated_at": "2026-10-21T15:44:58.631713Z",
       "branch": "task/s30-light-environments",
       "base_commit": "4488b7bdd6bb9e0b7cb3acca717beccb23f98f5a",
-      "evidence_commit": null,
+      "evidence_commit": "e546ca1df42378f07c66cdfd46bce4616c04ea33",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/69",
+      "checks": [
+        {
+          "name": "Scoped source/build/canonical preview freshness",
+          "status": "pass",
+          "details": "30 ready; four final native WebGL PNGs below 1 MiB; existing 116 PNGs untouched."
+        },
+        {
+          "name": "Actual runtime, route, storage and native-image gates",
+          "status": "pass",
+          "details": "17 A/B runtime/business/storage/scroll cases plus two native dim/light/restore/offscreen cases and three phone workbench accents. Real UTF-8 download, keyboard order, cross-layout persistence, blocked/corrupt storage, normal/reduced/fallback/context loss."
+        },
+        {
+          "name": "Browser/accessibility and four widths",
+          "status": "pass",
+          "details": "Six browser/axe cases plus final B 360/390/768/1440 inspectPage checks; no overflow or covered controls."
+        },
+        {
+          "name": "Gallery/full prompt and visual acceptance",
+          "status": "pass",
+          "details": "Five integrations and actual exact full B creation prompt copy; all four final PNGs and all three native scenes viewed against two actual ready neighbors; 11/12 rubric."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S30.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S30 A/B, native WebGL scenes and persistent route planner, actual checks and four canonical previews.",
-      "handoff": "Owner requested next single task; merge after successful required checks. Public release remains P18."
+      "next_action": "Wait for exact-head GitHub CI, inspect review state, then merge under owner authorization if required checks pass.",
+      "handoff": "PR #69 is open. API commit tree exactly matches the locally tested implementation. Complete this single task and stop; public release remains P18."
     },
     {
       "id": "S31",
