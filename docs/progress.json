@@ -2502,17 +2502,17 @@
     {
       "id": "S33",
       "title": "Choreographic Stage",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S32"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:20:19.261471Z",
-      "updated_at": "2026-10-21T16:26:34.777362Z",
+      "updated_at": "2026-10-21T16:28:35.332855Z",
       "branch": "task/s33-choreographic-stage",
       "base_commit": "ec5472a06cc0c498368b7972d6eb0e7a5769edfd",
       "evidence_commit": "289996b6f6c5a5a8a8bc2d11b2d445271cec0bb3",
-      "merge_commit": null,
+      "merge_commit": "b17a10167e6b089c169b517897f05591f3e07857",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/72",
       "checks": [
         {
@@ -2534,14 +2534,19 @@
           "name": "Visual and actual full prompt integration",
           "status": "pass",
           "details": "Four real PNGs and both ready neighbors inspected, 11/12; actual B full prompt clipboard and reference link under /atlas/."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39634771001 succeeded on 289996b6f6c5a5a8a8bc2d11b2d445271cec0bb3. Actual merge b17a10167e6b089c169b517897f05591f3e07857; tested parent and main tracking preserved."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S33.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
-      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
+      "next_action": "Continue authorized five-task batch; select next eligible task.",
+      "handoff": "Actual PR merge and exact tested head verified; CI and acceptance evidence passed. Continue authorized batch."
     },
     {
       "id": "S34",
