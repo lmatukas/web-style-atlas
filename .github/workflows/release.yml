@@ -1,0 +1,74 @@
+name: Verify release and optionally publish Pages
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish this verified main revision to GitHub Pages
+        type: boolean
+        required: true
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: atlas-release-pages
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Validate the frozen twelve-style release
+        run: |
+          node -e "const fs=require('fs'),assert=require('assert/strict');assert.equal(require('./package.json').version,'0.1.0');const s=require('./catalog/index.json').styles;assert.equal(s.length,12);let previews=0;for(const x of s){assert.equal(x.variants.length,2);for(const v of x.variants){assert.ok(fs.existsSync(v.reference_path));for(const p of [v.preview_path,v.preview_mobile_path]){assert.ok(fs.statSync(p).size<=1024*1024);previews++;}}}assert.equal(previews,48);console.log('12 styles / 24 variants / 48 previews');"
+          node scripts/ci-scope.mjs --full
+          node scripts/ci.mjs validate
+          npm run check
+      - name: Install locked Chromium
+        run: npx playwright install --with-deps --only-shell chromium
+      - name: Full release browser, accessibility, subpath and renderer gates
+        run: node scripts/ci.mjs browser
+      - name: Assert reproducible sources
+        run: git diff --exit-code
+      - name: Summarize verified revision
+        run: echo "Verified 0.1.0 catalogue on $GITHUB_SHA (12 styles, 24 references, 48 previews). Public URL must still be opened after deployment." >> "$GITHUB_STEP_SUMMARY"
+      - name: Small failure diagnostics only
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-failure
+          path: test-results/ci-diagnostics/
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Include root distribution licences
+        if: inputs.publish
+        run: cp LICENSE dist/
+      - name: Upload only the static gallery for authorized publication
+        if: inputs.publish
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    if: inputs.publish
+    needs: verify
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
+        uses: actions/deploy-pages@v4
