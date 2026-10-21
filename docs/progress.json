@@ -1444,22 +1444,22 @@
     {
       "id": "S16",
       "title": "Retro Web",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S15"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T07:13:26.482Z",
+      "updated_at": "2026-10-21T07:13:26.483Z",
+      "branch": "task/s16-atlas",
+      "base_commit": "28ce9893e11749fb83be715cee968a63f57cbf5d",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify next style within ten-task authorization.",
       "handoff": null
     },
     {
