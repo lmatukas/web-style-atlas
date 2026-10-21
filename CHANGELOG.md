@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.1.0 — prepared, publication pending
+
+39 ready directions, 78 working A/B references and 156 current previews.
+
+- Added fifteen directions from Acoustic Sculpture through Membrane Score,
+  with complete creation prompts, actual local business controls, finite motion,
+  reduced-motion paths and explicit WebGL/audio API fallbacks where required.
+- Added full-prompt A/B preview and exact copying to the gallery, including
+  manual fallback, project fields and subpath-safe local prompt distribution.
+- Accepted P17's sixty new frame inspections, all prescribed neighbour pairs,
+  thirty business paths and three isolated WebGL/HTML/audio author replays.
+  Replays are explicitly separate from independent P10 model trials.
+- Refresh version-dependent preview provenance through the canonical renderer;
+  keep the existing manual release workflow, bounded gates and opt-in publish.
+
+This source preparation does not establish deployment. The last verified public
+gallery remains 1.0.0. See [1.1.0 release evidence](docs/releases/1.1.0.md) for the
+exact manual publication action and remaining live checks. No tag or GitHub
+Release is created by this change.
+
 ## 1.0.0 — published 2026-10-21
 
 Completed 24-direction source catalogue: 48 references and 96 current previews.

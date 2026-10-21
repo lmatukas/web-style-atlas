@@ -26,9 +26,9 @@ jobs:
           node-version: '24.19.0'
           package-manager-cache: false
       - run: npm ci --ignore-scripts --no-audit --no-fund
-      - name: Validate the frozen 24-style release
+      - name: Validate the frozen 39-style release
         run: |
-          node -e "const fs=require('fs'),assert=require('assert/strict');assert.equal(require('./package.json').version,'1.0.0');const s=require('./catalog/index.json').styles;assert.equal(s.length,24);let previews=0;for(const x of s){assert.equal(x.variants.length,2);for(const v of x.variants){assert.ok(fs.existsSync(v.reference_path));for(const p of [v.preview_path,v.preview_mobile_path]){assert.ok(fs.statSync(p).size<=1024*1024);previews++;}}}assert.equal(previews,96);console.log('24 styles / 48 variants / 96 previews');"
+          node -e "const fs=require('fs'),assert=require('assert/strict');assert.equal(require('./package.json').version,'1.1.0');const s=require('./catalog/index.json').styles;assert.equal(s.length,39);let previews=0;for(const x of s){assert.equal(x.variants.length,2);for(const v of x.variants){assert.ok(fs.existsSync(v.reference_path));for(const p of [v.preview_path,v.preview_mobile_path]){assert.ok(fs.statSync(p).size<=1024*1024);previews++;}}}assert.equal(previews,156);console.log('39 styles / 78 variants / 156 previews');"
           node scripts/ci-scope.mjs --full
           node scripts/ci.mjs validate
           npm run check
@@ -39,7 +39,7 @@ jobs:
       - name: Assert reproducible sources
         run: git diff --exit-code
       - name: Summarize verified revision
-        run: echo "Verified 1.0.0 catalogue on $GITHUB_SHA (24 styles, 48 references, 96 previews). Public URL must still be opened after deployment." >> "$GITHUB_STEP_SUMMARY"
+        run: echo "Verified 1.1.0 catalogue on $GITHUB_SHA (39 styles, 78 references, 156 previews). Public URL must still be opened after deployment." >> "$GITHUB_STEP_SUMMARY"
       - name: Small failure diagnostics only
         if: failure()
         uses: actions/upload-artifact@v4

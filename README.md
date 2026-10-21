@@ -3,25 +3,28 @@
 Distinct web design directions with working examples and practical instructions
 for AI coding agents. Use a direction to build a website in your own project.
 
-**Release 1.0.0: 24 ready directions, 48 A/B reference pages and 96
-current desktop/mobile previews.** All planned implementation tasks are represented
-in the [work board](docs/STATUS.md); the [full catalogue review](docs/evidence/catalog-review.md)
-records actual visual comparison, close pairs and bounded limitations.
+**Prepared release 1.1.0: 39 ready directions, 78 A/B reference pages and 156
+current desktop/mobile previews.** The [expanded catalogue audit](docs/evidence/P17.md)
+records visual comparisons, full prompt copies and three isolated author replays.
+The [work board](docs/STATUS.md) tracks acceptance and publication separately.
 
 **Live gallery:** [open Web Style Atlas](https://lmatukas.github.io/web-style-atlas/).
-Version **1.0.0 with all 24 styles** was published and opened on 2026-10-21.
+The last verified public version is **1.0.0 with 24 styles**, published and opened on 2026-10-21.
 Search/reset, three-way comparison, B/mobile previews, prompt copy and a working
 reference were checked on the actual public site; see [publication evidence](docs/evidence/P14.md#public-pages-publication--2026-10-21).
-You can also use all 24 styles through
+Publication of 1.1.0 is pending the [manual release workflow](docs/releases/1.1.0.md).
+Use all 39 source directions through
 [the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
 
-## Planned expansion
+## Full creation prompts
 
-[15 full creation prompts](prompts/README.md) are prepared for the
-[39-direction expansion plan](docs/prompt-expansion-plan.md). The new visual
-examples are queued, not yet built or published. The current verified gallery
-still has 24 ready styles; the work board now includes the next 19 tasks.
+[15 full creation prompts](prompts/README.md) accompany the fifteen new working
+directions. In the local gallery, choose one, switch A/B, then use **Copy full
+creation prompt**. Fill in the project fields and give the complete copy to your
+coding agent. The text preserves the defining object, interaction, motion and
+runtime requirements; it also has a manual-copy fallback. The other directions keep the shorter selection
+prompt.
 
 ## Start with one prompt
 
@@ -112,6 +115,13 @@ success-rate estimate for every model or brief.
 The [24-style audit](docs/evidence/catalog-review.md) also replayed the two
 candidate-affected retained outputs at all three widths. This replay is separate
 from the original independent model executions.
+
+The [39-style audit](docs/evidence/expansion-review.md) reviewed all sixty new
+frames and prescribed neighbours. Three isolated, rebranded projects exercised
+real WebGL, an HTML day planner and opt-in synthesized audio; exact full prompts,
+file hashes and reproduction instructions are in [P17](docs/benchmarks/p17/README.md).
+These are same-author replays, not new independent-model trials. Dense technical
+labels and adaptation limits remain explicit in the per-direction review.
 
 Optional Codex, Claude Code and IBM Bob entry files are generated from the
 [shared consumer skill](core/skill/SKILL.md). The
