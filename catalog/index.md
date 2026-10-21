@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 35. Drafts and templates are excluded.
+Ready styles: 36. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -34,6 +34,7 @@ Ready styles: 35. Drafts and templates are excluded.
 | [Repair Atlas](../styles/repair-atlas/style.md) | expressive | A real segmental WebGL chair and labeled SVG fallback connect assembly, one-joint replacement and six design scenarios to a working two-to-four-stop route. | [A: Assembly and disassembly chair story](../styles/repair-atlas/reference/index.html) · [B: Six-object material ledger and route workbook](../styles/repair-atlas/reference/alternate.html) |
 | [Resonant Ribbon](../styles/resonant-ribbon/style.md) | spatial | A single wooden ribbon traces a making story and a three-instrument macro collection, with real character, wood and enquiry choices. | [A: Travelling ribbon making story](../styles/resonant-ribbon/reference/index.html) · [B: Three-instrument macro gallery](../styles/resonant-ribbon/reference/alternate.html) |
 | [Retro Web](../styles/retro-web/style.md) | nostalgic | A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels. | [A: Personal web portal](../styles/retro-web/reference/index.html) · [B: Subject-filed entry archive](../styles/retro-web/reference/alternate.html) |
+| [Rhythm Planner](../styles/rhythm-planner/style.md) | functional | Oversized time numerals and proportional task bars form an editable three-task local day plan with exact midnight-aware exports. | [A: Clock-led product and complete demonstration](../styles/rhythm-planner/reference/index.html) · [B: Timeline workbench and three-task editor](../styles/rhythm-planner/reference/alternate.html) |
 | [Seasonal Terrain](../styles/seasonal-terrain/style.md) | tactile | An irregular three-layer soil study connects the year’s seasons to a useful vegetable basket and delivery brief. | [A: Soil story and seasonal basket](../styles/seasonal-terrain/reference/index.html) · [B: Annual calendar and stepped basket](../styles/seasonal-terrain/reference/alternate.html) |
 | [Soft Spatial](../styles/soft-spatial/style.md) | spatial | Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview. | [A: Single ambient object](../styles/soft-spatial/reference/index.html) · [B: Layered practice overview](../styles/soft-spatial/reference/alternate.html) |
 | [Swiss Grid](../styles/swiss-grid/style.md) | typographic | Numbered typographic grids, oversized alignment and precise service or portfolio indexes. | [A: Typographic service index](../styles/swiss-grid/reference/index.html) · [B: Asymmetric work catalogue](../styles/swiss-grid/reference/alternate.html) |
