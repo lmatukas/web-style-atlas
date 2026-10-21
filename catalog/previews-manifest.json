@@ -656,6 +656,46 @@
       "width": 390
     },
     {
+      "height": 2171,
+      "output_sha256": "e0e85f5ba10188cc8133bb490d7a49a75f58c2b4b38a9373faf63b82a622774b",
+      "path": "styles/pop-commerce/preview.png",
+      "source_sha256": "d1a0919832aadb77a20f77b25c8061b41c5d6e4bdf3576b363384ab7329a936c",
+      "style_id": "pop-commerce",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3380,
+      "output_sha256": "779c722eb227a4347e6f7850fdd300063fc158baf1f28574f7dc9a653bb56190",
+      "path": "styles/pop-commerce/preview-mobile.png",
+      "source_sha256": "d1a0919832aadb77a20f77b25c8061b41c5d6e4bdf3576b363384ab7329a936c",
+      "style_id": "pop-commerce",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1966,
+      "output_sha256": "9f406700b01c4302e13c83648dadcfb1c0ea1cc4aa14966a42d8036ff5c8f7f0",
+      "path": "styles/pop-commerce/preview-alt.png",
+      "source_sha256": "d1a0919832aadb77a20f77b25c8061b41c5d6e4bdf3576b363384ab7329a936c",
+      "style_id": "pop-commerce",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3525,
+      "output_sha256": "bff9d98268da5bb55c8fe9b0b93269e73e1e2e788ee175d333f9fce9c8bc5994",
+      "path": "styles/pop-commerce/preview-alt-mobile.png",
+      "source_sha256": "d1a0919832aadb77a20f77b25c8061b41c5d6e4bdf3576b363384ab7329a936c",
+      "style_id": "pop-commerce",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2142,
       "output_sha256": "587d1feb52e61796d970f4e5e9cc315901baf8ba1786cfa3f13deb255ba01b02",
       "path": "styles/quiet-luxury/preview.png",

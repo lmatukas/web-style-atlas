@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 22. Drafts and templates are excluded.
+Ready styles: 23. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -22,6 +22,7 @@ Ready styles: 22. Drafts and templates are excluded.
 | [Newspaper Ledger](../styles/newspaper-ledger/style.md) | editorial | Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods. | [A: Multi-story newspaper front page](../styles/newspaper-ledger/reference/index.html) · [B: Analysis with branch ledger](../styles/newspaper-ledger/reference/alternate.html) |
 | [Organic Craft](../styles/organic-craft/style.md) | tactile | Warm material surfaces, irregular object forms and asymmetric compositions for independent makers. | [A: Materials and making story](../styles/organic-craft/reference/index.html) · [B: Asymmetric object collection](../styles/organic-craft/reference/alternate.html) |
 | [Playful Cutout](../styles/playful-cutout/style.md) | illustrative | Coherent cutout illustrations, deliberate overlap and friendly type for a playful creative story. | [A: Assembled cutout invitation](../styles/playful-cutout/reference/index.html) · [B: Event story with attached stickers](../styles/playful-cutout/reference/alternate.html) |
+| [Pop Commerce](../styles/pop-commerce/style.md) | commercial | A bold product-to-price hierarchy, colorful original objects and clear buying choices connect a single-product offer with a filtered product shelf. | [A: Bright single-product offer](../styles/pop-commerce/reference/index.html) · [B: Categories and product shelf](../styles/pop-commerce/reference/alternate.html) |
 | [Quiet Luxury](../styles/quiet-luxury/style.md) | restrained | Large object stages, measured proportions and sparse practical notes for a carefully edited collection. | [A: Sparse collection presentation](../styles/quiet-luxury/reference/index.html) · [B: Large object dossier](../styles/quiet-luxury/reference/alternate.html) |
 | [Retro Web](../styles/retro-web/style.md) | nostalgic | A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels. | [A: Personal web portal](../styles/retro-web/reference/index.html) · [B: Subject-filed entry archive](../styles/retro-web/reference/alternate.html) |
 | [Soft Spatial](../styles/soft-spatial/style.md) | spatial | Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview. | [A: Single ambient object](../styles/soft-spatial/reference/index.html) · [B: Layered practice overview](../styles/soft-spatial/reference/alternate.html) |

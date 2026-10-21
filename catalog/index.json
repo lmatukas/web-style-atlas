@@ -809,6 +809,55 @@
     {
       "avoid_for": [],
       "best_for": [
+        "commerce",
+        "products"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "commercial",
+      "id": "pop-commerce",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Pop Commerce",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm ground, plum action/object, sunny display field and pink supporting illustration; restrained thin boundaries.",
+        "composition": "Dominant illustrated product beside price and choices in A; three category-filtered product bays in B.",
+        "content_rhythm": "Product offer, useful specification rows and related-object stage versus shelf, set arithmetic and live bag.",
+        "imagery": "Original CSS bottle, cup and carry-bag silhouettes with large flat commercial color fields.",
+        "interaction": "Real finish and quantity controls, category filtering and a live local demo bag with exact totals and clear reset.",
+        "motion": "Immediate choices and brief color changes; no ticker, countdown or moving product.",
+        "navigation": "Visible bottle/shelf/bag routes and actual product-category buttons.",
+        "typography": "Heavy short sans display meets readable product names, prices and practical specifications."
+      },
+      "status": "ready",
+      "style_path": "styles/pop-commerce/style.md",
+      "summary": "A bold product-to-price hierarchy, colorful original objects and clear buying choices connect a single-product offer with a filtered product shelf.",
+      "tags": [
+        "product-led",
+        "playful",
+        "high-contrast"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/pop-commerce/preview-mobile.png",
+          "preview_path": "styles/pop-commerce/preview.png",
+          "reference_path": "styles/pop-commerce/reference/index.html",
+          "title": "Bright single-product offer"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/pop-commerce/preview-alt-mobile.png",
+          "preview_path": "styles/pop-commerce/preview-alt.png",
+          "reference_path": "styles/pop-commerce/reference/alternate.html",
+          "title": "Categories and product shelf"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "products",
         "portfolio",
         "hospitality"
