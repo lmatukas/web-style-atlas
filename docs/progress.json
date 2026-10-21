@@ -2453,23 +2453,46 @@
     {
       "id": "S32",
       "title": "Woven Field",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S31"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:09:29.856177Z",
-      "updated_at": "2026-10-21T16:09:29.856177Z",
+      "updated_at": "2026-10-21T16:17:56.560166Z",
       "branch": "task/s32-woven-field",
       "base_commit": "e2e95c35de5863c09a6024d5342d72fb1d0c0482",
-      "evidence_commit": null,
+      "evidence_commit": "c3499f41722ab2a9b8659ec75a8f902a1d02188c",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/71",
+      "checks": [
+        {
+          "name": "Scoped source/build/preview freshness",
+          "status": "pass",
+          "details": "validate/build/four canonical renders/rebuild/check for woven-field."
+        },
+        {
+          "name": "Actual A/B runtime, editing and exports",
+          "status": "pass",
+          "details": "10 normal/reduced/API-blocked runtime and business cases; independent decoded SVG, exact copy, denied clipboard, bending/return and presets."
+        },
+        {
+          "name": "Accessibility, lifecycle and responsive gates",
+          "status": "pass",
+          "details": "Six axe/browser pages plus four-width business matrix; actual active pause/offscreen/hidden and resume cases for both variants."
+        },
+        {
+          "name": "Visual and actual full prompt integration",
+          "status": "pass",
+          "details": "Four actual PNGs and two ready neighbors inspected; 11/12; exact B prompt copy under /atlas/ and real sibling link."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S32.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S32 with A/B, actual functional/motion gates and four canonical previews.",
-      "handoff": "Owner authorizes five new sequential tasks S31–S35, each in its own verified PR and merge. Continue after this task; stop after S35. Public release remains P18."
+      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
+      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
     },
     {
       "id": "S33",
