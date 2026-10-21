@@ -976,6 +976,46 @@
       "width": 390
     },
     {
+      "height": 4296,
+      "output_sha256": "80a5bf9958f4f277e98c94d10341550e6bd2ddaedcfe04f16f7ee16aba6003ad",
+      "path": "styles/repair-atlas/preview.png",
+      "source_sha256": "f5805a9ab692ed73209cb2dc30037e67c0e856bb3c7bc07d7fc3bf3dc752fc09",
+      "style_id": "repair-atlas",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6589,
+      "output_sha256": "258566a2e85912e7dfb1458f860f2a7103c2399161e45b6bf8fb60dbad36ad0d",
+      "path": "styles/repair-atlas/preview-mobile.png",
+      "source_sha256": "f5805a9ab692ed73209cb2dc30037e67c0e856bb3c7bc07d7fc3bf3dc752fc09",
+      "style_id": "repair-atlas",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 4168,
+      "output_sha256": "ae89d705319887679042d74d672e795cf9375d87bfaa0f6c5b61f0b34f0c5bb7",
+      "path": "styles/repair-atlas/preview-alt.png",
+      "source_sha256": "f5805a9ab692ed73209cb2dc30037e67c0e856bb3c7bc07d7fc3bf3dc752fc09",
+      "style_id": "repair-atlas",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4738,
+      "output_sha256": "11dc972e5461b2007f584edde37770e7828dfd66281d6ab9e8057b726247792d",
+      "path": "styles/repair-atlas/preview-alt-mobile.png",
+      "source_sha256": "f5805a9ab692ed73209cb2dc30037e67c0e856bb3c7bc07d7fc3bf3dc752fc09",
+      "style_id": "repair-atlas",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 3419,
       "output_sha256": "f589813610f974f2c9dd415a1f4b91ae37a6858ef55ba146c0c0de13d3d6eecb",
       "path": "styles/resonant-ribbon/preview.png",

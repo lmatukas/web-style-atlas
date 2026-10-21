@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "chair",
+      "path": "assets/chair.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original circular-design concept illustration, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "lamp",
+      "path": "assets/lamp.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original circular-design concept illustration, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "bag",
+      "path": "assets/bag.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original circular-design concept illustration, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "shelf",
+      "path": "assets/shelf.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original circular-design concept illustration, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "table",
+      "path": "assets/table.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original circular-design concept illustration, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "mat",
+      "path": "assets/mat.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original circular-design concept illustration, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}
