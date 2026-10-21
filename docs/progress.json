@@ -2978,23 +2978,46 @@
     {
       "id": "P24",
       "title": "Teisių ir šaltinių audito papildymas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate",
+          "status": "pass",
+          "details": "node scripts/ci.mjs validate exit 0"
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "87/87"
+        },
+        {
+          "name": "CI source and generated gates",
+          "status": "not_run",
+          "details": "waiting for PR CI"
+        },
+        {
+          "name": "CI browser and accessibility gates",
+          "status": "not_run",
+          "details": "waiting for PR CI; no style changes, PNG not required"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P24.md"
+      ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24",
       "claimed_at": "2026-10-21T21:09:00Z",
       "updated_at": "2026-10-21T21:09:00Z",
       "branch": "task/p24-rights-audit",
-      "base_commit": "cd9e135",
-      "evidence_commit": null,
+      "base_commit": "cd9e13506033b377b0e176d5afb46c3feb888f9e",
+      "evidence_commit": "26483315bab3c5c000684fee513decb88b365835",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/84",
       "blocker": null,
-      "next_action": "Atlikti teisių auditą tik skaitymu; įrodymai docs/evidence/P24.md; PR [P24]",
-      "handoff": null
+      "next_action": "PR CI praeiti; tada sujungti į main ir pažymėti done",
+      "handoff": "PR #84 atidarytas. Laukia CI vartų. Pagal rezultatus: sujungti ir pažymėti done su merge_commit. Neaiškūs atvejai (lake.webp PD-USGov, šaltinių online patikra) lieka evidence faile."
     },
     {
       "id": "S40",
