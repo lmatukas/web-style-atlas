@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Assembly and disassembly chair story",
+      "page_type": "culture",
+      "reference_path": "reference/index.html",
+      "navigation": "Materials, six-object catalogue, personal route and actual catalogue sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Meet a repairable-design scenario",
+          "pattern": "Large typographic promise beside a sticky procedural WebGL chair",
+          "content_requirements": [
+            "800ms assembly",
+            "Real depth-tested model",
+            "SVG disassembly fallback"
+          ]
+        },
+        {
+          "purpose": "Inspect materials and one replacement",
+          "pattern": "Bounded material-scroll separation with labels and native range alternative",
+          "content_requirements": [
+            "Seat/back/joints",
+            "500ms repeatable one-joint replacement",
+            "Honest concept boundaries"
+          ]
+        },
+        {
+          "purpose": "Build a personal route",
+          "pattern": "Six illustrated filtered concept bays beside a numbered route panel",
+          "content_requirements": [
+            "Material/theme filters",
+            "2–4 unique stops",
+            "Reorder/remove",
+            "Real ordered UTF-8 export"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: compact real scene above story, complete material records, single-column catalogue and route controls. 768: less spacious story/study pair; 1440: sticky object beside narrative and materials.",
+      "distinguishing_features": [
+        "Object-first assembly story",
+        "Material scroll reveals bounded disassembly",
+        "Illustrated catalogue bays beside a route worksheet"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Six-object material ledger and route workbook",
+      "page_type": "culture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Material/theme selectors, route worksheet and actual chair-story sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose a material-led visit",
+          "pattern": "Programme-like object ledger beside a persistent compact chair study",
+          "content_requirements": [
+            "Six distinct original scenarios",
+            "Visible filter counts",
+            "Empty-state reset"
+          ]
+        },
+        {
+          "purpose": "Sequence a personal route",
+          "pattern": "Full-width numbered worksheet directly after the object ledger",
+          "content_requirements": [
+            "Minimum two/maximum four",
+            "Working reordering/removal",
+            "Ordered actual export",
+            "Page-memory boundary"
+          ]
+        },
+        {
+          "purpose": "Read construction context",
+          "pattern": "Material records within the study span, then repair explanation",
+          "content_requirements": [
+            "Actual native model and SVG fallback",
+            "Manual disassembly alternative",
+            "No environmental promises"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390/768: compact chair before catalogue title, full object records and route worksheet; controls wrap. 1440: long object ledger and worksheet beside a sticky small chair study.",
+      "distinguishing_features": [
+        "Material catalogue is the first task",
+        "Single-column object ledger rather than multi-bay catalogue",
+        "Route worksheet precedes material-story context"
+      ]
+    }
+  ]
+}

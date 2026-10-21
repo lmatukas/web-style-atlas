@@ -1231,6 +1231,60 @@
         "data"
       ],
       "best_for": [
+        "culture",
+        "products",
+        "campaign"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "expressive",
+      "id": "repair-atlas",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Repair Atlas",
+      "prompt_path": "prompts/repair-atlas/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Matte yellow scene, ultramarine route/explanation, chalk ground, black type and original wood tones.",
+        "composition": "A sticky chair beside assembly/material narrative; B a material object ledger and route worksheet beside a compact study.",
+        "content_rhythm": "Whole object, materials, repair logic and catalogue versus material-led selection, route and construction context.",
+        "imagery": "Original depth-tested segmental chair, SVG disassembly alternative and six distinct local concept illustrations.",
+        "interaction": "Manual disassembly, repeatable one-joint replacement, six-object filtering and unique 2–4-stop reorder/remove/export.",
+        "motion": "800ms assembly, bounded material separation, 500ms replacement and 400ms route-number landing, pause/reduced states.",
+        "navigation": "Materials, real dual filters, personal route and actual sibling composition links.",
+        "typography": "Heavy Arial promises contrast with small museum numbers, material tags and practical route records."
+      },
+      "status": "ready",
+      "style_path": "styles/repair-atlas/style.md",
+      "summary": "A real segmental WebGL chair and labeled SVG fallback connect assembly, one-joint replacement and six design scenarios to a working two-to-four-stop route.",
+      "tags": [
+        "product-led",
+        "annotated",
+        "high-contrast",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/repair-atlas/preview-mobile.png",
+          "preview_path": "styles/repair-atlas/preview.png",
+          "reference_path": "styles/repair-atlas/reference/index.html",
+          "title": "Assembly and disassembly chair story"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/repair-atlas/preview-alt-mobile.png",
+          "preview_path": "styles/repair-atlas/preview-alt.png",
+          "reference_path": "styles/repair-atlas/reference/alternate.html",
+          "title": "Six-object material ledger and route workbook"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
         "craft",
         "culture",
         "products",
