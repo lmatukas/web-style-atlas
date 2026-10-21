@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Radial six-jar discovery table",
+      "page_type": "culture",
+      "reference_path": "reference/index.html",
+      "navigation": "Table, collection, growth sketch and real drawer sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Invite a small discovery",
+          "pattern": "Short editorial invitation beside a radial six-jar table",
+          "content_requirements": [
+            "Six distinct named forms",
+            "Open and plain-list actions"
+          ]
+        },
+        {
+          "purpose": "Collect and inspect",
+          "pattern": "Large seed study beside a six-slot collection tray",
+          "content_requirements": [
+            "Slot choice",
+            "Remove and download",
+            "Local storage boundary"
+          ]
+        },
+        {
+          "purpose": "Ask and imagine",
+          "pattern": "Three observation questions and a finite interpreted growth sketch",
+          "content_requirements": [
+            "No invented biology",
+            "Explicit growth action"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: invitation before bounded radial table, optional simple two-column list, then stacked study and vertical tray. 768: smaller invitation/table split; 1440: broad radial stage.",
+      "distinguishing_features": [
+        "Radial jar table and central cabinet seal",
+        "Inspect-and-collect follows the tabletop invitation"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Vertical drawer and personal collection workbench",
+      "page_type": "culture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Drawer, collection and sketch anchors with actual radial sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose through a drawer",
+          "pattern": "Six full-width jar rows beside an immediate seed study and tray",
+          "content_requirements": [
+            "Individual lids",
+            "All six choices without dragging"
+          ]
+        },
+        {
+          "purpose": "Carry discoveries away",
+          "pattern": "Device-local six-slot ledger and real text export",
+          "content_requirements": [
+            "Add/remove",
+            "Current slot order"
+          ]
+        },
+        {
+          "purpose": "Imagine an interpretation",
+          "pattern": "Finite three-stage growth followed by observation questions",
+          "content_requirements": [
+            "Interpretation caption",
+            "Keyboard growth action"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390/768: drawer precedes study and vertical tray; 1440: long drawer rail beside practical inspection and collection.",
+      "distinguishing_features": [
+        "Vertical jar drawer replaces radial hero",
+        "Collection and study appear alongside selection before interpretation"
+      ]
+    }
+  ]
+}

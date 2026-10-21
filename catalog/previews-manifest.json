@@ -296,6 +296,46 @@
       "width": 390
     },
     {
+      "height": 2821,
+      "output_sha256": "a8ff6acd2016807e4f2ac38568d0a940521f87d67976b66595e77279c80f4dde",
+      "path": "styles/discovery-cabinet/preview.png",
+      "source_sha256": "2edfb2556e493bce538b7728f7fecfcb1b7f41db102afa4850d5a3bfedade9ce",
+      "style_id": "discovery-cabinet",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4148,
+      "output_sha256": "5fd697e5fcc9693bb7712cac7c0bd0dc281b578f2353ac7039e671700680011f",
+      "path": "styles/discovery-cabinet/preview-mobile.png",
+      "source_sha256": "2edfb2556e493bce538b7728f7fecfcb1b7f41db102afa4850d5a3bfedade9ce",
+      "style_id": "discovery-cabinet",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3010,
+      "output_sha256": "e31dc4d235745e7a57ad7ab9de6e67f1a0e2d258638d2d5d335c6dde1ed63975",
+      "path": "styles/discovery-cabinet/preview-alt.png",
+      "source_sha256": "2edfb2556e493bce538b7728f7fecfcb1b7f41db102afa4850d5a3bfedade9ce",
+      "style_id": "discovery-cabinet",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4542,
+      "output_sha256": "c3379ff97a1ce5f09d8c52b03bb133423c6a4ccabf5d0c9aa676b25bc759b7e8",
+      "path": "styles/discovery-cabinet/preview-alt-mobile.png",
+      "source_sha256": "2edfb2556e493bce538b7728f7fecfcb1b7f41db102afa4850d5a3bfedade9ce",
+      "style_id": "discovery-cabinet",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2066,
       "output_sha256": "99e1dc40266f2f3193e49e396989b78adebe1fab186d1479b2604f420ba61cd0",
       "path": "styles/editorial-journal/preview.png",
