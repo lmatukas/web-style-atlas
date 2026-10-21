@@ -2785,22 +2785,22 @@
     {
       "id": "P17",
       "title": "39 krypčių ir pilnų promptų naudojimo auditas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S39"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/8f365240145f/final-audit-release",
+      "claimed_at": "2026-10-21T18:37:03.760Z",
+      "updated_at": "2026-10-21T18:37:03.760Z",
+      "branch": "task/p17-final",
+      "base_commit": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Complete P17 under the owner-authorized final audit and release continuation.",
       "handoff": null
     },
     {
