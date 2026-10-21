@@ -1535,6 +1535,60 @@
       ]
     },
     {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "craft",
+        "portfolio",
+        "products"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "tactile",
+      "id": "woven-field",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Woven Field",
+      "prompt_path": "prompts/woven-field/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Natural linen, deep pine and rust; flat readable surfaces and bounded thread artwork.",
+        "composition": "A narrow notebook index beside unequal material studies; B a parameter rail beside a large creation table.",
+        "content_rhythm": "Idea, field, fragment collection and ledger versus creation, live enquiry and oversized alternating samples.",
+        "imagery": "Original procedural warp/weft lines with actual plain, diagonal and paired crossing structures.",
+        "interaction": "Density, two colors, three weaves, editable presets, real standalone SVG export and accurate enquiry copy.",
+        "motion": "800ms tension, bounded nearby bending, 300ms return, 450ms interweave and one-time sample unroll.",
+        "navigation": "Five notebook sections versus horizontal studio links, with real sibling compositions.",
+        "typography": "Quiet Georgia headings, occasional italic and clear Arial control/parameter records."
+      },
+      "status": "ready",
+      "style_path": "styles/woven-field/style.md",
+      "summary": "Ordered thread fields, a narrow creative notebook and a parameter-led studio turn two colors and three crossing structures into real standalone SVG samples.",
+      "tags": [
+        "handmade",
+        "warm",
+        "annotated",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/woven-field/preview-mobile.png",
+          "preview_path": "styles/woven-field/preview.png",
+          "reference_path": "styles/woven-field/reference/index.html",
+          "title": "Indexed weaving notebook"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/woven-field/preview-alt-mobile.png",
+          "preview_path": "styles/woven-field/preview-alt.png",
+          "reference_path": "styles/woven-field/reference/alternate.html",
+          "title": "Parameter-led pattern studio and oversized samples"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "culture",

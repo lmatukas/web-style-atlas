@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Indexed weaving notebook",
+      "page_type": "craft",
+      "reference_path": "reference/index.html",
+      "navigation": "Narrow vertical five-part notebook index and real studio sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Understand the graphic material",
+          "pattern": "Editorial notebook introduction above a note-and-thread field spread",
+          "content_requirements": [
+            "Replaceable wordmark",
+            "Finite thread tension",
+            "Literal task"
+          ]
+        },
+        {
+          "purpose": "Make and export a pattern",
+          "pattern": "Full-width parameter strip beneath a large SVG loom",
+          "content_requirements": [
+            "Density",
+            "Two colors",
+            "Three weaves",
+            "Standalone SVG"
+          ]
+        },
+        {
+          "purpose": "Study and prepare a project",
+          "pattern": "Unequal material fragments, numbered process and enquiry spread",
+          "content_requirements": [
+            "Three original collections",
+            "Live selected-parameter summary",
+            "Real copy"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: index becomes wrapping horizontal links; notes, loom, controls and uneven samples stack. 768: reduced notebook margin; 1440: full narrow rail and broad material spreads.",
+      "distinguishing_features": [
+        "Narrow vertical content index",
+        "Narrative notebook before practical parameters",
+        "Unequal fragment collection"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Parameter-led pattern studio and oversized samples",
+      "page_type": "craft",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Horizontal studio anchors and real notebook sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Make a pattern immediately",
+          "pattern": "Practical parameter rail beside the full SVG creation table",
+          "content_requirements": [
+            "Density and two color choices",
+            "Three actual weaves",
+            "SVG export"
+          ]
+        },
+        {
+          "purpose": "Prepare the current project note",
+          "pattern": "Immediate live enquiry sheet after the creation table",
+          "content_requirements": [
+            "Project name",
+            "Exact parameter copy",
+            "No simulated submission"
+          ]
+        },
+        {
+          "purpose": "Compare collection structure",
+          "pattern": "Three large alternating sample-and-note spreads, then process ledger",
+          "content_requirements": [
+            "Original preset artwork",
+            "Load selected preset",
+            "One-time unroll"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390/768: parameter sheet before full-width loom, then enquiry and complete large samples. 1440: narrow creation controls beside broad canvas.",
+      "distinguishing_features": [
+        "Parameter-first creation workflow",
+        "Enquiry follows the studio before collections",
+        "Large alternating complete samples instead of fragments"
+      ]
+    }
+  ]
+}
