@@ -4,7 +4,7 @@
 
 **Baigta: 14/38.**
 
-**Pirmiausia patikrinti S07: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Pirmiausia patikrinti S07: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -24,7 +24,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S04](tasks/S04.md) | Cinematic Photo | Baigta | Codex/839dbcebb83d/sequential-ten | task/s04-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/12) | 2026-10-20T20:03:48Z | Select the next eligible task within the authorized sequential batch. |
 | [S05](tasks/S05.md) | Organic Craft | Baigta | Codex/839dbcebb83d/sequential-ten | task/s05-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/13) | 2026-10-20T20:12:12Z | Select the next eligible task within the authorized sequential batch. |
 | [S06](tasks/S06.md) | Terminal Utility | Baigta | Codex/839dbcebb83d/sequential-ten | task/s06-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/14) | 2026-10-21T02:55:09Z | Select the next eligible task within the authorized sequential batch. |
-| [S07](tasks/S07.md) | Quiet Luxury | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/s07-atlas | — | 2026-10-21T02:55:09Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
+| [S07](tasks/S07.md) | Quiet Luxury | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/s07-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/15) | 2026-10-21T03:01:59Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
 | [S08](tasks/S08.md) | Bauhaus Geometric | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S09](tasks/S09.md) | Field Notes | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S10](tasks/S10.md) | Institutional Clear | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
