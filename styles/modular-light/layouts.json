@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Folded-light catalogue spread",
+      "page_type": "commerce",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible principle, light and assembly links plus A/B sibling; B begins in the builder.",
+      "ordered_sections": [
+        {
+          "purpose": "Vertical collection title / broad lamp / narrow invitation",
+          "pattern": "Vertical collection title / broad lamp / narrow invitation",
+          "content_requirements": [
+            "Original Lithuanian concept copy",
+            "Actual geometry, control or useful explanation"
+          ]
+        },
+        {
+          "purpose": "Fold principle and three use scenarios",
+          "pattern": "Fold principle and three use scenarios",
+          "content_requirements": [
+            "Original Lithuanian concept copy",
+            "Actual geometry, control or useful explanation"
+          ]
+        },
+        {
+          "purpose": "Care disclosures and reversible assembly/export",
+          "pattern": "Care disclosures and reversible assembly/export",
+          "content_requirements": [
+            "Original Lithuanian concept copy",
+            "Actual geometry, control or useful explanation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Vertical title becomes horizontal; complete scene, numbered list and builder stack with large controls at360px.",
+      "distinguishing_features": [
+        "Vertical collection title / broad lamp / narrow invitation",
+        "Fold principle and three use scenarios",
+        "Care disclosures and reversible assembly/export"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Numbered assembly workbench",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible principle, light and assembly links plus A/B sibling; B begins in the builder.",
+      "ordered_sections": [
+        {
+          "purpose": "Numbered component rail beside live object and builder",
+          "pattern": "Numbered component rail beside live object and builder",
+          "content_requirements": [
+            "Original Lithuanian concept copy",
+            "Actual geometry, control or useful explanation"
+          ]
+        },
+        {
+          "purpose": "Purpose trial and concept envelope ledger",
+          "pattern": "Purpose trial and concept envelope ledger",
+          "content_requirements": [
+            "Original Lithuanian concept copy",
+            "Actual geometry, control or useful explanation"
+          ]
+        },
+        {
+          "purpose": "Care and local enquiry",
+          "pattern": "Care and local enquiry",
+          "content_requirements": [
+            "Original Lithuanian concept copy",
+            "Actual geometry, control or useful explanation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Vertical title becomes horizontal; complete scene, numbered list and builder stack with large controls at360px.",
+      "distinguishing_features": [
+        "Numbered component rail beside live object and builder",
+        "Purpose trial and concept envelope ledger",
+        "Care and local enquiry"
+      ]
+    }
+  ]
+}
