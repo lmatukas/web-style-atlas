@@ -2086,22 +2086,22 @@
     {
       "id": "P16",
       "title": "Judesio, 3D, garso ir pakaitalų patikrų pagrindas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P15"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/162fd1aaf53b/batch-five",
+      "claimed_at": "2026-10-21T12:34:55.651Z",
+      "updated_at": "2026-10-21T12:34:55.651Z",
+      "branch": "task/p16-expansion",
+      "base_commit": "41d3170269926d3800b6cca46293a5c6aa079742",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Implement P16 within owner-authorized sequential batch of five.",
       "handoff": null
     },
     {
