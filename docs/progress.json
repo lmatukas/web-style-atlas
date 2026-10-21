@@ -873,17 +873,17 @@
     {
       "id": "S10",
       "title": "Institutional Clear",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S09"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:16:30Z",
-      "updated_at": "2026-10-21T03:24:25Z",
+      "updated_at": "2026-10-21T03:24:35Z",
       "branch": "task/s10-atlas",
       "base_commit": "9a3385471001a8ef92ce3c36609a8e07fd7aa727",
       "evidence_commit": "9b057a2f4d04e5723501d65a1bb6e77a08da765b",
-      "merge_commit": null,
+      "merge_commit": "527e9a5a899f584670c22fa8b4b48720f6d16ea7",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/18",
       "checks": [
         {
@@ -921,28 +921,28 @@
         "docs/evidence/S10.md"
       ],
       "blocker": null,
-      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
-      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
+      "next_action": "Select the next eligible task within the authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Owner-authorized sequential batch continues; no scheduled automation."
     },
     {
       "id": "S11",
       "title": "Playful Cutout",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S10"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "claimed_at": "2026-10-21T03:24:35Z",
+      "updated_at": "2026-10-21T03:24:35Z",
+      "branch": "task/s11-atlas",
+      "base_commit": "527e9a5a899f584670c22fa8b4b48720f6d16ea7",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
       "handoff": null
     },
     {

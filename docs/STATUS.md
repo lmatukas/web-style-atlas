@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 17/38.**
+**Baigta: 18/38.**
 
-**Pirmiausia patikrinti S10: Laukia peržiūros; vykdytojas Codex/839dbcebb83d/sequential-ten.**
+**Pirmiausia patikrinti S11: Vykdoma; vykdytojas Codex/839dbcebb83d/sequential-ten.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -27,8 +27,8 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S07](tasks/S07.md) | Quiet Luxury | Baigta | Codex/839dbcebb83d/sequential-ten | task/s07-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/15) | 2026-10-21T03:02:11Z | Select the next eligible task within the authorized sequential batch. |
 | [S08](tasks/S08.md) | Bauhaus Geometric | Baigta | Codex/839dbcebb83d/sequential-ten | task/s08-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/16) | 2026-10-21T03:08:29Z | Select the next eligible task within the authorized sequential batch. |
 | [S09](tasks/S09.md) | Field Notes | Baigta | Codex/839dbcebb83d/sequential-ten | task/s09-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/17) | 2026-10-21T03:16:30Z | Select the next eligible task within the authorized sequential batch. |
-| [S10](tasks/S10.md) | Institutional Clear | Laukia peržiūros | Codex/839dbcebb83d/sequential-ten | task/s10-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/18) | 2026-10-21T03:24:25Z | Inspect exact PR head, merge if all checks pass, verify merge and record done. |
-| [S11](tasks/S11.md) | Playful Cutout | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [S10](tasks/S10.md) | Institutional Clear | Baigta | Codex/839dbcebb83d/sequential-ten | task/s10-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/18) | 2026-10-21T03:24:35Z | Select the next eligible task within the authorized sequential batch. |
+| [S11](tasks/S11.md) | Playful Cutout | Vykdoma | Codex/839dbcebb83d/sequential-ten | task/s11-atlas | — | 2026-10-21T03:24:35Z | Implement, test, review and merge under owner-authorized sequential batch of ten tasks. |
 | [S12](tasks/S12.md) | Data Observatory | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P09](tasks/P09.md) | Agentų adapteriai ir suderinamumo matrica | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P10](tasks/P10.md) | Realus naudojimo kitame projekte bandymas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
