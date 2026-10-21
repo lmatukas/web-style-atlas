@@ -927,23 +927,56 @@
     {
       "id": "S11",
       "title": "Playful Cutout",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S10"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:24:35Z",
-      "updated_at": "2026-10-21T03:24:35Z",
+      "updated_at": "2026-10-21T03:31:27Z",
       "branch": "task/s11-atlas",
       "base_commit": "527e9a5a899f584670c22fa8b4b48720f6d16ea7",
-      "evidence_commit": null,
+      "evidence_commit": "1d7bc7c9efdb5d3ad8871b1eb4f55a0aea0be016",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/19",
+      "checks": [
+        {
+          "name": "source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four current canonical PNGs below 1 MiB; deterministic tokens/index/gallery."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B combinations at 360/768/1440, axe/resources/controls/focus; supplemental glyph, reduced-motion and real token checks."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/selection/reference browser cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "2 / 2 / 2 / 2 / 2 / 2 = 12/12; four actual previews inspected and available neighbors compared. Three original MIT code-authored SVG cutouts, coherent palette/edge treatment and local rights note. No third-party fonts or imagery. Links and native disclosures work; no inert registration actions or mandatory motion."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39538851502 succeeded on 1d7bc7c9efdb5d3ad8871b1eb4f55a0aea0be016"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S11.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S12",
