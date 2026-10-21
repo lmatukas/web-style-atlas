@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 15. Drafts and templates are excluded.
+Ready styles: 16. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -19,5 +19,6 @@ Ready styles: 15. Drafts and templates are excluded.
 | [Organic Craft](../styles/organic-craft/style.md) | tactile | Warm material surfaces, irregular object forms and asymmetric compositions for independent makers. | [A: Materials and making story](../styles/organic-craft/reference/index.html) · [B: Asymmetric object collection](../styles/organic-craft/reference/alternate.html) |
 | [Playful Cutout](../styles/playful-cutout/style.md) | illustrative | Coherent cutout illustrations, deliberate overlap and friendly type for a playful creative story. | [A: Assembled cutout invitation](../styles/playful-cutout/reference/index.html) · [B: Event story with attached stickers](../styles/playful-cutout/reference/alternate.html) |
 | [Quiet Luxury](../styles/quiet-luxury/style.md) | restrained | Large object stages, measured proportions and sparse practical notes for a carefully edited collection. | [A: Sparse collection presentation](../styles/quiet-luxury/reference/index.html) · [B: Large object dossier](../styles/quiet-luxury/reference/alternate.html) |
+| [Retro Web](../styles/retro-web/style.md) | nostalgic | A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels. | [A: Personal web portal](../styles/retro-web/reference/index.html) · [B: Subject-filed entry archive](../styles/retro-web/reference/alternate.html) |
 | [Swiss Grid](../styles/swiss-grid/style.md) | typographic | Numbered typographic grids, oversized alignment and precise service or portfolio indexes. | [A: Typographic service index](../styles/swiss-grid/reference/index.html) · [B: Asymmetric work catalogue](../styles/swiss-grid/reference/alternate.html) |
 | [Terminal Utility](../styles/terminal-utility/style.md) | technical | A readable command index and chronological information panels with a consistent monospace voice. | [A: Command-like service index](../styles/terminal-utility/reference/index.html) · [B: Chronological log with information panels](../styles/terminal-utility/reference/alternate.html) |

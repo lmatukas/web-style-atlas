@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Personal web portal",
+      "page_type": "personal",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible home, now, archive and about directory; no hidden menu.",
+      "ordered_sections": [
+        {
+          "purpose": "Welcome visitors",
+          "pattern": "Personal introduction panel beside directory",
+          "content_requirements": [
+            "Persona",
+            "Actual archive link"
+          ]
+        },
+        {
+          "purpose": "Show current interests",
+          "pattern": "Three short authored observations",
+          "content_requirements": [
+            "Reading",
+            "Making",
+            "Noticing"
+          ]
+        },
+        {
+          "purpose": "Browse recent additions",
+          "pattern": "Dated link list",
+          "content_requirements": [
+            "Three dates",
+            "Existing archive destination"
+          ]
+        },
+        {
+          "purpose": "Explain the place",
+          "pattern": "About record and disclosure",
+          "content_requirements": [
+            "Fictional persona",
+            "Entry availability"
+          ]
+        }
+      ],
+      "mobile_reflow": "Directory and night note precede content panels; all rows wrap.",
+      "distinguishing_features": [
+        "Narrow boxed personal portal",
+        "Visible directory and ordinary blue links",
+        "Authored interests plus literal dated updates"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Subject-filed entry archive",
+      "page_type": "publishing",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Real topic buttons, literal search and return to home.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame archive",
+          "pattern": "Introduction beside directory field",
+          "content_requirements": [
+            "Six-entry scope",
+            "Home link"
+          ]
+        },
+        {
+          "purpose": "Find and read entries",
+          "pattern": "Search/category controls over dated disclosures",
+          "content_requirements": [
+            "Six complete notes",
+            "Count and empty state"
+          ]
+        },
+        {
+          "purpose": "Explain subjects",
+          "pattern": "Small category shelf",
+          "content_requirements": [
+            "Notes",
+            "Making",
+            "Links"
+          ]
+        },
+        {
+          "purpose": "Keep author context",
+          "pattern": "Closing record and current-interest return",
+          "content_requirements": [
+            "Local search scope",
+            "Actual destination"
+          ]
+        }
+      ],
+      "mobile_reflow": "Intro, filters, complete entry list, category shelf and record stack.",
+      "distinguishing_features": [
+        "Subject and query intersection",
+        "Six actual expandable authored entries",
+        "Explicit empty/count/reset states"
+      ]
+    }
+  ]
+}
