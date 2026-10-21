@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Metrics and fixed-scale chart overview",
+      "page_type": "data",
+      "reference_path": "reference/index.html",
+      "navigation": "Overview/comparison/method links and two actual period buttons.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Title and source context",
+          "content_requirements": [
+            "Simulated source",
+            "Period controls"
+          ]
+        },
+        {
+          "purpose": "Summarize",
+          "pattern": "Three synchronized metric groups",
+          "content_requirements": [
+            "Total",
+            "Locations",
+            "Largest count"
+          ]
+        },
+        {
+          "purpose": "Inspect distribution",
+          "pattern": "Labeled horizontal bars",
+          "content_requirements": [
+            "Six values",
+            "Fixed 0\u2013500 scale"
+          ]
+        },
+        {
+          "purpose": "Interpret",
+          "pattern": "Reading note",
+          "content_requirements": [
+            "Baseline comparison",
+            "Count meaning"
+          ]
+        },
+        {
+          "purpose": "Explain",
+          "pattern": "Native method disclosure",
+          "content_requirements": [
+            "Dataset boundary",
+            "Detail link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack metric groups and reading note; preserve names/values and fixed bar scale, wrap period buttons.",
+      "distinguishing_features": [
+        "One source for metrics and chart",
+        "Explicit fixed scale",
+        "Actual period switching"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Filtered comparison table",
+      "page_type": "data",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Stable overview/method links and real table filters/sort headers.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame comparison",
+          "pattern": "Title and period label",
+          "content_requirements": [
+            "Q1/Q2 context"
+          ]
+        },
+        {
+          "purpose": "Narrow records",
+          "pattern": "Labeled location search",
+          "content_requirements": [
+            "Search",
+            "Live result state"
+          ]
+        },
+        {
+          "purpose": "Compare",
+          "pattern": "Semantic sortable table",
+          "content_requirements": [
+            "Location",
+            "Q1",
+            "Q2",
+            "Absolute change"
+          ]
+        },
+        {
+          "purpose": "Interpret",
+          "pattern": "Short reading note",
+          "content_requirements": [
+            "Counts are not unique people"
+          ]
+        },
+        {
+          "purpose": "Explain and return",
+          "pattern": "Native method details",
+          "content_requirements": [
+            "Simulation boundary",
+            "Overview link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Fit four readable columns with compact spacing; controls wrap and no measure is hidden.",
+      "distinguishing_features": [
+        "Precise comparison task",
+        "Numeric/name sort with aria-sort",
+        "Real empty result state"
+      ]
+    }
+  ]
+}

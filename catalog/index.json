@@ -107,6 +107,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "data",
+        "public-information",
+        "documentation"
+      ],
+      "complexity": "medium",
+      "density": "dense",
+      "family": "technical",
+      "id": "data-observatory",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Data Observatory",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep navy surfaces, pale labels and one turquoise measure accent.",
+        "composition": "Quantitative overview with bar chart in A; exact filtered/sortable comparison table in B.",
+        "content_rhythm": "Synchronized metrics, chart, reading note and methodology; or exact comparison rows.",
+        "imagery": "Code-native fixed-scale bars from one bundled six-location simulated dataset.",
+        "interaction": "Actual period switching, location search and numeric/name sorting with accessible state.",
+        "motion": "Immediate data updates, fixed chart scale and no count-up animation; reduced-motion honored.",
+        "navigation": "Stable overview/comparison/method links and local dataset controls.",
+        "typography": "Compact sans-serif headings, tabular numerals and explicit unit/period labels."
+      },
+      "status": "ready",
+      "style_path": "styles/data-observatory/style.md",
+      "summary": "Explicit units, synchronized metrics and accurate quantitative marks with a searchable comparison table.",
+      "tags": [
+        "data-led",
+        "precise",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/data-observatory/preview-mobile.png",
+          "preview_path": "styles/data-observatory/preview.png",
+          "reference_path": "styles/data-observatory/reference/index.html",
+          "title": "Metrics and fixed-scale chart overview"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/data-observatory/preview-alt-mobile.png",
+          "preview_path": "styles/data-observatory/preview-alt.png",
+          "reference_path": "styles/data-observatory/reference/alternate.html",
+          "title": "Filtered comparison table"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "publishing",
         "culture",
         "personal"
