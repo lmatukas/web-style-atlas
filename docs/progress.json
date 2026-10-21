@@ -1552,22 +1552,22 @@
     {
       "id": "S18",
       "title": "Art Deco",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S17"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T07:27:50.612Z",
+      "updated_at": "2026-10-21T07:27:50.612Z",
+      "branch": "task/s18-atlas",
+      "base_commit": "b6cff76b0cbce9de7a19e830578d65b2dddb2b88",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify next style within ten-task authorization.",
       "handoff": null
     },
     {

@@ -4,7 +4,7 @@
 
 **Baigta: 29/38.**
 
-**Kita užduotis: [S18](tasks/S18.md).**
+**Pirmiausia patikrinti S18: Vykdoma; vykdytojas Codex/2875ce3dc6da/batch-two.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -39,7 +39,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S15](tasks/S15.md) | Industrial Spec | Baigta | Codex/2875ce3dc6da/batch-two | task/s15-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/27) | 2026-10-21T07:12:52.016Z | Select next eligible task within owner-authorized sequential batch. |
 | [S16](tasks/S16.md) | Retro Web | Baigta | Codex/2875ce3dc6da/batch-two | task/s16-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/28) | 2026-10-21T07:19:53.923Z | Select next eligible task within owner-authorized sequential batch. |
 | [S17](tasks/S17.md) | Y2K Chrome | Baigta | Codex/2875ce3dc6da/batch-two | task/s17-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/29) | 2026-10-21T07:27:12.866Z | Select next eligible task within owner-authorized sequential batch. |
-| [S18](tasks/S18.md) | Art Deco | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [S18](tasks/S18.md) | Art Deco | Vykdoma | Codex/2875ce3dc6da/batch-two | task/s18-atlas | — | 2026-10-21T07:27:50.612Z | Implement and verify next style within ten-task authorization. |
 | [S19](tasks/S19.md) | Botanical Engraving | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S20](tasks/S20.md) | Kinetic Type | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S21](tasks/S21.md) | Soft Spatial | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
