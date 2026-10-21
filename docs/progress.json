@@ -2649,23 +2649,31 @@
     {
       "id": "S36",
       "title": "Rhythm Planner",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S35"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:23:56.842Z",
-      "updated_at": "2026-10-21T17:23:56.842Z",
+      "updated_at": "2026-10-21T17:30:08.101Z",
       "branch": "task/s36-expansion",
       "base_commit": "f84349cab6dd3b618ee7948642da23187f63d183",
-      "evidence_commit": null,
+      "evidence_commit": "163a0a1c6bf176122d521781710ffa91cca3fc26",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/75",
+      "checks": [
+        {
+          "name": "Source/build/freshness, runtime/business, four widths and gallery prompt",
+          "status": "pass",
+          "details": "12 A/B cases; exact actual downloads; 0/5/10 breaks and midnight; 11/12 visual rubric."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S36.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S36 in the authorized sequential S36–S39 batch.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge before S37.",
+      "handoff": "Authorized S36–S39 sequential batch. S36 ready for exact-head CI and merge; no deployment."
     },
     {
       "id": "S37",
