@@ -1,0 +1,12 @@
+[
+  {
+    "source": "styles/cinematic-photo/assets/forest.webp",
+    "target": "assets/forest.webp",
+    "sha256": "b21abcfb2590510069346300d57fba597e32ef9decb7b9bb46afaf4a6cdf8c3b"
+  },
+  {
+    "source": "styles/cinematic-photo/assets/lake.webp",
+    "target": "assets/lake.webp",
+    "sha256": "09675d7ac2f3d0c268563df62efb3bcdadcea1df72743401565c8a142299f6cf"
+  }
+]

@@ -1,0 +1,213 @@
+{
+  "executed_on": "2026-10-21",
+  "atlas_repository": "https://github.com/lmatukas/web-style-atlas",
+  "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+  "runtime": "collaboration tool; six fresh target threads, sequential execution",
+  "model_alias": "gpt-6-luna",
+  "model_snapshot": "not exposed",
+  "environment": {
+    "node": "v24.19.0",
+    "os": "Ubuntu 24.04 x64",
+    "playwright": "1.62.1",
+    "chromium": "151.0.7922.34",
+    "axe_core": "4.12.1"
+  },
+  "cases": [
+    {
+      "id": "service-swiss",
+      "agent": "/root/p10_service_swiss",
+      "model": "gpt-6-luna",
+      "model_snapshot": "not exposed by collaboration runtime",
+      "status": "completed",
+      "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+      "selected_style": "swiss-grid",
+      "variant": "a",
+      "source_files": [
+        "styles/swiss-grid/style.md",
+        "styles/swiss-grid/tokens.json",
+        "styles/swiss-grid/layouts.json",
+        "styles/swiss-grid/assets.json",
+        "styles/swiss-grid/reference/index.html"
+      ],
+      "implementation": "Plain HTML/CSS; vanilla JS only for the two directories",
+      "independent_checks": {
+        "viewports": [
+          360,
+          768,
+          1440
+        ],
+        "base_path": "/bench/",
+        "status": "pass",
+        "visual_review": "desktop and mobile inspected",
+        "scope": "required copy, navigation, native disclosures, resources/images, overflow, initial keyboard focus, axe WCAG-tagged rules; directory controls when applicable"
+      }
+    },
+    {
+      "id": "service-terminal",
+      "agent": "/root/p10_service_terminal",
+      "model": "gpt-6-luna",
+      "model_snapshot": "not exposed by collaboration runtime",
+      "status": "completed",
+      "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+      "selected_style": "terminal-utility",
+      "variant": "a",
+      "source_files": [
+        "styles/terminal-utility/style.md",
+        "styles/terminal-utility/tokens.json",
+        "styles/terminal-utility/layouts.json",
+        "styles/terminal-utility/assets.json",
+        "styles/terminal-utility/reference/index.html"
+      ],
+      "implementation": "Plain HTML/CSS; vanilla JS only for the two directories",
+      "independent_checks": {
+        "viewports": [
+          360,
+          768,
+          1440
+        ],
+        "base_path": "/bench/",
+        "status": "pass",
+        "visual_review": "desktop and mobile inspected",
+        "scope": "required copy, navigation, native disclosures, resources/images, overflow, initial keyboard focus, axe WCAG-tagged rules; directory controls when applicable"
+      }
+    },
+    {
+      "id": "service-institutional",
+      "agent": "/root/p10_service_institutional",
+      "model": "gpt-6-luna",
+      "model_snapshot": "not exposed by collaboration runtime",
+      "status": "completed",
+      "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+      "selected_style": "institutional-clear",
+      "variant": "a",
+      "source_files": [
+        "styles/institutional-clear/style.md",
+        "styles/institutional-clear/tokens.json",
+        "styles/institutional-clear/layouts.json",
+        "styles/institutional-clear/assets.json",
+        "styles/institutional-clear/reference/index.html"
+      ],
+      "implementation": "Plain HTML/CSS; vanilla JS only for the two directories",
+      "independent_checks": {
+        "viewports": [
+          360,
+          768,
+          1440
+        ],
+        "base_path": "/bench/",
+        "status": "pass",
+        "visual_review": "desktop and mobile inspected",
+        "scope": "required copy, navigation, native disclosures, resources/images, overflow, initial keyboard focus, axe WCAG-tagged rules; directory controls when applicable"
+      }
+    },
+    {
+      "id": "photo-portfolio",
+      "agent": "/root/p10_photo",
+      "model": "gpt-6-luna",
+      "model_snapshot": "not exposed by collaboration runtime",
+      "status": "completed",
+      "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+      "selected_style": "cinematic-photo",
+      "variant": "a",
+      "source_files": [
+        "styles/cinematic-photo/style.md",
+        "styles/cinematic-photo/tokens.json",
+        "styles/cinematic-photo/layouts.json",
+        "styles/cinematic-photo/assets.json",
+        "styles/cinematic-photo/reference/index.html"
+      ],
+      "implementation": "Plain HTML/CSS; vanilla JS only for the two directories",
+      "independent_checks": {
+        "viewports": [
+          360,
+          768,
+          1440
+        ],
+        "base_path": "/bench/",
+        "status": "pass",
+        "visual_review": "desktop and mobile inspected",
+        "scope": "required copy, navigation, native disclosures, resources/images, overflow, initial keyboard focus, axe WCAG-tagged rules; directory controls when applicable"
+      }
+    },
+    {
+      "id": "information-catalogue",
+      "agent": "/root/p10_catalogue",
+      "model": "gpt-6-luna",
+      "model_snapshot": "not exposed by collaboration runtime",
+      "status": "completed",
+      "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+      "selected_style": "institutional-clear",
+      "variant": "a",
+      "source_files": [
+        "styles/institutional-clear/style.md",
+        "styles/institutional-clear/tokens.json",
+        "styles/institutional-clear/layouts.json",
+        "styles/institutional-clear/assets.json",
+        "styles/institutional-clear/reference/index.html"
+      ],
+      "implementation": "Plain HTML/CSS; vanilla JS only for the two directories",
+      "independent_checks": {
+        "viewports": [
+          360,
+          768,
+          1440
+        ],
+        "base_path": "/bench/",
+        "status": "pass",
+        "visual_review": "desktop and mobile inspected",
+        "scope": "required copy, navigation, native disclosures, resources/images, overflow, initial keyboard focus, axe WCAG-tagged rules; directory controls when applicable"
+      }
+    },
+    {
+      "id": "service-react",
+      "agent": "/root/p10_react",
+      "model": "gpt-6-luna",
+      "model_snapshot": "not exposed by collaboration runtime",
+      "status": "completed",
+      "atlas_revision": "5f35c4ddca6b3be0225108ca8ad1d515d30157a6",
+      "selected_style": "swiss-grid",
+      "variant": "a",
+      "source_files": [
+        "styles/swiss-grid/style.md",
+        "styles/swiss-grid/tokens.json",
+        "styles/swiss-grid/layouts.json",
+        "styles/swiss-grid/assets.json",
+        "styles/swiss-grid/reference/index.html"
+      ],
+      "implementation": "React 18.3.1 / React DOM 18.3.1 / Vite 6.4.4 / plugin-react 4.3.4",
+      "independent_checks": {
+        "viewports": [
+          360,
+          768,
+          1440
+        ],
+        "base_path": "/bench/",
+        "status": "pass",
+        "visual_review": "desktop and mobile inspected",
+        "scope": "required copy, navigation, native disclosures, resources/images, overflow, initial keyboard focus, axe WCAG-tagged rules; directory controls when applicable"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "initial_index_sha256": "360e917006b6c7a322880d6fb7827ead17d8f7e915917e9c839512391a1d01e5",
+      "finding": "Initial portfolio retained the atlas reference's Lithuanian glyph sample in its footer. Primary visual review supplied raw rendered screenshots to the target for assessment; retained final source must reflect its actual correction."
+    },
+    {
+      "case": "service-react",
+      "initial": "Root-absolute JS/CSS URLs returned 404 under /bench/; no h1/main rendered.",
+      "correction": "Target added Vite base './' and rebuilt; final nested-path browser checks passed."
+    },
+    {
+      "case": "service-react",
+      "initial": "Vite 6.0.7 audit: one high Vite / one moderate transitive esbuild finding.",
+      "correction": "Target pinned Vite 6.4.4 and updated lock; actual final npm audit reported zero vulnerabilities."
+    }
+  ],
+  "limitations": [
+    "Exact model snapshot unavailable.",
+    "Native Codex CLI, Claude Code and Bob runtimes not installed/tested.",
+    "One run per initial prompt; no reliability distribution or universal compatibility claim.",
+    "Automated accessibility rules and bounded manual review do not establish full WCAG conformance."
+  ]
+}

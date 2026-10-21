@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Plainword makes important documents clear, accurate and easier to use.">
+  <title>Plainword — Clear writing. Useful work.</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101815;
+      --surface: #1a2721;
+      --text: #e0eee4;
+      --muted: #adbbb1;
+      --accent: #a8e6ae;
+      --on-accent: #142119;
+      --border: #6e8274;
+      --focus: #baf4bd;
+      --measure: 70rem;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 16px;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--text);
+      scroll-behavior: smooth;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; }
+    a { color: var(--accent); text-underline-offset: .24em; text-decoration-thickness: 1px; }
+    a:hover { color: var(--text); }
+    a:focus-visible, summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 4px; }
+    .skip { position: absolute; top: -5rem; left: 1rem; z-index: 2; padding: .6rem .8rem; background: var(--accent); color: var(--on-accent); }
+    .skip:focus { top: 1rem; }
+    .wrap { width: min(var(--measure), calc(100% - 3rem)); margin-inline: auto; }
+    .mast { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding-block: 1.25rem; border-bottom: 1px solid var(--border); }
+    .brand { display: inline-flex; flex-direction: column; gap: .1rem; color: var(--text); text-decoration: none; font-weight: 700; letter-spacing: -.04em; font-size: 1.2rem; }
+    .brand small { color: var(--muted); font-size: .68rem; font-weight: 400; letter-spacing: .08em; }
+    nav { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; }
+    nav a { font-size: .88rem; }
+    main { padding-bottom: 4rem; }
+    .intro { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(16rem, .8fr); gap: 2.5rem; align-items: end; padding-block: clamp(3rem, 8vw, 6.5rem) 4rem; }
+    .label, .eyebrow { margin: 0 0 1rem; color: var(--accent); font-size: .78rem; line-height: 1.4; letter-spacing: .09em; text-transform: uppercase; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { max-width: 13ch; margin-bottom: 1.2rem; font-size: clamp(2.5rem, 7vw, 5.2rem); line-height: 1.04; letter-spacing: -.075em; }
+    h1 span { color: var(--accent); }
+    .lead { max-width: 42ch; margin: 0; color: var(--muted); font-size: 1.05rem; }
+    .terminal-note { border: 1px solid var(--border); background: var(--surface); padding: 1.25rem; }
+    .terminal-note .prompt { color: var(--accent); font-size: .84rem; }
+    .terminal-note p { margin: .55rem 0 .75rem; }
+    .terminal-note small { display: block; color: var(--muted); font-size: .78rem; }
+    section { scroll-margin-top: 1rem; }
+    .services { border-top: 1px solid var(--border); padding-top: 1.4rem; }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: .75rem; }
+    h2 { margin-bottom: 0; font-size: clamp(1.35rem, 3vw, 2rem); letter-spacing: -.045em; line-height: 1.2; }
+    .section-meta { color: var(--muted); font-size: .74rem; }
+    details { border-top: 1px solid var(--border); }
+    details:last-of-type { border-bottom: 1px solid var(--border); }
+    summary { display: grid; grid-template-columns: minmax(9rem, .75fr) 1.3fr auto; align-items: center; gap: 1rem; min-height: 4.5rem; padding: 1rem .25rem; cursor: pointer; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary strong { font-size: .96rem; }
+    summary span { color: var(--muted); }
+    summary b { color: var(--accent); font-size: 1.3rem; font-weight: 400; }
+    details[open] summary b { transform: rotate(45deg); }
+    .detail-body { max-width: 58rem; padding: 0 2.5rem 1.3rem 1.25rem; color: var(--muted); }
+    .detail-body p { margin: .45rem 0; }
+    .detail-body strong { display: inline-block; width: 7.3rem; color: var(--accent); font-size: .75rem; letter-spacing: .06em; }
+    .runbook { display: grid; grid-template-columns: minmax(12rem, .8fr) 1.2fr; gap: 2rem; padding-block: 4rem; border-bottom: 1px solid var(--border); }
+    .runbook-intro h2 { max-width: 12ch; font-size: clamp(1.7rem, 4vw, 2.6rem); }
+    .runbook-intro p:last-child { color: var(--muted); max-width: 34ch; }
+    ol { list-style: none; padding: 0; margin: 0; counter-reset: step; }
+    ol li { display: grid; grid-template-columns: 3.5rem 1fr; column-gap: 1rem; padding: .75rem 0 1rem; border-top: 1px solid var(--border); counter-increment: step; }
+    ol li::before { content: "0" counter(step); grid-row: span 2; padding-top: .08rem; color: var(--accent); }
+    ol h3 { margin: 0 0 .2rem; font-size: 1rem; }
+    ol p { margin: 0; color: var(--muted); font-size: .9rem; }
+    .next { display: grid; grid-template-columns: minmax(13rem, .75fr) 1.25fr; gap: 2rem; padding-block: 3.5rem 1rem; }
+    .next h2 { max-width: 12ch; font-size: clamp(1.7rem, 4vw, 2.6rem); }
+    .next-copy { max-width: 56ch; color: var(--muted); }
+    .next-copy p { margin-bottom: 1rem; }
+    .next-copy .next-step { border-left: 2px solid var(--accent); padding: .2rem 0 .2rem 1rem; color: var(--text); }
+    .next-copy a { display: inline-block; margin-top: .25rem; }
+    footer { padding: 1.4rem 0 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .72rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; }
+    @media (max-width: 700px) {
+      .wrap { width: min(var(--measure), calc(100% - 2rem)); }
+      .mast { align-items: flex-start; flex-direction: column; gap: 1rem; }
+      nav { gap: .6rem 1.1rem; }
+      .intro { grid-template-columns: 1fr; gap: 1.7rem; padding-block: 3rem; }
+      .terminal-note { max-width: 34rem; }
+      .section-head { align-items: flex-start; flex-direction: column; gap: .25rem; }
+      summary { grid-template-columns: 1fr auto; gap: .25rem .8rem; padding-block: .9rem; }
+      summary strong { grid-column: 1; }
+      summary span { grid-column: 1; }
+      summary b { grid-column: 2; grid-row: 1 / span 2; }
+      .detail-body { padding-left: .25rem; padding-right: .25rem; }
+      .detail-body strong { display: block; width: auto; margin-bottom: .1rem; }
+      .runbook, .next { grid-template-columns: 1fr; gap: 1.25rem; }
+      .runbook { padding-block: 3rem; }
+      .next { padding-top: 3rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { :root { scroll-behavior: auto; } *, *::before, *::after { transition-duration: 0.01ms !important; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast wrap">
+    <a class="brand" href="#top">plainword<small>INDEPENDENT EDITORIAL SERVICE</small></a>
+    <nav aria-label="Main navigation">
+      <a href="#services">/services</a>
+      <a href="#process">/process</a>
+      <a href="#next">/next-step</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="intro" id="top" aria-labelledby="page-title">
+      <div>
+        <p class="label">~/plainword &nbsp; / &nbsp; EDITORIAL SERVICES</p>
+        <h1 id="page-title">Clear writing.<br><span>Useful work.</span></h1>
+        <p class="lead">Careful editing for the documents your organization relies on. Plainword helps small teams make their words easier to understand and use.</p>
+      </div>
+      <aside class="terminal-note" aria-label="Service summary">
+        <span class="prompt">$ plainword --purpose</span>
+        <p>Make important information easier to read, trust and act on.</p>
+        <small>Independent editorial service. Work is scoped with you, one document at a time.</small>
+      </aside>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="section-head">
+        <h2 id="services-title">Available services</h2>
+        <span class="section-meta">03 SERVICES / OPEN TO INSPECT</span>
+      </div>
+      <details>
+        <summary><strong>01 &nbsp; copy-editing</strong><span>Improve clarity, flow and consistency.</span><b aria-hidden="true">+</b></summary>
+        <div class="detail-body"><p><strong>INPUT</strong> A complete draft and a sense of who needs to read it.</p><p><strong>OUTPUT</strong> Edited copy with clearer sentences, consistent terms and queries where your judgment is needed.</p><p><strong>SCOPE</strong> We agree the level of editing before work begins; new research or writing is separate.</p></div>
+      </details>
+      <details>
+        <summary><strong>02 &nbsp; proofreading</strong><span>Catch errors in a near-final document.</span><b aria-hidden="true">+</b></summary>
+        <div class="detail-body"><p><strong>INPUT</strong> A final or nearly final file with layout already in place.</p><p><strong>OUTPUT</strong> Corrections for spelling, punctuation, grammar and visible consistency issues.</p><p><strong>SCOPE</strong> Proofreading is a final check, not a substitute for substantive editing or fact-checking.</p></div>
+      </details>
+      <details>
+        <summary><strong>03 &nbsp; document structure</strong><span>Make information easier to find and follow.</span><b aria-hidden="true">+</b></summary>
+        <div class="detail-body"><p><strong>INPUT</strong> A draft or a set of material that feels difficult to navigate.</p><p><strong>OUTPUT</strong> A proposed order, headings and signposts, with notes on gaps or repetition.</p><p><strong>SCOPE</strong> Structure recommendations are agreed before any full rewrite.</p></div>
+      </details>
+    </section>
+
+    <section class="runbook" id="process" aria-labelledby="process-title">
+      <div class="runbook-intro">
+        <p class="label">DELIVERY / A SMALL LOOP</p>
+        <h2 id="process-title">Share. Agree. Review.</h2>
+        <p>A straightforward process keeps the work useful and the expectations clear.</p>
+      </div>
+      <ol>
+        <li><h3>Share a sample</h3><p>Start with a short excerpt and tell me what the document needs to do.</p></li>
+        <li><h3>Agree a scope</h3><p>Choose the service, boundaries and a practical handoff plan before the full file is shared.</p></li>
+        <li><h3>Review and hand off</h3><p>Receive the edited document with clear queries and notes for your review.</p></li>
+      </ol>
+    </section>
+
+    <section class="next" id="next" aria-labelledby="next-title">
+      <div>
+        <p class="label">NEXT / A LOW-PRESSURE START</p>
+        <h2 id="next-title">Begin with one page.</h2>
+      </div>
+      <div class="next-copy">
+        <p>If you are considering editorial help, prepare a short sample and a sentence about its audience and purpose. That is enough to discuss whether the work is a good fit and what kind of review may help.</p>
+        <p class="next-step"><strong>What happens next:</strong> use the sample to outline the likely scope and questions. This page does not collect files or send a request.</p>
+        <a href="#services">Review the service options ↑</a>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><span>PLAINWORD / INDEPENDENT EDITORIAL SERVICE</span><span>NO FILES COLLECTED · NO REQUEST SENT</span></footer>
+</body>
+</html>

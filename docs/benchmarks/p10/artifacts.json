@@ -1,0 +1,161 @@
+[
+  {
+    "id": "service-swiss",
+    "files": [
+      {
+        "path": "design-decision.md",
+        "sha256": "25442db6f2136648884867c20483bf6e8a1269159139b4a293501a87b8bc1031"
+      },
+      {
+        "path": "index.html",
+        "sha256": "064243b20f8a4f73aa1bc4587706dd6e22797bc4a445d9aa34927cb0ef377cbd"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "1021f26b28e3bfe574a43d57425b3f84ce81129617e0d073b83e114f3302954f"
+      }
+    ],
+    "atlas_assets": []
+  },
+  {
+    "id": "service-terminal",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "e5f35a1c3bf8d64e0c65eadc0d524fcc628b5ec104d5d01433ab416ff44214d7"
+      },
+      {
+        "path": "design-decision.md",
+        "sha256": "6e900f3f6c072a4a5297010f7c2860dac12f63c497d548ce4da73f96df120a38"
+      },
+      {
+        "path": "index.html",
+        "sha256": "3d27fa4e5d82dcf9ccad90d789eb8e013382bc06a56ce3bbf1ac6d6b29b32d06"
+      }
+    ],
+    "atlas_assets": []
+  },
+  {
+    "id": "service-institutional",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "351e404f7964fd6471ad397da5d4ff783ff14d0d84a30d3ce1151de82350493d"
+      },
+      {
+        "path": "design-decision.md",
+        "sha256": "8fbcb6b87a4b868b33ee6e1a7b4e398c298209d9d070f2654c050349135a2e97"
+      },
+      {
+        "path": "index.html",
+        "sha256": "b6895b81d74a58b1e286228ef8b5b01e8f01391892d9d039137d31f0b34eb981"
+      },
+      {
+        "path": "script.js",
+        "sha256": "c70f7799f272d97ebac3d9ed8f452dfdff1a97fd09a5374ec0a650773d7c0350"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "ab4f355c518e2a4fbb2cf0ddaaba184e13fe42f602ec635e38e6644b4ebe981e"
+      }
+    ],
+    "atlas_assets": []
+  },
+  {
+    "id": "photo-portfolio",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "06c94dcebe70b67f1bb2fe2656414a727ebe8969a4a207adb2eaa46af63c4a2e"
+      },
+      {
+        "path": "assets/RIGHTS.txt",
+        "sha256": "7101f2e76bc565f251129ae054a8aa3b35ae3f631d1bfcc58a5bef7f2ddd6447"
+      },
+      {
+        "path": "design-decision.md",
+        "sha256": "d108b68b94bf98de471492f47e95799cd3b7f80dc6dc55b6ec82aa5f926e18d3"
+      },
+      {
+        "path": "index.html",
+        "sha256": "26f08376a296e018aa493117adb401f4a05c7d3ffde1f25a8e52330195854979"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "488357ab86014adb1d3bbf82992b5b08f54be9014212089d1e8fbd37b85de1ec"
+      }
+    ],
+    "atlas_assets": [
+      {
+        "source": "styles/cinematic-photo/assets/forest.webp",
+        "target": "assets/forest.webp",
+        "sha256": "b21abcfb2590510069346300d57fba597e32ef9decb7b9bb46afaf4a6cdf8c3b"
+      },
+      {
+        "source": "styles/cinematic-photo/assets/lake.webp",
+        "target": "assets/lake.webp",
+        "sha256": "09675d7ac2f3d0c268563df62efb3bcdadcea1df72743401565c8a142299f6cf"
+      }
+    ]
+  },
+  {
+    "id": "information-catalogue",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "c0a7ee34f6266ef9aa95011f6921b999ae9035c3ea2ad931bb089f6426fe2407"
+      },
+      {
+        "path": "design-decision.md",
+        "sha256": "d118ff286a541c8ad8663aa4a4b6b48c29ac55244b2fd26a9b2992c34abc80f0"
+      },
+      {
+        "path": "index.html",
+        "sha256": "713f1fc87a5cfce9dc87f874bf796f839804faa1577d2409af1af5544f7f217e"
+      },
+      {
+        "path": "script.js",
+        "sha256": "d0949a9a44ad5b7a4c83e5bcd30f44c10bc52835dddd6842c0a795cfe8b43f20"
+      },
+      {
+        "path": "styles.css",
+        "sha256": "1c6e36e401c3a629e3c9b1637591f8b2230c11c0dd22d89b0962f7f6307dc492"
+      }
+    ],
+    "atlas_assets": []
+  },
+  {
+    "id": "service-react",
+    "files": [
+      {
+        "path": "design-decision.md",
+        "sha256": "dec69dc25bc40bdd45ecf473a2a343fc43475fd34cc5c61eac7d6aacd7cce392"
+      },
+      {
+        "path": "index.html",
+        "sha256": "7df23d600ca8f9d6f6e460bbe462fde13b51848a977880cc86709898d3f8834c"
+      },
+      {
+        "path": "package-lock.json",
+        "sha256": "e084b5fcf7ad97e2e767f03293bed4853f01a1bbefb8e0dfb54854b991f10946"
+      },
+      {
+        "path": "package.json",
+        "sha256": "7e53a3962a1f2e1ce0429fedbae1cb1e73bedbf1a8b5cdd8592e87f8610b1848"
+      },
+      {
+        "path": "src/main.jsx",
+        "sha256": "4ef7a1cb2c78448fd7e77a07b55cc30df8896fb63990508f8d45bc46d3378c78"
+      },
+      {
+        "path": "src/styles.css",
+        "sha256": "213afb3a454e11c93970bb4092e7ea02ead416b29a026d34544322dfb2bad05b"
+      },
+      {
+        "path": "vite.config.js",
+        "sha256": "5c169058e111255c564fae35c44360b3090d4e69b5f7fe5a42749de1b42a5443"
+      }
+    ],
+    "atlas_assets": []
+  }
+]
