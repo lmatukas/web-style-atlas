@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 34/38.**
+**Baigta: 35/38.**
 
-**Pirmiausia patikrinti S23: Laukia peržiūros; vykdytojas Codex/2875ce3dc6da/final-four.**
+**Kita užduotis: [S24](tasks/S24.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -44,7 +44,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S20](tasks/S20.md) | Kinetic Type | Baigta | Codex/2875ce3dc6da/batch-two | task/s20-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/32) | 2026-10-21T07:48:55.682Z | Select next eligible task within owner-authorized sequential batch. |
 | [S21](tasks/S21.md) | Soft Spatial | Baigta | Codex/2875ce3dc6da/batch-two | task/s21-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/33) | 2026-10-21T07:58:00.254Z | Select next eligible task within owner-authorized sequential batch. |
 | [S22](tasks/S22.md) | Architectural Monograph | Baigta | Codex/2875ce3dc6da/batch-two | task/s22-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/34) | 2026-10-21T08:12:12.372Z | Select next eligible task within owner-authorized sequential batch. |
-| [S23](tasks/S23.md) | Pop Commerce | Laukia peržiūros | Codex/2875ce3dc6da/final-four | task/s23-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/35) | 2026-10-21T09:42:51.165Z | Wait for exact-head CI, then merge and continue authorized sequential batch. |
+| [S23](tasks/S23.md) | Pop Commerce | Baigta | Codex/2875ce3dc6da/final-four | task/s23-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/35) | 2026-10-21T09:44:11.433Z | Select next eligible task within owner-authorized sequential batch. |
 | [S24](tasks/S24.md) | Humanist Service | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P13](tasks/P13.md) | 24 stilių įvairovės ir naudojimo auditas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |

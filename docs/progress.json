@@ -1822,17 +1822,17 @@
     {
       "id": "S23",
       "title": "Pop Commerce",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S22"
       ],
       "worker": "Codex/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:37:24.344Z",
-      "updated_at": "2026-10-21T09:42:51.165Z",
+      "updated_at": "2026-10-21T09:44:11.433Z",
       "branch": "task/s23-atlas",
       "base_commit": "4db1276eee26fb330922e437d2a3757de4aea5a6",
       "evidence_commit": "8c66b2508558cffd350ab22e7332eb32cd52f2b1",
-      "merge_commit": null,
+      "merge_commit": "64e33e8aa6f47c98032b3aecd34bf887fc09211e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/35",
       "checks": [
         {
@@ -1859,14 +1859,19 @@
           "name": "git diff --check and generated drift",
           "status": "pass",
           "details": "Clean whitespace; source and generated wrapper checks passed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39579086616 succeeded on 8c66b2508558cffd350ab22e7332eb32cd52f2b1"
         }
       ],
       "evidence_paths": [
         "docs/evidence/S23.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
-      "handoff": "Add Pop Commerce offer and working product shelf complete; actual local checks and visual evidence retained. Public gallery awaits release."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue the owner-authorized remaining queue; release work follows its task gate."
     },
     {
       "id": "S24",
