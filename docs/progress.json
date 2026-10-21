@@ -1982,17 +1982,17 @@
     {
       "id": "P14",
       "title": "Galutinis leidimas ir perdavimas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P13"
       ],
       "worker": "Codex/60722bd95b94/P14-resume",
       "claimed_at": "2026-10-21T10:00:37.372Z",
-      "updated_at": "2026-10-21T10:21:38.647Z",
+      "updated_at": "2026-10-21T10:27:15.705Z",
       "branch": "task/p14-atlas",
       "base_commit": "877fe8fa4ab887e360e15b9c5d6631fa68390ceb",
       "evidence_commit": "92bd299fcce7b3dfd1a964b514140e7f3917533d",
-      "merge_commit": null,
+      "merge_commit": "92ee726a402d0b526d9d6a062c2d705debdd2e18",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/39",
       "checks": [
         {
@@ -2012,8 +2012,8 @@
         },
         {
           "name": "GitHub exact-head CI",
-          "status": "not_run",
-          "details": "PR #39 run 39583901851 is in progress on 92bd299fcce7b3dfd1a964b514140e7f3917533d; do not merge before success."
+          "status": "pass",
+          "details": "Atlas validation run 39583901851 completed successfully on exact implementation head 92bd299fcce7b3dfd1a964b514140e7f3917533d. Source/generated/queue gates and full browser/accessibility/renderer gates passed. Merged PR #39 and actual merge SHA verified through GitHub."
         }
       ],
       "evidence_paths": [
@@ -2021,8 +2021,8 @@
         "docs/releases/1.0.0.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head PR #39 CI, merge if all required gates pass, then record acceptance. Owner must start a new main release workflow with publish enabled; rerunning old run 39582682091 uses pre-P14 code.",
-      "handoff": "Recovered interrupted implementation and completed clean-clone evidence. Source release is 1.0.0 (24/48/96); public gallery remains verified 0.1.0 with 12 styles. Existing merge/publication authorization applies. GitHub app cannot dispatch and available cloud browser is signed out. No new deployment claimed."
+      "next_action": "All 38 planned source implementation tasks are accepted. Owner: start a NEW Actions release workflow on main with publish enabled, then verify 24 live cards and a reference. Do not rerun old failed run 39582682091, which uses pre-P14 code.",
+      "handoff": "P14 implementation PR #39 merged at 92ee726a402d0b526d9d6a062c2d705debdd2e18 after successful exact-head CI. Source version 1.0.0: 24 styles, 48 references, 96 current previews. Public browser still shows the earlier 12-style gallery; live 1.0.0 publication and its verification remain explicitly pending one new manual workflow because the app cannot dispatch and the available browser is signed out. No new deployment/tag/Release claimed."
     }
   ]
 }
