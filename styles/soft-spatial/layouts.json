@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Single ambient object",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Object introduction, form anchor, layers page and scope disclosure.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce one object",
+          "pattern": "Text beside large sculptural stage",
+          "content_requirements": [
+            "Named fictional object",
+            "Illustration caption"
+          ]
+        },
+        {
+          "purpose": "Explain form",
+          "pattern": "Heading with three observations",
+          "content_requirements": [
+            "Light",
+            "Contact shadow",
+            "Stillness"
+          ]
+        },
+        {
+          "purpose": "Explore materials",
+          "pattern": "Two spatial samples beside prose",
+          "content_requirements": [
+            "Illustrated material limits",
+            "Layers link"
+          ]
+        },
+        {
+          "purpose": "State scope",
+          "pattern": "Practical notes and disclosure",
+          "content_requirements": [
+            "Fictional practice",
+            "CSS form explanation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Introduction then complete object; form notes and material samples stack.",
+      "distinguishing_features": [
+        "One recessed shell dominates",
+        "Grounded diffuse shadow",
+        "Separate close form observations"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Layered practice overview",
+      "page_type": "services",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Layers anchor, object return and practice notes disclosure.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce practice",
+          "pattern": "Broad headline plus short premise",
+          "content_requirements": [
+            "Three-layer context",
+            "Working section link"
+          ]
+        },
+        {
+          "purpose": "Explain atmosphere",
+          "pattern": "Spatial discs and output record",
+          "content_requirements": [
+            "Light and mood",
+            "Spatial palette"
+          ]
+        },
+        {
+          "purpose": "Explain arrangement",
+          "pattern": "Raised platform volumes and output record",
+          "content_requirements": [
+            "Routes and scale",
+            "Composition output"
+          ]
+        },
+        {
+          "purpose": "Explain detail",
+          "pattern": "Recessed form and output record",
+          "content_requirements": [
+            "Edges and touch",
+            "Material details"
+          ]
+        },
+        {
+          "purpose": "Close and clarify",
+          "pattern": "Broad statement plus native notes",
+          "content_requirements": [
+            "Object link",
+            "Fictional services scope"
+          ]
+        }
+      ],
+      "mobile_reflow": "Each visual precedes its explanation; records and closing action fit narrow widths.",
+      "distinguishing_features": [
+        "Three distinct spatial vignettes",
+        "Service/output definition lists",
+        "Layer sequence replaces single-object study"
+      ]
+    }
+  ]
+}
