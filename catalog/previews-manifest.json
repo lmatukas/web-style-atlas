@@ -136,6 +136,46 @@
       "width": 390
     },
     {
+      "height": 2177,
+      "output_sha256": "cdf634d96b70bdfe1dad2c5c22c29dad41003163f77b5d00f3ce415ec30f216f",
+      "path": "styles/field-notes/preview.png",
+      "source_sha256": "1a6425174c363371a586156c3e223a475d90b0339fb65743a89337441aeef556",
+      "style_id": "field-notes",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3176,
+      "output_sha256": "9f408a983b12eac37dcc1aed716ebc8adba4f019822fcc5a0c6e8175bf34f23c",
+      "path": "styles/field-notes/preview-mobile.png",
+      "source_sha256": "1a6425174c363371a586156c3e223a475d90b0339fb65743a89337441aeef556",
+      "style_id": "field-notes",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2027,
+      "output_sha256": "71ed603431b18298df1169d500ba52ac838fb6a35986cb00957f10812960d1c9",
+      "path": "styles/field-notes/preview-alt.png",
+      "source_sha256": "1a6425174c363371a586156c3e223a475d90b0339fb65743a89337441aeef556",
+      "style_id": "field-notes",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2999,
+      "output_sha256": "509fdd82136585d8eb8b1232472faabc452a0ecf1916ad6474280d20fc25e9e1",
+      "path": "styles/field-notes/preview-alt-mobile.png",
+      "source_sha256": "1a6425174c363371a586156c3e223a475d90b0339fb65743a89337441aeef556",
+      "style_id": "field-notes",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2517,
       "output_sha256": "94bd4242dad51521b6b266a47d21deb767c15521502a75cef51bed578135462b",
       "path": "styles/neo-brutalist/preview.png",

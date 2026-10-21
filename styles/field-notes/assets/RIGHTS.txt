@@ -1,0 +1,8 @@
+Forest: Austin Schmid, Mist around a forest (2016).
+Source: https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg
+Source declares pre-5-June-2017 CC0 publication. https://creativecommons.org/publicdomain/zero/1.0/
+Same rights-documented, resized, metadata-stripped 1440px WebP used in Cinematic Photo.
+The image illustrates a fictional notebook; it does not document the schematic route.
+
+route.svg: original code-authored fictional loop diagram by Web Style Atlas contributors (Codex, S09), MIT.
+No coordinates or real navigational claim. No third-party fonts.

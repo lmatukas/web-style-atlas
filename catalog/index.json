@@ -157,6 +157,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "travel",
+        "publishing",
+        "personal"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "tactile",
+      "id": "field-notes",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Field Notes",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm paper, sand notes, dark brown and restrained rust annotation marks.",
+        "composition": "Narrative fragment beside marginal annotations in A; chronological diary and preparation rail in B.",
+        "content_rhythm": "Photograph, observation, marginal cross-reference and schematic route; or timed entries.",
+        "imagery": "Rights-documented local forest photo and an original clearly schematic three-stop SVG.",
+        "interaction": "Native source disclosures, local stop links and real local preparation checkboxes.",
+        "motion": "Static notebook; brief link transitions removed for reduced motion.",
+        "navigation": "Visible fragment/route links and a three-stop diary index.",
+        "typography": "Serif narrative headings, clear sans-serif copy and short monospace documentary labels."
+      },
+      "status": "ready",
+      "style_path": "styles/field-notes/style.md",
+      "summary": "Documentary labels, marginal annotations and attached photo captions for a readable travel notebook.",
+      "tags": [
+        "annotated",
+        "reading-led",
+        "warm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/field-notes/preview-mobile.png",
+          "preview_path": "styles/field-notes/preview.png",
+          "reference_path": "styles/field-notes/reference/index.html",
+          "title": "Travel fragment with margin notes"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/field-notes/preview-alt-mobile.png",
+          "preview_path": "styles/field-notes/preview-alt.png",
+          "reference_path": "styles/field-notes/reference/alternate.html",
+          "title": "Route diary and photographs"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "events",
         "campaign",
         "culture"
