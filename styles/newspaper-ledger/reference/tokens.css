@@ -1,0 +1,40 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #8b291c;
+  --color-background: #f4f0e6;
+  --color-border: #757268;
+  --color-focus: #163ba1;
+  --color-muted: #57574f;
+  --color-on-accent: #ffffff;
+  --color-surface: #e7e2d6;
+  --color-text: #21211f;
+  --font-body: "Arial", sans-serif;
+  --font-display: "Georgia", serif;
+  --font-size-body: 1rem;
+  --font-size-display: 4rem;
+  --font-size-heading: 2rem;
+  --font-size-small: 0.875rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 82rem;
+  --layout-text-max-width: 65ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.02em;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.1;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 150ms;
+  --motion-easing-standard: ease-out;
+  --radius-none: 0;
+  --radius-small: 0.25rem;
+  --shadow-none: none;
+  --spacing-large: 2rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 4rem;
+  --spacing-small: 0.5rem;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */

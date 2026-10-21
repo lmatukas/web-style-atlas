@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Multi-story newspaper front page",
+      "page_type": "publishing",
+      "reference_path": "reference/index.html",
+      "navigation": "Department strip linking real issue sections and analysis.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient to the issue",
+          "pattern": "Masthead and horizontal departments",
+          "content_requirements": [
+            "Issue line",
+            "Publication identity"
+          ]
+        },
+        {
+          "purpose": "Prioritize reporting",
+          "pattern": "Wide lead with ruled brief rail",
+          "content_requirements": [
+            "One lead",
+            "Three briefs",
+            "Original schematic"
+          ]
+        },
+        {
+          "purpose": "Scan community notes",
+          "pattern": "Four-column notebook",
+          "content_requirements": [
+            "Three distinct observations",
+            "Section heading"
+          ]
+        },
+        {
+          "purpose": "Read editorial record",
+          "pattern": "Ruled record and disclosure",
+          "content_requirements": [
+            "Fictional status",
+            "Original rights note"
+          ]
+        }
+      ],
+      "mobile_reflow": "Lead precedes briefs, then notebook; department navigation wraps.",
+      "distinguishing_features": [
+        "Unequal lead/brief columns",
+        "Rules and compact serif headlines",
+        "Original schematic with explicit caption"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Analysis with branch ledger",
+      "page_type": "data",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Numbered argument, ledger and method contents; issue return.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce the analytic question",
+          "pattern": "Large headline with standfirst",
+          "content_requirements": [
+            "Specific question",
+            "Byline"
+          ]
+        },
+        {
+          "purpose": "Follow the argument",
+          "pattern": "Rail beside narrow reading column",
+          "content_requirements": [
+            "Contents",
+            "Three paragraphs",
+            "Quotation"
+          ]
+        },
+        {
+          "purpose": "Compare exact values",
+          "pattern": "Numeric ledger across article field",
+          "content_requirements": [
+            "Row headers",
+            "Hours and totals",
+            "Illustrative source"
+          ]
+        },
+        {
+          "purpose": "Understand calculation",
+          "pattern": "Method block and native limits disclosure",
+          "content_requirements": [
+            "Arithmetic",
+            "Limitations",
+            "Return link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Inline contents precede argument and table; concise columns fit 360px.",
+      "distinguishing_features": [
+        "Article rail instead of briefs",
+        "Exact four-branch table with units and total",
+        "Method record distinguishes argument from data"
+      ]
+    }
+  ]
+}
