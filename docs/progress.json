@@ -2125,23 +2125,46 @@
     {
       "id": "S25",
       "title": "Acoustic Sculpture",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P16"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T12:53:59.815Z",
-      "updated_at": "2026-10-21T12:53:59.815Z",
+      "updated_at": "2026-10-21T13:15:41.354Z",
       "branch": "task/s25-expansion",
       "base_commit": "dc58e666e393403d04ec3b4c315172342631d27f",
-      "evidence_commit": null,
+      "evidence_commit": "67c0d25949b4bc8235cc74ea73abf285d7413d02",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/53",
+      "checks": [
+        {
+          "name": "Scoped source/build/preview freshness",
+          "status": "pass",
+          "details": "25 ready styles; four actual canonical PNGs below 1 MiB, existing 96 untouched."
+        },
+        {
+          "name": "Style browser and functional runtime gates",
+          "status": "pass",
+          "details": "6 actual browser/axe cases plus 10 A/B normal/reduced/fallback/business cases; 360/390/768/1440, enquiry copies, comparison, context loss and finite motion episodes."
+        },
+        {
+          "name": "Gallery/full brief and visual review",
+          "status": "pass",
+          "details": "5 scoped gallery/prompt integrations; actual full B source copied exactly; all four PNGs viewed against two ready neighbors, rubric 11/12."
+        },
+        {
+          "name": "Shared audio-state regression",
+          "status": "pass",
+          "details": "Three P16 real runtime tests pass after a bounded wait for native asynchronous audio transitions."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S25.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S25 within owner-authorized sequential batch of five.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
+      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
     },
     {
       "id": "S26",
