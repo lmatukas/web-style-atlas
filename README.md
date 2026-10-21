@@ -3,15 +3,18 @@
 Distinct web design directions with working examples and practical instructions
 for AI coding agents. Use a direction to build a website in your own project.
 
-**Ready now: 12 directions, 24 A/B reference pages and 48 desktop/mobile previews.**
-The 24-direction catalogue remains planned work; see the [work board](docs/STATUS.md).
+**Source release 1.0.0: 24 ready directions, 48 A/B reference pages and 96
+current desktop/mobile previews.** All planned implementation tasks are represented
+in the [work board](docs/STATUS.md); the [full catalogue review](docs/evidence/catalog-review.md)
+records actual visual comparison, close pairs and bounded limitations.
 
 **Live gallery:** [open Web Style Atlas](https://lmatukas.github.io/web-style-atlas/).
-You can also [run the interactive gallery locally](#run-the-gallery),
-[browse the ready catalogue](catalog/index.md), or open a real
+The last verified public deployment is the earlier 12-style **0.1.0** gallery.
+The 24-style **1.0.0** source is prepared for the manual publication step in
+[release notes](docs/releases/1.0.0.md#publish-the-prepared-main-revision).
+A source merge alone does not update Pages. You can use all 24 styles now through
+[the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
-The public gallery was opened and checked after the successful Pages deployment
-on 2026-10-21; see [publication evidence](docs/evidence/P12.md#public-pages-publication--2026-10-21).
 
 ## Start with one prompt
 
@@ -98,6 +101,10 @@ same service brief in three directions, and a React adaptation. All six final
 sites passed independent checks at 360/768/1440px. Exact prompts, source outputs,
 fixes and reproduction commands are retained. This is a bounded benchmark, not a
 success-rate estimate for every model or brief.
+
+The [24-style audit](docs/evidence/catalog-review.md) also replayed the two
+candidate-affected retained outputs at all three widths. This replay is separate
+from the original independent model executions.
 
 Optional Codex, Claude Code and IBM Bob entry files are generated from the
 [shared consumer skill](core/skill/SKILL.md). The

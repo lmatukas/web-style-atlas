@@ -1,16 +1,19 @@
 # Web Style Atlas — kaip išbandyti
 
-**Naudoti galima jau dabar:** paruošta 12 dizaino krypčių, 24 A/B puslapių
-pavyzdžiai ir 48 kompiuterio bei telefono peržiūros. Visas 24 krypčių planas dar
-nebaigtas. [Darbų būsena](docs/STATUS.md).
+**Paruošta 1.0.0 šaltinių versija:** 24 dizaino kryptys, 48 A/B puslapių
+pavyzdžiai ir 96 aktualios kompiuterio bei telefono peržiūros.
+[Viso katalogo auditas](docs/evidence/catalog-review.md) ir
+[darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
 
-**[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/)** – rinkis ir palygink stilius naršyklėje.
+**[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/).**
+Paskutinis patikrintas viešas diegimas dar yra **0.1.0 su 12 stilių**.
+Kad galerijoje atsirastų visi 24, po šios versijos PR sujungimo reikia paleisti
+[paruoštą publikavimo veiksmą](docs/releases/1.0.0.md#publish-the-prepared-main-revision).
+Vien PR sujungimas Pages neatnaujina.
 
-Taip pat gali [peržiūrėti paruoštų krypčių sąrašą](catalog/index.md),
-[tikrą kompiuterio peržiūrą](styles/swiss-grid/preview.png) arba
-[telefono peržiūrą](styles/swiss-grid/preview-mobile.png).
-Vieša galerija paskelbta ir praktiškai patikrinta 2026-10-21. Vietinį variantą
-galima paleisti pagal žemiau pateiktas komandas.
+Visas 24 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
+paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
+ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
 
 ## Paprasčiausias praktinis bandymas
 

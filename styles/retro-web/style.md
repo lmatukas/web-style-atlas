@@ -81,7 +81,7 @@ Use one main landmark, one descriptive h1, ordered headings, visible keyboard fo
 
 ## Adaptation
 
-Replace the fictional persona, interests and six entries with truthful author material. Keep the directory simple and make every heading describe a destination that exists. Add categories only when there are entries to file. Use the same portal-to-archive relationship in a publishing system without making it a simulated desktop application. If the project needs a strongly futuristic product campaign, the planned Y2K direction is a different choice rather than an excuse to add chrome to this quiet personal structure.
+Replace the fictional persona, interests and six entries with truthful author material. Keep the directory simple and make every heading describe a destination that exists. Add categories only when there are entries to file. Use the same portal-to-archive relationship in a publishing system without making it a simulated desktop application. If the project needs a strongly futuristic product campaign, the ready Y2K Chrome direction is a different choice rather than an excuse to add chrome to this quiet personal structure.
 
 ## Avoid
 
@@ -89,5 +89,4 @@ Replace the fictional persona, interests and six entries with truthful author ma
 
 ## Closest styles
 
-Y2K Chrome is the named planned neighbor and is not implemented yet, so no completed comparison is claimed. Terminal Utility is an available text-dense comparison: its dark command/log panels differ from the warm personal portal, author-oriented directory and subject-filed writing here. Its chronology of operational events differs from a welcome/current-interests sequence and complete archive notes. Plain bookish headings and blue underlined web links also change typography and navigation from monospaced command notation. The future Y2K comparison must examine its campaign scale, metallic object imagery and orbiting forms.
-
+Y2K Chrome is the nearest ready nostalgic neighbor. Retro Web uses a boxed personal portal with a welcome, current interests, a side directory and a six-entry subject/search archive. Y2K Chrome uses large futuristic campaign type, polished reflective objects, orbit imagery and release/collection records. Home/author/archive navigation and dated small entries differ from edition/track/object routes and poster-to-collection rhythm. Terminal Utility is another text-dense comparison: its dark command/log panels and operational chronology differ from bookish headings, ordinary blue underlined links and personal subject filing. P13 compares actual desktop/mobile A/B layouts rather than treating nostalgia as one interchangeable decoration.
