@@ -1444,17 +1444,17 @@
     {
       "id": "S16",
       "title": "Retro Web",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S15"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:13:26.482Z",
-      "updated_at": "2026-10-21T07:17:54.370Z",
+      "updated_at": "2026-10-21T07:19:53.923Z",
       "branch": "task/s16-atlas",
       "base_commit": "28ce9893e11749fb83be715cee968a63f57cbf5d",
       "evidence_commit": "f930f377e9545b2e6ddebfa030858f985a084787",
-      "merge_commit": null,
+      "merge_commit": "0aa85f37855970fe18c9bf6d57f9f064d7d3981e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/28",
       "checks": [
         {
@@ -1481,14 +1481,19 @@
           "name": "git diff --check and generated drift",
           "status": "pass",
           "details": "Clean whitespace; source and generated wrapper checks passed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39560997759 succeeded on f930f377e9545b2e6ddebfa030858f985a084787"
         }
       ],
       "evidence_paths": [
         "docs/evidence/S16.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
-      "handoff": "Add Retro Web portal and searchable archive complete; actual local checks and visual evidence retained. Public gallery awaits release."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue up to ten tasks; no scheduled automation or premature deployment."
     },
     {
       "id": "S17",
