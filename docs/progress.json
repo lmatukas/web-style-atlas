@@ -1930,23 +1930,23 @@
     {
       "id": "P13",
       "title": "24 stilių įvairovės ir naudojimo auditas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S24",
         "P10"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/final-four",
+      "claimed_at": "2026-10-21T09:52:08.576Z",
+      "updated_at": "2026-10-21T09:52:08.577Z",
+      "branch": "task/p13-atlas",
+      "base_commit": "a144d01aaa464bc2e0f5bb10a8dba09f2802fddb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify the next task within final-queue authorization.",
       "handoff": null
     },
     {
