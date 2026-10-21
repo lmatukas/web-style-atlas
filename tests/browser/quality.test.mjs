@@ -1,2 +1,10 @@
 import test from 'node:test';import assert from 'node:assert/strict';import{launchCanonical}from'../../scripts/previews.mjs';import{inspectPage}from'../../scripts/browser-qa.mjs';
 test('actual browser gates reject overflow, inaccessible controls and covered controls',{timeout:30000},async()=>{const b=await launchCanonical();try{const p=await b.newPage({viewport:{width:360,height:844}});await p.setContent('<html lang="en"><head><title>Fixture</title></head><body><main><h1>Fixture</h1><div style="width:2000px">Overflow</div></main></body></html>');await assert.rejects(inspectPage(p),/horizontal overflow/);await p.setContent('<html lang="en"><head><title>Fixture</title></head><body><main><h1>Fixture</h1><button></button></main></body></html>');await assert.rejects(inspectPage(p),/accessibility.*button-name/);await p.setContent('<html lang="en"><head><title>Fixture</title></head><body><main><h1>Fixture</h1><button style="position:absolute;top:100px;left:20px">Real action</button><div style="position:absolute;top:90px;left:0;width:300px;height:100px;z-index:2;background:white"></div></main></body></html>');await assert.rejects(inspectPage(p),/covered control/);await p.close();}finally{await b.close();}});
+
+test('disclosure gate ignores inactive hidden controls and still rejects a broken visible disclosure',{timeout:30000},async()=>{
+const browser=await launchCanonical();try{const page=await browser.newPage({viewport:{width:390,height:844}});
+await page.setContent('<!doctype html><html lang="en"><head><title>Disclosure fixture</title></head><body><main><h1>Disclosure fixture</h1><details><summary>Visible disclosure</summary><p>Visible content</p></details><section hidden><details><summary>Inactive prompt</summary><p>Hidden until chosen</p></details></section></main></body></html>');
+await inspectPage(page);assert.equal(await page.locator('details[open]').count(),0);
+await page.locator('summary').first().evaluate(e=>e.addEventListener('keydown',event=>event.preventDefault()));
+await assert.rejects(inspectPage(page),/disclosure did not open/);await page.close();
+}finally{await browser.close();}});
