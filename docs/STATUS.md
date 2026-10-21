@@ -4,7 +4,7 @@
 
 **Baigta: 54/57.**
 
-**Pirmiausia patikrinti S39: Vykdoma; vykdytojas Codex/8f365240145f/S36-S39.**
+**Pirmiausia patikrinti S39: Laukia peržiūros; vykdytojas Codex/8f365240145f/S36-S39.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -64,7 +64,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S36](tasks/S36.md) | Rhythm Planner | Baigta | Codex/8f365240145f/S36-S39 | task/s36-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/75) | 2026-10-21T17:31:42.842Z | S36 accepted; continue authorized batch with S37. |
 | [S37](tasks/S37.md) | Spine Editions | Baigta | Codex/8f365240145f/S36-S39 | task/s37-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/76) | 2026-10-21T17:39:57.477Z | S37 accepted; continue authorized S36–S39 sequence. |
 | [S38](tasks/S38.md) | Trail Composer | Baigta | Codex/8f365240145f/S36-S39 | task/s38-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/77) | 2026-10-21T17:47:41.336Z | S38 accepted; continue authorized S36–S39 sequence. |
-| [S39](tasks/S39.md) | Membrane Score | Vykdoma | Codex/8f365240145f/S36-S39 | task/s39-expansion | — | 2026-10-21T17:47:54.543Z | Implement S39 in the authorized sequential S36–S39 batch. |
+| [S39](tasks/S39.md) | Membrane Score | Laukia peržiūros | Codex/8f365240145f/S36-S39 | task/s39-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/78) | 2026-10-21T17:56:24.518Z | Verify exact-head CI and merge; then complete the authorized S36–S39 batch. |
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 

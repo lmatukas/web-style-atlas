@@ -2751,23 +2751,31 @@
     {
       "id": "S39",
       "title": "Membrane Score",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S38"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:47:54.543Z",
-      "updated_at": "2026-10-21T17:47:54.543Z",
+      "updated_at": "2026-10-21T17:56:24.518Z",
       "branch": "task/s39-expansion",
       "base_commit": "e9f31d744e92910670caf6e67aa61928cbd37e52",
-      "evidence_commit": null,
+      "evidence_commit": "c9fa308cb19f9217950304bfda7606b9a063ce01",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/78",
+      "checks": [
+        {
+          "name": "Source/build/freshness, actual synthesis, runtime/business, four widths and prompt",
+          "status": "pass",
+          "details": "14 A/B cases; nonzero independent PCM and zero muted output; one-bar real tempo interpolation; 32-beat termination; exact local recipe/sibling restore; active audio lifecycle; 11/12 visual rubric."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S39.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S39 in the authorized sequential S36–S39 batch.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge; then complete the authorized S36–S39 batch.",
+      "handoff": "Fourth/final authorized S36–S39 task. S39 ready for exact-head CI and merge. Stop after accepting S39; P17/P18 are outside this batch."
     },
     {
       "id": "P17",
