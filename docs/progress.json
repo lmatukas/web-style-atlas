@@ -2917,23 +2917,37 @@
     {
       "id": "P20",
       "title": "Kalbos politika (LT / EN)",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "87/87"
+        },
+        {
+          "name": "validate",
+          "status": "pass",
+          "details": "npm run validate PASS"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P20.md",
+        "core/language-policy.md"
+      ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20",
       "claimed_at": "2026-10-21T21:06:25Z",
-      "updated_at": "2026-10-21T21:06:25Z",
+      "updated_at": "2026-10-21T21:07:28Z",
       "branch": "task/p20-language-policy",
       "base_commit": "3c19a89637886997ab36875f6a1021d8f4523f63",
-      "evidence_commit": null,
+      "evidence_commit": "b9d8dca",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/83",
       "blocker": null,
-      "next_action": "Parašyti core/language-policy.md ir nuorodą CONTRIBUTING.md; PR [P20]",
-      "handoff": null
+      "next_action": "Sujungti PR #83 po CI",
+      "handoff": "PR #83 atidarytas; politika pasiūlyta, ne patvirtinta."
     },
     {
       "id": "P21",
