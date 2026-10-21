@@ -2751,22 +2751,22 @@
     {
       "id": "S39",
       "title": "Membrane Score",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S38"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/8f365240145f/S36-S39",
+      "claimed_at": "2026-10-21T17:47:54.543Z",
+      "updated_at": "2026-10-21T17:47:54.543Z",
+      "branch": "task/s39-expansion",
+      "base_commit": "e9f31d744e92910670caf6e67aa61928cbd37e52",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Implement S39 in the authorized sequential S36–S39 batch.",
       "handoff": null
     },
     {
