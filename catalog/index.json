@@ -1443,6 +1443,58 @@
         "data"
       ],
       "best_for": [
+        "products",
+        "personal"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "functional",
+      "id": "rhythm-planner",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Rhythm Planner",
+      "prompt_path": "prompts/rhythm-planner/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Cobalt, pale lavender, warm white and near-black result text.",
+        "composition": "A clock-led proposition before an editor; B narrow task worksheet beside immediate temporal output.",
+        "content_rhythm": "Product-to-demonstration versus editor-to-immediate-plan.",
+        "imagery": "Original HTML time digits and proportional duration marks.",
+        "interaction": "Three tasks, break choice, reorder, validation and actual JSON/TXT export.",
+        "motion": "650ms alignment, 500ms expansion, 250ms reorder and 280ms break gaps.",
+        "navigation": "Editor/result/principle anchors and real A/B siblings.",
+        "typography": "Oversized tabular Arial digits with readable practical labels."
+      },
+      "status": "ready",
+      "style_path": "styles/rhythm-planner/style.md",
+      "summary": "Oversized time numerals and proportional task bars form an editable three-task local day plan with exact midnight-aware exports.",
+      "tags": [
+        "task-led",
+        "precise",
+        "typographic-motion"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/rhythm-planner/preview-mobile.png",
+          "preview_path": "styles/rhythm-planner/preview.png",
+          "reference_path": "styles/rhythm-planner/reference/index.html",
+          "title": "Clock-led product and complete demonstration"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/rhythm-planner/preview-alt-mobile.png",
+          "preview_path": "styles/rhythm-planner/preview-alt.png",
+          "reference_path": "styles/rhythm-planner/reference/alternate.html",
+          "title": "Timeline workbench and three-task editor"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
         "commerce",
         "craft",
         "products"
