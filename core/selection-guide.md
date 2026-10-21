@@ -41,6 +41,12 @@ For maintenance requests, follow START_HERE's separate queue route.
    assets.json and the reference needed for the chosen variant. Read its other
    variant only to understand or compare the requested composition. Check rights
    before copying fonts/images. Load one secondary influence only when requested.
+   If this ready entry has `prompt_path`, read that exact full creation brief at
+   the same revision. Use the selected A/B and fill its project fields from the
+   user's request; preserve its specific motion, functions and acceptance checks.
+   The gallery's full-prompt copy includes the complete brief and selected A/B.
+   Do not replace it with the short selection instruction or load planned briefs
+   as ready choices. Entries without this optional field keep the existing route.
 8. Write design-decision.md in the target project, then implement the actual
    website in its requested platform. Preserve the chosen direction's 3–5
    invariants while adapting content and responsive behavior. Verify real output,

@@ -226,6 +226,11 @@
             "items": false,
             "minItems": 2,
             "maxItems": 2
+          },
+          "prompt_path": {
+            "type": "string",
+            "pattern": "^prompts/[a-z][a-z0-9]*(?:-[a-z0-9]+)*/prompt\\.lt\\.md$",
+            "description": "Optional full creation prompt. Must match this style ID and its public brief registry entry."
           }
         },
         "required": [

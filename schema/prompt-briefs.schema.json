@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "prompt-briefs.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "kind": {
+      "const": "creation-prompt-briefs"
+    },
+    "prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "task_id": {
+            "type": "string",
+            "pattern": "^S[0-9]{2}$"
+          },
+          "style_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "family": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+          },
+          "language": {
+            "const": "lt"
+          },
+          "prompt_path": {
+            "type": "string",
+            "pattern": "^prompts/[a-z][a-z0-9]*(?:-[a-z0-9]+)*/prompt\\.lt\\.md$",
+            "description": "Optional full creation prompt. Must match this style ID and its public brief registry entry."
+          },
+          "demo_brand": {
+            "type": "string",
+            "minLength": 1
+          },
+          "variants": {
+            "type": "object",
+            "properties": {
+              "a": {
+                "type": "string",
+                "minLength": 1
+              },
+              "b": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "a",
+              "b"
+            ],
+            "additionalProperties": false
+          },
+          "signature": {
+            "type": "string",
+            "minLength": 1
+          },
+          "acceptance": {
+            "type": "string",
+            "minLength": 1
+          },
+          "enhancement": {
+            "enum": [
+              "webgl",
+              "svg-or-webgl",
+              "svg",
+              "html-svg",
+              "web-audio-2d"
+            ]
+          },
+          "closest_styles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "task_id",
+          "style_id",
+          "name",
+          "family",
+          "language",
+          "prompt_path",
+          "demo_brand",
+          "variants",
+          "signature",
+          "acceptance",
+          "enhancement",
+          "closest_styles"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "prompts"
+  ],
+  "additionalProperties": false
+}

@@ -2,6 +2,7 @@ import { lstatSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT, fail, isId, json, text, localFile, validator, frontmatter, argumentsFor, isMain, existsSync } from './lib/files.mjs';
 import { validate as validateQueue, render } from './tasks.mjs';
+import {creationPrompt, loadPromptBriefs} from './prompts.mjs';
 
 export const SECTIONS = ['Intent', 'Signature', 'Typography', 'Color and surfaces', 'Layout A', 'Layout B', 'Imagery', 'Navigation and interaction', 'Motion', 'Responsive behavior', 'Accessibility', 'Adaptation', 'Avoid', 'Closest styles'];
 
@@ -51,7 +52,7 @@ function validateTokens(tokens, assets, base) {
   inspect(tokens.motion.duration, '/motion/duration'); inspect(tokens.motion.easing, '/motion/easing');
 }
 
-function validateStyle(root, id, check, vocabulary) {
+function validateStyle(root, id, check, vocabulary, briefs) {
   const base = `styles/${id}`, path = `${base}/style.md`;
   const reference = (target, owner, field, optional = false) => {
     try { localFile(root, `${base}/${target}`, { optional }); }
@@ -60,6 +61,10 @@ function validateStyle(root, id, check, vocabulary) {
   const { metadata, body } = frontmatter(root, path);
   check('style', metadata, path);
   if (metadata.id !== id) fail(path, '/id', `must equal directory ID ${id}`);
+  if (metadata.prompt_path !== undefined) {
+    creationPrompt(root, id, metadata.prompt_path);
+    if (briefs.get(id)?.prompt_path !== metadata.prompt_path) fail(path, '/prompt_path', 'must match this style in prompts/index.json');
+  }
   member(metadata.family, vocabulary.families, path, '/family');
   for (const [field, values] of [['tags', vocabulary.tags], ['best_for', vocabulary.use_cases], ['avoid_for', vocabulary.use_cases]]) {
     metadata[field].forEach((value, index) => member(value, values, path, `/${field}/${index}`));
@@ -101,6 +106,7 @@ export function loadAtlas({ root = ROOT, style } = {}) {
   const progress = check('progress', json(root, 'docs/progress.json'), 'docs/progress.json');
   try { validateQueue(progress); } catch (error) { fail('docs/progress.json', '/tasks', error.message); }
   if (text(root, 'docs/STATUS.md') !== render(progress)) fail('docs/STATUS.md', '/', 'stale board; run node scripts/tasks.mjs render');
+  const briefs = loadPromptBriefs(root, check, progress, vocabulary);
   const directory = resolve(root, 'styles');
   let ids = [];
   if (existsSync(directory)) {
@@ -112,7 +118,7 @@ export function loadAtlas({ root = ROOT, style } = {}) {
     for (const id of ids) if (!isId(id)) fail(`styles/${id}`, '/id', 'invalid style directory ID');
   }
   if (style && !ids.includes(style)) fail(`styles/${style}`, '/id', 'unknown style ID');
-  const styles = (style ? [style] : ids).map(id => validateStyle(root, id, check, vocabulary));
+  const styles = (style ? [style] : ids).map(id => validateStyle(root, id, check, vocabulary, briefs));
   return { root, styles, check };
 }
 
