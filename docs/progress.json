@@ -1768,22 +1768,22 @@
     {
       "id": "S22",
       "title": "Architectural Monograph",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S21"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T07:58:24.809Z",
+      "updated_at": "2026-10-21T07:58:24.810Z",
+      "branch": "task/s22-atlas",
+      "base_commit": "b9677462011ae795311038e59fb2a2c461c38549",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify next style within ten-task authorization.",
       "handoff": null
     },
     {
