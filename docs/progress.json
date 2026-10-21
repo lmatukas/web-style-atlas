@@ -2262,22 +2262,22 @@
     {
       "id": "S28",
       "title": "Modular Light",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S27"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/162fd1aaf53b/batch-five",
+      "claimed_at": "2026-10-21T14:24:44.029Z",
+      "updated_at": "2026-10-21T14:24:44.029Z",
+      "branch": "task/s28-expansion",
+      "base_commit": "629a6143fef5bac59755666de3c2918b5e267076",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Implement S28 within owner-authorized sequential batch of five.",
       "handoff": null
     },
     {
