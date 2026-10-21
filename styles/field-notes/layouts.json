@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Travel fragment with margin notes",
+      "page_type": "travel",
+      "reference_path": "reference/index.html",
+      "navigation": "Fragment/route anchors and a working diary link.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame the note",
+          "pattern": "Title and field metadata",
+          "content_requirements": [
+            "Title",
+            "Fictional context"
+          ]
+        },
+        {
+          "purpose": "Read fragment",
+          "pattern": "Photo and short narrative",
+          "content_requirements": [
+            "Photo",
+            "Source caption",
+            "Observation"
+          ]
+        },
+        {
+          "purpose": "Cross-reference",
+          "pattern": "Marginal notes and source disclosure",
+          "content_requirements": [
+            "Three annotations",
+            "Rights"
+          ]
+        },
+        {
+          "purpose": "Orient sequence",
+          "pattern": "Schematic three-stop sketch",
+          "content_requirements": [
+            "Diagram",
+            "Non-geographic caption"
+          ]
+        },
+        {
+          "purpose": "Continue",
+          "pattern": "Closing note and diary link",
+          "content_requirements": [
+            "Working destination"
+          ]
+        }
+      ],
+      "mobile_reflow": "Move note rail below introduction; stack route diagram and stops, preserve attached captions.",
+      "distinguishing_features": [
+        "Annotation rail",
+        "Documentary labels",
+        "Photo/source relationship"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Route diary and photographs",
+      "page_type": "travel",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Three local stop anchors and return to fragment.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient diary",
+          "pattern": "Title and route index",
+          "content_requirements": [
+            "Static date",
+            "Three anchors"
+          ]
+        },
+        {
+          "purpose": "Start",
+          "pattern": "First timed entry",
+          "content_requirements": [
+            "Time",
+            "Observation"
+          ]
+        },
+        {
+          "purpose": "Pause",
+          "pattern": "Middle timed entry and forest image",
+          "content_requirements": [
+            "Photo",
+            "Truthful caption"
+          ]
+        },
+        {
+          "purpose": "Close loop",
+          "pattern": "Final timed entry",
+          "content_requirements": [
+            "Closing observation"
+          ]
+        },
+        {
+          "purpose": "Prepare and explain",
+          "pattern": "Route rail, native checklist and source note",
+          "content_requirements": [
+            "Three checkboxes",
+            "Source disclosure"
+          ]
+        }
+      ],
+      "mobile_reflow": "Times move above entries; preparation rail follows the diary; diagram scales without clipping.",
+      "distinguishing_features": [
+        "Chronological diary",
+        "Local preparation checklist",
+        "Supporting schematic rail"
+      ]
+    }
+  ]
+}
