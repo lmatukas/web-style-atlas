@@ -2873,7 +2873,7 @@
     {
       "id": "P19",
       "title": "Išskirtinumo patikros integravimas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P18"
       ],
@@ -2886,12 +2886,17 @@
         {
           "name": "unit tests",
           "status": "pass",
-          "details": "87/87 node --test tests/*.test.mjs"
+          "details": "87/87"
         },
         {
-          "name": "visual",
-          "status": "not_run",
-          "details": "Not applicable: no style output changed"
+          "name": "CI source and generated gates",
+          "status": "pass",
+          "details": "run on 80d8928"
+        },
+        {
+          "name": "CI browser and accessibility gates",
+          "status": "pass",
+          "details": "run on 80d8928"
         }
       ],
       "evidence_paths": [
@@ -2899,35 +2904,35 @@
       ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19",
       "claimed_at": "2026-10-21T20:51:25Z",
-      "updated_at": "2026-10-21T20:52:33Z",
+      "updated_at": "2026-10-21T21:06:25Z",
       "branch": "task/p19-distinctiveness",
       "base_commit": "96cf1a1b43be157a6c1626031b7011cfb2a92dbc",
-      "evidence_commit": "da0b019d937e207bf5000ea48bd12732163d95c2",
-      "merge_commit": null,
+      "evidence_commit": "80d8928cbd506f39d89c8137d5870a941027095d",
+      "merge_commit": "3c19a89637886997ab36875f6a1021d8f4523f63",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/82",
       "blocker": null,
-      "next_action": "Patikrinti PR #82 CI ir sujungti",
-      "handoff": "PR #82 atidarytas. Sujungus – done su merge_commit."
+      "next_action": null,
+      "handoff": "Sujungta PR #82. Vizualinė patikra netaikoma (stilių išvestis nekeista)."
     },
     {
       "id": "P20",
       "title": "Kalbos politika (LT / EN)",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20",
+      "claimed_at": "2026-10-21T21:06:25Z",
+      "updated_at": "2026-10-21T21:06:25Z",
+      "branch": "task/p20-language-policy",
+      "base_commit": "3c19a89637886997ab36875f6a1021d8f4523f63",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/P20.md.",
+      "next_action": "Parašyti core/language-policy.md ir nuorodą CONTRIBUTING.md; PR [P20]",
       "handoff": null
     },
     {
