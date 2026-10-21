@@ -1,0 +1,210 @@
+[
+  {
+    "id": "library-light",
+    "style": "modular-light",
+    "variant": "b",
+    "brand": "SIJOS",
+    "activity": "Bibliotekų skaitymo šviestuvų dirbtuvė",
+    "audience": "Bibliotekininkai; sudėlioti skaitymo erdvės šviesos koncepciją.",
+    "content": "Originali aiškiai išgalvota demonstracija; pakeisti matomą pavadinimą, antraštes ir scenarijaus tekstus pagal žemiau esančius pakeitimus.",
+    "platform": "Savarankiški HTML/CSS/JavaScript failai, be backend, be runtime CDN.",
+    "revision": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
+    "prompt_path": "prompts/modular-light/prompt.lt.md",
+    "prompt_source_sha256": "3cd932393f4e32965157e5b88e42e69d840f980c80c9d067aed76918a2e5604c",
+    "replacements": [
+      [
+        "KINTA",
+        "SIJOS"
+      ],
+      [
+        "Kinta",
+        "Sijos"
+      ],
+      [
+        "kinta",
+        "sijos"
+      ],
+      [
+        "Surinkimo darbastalis",
+        "Bibliotekos šviesos darbastalis"
+      ],
+      [
+        "Šviesos<br>forma.",
+        "Šviesa<br>skaitymui."
+      ],
+      [
+        "Penkios plokštumos.<br>Viena jūsų erdvė.",
+        "Penkios plokštumos.<br>Viena skaitymo erdvė."
+      ]
+    ],
+    "files": [
+      {
+        "source": "styles/modular-light/reference/alternate.html",
+        "target": "alternate.html",
+        "sha256": "d6b6ab797964ab7af921e04981a0c74a215816911fea8fc9e97f81272d475852"
+      },
+      {
+        "source": "styles/modular-light/reference/index.html",
+        "target": "index.html",
+        "sha256": "4c1b69a5ab875999f8aa7ae8fd9ee9540f2666c58dabe44aa69eacc6d0ec540e"
+      },
+      {
+        "source": "styles/modular-light/reference/lamp.mjs",
+        "target": "lamp.mjs",
+        "sha256": "5515ff7da05f171215f105e0fbf7186843b9ac43423970bc719cc15e5f8b6ab3"
+      },
+      {
+        "source": "styles/modular-light/reference/style.css",
+        "target": "style.css",
+        "sha256": "1da337170d46052420600a4a4feef4f24915a67c09f0df1b33554ecc07ffe199"
+      },
+      {
+        "source": "styles/modular-light/reference/tokens.css",
+        "target": "tokens.css",
+        "sha256": "f3aa1c1d371b2e4b83bf5412d67695f1bc4a9a1ac1251fce1aefdb8c073ac4d7"
+      }
+    ]
+  },
+  {
+    "id": "volunteer-rhythm",
+    "style": "rhythm-planner",
+    "variant": "b",
+    "brand": "BENDRAS RITMAS",
+    "activity": "Savanorių komandos trijų darbų planavimas",
+    "audience": "Renginio savanoriai; aiškiai susidėlioti dienos darbus.",
+    "content": "Originali aiškiai išgalvota demonstracija; pakeisti matomą pavadinimą, antraštes ir scenarijaus tekstus pagal žemiau esančius pakeitimus.",
+    "platform": "Savarankiški HTML/CSS/JavaScript failai, be backend, be runtime CDN.",
+    "revision": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
+    "prompt_path": "prompts/rhythm-planner/prompt.lt.md",
+    "prompt_source_sha256": "5d2407f5016156f089eebfac84e2d1968d40b16e5e6dd24e8278a2eedfc28639",
+    "replacements": [
+      [
+        "TAKTAS",
+        "BENDRAS RITMAS"
+      ],
+      [
+        "taktas",
+        "bendras-ritmas"
+      ],
+      [
+        "Laiką dėliok.<br>Ne gaudyk.",
+        "Skirk laiko<br>bendram darbui."
+      ],
+      [
+        "Naujos idėjos eskizas",
+        "Savanorių susitarimai"
+      ],
+      [
+        "Susitelkimo laikas",
+        "Salės paruošimas"
+      ],
+      [
+        "Dienos užrašai",
+        "Dienos užbaigimas"
+      ]
+    ],
+    "files": [
+      {
+        "source": "styles/rhythm-planner/reference/alternate.html",
+        "target": "alternate.html",
+        "sha256": "a093b3c1753a6ca82b710a5831e5e75ff6891951f119abc1bb65bfde6fac213e"
+      },
+      {
+        "source": "styles/rhythm-planner/reference/app.mjs",
+        "target": "app.mjs",
+        "sha256": "fde03271dd38d7eae3a4f657af0b14472ae0f09f4a2a3c42bfab92e648a56dec"
+      },
+      {
+        "source": "styles/rhythm-planner/reference/index.html",
+        "target": "index.html",
+        "sha256": "20965cc9866d3f54777f30c5341dc5150d56fcfcaecf198084df81bc56e3bc73"
+      },
+      {
+        "source": "styles/rhythm-planner/reference/motion.mjs",
+        "target": "motion.mjs",
+        "sha256": "f531d0bee2a9c16bec2652771c1d80d48edec1ef4ea1299f473611c3f83ae976"
+      },
+      {
+        "source": "styles/rhythm-planner/reference/style.css",
+        "target": "style.css",
+        "sha256": "77a133c088a5d8de6451abe3e24acfaad60cf795365ca4f3a58f740230796c49"
+      },
+      {
+        "source": "styles/rhythm-planner/reference/tokens.css",
+        "target": "tokens.css",
+        "sha256": "f17c2a2edbf86f4ba569bc206cc996f6498bfac556d981de5f374ab0489af6a4"
+      }
+    ]
+  },
+  {
+    "id": "evening-sound",
+    "style": "membrane-score",
+    "variant": "a",
+    "brand": "GIJŲ VAKARAS",
+    "activity": "Atviros kūrybinės garsų dirbtuvės",
+    "audience": "Kūrybinio vakaro dalyviai; sukurti ir išsaugoti trijų sluoksnių eskizą.",
+    "content": "Originali aiškiai išgalvota demonstracija; pakeisti matomą pavadinimą, antraštes ir scenarijaus tekstus pagal žemiau esančius pakeitimus.",
+    "platform": "Savarankiški HTML/CSS/JavaScript failai, be backend, be runtime CDN.",
+    "revision": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
+    "prompt_path": "prompts/membrane-score/prompt.lt.md",
+    "prompt_source_sha256": "6ded8ac2e9998cf2dda33bbc01dd0469d148d7a4e05caf10490f52f32acc5949",
+    "replacements": [
+      [
+        "TARPSNIS",
+        "GIJŲ VAKARAS"
+      ],
+      [
+        "Tarpsnis",
+        "Gijų vakaras"
+      ],
+      [
+        "Sukurk savo<br>tarpsnį.",
+        "Sukurk vakaro<br>garsų eskizą."
+      ],
+      [
+        "01 / Ramuma",
+        "01 / Sutemos"
+      ],
+      [
+        "02 / Dėmesys",
+        "02 / Žingsniai"
+      ],
+      [
+        "03 / Kryptis",
+        "03 / Atokvėpis"
+      ]
+    ],
+    "files": [
+      {
+        "source": "styles/membrane-score/reference/alternate.html",
+        "target": "alternate.html",
+        "sha256": "60e359ba2eb681546122700522b9a9afd6c314104377670d91dd9b1827be1cb7"
+      },
+      {
+        "source": "styles/membrane-score/reference/app.mjs",
+        "target": "app.mjs",
+        "sha256": "287632c41661f6de6f1e3a7fdc9a4e8d16e830498b0a7aa6ad2b4906c817660e"
+      },
+      {
+        "source": "styles/membrane-score/reference/audio.mjs",
+        "target": "audio.mjs",
+        "sha256": "e6ec76fba153e0300b2c087931b7533ed283c0da73a99d7cb0deda834440cd7c"
+      },
+      {
+        "source": "styles/membrane-score/reference/index.html",
+        "target": "index.html",
+        "sha256": "ace56d10bd7f6782081241981e567e12a5bd046cbd3652e58ef70910f72e16b2"
+      },
+      {
+        "source": "styles/membrane-score/reference/style.css",
+        "target": "style.css",
+        "sha256": "1473d70b0c7099223131730691d4a4fe9b6ff903c6fb24f9e6ae76786e281b31"
+      },
+      {
+        "source": "styles/membrane-score/reference/tokens.css",
+        "target": "tokens.css",
+        "sha256": "9311172ade182c5fc485072a6b8279d0bda1d4307362fd5ab69da567d40eb61e"
+      }
+    ]
+  }
+]

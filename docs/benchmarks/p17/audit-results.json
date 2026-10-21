@@ -1,0 +1,431 @@
+{
+  "counts": {
+    "styles": 39,
+    "references": 78,
+    "previews": 156
+  },
+  "prompts": [
+    {
+      "id": "acoustic-sculpture",
+      "variant": "a",
+      "source_sha256": "713d155df53ab012db999192abac6c0fd107612a99a58af83ca4de48f9e96c70",
+      "copied_sha256": "201e0c8bb83c0abefbdbebae25b7115ee14d44220f6b5f0723c7cf19ba57886a",
+      "exact": true
+    },
+    {
+      "id": "acoustic-sculpture",
+      "variant": "b",
+      "source_sha256": "713d155df53ab012db999192abac6c0fd107612a99a58af83ca4de48f9e96c70",
+      "copied_sha256": "88643ced71ae1006138375046d98a89eefcb7d412652cb6c3dc468d5d358dbd0",
+      "exact": true
+    },
+    {
+      "id": "balcony-builder",
+      "variant": "a",
+      "source_sha256": "35b85a60798510435c447a8511fec7156b95860d0aae2834492d3d222bc8a878",
+      "copied_sha256": "01a9266baf4bb9874b8c263bd63e0e24d61779b8cefe5104b36d588e0a9f16b0",
+      "exact": true
+    },
+    {
+      "id": "balcony-builder",
+      "variant": "b",
+      "source_sha256": "35b85a60798510435c447a8511fec7156b95860d0aae2834492d3d222bc8a878",
+      "copied_sha256": "3c55a0af6f0e8bbec11842a286e7a53a32f96da7d531d26ade463bb460588da3",
+      "exact": true
+    },
+    {
+      "id": "choreographic-stage",
+      "variant": "a",
+      "source_sha256": "45196bcfc96f5a4f9d9278ccc5f26c2e402abf443bede3792c1b95064bb7a53d",
+      "copied_sha256": "89bb5d5f66079355cf5f8e5b70de144501cfb9cbea01d2da6dde94c7a7aea8a6",
+      "exact": true
+    },
+    {
+      "id": "choreographic-stage",
+      "variant": "b",
+      "source_sha256": "45196bcfc96f5a4f9d9278ccc5f26c2e402abf443bede3792c1b95064bb7a53d",
+      "copied_sha256": "d0111f4967e9ee6362f4856a429ba2b72abf522d2169da28331067686accb80c",
+      "exact": true
+    },
+    {
+      "id": "discovery-cabinet",
+      "variant": "a",
+      "source_sha256": "b84c8fe3f59f8d68e93bc342fef69e052e6c134f86081bf06daab91ac0a5954f",
+      "copied_sha256": "2098771cf87607fa53008763547a02591aa0c176fbc03065a446167dbb4a6cc0",
+      "exact": true
+    },
+    {
+      "id": "discovery-cabinet",
+      "variant": "b",
+      "source_sha256": "b84c8fe3f59f8d68e93bc342fef69e052e6c134f86081bf06daab91ac0a5954f",
+      "copied_sha256": "3b50485ffbd2f01737601ab5949f5b66b05ad1979b5f9ad9168064094332cc4e",
+      "exact": true
+    },
+    {
+      "id": "light-environments",
+      "variant": "a",
+      "source_sha256": "6d90263d83f4e7e7f43daec5a6991c25ec1f0b10dab7edbb2a50d861c18b449b",
+      "copied_sha256": "07714900b9aca464ed97b7b9b4b94bbb0f5a245908f63a8309aa5e41f12eb8f7",
+      "exact": true
+    },
+    {
+      "id": "light-environments",
+      "variant": "b",
+      "source_sha256": "6d90263d83f4e7e7f43daec5a6991c25ec1f0b10dab7edbb2a50d861c18b449b",
+      "copied_sha256": "81736042eab93278669c24e99cb3a5de7eb35a2f906da32704864c7948123686",
+      "exact": true
+    },
+    {
+      "id": "membrane-score",
+      "variant": "a",
+      "source_sha256": "6ded8ac2e9998cf2dda33bbc01dd0469d148d7a4e05caf10490f52f32acc5949",
+      "copied_sha256": "20639142edf130ba3faa97d957d5598e5bb548634ce366e1fa9d9b689274f577",
+      "exact": true
+    },
+    {
+      "id": "membrane-score",
+      "variant": "b",
+      "source_sha256": "6ded8ac2e9998cf2dda33bbc01dd0469d148d7a4e05caf10490f52f32acc5949",
+      "copied_sha256": "05daf87e2aac7a4fb2ee346c2b869803b0260b03bfa202e61952973b3622e99b",
+      "exact": true
+    },
+    {
+      "id": "modular-light",
+      "variant": "a",
+      "source_sha256": "3cd932393f4e32965157e5b88e42e69d840f980c80c9d067aed76918a2e5604c",
+      "copied_sha256": "3d2095fc2fe4d79a5bc554d345d47b295437b479823f6be3587ddc39be9b249e",
+      "exact": true
+    },
+    {
+      "id": "modular-light",
+      "variant": "b",
+      "source_sha256": "3cd932393f4e32965157e5b88e42e69d840f980c80c9d067aed76918a2e5604c",
+      "copied_sha256": "58867218ff99751fda30d4adc98777b2e2fc810ad21131ae7b03fd81937f85dc",
+      "exact": true
+    },
+    {
+      "id": "repair-atlas",
+      "variant": "a",
+      "source_sha256": "7e74bf6de4df1f419a95e6f3f623340af8fbd9b9f4821b32d02b9c1ae04dfc23",
+      "copied_sha256": "7025cd6d94a4343e198107adf9d73889b950f910ae19ae241e94a5b1cbf71f86",
+      "exact": true
+    },
+    {
+      "id": "repair-atlas",
+      "variant": "b",
+      "source_sha256": "7e74bf6de4df1f419a95e6f3f623340af8fbd9b9f4821b32d02b9c1ae04dfc23",
+      "copied_sha256": "82f2e9edc39d3dbb172b3cb643e35a5a936198addf24bfcbbbf3bfe910cfb13a",
+      "exact": true
+    },
+    {
+      "id": "resonant-ribbon",
+      "variant": "a",
+      "source_sha256": "9f37acd4f5df691385fe6abe76d66abae96e3928b1c3fccc0f8b8d8fd8ee8865",
+      "copied_sha256": "e35c965ec6daee4fa5c9226fde1be28d47d67ff9bde6aad52ba1cb9da5309746",
+      "exact": true
+    },
+    {
+      "id": "resonant-ribbon",
+      "variant": "b",
+      "source_sha256": "9f37acd4f5df691385fe6abe76d66abae96e3928b1c3fccc0f8b8d8fd8ee8865",
+      "copied_sha256": "45e9ef557d1876fa344a12419193df8e1fc5963bae084ebbfa5ca5de62a084c7",
+      "exact": true
+    },
+    {
+      "id": "rhythm-planner",
+      "variant": "a",
+      "source_sha256": "5d2407f5016156f089eebfac84e2d1968d40b16e5e6dd24e8278a2eedfc28639",
+      "copied_sha256": "692691736c11f26fb4129652d63eecf956fad67f139980dad90f95b4a23dd646",
+      "exact": true
+    },
+    {
+      "id": "rhythm-planner",
+      "variant": "b",
+      "source_sha256": "5d2407f5016156f089eebfac84e2d1968d40b16e5e6dd24e8278a2eedfc28639",
+      "copied_sha256": "93734d7254bac9f2eee30931be2193c5859d1d606198b48ecb42ab1e9366c4e1",
+      "exact": true
+    },
+    {
+      "id": "seasonal-terrain",
+      "variant": "a",
+      "source_sha256": "fbf86925b2d1c89386e9c5bcc73f0b92e64b42e3477f7cd408ce1430e0b3e269",
+      "copied_sha256": "37bb82eac7a072348d465f037c413b82b709dd6def6e2086b90a4b49fc12ff8c",
+      "exact": true
+    },
+    {
+      "id": "seasonal-terrain",
+      "variant": "b",
+      "source_sha256": "fbf86925b2d1c89386e9c5bcc73f0b92e64b42e3477f7cd408ce1430e0b3e269",
+      "copied_sha256": "d7fd05aed96a88ba687445330d5152b2be76697f18e2321510df4ec104c1a579",
+      "exact": true
+    },
+    {
+      "id": "spine-editions",
+      "variant": "a",
+      "source_sha256": "e490963438cf9c08879728e9506eaa6f4145a3606d16852e6016f9f5d799dcf3",
+      "copied_sha256": "1d531160ba2411a7b0bc8554454ef8d507b3ff48755950c357327385e2758bf6",
+      "exact": true
+    },
+    {
+      "id": "spine-editions",
+      "variant": "b",
+      "source_sha256": "e490963438cf9c08879728e9506eaa6f4145a3606d16852e6016f9f5d799dcf3",
+      "copied_sha256": "a291154bcb2902fa5c3f3eda3583efa37bb495ecf26ac2c7f013e51ee322399a",
+      "exact": true
+    },
+    {
+      "id": "trail-composer",
+      "variant": "a",
+      "source_sha256": "79345ab83d27232a246bf510e7f5f5ea26e4f03b037f9ea2e8e735442ad4b052",
+      "copied_sha256": "fe1ebc001f96d156bac6ecaa3e1abc7feabb838cb285cd02af27e74772b1ef0c",
+      "exact": true
+    },
+    {
+      "id": "trail-composer",
+      "variant": "b",
+      "source_sha256": "79345ab83d27232a246bf510e7f5f5ea26e4f03b037f9ea2e8e735442ad4b052",
+      "copied_sha256": "05d191a31fa6e847be135cb1557b04f4fbea5afde982c7d39a90c7d9d80a2d96",
+      "exact": true
+    },
+    {
+      "id": "twilight-expedition",
+      "variant": "a",
+      "source_sha256": "9e7c29452de3183b46299bce761d2161536b872496f01a53ce01d2fd144692b3",
+      "copied_sha256": "8a5a817c7b5956d9d6823475ea430799df2fb188fda947c2009338002acd3e89",
+      "exact": true
+    },
+    {
+      "id": "twilight-expedition",
+      "variant": "b",
+      "source_sha256": "9e7c29452de3183b46299bce761d2161536b872496f01a53ce01d2fd144692b3",
+      "copied_sha256": "d708f5499bf0f6d4cf25e4ee9e0a079b8179cbb8e964fc4e01a901e316bdfb92",
+      "exact": true
+    },
+    {
+      "id": "woven-field",
+      "variant": "a",
+      "source_sha256": "3801567084c7054842d6f7664c9da8516c6f9854648927acd4f938656f68c283",
+      "copied_sha256": "f2e78121c1b9a690471a293f67efc305b2fb1bf6bb0d6bc9d6a336f7d50151d4",
+      "exact": true
+    },
+    {
+      "id": "woven-field",
+      "variant": "b",
+      "source_sha256": "3801567084c7054842d6f7664c9da8516c6f9854648927acd4f938656f68c283",
+      "copied_sha256": "3aef17d2997b2fc2359e5e25e71076bd27a8f878c43dd1ee296da90ce32c894e",
+      "exact": true
+    }
+  ],
+  "business": [
+    {
+      "id": "acoustic-sculpture",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "7aece723d6eb8490f8f90968c0564832e535a83af1ee6848765fc5151df6c53a",
+      "status": "pass"
+    },
+    {
+      "id": "acoustic-sculpture",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "7aece723d6eb8490f8f90968c0564832e535a83af1ee6848765fc5151df6c53a",
+      "status": "pass"
+    },
+    {
+      "id": "balcony-builder",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "8b3dc4a82e02e26977f78ec35e3aea2aebfb70299f87171b7a4c930db257c1f4",
+      "status": "pass"
+    },
+    {
+      "id": "balcony-builder",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "8b3dc4a82e02e26977f78ec35e3aea2aebfb70299f87171b7a4c930db257c1f4",
+      "status": "pass"
+    },
+    {
+      "id": "choreographic-stage",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "4f9c3011434e6d8a16ceef6a507be9a0dc1d573f935ca6b5fea36b2f160f982b",
+      "status": "pass"
+    },
+    {
+      "id": "choreographic-stage",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "4f9c3011434e6d8a16ceef6a507be9a0dc1d573f935ca6b5fea36b2f160f982b",
+      "status": "pass"
+    },
+    {
+      "id": "discovery-cabinet",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "71fc5498c6bdb7acf31ca092817bb14845c310d336d0cb5b2aa4ac249e758611",
+      "status": "pass"
+    },
+    {
+      "id": "discovery-cabinet",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "71fc5498c6bdb7acf31ca092817bb14845c310d336d0cb5b2aa4ac249e758611",
+      "status": "pass"
+    },
+    {
+      "id": "light-environments",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "11ccb21ef8abca43b5b8996c235b3559a4e5fbc632afc25ebc8519294df00396",
+      "status": "pass"
+    },
+    {
+      "id": "light-environments",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "11ccb21ef8abca43b5b8996c235b3559a4e5fbc632afc25ebc8519294df00396",
+      "status": "pass"
+    },
+    {
+      "id": "membrane-score",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "3d3ecdaeda7b7d56e0cc2e35f5427ae0d3be8c39c498d5336c725da87697442a",
+      "status": "pass"
+    },
+    {
+      "id": "membrane-score",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "3d3ecdaeda7b7d56e0cc2e35f5427ae0d3be8c39c498d5336c725da87697442a",
+      "status": "pass"
+    },
+    {
+      "id": "modular-light",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "1581ab811bf6db2832c58e8205595a18ba2d9e5be212a5a90e1fe5868f8742fa",
+      "status": "pass"
+    },
+    {
+      "id": "modular-light",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "1581ab811bf6db2832c58e8205595a18ba2d9e5be212a5a90e1fe5868f8742fa",
+      "status": "pass"
+    },
+    {
+      "id": "repair-atlas",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "025ff3e729c2c3cd9da4592092fc677fe55ee9a345b7b73e75274bcf2a61fa4f",
+      "status": "pass"
+    },
+    {
+      "id": "repair-atlas",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "025ff3e729c2c3cd9da4592092fc677fe55ee9a345b7b73e75274bcf2a61fa4f",
+      "status": "pass"
+    },
+    {
+      "id": "resonant-ribbon",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "9359dc8179a66e4fb16d6b59515293f9d7426b92e87467d2c491fb46b2d62da7",
+      "status": "pass"
+    },
+    {
+      "id": "resonant-ribbon",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "9359dc8179a66e4fb16d6b59515293f9d7426b92e87467d2c491fb46b2d62da7",
+      "status": "pass"
+    },
+    {
+      "id": "rhythm-planner",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "aedede46af56badf0892896ddebd5903299210341bc33a2cfe5709bb6f333830",
+      "status": "pass"
+    },
+    {
+      "id": "rhythm-planner",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "aedede46af56badf0892896ddebd5903299210341bc33a2cfe5709bb6f333830",
+      "status": "pass"
+    },
+    {
+      "id": "seasonal-terrain",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "6f407db2ffc4cb42592dc2993dbf4ec9bfe69742e5784d43c3dba52930d86037",
+      "status": "pass"
+    },
+    {
+      "id": "seasonal-terrain",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "2fdbff0c35be63fed284bf4a0b89d58fa53e1fc82ab9d550bd827c67f830cb65",
+      "status": "pass"
+    },
+    {
+      "id": "spine-editions",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "9eee4a30b7fe93dbd547bcf74dc3dcd6e7a172fe605ddb593044e3131d5c1811",
+      "status": "pass"
+    },
+    {
+      "id": "spine-editions",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "9eee4a30b7fe93dbd547bcf74dc3dcd6e7a172fe605ddb593044e3131d5c1811",
+      "status": "pass"
+    },
+    {
+      "id": "trail-composer",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "bee40d0ef74d2e52e86272bba15bef1721a959eecde28f1b53b43249351d241b",
+      "status": "pass"
+    },
+    {
+      "id": "trail-composer",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "bee40d0ef74d2e52e86272bba15bef1721a959eecde28f1b53b43249351d241b",
+      "status": "pass"
+    },
+    {
+      "id": "twilight-expedition",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "bfc0ff601749b12c49959eebe1a89b9d7a752919b62a7e774c5988b2e5ec8e47",
+      "status": "pass"
+    },
+    {
+      "id": "twilight-expedition",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "bfc0ff601749b12c49959eebe1a89b9d7a752919b62a7e774c5988b2e5ec8e47",
+      "status": "pass"
+    },
+    {
+      "id": "woven-field",
+      "variant": "a",
+      "mode": "normal",
+      "output_sha256": "c3f962900a99891dfa04a713527dd083dd5932ef07b3569fc5d5ef50f5e3fa5a",
+      "status": "pass"
+    },
+    {
+      "id": "woven-field",
+      "variant": "b",
+      "mode": "normal",
+      "output_sha256": "c3f962900a99891dfa04a713527dd083dd5932ef07b3569fc5d5ef50f5e3fa5a",
+      "status": "pass"
+    }
+  ]
+}
