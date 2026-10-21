@@ -1,0 +1,108 @@
+{
+  "reviewed_on": "2026-10-21",
+  "atlas_revision": "51ca282d5cf9b4946fcea66c76c572d0be0489e2",
+  "catalogue_size": 24,
+  "original_independent_model": "gpt-6-luna alias; exact snapshot unavailable",
+  "new_model_runs": 0,
+  "reason": "Only choose-for-me candidate sets expanded; four explicit-ID selected sources unchanged.",
+  "cases": [
+    {
+      "id": "photo-portfolio",
+      "selected_style": "cinematic-photo",
+      "mode": "current-fit review and retained independent-artifact browser replay; not new model trial",
+      "pass": true,
+      "viewports": [
+        {
+          "width": 360,
+          "axe_violations": 0,
+          "overflow": false,
+          "resources_ok": true,
+          "navigation_ok": true,
+          "disclosures_ok": true,
+          "visible_focus": true,
+          "filters": null
+        },
+        {
+          "width": 768,
+          "axe_violations": 0,
+          "overflow": false,
+          "resources_ok": true,
+          "navigation_ok": true,
+          "disclosures_ok": true,
+          "visible_focus": true,
+          "filters": null
+        },
+        {
+          "width": 1440,
+          "axe_violations": 0,
+          "overflow": false,
+          "resources_ok": true,
+          "navigation_ok": true,
+          "disclosures_ok": true,
+          "visible_focus": true,
+          "filters": null
+        }
+      ],
+      "replay_artifact_sha256": "26f08376a296e018aa493117adb401f4a05c7d3ffde1f25a8e52330195854979",
+      "visual_review": "actual 360/1440 full-page replay images inspected"
+    },
+    {
+      "id": "information-catalogue",
+      "selected_style": "institutional-clear",
+      "mode": "current-fit review and retained independent-artifact browser replay; not new model trial",
+      "pass": true,
+      "viewports": [
+        {
+          "width": 360,
+          "axe_violations": 0,
+          "overflow": false,
+          "resources_ok": true,
+          "navigation_ok": true,
+          "disclosures_ok": true,
+          "visible_focus": true,
+          "filters": {
+            "category": true,
+            "combined": true,
+            "emptyReset": true,
+            "duration": true,
+            "reset": true
+          }
+        },
+        {
+          "width": 768,
+          "axe_violations": 0,
+          "overflow": false,
+          "resources_ok": true,
+          "navigation_ok": true,
+          "disclosures_ok": true,
+          "visible_focus": true,
+          "filters": {
+            "category": true,
+            "combined": true,
+            "emptyReset": true,
+            "duration": true,
+            "reset": true
+          }
+        },
+        {
+          "width": 1440,
+          "axe_violations": 0,
+          "overflow": false,
+          "resources_ok": true,
+          "navigation_ok": true,
+          "disclosures_ok": true,
+          "visible_focus": true,
+          "filters": {
+            "category": true,
+            "combined": true,
+            "emptyReset": true,
+            "duration": true,
+            "reset": true
+          }
+        }
+      ],
+      "replay_artifact_sha256": "713f1fc87a5cfce9dc87f874bf796f839804faa1577d2409af1af5544f7f217e",
+      "visual_review": "actual 360/1440 full-page replay images inspected"
+    }
+  ]
+}
