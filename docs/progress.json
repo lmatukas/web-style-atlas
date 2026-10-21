@@ -1498,23 +1498,51 @@
     {
       "id": "S17",
       "title": "Y2K Chrome",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S16"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:22:30.331Z",
-      "updated_at": "2026-10-21T07:22:30.332Z",
+      "updated_at": "2026-10-21T07:25:09.693Z",
       "branch": "task/s17-atlas",
       "base_commit": "c4cf344f0a18b91887e8d7a3c4a50be9c05523c0",
-      "evidence_commit": null,
+      "evidence_commit": "b5097bb7d49f2436df84dd62ce3db17ad94daf1a",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/29",
+      "checks": [
+        {
+          "name": "scoped source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four canonical PNGs below 1 MiB; source schema, deterministic generated data and complete freshness checks passed."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B cases at 360/768/1440 passed resources, axe, overflow, focus and actual controls; six supplemental glyph/reduced-motion/link/token checks passed."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/filter/comparison/selection cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews inspected with nearest ready neighbor; original licensed assets or code-native illustration; rubric recorded in task evidence."
+        },
+        {
+          "name": "git diff --check and generated drift",
+          "status": "pass",
+          "details": "Clean whitespace; source and generated wrapper checks passed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S17.md"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify next style within ten-task authorization.",
-      "handoff": null
+      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
+      "handoff": "Add Y2K Chrome poster and indexed object collection complete; actual local checks and visual evidence retained. Public gallery awaits release."
     },
     {
       "id": "S18",
