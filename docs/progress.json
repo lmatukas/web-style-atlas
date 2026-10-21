@@ -1213,7 +1213,7 @@
     {
       "id": "P12",
       "title": "12 stilių leidimo paruošimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S12",
         "P08",
@@ -1223,17 +1223,51 @@
       ],
       "worker": "Codex/2875ce3dc6da",
       "claimed_at": "2026-10-21T05:45:05.251Z",
-      "updated_at": "2026-10-21T05:45:05.252Z",
+      "updated_at": "2026-10-21T05:51:02.032Z",
       "branch": "task/p12-release",
       "base_commit": "a1c5aa3a673a30db52af590969490d02f2b08d38",
-      "evidence_commit": null,
+      "evidence_commit": "3f96a49ec31dee8232894e5cb961ab8aeabe324f",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/24",
+      "checks": [
+        {
+          "name": "clean-clone source/build/generated/freshness",
+          "status": "pass",
+          "details": "Locked install, source, adapters/generated, two builds, all 48 current previews; checkout stayed clean."
+        },
+        {
+          "name": "complete unit and browser gates",
+          "status": "pass",
+          "details": "74 unit cases, 3 gallery/subpath/selection tests, 75 responsive/accessibility pages and 4 renderer/quality tests passed."
+        },
+        {
+          "name": "release inventory and canonical rerender",
+          "status": "pass",
+          "details": "12 ready styles, 24 references, 48 previews; all 48 regenerated PNGs byte-identical, provenance refreshed for 0.1.0."
+        },
+        {
+          "name": "rights/links/publication configuration",
+          "status": "pass",
+          "details": "12 rights records and distributed notices verified; manual workflow guards parsed and exact inventory command passed. Publication not executed; exact steps retained."
+        },
+        {
+          "name": "actual local visual inspection",
+          "status": "pass",
+          "details": "Clean-clone /web-style-atlas/ gallery and actual Bauhaus A reference opened and visually inspected; no resource/JS errors."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace and unchanged generated sources after verification."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P12.md",
+        "docs/releases/0.1.0.md"
+      ],
       "blocker": null,
-      "next_action": "Prepare and verify the twelve-style 0.1.0 release.",
-      "handoff": null
+      "next_action": "Wait for exact-head GitHub validation; merge under existing owner authorization when green.",
+      "handoff": "Prepared 0.1.0 release and manual opt-in Pages workflow. No deployment/tag/Release created. PR #24 contains implementation/evidence only; tracking remains on main."
     },
     {
       "id": "S13",
