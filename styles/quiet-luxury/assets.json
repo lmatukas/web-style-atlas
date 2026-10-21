@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "chair",
+      "path": "assets/chair.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S07)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Ellis Editions demonstration illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "bench",
+      "path": "assets/bench.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S07)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Ellis Editions demonstration illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}

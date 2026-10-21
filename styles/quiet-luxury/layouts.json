@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Sparse collection presentation",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible collection/philosophy anchors and working chair-detail link.",
+      "ordered_sections": [
+        {
+          "purpose": "Identify collection",
+          "pattern": "Centered short display",
+          "content_requirements": [
+            "Studio identity",
+            "Edition title"
+          ]
+        },
+        {
+          "purpose": "Present a key object",
+          "pattern": "Broad quiet chair frame",
+          "content_requirements": [
+            "Chair illustration",
+            "Caption"
+          ]
+        },
+        {
+          "purpose": "Browse editions",
+          "pattern": "Sparse unequal object index",
+          "content_requirements": [
+            "Chair",
+            "Bench",
+            "Working detail link"
+          ]
+        },
+        {
+          "purpose": "Explain approach",
+          "pattern": "Short isolated statement",
+          "content_requirements": [
+            "Design premise"
+          ]
+        },
+        {
+          "purpose": "Close",
+          "pattern": "Colophon",
+          "content_requirements": [
+            "Demonstration identity"
+          ]
+        }
+      ],
+      "mobile_reflow": "Wrap navigation; stack index entries and keep full object silhouettes inside reserved frames.",
+      "distinguishing_features": [
+        "Centered collection opening",
+        "Broad image stage",
+        "Sparse two-entry index"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Large object dossier",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Return to collection and local object/care anchors.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Small return header",
+          "content_requirements": [
+            "Studio",
+            "Back link"
+          ]
+        },
+        {
+          "purpose": "Inspect object",
+          "pattern": "Large chair beside narrow dossier",
+          "content_requirements": [
+            "Illustration",
+            "Title",
+            "Material note"
+          ]
+        },
+        {
+          "purpose": "Read specifications",
+          "pattern": "Plain definition list",
+          "content_requirements": [
+            "Illustrative dimensions",
+            "Study status"
+          ]
+        },
+        {
+          "purpose": "Relate collection",
+          "pattern": "Wide bench comparison",
+          "content_requirements": [
+            "Bench illustration",
+            "Collection link"
+          ]
+        },
+        {
+          "purpose": "Care and close",
+          "pattern": "Native care notes and colophon",
+          "content_requirements": [
+            "Truthful limitations"
+          ]
+        }
+      ],
+      "mobile_reflow": "Place full chair before dossier; specifications and care remain readable, no sticky obstruction.",
+      "distinguishing_features": [
+        "Dominant chair frame",
+        "Narrow specification column",
+        "Concentrated object task"
+      ]
+    }
+  ]
+}
