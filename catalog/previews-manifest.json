@@ -1376,6 +1376,46 @@
       "width": 390
     },
     {
+      "height": 4061,
+      "output_sha256": "a8e67941da09d48a820bad742eb2b0b0422701edede131a038267617b35fad5e",
+      "path": "styles/trail-composer/preview.png",
+      "source_sha256": "af311b87fa9b943dde8bcf61fbbf70fbf52d9a95c17fb1dd084782af0ab1750d",
+      "style_id": "trail-composer",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5514,
+      "output_sha256": "7a96aeb040bb5ce335d7d57f4c7e55ab788ec1b6873fda5b52f1e0c006237279",
+      "path": "styles/trail-composer/preview-mobile.png",
+      "source_sha256": "af311b87fa9b943dde8bcf61fbbf70fbf52d9a95c17fb1dd084782af0ab1750d",
+      "style_id": "trail-composer",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3625,
+      "output_sha256": "aa2273f283be73a0dbf4bec6671e01377e47cad5d449245c499c55f22bc130d7",
+      "path": "styles/trail-composer/preview-alt.png",
+      "source_sha256": "af311b87fa9b943dde8bcf61fbbf70fbf52d9a95c17fb1dd084782af0ab1750d",
+      "style_id": "trail-composer",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5220,
+      "output_sha256": "16dfc1ac1ac6d6ee673b81cdd60934efa8f99a6ef0bcc86fadbab0745b7f1cdd",
+      "path": "styles/trail-composer/preview-alt-mobile.png",
+      "source_sha256": "af311b87fa9b943dde8bcf61fbbf70fbf52d9a95c17fb1dd084782af0ab1750d",
+      "style_id": "trail-composer",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 3029,
       "output_sha256": "bcf142e5e5eba545186209d68181f1d715c29d3226b54eb162942b8bc703fba1",
       "path": "styles/twilight-expedition/preview.png",
