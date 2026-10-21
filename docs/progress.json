@@ -2218,17 +2218,17 @@
     {
       "id": "S27",
       "title": "Resonant Ribbon",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S26"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T13:49:09.936Z",
-      "updated_at": "2026-10-21T14:13:57.885Z",
+      "updated_at": "2026-10-21T14:20:49.681Z",
       "branch": "task/s27-expansion",
       "base_commit": "5752080ff49477eae606e3ac81152ec7a2f3cfc0",
       "evidence_commit": "db53d21d131b6ba3b4f11766d6b31b74edad68d0",
-      "merge_commit": null,
+      "merge_commit": "c842617df634788fd1cc2d2415c1972b7ca70360",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/61",
       "checks": [
         {
@@ -2245,14 +2245,19 @@
           "name": "Gallery/full brief and visual review",
           "status": "pass",
           "details": "5 scoped integrations and actual exact B full prompt copy; all four final PNGs viewed against two ready neighbors;11/12."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39615005209 succeeded all full source/generated/gallery/browser/runtime jobs on db53d21d131b6ba3b4f11766d6b31b74edad68d0. Actual PR #61 merge and tested head verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S27.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
-      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
+      "next_action": "Select next eligible task within the owner-authorized five-task batch.",
+      "handoff": "Actual PR merge and exact tested head verified. Required checks/evidence passed. Continue authorized batch; keep public release at P18."
     },
     {
       "id": "S28",
