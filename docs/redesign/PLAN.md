@@ -21,6 +21,15 @@ nepridėda naujų krypčių.
 6. **P22** – footer ir kopijos valymas (po visų S40–S51 ir P21).
 7. **P23** – galutinė rubrikos ir įrodymų patikra (po P22 ir P24).
 
+## Išskirtinumo įspėjimai (P19)
+
+`node scripts/distinctiveness.mjs` ir `npm run validate` rodo `WARN` eilutes:
+- `shared-asset` – tas pats vaizdas (SHA-256) keliuose stiliuose;
+- `footer-boilerplate` – tas pats 5 žodžių posakis bent 3 footeruose;
+- `shared-heading` – tas pats pirmas `<h1>` tekstas keliuose stiliuose.
+
+Įspėjimai nelaužo `validate`. Jie – sąrašas, ką pertvarkyti.
+
 ## Patikros, kurias visi privalo atlikti
 
 - `npm run validate`, `npm run build`, `node --test tests/*.test.mjs`.
