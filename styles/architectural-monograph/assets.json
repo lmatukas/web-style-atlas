@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "farnsworth",
+      "path": "assets/farnsworth.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Farnsworth_House_2006.jpg",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-04118",
+      "redistribution_allowed": true,
+      "modifications": [
+        "1280px Wikimedia derivative",
+        "Converted to monochrome",
+        "Metadata stripped",
+        "Lossless WebP with 64-step monochrome palette",
+        "Responsive CSS detail crop where labeled"
+      ]
+    },
+    {
+      "id": "glass-house",
+      "path": "assets/glass-house.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-04817",
+      "redistribution_allowed": true,
+      "modifications": [
+        "1280px Wikimedia derivative",
+        "Converted to monochrome",
+        "Metadata stripped",
+        "Lossless WebP with 64-step monochrome palette",
+        "Responsive CSS detail crop where labeled"
+      ]
+    },
+    {
+      "id": "plan",
+      "path": "assets/plan.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S22)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original interpretive plan relationship diagram; not measured survey",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}
