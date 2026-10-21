@@ -1660,23 +1660,51 @@
     {
       "id": "S20",
       "title": "Kinetic Type",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S19"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:41:46.139Z",
-      "updated_at": "2026-10-21T07:41:46.140Z",
+      "updated_at": "2026-10-21T07:46:41.499Z",
       "branch": "task/s20-atlas",
       "base_commit": "bf270e11928cc8341d7f1988d00a7b9548ff3cdd",
-      "evidence_commit": null,
+      "evidence_commit": "fb1f2fd05059b9bf5622460a13d80bbb7bed3c55",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/32",
+      "checks": [
+        {
+          "name": "scoped source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four canonical PNGs below 1 MiB; source schema, deterministic generated data and complete freshness checks passed."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B cases at 360/768/1440 passed resources, axe, overflow, focus and actual controls; six supplemental glyph/reduced-motion/link/token checks passed."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/filter/comparison/selection cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "All four actual previews inspected with nearest ready neighbor; original licensed assets or code-native illustration; rubric recorded in task evidence."
+        },
+        {
+          "name": "git diff --check and generated drift",
+          "status": "pass",
+          "details": "Clean whitespace; source and generated wrapper checks passed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S20.md"
+      ],
       "blocker": null,
-      "next_action": "Implement and verify next style within ten-task authorization.",
-      "handoff": null
+      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
+      "handoff": "Add Kinetic Type campaign and two-day calendar complete; actual local checks and visual evidence retained. Public gallery awaits release."
     },
     {
       "id": "S21",
