@@ -2086,23 +2086,36 @@
     {
       "id": "P16",
       "title": "Judesio, 3D, garso ir pakaitalų patikrų pagrindas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P15"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T12:34:55.651Z",
-      "updated_at": "2026-10-21T12:34:55.651Z",
+      "updated_at": "2026-10-21T12:46:04.897Z",
       "branch": "task/p16-expansion",
       "base_commit": "41d3170269926d3800b6cca46293a5c6aa079742",
-      "evidence_commit": null,
+      "evidence_commit": "fe47ad91fdff09ff1b347dbde3c37c34bd90d97a",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/49",
+      "checks": [
+        {
+          "name": "Source/build/preview freshness",
+          "status": "pass",
+          "details": "24 ready styles and 96 current previews; no hash exceptions or PNG rewrites."
+        },
+        {
+          "name": "Unit and real capability/lifecycle checks",
+          "status": "pass",
+          "details": "81 unit tests and 3 canonical Chromium runtime tests; real depth-tested WebGL, actual opt-in audio, normal/reduced/disabled modes, lifecycle, repeatable PNG and fallback-only rejection."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P16.md"
+      ],
       "blocker": null,
-      "next_action": "Implement P16 within owner-authorized sequential batch of five.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
+      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
     },
     {
       "id": "S25",
