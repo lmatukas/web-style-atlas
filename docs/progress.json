@@ -2785,17 +2785,17 @@
     {
       "id": "P17",
       "title": "39 krypčių ir pilnų promptų naudojimo auditas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S39"
       ],
       "worker": "Codex/8f365240145f/final-audit-release",
       "claimed_at": "2026-10-21T18:37:03.760Z",
-      "updated_at": "2026-10-21T18:53:24.441Z",
+      "updated_at": "2026-10-21T18:53:58.915Z",
       "branch": "task/p17-final",
       "base_commit": "f9ab3d1781381b705084e0710abd28d56ac15b8e",
       "evidence_commit": "6bdab51373e612b3fcf08ca611a6213d45bf49bf",
-      "merge_commit": null,
+      "merge_commit": "b1d88545ce9a01cef2fee8b8b714675813da3998",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/79",
       "checks": [
         {
@@ -2807,6 +2807,11 @@
           "name": "Visual review and actual full-prompt transfers",
           "status": "pass",
           "details": "60 new frames, 56 older-neighbour frames, 30 prescribed pairs, 15 explicit rubric rows; 30 exact A/B copies and business paths, three isolated author replays."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Run 39656740847 succeeded on 6bdab51373e612b3fcf08ca611a6213d45bf49bf; docs-only dispatcher correctly skipped redundant browser/build. Actual PR #79 merge, tested parent and resulting tree verified."
         }
       ],
       "evidence_paths": [
@@ -2815,8 +2820,8 @@
         "docs/benchmarks/p17/README.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head GitHub checks, merge authorized P17, verify actual merge, then claim P18.",
-      "handoff": "All local full gates passed. PR #79 is the sole implementation. No independent-model or publication claim."
+      "next_action": "Claim P18 and prepare the authorized 1.1.0 release.",
+      "handoff": "P17 accepted with full local audit and exact-head remote scope checks. Continue P18; public publication remains pending."
     },
     {
       "id": "P18",
