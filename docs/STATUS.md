@@ -4,7 +4,7 @@
 
 **Baigta: 56/57.**
 
-**Kita užduotis: [P18](tasks/P18.md).**
+**Pirmiausia patikrinti P18: Vykdoma; vykdytojas Codex/8f365240145f/final-audit-release.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -66,6 +66,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S38](tasks/S38.md) | Trail Composer | Baigta | Codex/8f365240145f/S36-S39 | task/s38-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/77) | 2026-10-21T17:47:37Z | S38 accepted; continue authorized S36–S39 sequence. |
 | [S39](tasks/S39.md) | Membrane Score | Baigta | Codex/8f365240145f/S36-S39 | task/s39-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/78) | 2026-10-21T17:58:37Z | S36–S39 batch complete. Next eligible task is P17 on a new request; public release remains P18. |
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Baigta | Codex/8f365240145f/final-audit-release | task/p17-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/79) | 2026-10-21T18:53:58.915Z | Claim P18 and prepare the authorized 1.1.0 release. |
-| [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Vykdoma | Codex/8f365240145f/final-audit-release | task/p18-final | — | 2026-10-21T18:54:14.647Z | Complete P18 under the owner-authorized final audit and release continuation. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

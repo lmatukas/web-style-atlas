@@ -2826,22 +2826,22 @@
     {
       "id": "P18",
       "title": "39 krypčių leidimo paruošimas ir publikavimas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P17"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/8f365240145f/final-audit-release",
+      "claimed_at": "2026-10-21T18:54:14.647Z",
+      "updated_at": "2026-10-21T18:54:14.647Z",
+      "branch": "task/p18-final",
+      "base_commit": "d767ed3eaa25c168c75491195e2eeafbc72c6276",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Complete P18 under the owner-authorized final audit and release continuation.",
       "handoff": null
     }
   ]
