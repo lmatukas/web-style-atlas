@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 — prepared, publication pending
+## 1.1.0 — published 2026-10-21
 
 39 ready directions, 78 working A/B references and 156 current previews.
 
@@ -15,10 +15,7 @@
 - Refresh version-dependent preview provenance through the canonical renderer;
   keep the existing manual release workflow, bounded gates and opt-in publish.
 
-This source preparation does not establish deployment. The last verified public
-gallery remains 1.0.0. See [1.1.0 release evidence](docs/releases/1.1.0.md) for the
-exact manual publication action and remaining live checks. No tag or GitHub
-Release is created by this change.
+Published and opened on 2026-10-21: [release run 39659487799](https://github.com/lmatukas/web-style-atlas/actions/runs/39659487799) passed verify and deploy on `b089ab898428d70ba2fd1583d4d8db4e0438e8bb`. Actual live 39-card search/reset, B/mobile selection, exact full-prompt copy and a working new reference were checked. See [1.1.0 release evidence](docs/releases/1.1.0.md). No separate tag or GitHub Release was created.
 
 ## 1.0.0 — published 2026-10-21
 

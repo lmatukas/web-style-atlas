@@ -1,17 +1,17 @@
 # Web Style Atlas — kaip išbandyti
 
-**Paruošta 1.1.0 versija:** 39 dizaino kryptys, 78 A/B puslapių
+**Paskelbta 1.1.0 versija:** 39 dizaino kryptys, 78 A/B puslapių
 pavyzdžiai ir 156 aktualios kompiuterio bei telefono peržiūros.
 [Išplėsto katalogo auditas](docs/evidence/P17.md) ir
 [darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
 
 **[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/).**
-Paskutinė patikrinta vieša **1.0.0 galerija su 24 stiliais** paskelbta
-2026-10-21. Veikia paieška, filtrų atstatymas, trijų krypčių palyginimas,
-B ir telefono peržiūros, prompto kopijavimas bei tikras pavyzdžio puslapis.
-[Publikavimo įrodymai](docs/evidence/P14.md#public-pages-publication--2026-10-21).
+Vieša **1.1.0 galerija su visomis 39 kryptimis** paskelbta ir praktiškai patikrinta
+2026-10-21. Patikrinta paieška ir filtrų atstatymas, B ir telefono peržiūros,
+tiksli pilno prompto kopija bei veikiantis naujas planuoklio pavyzdys.
+[Publikavimo įrodymai](docs/evidence/P18.md#actual-publication-and-live-checks--2026-10-21).
+[1.0.0 publikavimo istorija](docs/releases/1.0.0.md) išsaugota.
 
-1.1.0 publikavimas dar laukia [rankinio leidimo veiksmo](docs/releases/1.1.0.md).
 Visas 39 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
 ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
@@ -19,7 +19,7 @@ ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
 ## Pilni kūrimo promptai
 
 [15 pilnų kūrimo promptų](prompts/README.md) turi veikiančius naujų krypčių
-pavyzdžius. Vietinėje galerijoje pasirink kryptį ir A/B variantą, spausk
+pavyzdžius. Galerijoje pasirink kryptį ir A/B variantą, spausk
 **Copy full creation prompt**, įrašyk savo projekto duomenis ir perduok visą
 tekstą agentui. Išlieka objekto, sąveikų, judesio ir vykdymo reikalavimai;
 neveikiant iškarpinei galima nukopijuoti ranka. Kitos kryptys išlaiko trumpą

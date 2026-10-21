@@ -2826,13 +2826,13 @@
     {
       "id": "P18",
       "title": "39 krypčių leidimo paruošimas ir publikavimas",
-      "status": "blocked",
+      "status": "done",
       "depends_on": [
         "P17"
       ],
       "worker": "Codex/8f365240145f/final-audit-release",
       "claimed_at": "2026-10-21T18:54:14.647Z",
-      "updated_at": "2026-10-21T19:10:47.411Z",
+      "updated_at": "2026-10-21T19:31:51.953043Z",
       "branch": "task/p18-final",
       "base_commit": "d767ed3eaa25c168c75491195e2eeafbc72c6276",
       "evidence_commit": "ec929de963b372dfeca0eee61a743668a29f9558",
@@ -2856,18 +2856,19 @@
         },
         {
           "name": "Publish and actual live 1.1.0 checks",
-          "status": "not_run",
-          "details": "Connector has no workflow-dispatch operation. Owner action: release.yml → Run workflow → main → publish=true → Run workflow. After successful verify/deploy, record run/deployed SHA and actual live 39-card/search/A-B/mobile/full-copy/new-reference checks."
+          "status": "pass",
+          "details": "Run 39659487799 verify/deploy succeeded on b089ab898428d70ba2fd1583d4d8db4e0438e8bb. Actual live 39 cards/search-reset/B-mobile/full clipboard copy and Rhythm Planner B midnight case passed; P18-live.json retains bounded results."
         }
       ],
       "evidence_paths": [
         "docs/evidence/P18.md",
         "docs/evidence/P18-clean-clone.json",
-        "docs/releases/1.1.0.md"
+        "docs/releases/1.1.0.md",
+        "docs/evidence/P18-live.json"
       ],
-      "blocker": "Prepared 1.1.0 PR #80 is merged and all required gates passed. The GitHub connector cannot dispatch the manual release; waiting for one owner Run workflow action with main and publish=true.",
-      "next_action": "Open https://github.com/lmatukas/web-style-atlas/actions/workflows/release.yml → Run workflow → main → publish=true → Run workflow. Then verify deploy, open actual gallery, record run/deployed SHA/live checks, and mark P18 done.",
-      "handoff": "Source preparation accepted; P17 is done and P18 remains blocked only at authorized manual publication. Exact tested head and actual merged tree verified. Preserve 1.0.0 history; do not claim live 1.1.0 until the new run and UI observations exist."
+      "blocker": null,
+      "next_action": "All 57 planned tasks accepted. Start new work only from the next owner-approved scope.",
+      "handoff": "Owner publication run 39659487799 succeeded on b089ab898428d70ba2fd1583d4d8db4e0438e8bb; actual cloud-browser 39-card search/reset, B/mobile selection, exact full prompt clipboard and new working reference verified. P18 done."
     }
   ]
 }

@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 56/57.**
+**Baigta: 57/57.**
 
-**Nėra paruoštos užduoties. Patikrink blokatorius ir priklausomybes.**
+**Visos užduotys baigtos.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -66,6 +66,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S38](tasks/S38.md) | Trail Composer | Baigta | Codex/8f365240145f/S36-S39 | task/s38-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/77) | 2026-10-21T17:47:37Z | S38 accepted; continue authorized S36–S39 sequence. |
 | [S39](tasks/S39.md) | Membrane Score | Baigta | Codex/8f365240145f/S36-S39 | task/s39-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/78) | 2026-10-21T17:58:37Z | S36–S39 batch complete. Next eligible task is P17 on a new request; public release remains P18. |
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Baigta | Codex/8f365240145f/final-audit-release | task/p17-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/79) | 2026-10-21T18:53:58.915Z | Claim P18 and prepare the authorized 1.1.0 release. |
-| [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Užblokuota | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:10:47.411Z | Prepared 1.1.0 PR #80 is merged and all required gates passed. The GitHub connector cannot dispatch the manual release; waiting for one owner Run workflow action with main and publish=true. |
+| [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Baigta | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:31:51.953043Z | All 57 planned tasks accepted. Start new work only from the next owner-approved scope. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

@@ -3,16 +3,16 @@
 Distinct web design directions with working examples and practical instructions
 for AI coding agents. Use a direction to build a website in your own project.
 
-**Prepared release 1.1.0: 39 ready directions, 78 A/B reference pages and 156
+**Published release 1.1.0: 39 ready directions, 78 A/B reference pages and 156
 current desktop/mobile previews.** The [expanded catalogue audit](docs/evidence/P17.md)
 records visual comparisons, full prompt copies and three isolated author replays.
 The [work board](docs/STATUS.md) tracks acceptance and publication separately.
 
 **Live gallery:** [open Web Style Atlas](https://lmatukas.github.io/web-style-atlas/).
-The last verified public version is **1.0.0 with 24 styles**, published and opened on 2026-10-21.
-Search/reset, three-way comparison, B/mobile previews, prompt copy and a working
-reference were checked on the actual public site; see [publication evidence](docs/evidence/P14.md#public-pages-publication--2026-10-21).
-Publication of 1.1.0 is pending the [manual release workflow](docs/releases/1.1.0.md).
+Version **1.1.0 with all 39 styles** was published and opened on 2026-10-21.
+Search/reset, B/mobile previews, an exact full-prompt clipboard copy and a new
+working reference were checked on the actual public site; see [publication evidence](docs/evidence/P18.md#actual-publication-and-live-checks--2026-10-21).
+The [1.0.0 publication history](docs/releases/1.0.0.md) is retained.
 Use all 39 source directions through
 [the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
@@ -20,7 +20,7 @@ Use all 39 source directions through
 ## Full creation prompts
 
 [15 full creation prompts](prompts/README.md) accompany the fifteen new working
-directions. In the local gallery, choose one, switch A/B, then use **Copy full
+directions. In the gallery, choose one, switch A/B, then use **Copy full
 creation prompt**. Fill in the project fields and give the complete copy to your
 coding agent. The text preserves the defining object, interaction, motion and
 runtime requirements; it also has a manual-copy fallback. The other directions keep the shorter selection

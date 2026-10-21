@@ -1,0 +1,16 @@
+{
+  "run": "https://github.com/lmatukas/web-style-atlas/actions/runs/39659487799",
+  "deployed_sha": "b089ab898428d70ba2fd1583d4d8db4e0438e8bb",
+  "url": "https://lmatukas.github.io/web-style-atlas/",
+  "checked_at": "2026-10-21T19:31:51.953043Z",
+  "cards": 39,
+  "search": "Rhythm Planner gives one result; reset restores 39",
+  "composition": "A initially; B selected",
+  "preview": "Mobile selected; actual Rhythm Planner B/mobile preview link observed",
+  "clipboard": "actual cloud-browser clipboard equals canonical full B prompt",
+  "copied_characters": 5365,
+  "prompt_sha256": "93734d7254bac9f2eee30931be2193c5859d1d606198b48ecb42ab1e9366c4e1",
+  "example": "https://lmatukas.github.io/web-style-atlas/styles/rhythm-planner/reference/alternate.html",
+  "business": "23:30 +20/40/15 minutes with 5-minute breaks: Pabaiga 00:55 (+1 d.)",
+  "method": "Direct public interaction through cloud browser; actual clipboard SHA compared locally. Headless local browser network access failed; that attempt was not a pass."
+}
