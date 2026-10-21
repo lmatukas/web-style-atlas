@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 57/57.**
+**Baigta: 57/75.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P19](tasks/P19.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -67,5 +67,23 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S39](tasks/S39.md) | Membrane Score | Baigta | Codex/8f365240145f/S36-S39 | task/s39-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/78) | 2026-10-21T17:58:37Z | S36–S39 batch complete. Next eligible task is P17 on a new request; public release remains P18. |
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Baigta | Codex/8f365240145f/final-audit-release | task/p17-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/79) | 2026-10-21T18:53:58.915Z | Claim P18 and prepare the authorized 1.1.0 release. |
 | [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Baigta | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:31:51.953043Z | All 57 planned tasks accepted. Start new work only from the next owner-approved scope. |
+| [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P19.md. |
+| [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P20.md. |
+| [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P21.md. |
+| [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P24.md. |
+| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S40.md. |
+| [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
+| [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |
+| [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |
+| [S44](tasks/S44.md) | Pertvarka: Data Observatory | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S44.md. |
+| [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S45.md. |
+| [S46](tasks/S46.md) | Pertvarka: Terminal Utility | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S46.md. |
+| [S47](tasks/S47.md) | Pertvarka: Art Deco | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S47.md. |
+| [S48](tasks/S48.md) | Pertvarka: Gallery White Cube | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S48.md. |
+| [S49](tasks/S49.md) | Pertvarka: Industrial Spec | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S49.md. |
+| [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S50.md. |
+| [S51](tasks/S51.md) | Pertvarka: Field Notes | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S51.md. |
+| [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P22.md. |
+| [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P23.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
