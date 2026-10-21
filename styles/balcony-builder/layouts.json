@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Bright modular-planter offer and growing idea",
+      "page_type": "commerce",
+      "reference_path": "reference/index.html",
+      "navigation": "Three-step builder, growth sketch, useful questions and actual workshop sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Understand the balcony proposition",
+          "pattern": "Rounded large promise beside an overhead modular planter",
+          "content_requirements": [
+            "Original botanical SVG",
+            "800ms assembly",
+            "No fake commerce"
+          ]
+        },
+        {
+          "purpose": "Choose a concrete demonstration kit",
+          "pattern": "Three lighting situations followed by area/experience fields and a broad result panel",
+          "content_requirements": [
+            "Actual three-input rules",
+            "500ms light/plant change",
+            "Reasons and exact composition",
+            "Local save/edit/remove"
+          ]
+        },
+        {
+          "purpose": "Explore the growing idea",
+          "pattern": "One bounded unfolding branch beside three process notes, followed by native FAQ",
+          "content_requirements": [
+            "Artistic-growth boundary",
+            "Reduced state",
+            "Verified light-principle source links"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: promise before bounded full planter, large light choices, full-width fields and result, then branch/process and questions. 768: contracted paired hero; 1440: broad offer and substantial result spread.",
+      "distinguishing_features": [
+        "Product/proposition first",
+        "All three steps remain visible as one conditions sheet",
+        "Broad kit-composition result before illustrated process"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Three-step balcony-kit workshop",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Real step controls, editable result, native questions and actual offer sibling.",
+      "ordered_sections": [
+        {
+          "purpose": "Work through three conditions",
+          "pattern": "Single current step in a left worksheet with explicit previous/next controls",
+          "content_requirements": [
+            "Light",
+            "Area",
+            "Experience",
+            "Current step and useful focus"
+          ]
+        },
+        {
+          "purpose": "Inspect and retain current kit",
+          "pattern": "Compact overhead planter and live result beside the step worksheet",
+          "content_requirements": [
+            "Current reasons/plant groups",
+            "Include expands composition",
+            "Device-local save and restore",
+            "Blocked-storage truth"
+          ]
+        },
+        {
+          "purpose": "Understand the idea and scope",
+          "pattern": "Finite scroll-unfolding branch and practical FAQ",
+          "content_requirements": [
+            "Artistic interpretation",
+            "No server/payment claims",
+            "Source boundary"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390/768: current step before compact full planter and complete result; step controls wrap and all fields remain reachable. 1440: worksheet beside immediate visual result.",
+      "distinguishing_features": [
+        "One explicit step at a time",
+        "Immediate visual result beside conditions",
+        "Revisiting steps preserves the current configuration"
+      ]
+    }
+  ]
+}

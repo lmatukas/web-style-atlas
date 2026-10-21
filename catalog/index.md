@@ -2,13 +2,14 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 34. Drafts and templates are excluded.
+Ready styles: 35. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
 | [Acoustic Sculpture](../styles/acoustic-sculpture/style.md) | spatial | Seven matte copper plates become a spatial instrument, a sound-character workshop and a practical enquiry brief. | [A: Instrument and spatial stories](../styles/acoustic-sculpture/reference/index.html) · [B: Sound-character workshop](../styles/acoustic-sculpture/reference/alternate.html) |
 | [Architectural Monograph](../styles/architectural-monograph/style.md) | photographic | Large architectural photographs, interpretive plans and analytic notes form a project monograph and a contrasting indexed building atlas. | [A: Photograph and plan monograph](../styles/architectural-monograph/reference/index.html) · [B: Indexed building atlas](../styles/architectural-monograph/reference/alternate.html) |
 | [Art Deco](../styles/art-deco/style.md) | ornamental | Axial invitation compositions, stepped architectural ornament and ceremonial rules, paired with a house-story and room-concept layout. | [A: Cultural evening invitation](../styles/art-deco/reference/index.html) · [B: Hotel house story and room concepts](../styles/art-deco/reference/alternate.html) |
+| [Balcony Builder](../styles/balcony-builder/style.md) | commercial | A playful overhead modular planter connects light, available places and experience to an explained demonstration kit with real device-local saving. | [A: Bright modular-planter offer and growing idea](../styles/balcony-builder/reference/index.html) · [B: Three-step balcony-kit workshop](../styles/balcony-builder/reference/alternate.html) |
 | [Bauhaus Geometric](../styles/bauhaus-geometric/style.md) | expressive | Elementary shapes, flat color planes and an orthogonal modular grid for culture and graphic work. | [A: Geometric event poster](../styles/bauhaus-geometric/reference/index.html) · [B: Modular composition exhibition](../styles/bauhaus-geometric/reference/alternate.html) |
 | [Botanical Engraving](../styles/botanical-engraving/style.md) | illustrative | Fine botanical line illustration with plate numbers, accepted names and attached observations, from a garden story to a classified cabinet. | [A: Plant and origin story](../styles/botanical-engraving/reference/index.html) · [B: Classified three-plate herbarium](../styles/botanical-engraving/reference/alternate.html) |
 | [Choreographic Stage](../styles/choreographic-stage/style.md) | expressive | Abstract airborne figures, a finite ribbon trajectory and generous editorial pauses connect an asymmetric stage to a real format-and-experience programme. | [A: Asymmetric stage and vertical performance sequence](../styles/choreographic-stage/reference/index.html) · [B: Format and experience-led programme workbook](../styles/choreographic-stage/reference/alternate.html) |
