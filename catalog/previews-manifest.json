@@ -416,6 +416,46 @@
       "width": 390
     },
     {
+      "height": 1719,
+      "output_sha256": "4943cf829f61e5051f46512030a4ddbca8637a00619e3ce48e16bb55e51d559c",
+      "path": "styles/kinetic-type/preview.png",
+      "source_sha256": "0c4d63aa2e94820b779e5cd044c1826436ac7653ef95afaa009814cc4deff428",
+      "style_id": "kinetic-type",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2257,
+      "output_sha256": "f9cf889f9f73acd3248be17f6bad7f2ba716c219233ca4d1d4bcddb5e1fa5655",
+      "path": "styles/kinetic-type/preview-mobile.png",
+      "source_sha256": "0c4d63aa2e94820b779e5cd044c1826436ac7653ef95afaa009814cc4deff428",
+      "style_id": "kinetic-type",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1898,
+      "output_sha256": "709bf02dfa7efd42ed72f618b5057d42ee550c3239c141efaa0c91263cdac96b",
+      "path": "styles/kinetic-type/preview-alt.png",
+      "source_sha256": "0c4d63aa2e94820b779e5cd044c1826436ac7653ef95afaa009814cc4deff428",
+      "style_id": "kinetic-type",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2118,
+      "output_sha256": "1045d245dfe9d84498b70ce15862e8724bebe4f26b316728148805ad849a22b0",
+      "path": "styles/kinetic-type/preview-alt-mobile.png",
+      "source_sha256": "0c4d63aa2e94820b779e5cd044c1826436ac7653ef95afaa009814cc4deff428",
+      "style_id": "kinetic-type",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2517,
       "output_sha256": "94bd4242dad51521b6b266a47d21deb767c15521502a75cef51bed578135462b",
       "path": "styles/neo-brutalist/preview.png",
