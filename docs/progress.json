@@ -1986,9 +1986,9 @@
       "depends_on": [
         "P13"
       ],
-      "worker": "Codex/2875ce3dc6da/final-four",
+      "worker": "Codex/60722bd95b94/P14-resume",
       "claimed_at": "2026-10-21T10:00:37.372Z",
-      "updated_at": "2026-10-21T10:00:37.373Z",
+      "updated_at": "2026-10-21T10:14:11.407Z",
       "branch": "task/p14-atlas",
       "base_commit": "877fe8fa4ab887e360e15b9c5d6631fa68390ceb",
       "evidence_commit": null,
@@ -1997,8 +1997,8 @@
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Implement and verify the next task within final-queue authorization.",
-      "handoff": null
+      "next_action": "Resume the recovered 1.0.0 implementation, verify release gates and publish its single implementation PR.",
+      "handoff": "Owner handed off the interrupted final release on 2026-10-21. Previous worker: Codex/2875ce3dc6da/final-four. Recover local implementation a6bd7b9363d0cac2902029ffd1841b4f19124d3f, finish clean-clone evidence, open and merge P14 with existing authorization. Failed manual publication run 39582682091 used old main and stopped at the obsolete 12-style gate."
     }
   ]
 }
