@@ -136,6 +136,46 @@
       "width": 390
     },
     {
+      "height": 3717,
+      "output_sha256": "5e548f7bb9995ec6bc376e1eaa67a92fe079e304250759213479aa35a080522d",
+      "path": "styles/balcony-builder/preview.png",
+      "source_sha256": "ac446fe77a602d209a19f675b543e8bc7d921578b9694bf6dd7ab26ab36b4685",
+      "style_id": "balcony-builder",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5100,
+      "output_sha256": "536fecd604338f98901220c543bb7bb9becb0867bef61f01325f8fec7edd5533",
+      "path": "styles/balcony-builder/preview-mobile.png",
+      "source_sha256": "ac446fe77a602d209a19f675b543e8bc7d921578b9694bf6dd7ab26ab36b4685",
+      "style_id": "balcony-builder",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3357,
+      "output_sha256": "c7aca8fbbbbf153c05d68123d437b5bdb4a51e624fa4632a84e5133ed5ffafaa",
+      "path": "styles/balcony-builder/preview-alt.png",
+      "source_sha256": "ac446fe77a602d209a19f675b543e8bc7d921578b9694bf6dd7ab26ab36b4685",
+      "style_id": "balcony-builder",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4743,
+      "output_sha256": "842f24888aed8158c21a445341c69a8a42872c49750c3e930b06cd48ea3691fc",
+      "path": "styles/balcony-builder/preview-alt-mobile.png",
+      "source_sha256": "ac446fe77a602d209a19f675b543e8bc7d921578b9694bf6dd7ab26ab36b4685",
+      "style_id": "balcony-builder",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1879,
       "output_sha256": "3ba17f6ee8835a40523cf9809aac3e6a32d6e59636b32e85f8817c70d3002b7f",
       "path": "styles/bauhaus-geometric/preview.png",

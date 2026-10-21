@@ -157,6 +157,60 @@
       ]
     },
     {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "commerce",
+        "products",
+        "campaign"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "commercial",
+      "id": "balcony-builder",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Balcony Builder",
+      "prompt_path": "prompts/balcony-builder/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep plum, bright lime, warm white and coral; a white result area with dark readable records.",
+        "composition": "A bold balcony promise beside an overhead planter and complete conditions sheet; B a current-step worksheet beside the live result.",
+        "content_rhythm": "Offer, three situations, conditions and broad composition versus one current step with immediate visual result.",
+        "imagery": "Original modular SVG box with tomato/pepper or lettuce/spinach shapes and a finite four-leaf branch.",
+        "interaction": "Three actual inputs, consistent reasons/composition, include, explicit local save, edit, cross-layout restore and own-key removal.",
+        "motion": "800ms module assembly, 500ms botanical change, 350ms composition expansion and monotonic finite branch unfolding.",
+        "navigation": "Builder, bounded growth sketch and native FAQ links plus real offer/workshop siblings.",
+        "typography": "Large soft-curved DejaVu Sans promises and clear Arial practical reasons, with round substantial controls."
+      },
+      "status": "ready",
+      "style_path": "styles/balcony-builder/style.md",
+      "summary": "A playful overhead modular planter connects light, available places and experience to an explained demonstration kit with real device-local saving.",
+      "tags": [
+        "product-led",
+        "playful",
+        "high-contrast",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/balcony-builder/preview-mobile.png",
+          "preview_path": "styles/balcony-builder/preview.png",
+          "reference_path": "styles/balcony-builder/reference/index.html",
+          "title": "Bright modular-planter offer and growing idea"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/balcony-builder/preview-alt-mobile.png",
+          "preview_path": "styles/balcony-builder/preview-alt.png",
+          "reference_path": "styles/balcony-builder/reference/alternate.html",
+          "title": "Three-step balcony-kit workshop"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "events",
