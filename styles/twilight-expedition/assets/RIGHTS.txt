@@ -1,0 +1,7 @@
+Twilight Expedition — original assets
+
+Terrain shader, triangulated relief, dome, route geometry, copy and fallback SVG
+were authored for Web Style Atlas. MIT, same as the repository LICENSE.
+No photographs, geographic data, imported models, font files or audio recordings.
+Georgia/Arial are requested as system fonts; no font binaries redistributed.
+All names, route timing and destination descriptions are fictional demonstrations.
