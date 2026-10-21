@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Bright single-product offer",
+      "page_type": "commerce",
+      "reference_path": "reference/index.html",
+      "navigation": "Bottle, full shelf, useful details and actual local demo bag.",
+      "ordered_sections": [
+        {
+          "purpose": "Explain and choose product",
+          "pattern": "Large illustrated bottle beside price and controls",
+          "content_requirements": [
+            "Finish",
+            "Whole quantity",
+            "Demo add action"
+          ]
+        },
+        {
+          "purpose": "Compare useful details",
+          "pattern": "Four aligned specification rows",
+          "content_requirements": [
+            "Capacity",
+            "Illustrated body",
+            "Closure",
+            "Unit price"
+          ]
+        },
+        {
+          "purpose": "Introduce related items",
+          "pattern": "Large cup/carry silhouettes beside shelf link",
+          "content_requirements": [
+            "Three-item range",
+            "Actual shelf destination"
+          ]
+        },
+        {
+          "purpose": "Inspect local bag",
+          "pattern": "Quantity lines and calculated subtotal",
+          "content_requirements": [
+            "Live announcement",
+            "Real clear action"
+          ]
+        },
+        {
+          "purpose": "Clarify scope",
+          "pattern": "Notes and native disclosure",
+          "content_requirements": [
+            "Fictional specifications",
+            "No order or payment"
+          ]
+        }
+      ],
+      "mobile_reflow": "Product then offer; choices wrap, detail rows and bag remain readable.",
+      "distinguishing_features": [
+        "Product-to-price scale contrast",
+        "Actual finish and quantity controls",
+        "Single-item focus before related range"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Categories and product shelf",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Three real category buttons, product actions and bag anchor.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce range",
+          "pattern": "Broad collection heading and short premise",
+          "content_requirements": [
+            "Three complete products",
+            "Demo task"
+          ]
+        },
+        {
+          "purpose": "Filter and inspect",
+          "pattern": "Category controls and comparable product bays",
+          "content_requirements": [
+            "Visible count",
+            "Names",
+            "Prices",
+            "Add actions"
+          ]
+        },
+        {
+          "purpose": "Explain set relationship",
+          "pattern": "Large statement and ordinary price sum",
+          "content_requirements": [
+            "Bottle plus cup",
+            "No invented savings"
+          ]
+        },
+        {
+          "purpose": "Inspect demo bag",
+          "pattern": "Real line quantities and subtotal",
+          "content_requirements": [
+            "Clear reset",
+            "Page-local state"
+          ]
+        },
+        {
+          "purpose": "Clarify scope",
+          "pattern": "Native notes",
+          "content_requirements": [
+            "No stock or checkout",
+            "Authored product studies"
+          ]
+        }
+      ],
+      "mobile_reflow": "Category controls wrap; shelf becomes a one-column shopping sequence.",
+      "distinguishing_features": [
+        "Actual category filtering",
+        "Comparable three-product shelf",
+        "Multiple item totals replace finish-focused offer"
+      ]
+    }
+  ]
+}
