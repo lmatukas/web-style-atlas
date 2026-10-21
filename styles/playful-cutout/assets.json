@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "pencil",
+      "path": "assets/pencil.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S11)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Small Wonders cutout illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "scissors",
+      "path": "assets/scissors.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S11)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Small Wonders cutout illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "plane",
+      "path": "assets/plane.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S11)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original Small Wonders cutout illustration",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}

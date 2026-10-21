@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Assembled cutout invitation",
+      "page_type": "events",
+      "reference_path": "reference/index.html",
+      "navigation": "Activity/practical anchors and separate story link.",
+      "ordered_sections": [
+        {
+          "purpose": "Invite",
+          "pattern": "Large heading and reserved cutout scene",
+          "content_requirements": [
+            "Heading",
+            "Three tool illustrations"
+          ]
+        },
+        {
+          "purpose": "Orient",
+          "pattern": "Compact event strip",
+          "content_requirements": [
+            "Fictional context",
+            "Activity link"
+          ]
+        },
+        {
+          "purpose": "Explore activities",
+          "pattern": "Numbered activity rows",
+          "content_requirements": [
+            "Three useful descriptions"
+          ]
+        },
+        {
+          "purpose": "Continue story",
+          "pattern": "Dark invitation band",
+          "content_requirements": [
+            "Working story link"
+          ]
+        },
+        {
+          "purpose": "Prepare",
+          "pattern": "Native practical note and colophon",
+          "content_requirements": [
+            "Demo identity"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack invitation and intact scene; activity rows become vertical and decorative overlap stays in bounds.",
+      "distinguishing_features": [
+        "Recognizable overlapping cutouts",
+        "Friendly large display",
+        "Numbered open activity rows"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Event story with attached stickers",
+      "page_type": "events",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Three local chapter anchors and return to activities.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame story",
+          "pattern": "Title and chapter index",
+          "content_requirements": [
+            "Title",
+            "Three links"
+          ]
+        },
+        {
+          "purpose": "Begin",
+          "pattern": "Paper-plane chapter",
+          "content_requirements": [
+            "Illustration",
+            "Narrative"
+          ]
+        },
+        {
+          "purpose": "Experiment",
+          "pattern": "Scissors chapter and attached note",
+          "content_requirements": [
+            "Illustration",
+            "Observation"
+          ]
+        },
+        {
+          "purpose": "Make a mark",
+          "pattern": "Pencil and colored note field",
+          "content_requirements": [
+            "Illustration",
+            "Closing idea"
+          ]
+        },
+        {
+          "purpose": "Close",
+          "pattern": "Native practical notes and return",
+          "content_requirements": [
+            "Working destination"
+          ]
+        }
+      ],
+      "mobile_reflow": "Normalize chapter order to image/text; keep small stickers inside their sections without covering controls.",
+      "distinguishing_features": [
+        "Individual objects along a narrative",
+        "Alternating chapter structure",
+        "Attached sticker-like observations"
+      ]
+    }
+  ]
+}

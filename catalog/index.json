@@ -361,6 +361,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "events",
+        "culture",
+        "campaign"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "illustrative",
+      "id": "playful-cutout",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Playful Cutout",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Cream, plum, soft yellow, coral and teal; cut-paper edges separate layers.",
+        "composition": "Reserved overlapping cutout invitation scene in A; alternating illustrated story chapters in B.",
+        "content_rhythm": "Assembled scene and numbered activities, or short illustrated narrative chapters.",
+        "imagery": "Three original coherent SVG tool/paper cutouts with pale edges and simple shading.",
+        "interaction": "Real local anchors and native practical-note disclosures; objects remain illustrative.",
+        "motion": "Still overlap creates energy; brief link transitions removed for reduced motion.",
+        "navigation": "Visible activities/practical links and a three-chapter story index.",
+        "typography": "Friendly bold sans-serif display with plain readable supporting copy."
+      },
+      "status": "ready",
+      "style_path": "styles/playful-cutout/style.md",
+      "summary": "Coherent cutout illustrations, deliberate overlap and friendly type for a playful creative story.",
+      "tags": [
+        "cutout",
+        "playful",
+        "image-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/playful-cutout/preview-mobile.png",
+          "preview_path": "styles/playful-cutout/preview.png",
+          "reference_path": "styles/playful-cutout/reference/index.html",
+          "title": "Assembled cutout invitation"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/playful-cutout/preview-alt-mobile.png",
+          "preview_path": "styles/playful-cutout/preview-alt.png",
+          "reference_path": "styles/playful-cutout/reference/alternate.html",
+          "title": "Event story with attached stickers"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "products",
         "portfolio",
         "hospitality"
