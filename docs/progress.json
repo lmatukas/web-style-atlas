@@ -2957,7 +2957,7 @@
     {
       "id": "P21",
       "title": "style.md frontmatter formato suvienodinimas",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "P19"
       ],
@@ -2965,14 +2965,14 @@
       "evidence_paths": [],
       "worker": null,
       "claimed_at": null,
-      "updated_at": null,
+      "updated_at": "2026-10-21T21:08:51Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/P21.md.",
+      "blocker": "Keičiant styles/*/style.md (frontmatter) pasikeičia preview šaltinio hash (scripts/previews.mjs sourceHash apima visus stiliaus autorinius failus), todėl PNG ir catalog/previews-manifest.json reikia perkurti kanoninėje aplinkoje (Ubuntu 24.04, Node 24.19.0, locked Playwright). Ta aplinka šioje sesijoje neprieinama.",
+      "next_action": "Paleisti P21 kanoninėje aplinkoje su npm run previews ir commitinti perkurtus PNG ir manifestą kartu su frontmatter pakeitimais. Nesutvarkius – nekeisti style.md.",
       "handoff": null
     },
     {
