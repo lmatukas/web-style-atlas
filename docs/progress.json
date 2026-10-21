@@ -2032,17 +2032,17 @@
     {
       "id": "P15",
       "title": "Pilnų kūrimo promptų katalogo ir galerijos integravimas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P14"
       ],
       "worker": "Codex/162fd1aaf53b/P15",
       "claimed_at": "2026-10-21T11:42:04.984Z",
-      "updated_at": "2026-10-21T11:52:29.477Z",
+      "updated_at": "2026-10-21T12:05:51.163Z",
       "branch": "task/p15-creation-prompts",
       "base_commit": "568302ee884a2b9016a83e8bf999851db01948d4",
-      "evidence_commit": "162bfe590e375be01bd2d47d0c4e7de370dfd599",
-      "merge_commit": null,
+      "evidence_commit": "7826875cabb8fa6fbe3f1717f0ed95c1917eb92a",
+      "merge_commit": "b31cf9be1f99d9d2f04cd1d6a7401e80026ff29a",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/45",
       "checks": [
         {
@@ -2064,14 +2064,24 @@
           "name": "Actual visual inspection",
           "status": "pass",
           "details": "390px and 1440px full-prompt UI viewed; no overflow across 360/390/768/1440."
+        },
+        {
+          "name": "Browser inspector correction",
+          "status": "pass",
+          "details": "Hidden inactive disclosure skipped; broken visible disclosure still rejected. Two real quality tests and actual gallery plus full-prompt/manual-fallback axe/keyboard checks at 360/768/1440 passed."
+        },
+        {
+          "name": "GitHub exact-head CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation run 39596006003 succeeded on 7826875cabb8fa6fbe3f1717f0ed95c1917eb92a. Scope/source/generated and full browser/accessibility/renderer gates passed. Actual PR #45 merged at b31cf9be1f99d9d2f04cd1d6a7401e80026ff29a; tested head is a merge parent, only tracking differs."
         }
       ],
       "evidence_paths": [
         "docs/evidence/P15.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head PR #45 checks, review and merge; then record actual acceptance.",
-      "handoff": "Implementation complete on task/p15-creation-prompts. Prior owner-authorized merge workflow applies; keep 24 ready directions and no deploy for this infrastructure task."
+      "next_action": "P15 accepted. P16 is the next eligible task; do not deploy infrastructure alone.",
+      "handoff": "PR #45 merged with exact tested head as a merge parent. All required exact-head CI jobs succeeded after the hidden-disclosure inspector correction. Real full prompt/legacy regressions and visual evidence verified; 24 ready styles preserved. P16 may proceed."
     },
     {
       "id": "P16",
