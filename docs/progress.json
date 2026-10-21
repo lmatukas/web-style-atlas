@@ -1660,17 +1660,17 @@
     {
       "id": "S20",
       "title": "Kinetic Type",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S19"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:41:46.139Z",
-      "updated_at": "2026-10-21T07:46:41.499Z",
+      "updated_at": "2026-10-21T07:48:55.682Z",
       "branch": "task/s20-atlas",
       "base_commit": "bf270e11928cc8341d7f1988d00a7b9548ff3cdd",
       "evidence_commit": "fb1f2fd05059b9bf5622460a13d80bbb7bed3c55",
-      "merge_commit": null,
+      "merge_commit": "1a81d505a273aca1bd20a2dffcca6ef47c8d5f2e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/32",
       "checks": [
         {
@@ -1697,14 +1697,19 @@
           "name": "git diff --check and generated drift",
           "status": "pass",
           "details": "Clean whitespace; source and generated wrapper checks passed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39564382673 succeeded on fb1f2fd05059b9bf5622460a13d80bbb7bed3c55"
         }
       ],
       "evidence_paths": [
         "docs/evidence/S20.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
-      "handoff": "Add Kinetic Type campaign and two-day calendar complete; actual local checks and visual evidence retained. Public gallery awaits release."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue up to ten tasks; no scheduled automation or premature deployment."
     },
     {
       "id": "S21",

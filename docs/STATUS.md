@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 31/38.**
+**Baigta: 32/38.**
 
-**Pirmiausia patikrinti S20: Laukia peržiūros; vykdytojas Codex/2875ce3dc6da/batch-two.**
+**Kita užduotis: [S21](tasks/S21.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -41,7 +41,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S17](tasks/S17.md) | Y2K Chrome | Baigta | Codex/2875ce3dc6da/batch-two | task/s17-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/29) | 2026-10-21T07:27:12.866Z | Select next eligible task within owner-authorized sequential batch. |
 | [S18](tasks/S18.md) | Art Deco | Baigta | Codex/2875ce3dc6da/batch-two | task/s18-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/30) | 2026-10-21T07:33:56.697Z | Select next eligible task within owner-authorized sequential batch. |
 | [S19](tasks/S19.md) | Botanical Engraving | Baigta | Codex/2875ce3dc6da/batch-two | task/s19-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/31) | 2026-10-21T07:41:16.076Z | Select next eligible task within owner-authorized sequential batch. |
-| [S20](tasks/S20.md) | Kinetic Type | Laukia peržiūros | Codex/2875ce3dc6da/batch-two | task/s20-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/32) | 2026-10-21T07:46:41.499Z | Wait for exact-head CI, then merge and continue authorized sequential batch. |
+| [S20](tasks/S20.md) | Kinetic Type | Baigta | Codex/2875ce3dc6da/batch-two | task/s20-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/32) | 2026-10-21T07:48:55.682Z | Select next eligible task within owner-authorized sequential batch. |
 | [S21](tasks/S21.md) | Soft Spatial | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S22](tasks/S22.md) | Architectural Monograph | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S23](tasks/S23.md) | Pop Commerce | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
