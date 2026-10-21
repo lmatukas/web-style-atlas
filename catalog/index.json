@@ -211,6 +211,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "products",
+        "portfolio",
+        "hospitality"
+      ],
+      "complexity": "low",
+      "density": "sparse",
+      "family": "restrained",
+      "id": "quiet-luxury",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Quiet Luxury",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Off-white, stone and deep brown; ornament restricted to material illustration.",
+        "composition": "Broad quiet collection stages in A; dominant single object beside narrow dossier in B.",
+        "content_rhythm": "Large isolated object frames, short captions and a compact edition index.",
+        "imagery": "Original furniture illustrations with clean silhouettes and uncluttered stages.",
+        "interaction": "Ordinary collection/detail links and native care disclosure; no fake commerce.",
+        "motion": "Still objects, brief link transitions removed for reduced motion.",
+        "navigation": "Visible sparse collection links and return from object detail.",
+        "typography": "Brief restrained serif display and small readable sans-serif practical labels."
+      },
+      "status": "ready",
+      "style_path": "styles/quiet-luxury/style.md",
+      "summary": "Large object stages, measured proportions and sparse practical notes for a carefully edited collection.",
+      "tags": [
+        "minimal",
+        "calm",
+        "product-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/quiet-luxury/preview-mobile.png",
+          "preview_path": "styles/quiet-luxury/preview.png",
+          "reference_path": "styles/quiet-luxury/reference/index.html",
+          "title": "Sparse collection presentation"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/quiet-luxury/preview-alt-mobile.png",
+          "preview_path": "styles/quiet-luxury/preview-alt.png",
+          "reference_path": "styles/quiet-luxury/reference/alternate.html",
+          "title": "Large object dossier"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "services",
         "portfolio"
       ],
