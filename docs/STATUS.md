@@ -4,7 +4,7 @@
 
 **Baigta: 41/57.**
 
-**Kita užduotis: [S26](tasks/S26.md).**
+**Pirmiausia patikrinti S26: Vykdoma; vykdytojas Codex/162fd1aaf53b/batch-five.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -51,7 +51,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P15](tasks/P15.md) | Pilnų kūrimo promptų katalogo ir galerijos integravimas | Baigta | Codex/162fd1aaf53b/P15 | task/p15-creation-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/45) | 2026-10-21T12:05:51.163Z | P15 accepted. P16 is the next eligible task; do not deploy infrastructure alone. |
 | [P16](tasks/P16.md) | Judesio, 3D, garso ir pakaitalų patikrų pagrindas | Baigta | Codex/162fd1aaf53b/batch-five | task/p16-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/49) | 2026-10-21T12:52:50.960Z | Select next eligible task within the owner-authorized five-task batch. |
 | [S25](tasks/S25.md) | Acoustic Sculpture | Baigta | Codex/162fd1aaf53b/batch-five | task/s25-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/53) | 2026-10-21T13:22:25.281Z | Select next eligible task within the owner-authorized five-task batch. |
-| [S26](tasks/S26.md) | Seasonal Terrain | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S26](tasks/S26.md) | Seasonal Terrain | Vykdoma | Codex/162fd1aaf53b/batch-five | task/s26-expansion | — | 2026-10-21T13:23:55.064Z | Implement S26 within owner-authorized sequential batch of five. |
 | [S27](tasks/S27.md) | Resonant Ribbon | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S28](tasks/S28.md) | Modular Light | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S29](tasks/S29.md) | Twilight Expedition | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |

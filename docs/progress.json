@@ -2174,22 +2174,22 @@
     {
       "id": "S26",
       "title": "Seasonal Terrain",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S25"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/162fd1aaf53b/batch-five",
+      "claimed_at": "2026-10-21T13:23:55.064Z",
+      "updated_at": "2026-10-21T13:23:55.064Z",
+      "branch": "task/s26-expansion",
+      "base_commit": "b80b9014db28c33e70330c8c59c8ef39d2ddd149",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "next_action": "Implement S26 within owner-authorized sequential batch of five.",
       "handoff": null
     },
     {
