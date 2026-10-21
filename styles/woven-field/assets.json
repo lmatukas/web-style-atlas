@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "ramuma",
+      "path": "assets/ramuma.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original procedural weave study, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "kryptis",
+      "path": "assets/kryptis.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original procedural weave study, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "tarpai",
+      "path": "assets/tarpai.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Codex for Web Style Atlas",
+      "license": "MIT",
+      "attribution": "Original procedural weave study, Web Style Atlas.",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}
