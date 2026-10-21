@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — source prepared 2026-10-21
+## 1.0.0 — published 2026-10-21
 
 Completed 24-direction source catalogue: 48 references and 96 current previews.
 
@@ -18,9 +18,11 @@ Completed 24-direction source catalogue: 48 references and 96 current previews.
 - Updated image-rights summary for the two public-domain Highsmith building
   photographs and new original illustrations.
 
-The live URL still serves the last verified 0.1.0 deployment until the owner
-dispatches publication. See [1.0.0 handoff and checks](docs/releases/1.0.0.md).
-No tag, GitHub Release or new Pages deployment is claimed by source preparation.
+Published and opened on 2026-10-21: manual release run 39585598844 passed both
+verify and deploy on source `468676949d05be7d7f870ed52bea945d553adf65`.
+The actual 24-style gallery and its primary controls were checked after deployment.
+See [1.0.0 publication and checks](docs/releases/1.0.0.md).
+No separate tag or GitHub Release was created.
 
 ## 0.1.0 — published 2026-10-21
 

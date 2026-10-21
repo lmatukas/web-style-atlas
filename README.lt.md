@@ -1,15 +1,15 @@
 # Web Style Atlas — kaip išbandyti
 
-**Paruošta 1.0.0 šaltinių versija:** 24 dizaino kryptys, 48 A/B puslapių
+**Paskelbta 1.0.0 versija:** 24 dizaino kryptys, 48 A/B puslapių
 pavyzdžiai ir 96 aktualios kompiuterio bei telefono peržiūros.
 [Viso katalogo auditas](docs/evidence/catalog-review.md) ir
 [darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
 
 **[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/).**
-Paskutinis patikrintas viešas diegimas dar yra **0.1.0 su 12 stilių**.
-Kad galerijoje atsirastų visi 24, po šios versijos PR sujungimo reikia paleisti
-[paruoštą publikavimo veiksmą](docs/releases/1.0.0.md#publish-the-prepared-main-revision).
-Vien PR sujungimas Pages neatnaujina.
+Vieša galerija su **visais 24 stiliais** paskelbta ir praktiškai patikrinta
+2026-10-21. Veikia paieška, filtrų atstatymas, trijų krypčių palyginimas,
+B ir telefono peržiūros, prompto kopijavimas bei tikras pavyzdžio puslapis.
+[Publikavimo įrodymai](docs/evidence/P14.md#public-pages-publication--2026-10-21).
 
 Visas 24 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
