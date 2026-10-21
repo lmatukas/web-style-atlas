@@ -256,6 +256,56 @@
           "title": "Asymmetric work catalogue"
         }
       ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
+        "services",
+        "documentation",
+        "data"
+      ],
+      "complexity": "low",
+      "density": "dense",
+      "family": "technical",
+      "id": "terminal-utility",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Terminal Utility",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Dark green-black surfaces, pale text and restrained green accents.",
+        "composition": "Dense command index in A; chronological log beside a summary rail in B.",
+        "content_rhythm": "Short input/output explanations or chronological events with supporting panels.",
+        "imagery": "No image dependency; original text, rules and status notation.",
+        "interaction": "Native service details and an actual local log-type filter with pressed state.",
+        "motion": "Static output, no blinking cursor; brief transitions removed for reduced motion.",
+        "navigation": "Plain text section links, command disclosures and a separate log index.",
+        "typography": "System monospace throughout, with explicit timestamp and command hierarchy."
+      },
+      "status": "ready",
+      "style_path": "styles/terminal-utility/style.md",
+      "summary": "A readable command index and chronological information panels with a consistent monospace voice.",
+      "tags": [
+        "monospace",
+        "precise",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/terminal-utility/preview-mobile.png",
+          "preview_path": "styles/terminal-utility/preview.png",
+          "reference_path": "styles/terminal-utility/reference/index.html",
+          "title": "Command-like service index"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/terminal-utility/preview-alt-mobile.png",
+          "preview_path": "styles/terminal-utility/preview-alt.png",
+          "reference_path": "styles/terminal-utility/reference/alternate.html",
+          "title": "Chronological log with information panels"
+        }
+      ]
     }
   ]
 }

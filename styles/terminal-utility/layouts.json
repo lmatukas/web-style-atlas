@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Command-like service index",
+      "page_type": "services",
+      "reference_path": "reference/index.html",
+      "navigation": "Section anchors, native service disclosures and log link.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce practice",
+          "pattern": "Terminal heading and sample output",
+          "content_requirements": [
+            "Practice identity",
+            "Demo label"
+          ]
+        },
+        {
+          "purpose": "Inspect services",
+          "pattern": "Three native command disclosures",
+          "content_requirements": [
+            "Input",
+            "Output",
+            "Scope"
+          ]
+        },
+        {
+          "purpose": "Explain delivery",
+          "pattern": "Numbered runbook",
+          "content_requirements": [
+            "Three steps"
+          ]
+        },
+        {
+          "purpose": "Set boundaries",
+          "pattern": "Plain scope note",
+          "content_requirements": [
+            "Truthful service limitations"
+          ]
+        },
+        {
+          "purpose": "Continue",
+          "pattern": "Log link and colophon",
+          "content_requirements": [
+            "Demo identity"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack command descriptions, wrap text links and preserve clear input/output labels.",
+      "distinguishing_features": [
+        "Command disclosures",
+        "Explicit input/output labels",
+        "Numbered runbook"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Chronological log with information panels",
+      "page_type": "documentation",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Text return link, log anchors and actual local type filters.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Snapshot title",
+          "content_requirements": [
+            "Static date",
+            "Demo label"
+          ]
+        },
+        {
+          "purpose": "Summarize",
+          "pattern": "Narrow information rail",
+          "content_requirements": [
+            "Run identifier",
+            "Record totals"
+          ]
+        },
+        {
+          "purpose": "Inspect events",
+          "pattern": "Timestamped filtered log",
+          "content_requirements": [
+            "Entry type",
+            "Message",
+            "Result count"
+          ]
+        },
+        {
+          "purpose": "Explain data",
+          "pattern": "Native disclosure",
+          "content_requirements": [
+            "Static fictional data boundary"
+          ]
+        },
+        {
+          "purpose": "Close",
+          "pattern": "Return and colophon",
+          "content_requirements": [
+            "Practice link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Summary rail moves above entries; timestamps stack above messages; filter buttons wrap.",
+      "distinguishing_features": [
+        "Chronological information rhythm",
+        "Actual entry-type filter",
+        "Summary rail"
+      ]
+    }
+  ]
+}
