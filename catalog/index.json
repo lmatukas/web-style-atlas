@@ -404,6 +404,56 @@
       ]
     },
     {
+      "avoid_for": [],
+      "best_for": [
+        "publishing",
+        "public-information",
+        "data"
+      ],
+      "complexity": "low",
+      "density": "dense",
+      "family": "editorial",
+      "id": "newspaper-ledger",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Newspaper Ledger",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.",
+        "composition": "Dense unequal front-page columns under a large masthead; B uses article rail, argument and full-width numeric ledger.",
+        "content_rhythm": "Lead report, supporting brief columns, notebook and record; B argument, exact table and method.",
+        "imagery": "Original CSS four-branch schematic instead of borrowed news photography.",
+        "interaction": "Real story/section destinations and native editorial-method disclosures.",
+        "motion": "Still reading surfaces with no animated ticker or automatic story changes.",
+        "navigation": "Department strip and persistent visible article contents; mobile wraps into readable rows.",
+        "typography": "Serif masthead and compact headlines, sans-serif labels and tabular numbers."
+      },
+      "status": "ready",
+      "style_path": "styles/newspaper-ledger/style.md",
+      "summary": "Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods.",
+      "tags": [
+        "reading-led",
+        "grid",
+        "data-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/newspaper-ledger/preview-mobile.png",
+          "preview_path": "styles/newspaper-ledger/preview.png",
+          "reference_path": "styles/newspaper-ledger/reference/index.html",
+          "title": "Multi-story newspaper front page"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/newspaper-ledger/preview-alt-mobile.png",
+          "preview_path": "styles/newspaper-ledger/preview-alt.png",
+          "reference_path": "styles/newspaper-ledger/reference/alternate.html",
+          "title": "Analysis with branch ledger"
+        }
+      ]
+    },
+    {
       "avoid_for": [
         "data",
         "documentation"

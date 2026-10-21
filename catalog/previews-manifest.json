@@ -336,6 +336,46 @@
       "width": 390
     },
     {
+      "height": 1632,
+      "output_sha256": "c84e050ffe16f31cee96e989bc38e668f4907ee2fc85fc7dd28240a697d79de9",
+      "path": "styles/newspaper-ledger/preview.png",
+      "source_sha256": "6ddc39e083da481e773e54691f9aea301cc60fec80bd30faba88596e7f45a754",
+      "style_id": "newspaper-ledger",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3171,
+      "output_sha256": "f607660ec7711b697624b1992fced6c2826975328baf2bceac4fcee9eafe8578",
+      "path": "styles/newspaper-ledger/preview-mobile.png",
+      "source_sha256": "6ddc39e083da481e773e54691f9aea301cc60fec80bd30faba88596e7f45a754",
+      "style_id": "newspaper-ledger",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2224,
+      "output_sha256": "ec21f5aa16cc0a6f787d3e60d389a9c36cdfd147f40e685fc6c567c75de53b18",
+      "path": "styles/newspaper-ledger/preview-alt.png",
+      "source_sha256": "6ddc39e083da481e773e54691f9aea301cc60fec80bd30faba88596e7f45a754",
+      "style_id": "newspaper-ledger",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3033,
+      "output_sha256": "fb0e10b07d793e963ab43058a322c22c4dc2f051881dc3958e068a7e52fedab3",
+      "path": "styles/newspaper-ledger/preview-alt-mobile.png",
+      "source_sha256": "6ddc39e083da481e773e54691f9aea301cc60fec80bd30faba88596e7f45a754",
+      "style_id": "newspaper-ledger",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2188,
       "output_sha256": "2729809218879bd1abc7c82b3d8f3682254fd9c8fd87d3a6a905265890a2697e",
       "path": "styles/organic-craft/preview.png",
