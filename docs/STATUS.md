@@ -4,7 +4,7 @@
 
 **Baigta: 23/38.**
 
-**Kita užduotis: [P12](tasks/P12.md).**
+**Pirmiausia patikrinti P12: Vykdoma; vykdytojas Codex/2875ce3dc6da.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -33,7 +33,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P09](tasks/P09.md) | Agentų adapteriai ir suderinamumo matrica | Baigta | Codex/839dbcebb83d/sequential-ten | task/p09-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/21) | 2026-10-21T03:55:02Z | Select the next eligible task within the authorized sequential batch. |
 | [P10](tasks/P10.md) | Realus naudojimo kitame projekte bandymas | Baigta | Codex/839dbcebb83d/sequential-ten | task/p10-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/22) | 2026-10-21T04:17:33Z | Select the next eligible task within the authorized sequential batch. |
 | [P11](tasks/P11.md) | Vieša dokumentacija ir papildymo eiga | Baigta | Codex/839dbcebb83d/sequential-ten | task/p11-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/23) | 2026-10-21T04:24:41Z | Authorized batch complete; P12 awaits a new instruction. |
-| [P12](tasks/P12.md) | 12 stilių leidimo paruošimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [P12](tasks/P12.md) | 12 stilių leidimo paruošimas | Vykdoma | Codex/2875ce3dc6da | task/p12-release | — | 2026-10-21T05:45:05.252Z | Prepare and verify the twelve-style 0.1.0 release. |
 | [S13](tasks/S13.md) | Gallery White Cube | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S14](tasks/S14.md) | Newspaper Ledger | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S15](tasks/S15.md) | Industrial Spec | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |

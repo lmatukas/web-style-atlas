@@ -1213,7 +1213,7 @@
     {
       "id": "P12",
       "title": "12 stilių leidimo paruošimas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S12",
         "P08",
@@ -1221,18 +1221,18 @@
         "P10",
         "P11"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da",
+      "claimed_at": "2026-10-21T05:45:05.251Z",
+      "updated_at": "2026-10-21T05:45:05.252Z",
+      "branch": "task/p12-release",
+      "base_commit": "a1c5aa3a673a30db52af590969490d02f2b08d38",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Prepare and verify the twelve-style 0.1.0 release.",
       "handoff": null
     },
     {
