@@ -207,6 +207,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "public-information",
+        "services",
+        "documentation"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "functional",
+      "id": "institutional-clear",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Institutional Clear",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "White, pale blue-gray and navy semantic surfaces with clear blue links.",
+        "composition": "Search-led directory in A; narrow contents rail beside a readable service document in B.",
+        "content_rhythm": "Task rows, guide disclosures, preparation lists and numbered procedural sections.",
+        "imagery": "No image requirement; original text mark and structural CSS only.",
+        "interaction": "Actual local service search, empty state and reset; native help disclosures.",
+        "motion": "Predictable static information; short link transitions removed for reduced motion.",
+        "navigation": "Stable institutional header, service links, breadcrumb and local document contents.",
+        "typography": "Clear system sans-serif, sentence-case task headings and readable help text."
+      },
+      "status": "ready",
+      "style_path": "styles/institutional-clear/style.md",
+      "summary": "Clear task labels, searchable services and readable information pages with predictable navigation.",
+      "tags": [
+        "task-led",
+        "precise",
+        "humanist"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/institutional-clear/preview-mobile.png",
+          "preview_path": "styles/institutional-clear/preview.png",
+          "reference_path": "styles/institutional-clear/reference/index.html",
+          "title": "Task and service directory"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/institutional-clear/preview-alt-mobile.png",
+          "preview_path": "styles/institutional-clear/preview-alt.png",
+          "reference_path": "styles/institutional-clear/reference/alternate.html",
+          "title": "Service information with contents"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "events",
         "campaign",
         "culture"
