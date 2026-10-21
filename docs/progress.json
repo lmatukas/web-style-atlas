@@ -1498,22 +1498,22 @@
     {
       "id": "S17",
       "title": "Y2K Chrome",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S16"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T07:22:30.331Z",
+      "updated_at": "2026-10-21T07:22:30.332Z",
+      "branch": "task/s17-atlas",
+      "base_commit": "c4cf344f0a18b91887e8d7a3c4a50be9c05523c0",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify next style within ten-task authorization.",
       "handoff": null
     },
     {
