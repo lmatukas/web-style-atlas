@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Horizontal three-membrane score",
+      "page_type": "culture",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible in-page links, ordinary sibling reference and local native controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Begin deliberately",
+          "pattern": "Invitation followed by always-visible transport and volume",
+          "content_requirements": [
+            "No automatic audio",
+            "Real pause/mute"
+          ]
+        },
+        {
+          "purpose": "Combine three layers",
+          "pattern": "Broad horizontal score lanes with independent ranges",
+          "content_requirements": [
+            "Tempo and texture",
+            "Eight-bar finite synthesis"
+          ]
+        },
+        {
+          "purpose": "Retain a recipe",
+          "pattern": "Mood starting points then current readable recipe",
+          "content_requirements": [
+            "Local save/restore/remove",
+            "Truthful fallback"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: single reading column, full labels and wrapping actions. 768: compact paired composition where space permits. 1440: broad deliberate desktop relationships.",
+      "distinguishing_features": [
+        "Invitation followed by always-visible transport and volume",
+        "Broad horizontal score lanes with independent ranges"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Mood recipe index and vertical-channel instrument",
+      "page_type": "culture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible in-page links, ordinary sibling reference and local native controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose a starting recipe",
+          "pattern": "Left descriptive mood index",
+          "content_requirements": [
+            "Three real presets"
+          ]
+        },
+        {
+          "purpose": "Shape a composition",
+          "pattern": "Three vertical channels beside the index",
+          "content_requirements": [
+            "Independent gains",
+            "Visible output and transport"
+          ]
+        },
+        {
+          "purpose": "Retain and understand",
+          "pattern": "Current recipe and practical explanation",
+          "content_requirements": [
+            "Explicit restore without sound",
+            "Local scope"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: single reading column, full labels and wrapping actions. 768: compact paired composition where space permits. 1440: broad deliberate desktop relationships.",
+      "distinguishing_features": [
+        "Left descriptive mood index",
+        "Three vertical channels beside the index"
+      ]
+    }
+  ]
+}

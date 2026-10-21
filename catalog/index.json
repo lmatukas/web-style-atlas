@@ -928,6 +928,59 @@
         "data"
       ],
       "best_for": [
+        "culture",
+        "personal",
+        "campaign"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "expressive",
+      "id": "membrane-score",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Membrane Score",
+      "prompt_path": "prompts/membrane-score/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep burgundy, warm white and electric cyan on opaque surfaces.",
+        "composition": "A broad horizontal three-lane score; B mood index beside vertical channels.",
+        "content_rhythm": "Score-to-presets-to-recipe versus recipe-index-to-channel-workbench.",
+        "imagery": "Original SVG light membrane traces tied to actual parameters.",
+        "interaction": "Three gains, user-start audio, tempo, texture, mute, variants and validated local recipe.",
+        "motion": "Finite intro, 600ms user-start pulse, one-bar tempo change, 400ms texture and 700ms reorder.",
+        "navigation": "Instrument/mood/recipe anchors and actual A/B siblings.",
+        "typography": "Large light Arial invitations and clear named layer outputs."
+      },
+      "status": "ready",
+      "style_path": "styles/membrane-score/style.md",
+      "summary": "Three luminous sound layers connect actual synthesis, tempo and intensity controls to a readable locally saved recipe and silent visual instrument.",
+      "tags": [
+        "typographic-motion",
+        "task-led",
+        "high-contrast"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/membrane-score/preview-mobile.png",
+          "preview_path": "styles/membrane-score/preview.png",
+          "reference_path": "styles/membrane-score/reference/index.html",
+          "title": "Horizontal three-membrane score"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/membrane-score/preview-alt-mobile.png",
+          "preview_path": "styles/membrane-score/preview-alt.png",
+          "reference_path": "styles/membrane-score/reference/alternate.html",
+          "title": "Mood recipe index and vertical-channel instrument"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
         "products",
         "architecture",
         "portfolio"
