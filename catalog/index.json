@@ -257,6 +257,55 @@
     {
       "avoid_for": [],
       "best_for": [
+        "culture",
+        "portfolio"
+      ],
+      "complexity": "low",
+      "density": "sparse",
+      "family": "restrained",
+      "id": "gallery-white-cube",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Gallery White Cube",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Neutral white architecture supports bounded colored artwork, without tinted product stages.",
+        "composition": "Three artworks hang at different scales on a broad white wall; B isolates one tall painting beside an index.",
+        "content_rhythm": "Look at work, read the label, pause, then encounter a short curatorial note.",
+        "imagery": "Three original vector paintings with distinct aspect ratios and material palettes.",
+        "interaction": "Actual work links and native reproduction-note disclosures; no fictitious purchase controls.",
+        "motion": "Still artwork with reduced-motion-safe navigation; no reveals or automatic slides.",
+        "navigation": "Visible exhibition and work links; B adds a numbered collection index.",
+        "typography": "Plain sans-serif names and readable small identification labels; no promotional display typography."
+      },
+      "status": "ready",
+      "style_path": "styles/gallery-white-cube/style.md",
+      "summary": "Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels.",
+      "tags": [
+        "minimal",
+        "image-led",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/gallery-white-cube/preview-mobile.png",
+          "preview_path": "styles/gallery-white-cube/preview.png",
+          "reference_path": "styles/gallery-white-cube/reference/index.html",
+          "title": "Exhibition works wall"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/gallery-white-cube/preview-alt-mobile.png",
+          "preview_path": "styles/gallery-white-cube/preview-alt.png",
+          "reference_path": "styles/gallery-white-cube/reference/alternate.html",
+          "title": "Single work with exhibition index"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "public-information",
         "services",
         "documentation"

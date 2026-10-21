@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "interval",
+      "path": "assets/interval.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S13)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original fictional abstract painting",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "fold",
+      "path": "assets/fold.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S13)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original fictional abstract painting",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "current",
+      "path": "assets/current.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Codex, S13)",
+      "license": "MIT",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original fictional abstract painting",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}

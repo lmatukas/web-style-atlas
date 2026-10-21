@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 12. Drafts and templates are excluded.
+Ready styles: 13. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -11,6 +11,7 @@ Ready styles: 12. Drafts and templates are excluded.
 | [Data Observatory](../styles/data-observatory/style.md) | technical | Explicit units, synchronized metrics and accurate quantitative marks with a searchable comparison table. | [A: Metrics and fixed-scale chart overview](../styles/data-observatory/reference/index.html) · [B: Filtered comparison table](../styles/data-observatory/reference/alternate.html) |
 | [Editorial Journal](../styles/editorial-journal/style.md) | editorial | A literary issue cover and long-form essay, with serif reading rhythm, margin notes and quiet paper surfaces. | [A: Cover story and departments](../styles/editorial-journal/reference/index.html) · [B: Essay with margin notes](../styles/editorial-journal/reference/alternate.html) |
 | [Field Notes](../styles/field-notes/style.md) | tactile | Documentary labels, marginal annotations and attached photo captions for a readable travel notebook. | [A: Travel fragment with margin notes](../styles/field-notes/reference/index.html) · [B: Route diary and photographs](../styles/field-notes/reference/alternate.html) |
+| [Gallery White Cube](../styles/gallery-white-cube/style.md) | restrained | Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels. | [A: Exhibition works wall](../styles/gallery-white-cube/reference/index.html) · [B: Single work with exhibition index](../styles/gallery-white-cube/reference/alternate.html) |
 | [Institutional Clear](../styles/institutional-clear/style.md) | functional | Clear task labels, searchable services and readable information pages with predictable navigation. | [A: Task and service directory](../styles/institutional-clear/reference/index.html) · [B: Service information with contents](../styles/institutional-clear/reference/alternate.html) |
 | [Neo Brutalist](../styles/neo-brutalist/style.md) | expressive | Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme. | [A: Poster-led event offer](../styles/neo-brutalist/reference/index.html) · [B: Framed two-day programme](../styles/neo-brutalist/reference/alternate.html) |
 | [Organic Craft](../styles/organic-craft/style.md) | tactile | Warm material surfaces, irregular object forms and asymmetric compositions for independent makers. | [A: Materials and making story](../styles/organic-craft/reference/index.html) · [B: Asymmetric object collection](../styles/organic-craft/reference/alternate.html) |
