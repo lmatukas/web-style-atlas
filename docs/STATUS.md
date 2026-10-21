@@ -4,7 +4,7 @@
 
 **Baigta: 57/75.**
 
-**Kita užduotis: [P19](tasks/P19.md).**
+**Pirmiausia patikrinti P19: Vykdoma; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -67,7 +67,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S39](tasks/S39.md) | Membrane Score | Baigta | Codex/8f365240145f/S36-S39 | task/s39-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/78) | 2026-10-21T17:58:37Z | S36–S39 batch complete. Next eligible task is P17 on a new request; public release remains P18. |
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Baigta | Codex/8f365240145f/final-audit-release | task/p17-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/79) | 2026-10-21T18:53:58.915Z | Claim P18 and prepare the authorized 1.1.0 release. |
 | [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Baigta | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:31:51.953043Z | All 57 planned tasks accepted. Start new work only from the next owner-approved scope. |
-| [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P19.md. |
+| [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Vykdoma | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19 | task/p19-distinctiveness | — | 2026-10-21T20:51:25Z | Implementuoti scripts/distinctiveness.mjs ir testus; PR [P19] |
 | [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P20.md. |
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P21.md. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P24.md. |
