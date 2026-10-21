@@ -54,6 +54,12 @@ apskaitoje. Demonstraciniai pavadinimai nėra tikrų įmonių, klientų ar paža
 | Kompiuterio ir telefono PNG | Keturi įprasti `preview*.png` kiekvienam stiliui | Tik po realaus render ir vaizdų peržiūros |
 | Paruošti pasirinkimai | Generated `catalog/index.json` | Tik priimti ready stiliai; planned briefų nepridėti |
 
+S užduotyje pilnas promptas skaitomas kaip kuriamo pavyzdžio kūrybinis briefas.
+Jo nurodymai „kurk vartotojo projekte“ ir „atlaso nekeisk“ skirti galutiniam
+promptą kopijuojančiam vartotojui. Atlaso vykdytojas pavyzdžius kuria savo S kortelės
+`Allowed changes` ribose, t. y. `styles/<id>/reference/`; tai nėra leidimas keisti
+nesusijusį atlaso kodą. Promptų vartotojas savo tikslinę svetainę kuria atskirai.
+
 P15 turi aiškiai apibrėžti, kaip ready stilius nurodo savo pilną promptą ir kaip
 build jį pateikia dist. Esamų 24 stilių nereikia pervadinti ar perkurti; jų dabartinė
 pasirinkimo instrukcija lieka veikianti. Visos 15 naujų krypčių gauna pilną promptą.
