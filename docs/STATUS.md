@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 49/57.**
+**Baigta: 50/57.**
 
-**Pirmiausia patikrinti S34: Laukia peržiūros; vykdytojas Codex/fa3a4cc05875/batch-five.**
+**Kita užduotis: [S35](tasks/S35.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -59,7 +59,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S31](tasks/S31.md) | Discovery Cabinet | Baigta | Codex/fa3a4cc05875/batch-five | task/s31-discovery-cabinet | [PR](https://github.com/lmatukas/web-style-atlas/pull/70) | 2026-10-21T16:09:11.382978Z | Continue authorized five-task batch; select next eligible task. |
 | [S32](tasks/S32.md) | Woven Field | Baigta | Codex/fa3a4cc05875/batch-five | task/s32-woven-field | [PR](https://github.com/lmatukas/web-style-atlas/pull/71) | 2026-10-21T16:19:59.173466Z | Continue authorized five-task batch; select next eligible task. |
 | [S33](tasks/S33.md) | Choreographic Stage | Baigta | Codex/fa3a4cc05875/batch-five | task/s33-choreographic-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/72) | 2026-10-21T16:28:35.332855Z | Continue authorized five-task batch; select next eligible task. |
-| [S34](tasks/S34.md) | Repair Atlas | Laukia peržiūros | Codex/fa3a4cc05875/batch-five | task/s34-repair-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/73) | 2026-10-21T16:38:28.636294Z | Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch. |
+| [S34](tasks/S34.md) | Repair Atlas | Baigta | Codex/fa3a4cc05875/batch-five | task/s34-repair-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/73) | 2026-10-21T16:41:38.993300Z | Continue authorized five-task batch; select next eligible task. |
 | [S35](tasks/S35.md) | Balcony Builder | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S36](tasks/S36.md) | Rhythm Planner | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S37](tasks/S37.md) | Spine Editions | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |

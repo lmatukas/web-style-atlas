@@ -2551,17 +2551,17 @@
     {
       "id": "S34",
       "title": "Repair Atlas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S33"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:28:56.852955Z",
-      "updated_at": "2026-10-21T16:38:28.636294Z",
+      "updated_at": "2026-10-21T16:41:38.993300Z",
       "branch": "task/s34-repair-atlas",
       "base_commit": "bab10c70daede8cd6c641838c014dc23e7d3d5e9",
       "evidence_commit": "b4ae4400dc8a9b62df95209afae29d7c93cb64a0",
-      "merge_commit": null,
+      "merge_commit": "e27743365111be5cc23d41ef4e542bb62430a97e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/73",
       "checks": [
         {
@@ -2583,14 +2583,19 @@
           "name": "Visual and actual full prompt integration",
           "status": "pass",
           "details": "Four actual PNGs and both ready neighbors inspected, 11/12; exact B full prompt copy and real alternate reference under /atlas/."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39636546725 succeeded on b4ae4400dc8a9b62df95209afae29d7c93cb64a0. Actual merge e27743365111be5cc23d41ef4e542bb62430a97e; tested parent and main tracking preserved."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S34.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
-      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
+      "next_action": "Continue authorized five-task batch; select next eligible task.",
+      "handoff": "Actual PR merge and exact tested head verified; CI and acceptance evidence passed. Continue authorized batch."
     },
     {
       "id": "S35",
