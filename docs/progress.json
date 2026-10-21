@@ -1988,7 +1988,7 @@
       ],
       "worker": "Codex/60722bd95b94/P14-resume",
       "claimed_at": "2026-10-21T10:00:37.372Z",
-      "updated_at": "2026-10-21T10:27:15.705Z",
+      "updated_at": "2026-10-21T10:48:15.594Z",
       "branch": "task/p14-atlas",
       "base_commit": "877fe8fa4ab887e360e15b9c5d6631fa68390ceb",
       "evidence_commit": "92bd299fcce7b3dfd1a964b514140e7f3917533d",
@@ -2014,6 +2014,11 @@
           "name": "GitHub exact-head CI",
           "status": "pass",
           "details": "Atlas validation run 39583901851 completed successfully on exact implementation head 92bd299fcce7b3dfd1a964b514140e7f3917533d. Source/generated/queue gates and full browser/accessibility/renderer gates passed. Merged PR #39 and actual merge SHA verified through GitHub."
+        },
+        {
+          "name": "Public 1.0.0 Pages publication and live interaction check",
+          "status": "pass",
+          "details": "Manual release run 39585598844 on source 468676949d05be7d7f870ed52bea945d553adf65: verify and deploy succeeded. Public browser: 24 cards, search/reset, three-way comparison, loaded B/mobile previews, exact copied Humanist B prompt and working My files / Guided call demo outline."
         }
       ],
       "evidence_paths": [
@@ -2021,8 +2026,8 @@
         "docs/releases/1.0.0.md"
       ],
       "blocker": null,
-      "next_action": "All 38 planned source implementation tasks are accepted. Owner: start a NEW Actions release workflow on main with publish enabled, then verify 24 live cards and a reference. Do not rerun old failed run 39582682091, which uses pre-P14 code.",
-      "handoff": "P14 implementation PR #39 merged at 92ee726a402d0b526d9d6a062c2d705debdd2e18 after successful exact-head CI. Source version 1.0.0: 24 styles, 48 references, 96 current previews. Public browser still shows the earlier 12-style gallery; live 1.0.0 publication and its verification remain explicitly pending one new manual workflow because the app cannot dispatch and the available browser is signed out. No new deployment/tag/Release claimed."
+      "next_action": "All 38 planned tasks and the 1.0.0 public publication are complete. Await the owner's next requested scope; the atlas is ready to use in a separate website project.",
+      "handoff": "Source implementation PR #39 and acceptance PR #41 are merged. Owner-published release run 39585598844 deployed source 468676949d05be7d7f870ed52bea945d553adf65. Actual public gallery and a working B reference verified: 24 styles / 48 references / 96 current previews. No publication blocker or further manual action remains. Native-host and compact-label limits remain documented; no separate tag/GitHub Release created."
     }
   ]
 }
