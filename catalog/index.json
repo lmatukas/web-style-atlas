@@ -659,6 +659,55 @@
     {
       "avoid_for": [],
       "best_for": [
+        "personal",
+        "publishing"
+      ],
+      "complexity": "low",
+      "density": "dense",
+      "family": "nostalgic",
+      "id": "retro-web",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Retro Web",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Blue-gray outer field, warm page panels, dark blue links and shallow beveled outlines.",
+        "composition": "Centered compact personal portal with narrow directory and practical boxed sections; B separates archive introduction, entry column and subject shelf.",
+        "content_rhythm": "Welcome, current interests and dated additions versus filed expandable entries and subject notes.",
+        "imagery": "Original static CSS night sky and moon; content works without bitmap assets.",
+        "interaction": "Real archive category/search/reset states and native entry disclosures.",
+        "motion": "Static decoration, no marquee, blinking badge or fake animated counter.",
+        "navigation": "Always-visible site directory, underlined links and literal archive categories.",
+        "typography": "Bookish personal-site heading and readable system sans-serif copy with small dated labels."
+      },
+      "status": "ready",
+      "style_path": "styles/retro-web/style.md",
+      "summary": "A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels.",
+      "tags": [
+        "archival",
+        "grid",
+        "playful"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/retro-web/preview-mobile.png",
+          "preview_path": "styles/retro-web/preview.png",
+          "reference_path": "styles/retro-web/reference/index.html",
+          "title": "Personal web portal"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/retro-web/preview-alt-mobile.png",
+          "preview_path": "styles/retro-web/preview-alt.png",
+          "reference_path": "styles/retro-web/reference/alternate.html",
+          "title": "Subject-filed entry archive"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "services",
         "portfolio"
       ],

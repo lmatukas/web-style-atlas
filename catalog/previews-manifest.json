@@ -536,6 +536,46 @@
       "width": 390
     },
     {
+      "height": 1608,
+      "output_sha256": "d98a7591de425efcb5c7edd1bb8480b119cb378304f68af7d51ec2d446692da5",
+      "path": "styles/retro-web/preview.png",
+      "source_sha256": "e6283ba1c1529673d7627f085f2dd3eba65179f9ed25dd1222b8dac9c0ea5286",
+      "style_id": "retro-web",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2488,
+      "output_sha256": "b6fa5fe928184df997297989fd4ed5f9a6efb46677750433b89d8718af9f33d5",
+      "path": "styles/retro-web/preview-mobile.png",
+      "source_sha256": "e6283ba1c1529673d7627f085f2dd3eba65179f9ed25dd1222b8dac9c0ea5286",
+      "style_id": "retro-web",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1548,
+      "output_sha256": "7ca4e026301690c42ec349715849e7d634b8966111f682160f2fbbda95124c73",
+      "path": "styles/retro-web/preview-alt.png",
+      "source_sha256": "e6283ba1c1529673d7627f085f2dd3eba65179f9ed25dd1222b8dac9c0ea5286",
+      "style_id": "retro-web",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2552,
+      "output_sha256": "283fc34ea7cb2dc65baea846626333782ef33d130272cd5f0fa1708391b1b511",
+      "path": "styles/retro-web/preview-alt-mobile.png",
+      "source_sha256": "e6283ba1c1529673d7627f085f2dd3eba65179f9ed25dd1222b8dac9c0ea5286",
+      "style_id": "retro-web",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2615,
       "output_sha256": "d5b65d784a3d2ffd6d52470ff540a3a7ece50005f399265d15d094fc314a9eea",
       "path": "styles/swiss-grid/preview.png",
