@@ -1213,7 +1213,7 @@
     {
       "id": "P12",
       "title": "12 stilių leidimo paruošimas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S12",
         "P08",
@@ -1223,11 +1223,11 @@
       ],
       "worker": "Codex/2875ce3dc6da",
       "claimed_at": "2026-10-21T05:45:05.251Z",
-      "updated_at": "2026-10-21T05:51:02.032Z",
+      "updated_at": "2026-10-21T05:54:41.527Z",
       "branch": "task/p12-release",
       "base_commit": "a1c5aa3a673a30db52af590969490d02f2b08d38",
       "evidence_commit": "3f96a49ec31dee8232894e5cb961ab8aeabe324f",
-      "merge_commit": null,
+      "merge_commit": "199d17a719189b9888d1c49722e69757e95a2778",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/24",
       "checks": [
         {
@@ -1259,6 +1259,11 @@
           "name": "git diff --check",
           "status": "pass",
           "details": "Clean whitespace and unchanged generated sources after verification."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39551856700 succeeded on 3f96a49ec31dee8232894e5cb961ab8aeabe324f; actual merged PR state verified."
         }
       ],
       "evidence_paths": [
@@ -1266,8 +1271,8 @@
         "docs/releases/0.1.0.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head GitHub validation; merge under existing owner authorization when green.",
-      "handoff": "Prepared 0.1.0 release and manual opt-in Pages workflow. No deployment/tag/Release created. PR #24 contains implementation/evidence only; tracking remains on main."
+      "next_action": "P12 accepted; S13 Gallery White Cube is the next eligible task.",
+      "handoff": "PR #24 exact tested head passed all GitHub validation gates and was merged; actual merged state and implementation tree verified. 0.1.0 prepared, Pages publication remains the documented manual action. One-task request complete."
     },
     {
       "id": "S13",
