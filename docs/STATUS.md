@@ -4,7 +4,7 @@
 
 **Baigta: 37/38.**
 
-**Kita užduotis: [P14](tasks/P14.md).**
+**Pirmiausia patikrinti P14: Vykdoma; vykdytojas Codex/2875ce3dc6da/final-four.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -47,6 +47,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S23](tasks/S23.md) | Pop Commerce | Baigta | Codex/2875ce3dc6da/final-four | task/s23-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/35) | 2026-10-21T09:44:11.433Z | Select next eligible task within owner-authorized sequential batch. |
 | [S24](tasks/S24.md) | Humanist Service | Baigta | Codex/2875ce3dc6da/final-four | task/s24-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/36) | 2026-10-21T09:51:43.976Z | Select next eligible task within owner-authorized sequential batch. |
 | [P13](tasks/P13.md) | 24 stilių įvairovės ir naudojimo auditas | Baigta | Codex/2875ce3dc6da/final-four | task/p13-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/37) | 2026-10-21T10:00:11.625Z | Select next eligible task within owner-authorized sequential batch. |
-| [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Vykdoma | Codex/2875ce3dc6da/final-four | task/p14-atlas | — | 2026-10-21T10:00:37.373Z | Implement and verify the next task within final-queue authorization. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

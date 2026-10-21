@@ -1982,22 +1982,22 @@
     {
       "id": "P14",
       "title": "Galutinis leidimas ir perdavimas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P13"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/final-four",
+      "claimed_at": "2026-10-21T10:00:37.372Z",
+      "updated_at": "2026-10-21T10:00:37.373Z",
+      "branch": "task/p14-atlas",
+      "base_commit": "877fe8fa4ab887e360e15b9c5d6631fa68390ceb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify the next task within final-queue authorization.",
       "handoff": null
     }
   ]
