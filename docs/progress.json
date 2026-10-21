@@ -2218,23 +2218,41 @@
     {
       "id": "S27",
       "title": "Resonant Ribbon",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S26"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T13:49:09.936Z",
-      "updated_at": "2026-10-21T13:49:09.936Z",
+      "updated_at": "2026-10-21T14:13:57.885Z",
       "branch": "task/s27-expansion",
       "base_commit": "5752080ff49477eae606e3ac81152ec7a2f3cfc0",
-      "evidence_commit": null,
+      "evidence_commit": "db53d21d131b6ba3b4f11766d6b31b74edad68d0",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/61",
+      "checks": [
+        {
+          "name": "Source/build and canonical provenance",
+          "status": "pass",
+          "details": "27 ready; all27 genuinely rendered with capture clock v2; existing104 PNGs byte-identical. 81 unit,4 runtime fixture and3 preview fixture tests passed."
+        },
+        {
+          "name": "Runtime and business/browser gates",
+          "status": "pass",
+          "details": "10 actual A/B SVG/audio/business cases,6 browser/axe cases; 360/390/768/1440, exact enquiry copies, finite stages/wipe/flex, opt-in short sound and lifecycle."
+        },
+        {
+          "name": "Gallery/full brief and visual review",
+          "status": "pass",
+          "details": "5 scoped integrations and actual exact B full prompt copy; all four final PNGs viewed against two ready neighbors;11/12."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S27.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S27 within owner-authorized sequential batch of five.",
-      "handoff": null
+      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
+      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
     },
     {
       "id": "S28",
