@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 38/38.**
+**Baigta: 38/57.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P15](tasks/P15.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -48,5 +48,24 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S24](tasks/S24.md) | Humanist Service | Baigta | Codex/2875ce3dc6da/final-four | task/s24-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/36) | 2026-10-21T09:51:43.976Z | Select next eligible task within owner-authorized sequential batch. |
 | [P13](tasks/P13.md) | 24 stilių įvairovės ir naudojimo auditas | Baigta | Codex/2875ce3dc6da/final-four | task/p13-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/37) | 2026-10-21T10:00:11.625Z | Select next eligible task within owner-authorized sequential batch. |
 | [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Baigta | Codex/60722bd95b94/P14-resume | task/p14-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/39) | 2026-10-21T10:48:15.594Z | All 38 planned tasks and the 1.0.0 public publication are complete. Await the owner's next requested scope; the atlas is ready to use in a separate website project. |
+| [P15](tasks/P15.md) | Pilnų kūrimo promptų katalogo ir galerijos integravimas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [P16](tasks/P16.md) | Judesio, 3D, garso ir pakaitalų patikrų pagrindas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S25](tasks/S25.md) | Acoustic Sculpture | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S26](tasks/S26.md) | Seasonal Terrain | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S27](tasks/S27.md) | Resonant Ribbon | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S28](tasks/S28.md) | Modular Light | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S29](tasks/S29.md) | Twilight Expedition | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S30](tasks/S30.md) | Light Environments | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S31](tasks/S31.md) | Discovery Cabinet | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S32](tasks/S32.md) | Woven Field | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S33](tasks/S33.md) | Choreographic Stage | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S34](tasks/S34.md) | Repair Atlas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S35](tasks/S35.md) | Balcony Builder | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S36](tasks/S36.md) | Rhythm Planner | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S37](tasks/S37.md) | Spine Editions | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S38](tasks/S38.md) | Trail Composer | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S39](tasks/S39.md) | Membrane Score | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

@@ -15,6 +15,13 @@ Visas 24 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
 ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
 
+## Suplanuota plėtra
+
+Paruošta [15 pilnų kūrimo promptų](prompts/README.md) ir
+[19 naujų užduočių planas](docs/prompt-expansion-plan.md), skirtas katalogui
+papildyti iki 39 krypčių. Jų vaizdiniai pavyzdžiai dar bus kuriami pagal eilę.
+Dabartinė patikrinta vieša galerija turi 24 paruoštus stilius.
+
 ## Paprasčiausias praktinis bandymas
 
 Atidaryk atskirą naujos svetainės projektą savo programavimo agente ir įklijuok

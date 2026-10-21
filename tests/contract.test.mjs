@@ -112,11 +112,12 @@ test('preview manifest requires source and output hash plus a render environment
   delete manifest.previews[0].source_sha256; fail('previews-manifest', manifest);
 });
 
-test('all 38 cards and canonical dependencies survive the scaffold extension', () => {
+test('original 38 tasks survive and approved phases keep matching cards and plan', () => {
   const queue = json('docs/progress.json');
   pass('progress', queue); validateQueue(queue);
-  const ids = [...Array.from({ length: 14 }, (_, i) => `P${String(i + 1).padStart(2, '0')}`), ...Array.from({ length: 24 }, (_, i) => `S${String(i + 1).padStart(2, '0')}`)].sort();
-  assert.deepEqual(queue.tasks.map(t => t.id).sort(), ids);
+  const originalIds = [...Array.from({ length: 14 }, (_, i) => `P${String(i + 1).padStart(2, '0')}`), ...Array.from({ length: 24 }, (_, i) => `S${String(i + 1).padStart(2, '0')}`)].sort();
+  const ids = queue.tasks.map(t => t.id).sort();
+  for (const id of originalIds) assert.ok(ids.includes(id), `missing original task: ${id}`);
   assert.deepEqual(readdirSync(new URL('../docs/tasks', import.meta.url)).map(p => p.replace(/\.md$/, '')).sort(), ids);
   const planIds = [...read('docs/implementation-plan.md').matchAll(/^\| S\d{2} `([^`]+)`/gm)].map(m => m[1]);
   const cardIds = [];

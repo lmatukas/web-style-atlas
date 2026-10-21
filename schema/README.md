@@ -15,7 +15,7 @@ checks; schema validation alone does not prove rendering succeeded.
 | vocabularies | core/vocabularies.json | Central families, tags and shared use cases |
 | index | catalog/index.json | Ready metadata, style path and A/B reference/preview paths |
 | previews-manifest | catalog/previews-manifest.json | Environment, source hashes and PNG hashes |
-| progress | docs/progress.json | All 38 tasks, ownership and evidence fields |
+| progress | docs/progress.json | Original tasks and later approved phases, ownership and evidence fields |
 
 All documents have schema_version 1. Unknown object fields are rejected except
 named color roles and bounded named scales. Empty assets and an empty index are

@@ -2028,6 +2028,405 @@
       "blocker": null,
       "next_action": "All 38 planned tasks and the 1.0.0 public publication are complete. Await the owner's next requested scope; the atlas is ready to use in a separate website project.",
       "handoff": "Source implementation PR #39 and acceptance PR #41 are merged. Owner-published release run 39585598844 deployed source 468676949d05be7d7f870ed52bea945d553adf65. Actual public gallery and a working B reference verified: 24 styles / 48 references / 96 current previews. No publication blocker or further manual action remains. Native-host and compact-label limits remain documented; no separate tag/GitHub Release created."
+    },
+    {
+      "id": "P15",
+      "title": "Pilnų kūrimo promptų katalogo ir galerijos integravimas",
+      "status": "todo",
+      "depends_on": [
+        "P14"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "P16",
+      "title": "Judesio, 3D, garso ir pakaitalų patikrų pagrindas",
+      "status": "todo",
+      "depends_on": [
+        "P15"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S25",
+      "title": "Acoustic Sculpture",
+      "status": "todo",
+      "depends_on": [
+        "P16"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S26",
+      "title": "Seasonal Terrain",
+      "status": "todo",
+      "depends_on": [
+        "S25"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S27",
+      "title": "Resonant Ribbon",
+      "status": "todo",
+      "depends_on": [
+        "S26"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S28",
+      "title": "Modular Light",
+      "status": "todo",
+      "depends_on": [
+        "S27"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S29",
+      "title": "Twilight Expedition",
+      "status": "todo",
+      "depends_on": [
+        "S28"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S30",
+      "title": "Light Environments",
+      "status": "todo",
+      "depends_on": [
+        "S29"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S31",
+      "title": "Discovery Cabinet",
+      "status": "todo",
+      "depends_on": [
+        "S30"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S32",
+      "title": "Woven Field",
+      "status": "todo",
+      "depends_on": [
+        "S31"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S33",
+      "title": "Choreographic Stage",
+      "status": "todo",
+      "depends_on": [
+        "S32"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S34",
+      "title": "Repair Atlas",
+      "status": "todo",
+      "depends_on": [
+        "S33"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S35",
+      "title": "Balcony Builder",
+      "status": "todo",
+      "depends_on": [
+        "S34"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S36",
+      "title": "Rhythm Planner",
+      "status": "todo",
+      "depends_on": [
+        "S35"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S37",
+      "title": "Spine Editions",
+      "status": "todo",
+      "depends_on": [
+        "S36"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S38",
+      "title": "Trail Composer",
+      "status": "todo",
+      "depends_on": [
+        "S37"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "S39",
+      "title": "Membrane Score",
+      "status": "todo",
+      "depends_on": [
+        "S38"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "P17",
+      "title": "39 krypčių ir pilnų promptų naudojimo auditas",
+      "status": "todo",
+      "depends_on": [
+        "S39"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
+    },
+    {
+      "id": "P18",
+      "title": "39 krypčių leidimo paruošimas ir publikavimas",
+      "status": "todo",
+      "depends_on": [
+        "P17"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-21T11:13:52.123Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "checks": [],
+      "evidence_paths": [],
+      "blocker": null,
+      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
+      "handoff": null
     }
   ]
 }
