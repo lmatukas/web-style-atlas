@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 32/38.**
+**Baigta: 33/38.**
 
-**Pirmiausia patikrinti S21: Laukia peržiūros; vykdytojas Codex/2875ce3dc6da/batch-two.**
+**Kita užduotis: [S22](tasks/S22.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -42,7 +42,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S18](tasks/S18.md) | Art Deco | Baigta | Codex/2875ce3dc6da/batch-two | task/s18-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/30) | 2026-10-21T07:33:56.697Z | Select next eligible task within owner-authorized sequential batch. |
 | [S19](tasks/S19.md) | Botanical Engraving | Baigta | Codex/2875ce3dc6da/batch-two | task/s19-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/31) | 2026-10-21T07:41:16.076Z | Select next eligible task within owner-authorized sequential batch. |
 | [S20](tasks/S20.md) | Kinetic Type | Baigta | Codex/2875ce3dc6da/batch-two | task/s20-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/32) | 2026-10-21T07:48:55.682Z | Select next eligible task within owner-authorized sequential batch. |
-| [S21](tasks/S21.md) | Soft Spatial | Laukia peržiūros | Codex/2875ce3dc6da/batch-two | task/s21-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/33) | 2026-10-21T07:56:27.525Z | Wait for exact-head CI, then merge and continue authorized sequential batch. |
+| [S21](tasks/S21.md) | Soft Spatial | Baigta | Codex/2875ce3dc6da/batch-two | task/s21-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/33) | 2026-10-21T07:58:00.254Z | Select next eligible task within owner-authorized sequential batch. |
 | [S22](tasks/S22.md) | Architectural Monograph | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S23](tasks/S23.md) | Pop Commerce | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S24](tasks/S24.md) | Humanist Service | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
