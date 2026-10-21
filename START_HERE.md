@@ -20,13 +20,16 @@ The user only needs to say:
 The task selector reads files, not GitHub. Agents must perform the remote checks
 and claim protocol themselves; the script does not create a lock or merge a PR.
 
-## Planned prompt-driven expansion
+## Accepted source expansion and pending publication
 
-The accepted 1.0.0 catalogue has 24 ready styles. The next approved phase has
-15 public creation briefs, 19 queued tasks and a target of 39 ready styles.
+The prepared 1.1.0 source catalogue has 39 ready styles, 78 A/B references and
+156 current previews, including fifteen linked full creation prompts. P17
+accepted the expanded audit; P18 tracks the release separately. The last verified
+public gallery remains 1.0.0 with 24 styles until a successful new deployment and
+live checks are recorded in [release evidence](docs/releases/1.1.0.md).
 Read [the expansion plan](docs/prompt-expansion-plan.md) only when its selected
-card requires it. Planned briefs in `prompts/index.json` are not ready styles;
-keep using `catalog/index.json` for actual available directions.
+card requires it. Use `catalog/index.json` for actual available source directions;
+an entry in `prompts/index.json` alone does not establish ready status.
 
 ## Inspect progress
 

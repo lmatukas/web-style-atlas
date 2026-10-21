@@ -1,26 +1,29 @@
 # Web Style Atlas — kaip išbandyti
 
-**Paskelbta 1.0.0 versija:** 24 dizaino kryptys, 48 A/B puslapių
-pavyzdžiai ir 96 aktualios kompiuterio bei telefono peržiūros.
-[Viso katalogo auditas](docs/evidence/catalog-review.md) ir
+**Paruošta 1.1.0 versija:** 39 dizaino kryptys, 78 A/B puslapių
+pavyzdžiai ir 156 aktualios kompiuterio bei telefono peržiūros.
+[Išplėsto katalogo auditas](docs/evidence/P17.md) ir
 [darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
 
 **[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/).**
-Vieša galerija su **visais 24 stiliais** paskelbta ir praktiškai patikrinta
+Paskutinė patikrinta vieša **1.0.0 galerija su 24 stiliais** paskelbta
 2026-10-21. Veikia paieška, filtrų atstatymas, trijų krypčių palyginimas,
 B ir telefono peržiūros, prompto kopijavimas bei tikras pavyzdžio puslapis.
 [Publikavimo įrodymai](docs/evidence/P14.md#public-pages-publication--2026-10-21).
 
-Visas 24 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
+1.1.0 publikavimas dar laukia [rankinio leidimo veiksmo](docs/releases/1.1.0.md).
+Visas 39 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
 ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
 
-## Suplanuota plėtra
+## Pilni kūrimo promptai
 
-Paruošta [15 pilnų kūrimo promptų](prompts/README.md) ir
-[19 naujų užduočių planas](docs/prompt-expansion-plan.md), skirtas katalogui
-papildyti iki 39 krypčių. Jų vaizdiniai pavyzdžiai dar bus kuriami pagal eilę.
-Dabartinė patikrinta vieša galerija turi 24 paruoštus stilius.
+[15 pilnų kūrimo promptų](prompts/README.md) turi veikiančius naujų krypčių
+pavyzdžius. Vietinėje galerijoje pasirink kryptį ir A/B variantą, spausk
+**Copy full creation prompt**, įrašyk savo projekto duomenis ir perduok visą
+tekstą agentui. Išlieka objekto, sąveikų, judesio ir vykdymo reikalavimai;
+neveikiant iškarpinei galima nukopijuoti ranka. Kitos kryptys išlaiko trumpą
+pasirinkimo promptą.
 
 ## Paprasčiausias praktinis bandymas
 
@@ -75,6 +78,11 @@ ir React adaptaciją. Galutiniai rezultatai patikrinti 360, 768 ir 1440 px
 pločiuose. Išsaugoti tikslūs promptai, šaltiniai, aptikti trūkumai ir pataisymai.
 Tai ne visų modelių ar jų vietinių programų suderinamumo garantija; tikslų lygį
 rodo [suderinamumo lentelė](docs/compatibility.md).
+
+[P17 audite](docs/benchmarks/p17/README.md) trys atskiri pervadinti projektai
+praktiškai patikrino WebGL šviestuvą, HTML dienos planuoklį ir vartotojo
+paleidžiamą sintezuotą garsą. Išsaugoti tikslūs pilni promptai ir failų maišos.
+Tai to paties autoriaus pakartojimai, o ne nauji nepriklausomo modelio bandymai.
 
 Automatinės prieinamumo patikros nepakeičia pilnos WCAG peržiūros. Pavyzdžių
 įmonės ir duomenys išgalvoti; realias formas, mokėjimus ir kitas integracijas

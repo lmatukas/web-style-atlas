@@ -1,0 +1,23 @@
+{
+  "candidate_commit": "f57f7a000f80fcc397255cb52a6241264d52b7bf",
+  "source_tree": "38bdfb6dff23f4c35d9b8338738cc9ce36f367c2",
+  "version": "1.1.0",
+  "node": "v24.19.0",
+  "playwright": "1.62.1",
+  "browser": "151.0.7922.34",
+  "styles": 39,
+  "references": 78,
+  "previews": 156,
+  "canonical_prompts": 15,
+  "exact_ab_prompt_copies": 30,
+  "manual_fallback": "pass",
+  "subpath": "/web-style-atlas/",
+  "business_case": "rhythm B: 23:30 +20/40/15 +5-minute breaks = 00:55",
+  "deterministic_dist_sha256": "07fb6a0985ae7fd53606b2c30396f42bc5fb20e3a41d2149379ce0cdb1844f2f",
+  "dist_files": 631,
+  "unexpected_distribution_roots": 0,
+  "prompt_external_urls": 0,
+  "licence_staging": "both byte-exact",
+  "source_diff": "clean",
+  "independent_model_trial": false
+}
