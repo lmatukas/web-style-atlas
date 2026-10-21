@@ -654,6 +654,46 @@
       "variant": "b",
       "viewport": "mobile",
       "width": 390
+    },
+    {
+      "height": 2049,
+      "output_sha256": "91b3d8ade025f6869a4634f0ea1fc7a3dcf9f58a9ec5402befcb49cf889b50a2",
+      "path": "styles/y2k-chrome/preview.png",
+      "source_sha256": "8d9b093b4ffb5b3efc93f02fb3db0baa29817f252464140acdf1a43e57f3ca0d",
+      "style_id": "y2k-chrome",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2463,
+      "output_sha256": "5eb5497c5b997d94d1901f4015f9d32e60d6d5b15b9813d60c1d68cd4fa35d09",
+      "path": "styles/y2k-chrome/preview-mobile.png",
+      "source_sha256": "8d9b093b4ffb5b3efc93f02fb3db0baa29817f252464140acdf1a43e57f3ca0d",
+      "style_id": "y2k-chrome",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1794,
+      "output_sha256": "0ef9d94ef2ea5118e26efbd073dbe1607fadd990214a5c03fab310cb36b445ce",
+      "path": "styles/y2k-chrome/preview-alt.png",
+      "source_sha256": "8d9b093b4ffb5b3efc93f02fb3db0baa29817f252464140acdf1a43e57f3ca0d",
+      "style_id": "y2k-chrome",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2669,
+      "output_sha256": "fc54d9341c2ffb107e9c16c8f29d31b647dc88fe33f68724a522c8536961d174",
+      "path": "styles/y2k-chrome/preview-alt-mobile.png",
+      "source_sha256": "8d9b093b4ffb5b3efc93f02fb3db0baa29817f252464140acdf1a43e57f3ca0d",
+      "style_id": "y2k-chrome",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
     }
   ],
   "schema_version": 1
