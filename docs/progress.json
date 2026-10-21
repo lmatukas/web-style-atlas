@@ -657,23 +657,56 @@
     {
       "id": "S06",
       "title": "Terminal Utility",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S05"
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T02:47:10Z",
-      "updated_at": "2026-10-21T02:47:10Z",
+      "updated_at": "2026-10-21T02:54:57Z",
       "branch": "task/s06-atlas",
       "base_commit": "483d3a2f900cfceeed2f4ad5a8e9b6c0e7b4cbfb",
-      "evidence_commit": null,
+      "evidence_commit": "9cd757e6bc7ab90c2a7de167769c2f73015adbbf",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/14",
+      "checks": [
+        {
+          "name": "source/build/previews/freshness",
+          "status": "pass",
+          "details": "Four current canonical PNGs below 1 MiB; deterministic tokens/index/gallery."
+        },
+        {
+          "name": "responsive/accessibility/interaction QA",
+          "status": "pass",
+          "details": "Six A/B combinations at 360/768/1440, axe/resources/controls/focus; supplemental glyph, reduced-motion and real token checks."
+        },
+        {
+          "name": "scoped gallery integration",
+          "status": "pass",
+          "details": "Three subpath/mobile/selection/reference browser cases passed."
+        },
+        {
+          "name": "actual visual and rights review",
+          "status": "pass",
+          "details": "2 / 2 / 2 / 2 / 2 / 2 = 12/12; four actual previews inspected and available neighbors compared. No third-party assets or fonts. Empty registry intentional. Actual extra keyboard filter QA at all three widths checked 2 notes, 3 changes, 5 all entries, one pressed button and matching live counts. All sample data is explicitly fictional/static."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "Clean whitespace."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39535497397 succeeded on 9cd757e6bc7ab90c2a7de167769c2f73015adbbf"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S06.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "S07",
