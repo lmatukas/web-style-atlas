@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 38. Drafts and templates are excluded.
+Ready styles: 39. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -24,6 +24,7 @@ Ready styles: 38. Drafts and templates are excluded.
 | [Institutional Clear](../styles/institutional-clear/style.md) | functional | Clear task labels, searchable services and readable information pages with predictable navigation. | [A: Task and service directory](../styles/institutional-clear/reference/index.html) · [B: Service information with contents](../styles/institutional-clear/reference/alternate.html) |
 | [Kinetic Type](../styles/kinetic-type/style.md) | typographic | Oversized words become the campaign composition, with brief finite type motion and a contrasting date-led two-day programme. | [A: Oversized word campaign](../styles/kinetic-type/reference/index.html) · [B: Typographic weekend calendar](../styles/kinetic-type/reference/alternate.html) |
 | [Light Environments](../styles/light-environments/style.md) | spatial | Three distinct light installations connect a restrained exhibition narrative and a personal route workbench with real local storage, order and text export. | [A: Three light-environment exhibition](../styles/light-environments/reference/index.html) · [B: Personal exhibition route desk](../styles/light-environments/reference/alternate.html) |
+| [Membrane Score](../styles/membrane-score/style.md) | expressive | Three luminous sound layers connect actual synthesis, tempo and intensity controls to a readable locally saved recipe and silent visual instrument. | [A: Horizontal three-membrane score](../styles/membrane-score/reference/index.html) · [B: Mood recipe index and vertical-channel instrument](../styles/membrane-score/reference/alternate.html) |
 | [Modular Light](../styles/modular-light/style.md) | spatial | A folded paper-and-aluminum lamp catalogue and numbered assembly workbench with real module, shade and light configuration. | [A: Folded-light catalogue spread](../styles/modular-light/reference/index.html) · [B: Numbered assembly workbench](../styles/modular-light/reference/alternate.html) |
 | [Neo Brutalist](../styles/neo-brutalist/style.md) | expressive | Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme. | [A: Poster-led event offer](../styles/neo-brutalist/reference/index.html) · [B: Framed two-day programme](../styles/neo-brutalist/reference/alternate.html) |
 | [Newspaper Ledger](../styles/newspaper-ledger/style.md) | editorial | Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods. | [A: Multi-story newspaper front page](../styles/newspaper-ledger/reference/index.html) · [B: Analysis with branch ledger](../styles/newspaper-ledger/reference/alternate.html) |

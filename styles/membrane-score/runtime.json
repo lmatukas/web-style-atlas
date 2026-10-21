@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "renderer": "svg",
+  "audio": true,
+  "stable_state": "reduced-motion",
+  "motion": "finite-with-pause"
+}

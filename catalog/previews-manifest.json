@@ -736,6 +736,46 @@
       "width": 390
     },
     {
+      "height": 3421,
+      "output_sha256": "96801194ea81999be14a4d4e14ec55149c4df559ab6e315e4add6e3d9af81891",
+      "path": "styles/membrane-score/preview.png",
+      "source_sha256": "f4461b6ad0b448e9f63484954c28c136b7918667f2119342c14f3cad6837cd67",
+      "style_id": "membrane-score",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4085,
+      "output_sha256": "7860218b87d1bd9747872bb454b46318c52b0f919b596349c755ab6001c54517",
+      "path": "styles/membrane-score/preview-mobile.png",
+      "source_sha256": "f4461b6ad0b448e9f63484954c28c136b7918667f2119342c14f3cad6837cd67",
+      "style_id": "membrane-score",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2739,
+      "output_sha256": "f76d99b9b3ea8ba26f6d197656c5f9cfb9d5b39e3af9033fc5c6dbfebb1ceeaf",
+      "path": "styles/membrane-score/preview-alt.png",
+      "source_sha256": "f4461b6ad0b448e9f63484954c28c136b7918667f2119342c14f3cad6837cd67",
+      "style_id": "membrane-score",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4018,
+      "output_sha256": "b7d0824405795064da55f3e4a4c87ca45efde29373494066dd207fc9152e6b8a",
+      "path": "styles/membrane-score/preview-alt-mobile.png",
+      "source_sha256": "f4461b6ad0b448e9f63484954c28c136b7918667f2119342c14f3cad6837cd67",
+      "style_id": "membrane-score",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 4258,
       "output_sha256": "ddeb0f75d8bf7161e851e5d72c55c11ad89ca53dc61f0d8091454afae8743c18",
       "path": "styles/modular-light/preview.png",
