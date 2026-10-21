@@ -216,6 +216,46 @@
       "width": 390
     },
     {
+      "height": 1625,
+      "output_sha256": "e4ee0edb7bb0f0bb5faac5be4c7bdd3d8195b263f96d133d36321ef9b504e9d7",
+      "path": "styles/gallery-white-cube/preview.png",
+      "source_sha256": "825bb1e13c48f5786ebf0b8df096e693b5b3b50575862ecb221051328f07c2f4",
+      "style_id": "gallery-white-cube",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2656,
+      "output_sha256": "e9a40af243d9546d216dcf53e377ddbd63321f2139a339ce9e2b78c1be719b58",
+      "path": "styles/gallery-white-cube/preview-mobile.png",
+      "source_sha256": "825bb1e13c48f5786ebf0b8df096e693b5b3b50575862ecb221051328f07c2f4",
+      "style_id": "gallery-white-cube",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1870,
+      "output_sha256": "7b051eaa6ce7fa16b1d5097d2eb5be5e364334ce964fb40e7e3221c1379515bf",
+      "path": "styles/gallery-white-cube/preview-alt.png",
+      "source_sha256": "825bb1e13c48f5786ebf0b8df096e693b5b3b50575862ecb221051328f07c2f4",
+      "style_id": "gallery-white-cube",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2227,
+      "output_sha256": "2b625d074d047670b21915a6ff831c7899b499997dcc5810938d313694a4dec3",
+      "path": "styles/gallery-white-cube/preview-alt-mobile.png",
+      "source_sha256": "825bb1e13c48f5786ebf0b8df096e693b5b3b50575862ecb221051328f07c2f4",
+      "style_id": "gallery-white-cube",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1774,
       "output_sha256": "efa2a3ea82d9bb052824031d894b8691900274191b9c2be6148b0fd3d87efe8b",
       "path": "styles/institutional-clear/preview.png",

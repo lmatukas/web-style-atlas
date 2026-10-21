@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Exhibition works wall",
+      "page_type": "culture",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible exhibition, selected work and visit-note links.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce the exhibition",
+          "pattern": "Modest identity and short curatorial introduction",
+          "content_requirements": [
+            "Exhibition title",
+            "Demonstration status"
+          ]
+        },
+        {
+          "purpose": "See the works",
+          "pattern": "Asymmetric three-work wall",
+          "content_requirements": [
+            "Three finished artworks",
+            "Attached identifying captions"
+          ]
+        },
+        {
+          "purpose": "Read the curatorial position",
+          "pattern": "Narrow statement after the wall",
+          "content_requirements": [
+            "Looking note",
+            "Object link"
+          ]
+        },
+        {
+          "purpose": "Understand visiting and rights",
+          "pattern": "Practical native disclosure",
+          "content_requirements": [
+            "Fictional venue note",
+            "Rights explanation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack works with attached labels; preserve each ratio and wrap header.",
+      "distinguishing_features": [
+        "Three unequal artwork scales on white architecture",
+        "Labels outside images",
+        "Wall followed by a narrow curatorial pause"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Single work with exhibition index",
+      "page_type": "portfolio",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Numbered work index beside selected painting and actual return link.",
+      "ordered_sections": [
+        {
+          "purpose": "Inspect one work",
+          "pattern": "Tall painting beside narrow dossier",
+          "content_requirements": [
+            "Original painting",
+            "Medium/date/format"
+          ]
+        },
+        {
+          "purpose": "Read looking note",
+          "pattern": "Narrow offset interpretive text",
+          "content_requirements": [
+            "Specific observation",
+            "Plain heading"
+          ]
+        },
+        {
+          "purpose": "Find companion work",
+          "pattern": "Low work with attached next-work note",
+          "content_requirements": [
+            "Second composition",
+            "Return destination"
+          ]
+        },
+        {
+          "purpose": "Understand reproduction record",
+          "pattern": "Native collection disclosure",
+          "content_requirements": [
+            "Original rights record",
+            "Demonstration status"
+          ]
+        }
+      ],
+      "mobile_reflow": "Painting precedes dossier; companion image precedes its note.",
+      "distinguishing_features": [
+        "Single tall object and narrow numbered index",
+        "Format and medium record",
+        "Companion work closes an object-focused sequence"
+      ]
+    }
+  ]
+}
