@@ -4,7 +4,7 @@
 
 **Baigta: 24/38.**
 
-**Kita užduotis: [S13](tasks/S13.md).**
+**Pirmiausia patikrinti S13: Vykdoma; vykdytojas Codex/2875ce3dc6da/batch-two.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -34,7 +34,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P10](tasks/P10.md) | Realus naudojimo kitame projekte bandymas | Baigta | Codex/839dbcebb83d/sequential-ten | task/p10-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/22) | 2026-10-21T04:17:33Z | Select the next eligible task within the authorized sequential batch. |
 | [P11](tasks/P11.md) | Vieša dokumentacija ir papildymo eiga | Baigta | Codex/839dbcebb83d/sequential-ten | task/p11-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/23) | 2026-10-21T04:24:41Z | Authorized batch complete; P12 awaits a new instruction. |
 | [P12](tasks/P12.md) | 12 stilių leidimo paruošimas | Baigta | Codex/2875ce3dc6da | task/p12-release | [PR](https://github.com/lmatukas/web-style-atlas/pull/24) | 2026-10-21T06:09:38.160188Z | P12 accepted; S13 Gallery White Cube is the next eligible task. |
-| [S13](tasks/S13.md) | Gallery White Cube | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
+| [S13](tasks/S13.md) | Gallery White Cube | Vykdoma | Codex/2875ce3dc6da/batch-two | task/s13-atlas | — | 2026-10-21T06:50:33.235Z | Implement and verify Gallery White Cube; task 1/10 of authorized sequential batch. |
 | [S14](tasks/S14.md) | Newspaper Ledger | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S15](tasks/S15.md) | Industrial Spec | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S16](tasks/S16.md) | Retro Web | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |

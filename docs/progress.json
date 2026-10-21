@@ -1282,22 +1282,22 @@
     {
       "id": "S13",
       "title": "Gallery White Cube",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P12"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T06:50:33.234Z",
+      "updated_at": "2026-10-21T06:50:33.235Z",
+      "branch": "task/s13-atlas",
+      "base_commit": "9c51ee792a39496c670b70bdaa96c08f8c6355ff",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify Gallery White Cube; task 1/10 of authorized sequential batch.",
       "handoff": null
     },
     {
