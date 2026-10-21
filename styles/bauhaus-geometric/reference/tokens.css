@@ -1,0 +1,43 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #b93122;
+  --color-background: #f1eadb;
+  --color-blue: #184a88;
+  --color-border: #746c60;
+  --color-focus: #134d80;
+  --color-muted: #5f584f;
+  --color-on-accent: #fff9ef;
+  --color-on-blue: #f8f1e5;
+  --color-surface: #e0d6c3;
+  --color-text: #202020;
+  --color-yellow: #e4b52d;
+  --font-body: "Arial", sans-serif;
+  --font-display: "Arial", sans-serif;
+  --font-size-body: 1rem;
+  --font-size-display: 4rem;
+  --font-size-heading: 2rem;
+  --font-size-small: 0.875rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 75rem;
+  --layout-text-max-width: 65ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.02em;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.1;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 150ms;
+  --motion-easing-standard: ease-out;
+  --radius-none: 0;
+  --radius-small: 0.25rem;
+  --shadow-none: none;
+  --spacing-large: 2rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 4rem;
+  --spacing-small: 0.5rem;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */
