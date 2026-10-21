@@ -2965,14 +2965,14 @@
       "evidence_paths": [],
       "worker": null,
       "claimed_at": null,
-      "updated_at": "2026-10-21T21:08:51Z",
+      "updated_at": "2026-10-21T21:12:55Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": "Keičiant styles/*/style.md (frontmatter) pasikeičia preview šaltinio hash (scripts/previews.mjs sourceHash apima visus stiliaus autorinius failus), todėl PNG ir catalog/previews-manifest.json reikia perkurti kanoninėje aplinkoje (Ubuntu 24.04, Node 24.19.0, locked Playwright). Ta aplinka šioje sesijoje neprieinama.",
-      "next_action": "Paleisti P21 kanoninėje aplinkoje su npm run previews ir commitinti perkurtus PNG ir manifestą kartu su frontmatter pakeitimais. Nesutvarkius – nekeisti style.md.",
+      "blocker": "Kanoninė aplinka čia neprieinama: reikalingas Chromium headless shell 151.0.7922.34 (scripts/preview.config.mjs), o sistemoje yra 141; cdn.playwright.dev, azureedge ir prss.microsoft.com nepasiekiami. Node v24.19.0 gautas per npm pakietą node-linux-x64@24.19.0. Be teisingo naršyklės build'o PNG neperkuriami, todėl stilių keitimas paliktų previews-manifest pasenusį.",
+      "next_action": "Paleisti kanoninėje aplinkoje (Ubuntu 24.04, Node v24.19.0, Chromium headless shell 151.0.7922.34): npm ci, npm run previews, commit PNG ir manifest, tada npm run check.",
       "handoff": null
     },
     {
@@ -3017,7 +3017,7 @@
     {
       "id": "S40",
       "title": "Pertvarka: Institutional Clear",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "P19",
         "P20"
@@ -3026,14 +3026,14 @@
       "evidence_paths": [],
       "worker": null,
       "claimed_at": null,
-      "updated_at": null,
+      "updated_at": "2026-10-21T21:12:55Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S40.md.",
+      "blocker": "Tas pats kaip P21: nėra kanoninio Chromium 151.0.7922.34 PNG generavimui. Stilio pakeitimas be PNG nulaužtų CI.",
+      "next_action": "Kai kanoninė aplinka prieinama: pradėti nuo S40 kortelės (docs/tasks/S40.md), A/B puslapiai, keturi PNG, rubrika >=10/12.",
       "handoff": null
     },
     {

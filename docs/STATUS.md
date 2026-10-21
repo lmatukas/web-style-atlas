@@ -4,7 +4,7 @@
 
 **Baigta: 60/75.**
 
-**Kita užduotis: [S40](tasks/S40.md).**
+**Kita užduotis: [S41](tasks/S41.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -69,9 +69,9 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Baigta | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:31:51.953043Z | All 57 planned tasks accepted. Start new work only from the next owner-approved scope. |
 | [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19 | task/p19-distinctiveness | [PR](https://github.com/lmatukas/web-style-atlas/pull/82) | 2026-10-21T21:06:25Z | Baigta; nėra veiksmo. |
 | [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:08:30Z | Savininkas patvirtina arba atmeta core/language-policy.md sprendimą |
-| [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Užblokuota | — | — | — | 2026-10-21T21:08:51Z | Keičiant styles/*/style.md (frontmatter) pasikeičia preview šaltinio hash (scripts/previews.mjs sourceHash apima visus stiliaus autorinius failus), todėl PNG ir catalog/previews-manifest.json reikia perkurti kanoninėje aplinkoje (Ubuntu 24.04, Node 24.19.0, locked Playwright). Ta aplinka šioje sesijoje neprieinama. |
+| [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Užblokuota | — | — | — | 2026-10-21T21:12:55Z | Kanoninė aplinka čia neprieinama: reikalingas Chromium headless shell 151.0.7922.34 (scripts/preview.config.mjs), o sistemoje yra 141; cdn.playwright.dev, azureedge ir prss.microsoft.com nepasiekiami. Node v24.19.0 gautas per npm pakietą node-linux-x64@24.19.0. Be teisingo naršyklės build'o PNG neperkuriami, todėl stilių keitimas paliktų previews-manifest pasenusį. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
-| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S40.md. |
+| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Užblokuota | — | — | — | 2026-10-21T21:12:55Z | Tas pats kaip P21: nėra kanoninio Chromium 151.0.7922.34 PNG generavimui. Stilio pakeitimas be PNG nulaužtų CI. |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |
