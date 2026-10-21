@@ -1595,6 +1595,58 @@
       ]
     },
     {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "publishing",
+        "culture"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "editorial",
+      "id": "spine-editions",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Spine Editions",
+      "prompt_path": "prompts/spine-editions/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Paper white, ink blue and readable cinnabar red.",
+        "composition": "A tall spine and thematic shelves; B filtered index beside an excerpt reader.",
+        "content_rhythm": "Catalogue-to-reading sequence versus immediate index-to-excerpt spread.",
+        "imagery": "Original CSS spine and sliding cover, four authored edition excerpts.",
+        "interaction": "Theme filtering, open/close excerpts and validated persistent local reading list.",
+        "motion": "600ms lines, 300ms filter reveal, 450ms cover and active process margin.",
+        "navigation": "Theme controls, edition/reader/list anchors and actual A/B siblings.",
+        "typography": "Georgia editorial reading with plain sans metadata and page identifiers."
+      },
+      "status": "ready",
+      "style_path": "styles/spine-editions/style.md",
+      "summary": "A vertical book spine, thematic edition shelves and original openable excerpts lead to a device-local reading list.",
+      "tags": [
+        "reading-led",
+        "annotated",
+        "archival"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/spine-editions/preview-mobile.png",
+          "preview_path": "styles/spine-editions/preview.png",
+          "reference_path": "styles/spine-editions/reference/index.html",
+          "title": "Vertical spine and three thematic shelves"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/spine-editions/preview-alt-mobile.png",
+          "preview_path": "styles/spine-editions/preview-alt.png",
+          "reference_path": "styles/spine-editions/reference/alternate.html",
+          "title": "Edition index and excerpt reading spread"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "services",

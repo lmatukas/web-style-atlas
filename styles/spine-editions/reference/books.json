@@ -1,0 +1,50 @@
+[
+  {
+    "id": "slenkstis",
+    "theme": "miestai",
+    "themeName": "Miestai",
+    "title": "Slenksčio miestas",
+    "description": "Apie vietas, kuriose baigiasi gatvė ir prasideda pokalbis.",
+    "page": "001",
+    "excerpt": [
+      "Ryte slenkstis dar vėsus. Ant jo telpa pusė žingsnio ir visas sprendimas sustoti. Kitoje gatvės pusėje žmogus kelia žaliuzę, o miestas trumpam pasirodo esąs ne pastatų rinkinys, bet mažų atvėrimų seka.",
+      "Slenkstis neskuba priklausyti nei laukui, nei kambariui. Jis priima lietų, bato žymę ir trumpą kaimyno klausimą. Tokias vietas žymime ne žemėlapyje: jas atpažįstame iš tempo, kuriuo pradedame eiti."
+    ]
+  },
+  {
+    "id": "laiptai",
+    "theme": "architektura",
+    "themeName": "Architektūra",
+    "title": "Laiptų paraštės",
+    "description": "Mažas skaitymas apie judėjimą tarp aukštų.",
+    "page": "017",
+    "excerpt": [
+      "Laiptinė turi savo sakinį. Pirmas laiptelis jį pradeda, aikštelė padeda kablelį, o langas leidžia įkvėpti. Kylant keičiasi ne vien aukštis: gatvės garsai pamažu tampa prisiminimu.",
+      "Ant turėklo blizga delnų nupoliruota juosta. Joks brėžinys tiksliai nenusako šio paviršiaus. Architektūra čia baigiasi ne ties dažų sluoksniu, o tęsiasi kiekviename kasdieniame prisilietime."
+    ]
+  },
+  {
+    "id": "puodelis",
+    "theme": "kasdienybe",
+    "themeName": "Kasdienybė",
+    "title": "Puodelio atstumas",
+    "description": "Kasdieniai daiktai kaip laiko ir dėmesio matas.",
+    "page": "033",
+    "excerpt": [
+      "Tarp puodelio ir lango telpa rytas. Jo neišmatuosi centimetrais: vieną dieną jis trumpas kaip žvilgsnis, kitą išsitęsia iki pirmo pravažiuojančio autobuso. Ant stalo lieka apskritimas.",
+      "Puodelis yra mažas susitarimas su laiku. Kol jis šiltas, dar galima niekur neskubėti. Daiktai nepasakoja už mus, tačiau kartais pasiūlo vietą sakiniui pradėti."
+    ]
+  },
+  {
+    "id": "suolas",
+    "theme": "miestai",
+    "themeName": "Miestai",
+    "title": "Antras suolas",
+    "description": "Apie pasilikimą viešoje vietoje be skubaus tikslo.",
+    "page": "049",
+    "excerpt": [
+      "Pirmas suolas skirtas laukti. Antras – tiesiog sėdėti. Skirtumas nedidelis, kol nepastebi, kaip pasikeičia pečiai, kai nebereikia ieškoti atvažiuojančio žmogaus.",
+      "Medžio šešėlis per dieną pereina tris lentas. Sėdintys žmonės išsiskirsto anksčiau, nei užsibaigia šis lėtas judesys. Miesto ilgį kartais lengviau suprasti sustojus negu jį pereinant."
+    ]
+  }
+]

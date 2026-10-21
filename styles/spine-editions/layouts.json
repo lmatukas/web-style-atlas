@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Vertical spine and three thematic shelves",
+      "page_type": "publishing",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible in-page links, ordinary sibling reference and local native controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Meet the imprint",
+          "pattern": "Tall spine beside publishing thought",
+          "content_requirements": [
+            "Vertical title",
+            "Page motif"
+          ]
+        },
+        {
+          "purpose": "Find an edition",
+          "pattern": "Three thematic shelves after persistent filter controls",
+          "content_requirements": [
+            "Four original records",
+            "Open actions"
+          ]
+        },
+        {
+          "purpose": "Read and retain",
+          "pattern": "Openable excerpt then device-local list",
+          "content_requirements": [
+            "Close focus",
+            "Save and clear"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: single reading column, full labels and wrapping actions. 768: compact paired composition where space permits. 1440: broad deliberate desktop relationships.",
+      "distinguishing_features": [
+        "Tall spine beside publishing thought",
+        "Three thematic shelves after persistent filter controls"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Edition index and excerpt reading spread",
+      "page_type": "publishing",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible in-page links, ordinary sibling reference and local native controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose while reading",
+          "pattern": "Narrow edition index beside broad excerpt surface",
+          "content_requirements": [
+            "Actual filters",
+            "All four records"
+          ]
+        },
+        {
+          "purpose": "Retain reading choices",
+          "pattern": "Saved-list records below the reading spread",
+          "content_requirements": [
+            "Shared local state",
+            "Own-key clear"
+          ]
+        },
+        {
+          "purpose": "Understand process",
+          "pattern": "Active paragraph marker beside three stages",
+          "content_requirements": [
+            "Stationary body text",
+            "Fictional contact"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: single reading column, full labels and wrapping actions. 768: compact paired composition where space permits. 1440: broad deliberate desktop relationships.",
+      "distinguishing_features": [
+        "Narrow edition index beside broad excerpt surface",
+        "Saved-list records below the reading spread"
+      ]
+    }
+  ]
+}

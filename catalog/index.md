@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 36. Drafts and templates are excluded.
+Ready styles: 37. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -37,6 +37,7 @@ Ready styles: 36. Drafts and templates are excluded.
 | [Rhythm Planner](../styles/rhythm-planner/style.md) | functional | Oversized time numerals and proportional task bars form an editable three-task local day plan with exact midnight-aware exports. | [A: Clock-led product and complete demonstration](../styles/rhythm-planner/reference/index.html) · [B: Timeline workbench and three-task editor](../styles/rhythm-planner/reference/alternate.html) |
 | [Seasonal Terrain](../styles/seasonal-terrain/style.md) | tactile | An irregular three-layer soil study connects the year’s seasons to a useful vegetable basket and delivery brief. | [A: Soil story and seasonal basket](../styles/seasonal-terrain/reference/index.html) · [B: Annual calendar and stepped basket](../styles/seasonal-terrain/reference/alternate.html) |
 | [Soft Spatial](../styles/soft-spatial/style.md) | spatial | Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview. | [A: Single ambient object](../styles/soft-spatial/reference/index.html) · [B: Layered practice overview](../styles/soft-spatial/reference/alternate.html) |
+| [Spine Editions](../styles/spine-editions/style.md) | editorial | A vertical book spine, thematic edition shelves and original openable excerpts lead to a device-local reading list. | [A: Vertical spine and three thematic shelves](../styles/spine-editions/reference/index.html) · [B: Edition index and excerpt reading spread](../styles/spine-editions/reference/alternate.html) |
 | [Swiss Grid](../styles/swiss-grid/style.md) | typographic | Numbered typographic grids, oversized alignment and precise service or portfolio indexes. | [A: Typographic service index](../styles/swiss-grid/reference/index.html) · [B: Asymmetric work catalogue](../styles/swiss-grid/reference/alternate.html) |
 | [Terminal Utility](../styles/terminal-utility/style.md) | technical | A readable command index and chronological information panels with a consistent monospace voice. | [A: Command-like service index](../styles/terminal-utility/reference/index.html) · [B: Chronological log with information panels](../styles/terminal-utility/reference/alternate.html) |
 | [Twilight Expedition](../styles/twilight-expedition/style.md) | spatial | A stable mountain-observatory panorama and relief atlas connect finite dusk-to-night transitions to a real local itinerary and enquiry. | [A: Dusk panorama and arrival chapters](../styles/twilight-expedition/reference/index.html) · [B: Relief atlas and departure ledger](../styles/twilight-expedition/reference/alternate.html) |
