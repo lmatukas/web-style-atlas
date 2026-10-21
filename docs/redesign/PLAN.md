@@ -23,7 +23,7 @@ nepridėda naujų krypčių.
 
 ## Išskirtinumo įspėjimai (P19)
 
-`npm run distinctiveness` ir `npm run validate` rodo `WARN` eilutes:
+`node scripts/distinctiveness.mjs` ir `npm run validate` rodo `WARN` eilutes:
 - `shared-asset` – tas pats vaizdas (SHA-256) keliuose stiliuose;
 - `footer-boilerplate` – tas pats 5 žodžių posakis bent 3 footeruose;
 - `shared-heading` – tas pats pirmas `<h1>` tekstas keliuose stiliuose.
