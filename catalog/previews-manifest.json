@@ -176,6 +176,46 @@
       "width": 390
     },
     {
+      "height": 1774,
+      "output_sha256": "efa2a3ea82d9bb052824031d894b8691900274191b9c2be6148b0fd3d87efe8b",
+      "path": "styles/institutional-clear/preview.png",
+      "source_sha256": "033c206d02a00673120d21f0856a8f761702452f0c932768c358e33fe127fbdb",
+      "style_id": "institutional-clear",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2151,
+      "output_sha256": "06702cd9389530db735e94a3bfe0a6baa6dd8111e06db250e91b2bad8665e686",
+      "path": "styles/institutional-clear/preview-mobile.png",
+      "source_sha256": "033c206d02a00673120d21f0856a8f761702452f0c932768c358e33fe127fbdb",
+      "style_id": "institutional-clear",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1883,
+      "output_sha256": "f13bbbd69da51e523a6e95797c2255798903718c46fa94cee4cb30f8c2e30cdf",
+      "path": "styles/institutional-clear/preview-alt.png",
+      "source_sha256": "033c206d02a00673120d21f0856a8f761702452f0c932768c358e33fe127fbdb",
+      "style_id": "institutional-clear",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2630,
+      "output_sha256": "af2e7314ec407732f730fc384ec6a231142af595b84e1c4122694df1f415c6a1",
+      "path": "styles/institutional-clear/preview-alt-mobile.png",
+      "source_sha256": "033c206d02a00673120d21f0856a8f761702452f0c932768c358e33fe127fbdb",
+      "style_id": "institutional-clear",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2517,
       "output_sha256": "94bd4242dad51521b6b266a47d21deb767c15521502a75cef51bed578135462b",
       "path": "styles/neo-brutalist/preview.png",

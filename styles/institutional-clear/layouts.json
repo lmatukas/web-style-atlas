@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Task and service directory",
+      "page_type": "public-information",
+      "reference_path": "reference/index.html",
+      "navigation": "Stable service/help links, local search and real guide destinations.",
+      "ordered_sections": [
+        {
+          "purpose": "Orient",
+          "pattern": "Service heading and demonstration notice",
+          "content_requirements": [
+            "Identity",
+            "Task question"
+          ]
+        },
+        {
+          "purpose": "Find a task",
+          "pattern": "Labeled local search",
+          "content_requirements": [
+            "Search",
+            "Reset",
+            "Result count"
+          ]
+        },
+        {
+          "purpose": "Choose service",
+          "pattern": "Four service rows",
+          "content_requirements": [
+            "Task title",
+            "Description",
+            "Destination"
+          ]
+        },
+        {
+          "purpose": "Understand other tasks",
+          "pattern": "Three native guide disclosures",
+          "content_requirements": [
+            "Useful task information"
+          ]
+        },
+        {
+          "purpose": "Get oriented",
+          "pattern": "Help panel and colophon",
+          "content_requirements": [
+            "Return links",
+            "Demo identity"
+          ]
+        }
+      ],
+      "mobile_reflow": "Wrap navigation, stack search controls and let service names/descriptions wrap without clipping.",
+      "distinguishing_features": [
+        "Search-first task discovery",
+        "Descriptive service rows",
+        "Explicit empty state"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Service information with contents",
+      "page_type": "public-information",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Breadcrumb, local document contents and directory return.",
+      "ordered_sections": [
+        {
+          "purpose": "Identify task",
+          "pattern": "Specific service heading",
+          "content_requirements": [
+            "Title",
+            "Example status"
+          ]
+        },
+        {
+          "purpose": "Prepare",
+          "pattern": "Short preparation list",
+          "content_requirements": [
+            "Information needed"
+          ]
+        },
+        {
+          "purpose": "Understand options",
+          "pattern": "Plain definition list",
+          "content_requirements": [
+            "Sample room types",
+            "Example context"
+          ]
+        },
+        {
+          "purpose": "Follow process",
+          "pattern": "Numbered request sequence",
+          "content_requirements": [
+            "Three steps",
+            "No false submission"
+          ]
+        },
+        {
+          "purpose": "Resolve questions",
+          "pattern": "Native help disclosures",
+          "content_requirements": [
+            "Useful answers",
+            "Directory link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Move contents above the reading column; retain descriptive headings and comfortable text size.",
+      "distinguishing_features": [
+        "Contents-to-document relationship",
+        "Clear preparation and process",
+        "Readable supporting information"
+      ]
+    }
+  ]
+}
