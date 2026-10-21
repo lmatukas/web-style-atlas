@@ -2551,23 +2551,46 @@
     {
       "id": "S34",
       "title": "Repair Atlas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S33"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:28:56.852955Z",
-      "updated_at": "2026-10-21T16:28:56.852955Z",
+      "updated_at": "2026-10-21T16:38:28.636294Z",
       "branch": "task/s34-repair-atlas",
       "base_commit": "bab10c70daede8cd6c641838c014dc23e7d3d5e9",
-      "evidence_commit": null,
+      "evidence_commit": "b4ae4400dc8a9b62df95209afae29d7c93cb64a0",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/73",
+      "checks": [
+        {
+          "name": "Scoped source/build/preview freshness",
+          "status": "pass",
+          "details": "validate/build/four canonical renders/rebuild/check for repair-atlas."
+        },
+        {
+          "name": "Actual native WebGL, fallback and route",
+          "status": "pass",
+          "details": "12 A/B normal/reduced/blocked-WebGL runtime and business cases; actual depth/pixels, disassembly, repair, nine dual filters, 2–4 route reorder/remove/ordered UTF-8 export and native context loss."
+        },
+        {
+          "name": "Accessibility, lifecycle and responsive gates",
+          "status": "pass",
+          "details": "Six axe/browser pages, four-width business matrix, actual numbered landing and both active A/B pause/offscreen/hidden-resume cases."
+        },
+        {
+          "name": "Visual and actual full prompt integration",
+          "status": "pass",
+          "details": "Four actual PNGs and both ready neighbors inspected, 11/12; exact B full prompt copy and real alternate reference under /atlas/."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S34.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S34 with A/B, actual functional/motion gates and four canonical previews.",
-      "handoff": "Owner authorizes five new sequential tasks S31–S35, each in its own verified PR and merge. Continue after this task; stop after S35. Public release remains P18."
+      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
+      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
     },
     {
       "id": "S35",
