@@ -1747,6 +1747,58 @@
     },
     {
       "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "travel",
+        "personal"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "illustrative",
+      "id": "trail-composer",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Trail Composer",
+      "prompt_path": "prompts/trail-composer/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Pale map paper, lake blue, moss green and small orange route marks.",
+        "composition": "A vertical paper trail beside invitation and chooser; B day ledger with adjacent map.",
+        "content_rhythm": "Invitation, moods and vertical stops versus conditions, table and preparation.",
+        "imagery": "Original schematic SVG with four numbered points and HTML equivalents.",
+        "interaction": "Duration/intensity eligibility, mood ranking, real open/back, checklist and TXT download.",
+        "motion": "900ms first path, 300ms mood, 450ms stops and finite checkbox confirmation.",
+        "navigation": "Choices/plan/preparation anchors and actual A/B siblings.",
+        "typography": "Quiet Georgia invitations with readable Arial timing and labels."
+      },
+      "status": "ready",
+      "style_path": "styles/trail-composer/style.md",
+      "summary": "A paper trail and transparent three-input selection produce an imaginary day plan, linked preparation checklist and current UTF-8 download.",
+      "tags": [
+        "annotated",
+        "task-led",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/trail-composer/preview-mobile.png",
+          "preview_path": "styles/trail-composer/preview.png",
+          "reference_path": "styles/trail-composer/reference/index.html",
+          "title": "Vertical paper trail and trip moods"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/trail-composer/preview-alt-mobile.png",
+          "preview_path": "styles/trail-composer/preview-alt.png",
+          "reference_path": "styles/trail-composer/reference/alternate.html",
+          "title": "Day-plan ledger and linked preparation"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "data",
         "documentation"
       ],

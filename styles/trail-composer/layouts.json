@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Vertical paper trail and trip moods",
+      "page_type": "travel",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible in-page links, ordinary sibling reference and local native controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose a day",
+          "pattern": "Invitation and full chooser beside vertical map",
+          "content_requirements": [
+            "Original SVG",
+            "Three native inputs"
+          ]
+        },
+        {
+          "purpose": "Compare moods",
+          "pattern": "Three distinct route summaries",
+          "content_requirements": [
+            "Explicit example conditions",
+            "No real geography"
+          ]
+        },
+        {
+          "purpose": "Inspect a plan",
+          "pattern": "Numbered vertical stops then preparation",
+          "content_requirements": [
+            "Open/back",
+            "Current TXT"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: single reading column, full labels and wrapping actions. 768: compact paired composition where space permits. 1440: broad deliberate desktop relationships.",
+      "distinguishing_features": [
+        "Invitation and full chooser beside vertical map",
+        "Three distinct route summaries"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Day-plan ledger and linked preparation",
+      "page_type": "travel",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible in-page links, ordinary sibling reference and local native controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Set conditions",
+          "pattern": "Horizontal three-field conditions sheet",
+          "content_requirements": [
+            "Transparent eligibility"
+          ]
+        },
+        {
+          "purpose": "Read the day",
+          "pattern": "Plan table beside narrow map sheet",
+          "content_requirements": [
+            "Four stop rows",
+            "Approximate units"
+          ]
+        },
+        {
+          "purpose": "Prepare and compare",
+          "pattern": "Checklist before alternate route summaries",
+          "content_requirements": [
+            "Checked states in export",
+            "Plain HTML equivalent"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: single reading column, full labels and wrapping actions. 768: compact paired composition where space permits. 1440: broad deliberate desktop relationships.",
+      "distinguishing_features": [
+        "Horizontal three-field conditions sheet",
+        "Plan table beside narrow map sheet"
+      ]
+    }
+  ]
+}

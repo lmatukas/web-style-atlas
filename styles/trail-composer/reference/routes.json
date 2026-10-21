@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ezeras",
+    "name": "Ežero skersvėjis",
+    "mood": "vanduo",
+    "duration": 180,
+    "intensity": 0,
+    "description": "Lėtas įsivaizduoto kranto skaitymas. Daug laiko sustoti ir stebėti.",
+    "stops": [
+      {
+        "name": "Popierinis krantas",
+        "minutes": 30,
+        "note": "Išsirink ramią pradžią ir neskubėk jos palikti."
+      },
+      {
+        "name": "Nendrių posūkis",
+        "minutes": 65,
+        "note": "Lėtas ėjimas su keliomis stebėjimo pauzėmis."
+      },
+      {
+        "name": "Atspindžių tarpas",
+        "minutes": 55,
+        "note": "Ilgesnis sustojimas užrašams ir lengvam užkandžiui."
+      },
+      {
+        "name": "Grįžimo linija",
+        "minutes": 30,
+        "note": "Ramus paskutinis atkarpos eskizas."
+      }
+    ]
+  },
+  {
+    "id": "miskas",
+    "name": "Samanų vingis",
+    "mood": "miskas",
+    "duration": 300,
+    "intensity": 1,
+    "description": "Vidutinio tempo miško dienos eskizas su ilga pietų pauze.",
+    "stops": [
+      {
+        "name": "Šviesos aikštelė",
+        "minutes": 45,
+        "note": "Trumpas apsipratimas su dienos ritmu."
+      },
+      {
+        "name": "Pušų koridorius",
+        "minutes": 105,
+        "note": "Ilgesnis ėjimo ir stebėjimo blokas."
+      },
+      {
+        "name": "Samanų kambarys",
+        "minutes": 90,
+        "note": "Pietų ir užrašų pauzė."
+      },
+      {
+        "name": "Miško pakraštys",
+        "minutes": 60,
+        "note": "Grįžimo atkarpa su paskutine poilsio pauze."
+      }
+    ]
+  },
+  {
+    "id": "miestelis",
+    "name": "Miestelio paraštė",
+    "mood": "miestas",
+    "duration": 420,
+    "intensity": 2,
+    "description": "Ilgesnė įsivaizduoto miestelio ir jo apylinkių diena.",
+    "stops": [
+      {
+        "name": "Tuščioji aikštė",
+        "minutes": 60,
+        "note": "Pirmas pasivaikščiojimas ir dienos orientyras."
+      },
+      {
+        "name": "Kiemo skersgatvis",
+        "minutes": 150,
+        "note": "Ilgesnis ėjimo blokas su sustojimais detalėms."
+      },
+      {
+        "name": "Pietų paraštė",
+        "minutes": 120,
+        "note": "Lėta poilsio ir kasdienės architektūros stebėjimo dalis."
+      },
+      {
+        "name": "Tolimas pakraštys",
+        "minutes": 90,
+        "note": "Grįžimo eskizas per ramesnes gatves."
+      }
+    ]
+  }
+]
