@@ -657,22 +657,22 @@
     {
       "id": "S06",
       "title": "Terminal Utility",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S05"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "claimed_at": "2026-10-21T02:47:10Z",
+      "updated_at": "2026-10-21T02:47:10Z",
+      "branch": "task/s06-atlas",
+      "base_commit": "483d3a2f900cfceeed2f4ad5a8e9b6c0e7b4cbfb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
       "handoff": null
     },
     {
