@@ -4,7 +4,7 @@
 
 **Baigta: 52/57.**
 
-**Kita užduotis: [S37](tasks/S37.md).**
+**Pirmiausia patikrinti S37: Vykdoma; vykdytojas Codex/8f365240145f/S36-S39.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -62,7 +62,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S34](tasks/S34.md) | Repair Atlas | Baigta | Codex/fa3a4cc05875/batch-five | task/s34-repair-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/73) | 2026-10-21T16:41:38.993300Z | Continue authorized five-task batch; select next eligible task. |
 | [S35](tasks/S35.md) | Balcony Builder | Baigta | Codex/fa3a4cc05875/batch-five | task/s35-balcony-builder | [PR](https://github.com/lmatukas/web-style-atlas/pull/74) | 2026-10-21T16:54:37.082183Z | Five-task batch complete. Next S36 on a new request; public release remains P18. |
 | [S36](tasks/S36.md) | Rhythm Planner | Baigta | Codex/8f365240145f/S36-S39 | task/s36-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/75) | 2026-10-21T17:31:42.842Z | S36 accepted; continue authorized batch with S37. |
-| [S37](tasks/S37.md) | Spine Editions | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S37](tasks/S37.md) | Spine Editions | Vykdoma | Codex/8f365240145f/S36-S39 | task/s37-expansion | — | 2026-10-21T17:31:47.408Z | Implement S37 in the authorized sequential S36–S39 batch. |
 | [S38](tasks/S38.md) | Trail Composer | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S39](tasks/S39.md) | Membrane Score | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [P17](tasks/P17.md) | 39 krypčių ir pilnų promptų naudojimo auditas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
