@@ -1,0 +1,31 @@
+# Kalbos politika (P20)
+
+Statusas: **pasiūlyta** (laukia savininko patvirtinimo). Iki patvirtinimo naujų
+stilių kalbą pasirenka prompt'as, kaip dabar.
+
+## Būsena dabar (išmatuota 2026-10-22)
+
+- Lietuviškas turinys (>50 lietuviškų diakritikų, neskaitant footer testo): 19 stilių
+  (pvz. acoustic-sculpture, balcony-builder, choreographic-stage, light-environments,
+  repair-atlas, seasonal-terrain, woven-field).
+- Angliškas turinys: likę 20 stilių (pvz. swiss-grid, neo-brutalist, humanist-service,
+  quiet-luxury).
+- Footer diakritikų testas (`ĄČĘĖĮŠŲŪŽ`) yra 9 arba 18 ženklų kiekviename stiliuje.
+  Jis nėra turinys.
+
+## Siūloma taisyklė
+
+1. Matomas turinys (antraštės, aprašai, mygtukai, žinutės) rašomas tos kalbos,
+   kuri nurodyta stiliaus prompt'e (`prompts/<id>/prompt.lt.md` – LT; kitais atvejais EN).
+2. Kiekvienas stilius turi aiškiai nurodyti kalbą `style.md` (lauką nustatys P21).
+3. Diakritikų testas leidžiamas tik vieną kartą, footer'yje, ir tik kaip techninis
+   tekstas. Jo negalima naudoti kaip turinio kalbos įrodymo.
+4. Mišrus turinys (LT antraštė + EN mygtukai) draudžiamas, išskyrus tyčinį
+   lokalizacijos pavyzdį, kuris nurodytas stiliaus kortelėje.
+5. Pakeitimų metu nekeisti kalbos be atskiros užduoties ir patvirtinimo.
+
+## Sprendimas, kurio reikia
+
+Ar atnaujinti esamus 20 angliškų stilių į LT, ar palikti mišrią būseną ir tik
+deklaruoti kalbą? Iki atsakymo S40–S51 kortelės laikosi taisyklės 1, nes tai ne
+keičia stiliaus krypties.

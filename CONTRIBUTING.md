@@ -47,6 +47,11 @@ with the nearest ready neighbors in the [catalogue](catalog/index.md), the
    The task becomes `done` only after an authorized merge and verification of the
    exact implementation and its checks. Follow the shared tracking protocol.
 
+## Language
+
+Visitor-facing copy follows the language policy in
+[core/language-policy.md](core/language-policy.md).
+
 ## Reproduce the affected checks
 
 Install dependencies with `npm ci`. Replace `STYLE_ID` in these commands with
