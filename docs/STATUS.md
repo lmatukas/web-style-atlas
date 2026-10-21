@@ -4,7 +4,7 @@
 
 **Baigta: 38/57.**
 
-**Pirmiausia patikrinti P15: Vykdoma; vykdytojas Codex/162fd1aaf53b/P15.**
+**Pirmiausia patikrinti P15: Laukia peržiūros; vykdytojas Codex/162fd1aaf53b/P15.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -48,7 +48,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S24](tasks/S24.md) | Humanist Service | Baigta | Codex/2875ce3dc6da/final-four | task/s24-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/36) | 2026-10-21T09:51:43.976Z | Select next eligible task within owner-authorized sequential batch. |
 | [P13](tasks/P13.md) | 24 stilių įvairovės ir naudojimo auditas | Baigta | Codex/2875ce3dc6da/final-four | task/p13-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/37) | 2026-10-21T10:00:11.625Z | Select next eligible task within owner-authorized sequential batch. |
 | [P14](tasks/P14.md) | Galutinis leidimas ir perdavimas | Baigta | Codex/60722bd95b94/P14-resume | task/p14-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/39) | 2026-10-21T10:48:15.594Z | All 38 planned tasks and the 1.0.0 public publication are complete. Await the owner's next requested scope; the atlas is ready to use in a separate website project. |
-| [P15](tasks/P15.md) | Pilnų kūrimo promptų katalogo ir galerijos integravimas | Vykdoma | Codex/162fd1aaf53b/P15 | task/p15-creation-prompts | — | 2026-10-21T11:42:04.984Z | Implement P15 full creation prompt integration; retain 24 ready styles. |
+| [P15](tasks/P15.md) | Pilnų kūrimo promptų katalogo ir galerijos integravimas | Laukia peržiūros | Codex/162fd1aaf53b/P15 | task/p15-creation-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/45) | 2026-10-21T11:52:29.477Z | Wait for exact-head PR #45 checks, review and merge; then record actual acceptance. |
 | [P16](tasks/P16.md) | Judesio, 3D, garso ir pakaitalų patikrų pagrindas | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S25](tasks/S25.md) | Acoustic Sculpture | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S26](tasks/S26.md) | Seasonal Terrain | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
