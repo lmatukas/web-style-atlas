@@ -128,8 +128,10 @@ test('original 38 tasks survive and approved phases keep matching cards and plan
     }
     assert.ok(card.includes(`${task.depends_on.join(', ') || 'None'} (canonical docs/progress.json).`));
     if (task.id.startsWith('S')) {
-      cardIds.push(card.match(/Style ID: `([^`]+)`/)[1]);
+      const styleId = card.match(/Style ID: `([^`]+)`/)[1];
       assert.match(card, /Closest styles: `[^`]+`/);
+      if (Number(task.id.slice(1)) < 40) cardIds.push(styleId);
+      else assert.doesNotThrow(() => read(`styles/${styleId}/style.md`), `${task.id}: redesign card must target an existing style`);
     }
   }
   assert.deepEqual(cardIds, planIds);
