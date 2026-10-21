@@ -707,6 +707,60 @@
       ]
     },
     {
+      "avoid_for": [
+        "data"
+      ],
+      "best_for": [
+        "products",
+        "architecture",
+        "portfolio"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "spatial",
+      "id": "modular-light",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Modular Light",
+      "prompt_path": "prompts/modular-light/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm white, graphite and butter yellow; sage material option, flat readable labels and finely separated joint lines.",
+        "composition": "A vertical collection title, broad central folded lamp and a narrow configure invitation; B a numbered parts rail and live assembly workbench beside controls.",
+        "content_rhythm": "Catalogue spread, fold principle and three use scenarios versus numbered components, direct construction and an envelope ledger.",
+        "imagery": "Original depth-tested WebGL polygonal lamp with folded opaque paper planes, matte aluminum joints and a visible directional light cone; truthful SVG fallback.",
+        "interaction": "Three to seven real modules, three shades and three purposes update geometry and concept dimensions, with undo, exact copy, download and validated unsent enquiry.",
+        "motion": "Five modules assemble in 900ms, scenario cone and ambience interpolate, one-axis explosion returns on toggle and module edits briefly reflow; stable reduced state and pause.",
+        "navigation": "Visible principle, light and assembly destinations; B starts directly in a parts-to-configuration workbench.",
+        "typography": "Large light grotesque collection typography and small monospaced assembly numbers, with clear practical sans-serif copy."
+      },
+      "status": "ready",
+      "style_path": "styles/modular-light/style.md",
+      "summary": "A folded paper-and-aluminum lamp catalogue and numbered assembly workbench with real module, shade and light configuration.",
+      "tags": [
+        "dimensional",
+        "product-led",
+        "geometric",
+        "precise"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/modular-light/preview-mobile.png",
+          "preview_path": "styles/modular-light/preview.png",
+          "reference_path": "styles/modular-light/reference/index.html",
+          "title": "Folded-light catalogue spread"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/modular-light/preview-alt-mobile.png",
+          "preview_path": "styles/modular-light/preview-alt.png",
+          "reference_path": "styles/modular-light/reference/alternate.html",
+          "title": "Numbered assembly workbench"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "events",

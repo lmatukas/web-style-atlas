@@ -1,0 +1,47 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #F0D98B;
+  --color-aluminum: #A4AEAA;
+  --color-background: #F7F2E8;
+  --color-border: #777D74;
+  --color-focus: #385449;
+  --color-graphite: #262B2B;
+  --color-muted: #515853;
+  --color-on-accent: #262B2B;
+  --color-paper: #F7F2E8;
+  --color-sage: #8EAA98;
+  --color-surface: #EAE5DB;
+  --color-text: #262B2B;
+  --font-body: "Arial", "Helvetica", sans-serif;
+  --font-display: "Arial", "Helvetica", sans-serif;
+  --font-size-body: 1rem;
+  --font-size-display: 7rem;
+  --font-size-heading: 2rem;
+  --font-size-small: 0.875rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 92rem;
+  --layout-text-max-width: 65ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.02em;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.1;
+  --motion-duration-assembly: 900ms;
+  --motion-duration-instant: 0ms;
+  --motion-duration-reflow: 500ms;
+  --motion-duration-scenario: 650ms;
+  --motion-duration-short: 150ms;
+  --motion-easing-standard: ease-out;
+  --radius-none: 0;
+  --radius-small: 0.25rem;
+  --shadow-none: none;
+  --spacing-large: 2rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 4rem;
+  --spacing-small: 0.5rem;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */
