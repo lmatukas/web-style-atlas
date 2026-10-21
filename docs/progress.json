@@ -2306,17 +2306,17 @@
     {
       "id": "S29",
       "title": "Twilight Expedition",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S28"
       ],
       "worker": "Codex/fa3a4cc05875/S29",
       "claimed_at": "2026-10-21T14:53:08.537811Z",
-      "updated_at": "2026-10-21T15:08:45.778374Z",
+      "updated_at": "2026-10-21T15:10:54.242657Z",
       "branch": "task/s29-twilight-expedition",
       "base_commit": "a60910954af27742a936437023dd0d432ed158a5",
       "evidence_commit": "7e0442175212223eac3bb303401957d86bec486d",
-      "merge_commit": null,
+      "merge_commit": "c63e35d8c14b412af75817a26bda823c53797acf",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/68",
       "checks": [
         {
@@ -2338,14 +2338,19 @@
           "name": "Unit regression",
           "status": "pass",
           "details": "81 tests passed; no shared infrastructure or dependency changes."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39622970872 completed successfully on 7e0442175212223eac3bb303401957d86bec486d. Actual PR #68 merged as c63e35d8c14b412af75817a26bda823c53797acf; tested implementation parent and retained main review tracking verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S29.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head GitHub CI, inspect PR and merge under existing owner authorization if all required checks pass.",
-      "handoff": "Implementation PR #68 is open on exact API commit whose tree matches the locally tested commit. Single continuation task; do not start S30 in this turn. Public release remains P18."
+      "next_action": "Single continuation task completed. Next eligible task is S30 on a new request; public release remains P18.",
+      "handoff": "PR #68 actually merged after exact-head Atlas validation run 39622970872 succeeded. Tested head is an actual merge parent; only tracking files differ from tested implementation. Stop after this single requested task."
     },
     {
       "id": "S30",
