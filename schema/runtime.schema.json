@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "runtime.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "renderer": {
+      "enum": [
+        "webgl",
+        "svg",
+        "canvas2d",
+        "html"
+      ]
+    },
+    "audio": {
+      "type": "boolean"
+    },
+    "stable_state": {
+      "const": "reduced-motion"
+    },
+    "motion": {
+      "const": "finite-with-pause"
+    }
+  },
+  "required": [
+    "schema_version",
+    "renderer",
+    "audio",
+    "stable_state",
+    "motion"
+  ],
+  "additionalProperties": false
+}

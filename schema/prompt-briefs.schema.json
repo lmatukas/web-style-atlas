@@ -85,6 +85,10 @@
             },
             "minItems": 1,
             "uniqueItems": true
+          },
+          "audio": {
+            "type": "boolean",
+            "description": "Whether this brief requires a real opt-in Web Audio interaction."
           }
         },
         "required": [
@@ -99,7 +103,8 @@
           "signature",
           "acceptance",
           "enhancement",
-          "closest_styles"
+          "closest_styles",
+          "audio"
         ],
         "additionalProperties": false
       }

@@ -18,6 +18,7 @@ export function promptFixture() {
   for (const name of ['preview.png', 'preview-mobile.png', 'preview-alt.png', 'preview-alt-mobile.png']) {
     cpSync(join(project, 'styles/swiss-grid/preview.png'), path(name));
   }
+  writeFileSync(path('runtime.json'), JSON.stringify({schema_version:1,renderer:'webgl',audio:true,stable_state:'reduced-motion',motion:'finite-with-pause'}));
   build({root});
   return {...result, source, brief, promptFile, registry};
 }
