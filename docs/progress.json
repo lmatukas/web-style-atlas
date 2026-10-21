@@ -1336,22 +1336,22 @@
     {
       "id": "S14",
       "title": "Newspaper Ledger",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S13"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2875ce3dc6da/batch-two",
+      "claimed_at": "2026-10-21T06:59:04.726Z",
+      "updated_at": "2026-10-21T06:59:04.727Z",
+      "branch": "task/s14-atlas",
+      "base_commit": "278c0bccc5968335fdc85c942cdfbeb730618efa",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Claim using docs/WORKFLOW.md when eligible.",
+      "next_action": "Implement and verify next style within ten-task authorization.",
       "handoff": null
     },
     {
