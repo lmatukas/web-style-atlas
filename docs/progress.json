@@ -1606,17 +1606,17 @@
     {
       "id": "S19",
       "title": "Botanical Engraving",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S18"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:34:30.458Z",
-      "updated_at": "2026-10-21T07:39:04.582Z",
+      "updated_at": "2026-10-21T07:41:16.076Z",
       "branch": "task/s19-atlas",
       "base_commit": "d7a831f0ecd20a2051e6cb96b68a86b2acd1e2f6",
       "evidence_commit": "4c2ee36cfccd4530f98a45335508d9e3a7e881f8",
-      "merge_commit": null,
+      "merge_commit": "b688dde9dcde3cfa6229a9bd82fa456b54f8f7ef",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/31",
       "checks": [
         {
@@ -1643,14 +1643,19 @@
           "name": "git diff --check and generated drift",
           "status": "pass",
           "details": "Clean whitespace; source and generated wrapper checks passed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39563484423 succeeded on 4c2ee36cfccd4530f98a45335508d9e3a7e881f8"
         }
       ],
       "evidence_paths": [
         "docs/evidence/S19.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
-      "handoff": "Add Botanical Engraving story and classified herbarium complete; actual local checks and visual evidence retained. Public gallery awaits release."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue up to ten tasks; no scheduled automation or premature deployment."
     },
     {
       "id": "S20",
