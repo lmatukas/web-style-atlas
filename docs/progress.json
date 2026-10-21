@@ -2654,8 +2654,8 @@
         "S35"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
-      "claimed_at": "2026-10-21T17:23:56.842Z",
-      "updated_at": "2026-10-21T17:31:42.842Z",
+      "claimed_at": "2026-10-21T17:24:04Z",
+      "updated_at": "2026-10-21T17:31:28Z",
       "branch": "task/s36-expansion",
       "base_commit": "f84349cab6dd3b618ee7948642da23187f63d183",
       "evidence_commit": "163a0a1c6bf176122d521781710ffa91cca3fc26",
@@ -2688,8 +2688,8 @@
         "S36"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
-      "claimed_at": "2026-10-21T17:31:47.408Z",
-      "updated_at": "2026-10-21T17:39:57.477Z",
+      "claimed_at": "2026-10-21T17:31:49Z",
+      "updated_at": "2026-10-21T17:39:54Z",
       "branch": "task/s37-expansion",
       "base_commit": "d126c6e5fb2a051080c06f3bf0ed7ba7edb16592",
       "evidence_commit": "8f4b6873e1537345e5c3b537c0360999977fea98",
@@ -2722,8 +2722,8 @@
         "S37"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
-      "claimed_at": "2026-10-21T17:40:08.231Z",
-      "updated_at": "2026-10-21T17:47:41.336Z",
+      "claimed_at": "2026-10-21T17:40:10Z",
+      "updated_at": "2026-10-21T17:47:37Z",
       "branch": "task/s38-expansion",
       "base_commit": "ec4509802c411f15eb624d4dd94813a00a6e0002",
       "evidence_commit": "29afe8ee01660118ab69aa3998d1a766a72d7ed6",
@@ -2756,8 +2756,8 @@
         "S38"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
-      "claimed_at": "2026-10-21T17:47:54.543Z",
-      "updated_at": "2026-10-21T17:58:40.633Z",
+      "claimed_at": "2026-10-21T17:47:57Z",
+      "updated_at": "2026-10-21T17:58:37Z",
       "branch": "task/s39-expansion",
       "base_commit": "e9f31d744e92910670caf6e67aa61928cbd37e52",
       "evidence_commit": "c9fa308cb19f9217950304bfda7606b9a063ce01",
@@ -2779,8 +2779,8 @@
         "docs/evidence/S39.md"
       ],
       "blocker": null,
-      "next_action": "S39 accepted; continue authorized S36–S39 sequence.",
-      "handoff": "PR #78 actually merged; exact tested implementation is a merge parent and merged tree matches local implementation plus review tracking. All three CI jobs passed."
+      "next_action": "S36–S39 batch complete. Next eligible task is P17 on a new request; public release remains P18.",
+      "handoff": "All four requested tasks S36–S39 independently merged after successful exact-head GitHub CI and acceptance. Stop after S39. P17 audit and P18 release remain todo. Claim/update timestamps reconciled to actual GitHub claim commit and PR merge UTC evidence."
     },
     {
       "id": "P17",
