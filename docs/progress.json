@@ -2453,23 +2453,23 @@
     {
       "id": "S32",
       "title": "Woven Field",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S31"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T11:13:52.123Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/fa3a4cc05875/batch-five",
+      "claimed_at": "2026-10-21T16:09:29.856177Z",
+      "updated_at": "2026-10-21T16:09:29.856177Z",
+      "branch": "task/s32-woven-field",
+      "base_commit": "e2e95c35de5863c09a6024d5342d72fb1d0c0482",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "checks": [],
       "evidence_paths": [],
       "blocker": null,
-      "next_action": "Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius.",
-      "handoff": null
+      "next_action": "Implement S32 with A/B, actual functional/motion gates and four canonical previews.",
+      "handoff": "Owner authorizes five new sequential tasks S31–S35, each in its own verified PR and merge. Continue after this task; stop after S35. Public release remains P18."
     },
     {
       "id": "S33",
