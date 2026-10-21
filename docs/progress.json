@@ -2600,23 +2600,46 @@
     {
       "id": "S35",
       "title": "Balcony Builder",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S34"
       ],
       "worker": "Codex/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:42:00.623327Z",
-      "updated_at": "2026-10-21T16:42:00.623327Z",
+      "updated_at": "2026-10-21T16:52:39.321075Z",
       "branch": "task/s35-balcony-builder",
       "base_commit": "0ac6810eaabd9034e86cd8b81d55571728f6dccc",
-      "evidence_commit": null,
+      "evidence_commit": "4c4f38d3f6c8680b7b9ccb339d0791249204ecac",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/74",
+      "checks": [
+        {
+          "name": "Scoped source/build/preview freshness",
+          "status": "pass",
+          "details": "validate/build/four canonical renders/rebuild/check for balcony-builder."
+        },
+        {
+          "name": "Actual A/B configuration, runtime and persistence",
+          "status": "pass",
+          "details": "12 runtime/business cases and 48 configurations; full 18-rule matrices, actual SVG/composition motion, wizard keyboard/focus, exact save/update/sibling restore, own-key deletion, invalid and blocked storage."
+        },
+        {
+          "name": "Accessibility, lifecycle and responsive gates",
+          "status": "pass",
+          "details": "Six axe/browser pages and four-width business matrix; monotonic locked branch; both active A/B pause/offscreen/hidden-resume cases."
+        },
+        {
+          "name": "Visual and actual full prompt integration",
+          "status": "pass",
+          "details": "Four actual PNGs and both ready neighbors inspected, 11/12; exact B complete creation prompt copy and real reference under /atlas/."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S35.md"
+      ],
       "blocker": null,
-      "next_action": "Implement S35 with A/B, actual functional/motion gates and four canonical previews.",
-      "handoff": "Owner authorizes five new sequential tasks S31–S35, each in its own verified PR and merge. Continue after this task; stop after S35. Public release remains P18."
+      "next_action": "Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch.",
+      "handoff": "Implementation tree matches locally tested source. This is part of authorized five-task batch S31–S35. No public deployment."
     },
     {
       "id": "S36",

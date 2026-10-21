@@ -4,7 +4,7 @@
 
 **Baigta: 50/57.**
 
-**Pirmiausia patikrinti S35: Vykdoma; vykdytojas Codex/fa3a4cc05875/batch-five.**
+**Pirmiausia patikrinti S35: Laukia peržiūros; vykdytojas Codex/fa3a4cc05875/batch-five.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -60,7 +60,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S32](tasks/S32.md) | Woven Field | Baigta | Codex/fa3a4cc05875/batch-five | task/s32-woven-field | [PR](https://github.com/lmatukas/web-style-atlas/pull/71) | 2026-10-21T16:19:59.173466Z | Continue authorized five-task batch; select next eligible task. |
 | [S33](tasks/S33.md) | Choreographic Stage | Baigta | Codex/fa3a4cc05875/batch-five | task/s33-choreographic-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/72) | 2026-10-21T16:28:35.332855Z | Continue authorized five-task batch; select next eligible task. |
 | [S34](tasks/S34.md) | Repair Atlas | Baigta | Codex/fa3a4cc05875/batch-five | task/s34-repair-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/73) | 2026-10-21T16:41:38.993300Z | Continue authorized five-task batch; select next eligible task. |
-| [S35](tasks/S35.md) | Balcony Builder | Vykdoma | Codex/fa3a4cc05875/batch-five | task/s35-balcony-builder | — | 2026-10-21T16:42:00.623327Z | Implement S35 with A/B, actual functional/motion gates and four canonical previews. |
+| [S35](tasks/S35.md) | Balcony Builder | Laukia peržiūros | Codex/fa3a4cc05875/batch-five | task/s35-balcony-builder | [PR](https://github.com/lmatukas/web-style-atlas/pull/74) | 2026-10-21T16:52:39.321075Z | Wait for exact-head CI; inspect and merge if all required checks pass, then continue authorized batch. |
 | [S36](tasks/S36.md) | Rhythm Planner | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S37](tasks/S37.md) | Spine Editions | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S38](tasks/S38.md) | Trail Composer | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
