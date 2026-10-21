@@ -1768,17 +1768,17 @@
     {
       "id": "S22",
       "title": "Architectural Monograph",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S21"
       ],
       "worker": "Codex/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:58:24.809Z",
-      "updated_at": "2026-10-21T08:10:21.520Z",
+      "updated_at": "2026-10-21T08:12:12.372Z",
       "branch": "task/s22-atlas",
       "base_commit": "b9677462011ae795311038e59fb2a2c461c38549",
       "evidence_commit": "82a9b9ad44f3d1780e8bba9b2e82619460dce2b8",
-      "merge_commit": null,
+      "merge_commit": "c6c17b3428c62771ee89098804f6901be1b6d146",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/34",
       "checks": [
         {
@@ -1805,14 +1805,19 @@
           "name": "git diff --check and generated drift",
           "status": "pass",
           "details": "Clean whitespace; source and generated wrapper checks passed."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39567269932 succeeded on 82a9b9ad44f3d1780e8bba9b2e82619460dce2b8"
         }
       ],
       "evidence_paths": [
         "docs/evidence/S22.md"
       ],
       "blocker": null,
-      "next_action": "Wait for exact-head CI, then merge and continue authorized sequential batch.",
-      "handoff": "Add Architectural Monograph and indexed building atlas complete; actual local checks and visual evidence retained. Public gallery awaits release."
+      "next_action": "Select next eligible task within owner-authorized sequential batch.",
+      "handoff": "Exact tested implementation merged and actual GitHub merged state verified. Continue up to ten tasks; no scheduled automation or premature deployment."
     },
     {
       "id": "S23",
