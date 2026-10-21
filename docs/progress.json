@@ -1100,7 +1100,7 @@
     {
       "id": "P10",
       "title": "Realus naudojimo kitame projekte bandymas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P09",
         "P07",
@@ -1108,17 +1108,55 @@
       ],
       "worker": "Codex/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:55:02Z",
-      "updated_at": "2026-10-21T03:55:02Z",
+      "updated_at": "2026-10-21T04:17:24Z",
       "branch": "task/p10-atlas",
       "base_commit": "872a68b1ea0f38ec6252da292f63940d4f06cadb",
-      "evidence_commit": null,
+      "evidence_commit": "7776ed74d18273cd4530e6043a2411a450c4911a",
       "merge_commit": null,
-      "pr_url": null,
-      "checks": [],
-      "evidence_paths": [],
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/22",
+      "checks": [
+        {
+          "name": "actual smaller target executions",
+          "status": "pass",
+          "details": "Six fresh sequential gpt-6-luna collaboration threads; three fixed briefs, one brief in three ready directions and one React adaptation; exact prompts/followups/revision preserved. Exact model snapshot unavailable and native hosts not claimed."
+        },
+        {
+          "name": "independent consumer browser checks",
+          "status": "pass",
+          "details": "All 18 cases at 360/768/1440 under /bench/: required copy, navigation, disclosures, resources/images, overflow, focus and axe rules passed. Both directories include actual filter/empty/reset checks; all final desktop/mobile outputs visually inspected."
+        },
+        {
+          "name": "retained output reproduction",
+          "status": "pass",
+          "details": "Photo materializer verifies original asset hashes; retained React source npm ci/build and nested browser QA passed. Final actual npm audit: zero findings."
+        },
+        {
+          "name": "source and evidence integrity",
+          "status": "pass",
+          "details": "All selected paths exist at frozen 5f35c4ddca6b3be0225108ca8ad1d515d30157a6; ready IDs and all retained file hashes verified. Observed first-attempt failures and corrections documented honestly."
+        },
+        {
+          "name": "unchanged atlas validation/freshness",
+          "status": "pass",
+          "details": "Source validation, thin adapter drift and ci:generated passed; no render inputs changed."
+        },
+        {
+          "name": "git diff --check",
+          "status": "pass",
+          "details": "No whitespace errors."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "pass",
+          "details": "Atlas validation run 39543183075 succeeded on 7776ed74d18273cd4530e6043a2411a450c4911a"
+        }
+      ],
+      "evidence_paths": [
+        "docs/benchmarks/p10/RESULTS.md"
+      ],
       "blocker": null,
-      "next_action": "Implement, test, review and merge under owner-authorized sequential batch of ten tasks.",
-      "handoff": null
+      "next_action": "Inspect exact PR head, merge if all checks pass, verify merge and record done.",
+      "handoff": "Owner authorized ten sequential tasks without scheduling. This task has real acceptance evidence; automatic review/merge follows after exact-head inspection."
     },
     {
       "id": "P11",
