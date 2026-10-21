@@ -4,7 +4,7 @@
 
 **Baigta: 33/38.**
 
-**Pirmiausia patikrinti S22: Vykdoma; vykdytojas Codex/2875ce3dc6da/batch-two.**
+**Pirmiausia patikrinti S22: Laukia peržiūros; vykdytojas Codex/2875ce3dc6da/batch-two.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -43,7 +43,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S19](tasks/S19.md) | Botanical Engraving | Baigta | Codex/2875ce3dc6da/batch-two | task/s19-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/31) | 2026-10-21T07:41:16.076Z | Select next eligible task within owner-authorized sequential batch. |
 | [S20](tasks/S20.md) | Kinetic Type | Baigta | Codex/2875ce3dc6da/batch-two | task/s20-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/32) | 2026-10-21T07:48:55.682Z | Select next eligible task within owner-authorized sequential batch. |
 | [S21](tasks/S21.md) | Soft Spatial | Baigta | Codex/2875ce3dc6da/batch-two | task/s21-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/33) | 2026-10-21T07:58:00.254Z | Select next eligible task within owner-authorized sequential batch. |
-| [S22](tasks/S22.md) | Architectural Monograph | Vykdoma | Codex/2875ce3dc6da/batch-two | task/s22-atlas | — | 2026-10-21T07:58:24.810Z | Implement and verify next style within ten-task authorization. |
+| [S22](tasks/S22.md) | Architectural Monograph | Laukia peržiūros | Codex/2875ce3dc6da/batch-two | task/s22-atlas | [PR](https://github.com/lmatukas/web-style-atlas/pull/34) | 2026-10-21T08:10:21.520Z | Wait for exact-head CI, then merge and continue authorized sequential batch. |
 | [S23](tasks/S23.md) | Pop Commerce | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [S24](tasks/S24.md) | Humanist Service | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
 | [P13](tasks/P13.md) | 24 stilių įvairovės ir naudojimo auditas | Laukia | — | — | — | — | Claim using docs/WORKFLOW.md when eligible. |
