@@ -4,7 +4,7 @@
 
 **Baigta: 42/57.**
 
-**Kita užduotis: [S27](tasks/S27.md).**
+**Pirmiausia patikrinti S27: Vykdoma; vykdytojas Codex/162fd1aaf53b/batch-five.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -52,7 +52,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P16](tasks/P16.md) | Judesio, 3D, garso ir pakaitalų patikrų pagrindas | Baigta | Codex/162fd1aaf53b/batch-five | task/p16-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/49) | 2026-10-21T12:52:50.960Z | Select next eligible task within the owner-authorized five-task batch. |
 | [S25](tasks/S25.md) | Acoustic Sculpture | Baigta | Codex/162fd1aaf53b/batch-five | task/s25-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/53) | 2026-10-21T13:22:25.281Z | Select next eligible task within the owner-authorized five-task batch. |
 | [S26](tasks/S26.md) | Seasonal Terrain | Baigta | Codex/162fd1aaf53b/batch-five | task/s26-expansion | [PR](https://github.com/lmatukas/web-style-atlas/pull/57) | 2026-10-21T13:44:52.132Z | Select next eligible task within the owner-authorized five-task batch. |
-| [S27](tasks/S27.md) | Resonant Ribbon | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
+| [S27](tasks/S27.md) | Resonant Ribbon | Vykdoma | Codex/162fd1aaf53b/batch-five | task/s27-expansion | — | 2026-10-21T13:49:09.936Z | Implement S27 within owner-authorized sequential batch of five. |
 | [S28](tasks/S28.md) | Modular Light | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S29](tasks/S29.md) | Twilight Expedition | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
 | [S30](tasks/S30.md) | Light Environments | Laukia | — | — | — | 2026-10-21T11:13:52.123Z | Vykdyti tik po priklausomybių priėmimo pagal docs/WORKFLOW.md. Parengtas briefas nėra įgyvendintas stilius. |
