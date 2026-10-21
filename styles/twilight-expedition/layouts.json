@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Dusk panorama and arrival chapters",
+      "page_type": "travel",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible arrival, routes and enquiry anchors, plus the sibling atlas.",
+      "ordered_sections": [
+        {
+          "purpose": "Enter the panorama",
+          "pattern": "Broad stable landscape and compact title",
+          "content_requirements": [
+            "Original observatory",
+            "Finite dusk-to-night control"
+          ]
+        },
+        {
+          "purpose": "Understand arrival",
+          "pattern": "Three numbered chapters in a horizontal sequence",
+          "content_requirements": [
+            "Atvykti",
+            "Apsiprasti",
+            "Stebėti"
+          ]
+        },
+        {
+          "purpose": "Plan an enquiry",
+          "pattern": "Route ledger, duration timeline and validated local draft",
+          "content_requirements": [
+            "Three routes",
+            "Three stops",
+            "Exact copy"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: cropped but complete observatory scene, stacked chapters and full-width native controls; 768: two-column planner; 1440: broad panorama and three chapters.",
+      "distinguishing_features": [
+        "Narrative first, followed by a route ledger and enquiry."
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Relief atlas and departure ledger",
+      "page_type": "travel",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible atlas, programme and enquiry anchors, plus the narrative composition.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose an expedition",
+          "pattern": "Terrain atlas beside a narrow planning ledger",
+          "content_requirements": [
+            "Route selector",
+            "Duration",
+            "Participants"
+          ]
+        },
+        {
+          "purpose": "Read stop timing",
+          "pattern": "Numbered stop explanations linked to the terrain",
+          "content_requirements": [
+            "Three stop buttons",
+            "Demonstrative timings"
+          ]
+        },
+        {
+          "purpose": "Prepare the enquiry",
+          "pattern": "Preparation and local unsent draft",
+          "content_requirements": [
+            "Required contact",
+            "Manual clipboard fallback"
+          ]
+        }
+      ],
+      "mobile_reflow": "360/390: atlas scene first, planning ledger second, stops below; 768: same stacked order; 1440: wide terrain beside a narrow ledger.",
+      "distinguishing_features": [
+        "Planning first with a terrain-to-ledger split; no opening narrative chapters."
+      ]
+    }
+  ]
+}

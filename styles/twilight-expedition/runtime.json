@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "renderer": "webgl",
+  "audio": false,
+  "stable_state": "reduced-motion",
+  "motion": "finite-with-pause"
+}

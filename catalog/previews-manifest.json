@@ -1096,6 +1096,46 @@
       "width": 390
     },
     {
+      "height": 3029,
+      "output_sha256": "bcf142e5e5eba545186209d68181f1d715c29d3226b54eb162942b8bc703fba1",
+      "path": "styles/twilight-expedition/preview.png",
+      "source_sha256": "6c1820c391c5bc8030ce03dde4c5585112e3edd0f1e957419dce033018ec1b60",
+      "style_id": "twilight-expedition",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4320,
+      "output_sha256": "abd92742908ed54514d2d5e5abd626162f66190429b8aae4ae7b69b535d35e05",
+      "path": "styles/twilight-expedition/preview-mobile.png",
+      "source_sha256": "6c1820c391c5bc8030ce03dde4c5585112e3edd0f1e957419dce033018ec1b60",
+      "style_id": "twilight-expedition",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2657,
+      "output_sha256": "c9b6126b25e8432a00eff4bdcb78e84feb5f18b43fbbb31d1456b6d243d02737",
+      "path": "styles/twilight-expedition/preview-alt.png",
+      "source_sha256": "6c1820c391c5bc8030ce03dde4c5585112e3edd0f1e957419dce033018ec1b60",
+      "style_id": "twilight-expedition",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3670,
+      "output_sha256": "d10f83273c85d4ffde722e5cc122a0fb2c11510442b7a264a09f4f1e8655c1c4",
+      "path": "styles/twilight-expedition/preview-alt-mobile.png",
+      "source_sha256": "6c1820c391c5bc8030ce03dde4c5585112e3edd0f1e957419dce033018ec1b60",
+      "style_id": "twilight-expedition",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2049,
       "output_sha256": "91b3d8ade025f6869a4634f0ea1fc7a3dcf9f58a9ec5402befcb49cf889b50a2",
       "path": "styles/y2k-chrome/preview.png",

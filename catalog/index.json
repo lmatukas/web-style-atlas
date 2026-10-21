@@ -1371,6 +1371,61 @@
       ]
     },
     {
+      "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "travel",
+        "architecture",
+        "hospitality"
+      ],
+      "complexity": "medium",
+      "density": "balanced",
+      "family": "spatial",
+      "id": "twilight-expedition",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Twilight Expedition",
+      "prompt_path": "prompts/twilight-expedition/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Night blue, rock gray, amber and warm white, with opaque readable labels and a finite sky-light change.",
+        "composition": "A broad stable observatory panorama and three arrival chapters; B a relief atlas beside an immediate narrow planning ledger.",
+        "content_rhythm": "Panorama, three arrival chapters and route programme versus atlas workbench, timed stops and enquiry.",
+        "imagery": "Original depth-tested triangulated mountain terrain and small faceted observatory dome; labelled static SVG fallback.",
+        "interaction": "Three routes, four durations and one-to-eight participants change three stop descriptions, total time and exact validated unsent enquiry.",
+        "motion": "One-second initial light; reversible two-second dusk-to-night; small linear chapter camera shifts; finite route drawing and a duration marker, with pause and reduced states.",
+        "navigation": "Visible route/enquiry anchors and an actual sibling layout; B begins with planning rather than narrative chapters.",
+        "typography": "Quiet Georgia display headings, small spaced documentary labels and practical Arial controls."
+      },
+      "status": "ready",
+      "style_path": "styles/twilight-expedition/style.md",
+      "summary": "A stable mountain-observatory panorama and relief atlas connect finite dusk-to-night transitions to a real local itinerary and enquiry.",
+      "tags": [
+        "dimensional",
+        "cinematic",
+        "calm",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/twilight-expedition/preview-mobile.png",
+          "preview_path": "styles/twilight-expedition/preview.png",
+          "reference_path": "styles/twilight-expedition/reference/index.html",
+          "title": "Dusk panorama and arrival chapters"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/twilight-expedition/preview-alt-mobile.png",
+          "preview_path": "styles/twilight-expedition/preview-alt.png",
+          "reference_path": "styles/twilight-expedition/reference/alternate.html",
+          "title": "Relief atlas and departure ledger"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "culture",
