@@ -16,6 +16,46 @@
   },
   "previews": [
     {
+      "height": 2836,
+      "output_sha256": "945ce1b861c8db849cf20cfd765d364f259b24b75104a80410b5f943fd0b5401",
+      "path": "styles/architectural-monograph/preview.png",
+      "source_sha256": "d8ea54d2494eb448d738dd3fa0c525a759196aa18411296e68d1a34505178926",
+      "style_id": "architectural-monograph",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3146,
+      "output_sha256": "b2543019c6cc29fa2da99df368e4d0d4e769c4a80327009fdc8b1e121364b131",
+      "path": "styles/architectural-monograph/preview-mobile.png",
+      "source_sha256": "d8ea54d2494eb448d738dd3fa0c525a759196aa18411296e68d1a34505178926",
+      "style_id": "architectural-monograph",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 2269,
+      "output_sha256": "384210094932748b11f36ddeb821a78c24e88ad030b7062464979c38ccc9e702",
+      "path": "styles/architectural-monograph/preview-alt.png",
+      "source_sha256": "d8ea54d2494eb448d738dd3fa0c525a759196aa18411296e68d1a34505178926",
+      "style_id": "architectural-monograph",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2740,
+      "output_sha256": "4aeac7630ac38afd8a1974261300aec134d7c60d9e0c94d599a970f73c4d7b90",
+      "path": "styles/architectural-monograph/preview-alt-mobile.png",
+      "source_sha256": "d8ea54d2494eb448d738dd3fa0c525a759196aa18411296e68d1a34505178926",
+      "style_id": "architectural-monograph",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2136,
       "output_sha256": "86dca24b619348a1db616e4885e3664e0efc7cd8794356609cb24f36a51d8e04",
       "path": "styles/art-deco/preview.png",

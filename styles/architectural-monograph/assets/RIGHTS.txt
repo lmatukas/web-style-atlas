@@ -1,0 +1,26 @@
+Architectural Monograph assets — verified 2026-10-21
+
+Photographs by Carol M. Highsmith, Library of Congress, Prints & Photographs Division.
+1. Farnsworth House 2006.jpg, LC-DIG-highsm-04118
+Source: https://commons.wikimedia.org/wiki/File:Farnsworth_House_2006.jpg
+Primary record: https://www.loc.gov/pictures/collection/highsm/item/2010630115/
+Derivative downloaded: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Farnsworth_House_2006.jpg/1280px-Farnsworth_House_2006.jpg
+2. Glass House 2006.jpg, LC-DIG-highsm-04817
+Source: https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg
+Primary record: https://www.loc.gov/pictures/collection/highsm/item/2010630799/
+Derivative downloaded: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Glass_House_2006.jpg/1280px-Glass_House_2006.jpg
+
+Both Commons source records identify Highsmith and the above reproduction numbers,
+and mark the photographs public domain. The primary collection rights statement
+https://wwws.loc.gov/rr/print/res/482_high.html states that Highsmith dedicated her
+photographs to the public domain. No endorsement or project authorship implied.
+Local changes: retain 1280px derivative dimensions, convert to monochrome, strip
+metadata, encode lossless WebP with a 64-step monochrome palette. A detail figure applies a labeled CSS crop of the
+same Farnsworth photograph. The local conversions do not create new restrictions.
+
+plan.svg: original MIT code-authored schematic by Web Style Atlas contributors
+(Codex, S22). It interprets enclosure, threshold and terrace relationships. It is
+not a survey, precise floor plan, reproduction of an archival drawing or source
+of construction dimensions. Do not use for construction or represent it as measured.
+Building information checked against the official Edith Farnsworth House history
+and The Glass House building account; both are linked from the references.

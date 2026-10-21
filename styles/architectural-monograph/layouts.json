@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Photograph and plan monograph",
+      "page_type": "architecture",
+      "reference_path": "reference/index.html",
+      "navigation": "Project atlas, plan anchor, official history and source disclosure.",
+      "ordered_sections": [
+        {
+          "purpose": "Identify project",
+          "pattern": "Title plus compact factual dossier",
+          "content_requirements": [
+            "Architect",
+            "Location",
+            "Completion"
+          ]
+        },
+        {
+          "purpose": "Present photographic evidence",
+          "pattern": "Large photograph with figure credit",
+          "content_requirements": [
+            "Real building",
+            "Reproduction number"
+          ]
+        },
+        {
+          "purpose": "Interpret relationships",
+          "pattern": "Analytic reading then original plan diagram",
+          "content_requirements": [
+            "Clear schematic limits",
+            "No dimensions"
+          ]
+        },
+        {
+          "purpose": "Read a closer detail",
+          "pattern": "Labeled crop beside observation",
+          "content_requirements": [
+            "Same photograph identified",
+            "Atlas link"
+          ]
+        },
+        {
+          "purpose": "Document sources",
+          "pattern": "Notes and native disclosure",
+          "content_requirements": [
+            "Actual rights record",
+            "External primary sources"
+          ]
+        }
+      ],
+      "mobile_reflow": "Dossier and complete photo stack; plan stays whole and caption wraps.",
+      "distinguishing_features": [
+        "Photograph/plan/note ratio",
+        "Explicit schematic plan limits",
+        "Single-building sustained reading"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Indexed building atlas",
+      "page_type": "architecture",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Semantic project table, building anchors, monograph route and source disclosure.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce atlas",
+          "pattern": "Broad title and short scope",
+          "content_requirements": [
+            "Two real buildings",
+            "Independent reading context"
+          ]
+        },
+        {
+          "purpose": "Index projects",
+          "pattern": "Accessible two-row table",
+          "content_requirements": [
+            "Building links",
+            "Locations and dates"
+          ]
+        },
+        {
+          "purpose": "Read first building",
+          "pattern": "Large image beside narrow observation",
+          "content_requirements": [
+            "Farnsworth authorship",
+            "Monograph link"
+          ]
+        },
+        {
+          "purpose": "Read second building",
+          "pattern": "Unequal reversed photograph spread",
+          "content_requirements": [
+            "Glass House authorship",
+            "Official source link"
+          ]
+        },
+        {
+          "purpose": "Close and document",
+          "pattern": "Method statement and source notes",
+          "content_requirements": [
+            "Credit both photographs",
+            "Return to index"
+          ]
+        }
+      ],
+      "mobile_reflow": "Index cells wrap; each project title/image/note forms a complete document sequence.",
+      "distinguishing_features": [
+        "Actual project index",
+        "Two unequal documented spreads",
+        "Cross-building observation replaces plan study"
+      ]
+    }
+  ]
+}
