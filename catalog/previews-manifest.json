@@ -856,6 +856,46 @@
       "width": 390
     },
     {
+      "height": 3765,
+      "output_sha256": "5d95178a71bbfab0791af274aad4bf0b52dc61e2ae54878ff8dc453e2691a3c4",
+      "path": "styles/seasonal-terrain/preview.png",
+      "source_sha256": "c4df6757e3f96087345690d4ec10d9bf020ab71fa94b87e2bc65b921a24ecfbc",
+      "style_id": "seasonal-terrain",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4420,
+      "output_sha256": "c4047dd00047ff3246aa2fe6c643f360a4f0ee51ad6657e0e54a68703a6dc9d0",
+      "path": "styles/seasonal-terrain/preview-mobile.png",
+      "source_sha256": "c4df6757e3f96087345690d4ec10d9bf020ab71fa94b87e2bc65b921a24ecfbc",
+      "style_id": "seasonal-terrain",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3167,
+      "output_sha256": "a62954b87ea3a406fc982bcdc45fe45296aed541eb3b1dd65e10a2111e520f32",
+      "path": "styles/seasonal-terrain/preview-alt.png",
+      "source_sha256": "c4df6757e3f96087345690d4ec10d9bf020ab71fa94b87e2bc65b921a24ecfbc",
+      "style_id": "seasonal-terrain",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4500,
+      "output_sha256": "ffd483e5e6b234b1b7e84c06dd82c60d636ea809b22fd174ad21c9783f791d93",
+      "path": "styles/seasonal-terrain/preview-alt-mobile.png",
+      "source_sha256": "c4df6757e3f96087345690d4ec10d9bf020ab71fa94b87e2bc65b921a24ecfbc",
+      "style_id": "seasonal-terrain",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2043,
       "output_sha256": "8eb337e551a897b7a88b0eab264f128275b8e45150d45aa6c64d8e6b298bca0e",
       "path": "styles/soft-spatial/preview.png",

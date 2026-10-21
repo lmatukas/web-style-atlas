@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Soil story and seasonal basket",
+      "page_type": "commerce",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible soil/seasons/basket anchors, A/B sibling link, explicit month or season selection.",
+      "ordered_sections": [
+        {
+          "purpose": "Centered harvest statement and broad organic terrain",
+          "pattern": "Centered harvest statement and broad organic terrain",
+          "content_requirements": [
+            "Original illustrative Lithuanian copy",
+            "Truthful local selection or useful description"
+          ]
+        },
+        {
+          "purpose": "Four-season strip and farming principles",
+          "pattern": "Four-season strip and farming principles",
+          "content_requirements": [
+            "Original illustrative Lithuanian copy",
+            "Truthful local selection or useful description"
+          ]
+        },
+        {
+          "purpose": "Clay basket builder and delivery note",
+          "pattern": "Clay basket builder and delivery note",
+          "content_requirements": [
+            "Original illustrative Lithuanian copy",
+            "Truthful local selection or useful description"
+          ]
+        }
+      ],
+      "mobile_reflow": "Calendar wraps to two columns; terrain and basket stack with full-width controls at 360px.",
+      "distinguishing_features": [
+        "Centered harvest statement and broad organic terrain",
+        "Four-season strip and farming principles",
+        "Clay basket builder and delivery note"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Annual calendar and stepped basket",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible soil/seasons/basket anchors, A/B sibling link, explicit month or season selection.",
+      "ordered_sections": [
+        {
+          "purpose": "Four seasonal columns with twelve month buttons",
+          "pattern": "Four seasonal columns with twelve month buttons",
+          "content_requirements": [
+            "Original illustrative Lithuanian copy",
+            "Truthful local selection or useful description"
+          ]
+        },
+        {
+          "purpose": "Annotated terrain beside three configuration steps",
+          "pattern": "Annotated terrain beside three configuration steps",
+          "content_requirements": [
+            "Original illustrative Lithuanian copy",
+            "Truthful local selection or useful description"
+          ]
+        },
+        {
+          "purpose": "Principles ledger and local delivery explanation",
+          "pattern": "Principles ledger and local delivery explanation",
+          "content_requirements": [
+            "Original illustrative Lithuanian copy",
+            "Truthful local selection or useful description"
+          ]
+        }
+      ],
+      "mobile_reflow": "Calendar wraps to two columns; terrain and basket stack with full-width controls at 360px.",
+      "distinguishing_features": [
+        "Four seasonal columns with twelve month buttons",
+        "Annotated terrain beside three configuration steps",
+        "Principles ledger and local delivery explanation"
+      ]
+    }
+  ]
+}
