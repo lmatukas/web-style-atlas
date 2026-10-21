@@ -20,7 +20,8 @@
       "closest_styles": [
         "soft-spatial",
         "y2k-chrome"
-      ]
+      ],
+      "audio": true
     },
     {
       "task_id": "S26",
@@ -40,7 +41,8 @@
       "closest_styles": [
         "organic-craft",
         "field-notes"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S27",
@@ -60,7 +62,8 @@
       "closest_styles": [
         "acoustic-sculpture",
         "organic-craft"
-      ]
+      ],
+      "audio": true
     },
     {
       "task_id": "S28",
@@ -80,7 +83,8 @@
       "closest_styles": [
         "industrial-spec",
         "soft-spatial"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S29",
@@ -100,7 +104,8 @@
       "closest_styles": [
         "cinematic-photo",
         "field-notes"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S30",
@@ -120,7 +125,8 @@
       "closest_styles": [
         "twilight-expedition",
         "soft-spatial"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S31",
@@ -140,7 +146,8 @@
       "closest_styles": [
         "botanical-engraving",
         "playful-cutout"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S32",
@@ -160,7 +167,8 @@
       "closest_styles": [
         "organic-craft",
         "botanical-engraving"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S33",
@@ -180,7 +188,8 @@
       "closest_styles": [
         "kinetic-type",
         "neo-brutalist"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S34",
@@ -200,7 +209,8 @@
       "closest_styles": [
         "industrial-spec",
         "pop-commerce"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S35",
@@ -220,7 +230,8 @@
       "closest_styles": [
         "pop-commerce",
         "seasonal-terrain"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S36",
@@ -240,7 +251,8 @@
       "closest_styles": [
         "data-observatory",
         "kinetic-type"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S37",
@@ -260,7 +272,8 @@
       "closest_styles": [
         "editorial-journal",
         "newspaper-ledger"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S38",
@@ -280,7 +293,8 @@
       "closest_styles": [
         "field-notes",
         "twilight-expedition"
-      ]
+      ],
+      "audio": false
     },
     {
       "task_id": "S39",
@@ -300,7 +314,8 @@
       "closest_styles": [
         "resonant-ribbon",
         "kinetic-type"
-      ]
+      ],
+      "audio": true
     }
   ]
 }

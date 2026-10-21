@@ -2,6 +2,7 @@ import { lstatSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT, fail, isId, json, text, localFile, validator, frontmatter, argumentsFor, isMain, existsSync } from './lib/files.mjs';
 import { validate as validateQueue, render } from './tasks.mjs';
+import {validateRuntime} from './capabilities.mjs';
 import {creationPrompt, loadPromptBriefs} from './prompts.mjs';
 
 export const SECTIONS = ['Intent', 'Signature', 'Typography', 'Color and surfaces', 'Layout A', 'Layout B', 'Imagery', 'Navigation and interaction', 'Motion', 'Responsive behavior', 'Accessibility', 'Adaptation', 'Avoid', 'Closest styles'];
@@ -61,10 +62,12 @@ function validateStyle(root, id, check, vocabulary, briefs) {
   const { metadata, body } = frontmatter(root, path);
   check('style', metadata, path);
   if (metadata.id !== id) fail(path, '/id', `must equal directory ID ${id}`);
+  let runtime;
   if (metadata.prompt_path !== undefined) {
     creationPrompt(root, id, metadata.prompt_path);
     if (briefs.get(id)?.prompt_path !== metadata.prompt_path) fail(path, '/prompt_path', 'must match this style in prompts/index.json');
   }
+    if (metadata.prompt_path) runtime = validateRuntime(root, id, briefs.get(id), check);
   member(metadata.family, vocabulary.families, path, '/family');
   for (const [field, values] of [['tags', vocabulary.tags], ['best_for', vocabulary.use_cases], ['avoid_for', vocabulary.use_cases]]) {
     metadata[field].forEach((value, index) => member(value, values, path, `/${field}/${index}`));
@@ -96,7 +99,7 @@ function validateStyle(root, id, check, vocabulary, briefs) {
     reference(variant.reference_path, 'layouts.json', `/variants/${i}/reference_path`, metadata.status === 'draft');
   }
   if (metadata.status === 'ready') localFile(root, `${base}/reference/style.css`);
-  return { id, base, metadata, tokens, layouts, assets };
+  return { id, base, metadata, tokens, layouts, assets, runtime };
 }
 
 export function loadAtlas({ root = ROOT, style } = {}) {
