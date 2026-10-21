@@ -1,0 +1,26 @@
+[
+  {
+    "case": "service-terminal",
+    "message": "Let me know when source files are final. I will independently run the shared Chromium/axe checks on the target after your completion; keep your own verification claims precise."
+  },
+  {
+    "case": "service-institutional",
+    "message": "Your current target passes independent Chromium/axe checks at 360/768/1440, including search one-match, empty state and reset. Please finish your own recorded handoff when ready; keep author verification claims separate."
+  },
+  {
+    "case": "photo-portfolio",
+    "message": "Independent browser checks passed at 360/768/1440. Please review your rendered footer before finalizing: screenshots are /tmp/atlas-p10-qa/photo-portfolio-360.png and /tmp/atlas-p10-qa/photo-portfolio-1440.png. Assess whether all visible footer content belongs in this portfolio, using your original brief. Keep any actual verification limitations explicit."
+  },
+  {
+    "case": "service-react",
+    "message": "Please inspect and resolve the actual dependency audit before finalizing the retained package. I ran `npm audit --omit=dev --json` in your target. Raw output metadata.vulnerabilities: {\"info\":0,\"low\":0,\"moderate\":1,\"high\":1,\"critical\":0,\"total\":2}; reported packages: esbuild and vite. Vite fixAvailable: {\"name\":\"vite\",\"version\":\"6.4.4\",\"isSemVerMajor\":false}. Keep the exact final versions, audit and rebuild results in your handoff. Do not change the atlas dependencies."
+  },
+  {
+    "case": "service-react",
+    "message": "Independent production-output check command: `node /workspace/scratch/839dbcebb83d/web-style-atlas-batch/docs/benchmarks/p10/check.mjs /workspace/scratch/839dbcebb83d/atlas-consumer-runs/service-react/dist /tmp/atlas-p10-qa service-react`. The current report is `/tmp/atlas-p10-qa/service-react.json`: at `/bench/`, `/assets/index-B71wtZ2A.js` and `/assets/index-Bxkz1vB3.css` return 404; rendered h1/main counts are 0. Inspect the raw built output and original nested-URL requirement, then fix and rebuild. Keep this first result in your handoff."
+  },
+  {
+    "case": "service-react",
+    "message": "The rebuilt dist now passes independent Chromium/axe/navigation/disclosure checks at 360/768/1440 under /bench/. My actual final `npm audit --json` returned metadata.vulnerabilities total 0 (stored /tmp/p10-react-audit-final.json). I inspected desktop/mobile screenshots; Swiss structure is retained. Please finish your precise handoff and verification record, including the initial observed failures and actual final versions."
+  }
+]

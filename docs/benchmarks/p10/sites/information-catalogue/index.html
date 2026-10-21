@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore practical creative and technology workshops at Common Table.">
+  <title>Workshops | Common Table</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workshops</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Common Table home"><span class="brand-mark" aria-hidden="true">C</span><span>Common Table<small>Community learning</small></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#workshops">Workshops</a>
+        <a href="#about">About the programme</a>
+        <a href="#how-to-choose">How to choose</a>
+      </nav>
+    </div>
+  </header>
+  <div class="notice">A small programme of shared skills, ideas and making.</div>
+
+  <main id="main">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">LEARN TOGETHER · MAKE SOMETHING</p>
+      <h1 id="page-title">Find a workshop<br>that feels right.</h1>
+      <p class="intro-copy">Try a new skill at your own pace. Browse the workshops, then use the filters to find a subject or session length that suits you.</p>
+      <form id="workshop-filter" role="search">
+        <div class="filter-grid">
+          <div class="field search-field">
+            <label for="search">Search workshops</label>
+            <input id="search" type="search" placeholder="Try writing, photos or 90 minutes" aria-describedby="filter-help">
+          </div>
+          <div class="field">
+            <label for="category">Subject</label>
+            <select id="category">
+              <option value="all">All subjects</option>
+              <option value="Language">Language</option>
+              <option value="Art">Art</option>
+              <option value="Technology">Technology</option>
+            </select>
+          </div>
+          <button class="reset-button" type="reset">Reset filters</button>
+        </div>
+        <p id="filter-help">Search by title, subject, session length or description. Results update as you type.</p>
+      </form>
+    </section>
+
+    <section id="workshops" class="catalogue" aria-labelledby="catalogue-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE CATALOGUE</p><h2 id="catalogue-title">Choose a place to begin</h2></div>
+        <p id="result-count" class="result-count" aria-live="polite">4 workshops shown</p>
+      </div>
+      <div class="workshop-list" id="results">
+        <article class="workshop" data-category="Language">
+          <p class="workshop-number" aria-hidden="true">01</p>
+          <div class="workshop-main"><p class="category">Language</p><h3>Writing Lab</h3><p class="description">Play with words through short prompts, gentle experiments and time to shape a piece of your own. No writing experience needed.</p></div>
+          <p class="duration"><span aria-hidden="true">◷</span> 90 minutes</p>
+        </article>
+        <article class="workshop" data-category="Art">
+          <p class="workshop-number" aria-hidden="true">02</p>
+          <div class="workshop-main"><p class="category">Art</p><h3>Photo Walk</h3><p class="description">Notice light, pattern and small details on a relaxed walk. Bring a phone or camera; we will share simple ways to frame a scene.</p></div>
+          <p class="duration"><span aria-hidden="true">◷</span> 120 minutes</p>
+        </article>
+        <article class="workshop" data-category="Art">
+          <p class="workshop-number" aria-hidden="true">03</p>
+          <div class="workshop-main"><p class="category">Art</p><h3>Clay Table</h3><p class="description">Get to know clay by pinching, rolling and joining simple shapes. Make a small object by hand and explore its texture.</p></div>
+          <p class="duration"><span aria-hidden="true">◷</span> 150 minutes</p>
+        </article>
+        <article class="workshop" data-category="Technology">
+          <p class="workshop-number" aria-hidden="true">04</p>
+          <div class="workshop-main"><p class="category">Technology</p><h3>Intro Web</h3><p class="description">See how a web page is put together, then make a simple one of your own with clear, beginner-friendly steps.</p></div>
+          <p class="duration"><span aria-hidden="true">◷</span> 180 minutes</p>
+        </article>
+      </div>
+      <div id="empty-state" class="empty-state" hidden>
+        <h3>No workshops found</h3>
+        <p>Try another search or choose a different subject.</p>
+        <button type="button" class="text-button" id="empty-reset">Show all workshops</button>
+      </div>
+    </section>
+
+    <section class="info-grid" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">ABOUT COMMON TABLE</p><h2 id="about-title">A place to learn side by side.</h2></div>
+      <p>Common Table is a fictional community learning programme built around trying things together. Each workshop makes room for questions, practice and your own way of doing things.</p>
+    </section>
+    <section class="help-panel" id="how-to-choose" aria-labelledby="help-title">
+      <div><p class="eyebrow">START WHERE YOU ARE</p><h2 id="help-title">Not sure what to pick?</h2></div>
+      <p>Choose a subject that interests you, or start with the shortest session. The descriptions explain what you will try, and no previous experience is expected.</p>
+      <a href="#workshops">Browse the workshops <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+  <footer><a href="#top">Common Table</a><span>Fictional programme · Workshop catalogue</span><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>
