@@ -2649,31 +2649,36 @@
     {
       "id": "S36",
       "title": "Rhythm Planner",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S35"
       ],
       "worker": "Codex/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:23:56.842Z",
-      "updated_at": "2026-10-21T17:30:08.101Z",
+      "updated_at": "2026-10-21T17:31:42.842Z",
       "branch": "task/s36-expansion",
       "base_commit": "f84349cab6dd3b618ee7948642da23187f63d183",
       "evidence_commit": "163a0a1c6bf176122d521781710ffa91cca3fc26",
-      "merge_commit": null,
+      "merge_commit": "4c54e3ab1fc98ea8282987d3ea003cc6d299c444",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/75",
       "checks": [
         {
           "name": "Source/build/freshness, runtime/business, four widths and gallery prompt",
           "status": "pass",
           "details": "12 A/B cases; exact actual downloads; 0/5/10 breaks and midnight; 11/12 visual rubric."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39644268147 succeeded on 163a0a1c6bf176122d521781710ffa91cca3fc26; PR #75 merged as 4c54e3ab1fc98ea8282987d3ea003cc6d299c444."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S36.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge before S37.",
-      "handoff": "Authorized S36–S39 sequential batch. S36 ready for exact-head CI and merge; no deployment."
+      "next_action": "S36 accepted; continue authorized batch with S37.",
+      "handoff": "PR #75 actually merged; tested implementation is a merge parent. All three exact-head CI jobs passed. Continue S37."
     },
     {
       "id": "S37",
