@@ -2,10 +2,11 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 17. Drafts and templates are excluded.
+Ready styles: 18. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
+| [Art Deco](../styles/art-deco/style.md) | ornamental | Axial invitation compositions, stepped architectural ornament and ceremonial rules, paired with a house-story and room-concept layout. | [A: Cultural evening invitation](../styles/art-deco/reference/index.html) · [B: Hotel house story and room concepts](../styles/art-deco/reference/alternate.html) |
 | [Bauhaus Geometric](../styles/bauhaus-geometric/style.md) | expressive | Elementary shapes, flat color planes and an orthogonal modular grid for culture and graphic work. | [A: Geometric event poster](../styles/bauhaus-geometric/reference/index.html) · [B: Modular composition exhibition](../styles/bauhaus-geometric/reference/alternate.html) |
 | [Cinematic Photo](../styles/cinematic-photo/style.md) | photographic | Large photographic frames, dark breathing space and a slow scene sequence for visual storytelling. | [A: Photographic cover and selected scenes](../styles/cinematic-photo/reference/index.html) · [B: Vertical photographic notebook](../styles/cinematic-photo/reference/alternate.html) |
 | [Data Observatory](../styles/data-observatory/style.md) | technical | Explicit units, synchronized metrics and accurate quantitative marks with a searchable comparison table. | [A: Metrics and fixed-scale chart overview](../styles/data-observatory/reference/index.html) · [B: Filtered comparison table](../styles/data-observatory/reference/alternate.html) |

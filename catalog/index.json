@@ -4,6 +4,56 @@
     {
       "avoid_for": [],
       "best_for": [
+        "culture",
+        "events",
+        "hospitality"
+      ],
+      "complexity": "low",
+      "density": "balanced",
+      "family": "ornamental",
+      "id": "art-deco",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Art Deco",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep green field, warm pale type and restrained gold accents on clear architectural rules.",
+        "composition": "A centred axial invitation in a double-rule frame; B pairs a house narrative with stepped elevation, followed by room records.",
+        "content_rhythm": "Ceremonial title, timed movements and house note versus architectural arrival, story and room concepts.",
+        "imagery": "Original fan, diamond, stepped tower and repeated windows authored as CSS geometry.",
+        "interaction": "Actual programme/room destinations and native guest/room disclosures, without fake booking controls.",
+        "motion": "Still symmetrical ornament and readable content; reduced motion removes smooth navigation.",
+        "navigation": "Small balanced header links, programme anchors and a real house-story route.",
+        "typography": "Measured uppercase serif invitation and restrained sans-serif supporting labels."
+      },
+      "status": "ready",
+      "style_path": "styles/art-deco/style.md",
+      "summary": "Axial invitation compositions, stepped architectural ornament and ceremonial rules, paired with a house-story and room-concept layout.",
+      "tags": [
+        "decorative",
+        "geometric",
+        "precise"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/art-deco/preview-mobile.png",
+          "preview_path": "styles/art-deco/preview.png",
+          "reference_path": "styles/art-deco/reference/index.html",
+          "title": "Cultural evening invitation"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/art-deco/preview-alt-mobile.png",
+          "preview_path": "styles/art-deco/preview-alt.png",
+          "reference_path": "styles/art-deco/reference/alternate.html",
+          "title": "Hotel house story and room concepts"
+        }
+      ]
+    },
+    {
+      "avoid_for": [],
+      "best_for": [
         "events",
         "culture",
         "portfolio"

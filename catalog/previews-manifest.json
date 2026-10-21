@@ -16,6 +16,46 @@
   },
   "previews": [
     {
+      "height": 2136,
+      "output_sha256": "86dca24b619348a1db616e4885e3664e0efc7cd8794356609cb24f36a51d8e04",
+      "path": "styles/art-deco/preview.png",
+      "source_sha256": "e9fd9833850955b1c17a4fe2aa773ab072e55b32ca857cb3e7b3be8f56a9d405",
+      "style_id": "art-deco",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2386,
+      "output_sha256": "e7696933339be811935b701f2465fd34cbf16fdb55c474539a2c0102d10bdbfa",
+      "path": "styles/art-deco/preview-mobile.png",
+      "source_sha256": "e9fd9833850955b1c17a4fe2aa773ab072e55b32ca857cb3e7b3be8f56a9d405",
+      "style_id": "art-deco",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 1790,
+      "output_sha256": "8389baeef148f7fb2165e60d716a0fa54de511b603e4c3880317bea57835f3d0",
+      "path": "styles/art-deco/preview-alt.png",
+      "source_sha256": "e9fd9833850955b1c17a4fe2aa773ab072e55b32ca857cb3e7b3be8f56a9d405",
+      "style_id": "art-deco",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 2606,
+      "output_sha256": "33e41d1c99c3a3cc8c36ce4f090efc98194ce91f71fa1765692fbb8ea3ae1728",
+      "path": "styles/art-deco/preview-alt-mobile.png",
+      "source_sha256": "e9fd9833850955b1c17a4fe2aa773ab072e55b32ca857cb3e7b3be8f56a9d405",
+      "style_id": "art-deco",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1879,
       "output_sha256": "3ba17f6ee8835a40523cf9809aac3e6a32d6e59636b32e85f8817c70d3002b7f",
       "path": "styles/bauhaus-geometric/preview.png",
