@@ -16,6 +16,13 @@ You can also use all 24 styles through
 [the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
 
+## Planned expansion
+
+[15 full creation prompts](prompts/README.md) are prepared for the
+[39-direction expansion plan](docs/prompt-expansion-plan.md). The new visual
+examples are queued, not yet built or published. The current verified gallery
+still has 24 ready styles; the work board now includes the next 19 tasks.
+
 ## Start with one prompt
 
 Open the project where you want the website built. Give your coding agent this

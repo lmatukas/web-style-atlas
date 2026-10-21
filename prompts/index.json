@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "kind": "creation-prompt-briefs",
+  "prompts": [
+    {
+      "task_id": "S25",
+      "style_id": "acoustic-sculpture",
+      "name": "Acoustic Sculpture",
+      "family": "spatial",
+      "language": "lt",
+      "prompt_path": "prompts/acoustic-sculpture/prompt.lt.md",
+      "demo_brand": "Vėjo archyvas",
+      "variants": {
+        "a": "Septynių vario plokštelių instrumentas ir erdvių istorija",
+        "b": "Garso charakterio dirbtuvė su scenarijų palyginimu"
+      },
+      "signature": "Septynios matinio vario plokštelės; stabili apšviesta scena; trys pasirinkimo charakteriai",
+      "acceptance": "Scenarijaus ir charakterio pasirinkimai persikelia į validuojamą kopijuojamą užklausą; garsas tik sąmoningai įjungus; aiškus nutildymas.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "soft-spatial",
+        "y2k-chrome"
+      ]
+    },
+    {
+      "task_id": "S26",
+      "style_id": "seasonal-terrain",
+      "name": "Seasonal Terrain",
+      "family": "tactile",
+      "language": "lt",
+      "prompt_path": "prompts/seasonal-terrain/prompt.lt.md",
+      "demo_brand": "Dirvos ratas",
+      "variants": {
+        "a": "Dirvos pjūvis ir sezoninis pasakojimas",
+        "b": "Sezonų kalendorius su krepšelio surinkimo eiga"
+      },
+      "signature": "Trijų dirvos sluoksnių reljefas; fiksuota kamera; sezonas keičia augalus ir produktus",
+      "acceptance": "Sezonas, dydis ir dažnis sudaro nuoseklią krepšelio santrauką; sluoksnių žymekliai veikia klaviatūra.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "organic-craft",
+        "field-notes"
+      ]
+    },
+    {
+      "task_id": "S27",
+      "style_id": "resonant-ribbon",
+      "name": "Resonant Ribbon",
+      "family": "spatial",
+      "language": "lt",
+      "prompt_path": "prompts/resonant-ribbon/prompt.lt.md",
+      "demo_brand": "Garso juosta",
+      "variants": {
+        "a": "Vienos medinės juostos gamybos pasakojimas",
+        "b": "Trijų instrumentų makrogalerija ir charakterio parinkiklis"
+      },
+      "signature": "Viena dažyto medžio juosta; etapuose keičiama jos forma; apčiuopiamas instrumento charakteris",
+      "acceptance": "Instrumentas, charakteris ir medžio atspalvis sudaro užklausą; garsas pasirenkamas, esminė informacija pateikta tekstu.",
+      "enhancement": "svg-or-webgl",
+      "closest_styles": [
+        "acoustic-sculpture",
+        "organic-craft"
+      ]
+    },
+    {
+      "task_id": "S28",
+      "style_id": "modular-light",
+      "name": "Modular Light",
+      "family": "spatial",
+      "language": "lt",
+      "prompt_path": "prompts/modular-light/prompt.lt.md",
+      "demo_brand": "Kinta",
+      "variants": {
+        "a": "Modulinio šviestuvo katalogo atvartas",
+        "b": "Surinkimo darbastalis su numeruota išklotine"
+      },
+      "signature": "Penki popieriaus ir aliuminio moduliai; valdoma išklotinė; matomas šviesos kūgis",
+      "acceptance": "Modulių kiekis, atspalvis ir paskirtis pakeičia objektą bei gabaritų santrauką; eksportas ir atšaukimas veikia.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "industrial-spec",
+        "soft-spatial"
+      ]
+    },
+    {
+      "task_id": "S29",
+      "style_id": "twilight-expedition",
+      "name": "Twilight Expedition",
+      "family": "spatial",
+      "language": "lt",
+      "prompt_path": "prompts/twilight-expedition/prompt.lt.md",
+      "demo_brand": "Aukščio linija",
+      "variants": {
+        "a": "Panorama nuo sutemų iki nakties ir trys atvykimo skyriai",
+        "b": "Reljefo maršrutų atlasas su laiko ir sustojimų planu"
+      },
+      "signature": "Viena stabili panorama; sutemos pereina į naktį; ribotas kameros poslinkis",
+      "acceptance": "Maršrutas, trukmė ir dalyviai atnaujina sustojimus bei užklausą; nėra tariamų orų ar rezervacijų.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "cinematic-photo",
+        "field-notes"
+      ]
+    },
+    {
+      "task_id": "S30",
+      "style_id": "light-environments",
+      "name": "Light Environments",
+      "family": "spatial",
+      "language": "lt",
+      "prompt_path": "prompts/light-environments/prompt.lt.md",
+      "demo_brand": "Rūko salė",
+      "variants": {
+        "a": "Trijų skirtingų erdvių parodos pasakojimas",
+        "b": "Asmeninio parodos maršruto sudarymo stalas"
+      },
+      "signature": "Amfiteatras, audinio skliautas ir šešėlių slėnis; skirtingi siluetai; valdoma šviesos kryptis",
+      "acceptance": "Aplinkos pridedamos į maršrutą, perrikiuojamos, pašalinamos, išsaugomos vietoje ir eksportuojamos.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "twilight-expedition",
+        "soft-spatial"
+      ]
+    },
+    {
+      "task_id": "S31",
+      "style_id": "discovery-cabinet",
+      "name": "Discovery Cabinet",
+      "family": "illustrative",
+      "language": "lt",
+      "prompt_path": "prompts/discovery-cabinet/prompt.lt.md",
+      "demo_brand": "Sėklų kabinetas",
+      "variants": {
+        "a": "Radialus šešių sėklų indelių stalas",
+        "b": "Vertikalus atradimų stalčius ir kolekcijos padėklas"
+      },
+      "signature": "Šeši individualūs indeliai; atidaromi dangteliai; pasirinkimų padėklas",
+      "acceptance": "Visos šešios sėklos pasiekiamos be tempimo; kolekcija papildoma, šalinama ir eksportuojama; daigas pažymėtas interpretacija.",
+      "enhancement": "svg-or-webgl",
+      "closest_styles": [
+        "botanical-engraving",
+        "playful-cutout"
+      ]
+    },
+    {
+      "task_id": "S32",
+      "style_id": "woven-field",
+      "name": "Woven Field",
+      "family": "tactile",
+      "language": "lt",
+      "prompt_path": "prompts/woven-field/prompt.lt.md",
+      "demo_brand": "Pluošto ritmas",
+      "variants": {
+        "a": "Kūrybinis audimo sąsiuvinis su siūlų lauku",
+        "b": "Rašto kūrimo studija ir dideli kolekcijos mėginiai"
+      },
+      "signature": "Įtemptų siūlų laukas; ribota lino, žalios ir rūdžių paletė; pynimo struktūra",
+      "acceptance": "Tankis, dvi spalvos ir trys pynimai realiai keičia autorinį SVG; eksportuojamas visas savarankiškas SVG.",
+      "enhancement": "svg",
+      "closest_styles": [
+        "organic-craft",
+        "botanical-engraving"
+      ]
+    },
+    {
+      "task_id": "S33",
+      "style_id": "choreographic-stage",
+      "name": "Choreographic Stage",
+      "family": "expressive",
+      "language": "lt",
+      "prompt_path": "prompts/choreographic-stage/prompt.lt.md",
+      "demo_brand": "Šuolio studija",
+      "variants": {
+        "a": "Asimetrinė judesio scena ir trys pasirodymų skyriai",
+        "b": "Formato ir patirties vedama užsiėmimų programa"
+      },
+      "signature": "Abstrakti oro šokio figūra; baigtinė trajektorija; pasirodymų ritmas",
+      "acceptance": "Formato ir patirties filtrai pakeičia demonstracinę programą; kopijuojama užklausa apima pasirinktus laukus.",
+      "enhancement": "svg",
+      "closest_styles": [
+        "kinetic-type",
+        "neo-brutalist"
+      ]
+    },
+    {
+      "task_id": "S34",
+      "style_id": "repair-atlas",
+      "name": "Repair Atlas",
+      "family": "expressive",
+      "language": "lt",
+      "prompt_path": "prompts/repair-atlas/prompt.lt.md",
+      "demo_brand": "Rytojaus daiktai",
+      "variants": {
+        "a": "Surinkimo ir išardymo krėslo istorija",
+        "b": "Šešių objektų medžiagų katalogas ir remonto maršrutas"
+      },
+      "signature": "Medinis segmentinis krėslas; išardymo etiketės; viena pakeičiama jungtis",
+      "acceptance": "Šešių objektų filtrai, 2–4 sustojimų maršrutas, perrikiavimas, šalinimas ir eksportas veikia; talpos ribos aiškios.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "industrial-spec",
+        "pop-commerce"
+      ]
+    },
+    {
+      "task_id": "S35",
+      "style_id": "balcony-builder",
+      "name": "Balcony Builder",
+      "family": "commercial",
+      "language": "lt",
+      "prompt_path": "prompts/balcony-builder/prompt.lt.md",
+      "demo_brand": "Želmuo",
+      "variants": {
+        "a": "Ryškus sodinimo dėžės pasiūlymas ir auginimo eiga",
+        "b": "Trijų žingsnių balkono rinkinio parinkimo dirbtuvė"
+      },
+      "signature": "Modulinė sodinimo dėžė; botaninė iliustracija; produkto surinkimas ir pasirinkimų paaiškinimas",
+      "acceptance": "Šviesa, plotas ir patirtis pateikia pagrįstą demonstracinį rinkinį; galima vietoje išsaugoti ir pakeisti pasirinkimus.",
+      "enhancement": "svg-or-webgl",
+      "closest_styles": [
+        "pop-commerce",
+        "seasonal-terrain"
+      ]
+    },
+    {
+      "task_id": "S36",
+      "style_id": "rhythm-planner",
+      "name": "Rhythm Planner",
+      "family": "functional",
+      "language": "lt",
+      "prompt_path": "prompts/rhythm-planner/prompt.lt.md",
+      "demo_brand": "Taktas",
+      "variants": {
+        "a": "Tipografinis laikrodis ir produkto demonstracija",
+        "b": "Laiko juostos darbastalis su trijų užduočių redaktoriumi"
+      },
+      "signature": "Dideli laiko skaitmenys; trukmę atitinkančios juostos; įvestimi grindžiamas ritmas",
+      "acceptance": "Trys užduotys ir 0/5/10 min pertraukos; nėra pertraukos po paskutinės; perskaičiavimas, vidurnaktis ir JSON/TXT eksportas tikslūs.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "data-observatory",
+        "kinetic-type"
+      ]
+    },
+    {
+      "task_id": "S37",
+      "style_id": "spine-editions",
+      "name": "Spine Editions",
+      "family": "editorial",
+      "language": "lt",
+      "prompt_path": "prompts/spine-editions/prompt.lt.md",
+      "demo_brand": "Raštmė",
+      "variants": {
+        "a": "Knygos nugarėlės viršelis ir trys teminės lentynos",
+        "b": "Ištraukų skaityklė su leidinių indeksu ir skaitymo sąrašu"
+      },
+      "signature": "Vertikali knygos nugarėlė; paraštės ir puslapių numeriai; atverčiamos originalios ištraukos",
+      "acceptance": "Bent keturi autoriniai leidiniai filtruojami, atveriami ir įtraukiami į vietinį sąrašą; išvalymas veikia.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "editorial-journal",
+        "newspaper-ledger"
+      ]
+    },
+    {
+      "task_id": "S38",
+      "style_id": "trail-composer",
+      "name": "Trail Composer",
+      "family": "illustrative",
+      "language": "lt",
+      "prompt_path": "prompts/trail-composer/prompt.lt.md",
+      "demo_brand": "Keliata",
+      "variants": {
+        "a": "Vertikali tako schema ir išvykos nuotaikos",
+        "b": "Dienos plano lentelė su susietais sustojimais ir pasiruošimu"
+      },
+      "signature": "Popierinis maršrutas; baigtinis kelio brėžimas; vertikali sustojimų seka",
+      "acceptance": "Trukmė, intensyvumas ir nuotaika parenka vieną iš trijų aiškiai demonstracinių planų; pasiruošimo sąrašas ir TXT eksportas veikia.",
+      "enhancement": "svg",
+      "closest_styles": [
+        "field-notes",
+        "twilight-expedition"
+      ]
+    },
+    {
+      "task_id": "S39",
+      "style_id": "membrane-score",
+      "name": "Membrane Score",
+      "family": "expressive",
+      "language": "lt",
+      "prompt_path": "prompts/membrane-score/prompt.lt.md",
+      "demo_brand": "Tarpsnis",
+      "variants": {
+        "a": "Horizontali trijų šviesos membranų partitūra",
+        "b": "Nuotaikų receptų indeksas ir trijų vertikalių kanalų instrumentas"
+      },
+      "signature": "Trys atskiri garso sluoksniai; membranų impulsai pagal parametrus; matomas receptas",
+      "acceptance": "Paleidimas, pauzė, garsumas, nutildymas, tempas, intensyvumai, recepto išsaugojimas ir atkūrimas veikia; garso API fallback sąžiningas.",
+      "enhancement": "web-audio-2d",
+      "closest_styles": [
+        "resonant-ribbon",
+        "kinetic-type"
+      ]
+    }
+  ]
+}

@@ -610,3 +610,29 @@ Toliau – oficialūs šaltiniai, peržiūrėti rengiant planą 2026-10-20. Jie 
 - [Playwright visual comparisons](https://playwright.dev/docs/test-snapshots): render aplinka turi įtakos screenshot rezultatui; dėl to peržiūrų generavimui numatyta fiksuota aplinka.
 
 Codex adapterio aktualus formatas šiame dokumente nepatvirtinamas; jo oficialios dokumentacijos ir realaus įkėlimo patikra yra P09 dalis. Nė vieno įrankio adapteris šiame planavimo etape dar nesukurtas ar neišbandytas.
+
+## 18. Plėtra: 15 savarankiškų kūrimo promptų
+
+1–17 skyriai išsaugo priimtos 1.0.0 versijos 24 krypčių istoriją. Šis naujas etapas
+prideda 15 krypčių ir 19 užduočių; esami 38 priimti darbai neatidaromi iš naujo.
+Detalus galiojantis šio etapo planas: [prompt-expansion-plan.md](prompt-expansion-plan.md).
+
+| ID / užduotis | Kryptis ir šeima | Variantas A | Variantas B | Svarbiausias skirtumas |
+|---|---|---|---|---|
+| S25 `acoustic-sculpture` | Acoustic Sculpture / spatial | Septynių vario plokštelių instrumentas ir erdvių istorija | Garso charakterio dirbtuvė su scenarijų palyginimu | Septynios matinio vario plokštelės; stabili apšviesta scena; trys pasirinkimo charakteriai |
+| S26 `seasonal-terrain` | Seasonal Terrain / tactile | Dirvos pjūvis ir sezoninis pasakojimas | Sezonų kalendorius su krepšelio surinkimo eiga | Trijų dirvos sluoksnių reljefas; fiksuota kamera; sezonas keičia augalus ir produktus |
+| S27 `resonant-ribbon` | Resonant Ribbon / spatial | Vienos medinės juostos gamybos pasakojimas | Trijų instrumentų makrogalerija ir charakterio parinkiklis | Viena dažyto medžio juosta; etapuose keičiama jos forma; apčiuopiamas instrumento charakteris |
+| S28 `modular-light` | Modular Light / spatial | Modulinio šviestuvo katalogo atvartas | Surinkimo darbastalis su numeruota išklotine | Penki popieriaus ir aliuminio moduliai; valdoma išklotinė; matomas šviesos kūgis |
+| S29 `twilight-expedition` | Twilight Expedition / spatial | Panorama nuo sutemų iki nakties ir trys atvykimo skyriai | Reljefo maršrutų atlasas su laiko ir sustojimų planu | Viena stabili panorama; sutemos pereina į naktį; ribotas kameros poslinkis |
+| S30 `light-environments` | Light Environments / spatial | Trijų skirtingų erdvių parodos pasakojimas | Asmeninio parodos maršruto sudarymo stalas | Amfiteatras, audinio skliautas ir šešėlių slėnis; skirtingi siluetai; valdoma šviesos kryptis |
+| S31 `discovery-cabinet` | Discovery Cabinet / illustrative | Radialus šešių sėklų indelių stalas | Vertikalus atradimų stalčius ir kolekcijos padėklas | Šeši individualūs indeliai; atidaromi dangteliai; pasirinkimų padėklas |
+| S32 `woven-field` | Woven Field / tactile | Kūrybinis audimo sąsiuvinis su siūlų lauku | Rašto kūrimo studija ir dideli kolekcijos mėginiai | Įtemptų siūlų laukas; ribota lino, žalios ir rūdžių paletė; pynimo struktūra |
+| S33 `choreographic-stage` | Choreographic Stage / expressive | Asimetrinė judesio scena ir trys pasirodymų skyriai | Formato ir patirties vedama užsiėmimų programa | Abstrakti oro šokio figūra; baigtinė trajektorija; pasirodymų ritmas |
+| S34 `repair-atlas` | Repair Atlas / expressive | Surinkimo ir išardymo krėslo istorija | Šešių objektų medžiagų katalogas ir remonto maršrutas | Medinis segmentinis krėslas; išardymo etiketės; viena pakeičiama jungtis |
+| S35 `balcony-builder` | Balcony Builder / commercial | Ryškus sodinimo dėžės pasiūlymas ir auginimo eiga | Trijų žingsnių balkono rinkinio parinkimo dirbtuvė | Modulinė sodinimo dėžė; botaninė iliustracija; produkto surinkimas ir pasirinkimų paaiškinimas |
+| S36 `rhythm-planner` | Rhythm Planner / functional | Tipografinis laikrodis ir produkto demonstracija | Laiko juostos darbastalis su trijų užduočių redaktoriumi | Dideli laiko skaitmenys; trukmę atitinkančios juostos; įvestimi grindžiamas ritmas |
+| S37 `spine-editions` | Spine Editions / editorial | Knygos nugarėlės viršelis ir trys teminės lentynos | Ištraukų skaityklė su leidinių indeksu ir skaitymo sąrašu | Vertikali knygos nugarėlė; paraštės ir puslapių numeriai; atverčiamos originalios ištraukos |
+| S38 `trail-composer` | Trail Composer / illustrative | Vertikali tako schema ir išvykos nuotaikos | Dienos plano lentelė su susietais sustojimais ir pasiruošimu | Popierinis maršrutas; baigtinis kelio brėžimas; vertikali sustojimų seka |
+| S39 `membrane-score` | Membrane Score / expressive | Horizontali trijų šviesos membranų partitūra | Nuotaikų receptų indeksas ir trijų vertikalių kanalų instrumentas | Trys atskiri garso sluoksniai; membranų impulsai pagal parametrus; matomas receptas |
+
+Eiga: P15 → P16 → S25 → … → S39 → P17 → P18. Planned promptai neįtraukiami į ready indeksą ar viešos galerijos skaičių.

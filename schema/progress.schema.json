@@ -409,8 +409,7 @@
         ]
       },
       "minItems": 38,
-      "uniqueItems": true,
-      "maxItems": 38
+      "uniqueItems": true
     }
   },
   "required": [
