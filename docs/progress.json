@@ -2262,17 +2262,17 @@
     {
       "id": "S28",
       "title": "Modular Light",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S27"
       ],
       "worker": "Codex/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T14:24:44.029Z",
-      "updated_at": "2026-10-21T14:45:16.739Z",
+      "updated_at": "2026-10-21T14:48:00.506Z",
       "branch": "task/s28-expansion",
       "base_commit": "629a6143fef5bac59755666de3c2918b5e267076",
       "evidence_commit": "abedff062a414879b1689a0f7aa59e4b6b8284f0",
-      "merge_commit": null,
+      "merge_commit": "de947a80122ecd7d211732a988af6f5bd9d2473c",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/65",
       "checks": [
         {
@@ -2289,14 +2289,19 @@
           "name": "Gallery/full prompt and visual acceptance",
           "status": "pass",
           "details": "5 integrations and exact actual B full prompt copy; four final PNGs viewed against two actual neighbors;11/12."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39619582680 succeeded all scoped source/generated/gallery/browser/runtime jobs on abedff062a414879b1689a0f7aa59e4b6b8284f0. Actual PR #65 merge and tested head verified."
         }
       ],
       "evidence_paths": [
         "docs/evidence/S28.md"
       ],
       "blocker": null,
-      "next_action": "Verify exact-head CI and merge; then accept and continue the authorized batch.",
-      "handoff": "Implementation complete. Owner explicitly authorized five sequential task PRs and merges. No deployment in this batch."
+      "next_action": "Authorized five-task batch complete. Next eligible task is S29 on a new continuation request; public release remains P18.",
+      "handoff": "P16, S25, S26, S27 and S28 completed and merged with actual checks. Stop after these five authorized tasks. No deployment in this batch."
     },
     {
       "id": "S29",
