@@ -2,7 +2,7 @@
 schema_version: 1
 id: "institutional-clear"
 name: "Institutional Clear"
-summary: "Clear task labels, searchable services and readable information pages with predictable navigation."
+summary: "A wayfinding directory for public services: an original floor plan, lettered signs and plain routes from arrival to the next step."
 family: "functional"
 tags: ["task-led", "precise", "humanist"]
 best_for: ["public-information", "services", "documentation"]
@@ -11,7 +11,7 @@ density: "balanced"
 image_dependency: "low"
 motion_level: "subtle"
 complexity: "low"
-signature: {"composition": "Search-led directory in A; narrow contents rail beside a readable service document in B.", "typography": "Clear system sans-serif, sentence-case task headings and readable help text.", "navigation": "Stable institutional header, service links, breadcrumb and local document contents.", "content_rhythm": "Task rows, guide disclosures, preparation lists and numbered procedural sections.", "imagery": "No image requirement; original text mark and structural CSS only.", "color_and_material": "White, pale blue-gray and navy semantic surfaces with clear blue links.", "interaction": "Actual local service search, empty state and reset; native help disclosures.", "motion": "Predictable static information; short link transitions removed for reduced motion."}
+signature: {"composition": "A: arrival text beside an original floor plan, then four lettered signage columns. B: one area zoomed in, with a route rail beside a reading column.", "typography": "Plain system sans-serif, sentence-case task headings and large bold letter tiles used like building signs.", "navigation": "White header on a heavy rule, plan letters matched to the directory, breadcrumb and a numbered route rail.", "content_rhythm": "Heavy sign rails start each group: plan, lettered columns, lettered disclosures and dotted three-stop routes.", "imagery": "Original inline SVG floor plans drawn from tokens; no photographs or external assets.", "color_and_material": "White reading surface, navy text rails, deep blue sign tiles and one yellow you-are-here mark.", "interaction": "Actual local service search with result count, empty state and reset; native disclosures and anchor routes.", "motion": "Static, settled information; short link transitions removed for reduced motion."}
 status: "ready"
 ---
 
@@ -19,56 +19,56 @@ status: "ready"
 
 ## Intent
 
-Institutional Clear helps people find a service and understand the next step. The fictional Northbridge Community Services site demonstrates a task-led directory and a plain information page. It suits public information, practical services and documentation where clarity matters more than a distinctive brand performance. Visitors should be able to scan the available tasks, narrow the list and read a procedure without interpreting decorative interface conventions. All services and rules in the reference are explicitly examples, not real municipal guidance.
+Institutional Clear treats a public service website like the entrance of a public building. People arrive with one task and want to know where to go. The fictional Northbridge Community Centre shows the idea. A ground floor plan marks where you stand, letters on the plan match the services, and each guide reads like a short route. The direction suits public information, practical services and documentation where clarity matters more than brand performance. Every room, rule and route in the reference is an example, not real municipal guidance.
 
 ## Signature
 
-Retain four invariants: a stable institutional header; plain task-based labels; a strong readable text hierarchy; and predictable information groups with clear next steps. A is a searchable service directory. B is a single service guide with a table of contents, preparation list and numbered process. The navy-and-white palette supports orientation, but the direction should remain recognizable if a supplied institutional brand changes those colors. Information architecture and consistent affordances carry the visual identity.
+Keep five invariants. A white header sits on a heavy rule instead of a coloured band. One orientation object, a plan or a route, explains how the information is arranged. Letter tiles connect that object to the content, so the same sign appears on the plan, in the directory and in the notes. Heavy text rails open each group, like the top edge of a sign. Steps are drawn as dotted routes with numbered stops. A is a whole-building directory. B zooms into one area and becomes a guide.
 
 ## Typography
 
-Use system Arial for both display and body roles. Headings are descriptive, sentence case and sized to show their place in the document. Body text remains comfortably readable, including help text and service descriptions. Avoid all-caps paragraphs, oversized promotional slogans or decorative serif contrasts. Labels sit close to their controls. The references include Lithuanian glyphs and use a simple scale that works on a small screen without relying on a downloaded font.
+Use system Arial for display and body roles. Headings are descriptive and in sentence case. The strongest typographic accent is the letter tile: a bold capital on a deep blue square, sized like a door sign. It carries meaning, so it never becomes decoration. Help text stays readable and labels sit close to their controls. Avoid all-caps paragraphs, promotional slogans and decorative serif contrast. The references include Lithuanian glyphs and do not depend on a downloaded font.
 
 ## Color and surfaces
 
-White is the main reading surface, pale blue-gray separates directory or contents areas, and dark navy provides a stable institutional anchor. A deep blue accent marks links and control outlines. Muted text remains readable on both the main and supporting surface. All interface colors come from semantic tokens, with explicit on-accent roles for dark header content. Do not use subdued contrast to make the page look official. Focus and meaningful boundaries need to remain clearly visible.
+White is the main reading surface. Navy text forms the heavy rails and plan walls. Deep blue marks sign tiles, links and route dots. Pale blue-gray fills corridors and notes. One yellow signal colour is reserved for the you-are-here mark and the access note edge, and it always sits next to dark text. All colours come from semantic tokens, including the SVG fills. Do not lower contrast to look official, and do not spread the yellow into general decoration.
 
 ## Layout A
 
-Open with the fictional service identity, a short navigation bar and a small demonstration notice. A plain question heading leads directly to a labeled local search field. Four service rows describe distinct tasks and link to real destinations in the references. Below, three native guide disclosures explain the additional example services. A short help panel directs readers back to useful sections instead of inventing a contact channel. A clear colophon closes the page with its demonstration status.
+A opens with the arrival statement on the left and the floor plan on the right. A framed note repeats the you-are-here position in text. Below a heavy rail, the directory heading shares a row with a compact search toolbar. Four lettered columns follow, each with a location line, a task link and one sentence. Search filters these columns. Lettered native disclosures then explain what to bring to areas B, C and D. A three-stop route track shows how a room request moves and links to the area guide. A short colophon closes the page.
 
 ## Layout B
 
-Begin with a breadcrumb and a specific service title. A concise summary explains the example room-use task. A contents rail links to preparation, options, process and help sections in the wider reading column. A short definition list supplies sample information, and a numbered sequence explains a fictional request workflow without providing an inert application button. Native questions and a working return link complete the guide. This is a document with navigable sections, not another directory or marketing landing page.
+B begins with a breadcrumb back to the directory and a large area sign. The title, a short summary and a status label sit beside a zoomed plan of Area A with rooms A1 and A2. Under a heavy rail, a numbered route rail on the left links to four sections in the reading column. Preparation is a checklist, room options use the same A1 and A2 codes as the plan, and the review process is a horizontal route. Native questions and a return link finish the guide. There is no booking button, because no booking exists.
 
 ## Imagery
 
-No images or external assets are required. A small original letter mark and structural rules are ordinary text and CSS. The empty asset registry makes this dependency explicit. If a real service needs a map, photograph or document preview, it should answer a concrete user question and have meaningful alternatives and known rights. Decorative people photography should not displace the task directory or imply representation of real service users without an appropriate source and purpose.
+Imagery is original inline SVG. The plans are drawn with rectangles, paths and short labels, and every fill uses a token. Each plan has a title and a description, and the same information appears as text nearby. Furniture is drawn lightly so the letters and the route stay dominant. If a real service adds a map, it should answer a real question, match the building and have verified rights. Do not add decorative people photography to make the page feel friendly.
 
 ## Navigation and interaction
 
-Keep navigation visible and let it wrap on mobile. Search filters the four local service entries by their text, with a clear label, a polite result count and an explicit empty state. A reset control restores the full list. It does not query a server or submit personal information. The guide uses ordinary contents links and native disclosures. Focus is clearly outlined, and the active page is identified in text. Avoid dead application links, hover-only menus or unexplained icon controls.
+Navigation stays visible and wraps on small screens. Search filters the four local service entries by text, announces the result count politely, shows an explicit empty state and resets with a real button. It does not call a server or collect personal data. Plan letters, directory entries and disclosures share the same codes. Route rails and breadcrumbs use ordinary links, and focus is clearly outlined. Avoid icon-only controls, hover menus and links to applications that do not exist.
 
 ## Motion
 
-The interface is settled and predictable. Short link-color transitions are optional and removed for reduced-motion preferences. Search updates the local results without moving focus or animating the list. No section reveal, auto-rotating banner or parallax is needed. If a future service adds a multi-step form, preserve focus and explain progress through semantic headings and real state rather than a decorative animation. Essential information must be available immediately in a still page.
+The page is still. Short link-colour transitions are optional and are removed when reduced motion is requested. Search updates the list without moving focus or animating rows. The dotted routes are static drawings, not animated paths. Nothing reveals on scroll and nothing rotates. If a future service adds a multi-step form, explain progress with headings and real state, not with movement. Every piece of information is available in the first still frame.
 
 ## Responsive behavior
 
-At desktop widths the directory uses a broad search area and vertically stacked service rows. The guide gives a compact contents rail beside a readable main column. At tablet widths reduce outer padding without shrinking labels or line height. At 360 pixels navigation wraps, the search/reset controls stack when needed and the guide contents move above the article. Long service names wrap naturally. The page should never require horizontal scrolling to reach a task, read a procedure or operate a disclosure.
+On desktop the plan sits beside the arrival text and the directory uses four columns. Under 900 pixels the plan moves below the text at full width, the directory becomes two columns, the guide head stacks and the route track turns vertical. Under 560 pixels the directory becomes one column and the search controls stack. The plan keeps its letters readable, and the directory works as its legend. No layout needs horizontal scrolling.
 
 ## Accessibility
 
-Targets include one main landmark, a single page heading, descriptive links, visible focus and a skip link. The search has a real label and associated help text, while results and the empty state are announced politely. Native disclosures expose their open state. Actual evidence covers six responsive combinations, axe, overflow, resources, controls and keyboard interactions; additional search checks exercise matching, empty results and reset. Glyph loading and real token consumption are separately tested. These bounded checks do not establish complete WCAG certification.
+Each page has one main landmark, one page heading, a skip link and visible focus. The search has a real label and help text, and results and the empty state are announced. Plans use role img with a title and a description, while decorative letters are hidden from assistive technology because the text beside them carries the same location. Disclosures are native. Browser checks cover axe, overflow, controls and keyboard disclosures at three widths. These bounded checks are not full WCAG certification.
 
 ## Adaptation
 
-Begin by listing the real tasks people need to complete, then use their language for headings and links. Replace every fictional service rule with verified local information. Preserve the stable navigation, readable directory rows and contents-to-article relationship when moving into WordPress, React or an institutional design system. Add real application or contact destinations only when their behavior exists. Keep policy dates, eligibility and service ownership accurate rather than carrying example values into a production page.
+Start from a real building or a real service map. List the tasks people come for, give each a short code and use the same code on the plan, in the directory and in the guide. Keep the heavy rails, letter tiles and dotted routes when moving into WordPress, React or an institutional design system. Replace every example rule with verified local information. If there is no physical building, the orientation object can be a route or a process diagram, but it must still match the content letter for letter.
 
 ## Avoid
 
-1. Do not bury the task list under promotional imagery, rotating announcements or vague brand slogans. 2. Do not create official-looking rules, contact details or application actions without verified information and working destinations. 3. Do not replace descriptive labels with icon-only controls, tiny help text or hover-only navigation.
+1. Do not return to a coloured top band with a centred search box and a list of links. 2. Do not draw a plan that does not match the content, or use letters, routes and signs as decoration. 3. Do not invent official rules, contact details or application buttons without verified information and working destinations.
 
 ## Closest styles
 
-Humanist Service is the nearest ready functional neighbor. Institutional Clear uses a stable navy header, searchable task directory and a readable service document with contents navigation. Humanist Service begins with warm serif conversation, a person-to-person illustration and fictional profiles, then follows a topic/preparation/outline path with native choices. Search/task/contents navigation differs from direct topic routes and focus-managed plan review. Terminal Utility provides a second comparison: plain sentence-case service language, a readable contents rail and explanatory procedures replace command notation, a technical scope panel and chronological logs. P13 compares actual rendered composition, navigation and rhythm rather than palette alone.
+Humanist Service is the nearest ready functional neighbour. It starts with a warm serif conversation, an illustration of two people and fictional profiles. Institutional Clear starts with a building plan, lettered signs and a sans-serif directory, so its composition, imagery and navigation all differ. Swiss Grid uses huge type, a red dot and a numbered service index with wide columns. Institutional Clear keeps type moderate and lets the plan and the letter tiles carry the identity. Terminal Utility shares the plain language but uses command notation and logs instead of signs and routes.

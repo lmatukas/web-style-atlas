@@ -4,7 +4,7 @@
 
 **Baigta: 61/75.**
 
-**Pirmiausia patikrinti S40: Vykdoma; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40.**
+**Pirmiausia patikrinti S40: Laukia peržiūros; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -71,7 +71,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:08:30Z | Savininkas patvirtina arba atmeta core/language-policy.md sprendimą |
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21 | task/p21-canonical-previews | [PR](https://github.com/lmatukas/web-style-atlas/pull/86) | 2026-10-22T05:35:11Z | Baigta; nėra veiksmo. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
-| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Vykdoma | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40 | task/s40-institutional-clear | — | 2026-10-22T05:52:44Z | Pertvarkyti institutional-clear pagal docs/tasks/S40.md; PNG per previews.yml; PR [S40]. |
+| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Laukia peržiūros | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40 | task/s40-institutional-clear | [PR](https://github.com/lmatukas/web-style-atlas/pull/87) | 2026-10-22T06:02:11Z | Laukti PR CI; sujungti; pažymėti done. |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |

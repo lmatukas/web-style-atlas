@@ -3,85 +3,89 @@
   "variants": [
     {
       "id": "a",
-      "title": "Task and service directory",
+      "title": "Building directory with floor plan",
       "page_type": "public-information",
       "reference_path": "reference/index.html",
-      "navigation": "Stable service/help links, local search and real guide destinations.",
+      "navigation": "Stable directory/preparation/route links, plan letters matched to directory entries, local search and real guide destinations.",
       "ordered_sections": [
         {
           "purpose": "Orient",
-          "pattern": "Service heading and demonstration notice",
+          "pattern": "Arrival statement beside an original floor plan with a you-are-here mark",
           "content_requirements": [
             "Identity",
-            "Task question"
-          ]
-        },
-        {
-          "purpose": "Find a task",
-          "pattern": "Labeled local search",
-          "content_requirements": [
-            "Search",
-            "Reset",
-            "Result count"
+            "Task question",
+            "Demonstration notice",
+            "Lettered areas"
           ]
         },
         {
           "purpose": "Choose service",
-          "pattern": "Four service rows",
+          "pattern": "Four lettered signage columns with a compact search toolbar",
           "content_requirements": [
+            "Area letter and location",
             "Task title",
             "Description",
-            "Destination"
+            "Destination",
+            "Search, reset and result count"
           ]
         },
         {
-          "purpose": "Understand other tasks",
-          "pattern": "Three native guide disclosures",
+          "purpose": "Prepare",
+          "pattern": "Heading beside three lettered native disclosures",
           "content_requirements": [
-            "Useful task information"
+            "Useful preparation notes"
           ]
         },
         {
-          "purpose": "Get oriented",
-          "pattern": "Help panel and colophon",
+          "purpose": "Follow an example",
+          "pattern": "Three-stop route track",
           "content_requirements": [
-            "Return links",
+            "Request stages",
+            "Link to the area guide"
+          ]
+        },
+        {
+          "purpose": "Close",
+          "pattern": "Colophon",
+          "content_requirements": [
+            "Return link",
             "Demo identity"
           ]
         }
       ],
-      "mobile_reflow": "Wrap navigation, stack search controls and let service names/descriptions wrap without clipping.",
+      "mobile_reflow": "Plan moves under the arrival text at full width; directory becomes two then one column; search controls stack; the route track turns vertical.",
       "distinguishing_features": [
-        "Search-first task discovery",
-        "Descriptive service rows",
-        "Explicit empty state"
+        "Floor plan as the orientation object",
+        "Letter tiles linking plan and directory",
+        "Search as a toolbar, not a hero"
       ]
     },
     {
       "id": "b",
-      "title": "Service information with contents",
+      "title": "Area guide with route rail",
       "page_type": "public-information",
       "reference_path": "reference/alternate.html",
-      "navigation": "Breadcrumb, local document contents and directory return.",
+      "navigation": "Breadcrumb to the directory, a numbered route rail for the guide sections and a directory return.",
       "ordered_sections": [
         {
           "purpose": "Identify task",
-          "pattern": "Specific service heading",
+          "pattern": "Area sign, specific title and a zoomed plan of the two rooms",
           "content_requirements": [
             "Title",
+            "Area location",
             "Example status"
           ]
         },
         {
           "purpose": "Prepare",
-          "pattern": "Short preparation list",
+          "pattern": "Checklist with an access note",
           "content_requirements": [
             "Information needed"
           ]
         },
         {
           "purpose": "Understand options",
-          "pattern": "Plain definition list",
+          "pattern": "Definition list keyed to the plan room codes",
           "content_requirements": [
             "Sample room types",
             "Example context"
@@ -89,7 +93,7 @@
         },
         {
           "purpose": "Follow process",
-          "pattern": "Numbered request sequence",
+          "pattern": "Horizontal three-stop review track",
           "content_requirements": [
             "Three steps",
             "No false submission"
@@ -104,11 +108,11 @@
           ]
         }
       ],
-      "mobile_reflow": "Move contents above the reading column; retain descriptive headings and comfortable text size.",
+      "mobile_reflow": "Plan follows the title; the route rail moves above the document; the review track turns vertical; text stays full size.",
       "distinguishing_features": [
-        "Contents-to-document relationship",
-        "Clear preparation and process",
-        "Readable supporting information"
+        "Single-area zoom instead of the whole building",
+        "Vertical route rail beside a reading column",
+        "Room codes shared by plan and options"
       ]
     }
   ]
