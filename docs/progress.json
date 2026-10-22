@@ -3220,7 +3220,7 @@
     {
       "id": "S43",
       "title": "Pertvarka: Soft Spatial",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
@@ -3258,8 +3258,8 @@
         },
         {
           "name": "Exact-head GitHub CI and actual merge",
-          "status": "not_run",
-          "details": "Not run yet: PR #90 exact-head checks pending at 5881a06; merge not performed."
+          "status": "pass",
+          "details": "PR #90 exact-head checks at 5881a06 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as ba3eef67bc39ddfc01243ea71441fcb8857fc852."
         }
       ],
       "evidence_paths": [
@@ -3267,14 +3267,14 @@
       ],
       "worker": "Claude/haiku-5.5/session-S43",
       "claimed_at": "2026-10-22T16:22:53Z",
-      "updated_at": "2026-10-22T16:42:24Z",
+      "updated_at": "2026-10-22T16:45:44Z",
       "branch": "task/s43-soft-spatial",
       "base_commit": "b6d70380c1e22c8b5b25ec833ee894b878bee649",
       "evidence_commit": "5881a063f37a582beb83e6daa13ae06d4f679d75",
-      "merge_commit": null,
+      "merge_commit": "ba3eef67bc39ddfc01243ea71441fcb8857fc852",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/90",
       "blocker": null,
-      "next_action": "Wait for PR #90 exact-head checks, merge at verified head, then set done with merge_commit.",
+      "next_action": "None. Done.",
       "handoff": "PR #90 open. Rubric 12/12. Limitation: npm run check and test:browser not run on canonical host locally; mobile B loses staircase indent by design."
     },
     {
