@@ -25,6 +25,22 @@
           ]
         },
         {
+          "purpose": "Choose a wall note",
+          "pattern": "Radio-driven wall label chooser",
+          "content_requirements": [
+            "One note visible at a time",
+            "Keyboard-operable selection"
+          ]
+        },
+        {
+          "purpose": "Follow the route",
+          "pattern": "Labelled plan of the room",
+          "content_requirements": [
+            "Entrance and route",
+            "Works in order 01 to 03"
+          ]
+        },
+        {
           "purpose": "Read the curatorial position",
           "pattern": "Narrow statement after the wall",
           "content_requirements": [
@@ -45,7 +61,8 @@
       "distinguishing_features": [
         "Three unequal artwork scales on white architecture",
         "Labels outside images",
-        "Wall followed by a narrow curatorial pause"
+        "Wall followed by a narrow curatorial pause",
+        "Radio-driven wall labels and a route plan"
       ]
     },
     {
@@ -60,7 +77,8 @@
           "pattern": "Tall painting beside narrow dossier",
           "content_requirements": [
             "Original painting",
-            "Medium/date/format"
+            "Medium/date/format",
+            "Method and expected life"
           ]
         },
         {
