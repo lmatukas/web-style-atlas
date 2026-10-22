@@ -3781,24 +3781,24 @@
     {
       "id": "P23",
       "title": "Galutinė kokybės ir įrodymų patikra",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P22",
         "P24"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-P23",
+      "claimed_at": "2026-10-22T19:56:18Z",
+      "updated_at": "2026-10-22T19:56:18Z",
+      "branch": "task/p23-final-evidence",
+      "base_commit": "e5f7b967a76c0734c530e302e992ee0ecd6f06ca",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/P23.md.",
-      "handoff": null
+      "next_action": "Peržiūrėti 39 stilius, įrašyti rubrikos balus ir sugeneruoti katalogą.",
+      "handoff": "Claim prieš kodavimą. Visi 39 stiliai peržiūrimi; įrodymai docs/evidence/P23.md."
     }
   ]
 }

@@ -4,7 +4,7 @@
 
 **Baigta: 74/75.**
 
-**Kita užduotis: [P23](tasks/P23.md).**
+**Pirmiausia patikrinti P23: Vykdoma; vykdytojas Claude/haiku-5.5/session-P23.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -84,6 +84,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Baigta | Claude/haiku-5.5/session-S50 | task/s50-balcony-builder | [PR](https://github.com/lmatukas/web-style-atlas/pull/97) | 2026-10-22T18:30:58Z | Nėra. Užduotis baigta. |
 | [S51](tasks/S51.md) | Pertvarka: Field Notes | Baigta | Claude/haiku-5.5/session-S51 | task/s51-field-notes | [PR](https://github.com/lmatukas/web-style-atlas/pull/98) | 2026-10-22T18:47:17Z | Nėra. Užduotis baigta. |
 | [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Baigta | Claude/haiku-5.5/session-P22 | task/p22-footer-cleanup | [PR](https://github.com/lmatukas/web-style-atlas/pull/99) | 2026-10-22T19:56:05Z | Nėra. Užduotis baigta. |
-| [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P23.md. |
+| [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Vykdoma | Claude/haiku-5.5/session-P23 | task/p23-final-evidence | — | 2026-10-22T19:56:18Z | Peržiūrėti 39 stilius, įrašyti rubrikos balus ir sugeneruoti katalogą. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
