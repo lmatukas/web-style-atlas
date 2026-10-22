@@ -3050,7 +3050,7 @@
     {
       "id": "S40",
       "title": "Pertvarka: Institutional Clear",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
@@ -3077,9 +3077,9 @@
           "details": "11/12, no zero; recognition 2, distinction 2; all four PNGs inspected"
         },
         {
-          "name": "PR CI",
-          "status": "not_run",
-          "details": "waiting for Atlas validation"
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39731472376 succeeded all three jobs on 391659a"
         }
       ],
       "evidence_paths": [
@@ -3087,15 +3087,15 @@
       ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40",
       "claimed_at": "2026-10-22T05:52:44Z",
-      "updated_at": "2026-10-22T06:02:11Z",
+      "updated_at": "2026-10-22T06:04:15Z",
       "branch": "task/s40-institutional-clear",
       "base_commit": "b04b77f34ee2c4a2460f7ef917518c63ec57db6d",
       "evidence_commit": "911b371798e15d8b58f803ed1fe70efe662b25e9",
-      "merge_commit": null,
+      "merge_commit": "d8f8b3310f7a656cac01f3bc79ee119d8416af6b",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/87",
       "blocker": null,
-      "next_action": "Laukti PR CI; sujungti; pažymėti done.",
-      "handoff": "PR atidarytas, laukia CI. Po sujungimo: done su merge_commit."
+      "next_action": "Baigta; nėra veiksmo.",
+      "handoff": null
     },
     {
       "id": "S41",
