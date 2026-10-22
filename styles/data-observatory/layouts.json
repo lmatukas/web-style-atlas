@@ -3,7 +3,7 @@
   "variants": [
     {
       "id": "a",
-      "title": "Metrics and fixed-scale chart overview",
+      "title": "Metrics and paired-dot chart overview",
       "page_type": "data",
       "reference_path": "reference/index.html",
       "navigation": "Overview/comparison/method links and two actual period buttons.",
@@ -27,18 +27,19 @@
         },
         {
           "purpose": "Inspect distribution",
-          "pattern": "Labeled horizontal bars",
+          "pattern": "Paired Q1/Q2 dots on one fixed scale",
           "content_requirements": [
-            "Six values",
-            "Fixed 0\u2013500 scale"
+            "Six locations",
+            "Hollow Q1 and filled Q2 markers",
+            "Fixed 0–500 scale"
           ]
         },
         {
           "purpose": "Interpret",
-          "pattern": "Reading note",
+          "pattern": "Reading note stating what changed",
           "content_requirements": [
-            "Baseline comparison",
-            "Count meaning"
+            "Every place grew",
+            "Largest gain named"
           ]
         },
         {
@@ -50,10 +51,10 @@
           ]
         }
       ],
-      "mobile_reflow": "Stack metric groups and reading note; preserve names/values and fixed bar scale, wrap period buttons.",
+      "mobile_reflow": "Stack metric groups and reading note; keep names, values and the shared dot scale, wrap period buttons.",
       "distinguishing_features": [
-        "One source for metrics and chart",
-        "Explicit fixed scale",
+        "Paired Q1/Q2 dots instead of bars",
+        "Explicit fixed scale with hollow and filled markers",
         "Actual period switching"
       ]
     },
