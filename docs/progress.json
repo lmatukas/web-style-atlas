@@ -3220,7 +3220,7 @@
     {
       "id": "S43",
       "title": "Pertvarka: Soft Spatial",
-      "status": "review",
+      "status": "blocked",
       "depends_on": [
         "P19",
         "P20"
@@ -3267,14 +3267,14 @@
       ],
       "worker": "Claude/haiku-5.5/session-S43",
       "claimed_at": "2026-10-22T16:22:53Z",
-      "updated_at": "2026-10-22T16:46:02Z",
+      "updated_at": "2026-10-22T17:10:45Z",
       "branch": "task/s43-soft-spatial",
       "base_commit": "b6d70380c1e22c8b5b25ec833ee894b878bee649",
       "evidence_commit": "5881a063f37a582beb83e6daa13ae06d4f679d75",
       "merge_commit": null,
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/90",
-      "blocker": null,
-      "next_action": "Run npm run check -- --style soft-spatial on canonical host or record an accepted exception, then set done.",
+      "blocker": "PR #90 sujungtas (ba3eef67bc39ddfc01243ea71441fcb8857fc852), exact-head checks praėjo. Baigti negalima: kortelės patikrinimas npm run check -- --style soft-spatial yra not_run (reikia kanoninės aplinkos), o vartotojas nurodė jo nevykdyti.",
+      "next_action": "Kanoninėje aplinkoje paleisti npm run check -- --style soft-spatial, tada nustatyti done su merge_commit ba3eef67bc39ddfc01243ea71441fcb8857fc852.",
       "handoff": "PR #90 merged as ba3eef67bc39ddfc01243ea71441fcb8857fc852 after exact-head checks passed at 5881a06. Still review, not done: the card check npm run check -- --style soft-spatial is not_run locally (needs canonical host), and the done validator requires every check to pass. Next: run that check on the canonical host, or accept it as a recorded exception, then set done with merge_commit ba3eef67bc39ddfc01243ea71441fcb8857fc852."
     },
     {
