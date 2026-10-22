@@ -3390,23 +3390,23 @@
     {
       "id": "S46",
       "title": "Pertvarka: Terminal Utility",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-S46",
+      "claimed_at": "2026-10-22T17:23:01Z",
+      "updated_at": "2026-10-22T17:23:01Z",
+      "branch": "task/s46-terminal-utility",
+      "base_commit": "9ce1c872b50271733e931320b5c02b37a3457b47",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S46.md.",
+      "next_action": "Implement S46 on task branch; run checks; canonical PNG via workflow; PR; review.",
       "handoff": null
     },
     {
