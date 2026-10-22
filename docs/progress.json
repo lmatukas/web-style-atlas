@@ -3445,24 +3445,57 @@
     {
       "id": "S47",
       "title": "Pertvarka: Art Deco",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PASS (lokaliai, prieš vartotojo nurodymą)."
+        },
+        {
+          "name": "npm run build -- --style art-deco",
+          "status": "pass",
+          "details": "PASS; 39 styles, 39 ready (lokaliai)."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "87/87 (lokaliai)."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style art-deco)",
+          "status": "pass",
+          "details": "Run 39825156018 success; bot commit 669c3d1 regenerated four PNG."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG; rubric 12/12; neighbour bauhaus-geometric compared from catalogue description only."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "PR #94 exact-head checks at 8ed4f66 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as 2736428404a0ea243e5c26515988fa622e6404a9."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S47.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S47",
       "claimed_at": "2026-10-22T17:41:35Z",
-      "updated_at": "2026-10-22T17:41:35Z",
+      "updated_at": "2026-10-22T17:47:04Z",
       "branch": "task/s47-art-deco",
       "base_commit": "0a2c29cecd9350efbc3abe8d65db8e2855947114",
-      "evidence_commit": null,
-      "merge_commit": null,
-      "pr_url": null,
+      "evidence_commit": "8ed4f6615980ec5b62bad0fd5a45456da2481554",
+      "merge_commit": "2736428404a0ea243e5c26515988fa622e6404a9",
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/94",
       "blocker": null,
-      "next_action": "Implement S47 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #94 sujungtas 2736428404a0ea243e5c26515988fa622e6404a9. Rubrika 12/12. Baigta."
     },
     {
       "id": "S48",
