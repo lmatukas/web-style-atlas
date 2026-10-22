@@ -28,7 +28,7 @@ Preserve five relationships: an overhead modular planting box; original playful 
 
 ## Typography
 
-Large bold DejaVu Sans display text provides soft curved letterforms and short readable promises, with Arial supporting practical labels and explanations. Explicit system fallbacks avoid font downloads. Rounded controls echo the display voice without making every paragraph oversized. Section labels remain modest and ordinary sentences carry the detailed reasons. Lithuanian glyphs appear in real interface text and the colophon. At phone widths headings wrap deliberately and control labels remain complete, rather than shrinking to preserve the desktop line breaks.
+Large bold DejaVu Sans display text provides soft curved letterforms and short readable promises, with Arial supporting practical labels and explanations. Explicit system fallbacks avoid font downloads. Rounded controls echo the display voice without making every paragraph oversized. Lithuanian glyphs appear in real interface text and the colophon. At phone widths headings wrap deliberately and control labels remain complete, rather than shrinking to preserve the desktop line breaks.
 
 ## Color and surfaces
 
@@ -44,7 +44,7 @@ B opens a workshop proposition and a two-column task. The left worksheet display
 
 ## Imagery
 
-All imagery is original SVG geometry. One, two or four rounded planter modules contain soil, rims and distinct botanical shapes. Sunny examples use tomato and optional pepper illustrations; partial-light examples use lettuce and optional spinach. A low or unknown light choice shows observation markers rather than promised crops. A one-module experienced configuration depicts both illustrated groups together. A separate original four-leaf branch carries the artistic growing sequence. A reusable planter and branch file are inventoried; no 3D model or WebGL capability is required by this selected SVG renderer.
+All imagery is original SVG geometry. Four modules show labelled growth stages (seed, seedling, growing, flowering), composed differently; the area choice decides which stages appear. Sunny examples use tomato and optional pepper illustrations; partial-light examples use lettuce and optional spinach. A low or unknown light choice shows observation markers rather than promised crops. A one-module experienced configuration depicts both illustrated groups together. A separate original four-leaf branch carries the artistic growing sequence. A reusable planter and branch file are inventoried; no 3D model or WebGL capability is required by this selected SVG renderer.
 
 ## Navigation and interaction
 
