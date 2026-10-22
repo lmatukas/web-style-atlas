@@ -2957,22 +2957,22 @@
     {
       "id": "P21",
       "title": "style.md frontmatter formato suvienodinimas",
-      "status": "blocked",
+      "status": "in_progress",
       "depends_on": [
         "P19"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-21T21:12:55Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
+      "claimed_at": "2026-10-22T04:26:47Z",
+      "updated_at": "2026-10-22T04:26:47Z",
+      "branch": "task/p21-canonical-previews",
+      "base_commit": "e98fb816bd3ddc80ce0451ebfe86083c264ea481",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": "Kanoninė aplinka čia neprieinama: reikalingas Chromium headless shell 151.0.7922.34 (scripts/preview.config.mjs), o sistemoje yra 141; cdn.playwright.dev, azureedge ir prss.microsoft.com nepasiekiami. Node v24.19.0 gautas per npm pakietą node-linux-x64@24.19.0. Be teisingo naršyklės build'o PNG neperkuriami, todėl stilių keitimas paliktų previews-manifest pasenusį.",
-      "next_action": "Paleisti kanoninėje aplinkoje (Ubuntu 24.04, Node v24.19.0, Chromium headless shell 151.0.7922.34): npm ci, npm run previews, commit PNG ir manifest, tada npm run check.",
+      "blocker": null,
+      "next_action": "1) Pridėti workflow generavimui kanoninėje aplinkoje. 2) Sugeneruoti PNG. 3) Suvienodinti style.md frontmatter.",
       "handoff": null
     },
     {
