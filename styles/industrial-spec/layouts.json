@@ -27,12 +27,21 @@
           ]
         },
         {
-          "purpose": "Read construction context",
-          "pattern": "Numbered assembly observations",
+          "purpose": "Read the side projection",
+          "pattern": "Side elevation with callouts linked to the dimensional record",
+          "content_requirements": [
+            "Depth callout",
+            "Inlet callout"
+          ]
+        },
+        {
+          "purpose": "Follow the assembly sequence",
+          "pattern": "Numbered sequence with joint notes",
           "content_requirements": [
             "Housing",
-            "Inlet",
-            "Record"
+            "Inlet collar",
+            "Corner fixings",
+            "Not a build procedure"
           ]
         },
         {
