@@ -3555,23 +3555,23 @@
     {
       "id": "S49",
       "title": "Pertvarka: Industrial Spec",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-S49",
+      "claimed_at": "2026-10-22T17:59:28Z",
+      "updated_at": "2026-10-22T17:59:28Z",
+      "branch": "task/s49-industrial-spec",
+      "base_commit": "e8d6d6695feea66552ccba6766a109b4c6376725",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S49.md.",
+      "next_action": "Implement S49 on task branch; run checks; canonical PNG via workflow; PR; review.",
       "handoff": null
     },
     {
