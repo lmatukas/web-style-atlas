@@ -11,7 +11,7 @@ density: "dense"
 image_dependency: "low"
 motion_level: "subtle"
 complexity: "low"
-signature: {"composition": "Dense command index in A; chronological log beside a summary rail in B.", "typography": "System monospace throughout, with explicit timestamp and command hierarchy.", "navigation": "Plain text section links, command disclosures and a separate log index.", "content_rhythm": "Short input/output explanations or chronological events with supporting panels.", "imagery": "No image dependency; original text, rules and status notation.", "color_and_material": "Dark green-black surfaces, pale text and restrained green accents.", "interaction": "Native service details and an actual local log-type filter with pressed state.", "motion": "Static output, no blinking cursor; brief transitions removed for reduced motion."}
+signature: {"composition": "Dense command index in A; chronological log beside a summary rail in B.", "typography": "System monospace throughout, with explicit timestamp and command hierarchy.", "navigation": "Plain text section links, command disclosures and a separate log index.", "content_rhythm": "Short input/output explanations or chronological events with supporting panels.", "imagery": "No image dependency; original text, rules and status notation.", "color_and_material": "Dark green-black surfaces, pale text and restrained green accents.", "interaction": "Native service details, a local log search and a filter with pressed state.", "motion": "Static output, no blinking cursor; brief transitions removed for reduced motion."}
 status: "ready"
 ---
 
@@ -35,11 +35,11 @@ A nearly black green ground holds pale readable text, a soft green accent and mu
 
 ## Layout A
 
-A compact Relay Works header leads to a large terminal-style introduction and a clearly labeled demonstration command. Three native command disclosures explain audit, repair and handoff services with useful inputs and expected deliverables. A numbered runbook describes the actual sequence a customer would discuss with the practice. The closing scope note points to the separate log composition. This is a service index with progressive detail, not a conventional sales hero followed by feature cards.
+A compact Relay Works header leads to a large terminal-style introduction and a clearly labeled demonstration command. Three native command disclosures explain audit, repair and handoff services with useful inputs and expected deliverables. A numbered runbook describes the actual sequence a customer would discuss with the practice. Each disclosure links to matching log entries, and the closing scope note points to the separate log composition. This is a service index with progressive detail, not a conventional sales hero followed by feature cards.
 
 ## Layout B
 
-Open with a snapshot heading and a plain date label. A narrow side panel summarizes the fictional run, while the wider column contains timestamped change and note entries. Real filter buttons switch between all entries, changes and notes; a live count reports the visible result. A native disclosure explains the sample data boundary. Finish with a return link and demonstration identity. Chronology and supporting panels replace the command-first service explanation used in A.
+Open with a snapshot heading and a plain date label. A narrow side panel summarizes the fictional run, while the wider column contains timestamped change and note entries. Real filter buttons and a local search narrow the entries; a status bar and live count report the visible result, and index links open the log pre-filtered. A native disclosure explains the sample data boundary. Finish with a return link and demonstration identity. Chronology and supporting panels replace the command-first service explanation used in A.
 
 ## Imagery
 
@@ -67,7 +67,7 @@ Replace fictional services and sample events with truthful project-specific info
 
 ## Avoid
 
-1. Do not add an inert input line that pretends to execute commands; links and disclosures must reveal their real behavior. 2. Do not use scanlines, glow or tiny text as a substitute for a readable technical hierarchy. 3. Do not label fictional snapshot values as live monitoring or allow color alone to encode event types.
+1. Do not add an inert input line that pretends to execute commands; links and disclosures must reveal their real behavior. 2. Do not use scanlines, glow or tiny text as a substitute for a readable technical hierarchy. 3. Do not label fictional snapshot values as live monitoring; statuses carry a text label, never colour alone.
 
 ## Closest styles
 

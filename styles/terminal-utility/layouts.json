@@ -79,11 +79,13 @@
         },
         {
           "purpose": "Inspect events",
-          "pattern": "Timestamped filtered log",
+          "pattern": "Timestamped log with search, statuses and a status bar",
           "content_requirements": [
             "Entry type",
             "Message",
-            "Result count"
+            "Result count",
+            "Local search",
+            "Status labels"
           ]
         },
         {
@@ -104,8 +106,8 @@
       "mobile_reflow": "Summary rail moves above entries; timestamps stack above messages; filter buttons wrap.",
       "distinguishing_features": [
         "Chronological information rhythm",
-        "Actual entry-type filter",
-        "Summary rail"
+        "Entry-type filter with local search",
+        "Status bar and summary rail"
       ]
     }
   ]
