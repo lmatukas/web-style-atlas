@@ -35,11 +35,11 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-A compact institutional header opens into a modest exhibition title. Below, three paintings occupy unequal wall positions: a tall interrupted red study, a low blue folded form and a warm curved ribbon. Attached labels identify each work after it has been seen. A narrow curatorial statement follows the exhibition wall, then practical demonstration and rights notes close the page. The wall is a spatial arrangement of different original works, not identical cards with interchangeable images.
+A compact institutional header opens into a modest exhibition title. Below the wall, a wall-label chooser uses three native radio buttons, so one work’s note appears at a time and keyboard users can move between them without script. Below, three paintings occupy unequal wall positions: a tall interrupted red study, a low blue folded form and a warm curved ribbon. Attached labels identify each work after it has been seen. A narrow curatorial statement follows the exhibition wall, a route plan shows the order of the room, and then practical demonstration and rights notes close the page. The wall is a spatial arrangement of different original works, not identical cards with interchangeable images. Route plans explain the room’s order rather than decorating it.
 
 ## Layout B
 
-The selected painting occupies a tall left field. A narrow right dossier carries title, medium, format, date and a numbered exhibition index. Beneath this concentrated first view, a looking note explains one relationship inside the painting; a smaller companion work changes the pace before collection-record details close the page. This composition starts with a particular work and its record, unlike the exhibition overview. The index and companion link give truthful paths back into the collection.
+The selected painting occupies a tall left field. A narrow right dossier carries title, medium, format, date and a numbered exhibition index. Beneath this concentrated first view, a looking note explains one relationship inside the painting; a smaller companion work changes the pace before collection-record details close the page. This composition starts with a particular work and its record, unlike the exhibition overview. The dossier records the method and expected life of the work, and the index and companion link give truthful paths back into the collection.
 
 ## Imagery
 
