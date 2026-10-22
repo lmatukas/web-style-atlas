@@ -3274,7 +3274,7 @@
       "merge_commit": "ba3eef67bc39ddfc01243ea71441fcb8857fc852",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/90",
       "blocker": null,
-      "next_action": null,
+      "next_action": "Nėra. Užduotis baigta.",
       "handoff": "PR #90 sujungtas ba3eef6. Kanoninis npm run check praėjo per workflow run 39813917209. Baigta."
     },
     {
