@@ -3335,24 +3335,57 @@
     {
       "id": "S45",
       "title": "Pertvarka: Editorial Journal",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PASS."
+        },
+        {
+          "name": "npm run build -- --style editorial-journal",
+          "status": "pass",
+          "details": "PASS; 39 styles, 39 ready."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "87/87."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style editorial-journal)",
+          "status": "pass",
+          "details": "Run 39821639434 success; bot commit f8ccafc regenerated four PNG; verify step ran in the same run block."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG; rubric 12/12; neighbour newspaper-ledger compared."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "not_run",
+          "details": "Pending PR #92 exact-head checks; merge not performed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S45.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S45",
       "claimed_at": "2026-10-22T17:17:33Z",
-      "updated_at": "2026-10-22T17:17:33Z",
+      "updated_at": "2026-10-22T17:21:14Z",
       "branch": "task/s45-editorial-journal",
       "base_commit": "4710d593ba91bac1c3517f85be05dc8779d457de",
-      "evidence_commit": null,
+      "evidence_commit": "eb8ce604f27ee3bacf27c4dc2d41116695e75a2b",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/92",
       "blocker": null,
-      "next_action": "Implement S45 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Wait for PR #92 exact-head checks, merge at verified head, then set done with merge_commit.",
+      "handoff": "PR #92 open. Rubric 12/12. Limitations: A teaser columns 2-3 text-only; cup drawing small."
     },
     {
       "id": "S46",

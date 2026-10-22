@@ -4,7 +4,7 @@
 
 **Baigta: 66/75.**
 
-**Pirmiausia patikrinti S45: Vykdoma; vykdytojas Claude/haiku-5.5/session-S45.**
+**Pirmiausia patikrinti S45: Laukia peržiūros; vykdytojas Claude/haiku-5.5/session-S45.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -76,7 +76,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Baigta | Claude/haiku-5.5/session-S42 | task/s42-newspaper-ledger | [PR](https://github.com/lmatukas/web-style-atlas/pull/89) | 2026-10-22T16:22:38Z | S43 next when a session starts again. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Baigta | Claude/haiku-5.5/session-S43 | task/s43-soft-spatial | [PR](https://github.com/lmatukas/web-style-atlas/pull/90) | 2026-10-22T17:11:16Z | Nėra. Užduotis baigta. |
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Baigta | Claude/haiku-5.5/session-S44 | task/s44-data-observatory | [PR](https://github.com/lmatukas/web-style-atlas/pull/91) | 2026-10-22T17:17:22Z | Nėra. Užduotis baigta. |
-| [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Vykdoma | Claude/haiku-5.5/session-S45 | task/s45-editorial-journal | — | 2026-10-22T17:17:33Z | Implement S45 on task branch; run checks; canonical PNG via workflow; PR; review. |
+| [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Laukia peržiūros | Claude/haiku-5.5/session-S45 | task/s45-editorial-journal | [PR](https://github.com/lmatukas/web-style-atlas/pull/92) | 2026-10-22T17:21:14Z | Wait for PR #92 exact-head checks, merge at verified head, then set done with merge_commit. |
 | [S46](tasks/S46.md) | Pertvarka: Terminal Utility | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S46.md. |
 | [S47](tasks/S47.md) | Pertvarka: Art Deco | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S47.md. |
 | [S48](tasks/S48.md) | Pertvarka: Gallery White Cube | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S48.md. |
