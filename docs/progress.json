@@ -2957,7 +2957,7 @@
     {
       "id": "P21",
       "title": "style.md frontmatter formato suvienodinimas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19"
       ],
@@ -2988,9 +2988,9 @@
           "details": "all 39 desktop and mobile A previews inspected; no broken layouts"
         },
         {
-          "name": "PR CI",
-          "status": "not_run",
-          "details": "waiting for Atlas validation on PR #86"
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "Atlas validation 39727908107 succeeded all three jobs on 98d69ab"
         }
       ],
       "evidence_paths": [
@@ -2998,15 +2998,15 @@
       ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
       "claimed_at": "2026-10-22T04:26:47Z",
-      "updated_at": "2026-10-22T04:54:13Z",
+      "updated_at": "2026-10-22T05:35:11Z",
       "branch": "task/p21-canonical-previews",
       "base_commit": "e98fb816bd3ddc80ce0451ebfe86083c264ea481",
       "evidence_commit": "a0ace86b4b4ffaca91171c6cd6cc705cc14a62eb",
-      "merge_commit": null,
+      "merge_commit": "2eb07a313d91bf5572ce691c001c334f25e8caa3",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/86",
       "blocker": null,
-      "next_action": "Laukti PR #86 CI; sujungti; pažymėti done.",
-      "handoff": "PR #86 laukia CI. Po sujungimo: done su merge_commit."
+      "next_action": "Baigta; nėra veiksmo.",
+      "handoff": null
     },
     {
       "id": "P24",
