@@ -3220,24 +3220,62 @@
     {
       "id": "S43",
       "title": "Pertvarka: Soft Spatial",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PASS; footer-boilerplate warning includes soft-spatial (P22 cleanup); shared-asset warning not from this style."
+        },
+        {
+          "name": "npm run build -- --style soft-spatial",
+          "status": "pass",
+          "details": "PASS; 39 styles, 39 ready."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "87/87."
+        },
+        {
+          "name": "npm run check -- --style soft-spatial",
+          "status": "not_run",
+          "details": "Local check needs canonical host (Ubuntu 24.04, Node 24.19.0); previews verified by canonical workflow instead."
+        },
+        {
+          "name": "canonical previews workflow",
+          "status": "pass",
+          "details": "Run 39813917209 jobs all succeeded; bot commit 1a71d0d regenerated four PNG."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG; rubric 12/12; neighbours light-environments and twilight-expedition compared."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "not_run",
+          "details": "Not run yet: PR #90 exact-head checks pending at 5881a06; merge not performed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S43.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S43",
       "claimed_at": "2026-10-22T16:22:53Z",
-      "updated_at": "2026-10-22T16:22:53Z",
+      "updated_at": "2026-10-22T16:42:24Z",
       "branch": "task/s43-soft-spatial",
       "base_commit": "b6d70380c1e22c8b5b25ec833ee894b878bee649",
-      "evidence_commit": null,
+      "evidence_commit": "5881a063f37a582beb83e6daa13ae06d4f679d75",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/90",
       "blocker": null,
-      "next_action": "Implement S43 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Wait for PR #90 exact-head checks, merge at verified head, then set done with merge_commit.",
+      "handoff": "PR #90 open. Rubric 12/12. Limitation: npm run check and test:browser not run on canonical host locally; mobile B loses staircase indent by design."
     },
     {
       "id": "S44",
