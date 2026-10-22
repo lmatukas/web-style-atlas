@@ -2,14 +2,14 @@
 :root {
   --breakpoint-desktop: 1024px;
   --breakpoint-tablet: 768px;
-  --color-accent: #77d5ce;
-  --color-background: #101b2b;
-  --color-border: #6f8398;
-  --color-focus: #f1d18a;
-  --color-muted: #aebdce;
-  --color-on-accent: #102d31;
-  --color-surface: #18283b;
-  --color-text: #ecf3f7;
+  --color-accent: #1f6b5c;
+  --color-background: #eef2ee;
+  --color-border: #8c9c94;
+  --color-focus: #b4541c;
+  --color-muted: #4f6159;
+  --color-on-accent: #ffffff;
+  --color-surface: #ffffff;
+  --color-text: #1c2a25;
   --font-body: "Arial", sans-serif;
   --font-display: "Arial", sans-serif;
   --font-size-body: 1rem;

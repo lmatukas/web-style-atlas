@@ -433,10 +433,10 @@
       "name": "Data Observatory",
       "schema_version": 1,
       "signature": {
-        "color_and_material": "Deep navy surfaces, pale labels and one turquoise measure accent.",
-        "composition": "Quantitative overview with bar chart in A; exact filtered/sortable comparison table in B.",
+        "color_and_material": "Pale survey-sheet ground, white measurement surfaces, deep green Q2 mark and hollow grey Q1 mark.",
+        "composition": "Quantitative overview with a paired-dot Q1/Q2 chart in A; exact filtered/sortable comparison table in B.",
         "content_rhythm": "Synchronized metrics, chart, reading note and methodology; or exact comparison rows.",
-        "imagery": "Code-native fixed-scale bars from one bundled six-location simulated dataset.",
+        "imagery": "Code-native fixed-scale paired dots from one bundled six-location simulated dataset.",
         "interaction": "Actual period switching, location search and numeric/name sorting with accessible state.",
         "motion": "Immediate data updates, fixed chart scale and no count-up animation; reduced-motion honored.",
         "navigation": "Stable overview/comparison/method links and local dataset controls.",
@@ -456,7 +456,7 @@
           "preview_mobile_path": "styles/data-observatory/preview-mobile.png",
           "preview_path": "styles/data-observatory/preview.png",
           "reference_path": "styles/data-observatory/reference/index.html",
-          "title": "Metrics and fixed-scale chart overview"
+          "title": "Metrics and paired-dot chart overview"
         },
         {
           "id": "b",
