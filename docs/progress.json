@@ -2961,19 +2961,42 @@
       "depends_on": [
         "P19"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate",
+          "status": "pass",
+          "details": "node scripts/ci.mjs validate exit 0"
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "87/87"
+        },
+        {
+          "name": "CI PR run 39722488302",
+          "status": "pass",
+          "details": "Scope, source, and browser gates success on 60eb1eb"
+        },
+        {
+          "name": "canonical PNG regeneration",
+          "status": "not_run",
+          "details": "workflow added; not yet run"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P21.md"
+      ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
       "claimed_at": "2026-10-22T04:26:47Z",
-      "updated_at": "2026-10-22T04:26:47Z",
+      "updated_at": "2026-10-22T04:38:07Z",
       "branch": "task/p21-canonical-previews",
       "base_commit": "e98fb816bd3ddc80ce0451ebfe86083c264ea481",
-      "evidence_commit": null,
+      "evidence_commit": "60eb1ebf8f5ead4960ce58533ae4e3e2ef9b647f",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/85",
       "blocker": null,
-      "next_action": "1) Pridėti workflow generavimui kanoninėje aplinkoje. 2) Sugeneruoti PNG. 3) Suvienodinti style.md frontmatter.",
-      "handoff": null
+      "next_action": "Paleisti previews.yml workflow'ą ant naujos P21 šakos su frontmatter pakeitimais.",
+      "handoff": "Darbo eiga sujungta (PR #85). Kitas žingsnis: paleisti 'Regenerate canonical previews' su branch ir style tuščią arba vieną; tada vizualiai patikrinti PNG; tada frontmatter pakeitimai ir vėl generavimas."
     },
     {
       "id": "P24",
