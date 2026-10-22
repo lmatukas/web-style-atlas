@@ -4,7 +4,7 @@
 
 **Baigta: 73/75.**
 
-**Pirmiausia patikrinti P22: Vykdoma; vykdytojas Claude/haiku-5.5/session-P22.**
+**Pirmiausia patikrinti P22: Laukia peržiūros; vykdytojas Claude/haiku-5.5/session-P22.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -83,7 +83,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S49](tasks/S49.md) | Pertvarka: Industrial Spec | Baigta | Claude/haiku-5.5/session-S49 | task/s49-industrial-spec | [PR](https://github.com/lmatukas/web-style-atlas/pull/96) | 2026-10-22T18:03:17Z | Nėra. Užduotis baigta. |
 | [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Baigta | Claude/haiku-5.5/session-S50 | task/s50-balcony-builder | [PR](https://github.com/lmatukas/web-style-atlas/pull/97) | 2026-10-22T18:30:58Z | Nėra. Užduotis baigta. |
 | [S51](tasks/S51.md) | Pertvarka: Field Notes | Baigta | Claude/haiku-5.5/session-S51 | task/s51-field-notes | [PR](https://github.com/lmatukas/web-style-atlas/pull/98) | 2026-10-22T18:47:17Z | Nėra. Užduotis baigta. |
-| [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Vykdoma | Claude/haiku-5.5/session-P22 | task/p22-footer-cleanup | — | 2026-10-22T18:50:29Z | Įgyvendinti footer pakeitimus ir atidaryti PR [P22]. |
+| [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Laukia peržiūros | Claude/haiku-5.5/session-P22 | task/p22-footer-cleanup | [PR](https://github.com/lmatukas/web-style-atlas/pull/99) | 2026-10-22T19:51:11Z | Laukti PR #99 CI success ant 0d705f5; tada sujungti ir pažymėti done. |
 | [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P23.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

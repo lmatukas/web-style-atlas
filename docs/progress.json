@@ -3720,7 +3720,7 @@
     {
       "id": "P22",
       "title": "Footer ir kopijos šablonų valymas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S40",
         "S41",
@@ -3736,19 +3736,47 @@
         "S51",
         "P21"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "not_run",
+          "details": "Nepaleista lokaliai (vartotojo nurodymas). PR #99 CI ant 0d705f5 vykdoma."
+        },
+        {
+          "name": "npm run build; node --test tests/*.test.mjs",
+          "status": "not_run",
+          "details": "Nepaleista lokaliai. PR #99 CI ant 0d705f5 vykdoma."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style <id>) for 18 styles",
+          "status": "pass",
+          "details": "18 iš 18 previews.yml run success (39834985298 ... 39843318133); bot commit'ai pridėti prie task/p22-footer-cleanup."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Atidaryti visi 72 PNG; footer pakeitimas matomas, layout nepakitęs; balai nepakeisti, nes layout ir spalvos tos pačios."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "not_run",
+          "details": "Laukiama PR #99 CI ant 0d705f5; merge tik po success."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P22.md"
+      ],
       "worker": "Claude/haiku-5.5/session-P22",
       "claimed_at": "2026-10-22T18:50:29Z",
-      "updated_at": "2026-10-22T18:50:29Z",
+      "updated_at": "2026-10-22T19:51:11Z",
       "branch": "task/p22-footer-cleanup",
       "base_commit": "2290a06a498def8f7c7705652962dddf3a61bff0",
-      "evidence_commit": null,
+      "evidence_commit": "0d705f54b51c8b35606d78c6dc81d9ae54783506",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/99",
       "blocker": null,
-      "next_action": "Įgyvendinti footer pakeitimus ir atidaryti PR [P22].",
-      "handoff": "Claim prieš kodavimą. Footer pakeitimai 18 stilių (36 puslapių), peržiūros perstatomos po vieną per kanoninį workflow."
+      "next_action": "Laukti PR #99 CI success ant 0d705f5; tada sujungti ir pažymėti done.",
+      "handoff": "PR #99 atidarytas. 18 stilių footer pakeitimai, 18 kanoninių previews run success, 72 PNG patikrinti. Diakritikų eilutė palikta footer'yje (P20 taisyklė, sprendimas laukia savininko)."
     },
     {
       "id": "P23",
