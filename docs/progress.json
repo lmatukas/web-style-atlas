@@ -3050,24 +3050,52 @@
     {
       "id": "S40",
       "title": "Pertvarka: Institutional Clear",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate",
+          "status": "pass",
+          "details": "npm run validate PASS"
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "87/87"
+        },
+        {
+          "name": "canonical previews",
+          "status": "pass",
+          "details": "previews.yml run 39731240033 success incl. npm run check --style institutional-clear"
+        },
+        {
+          "name": "visual rubric",
+          "status": "pass",
+          "details": "11/12, no zero; recognition 2, distinction 2; all four PNGs inspected"
+        },
+        {
+          "name": "PR CI",
+          "status": "not_run",
+          "details": "waiting for Atlas validation"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S40.md"
+      ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40",
       "claimed_at": "2026-10-22T05:52:44Z",
-      "updated_at": "2026-10-22T05:52:44Z",
+      "updated_at": "2026-10-22T06:02:11Z",
       "branch": "task/s40-institutional-clear",
       "base_commit": "b04b77f34ee2c4a2460f7ef917518c63ec57db6d",
-      "evidence_commit": null,
+      "evidence_commit": "911b371798e15d8b58f803ed1fe70efe662b25e9",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/87",
       "blocker": null,
-      "next_action": "Pertvarkyti institutional-clear pagal docs/tasks/S40.md; PNG per previews.yml; PR [S40].",
-      "handoff": null
+      "next_action": "Laukti PR CI; sujungti; pažymėti done.",
+      "handoff": "PR atidarytas, laukia CI. Po sujungimo: done su merge_commit."
     },
     {
       "id": "S41",
