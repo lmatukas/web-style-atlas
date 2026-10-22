@@ -27,9 +27,10 @@
         },
         {
           "purpose": "Browse departments",
-          "pattern": "Ruled editorial columns",
+          "pattern": "Ruled editorial columns with a visual anchor",
           "content_requirements": [
-            "Three teasers"
+            "Three teasers",
+            "Original cup drawing in the first column"
           ]
         },
         {
@@ -50,7 +51,8 @@
       "mobile_reflow": "Stack cover text and still-life; story columns become vertical departments.",
       "distinguishing_features": [
         "Oversized literary masthead",
-        "Editorial teaser columns"
+        "Editorial teaser columns",
+        "Original line drawing anchors the teaser row"
       ]
     },
     {
