@@ -4,7 +4,7 @@
 
 **Baigta: 62/75.**
 
-**Kita užduotis: [S41](tasks/S41.md).**
+**Pirmiausia patikrinti S41: Vykdoma; vykdytojas Codex/2d342de235d6/S41.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -72,7 +72,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21 | task/p21-canonical-previews | [PR](https://github.com/lmatukas/web-style-atlas/pull/86) | 2026-10-22T05:35:11Z | Baigta; nėra veiksmo. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40 | task/s40-institutional-clear | [PR](https://github.com/lmatukas/web-style-atlas/pull/87) | 2026-10-22T06:04:15Z | Baigta; nėra veiksmo. |
-| [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
+| [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Vykdoma | Codex/2d342de235d6/S41 | task/s41-quiet-luxury | — | 2026-10-22T07:00:40.246Z | Read current previews and references; redesign A as an object scene and B as a measured collection document. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S44.md. |

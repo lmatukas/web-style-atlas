@@ -3100,23 +3100,23 @@
     {
       "id": "S41",
       "title": "Pertvarka: Quiet Luxury",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Codex/2d342de235d6/S41",
+      "claimed_at": "2026-10-22T07:00:40.242Z",
+      "updated_at": "2026-10-22T07:00:40.246Z",
+      "branch": "task/s41-quiet-luxury",
+      "base_commit": "5539adc2c23eac25c38df3d2325432d14aa89b93",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md.",
+      "next_action": "Read current previews and references; redesign A as an object scene and B as a measured collection document.",
       "handoff": null
     },
     {
