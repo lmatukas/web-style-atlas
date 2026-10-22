@@ -3155,23 +3155,23 @@
     {
       "id": "S42",
       "title": "Pertvarka: Newspaper Ledger",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-S42",
+      "claimed_at": "2026-10-22T16:03:40Z",
+      "updated_at": "2026-10-22T16:03:40Z",
+      "branch": "task/s42-newspaper-ledger",
+      "base_commit": "ceca6e73f381207a178c9ec9d6a1f339558c50dc",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md.",
+      "next_action": "Implement S42 on task branch; run checks; canonical PNG via workflow; PR; review.",
       "handoff": null
     },
     {
