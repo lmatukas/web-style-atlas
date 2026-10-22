@@ -35,7 +35,7 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-A compact document header leads into a three-part product plate: the identifier and descriptor, front elevation, and narrow status strip. The dimensional record follows as a heading beside a definition list. Three numbered construction observations identify housing, inlet and record without pretending to provide fabrication steps. Document notes and a native boundary disclosure close the sheet. This order lets a reader see the object before inspecting every dimension or reading its limitations.
+A compact document header leads into a three-part product plate: the identifier and descriptor, front elevation, and narrow status strip. The dimensional record follows as a heading beside a definition list. A side projection links its depth and inlet callouts back to those rows. A numbered assembly sequence then lists housing, inlet collar and corner fixings, each with a joint note, and states that the order explains the drawing rather than providing a build procedure. Document notes and a native boundary disclosure close the sheet. This order lets a reader see the object before inspecting every dimension or reading its limitations.
 
 ## Layout B
 
