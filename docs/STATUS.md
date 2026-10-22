@@ -4,7 +4,7 @@
 
 **Baigta: 64/75.**
 
-**Kita užduotis: [S43](tasks/S43.md).**
+**Pirmiausia patikrinti S43: Vykdoma; vykdytojas Claude/haiku-5.5/session-S43.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -74,7 +74,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40 | task/s40-institutional-clear | [PR](https://github.com/lmatukas/web-style-atlas/pull/87) | 2026-10-22T06:04:15Z | Baigta; nėra veiksmo. |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Baigta | Codex/56b4d5b97962/S41 | task/s41-quiet-luxury | [PR](https://github.com/lmatukas/web-style-atlas/pull/88) | 2026-10-22T15:10:31.566Z | S41 priimta. Kita užduotis S42 pagal naują užklausą. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Baigta | Claude/haiku-5.5/session-S42 | task/s42-newspaper-ledger | [PR](https://github.com/lmatukas/web-style-atlas/pull/89) | 2026-10-22T16:22:38Z | S43 next when a session starts again. |
-| [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |
+| [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Vykdoma | Claude/haiku-5.5/session-S43 | task/s43-soft-spatial | — | 2026-10-22T16:22:53Z | Implement S43 on task branch; run checks; canonical PNG via workflow; PR; review. |
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S44.md. |
 | [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S45.md. |
 | [S46](tasks/S46.md) | Pertvarka: Terminal Utility | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S46.md. |
