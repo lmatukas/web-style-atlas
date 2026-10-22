@@ -1,39 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "spine-editions",
-  "name": "Spine Editions",
-  "summary": "A vertical book spine, thematic edition shelves and original openable excerpts lead to a device-local reading list.",
-  "family": "editorial",
-  "tags": [
-    "reading-led",
-    "annotated",
-    "archival"
-  ],
-  "best_for": [
-    "publishing",
-    "culture"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A tall spine and thematic shelves; B filtered index beside an excerpt reader.",
-    "typography": "Georgia editorial reading with plain sans metadata and page identifiers.",
-    "navigation": "Theme controls, edition/reader/list anchors and actual A/B siblings.",
-    "content_rhythm": "Catalogue-to-reading sequence versus immediate index-to-excerpt spread.",
-    "imagery": "Original CSS spine and sliding cover, four authored edition excerpts.",
-    "color_and_material": "Paper white, ink blue and readable cinnabar red.",
-    "interaction": "Theme filtering, open/close excerpts and validated persistent local reading list.",
-    "motion": "600ms lines, 300ms filter reveal, 450ms cover and active process margin."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/spine-editions/prompt.lt.md"
-}
+schema_version: 1
+id: "spine-editions"
+name: "Spine Editions"
+summary: "A vertical book spine, thematic edition shelves and original openable excerpts lead to a device-local reading list."
+family: "editorial"
+tags: ["reading-led", "annotated", "archival"]
+best_for: ["publishing", "culture"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A tall spine and thematic shelves; B filtered index beside an excerpt reader.", "typography": "Georgia editorial reading with plain sans metadata and page identifiers.", "navigation": "Theme controls, edition/reader/list anchors and actual A/B siblings.", "content_rhythm": "Catalogue-to-reading sequence versus immediate index-to-excerpt spread.", "imagery": "Original CSS spine and sliding cover, four authored edition excerpts.", "color_and_material": "Paper white, ink blue and readable cinnabar red.", "interaction": "Theme filtering, open/close excerpts and validated persistent local reading list.", "motion": "600ms lines, 300ms filter reveal, 450ms cover and active process margin."}
+status: "ready"
+prompt_path: "prompts/spine-editions/prompt.lt.md"
 ---
 
 # Spine Editions

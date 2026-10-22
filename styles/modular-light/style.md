@@ -1,41 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "modular-light",
-  "name": "Modular Light",
-  "summary": "A folded paper-and-aluminum lamp catalogue and numbered assembly workbench with real module, shade and light configuration.",
-  "family": "spatial",
-  "tags": [
-    "dimensional",
-    "product-led",
-    "geometric",
-    "precise"
-  ],
-  "best_for": [
-    "products",
-    "architecture",
-    "portfolio"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A vertical collection title, broad central folded lamp and a narrow configure invitation; B a numbered parts rail and live assembly workbench beside controls.",
-    "typography": "Large light grotesque collection typography and small monospaced assembly numbers, with clear practical sans-serif copy.",
-    "navigation": "Visible principle, light and assembly destinations; B starts directly in a parts-to-configuration workbench.",
-    "content_rhythm": "Catalogue spread, fold principle and three use scenarios versus numbered components, direct construction and an envelope ledger.",
-    "imagery": "Original depth-tested WebGL polygonal lamp with folded opaque paper planes, matte aluminum joints and a visible directional light cone; truthful SVG fallback.",
-    "color_and_material": "Warm white, graphite and butter yellow; sage material option, flat readable labels and finely separated joint lines.",
-    "interaction": "Three to seven real modules, three shades and three purposes update geometry and concept dimensions, with undo, exact copy, download and validated unsent enquiry.",
-    "motion": "Five modules assemble in 900ms, scenario cone and ambience interpolate, one-axis explosion returns on toggle and module edits briefly reflow; stable reduced state and pause."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/modular-light/prompt.lt.md"
-}
+schema_version: 1
+id: "modular-light"
+name: "Modular Light"
+summary: "A folded paper-and-aluminum lamp catalogue and numbered assembly workbench with real module, shade and light configuration."
+family: "spatial"
+tags: ["dimensional", "product-led", "geometric", "precise"]
+best_for: ["products", "architecture", "portfolio"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A vertical collection title, broad central folded lamp and a narrow configure invitation; B a numbered parts rail and live assembly workbench beside controls.", "typography": "Large light grotesque collection typography and small monospaced assembly numbers, with clear practical sans-serif copy.", "navigation": "Visible principle, light and assembly destinations; B starts directly in a parts-to-configuration workbench.", "content_rhythm": "Catalogue spread, fold principle and three use scenarios versus numbered components, direct construction and an envelope ledger.", "imagery": "Original depth-tested WebGL polygonal lamp with folded opaque paper planes, matte aluminum joints and a visible directional light cone; truthful SVG fallback.", "color_and_material": "Warm white, graphite and butter yellow; sage material option, flat readable labels and finely separated joint lines.", "interaction": "Three to seven real modules, three shades and three purposes update geometry and concept dimensions, with undo, exact copy, download and validated unsent enquiry.", "motion": "Five modules assemble in 900ms, scenario cone and ambience interpolate, one-axis explosion returns on toggle and module edits briefly reflow; stable reduced state and pause."}
+status: "ready"
+prompt_path: "prompts/modular-light/prompt.lt.md"
 ---
 
 # Modular Light

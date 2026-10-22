@@ -1,41 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "repair-atlas",
-  "name": "Repair Atlas",
-  "summary": "A real segmental WebGL chair and labeled SVG fallback connect assembly, one-joint replacement and six design scenarios to a working two-to-four-stop route.",
-  "family": "expressive",
-  "tags": [
-    "product-led",
-    "annotated",
-    "high-contrast",
-    "task-led"
-  ],
-  "best_for": [
-    "culture",
-    "products",
-    "campaign"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A sticky chair beside assembly/material narrative; B a material object ledger and route worksheet beside a compact study.",
-    "typography": "Heavy Arial promises contrast with small museum numbers, material tags and practical route records.",
-    "navigation": "Materials, real dual filters, personal route and actual sibling composition links.",
-    "content_rhythm": "Whole object, materials, repair logic and catalogue versus material-led selection, route and construction context.",
-    "imagery": "Original depth-tested segmental chair, SVG disassembly alternative and six distinct local concept illustrations.",
-    "color_and_material": "Matte yellow scene, ultramarine route/explanation, chalk ground, black type and original wood tones.",
-    "interaction": "Manual disassembly, repeatable one-joint replacement, six-object filtering and unique 2–4-stop reorder/remove/export.",
-    "motion": "800ms assembly, bounded material separation, 500ms replacement and 400ms route-number landing, pause/reduced states."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/repair-atlas/prompt.lt.md"
-}
+schema_version: 1
+id: "repair-atlas"
+name: "Repair Atlas"
+summary: "A real segmental WebGL chair and labeled SVG fallback connect assembly, one-joint replacement and six design scenarios to a working two-to-four-stop route."
+family: "expressive"
+tags: ["product-led", "annotated", "high-contrast", "task-led"]
+best_for: ["culture", "products", "campaign"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A sticky chair beside assembly/material narrative; B a material object ledger and route worksheet beside a compact study.", "typography": "Heavy Arial promises contrast with small museum numbers, material tags and practical route records.", "navigation": "Materials, real dual filters, personal route and actual sibling composition links.", "content_rhythm": "Whole object, materials, repair logic and catalogue versus material-led selection, route and construction context.", "imagery": "Original depth-tested segmental chair, SVG disassembly alternative and six distinct local concept illustrations.", "color_and_material": "Matte yellow scene, ultramarine route/explanation, chalk ground, black type and original wood tones.", "interaction": "Manual disassembly, repeatable one-joint replacement, six-object filtering and unique 2–4-stop reorder/remove/export.", "motion": "800ms assembly, bounded material separation, 500ms replacement and 400ms route-number landing, pause/reduced states."}
+status: "ready"
+prompt_path: "prompts/repair-atlas/prompt.lt.md"
 ---
 
 # Repair Atlas

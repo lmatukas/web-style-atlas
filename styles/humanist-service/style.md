@@ -1,36 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "humanist-service",
-  "name": "Humanist Service",
-  "summary": "Warm serif guidance, approachable illustrated people and a clear three-step path make practical service help feel patient and understandable.",
-  "family": "functional",
-  "tags": [
-    "humanist",
-    "warm",
-    "task-led"
-  ],
-  "best_for": [
-    "services",
-    "public-information"
-  ],
-  "avoid_for": [],
-  "density": "balanced",
-  "image_dependency": "medium",
-  "motion_level": "subtle",
-  "complexity": "low",
-  "signature": {
-    "composition": "Welcoming person-to-person scene beside a plain invitation in A; a numbered vertical service path in B.",
-    "typography": "Warm Georgia display at conversational scale with readable Arial labels and practical body text.",
-    "navigation": "Visible help/people/process links and direct topic routes into the example planner.",
-    "content_rhythm": "Invitation, named tasks, illustrated team and first-step reassurance versus topic, preparation and local plan outline.",
-    "imagery": "Original illustration of two fictional people learning together; simple illustrative team portraits.",
-    "color_and_material": "Cream, warm peach, terracotta actions and dark olive text, with gentle curves and open reading space.",
-    "interaction": "Actual topic/format radio choices update preparation, local plan summary and keyboard focus; native scope notes.",
-    "motion": "Quiet immediate guidance and stable path; no rotating people, timed steps or reveal gates."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "humanist-service"
+name: "Humanist Service"
+summary: "Warm serif guidance, approachable illustrated people and a clear three-step path make practical service help feel patient and understandable."
+family: "functional"
+tags: ["humanist", "warm", "task-led"]
+best_for: ["services", "public-information"]
+avoid_for: []
+density: "balanced"
+image_dependency: "medium"
+motion_level: "subtle"
+complexity: "low"
+signature: {"composition": "Welcoming person-to-person scene beside a plain invitation in A; a numbered vertical service path in B.", "typography": "Warm Georgia display at conversational scale with readable Arial labels and practical body text.", "navigation": "Visible help/people/process links and direct topic routes into the example planner.", "content_rhythm": "Invitation, named tasks, illustrated team and first-step reassurance versus topic, preparation and local plan outline.", "imagery": "Original illustration of two fictional people learning together; simple illustrative team portraits.", "color_and_material": "Cream, warm peach, terracotta actions and dark olive text, with gentle curves and open reading space.", "interaction": "Actual topic/format radio choices update preparation, local plan summary and keyboard focus; native scope notes.", "motion": "Quiet immediate guidance and stable path; no rotating people, timed steps or reveal gates."}
+status: "ready"
 ---
 
 # Humanist Service

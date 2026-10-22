@@ -1,41 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "balcony-builder",
-  "name": "Balcony Builder",
-  "summary": "A playful overhead modular planter connects light, available places and experience to an explained demonstration kit with real device-local saving.",
-  "family": "commercial",
-  "tags": [
-    "product-led",
-    "playful",
-    "high-contrast",
-    "task-led"
-  ],
-  "best_for": [
-    "commerce",
-    "products",
-    "campaign"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A bold balcony promise beside an overhead planter and complete conditions sheet; B a current-step worksheet beside the live result.",
-    "typography": "Large soft-curved DejaVu Sans promises and clear Arial practical reasons, with round substantial controls.",
-    "navigation": "Builder, bounded growth sketch and native FAQ links plus real offer/workshop siblings.",
-    "content_rhythm": "Offer, three situations, conditions and broad composition versus one current step with immediate visual result.",
-    "imagery": "Original modular SVG box with tomato/pepper or lettuce/spinach shapes and a finite four-leaf branch.",
-    "color_and_material": "Deep plum, bright lime, warm white and coral; a white result area with dark readable records.",
-    "interaction": "Three actual inputs, consistent reasons/composition, include, explicit local save, edit, cross-layout restore and own-key removal.",
-    "motion": "800ms module assembly, 500ms botanical change, 350ms composition expansion and monotonic finite branch unfolding."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/balcony-builder/prompt.lt.md"
-}
+schema_version: 1
+id: "balcony-builder"
+name: "Balcony Builder"
+summary: "A playful overhead modular planter connects light, available places and experience to an explained demonstration kit with real device-local saving."
+family: "commercial"
+tags: ["product-led", "playful", "high-contrast", "task-led"]
+best_for: ["commerce", "products", "campaign"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A bold balcony promise beside an overhead planter and complete conditions sheet; B a current-step worksheet beside the live result.", "typography": "Large soft-curved DejaVu Sans promises and clear Arial practical reasons, with round substantial controls.", "navigation": "Builder, bounded growth sketch and native FAQ links plus real offer/workshop siblings.", "content_rhythm": "Offer, three situations, conditions and broad composition versus one current step with immediate visual result.", "imagery": "Original modular SVG box with tomato/pepper or lettuce/spinach shapes and a finite four-leaf branch.", "color_and_material": "Deep plum, bright lime, warm white and coral; a white result area with dark readable records.", "interaction": "Three actual inputs, consistent reasons/composition, include, explicit local save, edit, cross-layout restore and own-key removal.", "motion": "800ms module assembly, 500ms botanical change, 350ms composition expansion and monotonic finite branch unfolding."}
+status: "ready"
+prompt_path: "prompts/balcony-builder/prompt.lt.md"
 ---
 
 # Balcony Builder

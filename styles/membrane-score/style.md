@@ -1,40 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "membrane-score",
-  "name": "Membrane Score",
-  "summary": "Three luminous sound layers connect actual synthesis, tempo and intensity controls to a readable locally saved recipe and silent visual instrument.",
-  "family": "expressive",
-  "tags": [
-    "typographic-motion",
-    "task-led",
-    "high-contrast"
-  ],
-  "best_for": [
-    "culture",
-    "personal",
-    "campaign"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A broad horizontal three-lane score; B mood index beside vertical channels.",
-    "typography": "Large light Arial invitations and clear named layer outputs.",
-    "navigation": "Instrument/mood/recipe anchors and actual A/B siblings.",
-    "content_rhythm": "Score-to-presets-to-recipe versus recipe-index-to-channel-workbench.",
-    "imagery": "Original SVG light membrane traces tied to actual parameters.",
-    "color_and_material": "Deep burgundy, warm white and electric cyan on opaque surfaces.",
-    "interaction": "Three gains, user-start audio, tempo, texture, mute, variants and validated local recipe.",
-    "motion": "Finite intro, 600ms user-start pulse, one-bar tempo change, 400ms texture and 700ms reorder."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/membrane-score/prompt.lt.md"
-}
+schema_version: 1
+id: "membrane-score"
+name: "Membrane Score"
+summary: "Three luminous sound layers connect actual synthesis, tempo and intensity controls to a readable locally saved recipe and silent visual instrument."
+family: "expressive"
+tags: ["typographic-motion", "task-led", "high-contrast"]
+best_for: ["culture", "personal", "campaign"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A broad horizontal three-lane score; B mood index beside vertical channels.", "typography": "Large light Arial invitations and clear named layer outputs.", "navigation": "Instrument/mood/recipe anchors and actual A/B siblings.", "content_rhythm": "Score-to-presets-to-recipe versus recipe-index-to-channel-workbench.", "imagery": "Original SVG light membrane traces tied to actual parameters.", "color_and_material": "Deep burgundy, warm white and electric cyan on opaque surfaces.", "interaction": "Three gains, user-start audio, tempo, texture, mute, variants and validated local recipe.", "motion": "Finite intro, 600ms user-start pulse, one-bar tempo change, 400ms texture and 700ms reorder."}
+status: "ready"
+prompt_path: "prompts/membrane-score/prompt.lt.md"
 ---
 
 # Membrane Score

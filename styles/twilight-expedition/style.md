@@ -1,42 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "twilight-expedition",
-  "name": "Twilight Expedition",
-  "summary": "A stable mountain-observatory panorama and relief atlas connect finite dusk-to-night transitions to a real local itinerary and enquiry.",
-  "family": "spatial",
-  "tags": [
-    "dimensional",
-    "cinematic",
-    "calm",
-    "task-led"
-  ],
-  "best_for": [
-    "travel",
-    "architecture",
-    "hospitality"
-  ],
-  "avoid_for": [
-    "data",
-    "documentation"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A broad stable observatory panorama and three arrival chapters; B a relief atlas beside an immediate narrow planning ledger.",
-    "typography": "Quiet Georgia display headings, small spaced documentary labels and practical Arial controls.",
-    "navigation": "Visible route/enquiry anchors and an actual sibling layout; B begins with planning rather than narrative chapters.",
-    "content_rhythm": "Panorama, three arrival chapters and route programme versus atlas workbench, timed stops and enquiry.",
-    "imagery": "Original depth-tested triangulated mountain terrain and small faceted observatory dome; labelled static SVG fallback.",
-    "color_and_material": "Night blue, rock gray, amber and warm white, with opaque readable labels and a finite sky-light change.",
-    "interaction": "Three routes, four durations and one-to-eight participants change three stop descriptions, total time and exact validated unsent enquiry.",
-    "motion": "One-second initial light; reversible two-second dusk-to-night; small linear chapter camera shifts; finite route drawing and a duration marker, with pause and reduced states."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/twilight-expedition/prompt.lt.md"
-}
+schema_version: 1
+id: "twilight-expedition"
+name: "Twilight Expedition"
+summary: "A stable mountain-observatory panorama and relief atlas connect finite dusk-to-night transitions to a real local itinerary and enquiry."
+family: "spatial"
+tags: ["dimensional", "cinematic", "calm", "task-led"]
+best_for: ["travel", "architecture", "hospitality"]
+avoid_for: ["data", "documentation"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A broad stable observatory panorama and three arrival chapters; B a relief atlas beside an immediate narrow planning ledger.", "typography": "Quiet Georgia display headings, small spaced documentary labels and practical Arial controls.", "navigation": "Visible route/enquiry anchors and an actual sibling layout; B begins with planning rather than narrative chapters.", "content_rhythm": "Panorama, three arrival chapters and route programme versus atlas workbench, timed stops and enquiry.", "imagery": "Original depth-tested triangulated mountain terrain and small faceted observatory dome; labelled static SVG fallback.", "color_and_material": "Night blue, rock gray, amber and warm white, with opaque readable labels and a finite sky-light change.", "interaction": "Three routes, four durations and one-to-eight participants change three stop descriptions, total time and exact validated unsent enquiry.", "motion": "One-second initial light; reversible two-second dusk-to-night; small linear chapter camera shifts; finite route drawing and a duration marker, with pause and reduced states."}
+status: "ready"
+prompt_path: "prompts/twilight-expedition/prompt.lt.md"
 ---
 
 # Twilight Expedition

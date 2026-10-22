@@ -48,6 +48,11 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Install only the locked Chromium headless shell
         run: npx playwright install --with-deps --only-shell chromium
+      - name: Report system font resolution
+        run: |
+          for family in Arial Georgia "Courier New" "Trebuchet MS" "DejaVu Sans" sans-serif serif monospace; do
+            echo "::notice title=font::$family -> $(fc-match -f '%{family[0]}|%{style[0]}|%{file}' "$family")"
+          done
       - name: Render previews and verify them
         run: |
           npm run build

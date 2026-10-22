@@ -1,41 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "choreographic-stage",
-  "name": "Choreographic Stage",
-  "summary": "Abstract airborne figures, a finite ribbon trajectory and generous editorial pauses connect an asymmetric stage to a real format-and-experience programme.",
-  "family": "expressive",
-  "tags": [
-    "asymmetric",
-    "poster",
-    "image-led",
-    "task-led"
-  ],
-  "best_for": [
-    "culture",
-    "events",
-    "campaign"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "An asymmetric full stage and vertical chapters; B a compact study above a programme/enquiry workspace.",
-    "typography": "Spacious Georgia editorial phrases with quiet Arial filters and demonstration-time labels.",
-    "navigation": "Performances, programme and enquiry anchors with real sibling links and accessible native filters.",
-    "content_rhythm": "Stage, manifesto and three large studies versus programme-first work and concise illustrated concept records.",
-    "imagery": "Three original abstract body/ribbon SVG figures and a separately drawing finite trajectory.",
-    "color_and_material": "Deep aubergine, warm peach and bone; broad theatrical pauses and a pale practical programme.",
-    "interaction": "Three formats, two experience levels, real radio selection and exact query copy with manual fallback.",
-    "motion": "900ms path, bounded scroll displacement, 250ms descriptions and 200ms filter rows with pause/reduced states."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/choreographic-stage/prompt.lt.md"
-}
+schema_version: 1
+id: "choreographic-stage"
+name: "Choreographic Stage"
+summary: "Abstract airborne figures, a finite ribbon trajectory and generous editorial pauses connect an asymmetric stage to a real format-and-experience programme."
+family: "expressive"
+tags: ["asymmetric", "poster", "image-led", "task-led"]
+best_for: ["culture", "events", "campaign"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "An asymmetric full stage and vertical chapters; B a compact study above a programme/enquiry workspace.", "typography": "Spacious Georgia editorial phrases with quiet Arial filters and demonstration-time labels.", "navigation": "Performances, programme and enquiry anchors with real sibling links and accessible native filters.", "content_rhythm": "Stage, manifesto and three large studies versus programme-first work and concise illustrated concept records.", "imagery": "Three original abstract body/ribbon SVG figures and a separately drawing finite trajectory.", "color_and_material": "Deep aubergine, warm peach and bone; broad theatrical pauses and a pale practical programme.", "interaction": "Three formats, two experience levels, real radio selection and exact query copy with manual fallback.", "motion": "900ms path, bounded scroll displacement, 250ms descriptions and 200ms filter rows with pause/reduced states."}
+status: "ready"
+prompt_path: "prompts/choreographic-stage/prompt.lt.md"
 ---
 
 # Choreographic Stage

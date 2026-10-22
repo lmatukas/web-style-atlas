@@ -2957,30 +2957,40 @@
     {
       "id": "P21",
       "title": "style.md frontmatter formato suvienodinimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19"
       ],
       "checks": [
-        {
-          "name": "validate",
-          "status": "pass",
-          "details": "node scripts/ci.mjs validate exit 0"
-        },
         {
           "name": "unit tests",
           "status": "pass",
           "details": "87/87"
         },
         {
-          "name": "CI PR run 39722488302",
+          "name": "validate",
           "status": "pass",
-          "details": "Scope, source, and browser gates success on 60eb1eb"
+          "details": "npm run validate PASS"
+        },
+        {
+          "name": "build and preview freshness",
+          "status": "pass",
+          "details": "npm run build + npm run check PASS; catalog/index.json identical"
         },
         {
           "name": "canonical PNG regeneration",
+          "status": "pass",
+          "details": "previews.yml runs 39723856539, 39724545914 success; all 39 styles"
+        },
+        {
+          "name": "visual review",
+          "status": "pass",
+          "details": "all 39 desktop and mobile A previews inspected; no broken layouts"
+        },
+        {
+          "name": "PR CI",
           "status": "not_run",
-          "details": "workflow added; not yet run"
+          "details": "waiting for Atlas validation on PR #86"
         }
       ],
       "evidence_paths": [
@@ -2988,15 +2998,15 @@
       ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
       "claimed_at": "2026-10-22T04:26:47Z",
-      "updated_at": "2026-10-22T04:46:11Z",
+      "updated_at": "2026-10-22T04:54:13Z",
       "branch": "task/p21-canonical-previews",
       "base_commit": "e98fb816bd3ddc80ce0451ebfe86083c264ea481",
-      "evidence_commit": "60eb1ebf8f5ead4960ce58533ae4e3e2ef9b647f",
+      "evidence_commit": "a0ace86b4b4ffaca91171c6cd6cc705cc14a62eb",
       "merge_commit": null,
-      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/85",
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/86",
       "blocker": null,
-      "next_action": "Laukia savininko sprendimo dėl šriftų aplinkos (žr. handoff). PR neatidarytas.",
-      "handoff": "Šakoje task/p21-canonical-previews: dd31345 (frontmatter suvienodintas, metaduomenys ir catalog/index.json identiški) ir cf681b5 (bot'o PNG, run 39723856539). PNG pasikeitė dėl šriftų, ne dėl frontmatter: senieji PNG renderinti su DejaVu atsarginiais šriftais, GitHub ubuntu-24.04 runner'is turi Liberation Sans/Serif (Arial/Georgia metrika), todėl kinta eilučių laužymas ir aukštis (68 PNG pakeitė aukštį, 40 skiriasi iki 10% pikselių). Kanoninė aplinka (preview.config.mjs) šriftų nefiksuoja. Pirmas paleidimas be pakeitimų naršyklės nepaleido ('previews already current'), todėl nieko neįrodė. Pasirinkimai: A) priimti runner'io šriftus kaip kanoninius ir perrenderinti visus 39; B) workflow'e pašalinti Liberation šriftus, kad atkartotų senus PNG, ir patikrinti baitų sutapimą."
+      "next_action": "Laukti PR #86 CI; sujungti; pažymėti done.",
+      "handoff": "PR #86 laukia CI. Po sujungimo: done su merge_commit."
     },
     {
       "id": "P24",

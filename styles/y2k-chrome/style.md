@@ -1,37 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "y2k-chrome",
-  "name": "Y2K Chrome",
-  "summary": "Futuristic pop-poster scale, polished metallic objects and tilted orbits, with a distinct indexed audio-visual collection composition.",
-  "family": "nostalgic",
-  "tags": [
-    "metallic",
-    "poster",
-    "dimensional"
-  ],
-  "best_for": [
-    "culture",
-    "campaign",
-    "products"
-  ],
-  "avoid_for": [],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "subtle",
-  "complexity": "low",
-  "signature": {
-    "composition": "Large stacked poster words beside a metallic object and orbit; B uses one featured edition followed by object-led collection rows.",
-    "typography": "Heavy tightly tracked sans-serif campaign display with small monospaced release identifiers.",
-    "navigation": "Release and collection links; B adds a real numbered three-edition index.",
-    "content_rhythm": "Poster, release sequence, slogan band and edition record versus featured object, two smaller forms and collection note.",
-    "imagery": "Original CSS sphere, reflective orbit, disc and capsule forms with polished gradient material.",
-    "color_and_material": "Pale periwinkle ground, silver highlights and deep violet actions; live text remains solid readable ink.",
-    "interaction": "Actual edition/track-section links and native volume-note disclosures; no simulated audio player.",
-    "motion": "Static metallic forms and light; nonessential transitions removed with reduced motion."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "y2k-chrome"
+name: "Y2K Chrome"
+summary: "Futuristic pop-poster scale, polished metallic objects and tilted orbits, with a distinct indexed audio-visual collection composition."
+family: "nostalgic"
+tags: ["metallic", "poster", "dimensional"]
+best_for: ["culture", "campaign", "products"]
+avoid_for: []
+density: "balanced"
+image_dependency: "low"
+motion_level: "subtle"
+complexity: "low"
+signature: {"composition": "Large stacked poster words beside a metallic object and orbit; B uses one featured edition followed by object-led collection rows.", "typography": "Heavy tightly tracked sans-serif campaign display with small monospaced release identifiers.", "navigation": "Release and collection links; B adds a real numbered three-edition index.", "content_rhythm": "Poster, release sequence, slogan band and edition record versus featured object, two smaller forms and collection note.", "imagery": "Original CSS sphere, reflective orbit, disc and capsule forms with polished gradient material.", "color_and_material": "Pale periwinkle ground, silver highlights and deep violet actions; live text remains solid readable ink.", "interaction": "Actual edition/track-section links and native volume-note disclosures; no simulated audio player.", "motion": "Static metallic forms and light; nonessential transitions removed with reduced motion."}
+status: "ready"
 ---
 
 # Y2K Chrome
