@@ -3100,24 +3100,57 @@
     {
       "id": "S41",
       "title": "Pertvarka: Quiet Luxury",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
-      "worker": "Codex/2d342de235d6/S41",
+      "checks": [
+        {
+          "name": "validate/build and generated output",
+          "status": "pass",
+          "details": "Perėmus npm run validate, npm run build ir npm run check -- --style quiet-luxury PASS; jokie PNG negeneruoti lokaliai."
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "Ankstesnio įgyvendinimo 87/87 PASS, aprašyta docs/evidence/S41.md; renderinimo šaltiniai nuo tada nekeisti."
+        },
+        {
+          "name": "browser preflight",
+          "status": "pass",
+          "details": "Ankstesnio įgyvendinimo abu variantai × 360/768/1440: 6/6 PASS; tikras kanoninis PR browser gate vertinamas atskirai."
+        },
+        {
+          "name": "canonical previews",
+          "status": "pass",
+          "details": "Regenerate canonical previews 39795164437 success, job 119880556971; check PASS; bot commit 330712de84d6995a3724da70e1f2570b346d45e4."
+        },
+        {
+          "name": "visual rubric",
+          "status": "pass",
+          "details": "Keturi kanoniniai PNG ir Gallery White Cube desktop/mobile realiai peržiūrėti; 11/12, be nulio, atpažinimas 2 ir skirtumas 2; Mobile 1 dėl smulkių B brėžinio žymų."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "not_run",
+          "details": "PR #88 atidarytas; laukiama galutinio head CI ir tikro merge."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S41.md"
+      ],
+      "worker": "Codex/56b4d5b97962/S41",
       "claimed_at": "2026-10-22T07:00:40.242Z",
-      "updated_at": "2026-10-22T07:00:40.246Z",
+      "updated_at": "2026-10-22T15:03:54.032Z",
       "branch": "task/s41-quiet-luxury",
       "base_commit": "5539adc2c23eac25c38df3d2325432d14aa89b93",
-      "evidence_commit": null,
+      "evidence_commit": "b698038de52e8671c9bfada14a527318d0d2d7af",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/88",
       "blocker": null,
-      "next_action": "Read current previews and references; redesign A as an object scene and B as a measured collection document.",
-      "handoff": null
+      "next_action": "Sulaukti visų trijų Atlas validation darbų success galutiniam PR #88 head; merge tik patikrintu SHA.",
+      "handoff": "Perimta iš Codex/2d342de235d6/S41 pagal aiškų docs/evidence/S41.md perdavimą. Savininkas paleido kanoninį workflow 39795164437; keturi PNG peržiūrėti, rubrika 11/12. Tęsiamas tas pats įgyvendinimas ir viena šaka; main nekeičiamas iki merge."
     },
     {
       "id": "S42",
