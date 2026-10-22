@@ -3280,24 +3280,57 @@
     {
       "id": "S44",
       "title": "Pertvarka: Data Observatory",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PASS; footer-boilerplate warning includes data-observatory (P22 cleanup)."
+        },
+        {
+          "name": "npm run build -- --style data-observatory",
+          "status": "pass",
+          "details": "PASS; 39 styles, 39 ready."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "87/87."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style data-observatory)",
+          "status": "pass",
+          "details": "Run 39820857290 success; bot commit e7329af regenerated four PNG; verify step ran in the same run block."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG; rubric 11/12; neighbour industrial-spec compared."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "not_run",
+          "details": "Pending PR #91 exact-head checks; merge not performed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S44.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S44",
       "claimed_at": "2026-10-22T17:11:24Z",
-      "updated_at": "2026-10-22T17:11:24Z",
+      "updated_at": "2026-10-22T17:15:43Z",
       "branch": "task/s44-data-observatory",
       "base_commit": "dccf455cd852eb3ddc00d99c2a78de8f246422f2",
-      "evidence_commit": null,
+      "evidence_commit": "3764f73",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/91",
       "blocker": null,
-      "next_action": "Implement S44 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Wait for PR #91 exact-head checks, merge at verified head, then set done with merge_commit.",
+      "handoff": "PR #91 open. Rubric 11/12 (mobile tick labels 400/500 close; metric row remains above chart). Neighbour industrial-spec."
     },
     {
       "id": "S45",
