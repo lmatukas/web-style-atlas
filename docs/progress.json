@@ -3781,7 +3781,7 @@
     {
       "id": "P23",
       "title": "Galutinė kokybės ir įrodymų patikra",
-      "status": "review",
+      "status": "blocked",
       "depends_on": [
         "P22",
         "P24"
@@ -3813,15 +3813,15 @@
       ],
       "worker": "Claude/haiku-5.5/session-P23",
       "claimed_at": "2026-10-22T19:56:18Z",
-      "updated_at": "2026-10-22T19:58:06Z",
+      "updated_at": "2026-10-22T19:59:21Z",
       "branch": "task/p23-final-evidence",
       "base_commit": "e5f7b967a76c0734c530e302e992ee0ecd6f06ca",
       "evidence_commit": "17262ffb84f91f837abadf9379104f7d6f524c97",
-      "merge_commit": null,
+      "merge_commit": "6327b8759db8af660970153bfb87ea62cb1ec438",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/100",
-      "blocker": null,
-      "next_action": "Laukti PR #100 CI success ant 17262ff; tada sujungti ir pažymėti done.",
-      "handoff": "PR #100 atidarytas. Tik evidence failas. Vizualiniai balai – vykdytojo įvertinimas, ne nepriklausomas."
+      "blocker": "PR #100 sujungtas (6327b87), bet privalomos patikros nepaleistos: npm run validate, npm run build, node --test tests/*.test.mjs ir npm run check (kanoninė aplinka). Done pažymėti negalima be pass.",
+      "next_action": "Paleisti kanoninę validaciją ir check ant main (6327b87) arba per PR su kodo pakeitimu, tada atnaujinti P23 būseną su tikrais rezultatais.",
+      "handoff": "Turinys sujungtas. Rubrikos įrodymai ir 39 PNG peržiūros atlikti. Trūksta tik privalomų patikrų rezultatų."
     }
   ]
 }
