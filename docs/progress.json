@@ -3390,7 +3390,7 @@
     {
       "id": "S46",
       "title": "Pertvarka: Terminal Utility",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
@@ -3423,8 +3423,8 @@
         },
         {
           "name": "Exact-head GitHub CI and actual merge",
-          "status": "not_run",
-          "details": "Pending PR #93 exact-head checks; merge not performed."
+          "status": "pass",
+          "details": "PR #93 exact-head checks at 0936e17 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as 775b9c9bb5240782b99ce24c820a2cbd2e0491b2."
         }
       ],
       "evidence_paths": [
@@ -3432,15 +3432,15 @@
       ],
       "worker": "Claude/haiku-5.5/session-S46",
       "claimed_at": "2026-10-22T17:23:01Z",
-      "updated_at": "2026-10-22T17:39:35Z",
+      "updated_at": "2026-10-22T17:41:27Z",
       "branch": "task/s46-terminal-utility",
       "base_commit": "9ce1c872b50271733e931320b5c02b37a3457b47",
       "evidence_commit": "0936e179b6d755864f180893e5328f7a1b8f3295",
-      "merge_commit": null,
+      "merge_commit": "775b9c9bb5240782b99ce24c820a2cbd2e0491b2",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/93",
       "blocker": null,
-      "next_action": "Wait for PR #93 exact-head checks, merge at verified head, then set done with merge_commit.",
-      "handoff": "PR #93 open. Rubric 12/12. Limits: log search local only; decorative command block remains."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #93 sujungtas 775b9c9bb5240782b99ce24c820a2cbd2e0491b2. Rubrika 12/12. Baigta."
     },
     {
       "id": "S47",

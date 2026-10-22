@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 67/75.**
+**Baigta: 68/75.**
 
-**Pirmiausia patikrinti S46: Laukia peržiūros; vykdytojas Claude/haiku-5.5/session-S46.**
+**Kita užduotis: [S47](tasks/S47.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -77,7 +77,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Baigta | Claude/haiku-5.5/session-S43 | task/s43-soft-spatial | [PR](https://github.com/lmatukas/web-style-atlas/pull/90) | 2026-10-22T17:11:16Z | Nėra. Užduotis baigta. |
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Baigta | Claude/haiku-5.5/session-S44 | task/s44-data-observatory | [PR](https://github.com/lmatukas/web-style-atlas/pull/91) | 2026-10-22T17:17:22Z | Nėra. Užduotis baigta. |
 | [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Baigta | Claude/haiku-5.5/session-S45 | task/s45-editorial-journal | [PR](https://github.com/lmatukas/web-style-atlas/pull/92) | 2026-10-22T17:22:52Z | Nėra. Užduotis baigta. |
-| [S46](tasks/S46.md) | Pertvarka: Terminal Utility | Laukia peržiūros | Claude/haiku-5.5/session-S46 | task/s46-terminal-utility | [PR](https://github.com/lmatukas/web-style-atlas/pull/93) | 2026-10-22T17:39:35Z | Wait for PR #93 exact-head checks, merge at verified head, then set done with merge_commit. |
+| [S46](tasks/S46.md) | Pertvarka: Terminal Utility | Baigta | Claude/haiku-5.5/session-S46 | task/s46-terminal-utility | [PR](https://github.com/lmatukas/web-style-atlas/pull/93) | 2026-10-22T17:41:27Z | Nėra. Užduotis baigta. |
 | [S47](tasks/S47.md) | Pertvarka: Art Deco | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S47.md. |
 | [S48](tasks/S48.md) | Pertvarka: Gallery White Cube | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S48.md. |
 | [S49](tasks/S49.md) | Pertvarka: Industrial Spec | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S49.md. |
