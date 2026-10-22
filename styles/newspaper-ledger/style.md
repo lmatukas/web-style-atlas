@@ -11,7 +11,7 @@ density: "dense"
 image_dependency: "low"
 motion_level: "subtle"
 complexity: "low"
-signature: {"composition": "Dense unequal front-page columns under a large masthead; B uses article rail, argument and full-width numeric ledger.", "typography": "Serif masthead and compact headlines, sans-serif labels and tabular numbers.", "navigation": "Department strip and persistent visible article contents; mobile wraps into readable rows.", "content_rhythm": "Lead report, supporting brief columns, notebook and record; B argument, exact table and method.", "imagery": "Original CSS four-branch schematic instead of borrowed news photography.", "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.", "interaction": "Real story/section destinations and native editorial-method disclosures.", "motion": "Still reading surfaces with no animated ticker or automatic story changes."}
+signature: {"composition": "Full-width lead above an annotated four-branch plan; a brief strip whose centre column carries a bar chart. B uses article rail, argument and full-width numeric ledger.", "typography": "Serif masthead and compact headlines, sans-serif labels and tabular numbers.", "navigation": "Department strip and persistent visible article contents; mobile wraps into readable rows.", "content_rhythm": "Lead headline, plan beside copy, brief strip with chart, notebook and record; B argument, exact table and method.", "imagery": "Original inline SVG plan and bar chart with units and fictional totals instead of grey placeholder blocks.", "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.", "interaction": "Real story/section destinations and native editorial-method disclosures.", "motion": "Still reading surfaces with no animated ticker or automatic story changes."}
 status: "ready"
 ---
 
@@ -35,7 +35,7 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-The issue line, masthead and department strip establish the paper. A wide lead report occupies two thirds of the spread while a ruled sidebar carries three shorter pieces. An original branch schematic and two text columns give the lead a visual pause without stock photography. Below the main spread, a four-part community notebook introduces three distinct small observations. An editorial record closes the edition. Story links lead to the actual analysis page or a named section rather than pretending to open unwritten articles.
+The lead takes the full width: a kicker, a two-line headline and a standfirst sit above a rule, then a seven-column plan of four branches around a hatched square runs beside a five-column copy column. Each branch box states its weekly hours as current to proposed, and short connectors carry the change. Beneath, a brief strip divides into unequal columns: a short neighbourhood note, a wide numbers column where the +20 total is set beside a bar chart of current and proposed hours, and a narrow opinion note. Below the strip, a four-part community notebook introduces three distinct observations, and an editorial record closes the edition. Story links reach real pages or named sections only.
 
 ## Layout B
 
@@ -43,7 +43,7 @@ A large analytic headline sits above a standfirst and byline. A narrow left rail
 
 ## Imagery
 
-The reference contains an original CSS schematic showing four fictional libraries around a square. Its accessible label states that it is illustrative, and a caption says it is not a street map. The analysis needs no decorative image because its main visual object is a genuine data table. Register any future photograph with proper redistribution rights. Never fill a news composition with uncredited screenshots or let a decorative chart imply a dataset that was not actually supplied.
+The reference contains an original inline SVG plan of four fictional libraries around a hatched square, with weekly hours labelled on every box and a delta on every connector. A second original SVG bar chart shows current and proposed hours per branch, with the change printed under each pair. Both carry accessible titles and descriptions, and a caption says the plan is not a street map. The analysis needs no decorative image because its main visual object is a genuine data table. Register any future photograph with proper redistribution rights. Never fill a news composition with uncredited screenshots or let a decorative chart imply a dataset that was not actually supplied.
 
 ## Navigation and interaction
 
@@ -55,7 +55,7 @@ Content is present immediately. Short state transitions are allowed when they ex
 
 ## Responsive behavior
 
-At 1440 pixels preserve the lead-to-sidebar proportion, the notebook columns and the article contents rail. At 768 reduce masthead and margins before changing the reading hierarchy. Below 700 the front page becomes lead, briefs, notebook and record. The analysis rail becomes an inline contents list, and the ledger spans the available width with concise column headings. At 360 use readable rows and tabular numbers; avoid forcing a four-column broadsheet into the phone viewport.
+At 1440 pixels preserve the seven-to-five split beneath the lead, the unequal brief columns, the notebook columns and the article contents rail. At 900 the brief strip becomes two columns with the numbers column spanning both rows. At 768 reduce masthead and margins before changing the reading hierarchy. Below 700 the front page becomes lead, plan, briefs, notebook and record. The analysis rail becomes an inline contents list, and the ledger spans the available width with concise column headings. At 360 use readable rows and tabular numbers; avoid forcing a four-column broadsheet into the phone viewport.
 
 ## Accessibility
 
@@ -67,9 +67,8 @@ Replace the invented stories and dataset with a real issue and a dated analysis.
 
 ## Avoid
 
-1. Do not make every story equally prominent or convert all columns into rounded cards. 2. Do not hide units, sources or corrections in illegible fine print. 3. Do not add fake breaking-news controls or represent the invented dataset as real reporting.
+1. Do not use grey placeholder boxes with labels as a stand-in for an illustration; every plan element needs a real unit or a real relation. 2. Do not let a three-column brief row carry no visual: the centre column must hold a chart or it reads as an Also-in-this-issue list. 3. Do not make every story equally prominent or hide units, sources or corrections in illegible fine print.
 
 ## Closest styles
 
-Editorial Journal is the nearest ready neighbor. Its generous issue cover and sustained single essay differ from this ruled multi-story front page with a subordinate briefs rail. Its literary margin notes become an explicit contents rail and numerical ledger here. Its large quiet reading pauses differ from compact headline clusters and tightly grouped tabular evidence. Typography remains editorial, but composition, navigation, density and content rhythm produce three clear structural differences. The table also distinguishes this direction from a purely literary presentation.
-
+Editorial Journal is the nearest ready neighbor. Its generous issue cover and sustained single essay differ from this ruled multi-story front page, where a full-width lead opens onto a plan, a brief strip and a chart rather than a split cover and three tidy essay cards. Its literary margin notes become an explicit contents rail and numerical ledger here. Its large quiet reading pauses differ from compact headline clusters and tightly grouped tabular evidence. Typography remains editorial, but composition, navigation, density and content rhythm produce three clear structural differences.
