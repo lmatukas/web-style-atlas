@@ -1299,18 +1299,18 @@
       "name": "Quiet Luxury",
       "schema_version": 1,
       "signature": {
-        "color_and_material": "Off-white, stone and deep brown; ornament restricted to material illustration.",
-        "composition": "Broad quiet collection stages in A; dominant single object beside narrow dossier in B.",
-        "content_rhythm": "Large isolated object frames, short captions and a compact edition index.",
-        "imagery": "Original furniture illustrations with clean silhouettes and uncluttered stages.",
-        "interaction": "Ordinary collection/detail links and native care disclosure; no fake commerce.",
-        "motion": "Still objects, brief link transitions removed for reduced motion.",
-        "navigation": "Visible sparse collection links and return from object detail.",
-        "typography": "Brief restrained serif display and small readable sans-serif practical labels."
+        "color_and_material": "Warm off-white, pale stone and dark timber; interface and inline drawings consume semantic tokens.",
+        "composition": "Off-centre object scene with a lower margin note and enlarged material junction in A; full-width shared-scale collection document in B.",
+        "content_rhythm": "One whole object, one enlarged junction and one companion; paired measured elevations replace the scene in B.",
+        "imagery": "Original furniture silhouettes, a stitched cushion-to-timber macro illustration and front elevation studies.",
+        "interaction": "Real scene/document anchors and a native study-notes disclosure; no fictional commerce.",
+        "motion": "Still objects and short link transitions, removed for reduced motion.",
+        "navigation": "Visible detail/edition/document links; numbered records connected to the same object codes.",
+        "typography": "Brief serif display against readable sans-serif labels, dimensions and material notes."
       },
       "status": "ready",
       "style_path": "styles/quiet-luxury/style.md",
-      "summary": "Large object stages, measured proportions and sparse practical notes for a carefully edited collection.",
+      "summary": "An off-centre object scene and enlarged material junction, paired with a measured collection document.",
       "tags": [
         "minimal",
         "calm",
@@ -1322,14 +1322,14 @@
           "preview_mobile_path": "styles/quiet-luxury/preview-mobile.png",
           "preview_path": "styles/quiet-luxury/preview.png",
           "reference_path": "styles/quiet-luxury/reference/index.html",
-          "title": "Sparse collection presentation"
+          "title": "Object scene and enlarged junction"
         },
         {
           "id": "b",
           "preview_mobile_path": "styles/quiet-luxury/preview-alt-mobile.png",
           "preview_path": "styles/quiet-luxury/preview-alt.png",
           "reference_path": "styles/quiet-luxury/reference/alternate.html",
-          "title": "Large object dossier"
+          "title": "Measured collection document"
         }
       ]
     },

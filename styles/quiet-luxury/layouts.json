@@ -3,111 +3,117 @@
   "variants": [
     {
       "id": "a",
-      "title": "Sparse collection presentation",
+      "title": "Object scene and enlarged junction",
       "page_type": "products",
       "reference_path": "reference/index.html",
-      "navigation": "Visible collection/philosophy anchors and working chair-detail link.",
+      "navigation": "Visible material and edition anchors plus a collection document; object links target corresponding numbered records.",
       "ordered_sections": [
         {
-          "purpose": "Identify collection",
-          "pattern": "Centered short display",
+          "purpose": "Identify and inspect the object",
+          "pattern": "Unequal title/object scene with lower margin note",
           "content_requirements": [
-            "Studio identity",
-            "Edition title"
+            "Left-aligned short title",
+            "One complete Frame chair",
+            "Numbered note explaining cushion-to-frame gap"
           ]
         },
         {
-          "purpose": "Present a key object",
-          "pattern": "Broad quiet chair frame",
+          "purpose": "Understand construction detail",
+          "pattern": "Large macro opposite a lower inset explanation",
           "content_requirements": [
-            "Chair illustration",
-            "Caption"
+            "Original stitched seam and timber junction SVG",
+            "Accessible title and description",
+            "Illustrative enlargement caption"
           ]
         },
         {
-          "purpose": "Browse editions",
-          "pattern": "Sparse unequal object index",
+          "purpose": "Relate the companion",
+          "pattern": "One long bench beside a short collection heading",
           "content_requirements": [
-            "Chair",
-            "Bench",
-            "Working detail link"
+            "Bench illustration",
+            "Link to record 02"
           ]
         },
         {
-          "purpose": "Explain approach",
-          "pattern": "Short isolated statement",
+          "purpose": "Clarify study status",
+          "pattern": "Short factual note across an occasional rule",
           "content_requirements": [
-            "Design premise"
+            "Fictional collection limitations",
+            "Working document link"
           ]
         },
         {
           "purpose": "Close",
-          "pattern": "Colophon",
+          "pattern": "Sparse rights colophon",
           "content_requirements": [
-            "Demonstration identity"
+            "Original study identity",
+            "Local illustration rights"
           ]
         }
       ],
-      "mobile_reflow": "Wrap navigation; stack index entries and keep full object silhouettes inside reserved frames.",
+      "mobile_reflow": "Title, full chair and lower note stack; macro narrows slightly and its explanatory copy is inset beneath it; bench and final note follow in reading order. Practical labels remain fourteen pixels.",
       "distinguishing_features": [
-        "Centered collection opening",
-        "Broad image stage",
-        "Sparse two-entry index"
+        "Whole-object to material-macro scale change",
+        "Lower margin note tied to a visible gap",
+        "One companion rather than repeated chair thumbnails"
       ]
     },
     {
       "id": "b",
-      "title": "Large object dossier",
+      "title": "Measured collection document",
       "page_type": "products",
       "reference_path": "reference/alternate.html",
-      "navigation": "Return to collection and local object/care anchors.",
+      "navigation": "Return to the object scene, measurement and material anchors, plus matching Frame and Long record fragment IDs.",
       "ordered_sections": [
         {
-          "purpose": "Orient",
-          "pattern": "Small return header",
+          "purpose": "Orient to the document",
+          "pattern": "Short title beside practical document introduction",
           "content_requirements": [
-            "Studio",
-            "Back link"
+            "Collection codes 01–02",
+            "Illustrative unit and construction limitations"
           ]
         },
         {
-          "purpose": "Inspect object",
-          "pattern": "Large chair beside narrow dossier",
+          "purpose": "Compare proportions",
+          "pattern": "Full-width paired front elevations on one baseline",
           "content_requirements": [
-            "Illustration",
-            "Title",
-            "Material note"
+            "Original shared-scale SVG",
+            "Chair 74 by 76 cm",
+            "Bench 160 by 44 cm",
+            "Accessible drawing description"
           ]
         },
         {
-          "purpose": "Read specifications",
-          "pattern": "Plain definition list",
+          "purpose": "Read measurements",
+          "pattern": "Two numbered object records",
           "content_requirements": [
-            "Illustrative dimensions",
-            "Study status"
+            "Matching object names and codes",
+            "Width, depth and height in HTML"
           ]
         },
         {
-          "purpose": "Relate collection",
-          "pattern": "Wide bench comparison",
+          "purpose": "Explain shared construction",
+          "pattern": "Material register beside a short serif heading",
           "content_requirements": [
-            "Bench illustration",
-            "Collection link"
+            "Upholstery and timber notes",
+            "Link to enlarged junction",
+            "No unverified material specifications"
           ]
         },
         {
-          "purpose": "Care and close",
-          "pattern": "Native care notes and colophon",
+          "purpose": "Read limitations and close",
+          "pattern": "Native study-notes disclosure and sparse rights footer",
           "content_requirements": [
-            "Truthful limitations"
+            "Illustrative dimensions and manufacture limits",
+            "Working scene and local rights links"
           ]
         }
       ],
-      "mobile_reflow": "Place full chair before dossier; specifications and care remain readable, no sticky obstruction.",
+      "mobile_reflow": "Document introduction precedes the overview drawing; complete dimension records stack below it and repeat all small diagram labels. Material register and disclosure become full-width readable blocks.",
       "distinguishing_features": [
-        "Dominant chair frame",
-        "Narrow specification column",
-        "Concentrated object task"
+        "One shared baseline and illustrative scale",
+        "Paired HTML dimension records linked to drawing codes",
+        "Collection document task instead of single object hero"
       ]
     }
   ]
