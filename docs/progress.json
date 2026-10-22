@@ -3100,7 +3100,7 @@
     {
       "id": "S41",
       "title": "Pertvarka: Quiet Luxury",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
@@ -3119,7 +3119,7 @@
         {
           "name": "browser preflight",
           "status": "pass",
-          "details": "Ankstesnio įgyvendinimo abu variantai × 360/768/1440: 6/6 PASS; tikras kanoninis PR browser gate vertinamas atskirai."
+          "details": "Ankstesnio įgyvendinimo abu variantai × 360/768/1440: 6/6 PASS; tikras kanoninis PR browser gate vertinamas atskirai. Kanoninis PR CI job 119903044801 taip pat PASS: 1 style, 6 pages; quiet-luxury neturi atskirų runtime capabilities (0 cases)."
         },
         {
           "name": "canonical previews",
@@ -3133,8 +3133,8 @@
         },
         {
           "name": "Exact-head GitHub CI and actual merge",
-          "status": "not_run",
-          "details": "PR #88 atidarytas; laukiama galutinio head CI ir tikro merge."
+          "status": "pass",
+          "details": "Atlas validation 39801374699: Scope and queue 119902668421, Source and generated gates 119902841816, Browser and accessibility gates 119903044801 visi success head 5ed9bea8d029d45c9dbd333646e2df0a7739aaba. Tikras PR #88 merge 59a00cfc0aeae60abfce09e983e78b45f8850ad3; patikrintas tėvas ir identiškas sujungtas medis."
         }
       ],
       "evidence_paths": [
@@ -3142,15 +3142,15 @@
       ],
       "worker": "Codex/56b4d5b97962/S41",
       "claimed_at": "2026-10-22T07:00:40.242Z",
-      "updated_at": "2026-10-22T15:03:54.032Z",
+      "updated_at": "2026-10-22T15:10:31.566Z",
       "branch": "task/s41-quiet-luxury",
       "base_commit": "5539adc2c23eac25c38df3d2325432d14aa89b93",
       "evidence_commit": "b698038de52e8671c9bfada14a527318d0d2d7af",
-      "merge_commit": null,
+      "merge_commit": "59a00cfc0aeae60abfce09e983e78b45f8850ad3",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/88",
       "blocker": null,
-      "next_action": "Sulaukti visų trijų Atlas validation darbų success galutiniam PR #88 head; merge tik patikrintu SHA.",
-      "handoff": "Perimta iš Codex/2d342de235d6/S41 pagal aiškų docs/evidence/S41.md perdavimą. Savininkas paleido kanoninį workflow 39795164437; keturi PNG peržiūrėti, rubrika 11/12. Tęsiamas tas pats įgyvendinimas ir viena šaka; main nekeičiamas iki merge."
+      "next_action": "S41 priimta. Kita užduotis S42 pagal naują užklausą.",
+      "handoff": "PR #88 iš tikrųjų sujungtas po visų trijų Atlas validation 39801374699 darbų success tiksliai head 5ed9bea8d029d45c9dbd333646e2df0a7739aaba. Patikrintas head yra tikras merge tėvas; sujungtas medis visiškai sutampa su patikrintu medžiu. Kanoniniai keturi PNG peržiūrėti, 11/12; sustoti po šios užduoties."
     },
     {
       "id": "S42",

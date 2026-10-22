@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 62/75.**
+**Baigta: 63/75.**
 
-**Pirmiausia patikrinti S41: Laukia peržiūros; vykdytojas Codex/56b4d5b97962/S41.**
+**Kita užduotis: [S42](tasks/S42.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -72,7 +72,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21 | task/p21-canonical-previews | [PR](https://github.com/lmatukas/web-style-atlas/pull/86) | 2026-10-22T05:35:11Z | Baigta; nėra veiksmo. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40 | task/s40-institutional-clear | [PR](https://github.com/lmatukas/web-style-atlas/pull/87) | 2026-10-22T06:04:15Z | Baigta; nėra veiksmo. |
-| [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia peržiūros | Codex/56b4d5b97962/S41 | task/s41-quiet-luxury | [PR](https://github.com/lmatukas/web-style-atlas/pull/88) | 2026-10-22T15:03:54.032Z | Sulaukti visų trijų Atlas validation darbų success galutiniam PR #88 head; merge tik patikrintu SHA. |
+| [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Baigta | Codex/56b4d5b97962/S41 | task/s41-quiet-luxury | [PR](https://github.com/lmatukas/web-style-atlas/pull/88) | 2026-10-22T15:10:31.566Z | S41 priimta. Kita užduotis S42 pagal naują užklausą. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S44.md. |
