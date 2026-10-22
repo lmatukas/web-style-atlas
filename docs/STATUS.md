@@ -4,7 +4,7 @@
 
 **Baigta: 61/75.**
 
-**Kita užduotis: [S41](tasks/S41.md).**
+**Kita užduotis: [S40](tasks/S40.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -71,7 +71,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:08:30Z | Savininkas patvirtina arba atmeta core/language-policy.md sprendimą |
 | [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21 | task/p21-canonical-previews | [PR](https://github.com/lmatukas/web-style-atlas/pull/86) | 2026-10-22T05:35:11Z | Baigta; nėra veiksmo. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
-| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Užblokuota | — | — | — | 2026-10-21T21:12:55Z | Tas pats kaip P21: nėra kanoninio Chromium 151.0.7922.34 PNG generavimui. Stilio pakeitimas be PNG nulaužtų CI. |
+| [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Laukia | — | — | — | 2026-10-22T05:35:23Z | Pradėti nuo docs/tasks/S40.md. PNG generuoti per .github/workflows/previews.yml (kanoniniai šriftai, docs/CI.md). |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
 | [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S42.md. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |

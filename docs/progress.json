@@ -3050,7 +3050,7 @@
     {
       "id": "S40",
       "title": "Pertvarka: Institutional Clear",
-      "status": "blocked",
+      "status": "todo",
       "depends_on": [
         "P19",
         "P20"
@@ -3059,14 +3059,14 @@
       "evidence_paths": [],
       "worker": null,
       "claimed_at": null,
-      "updated_at": "2026-10-21T21:12:55Z",
+      "updated_at": "2026-10-22T05:35:23Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": "Tas pats kaip P21: nėra kanoninio Chromium 151.0.7922.34 PNG generavimui. Stilio pakeitimas be PNG nulaužtų CI.",
-      "next_action": "Kai kanoninė aplinka prieinama: pradėti nuo S40 kortelės (docs/tasks/S40.md), A/B puslapiai, keturi PNG, rubrika >=10/12.",
+      "blocker": null,
+      "next_action": "Pradėti nuo docs/tasks/S40.md. PNG generuoti per .github/workflows/previews.yml (kanoniniai šriftai, docs/CI.md).",
       "handoff": null
     },
     {
