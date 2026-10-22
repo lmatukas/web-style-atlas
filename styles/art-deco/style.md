@@ -35,11 +35,11 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-A balanced header opens onto a centred invitation bounded by two architectural rules. A fan crown precedes the title; a diamond separates the invitation from its date and programme link. The next section changes from symmetry to a numbered introduction beside three timed programme movements. A short house note creates a deliberate pause before guest information closes the page. The invitation remains the visual centre without hiding the route to its actual schedule.
+A balanced header opens onto a centred invitation bounded by two architectural rules. A fan crown precedes the title and doubles as navigation to the three timed movements; a diamond separates the invitation from its date and programme link. The next section changes from symmetry to a numbered introduction beside three timed programme movements. A short house note breaks the symmetry: its heading sits left and its paragraph sits right, creating a deliberate pause before guest information closes the page. The invitation remains the visual centre without hiding the route to its actual schedule.
 
 ## Layout B
 
-The house story begins in a two-column arrival composition: an expressive serif statement beside an original stepped elevation. A broad architectural idea section follows, pairing a central statement with two readable paragraphs. Two room records use Roman numerals and native concept disclosures rather than a booking grid. Guest notes return to the evening programme. This narrative and room-index rhythm differs from A’s centred event invitation and timed programme.
+The house story begins in a two-column arrival composition: an expressive serif statement beside an original stepped elevation. A broad architectural idea section follows, pairing a central statement with two readable paragraphs. Two room records use Roman numerals, a fact list (floor, outlook, layout, status) and native concept disclosures rather than a booking grid. Guest notes return to the evening programme. This narrative and room-index rhythm differs from A’s centred event invitation and timed programme.
 
 ## Imagery
 
@@ -67,7 +67,7 @@ Replace the imagined programme, venue and room names with verified information. 
 
 ## Avoid
 
-1. Do not scatter gold decoration without a repeated axis or stepped rule system. 2. Do not shrink practical labels into illegible ornament or place them across busy motifs. 3. Do not imply historical authenticity, booking availability or real tickets for fictional content.
+1. Do not keep a decorative frame or fan that links nowhere; each ornament should lead to content. 2. Do not repeat the same two full-width double-rule frames in every section. 3. Do not imply historical authenticity, booking availability or real tickets for fictional content.
 
 ## Closest styles
 

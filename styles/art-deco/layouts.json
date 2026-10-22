@@ -12,7 +12,7 @@
           "purpose": "Invite visitors",
           "pattern": "Axial double-rule invitation",
           "content_requirements": [
-            "Fan crown",
+            "Fan navigation to the three movements",
             "Title",
             "Date",
             "Programme destination"
@@ -29,7 +29,7 @@
         },
         {
           "purpose": "Introduce the house",
-          "pattern": "Centred narrative pause",
+          "pattern": "Asymmetric house note",
           "content_requirements": [
             "Short house story",
             "Separate destination"
@@ -47,7 +47,7 @@
       "mobile_reflow": "Central frame remains; introduction and timed rows stack.",
       "distinguishing_features": [
         "Axial fine-rule invitation",
-        "Stepped fan and diamond rhythm",
+        "Functional fan navigation and diamond rhythm",
         "Clear transition into timed programme"
       ]
     },
@@ -80,7 +80,8 @@
           "content_requirements": [
             "Garden Room",
             "Lantern Suite",
-            "Native notes"
+            "Native notes",
+            "Room fact list"
           ]
         },
         {
