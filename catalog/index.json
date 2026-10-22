@@ -784,18 +784,18 @@
       "name": "Institutional Clear",
       "schema_version": 1,
       "signature": {
-        "color_and_material": "White, pale blue-gray and navy semantic surfaces with clear blue links.",
-        "composition": "Search-led directory in A; narrow contents rail beside a readable service document in B.",
-        "content_rhythm": "Task rows, guide disclosures, preparation lists and numbered procedural sections.",
-        "imagery": "No image requirement; original text mark and structural CSS only.",
-        "interaction": "Actual local service search, empty state and reset; native help disclosures.",
-        "motion": "Predictable static information; short link transitions removed for reduced motion.",
-        "navigation": "Stable institutional header, service links, breadcrumb and local document contents.",
-        "typography": "Clear system sans-serif, sentence-case task headings and readable help text."
+        "color_and_material": "White reading surface, navy text rails, deep blue sign tiles and one yellow you-are-here mark.",
+        "composition": "A: arrival text beside an original floor plan, then four lettered signage columns. B: one area zoomed in, with a route rail beside a reading column.",
+        "content_rhythm": "Heavy sign rails start each group: plan, lettered columns, lettered disclosures and dotted three-stop routes.",
+        "imagery": "Original inline SVG floor plans drawn from tokens; no photographs or external assets.",
+        "interaction": "Actual local service search with result count, empty state and reset; native disclosures and anchor routes.",
+        "motion": "Static, settled information; short link transitions removed for reduced motion.",
+        "navigation": "White header on a heavy rule, plan letters matched to the directory, breadcrumb and a numbered route rail.",
+        "typography": "Plain system sans-serif, sentence-case task headings and large bold letter tiles used like building signs."
       },
       "status": "ready",
       "style_path": "styles/institutional-clear/style.md",
-      "summary": "Clear task labels, searchable services and readable information pages with predictable navigation.",
+      "summary": "A wayfinding directory for public services: an original floor plan, lettered signs and plain routes from arrival to the next step.",
       "tags": [
         "task-led",
         "precise",
@@ -807,14 +807,14 @@
           "preview_mobile_path": "styles/institutional-clear/preview-mobile.png",
           "preview_path": "styles/institutional-clear/preview.png",
           "reference_path": "styles/institutional-clear/reference/index.html",
-          "title": "Task and service directory"
+          "title": "Building directory with floor plan"
         },
         {
           "id": "b",
           "preview_mobile_path": "styles/institutional-clear/preview-alt-mobile.png",
           "preview_path": "styles/institutional-clear/preview-alt.png",
           "reference_path": "styles/institutional-clear/reference/alternate.html",
-          "title": "Service information with contents"
+          "title": "Area guide with route rail"
         }
       ]
     },
