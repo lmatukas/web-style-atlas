@@ -4,7 +4,7 @@
 
 **Baigta: 68/75.**
 
-**Kita užduotis: [S47](tasks/S47.md).**
+**Pirmiausia patikrinti S47: Vykdoma; vykdytojas Claude/haiku-5.5/session-S47.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -78,7 +78,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Baigta | Claude/haiku-5.5/session-S44 | task/s44-data-observatory | [PR](https://github.com/lmatukas/web-style-atlas/pull/91) | 2026-10-22T17:17:22Z | Nėra. Užduotis baigta. |
 | [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Baigta | Claude/haiku-5.5/session-S45 | task/s45-editorial-journal | [PR](https://github.com/lmatukas/web-style-atlas/pull/92) | 2026-10-22T17:22:52Z | Nėra. Užduotis baigta. |
 | [S46](tasks/S46.md) | Pertvarka: Terminal Utility | Baigta | Claude/haiku-5.5/session-S46 | task/s46-terminal-utility | [PR](https://github.com/lmatukas/web-style-atlas/pull/93) | 2026-10-22T17:41:27Z | Nėra. Užduotis baigta. |
-| [S47](tasks/S47.md) | Pertvarka: Art Deco | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S47.md. |
+| [S47](tasks/S47.md) | Pertvarka: Art Deco | Vykdoma | Claude/haiku-5.5/session-S47 | task/s47-art-deco | — | 2026-10-22T17:41:35Z | Implement S47 on task branch; run checks; canonical PNG via workflow; PR; review. |
 | [S48](tasks/S48.md) | Pertvarka: Gallery White Cube | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S48.md. |
 | [S49](tasks/S49.md) | Pertvarka: Industrial Spec | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S49.md. |
 | [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S50.md. |

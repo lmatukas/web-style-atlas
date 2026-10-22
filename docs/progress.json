@@ -3445,23 +3445,23 @@
     {
       "id": "S47",
       "title": "Pertvarka: Art Deco",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-S47",
+      "claimed_at": "2026-10-22T17:41:35Z",
+      "updated_at": "2026-10-22T17:41:35Z",
+      "branch": "task/s47-art-deco",
+      "base_commit": "0a2c29cecd9350efbc3abe8d65db8e2855947114",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S47.md.",
+      "next_action": "Implement S47 on task branch; run checks; canonical PNG via workflow; PR; review.",
       "handoff": null
     },
     {
