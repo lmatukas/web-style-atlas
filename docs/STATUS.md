@@ -4,7 +4,7 @@
 
 **Baigta: 63/75.**
 
-**Pirmiausia patikrinti S42: Vykdoma; vykdytojas Claude/haiku-5.5/session-S42.**
+**Pirmiausia patikrinti S42: Laukia peržiūros; vykdytojas Claude/haiku-5.5/session-S42.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -73,7 +73,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40 | task/s40-institutional-clear | [PR](https://github.com/lmatukas/web-style-atlas/pull/87) | 2026-10-22T06:04:15Z | Baigta; nėra veiksmo. |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Baigta | Codex/56b4d5b97962/S41 | task/s41-quiet-luxury | [PR](https://github.com/lmatukas/web-style-atlas/pull/88) | 2026-10-22T15:10:31.566Z | S41 priimta. Kita užduotis S42 pagal naują užklausą. |
-| [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Vykdoma | Claude/haiku-5.5/session-S42 | task/s42-newspaper-ledger | — | 2026-10-22T16:03:40Z | Implement S42 on task branch; run checks; canonical PNG via workflow; PR; review. |
+| [S42](tasks/S42.md) | Pertvarka: Newspaper Ledger | Laukia peržiūros | Claude/haiku-5.5/session-S42 | task/s42-newspaper-ledger | [PR](https://github.com/lmatukas/web-style-atlas/pull/89) | 2026-10-22T16:12:46Z | Verify PR #89 CI on head d02d817; merge if green; then set done with merge_commit. |
 | [S43](tasks/S43.md) | Pertvarka: Soft Spatial | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S43.md. |
 | [S44](tasks/S44.md) | Pertvarka: Data Observatory | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S44.md. |
 | [S45](tasks/S45.md) | Pertvarka: Editorial Journal | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S45.md. |

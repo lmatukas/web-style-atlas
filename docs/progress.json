@@ -3155,24 +3155,72 @@
     {
       "id": "S42",
       "title": "Pertvarka: Newspaper Ledger",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm ci --ignore-scripts",
+          "status": "pass",
+          "details": "Locked dependencies installed."
+        },
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PASS; footer-boilerplate warning includes newspaper-ledger (P22 cleanup)."
+        },
+        {
+          "name": "npm run build -- --style newspaper-ledger",
+          "status": "pass",
+          "details": "Deterministic text and indexes."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "87/87."
+        },
+        {
+          "name": "npm run check -- --style newspaper-ledger (canonical PNG)",
+          "status": "pass",
+          "details": "After canonical workflow 39811804603 at fb44b14."
+        },
+        {
+          "name": "canonical previews workflow",
+          "status": "pass",
+          "details": "Runs 39811127212 and 39811804603 success on main dispatch for task branch."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four actual PNGs; rubric 11/12, mobile plan labels small."
+        },
+        {
+          "name": "npm run test:browser (canonical host)",
+          "status": "not_run",
+          "details": "Not executed on canonical host in this session."
+        },
+        {
+          "name": "GitHub exact-head CI on PR",
+          "status": "not_run",
+          "details": "Pending for PR #89 head; to verify before merge."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S42.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S42",
       "claimed_at": "2026-10-22T16:03:40Z",
-      "updated_at": "2026-10-22T16:03:40Z",
+      "updated_at": "2026-10-22T16:12:46Z",
       "branch": "task/s42-newspaper-ledger",
       "base_commit": "ceca6e73f381207a178c9ec9d6a1f339558c50dc",
-      "evidence_commit": null,
+      "evidence_commit": "d02d8177cb32ee4a99cd389b7ff928a6c144cb17",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/89",
       "blocker": null,
-      "next_action": "Implement S42 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Verify PR #89 CI on head d02d817; merge if green; then set done with merge_commit.",
+      "handoff": "PR #89 review; evidence docs/evidence/S42.md; mobile plan label size is the open limit; exact-head CI and test:browser must be verified before done."
     },
     {
       "id": "S43",
