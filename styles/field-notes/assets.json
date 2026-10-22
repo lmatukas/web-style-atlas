@@ -2,21 +2,16 @@
   "schema_version": 1,
   "assets": [
     {
-      "id": "forest",
-      "path": "assets/forest.webp",
-      "type": "image",
-      "origin": "third_party",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg",
-      "creator": "Austin Schmid",
-      "license": "CC0-1.0",
+      "id": "fragment",
+      "path": "assets/fragment.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors (Claude, S51)",
+      "license": "MIT",
       "license_file": "assets/RIGHTS.txt",
-      "attribution": "Austin Schmid via Wikimedia Commons",
+      "attribution": "Original fictional pencil-style sketch",
       "redistribution_allowed": true,
-      "modifications": [
-        "Resized to maximum 1440px",
-        "Metadata stripped",
-        "WebP quality 80"
-      ]
+      "modifications": []
     },
     {
       "id": "route",

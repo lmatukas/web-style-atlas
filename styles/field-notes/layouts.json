@@ -18,9 +18,9 @@
         },
         {
           "purpose": "Read fragment",
-          "pattern": "Photo and short narrative",
+          "pattern": "Sketch and short narrative",
           "content_requirements": [
-            "Photo",
+            "Sketch",
             "Source caption",
             "Observation"
           ]
@@ -53,12 +53,12 @@
       "distinguishing_features": [
         "Annotation rail",
         "Documentary labels",
-        "Photo/source relationship"
+        "Sketch/source relationship"
       ]
     },
     {
       "id": "b",
-      "title": "Route diary and photographs",
+      "title": "Route diary and sketches",
       "page_type": "travel",
       "reference_path": "reference/alternate.html",
       "navigation": "Three local stop anchors and return to fragment.",
@@ -81,9 +81,9 @@
         },
         {
           "purpose": "Pause",
-          "pattern": "Middle timed entry and forest image",
+          "pattern": "Middle timed entry and sketch",
           "content_requirements": [
-            "Photo",
+            "Sketch",
             "Truthful caption"
           ]
         },
