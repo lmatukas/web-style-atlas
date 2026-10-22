@@ -3720,7 +3720,7 @@
     {
       "id": "P22",
       "title": "Footer ir kopijos šablonų valymas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S40",
         "S41",
@@ -3739,28 +3739,28 @@
       "checks": [
         {
           "name": "npm run validate",
-          "status": "not_run",
-          "details": "Nepaleista lokaliai (vartotojo nurodymas). PR #99 CI ant 0d705f5 vykdoma."
+          "status": "pass",
+          "details": "PR #99 exact-head CI ant 0d705f5: Source and generated gates success (scripts/ci.mjs validate ir generated)."
         },
         {
           "name": "npm run build; node --test tests/*.test.mjs",
-          "status": "not_run",
-          "details": "Nepaleista lokaliai. PR #99 CI ant 0d705f5 vykdoma."
+          "status": "pass",
+          "details": "PR #99 exact-head CI ant 0d705f5: Scope and queue success (build ir testai)."
         },
         {
           "name": "canonical previews workflow (includes npm run check -- --style <id>) for 18 styles",
           "status": "pass",
-          "details": "18 iš 18 previews.yml run success (39834985298 ... 39843318133); bot commit'ai pridėti prie task/p22-footer-cleanup."
+          "details": "18 iš 18 previews.yml run success (39834985298 ... 39843318133); bot commit'ai task/p22-footer-cleanup."
         },
         {
           "name": "four PNG visual rubric",
           "status": "pass",
-          "details": "Atidaryti visi 72 PNG; footer pakeitimas matomas, layout nepakitęs; balai nepakeisti, nes layout ir spalvos tos pačios."
+          "details": "Atidaryti visi 72 PNG; footer pakeitimas matomas, layout nepakitęs; balai nepakeisti."
         },
         {
           "name": "Exact-head GitHub CI and actual merge",
-          "status": "not_run",
-          "details": "Laukiama PR #99 CI ant 0d705f5; merge tik po success."
+          "status": "pass",
+          "details": "PR #99 CI ant 0d705f5: Browser and accessibility gates, Source and generated gates, Scope and queue – success; sujungta squash į 3b9dc63."
         }
       ],
       "evidence_paths": [
@@ -3768,15 +3768,15 @@
       ],
       "worker": "Claude/haiku-5.5/session-P22",
       "claimed_at": "2026-10-22T18:50:29Z",
-      "updated_at": "2026-10-22T19:51:11Z",
+      "updated_at": "2026-10-22T19:56:05Z",
       "branch": "task/p22-footer-cleanup",
       "base_commit": "2290a06a498def8f7c7705652962dddf3a61bff0",
       "evidence_commit": "0d705f54b51c8b35606d78c6dc81d9ae54783506",
-      "merge_commit": null,
+      "merge_commit": "3b9dc6350767b7e579f43f8e4ee9902a8cdbc2f0",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/99",
       "blocker": null,
-      "next_action": "Laukti PR #99 CI success ant 0d705f5; tada sujungti ir pažymėti done.",
-      "handoff": "PR #99 atidarytas. 18 stilių footer pakeitimai, 18 kanoninių previews run success, 72 PNG patikrinti. Diakritikų eilutė palikta footer'yje (P20 taisyklė, sprendimas laukia savininko)."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #99 sujungtas 3b9dc6350767b7e579f43f8e4ee9902a8cdbc2f0. Visos patikros success. Diakritikų eilutė palikta footer'yje; sprendimas dėl P20 laukia savininko."
     },
     {
       "id": "P23",
