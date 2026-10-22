@@ -3335,7 +3335,7 @@
     {
       "id": "S45",
       "title": "Pertvarka: Editorial Journal",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
@@ -3368,8 +3368,8 @@
         },
         {
           "name": "Exact-head GitHub CI and actual merge",
-          "status": "not_run",
-          "details": "Pending PR #92 exact-head checks; merge not performed."
+          "status": "pass",
+          "details": "PR #92 exact-head checks at eb8ce60 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as cdf5c50c4e143f934059df8bc220b30941b4e129."
         }
       ],
       "evidence_paths": [
@@ -3377,15 +3377,15 @@
       ],
       "worker": "Claude/haiku-5.5/session-S45",
       "claimed_at": "2026-10-22T17:17:33Z",
-      "updated_at": "2026-10-22T17:21:14Z",
+      "updated_at": "2026-10-22T17:22:52Z",
       "branch": "task/s45-editorial-journal",
       "base_commit": "4710d593ba91bac1c3517f85be05dc8779d457de",
       "evidence_commit": "eb8ce604f27ee3bacf27c4dc2d41116695e75a2b",
-      "merge_commit": null,
+      "merge_commit": "cdf5c50c4e143f934059df8bc220b30941b4e129",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/92",
       "blocker": null,
-      "next_action": "Wait for PR #92 exact-head checks, merge at verified head, then set done with merge_commit.",
-      "handoff": "PR #92 open. Rubric 12/12. Limitations: A teaser columns 2-3 text-only; cup drawing small."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #92 sujungtas cdf5c50c4e143f934059df8bc220b30941b4e129. Rubrika 12/12. Baigta."
     },
     {
       "id": "S46",
