@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 71/75.**
+**Baigta: 72/75.**
 
-**Pirmiausia patikrinti S50: Vykdoma; vykdytojas Claude/haiku-5.5/session-S50.**
+**Kita užduotis: [S51](tasks/S51.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -81,7 +81,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S47](tasks/S47.md) | Pertvarka: Art Deco | Baigta | Claude/haiku-5.5/session-S47 | task/s47-art-deco | [PR](https://github.com/lmatukas/web-style-atlas/pull/94) | 2026-10-22T17:47:04Z | Nėra. Užduotis baigta. |
 | [S48](tasks/S48.md) | Pertvarka: Gallery White Cube | Baigta | Claude/haiku-5.5/session-S48 | task/s48-gallery-white-cube | [PR](https://github.com/lmatukas/web-style-atlas/pull/95) | 2026-10-22T17:59:19Z | Nėra. Užduotis baigta. |
 | [S49](tasks/S49.md) | Pertvarka: Industrial Spec | Baigta | Claude/haiku-5.5/session-S49 | task/s49-industrial-spec | [PR](https://github.com/lmatukas/web-style-atlas/pull/96) | 2026-10-22T18:03:17Z | Nėra. Užduotis baigta. |
-| [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Vykdoma | Claude/haiku-5.5/session-S50 | task/s50-balcony-builder | — | 2026-10-22T18:03:25Z | Implement S50 on task branch; run checks; canonical PNG via workflow; PR; review. |
+| [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Baigta | Claude/haiku-5.5/session-S50 | task/s50-balcony-builder | [PR](https://github.com/lmatukas/web-style-atlas/pull/97) | 2026-10-22T18:30:58Z | Nėra. Užduotis baigta. |
 | [S51](tasks/S51.md) | Pertvarka: Field Notes | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S51.md. |
 | [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P22.md. |
 | [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/P23.md. |
