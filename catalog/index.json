@@ -1768,7 +1768,7 @@
         "composition": "Dense command index in A; chronological log beside a summary rail in B.",
         "content_rhythm": "Short input/output explanations or chronological events with supporting panels.",
         "imagery": "No image dependency; original text, rules and status notation.",
-        "interaction": "Native service details and an actual local log-type filter with pressed state.",
+        "interaction": "Native service details, a local log search and a filter with pressed state.",
         "motion": "Static output, no blinking cursor; brief transitions removed for reduced motion.",
         "navigation": "Plain text section links, command disclosures and a separate log index.",
         "typography": "System monospace throughout, with explicit timestamp and command hierarchy."
