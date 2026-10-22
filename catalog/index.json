@@ -589,8 +589,8 @@
       "signature": {
         "color_and_material": "Warm paper, sand notes, dark brown and restrained rust annotation marks.",
         "composition": "Narrative fragment beside marginal annotations in A; chronological diary and preparation rail in B.",
-        "content_rhythm": "Photograph, observation, marginal cross-reference and schematic route; or timed entries.",
-        "imagery": "Rights-documented local forest photo and an original clearly schematic three-stop SVG.",
+        "content_rhythm": "Sketch, observation, marginal cross-reference and schematic route; or timed entries.",
+        "imagery": "An original pencil-style sketch and an original clearly schematic three-stop SVG.",
         "interaction": "Native source disclosures, local stop links and real local preparation checkboxes.",
         "motion": "Static notebook; brief link transitions removed for reduced motion.",
         "navigation": "Visible fragment/route links and a three-stop diary index.",
@@ -598,7 +598,7 @@
       },
       "status": "ready",
       "style_path": "styles/field-notes/style.md",
-      "summary": "Documentary labels, marginal annotations and attached photo captions for a readable travel notebook.",
+      "summary": "Documentary labels, marginal annotations and attached source captions for a readable travel notebook.",
       "tags": [
         "annotated",
         "reading-led",
@@ -617,7 +617,7 @@
           "preview_mobile_path": "styles/field-notes/preview-alt-mobile.png",
           "preview_path": "styles/field-notes/preview-alt.png",
           "reference_path": "styles/field-notes/reference/alternate.html",
-          "title": "Route diary and photographs"
+          "title": "Route diary and sketches"
         }
       ]
     },
