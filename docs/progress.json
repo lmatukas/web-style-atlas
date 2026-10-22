@@ -3555,24 +3555,57 @@
     {
       "id": "S49",
       "title": "Pertvarka: Industrial Spec",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PR #96 exact-head CI at cdfcdd5: Source and generated gates success (scripts/ci.mjs validate and generated actions)."
+        },
+        {
+          "name": "npm run build -- --style industrial-spec",
+          "status": "pass",
+          "details": "Build step in PR #96 exact-head CI at cdfcdd5: Source and generated gates success."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "Unit tests in PR #96 exact-head CI at cdfcdd5: Scope and queue success."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style industrial-spec)",
+          "status": "pass",
+          "details": "Run 39827562090 success; bot commit 7e88558 regenerated four PNG."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG from 7e88558; rubric 12/12; neighbours data-observatory and form-systems compared from catalogue description only."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "PR #96 exact-head checks at cdfcdd5 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as 846e1d57cb9b9a5c3b47434dd631fb37deba9936."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S49.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S49",
       "claimed_at": "2026-10-22T17:59:28Z",
-      "updated_at": "2026-10-22T17:59:28Z",
+      "updated_at": "2026-10-22T18:03:17Z",
       "branch": "task/s49-industrial-spec",
       "base_commit": "e8d6d6695feea66552ccba6766a109b4c6376725",
-      "evidence_commit": null,
-      "merge_commit": null,
-      "pr_url": null,
+      "evidence_commit": "cdfcdd54c2d0df3a4301789e96969cf9c53724c3",
+      "merge_commit": "846e1d57cb9b9a5c3b47434dd631fb37deba9936",
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/96",
       "blocker": null,
-      "next_action": "Implement S49 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #96 sujungtas 846e1d57cb9b9a5c3b47434dd631fb37deba9936. Rubrika 12/12. Baigta."
     },
     {
       "id": "S50",
