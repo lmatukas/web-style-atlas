@@ -18,11 +18,12 @@
         },
         {
           "purpose": "Prioritize reporting",
-          "pattern": "Wide lead with ruled brief rail",
+          "pattern": "Full-width lead over annotated plan and copy, then brief strip with a chart column",
           "content_requirements": [
             "One lead",
-            "Three briefs",
-            "Original schematic"
+            "Original plan with units on every box",
+            "Brief strip whose centre column holds an original bar chart",
+            "Three briefs"
           ]
         },
         {
@@ -42,11 +43,11 @@
           ]
         }
       ],
-      "mobile_reflow": "Lead precedes briefs, then notebook; department navigation wraps.",
+      "mobile_reflow": "Lead precedes plan, briefs and chart, then notebook; department navigation wraps.",
       "distinguishing_features": [
-        "Unequal lead/brief columns",
-        "Rules and compact serif headlines",
-        "Original schematic with explicit caption"
+        "Full-width lead headline above a seven-to-five plan and copy split",
+        "Brief strip with unequal columns and a chart in its centre",
+        "Plan and chart label every unit and change"
       ]
     },
     {
