@@ -3325,7 +3325,7 @@
       "updated_at": "2026-10-22T17:17:22Z",
       "branch": "task/s44-data-observatory",
       "base_commit": "dccf455cd852eb3ddc00d99c2a78de8f246422f2",
-      "evidence_commit": "3764f73",
+      "evidence_commit": "3764f737e2c86b20a28aafc8b32728d21d9fc73c",
       "merge_commit": "25affdf7b653872602a5f5690ca232e5dfd481b8",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/91",
       "blocker": null,
