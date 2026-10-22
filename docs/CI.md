@@ -52,6 +52,18 @@ outputs, browser downloads or caches. If the standard CDN is broken locally,
 the official Chrome for Testing storage URL for the exact pinned version may be
 used; never silently substitute an arbitrary browser.
 
+## Regenerate previews in GitHub Actions
+
+When the local machine lacks the pinned Chromium headless shell, run the manual
+workflow "Regenerate canonical previews" (`.github/workflows/previews.yml`) with
+the branch name and optionally one style id. It renders in the canonical
+environment, checks the output, and commits `styles/` and `catalog/` changes to
+that branch. It refuses `main`.
+
+The bot's commit does not start "Atlas validation". After it finishes, review
+the four PNGs of each changed style, then start "Atlas validation" on the branch
+(for example by pushing an empty commit or using the Actions UI).
+
 ## Reproduce the gate
 
 ```sh
