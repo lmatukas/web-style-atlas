@@ -3280,23 +3280,23 @@
     {
       "id": "S44",
       "title": "Pertvarka: Data Observatory",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-S44",
+      "claimed_at": "2026-10-22T17:11:24Z",
+      "updated_at": "2026-10-22T17:11:24Z",
+      "branch": "task/s44-data-observatory",
+      "base_commit": "dccf455cd852eb3ddc00d99c2a78de8f246422f2",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S44.md.",
+      "next_action": "Implement S44 on task branch; run checks; canonical PNG via workflow; PR; review.",
       "handoff": null
     },
     {
