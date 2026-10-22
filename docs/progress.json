@@ -3280,7 +3280,7 @@
     {
       "id": "S44",
       "title": "Pertvarka: Data Observatory",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
@@ -3313,8 +3313,8 @@
         },
         {
           "name": "Exact-head GitHub CI and actual merge",
-          "status": "not_run",
-          "details": "Pending PR #91 exact-head checks; merge not performed."
+          "status": "pass",
+          "details": "PR #91 exact-head checks at 3764f73 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as 25affdf7b653872602a5f5690ca232e5dfd481b8."
         }
       ],
       "evidence_paths": [
@@ -3322,15 +3322,15 @@
       ],
       "worker": "Claude/haiku-5.5/session-S44",
       "claimed_at": "2026-10-22T17:11:24Z",
-      "updated_at": "2026-10-22T17:15:43Z",
+      "updated_at": "2026-10-22T17:17:22Z",
       "branch": "task/s44-data-observatory",
       "base_commit": "dccf455cd852eb3ddc00d99c2a78de8f246422f2",
       "evidence_commit": "3764f73",
-      "merge_commit": null,
+      "merge_commit": "25affdf7b653872602a5f5690ca232e5dfd481b8",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/91",
       "blocker": null,
-      "next_action": "Wait for PR #91 exact-head checks, merge at verified head, then set done with merge_commit.",
-      "handoff": "PR #91 open. Rubric 11/12 (mobile tick labels 400/500 close; metric row remains above chart). Neighbour industrial-spec."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #91 sujungtas 25affdf7b653872602a5f5690ca232e5dfd481b8. Rubrika 11/12. Baigta."
     },
     {
       "id": "S45",
