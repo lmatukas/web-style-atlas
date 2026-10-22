@@ -2988,15 +2988,15 @@
       ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
       "claimed_at": "2026-10-22T04:26:47Z",
-      "updated_at": "2026-10-22T04:38:07Z",
+      "updated_at": "2026-10-22T04:46:11Z",
       "branch": "task/p21-canonical-previews",
       "base_commit": "e98fb816bd3ddc80ce0451ebfe86083c264ea481",
       "evidence_commit": "60eb1ebf8f5ead4960ce58533ae4e3e2ef9b647f",
       "merge_commit": null,
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/85",
       "blocker": null,
-      "next_action": "Paleisti previews.yml workflow'ą ant naujos P21 šakos su frontmatter pakeitimais.",
-      "handoff": "Darbo eiga sujungta (PR #85). Kitas žingsnis: paleisti 'Regenerate canonical previews' su branch ir style tuščią arba vieną; tada vizualiai patikrinti PNG; tada frontmatter pakeitimai ir vėl generavimas."
+      "next_action": "Laukia savininko sprendimo dėl šriftų aplinkos (žr. handoff). PR neatidarytas.",
+      "handoff": "Šakoje task/p21-canonical-previews: dd31345 (frontmatter suvienodintas, metaduomenys ir catalog/index.json identiški) ir cf681b5 (bot'o PNG, run 39723856539). PNG pasikeitė dėl šriftų, ne dėl frontmatter: senieji PNG renderinti su DejaVu atsarginiais šriftais, GitHub ubuntu-24.04 runner'is turi Liberation Sans/Serif (Arial/Georgia metrika), todėl kinta eilučių laužymas ir aukštis (68 PNG pakeitė aukštį, 40 skiriasi iki 10% pikselių). Kanoninė aplinka (preview.config.mjs) šriftų nefiksuoja. Pirmas paleidimas be pakeitimų naršyklės nepaleido ('previews already current'), todėl nieko neįrodė. Pasirinkimai: A) priimti runner'io šriftus kaip kanoninius ir perrenderinti visus 39; B) workflow'e pašalinti Liberation šriftus, kad atkartotų senus PNG, ir patikrinti baitų sutapimą."
     },
     {
       "id": "P24",
