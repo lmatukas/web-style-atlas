@@ -3781,24 +3781,47 @@
     {
       "id": "P23",
       "title": "Galutinė kokybės ir įrodymų patikra",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P22",
         "P24"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate; npm run build; node --test tests/*.test.mjs",
+          "status": "not_run",
+          "details": "Lokaliai nepaleista (vartotojo nurodymas). PR #100 CI ant galvos vykdoma."
+        },
+        {
+          "name": "npm run check (canonical environment)",
+          "status": "not_run",
+          "details": "Lokaliai nepaleista. Changed stiliams patikra buvo P22 previews run'uose; unchanged stiliams – nepaleista."
+        },
+        {
+          "name": "39 PNG visual review",
+          "status": "pass",
+          "details": "Atidaryti visi 39 stilių 156 PNG (4 × 39); be horizontalaus slinkimo ir persidengimų peržiūrose."
+        },
+        {
+          "name": "Rubric evidence for all 39 styles",
+          "status": "pass",
+          "details": "S40–S51 rubrikos įrodymai ≥11/12, be nulio; 39 stilių vizualinės peržiūros įvertinimai įrašyti docs/evidence/P23.md."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P23.md"
+      ],
       "worker": "Claude/haiku-5.5/session-P23",
       "claimed_at": "2026-10-22T19:56:18Z",
-      "updated_at": "2026-10-22T19:56:18Z",
+      "updated_at": "2026-10-22T19:58:06Z",
       "branch": "task/p23-final-evidence",
       "base_commit": "e5f7b967a76c0734c530e302e992ee0ecd6f06ca",
-      "evidence_commit": null,
+      "evidence_commit": "17262ffb84f91f837abadf9379104f7d6f524c97",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/100",
       "blocker": null,
-      "next_action": "Peržiūrėti 39 stilius, įrašyti rubrikos balus ir sugeneruoti katalogą.",
-      "handoff": "Claim prieš kodavimą. Visi 39 stiliai peržiūrimi; įrodymai docs/evidence/P23.md."
+      "next_action": "Laukti PR #100 CI success ant 17262ff; tada sujungti ir pažymėti done.",
+      "handoff": "PR #100 atidarytas. Tik evidence failas. Vizualiniai balai – vykdytojo įvertinimas, ne nepriklausomas."
     }
   ]
 }
