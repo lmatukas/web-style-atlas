@@ -2957,30 +2957,40 @@
     {
       "id": "P21",
       "title": "style.md frontmatter formato suvienodinimas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P19"
       ],
       "checks": [
-        {
-          "name": "validate",
-          "status": "pass",
-          "details": "node scripts/ci.mjs validate exit 0"
-        },
         {
           "name": "unit tests",
           "status": "pass",
           "details": "87/87"
         },
         {
-          "name": "CI PR run 39722488302",
+          "name": "validate",
           "status": "pass",
-          "details": "Scope, source, and browser gates success on 60eb1eb"
+          "details": "npm run validate PASS"
+        },
+        {
+          "name": "build and preview freshness",
+          "status": "pass",
+          "details": "npm run build + npm run check PASS; catalog/index.json identical"
         },
         {
           "name": "canonical PNG regeneration",
+          "status": "pass",
+          "details": "previews.yml runs 39723856539, 39724545914 success; all 39 styles"
+        },
+        {
+          "name": "visual review",
+          "status": "pass",
+          "details": "all 39 desktop and mobile A previews inspected; no broken layouts"
+        },
+        {
+          "name": "PR CI",
           "status": "not_run",
-          "details": "workflow added; not yet run"
+          "details": "waiting for Atlas validation on PR #86"
         }
       ],
       "evidence_paths": [
@@ -2988,15 +2998,15 @@
       ],
       "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
       "claimed_at": "2026-10-22T04:26:47Z",
-      "updated_at": "2026-10-22T04:38:07Z",
+      "updated_at": "2026-10-22T04:54:13Z",
       "branch": "task/p21-canonical-previews",
       "base_commit": "e98fb816bd3ddc80ce0451ebfe86083c264ea481",
-      "evidence_commit": "60eb1ebf8f5ead4960ce58533ae4e3e2ef9b647f",
+      "evidence_commit": "a0ace86b4b4ffaca91171c6cd6cc705cc14a62eb",
       "merge_commit": null,
-      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/85",
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/86",
       "blocker": null,
-      "next_action": "Paleisti previews.yml workflow'ą ant naujos P21 šakos su frontmatter pakeitimais.",
-      "handoff": "Darbo eiga sujungta (PR #85). Kitas žingsnis: paleisti 'Regenerate canonical previews' su branch ir style tuščią arba vieną; tada vizualiai patikrinti PNG; tada frontmatter pakeitimai ir vėl generavimas."
+      "next_action": "Laukti PR #86 CI; sujungti; pažymėti done.",
+      "handoff": "PR #86 laukia CI. Po sujungimo: done su merge_commit."
     },
     {
       "id": "P24",

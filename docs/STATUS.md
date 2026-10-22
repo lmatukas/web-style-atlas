@@ -4,7 +4,7 @@
 
 **Baigta: 60/75.**
 
-**Pirmiausia patikrinti P21: Vykdoma; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21.**
+**Pirmiausia patikrinti P21: Laukia peržiūros; vykdytojas Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -69,7 +69,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P18](tasks/P18.md) | 39 krypčių leidimo paruošimas ir publikavimas | Baigta | Codex/8f365240145f/final-audit-release | task/p18-final | [PR](https://github.com/lmatukas/web-style-atlas/pull/80) | 2026-10-21T19:31:51.953043Z | All 57 planned tasks accepted. Start new work only from the next owner-approved scope. |
 | [P19](tasks/P19.md) | Išskirtinumo patikros integravimas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19 | task/p19-distinctiveness | [PR](https://github.com/lmatukas/web-style-atlas/pull/82) | 2026-10-21T21:06:25Z | Baigta; nėra veiksmo. |
 | [P20](tasks/P20.md) | Kalbos politika (LT / EN) | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20 | task/p20-language-policy | [PR](https://github.com/lmatukas/web-style-atlas/pull/83) | 2026-10-21T21:08:30Z | Savininkas patvirtina arba atmeta core/language-policy.md sprendimą |
-| [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Vykdoma | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21 | task/p21-canonical-previews | [PR](https://github.com/lmatukas/web-style-atlas/pull/85) | 2026-10-22T04:38:07Z | Paleisti previews.yml workflow'ą ant naujos P21 šakos su frontmatter pakeitimais. |
+| [P21](tasks/P21.md) | style.md frontmatter formato suvienodinimas | Laukia peržiūros | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21 | task/p21-canonical-previews | [PR](https://github.com/lmatukas/web-style-atlas/pull/86) | 2026-10-22T04:54:13Z | Laukti PR #86 CI; sujungti; pažymėti done. |
 | [P24](tasks/P24.md) | Teisių ir šaltinių audito papildymas | Baigta | Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24 | task/p24-rights-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/84) | 2026-10-21T21:12:22Z | Baigta; nėra veiksmo. |
 | [S40](tasks/S40.md) | Pertvarka: Institutional Clear | Užblokuota | — | — | — | 2026-10-21T21:12:55Z | Tas pats kaip P21: nėra kanoninio Chromium 151.0.7922.34 PNG generavimui. Stilio pakeitimas be PNG nulaužtų CI. |
 | [S41](tasks/S41.md) | Pertvarka: Quiet Luxury | Laukia | — | — | — | — | Pradėti tik kai priklausomybės done; kortelė docs/tasks/S41.md. |
