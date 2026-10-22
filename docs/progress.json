@@ -3500,24 +3500,57 @@
     {
       "id": "S48",
       "title": "Pertvarka: Gallery White Cube",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PR #95 exact-head CI at fa6305f: Source and generated gates success (scripts/ci.mjs validate and generated actions)."
+        },
+        {
+          "name": "npm run build -- --style gallery-white-cube",
+          "status": "pass",
+          "details": "Build step in PR #95 exact-head CI at fa6305f: Source and generated gates success."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "Unit tests in PR #95 exact-head CI at fa6305f: Scope and queue success."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style gallery-white-cube)",
+          "status": "pass",
+          "details": "Runs 39825841779 (before fix) and 39826936478 (after fix) success; bot commit 82b3ab8 regenerated four PNG."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG from 82b3ab8; rubric 12/12; neighbour quiet-luxury compared from catalogue description only."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "PR #95 exact-head checks at fa6305f succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue) after fix 84e54d8; merged as 4267631d1365bbe1824ec382694d3ab8e2302c0f."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S48.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S48",
       "claimed_at": "2026-10-22T17:47:12Z",
-      "updated_at": "2026-10-22T17:47:12Z",
+      "updated_at": "2026-10-22T17:59:19Z",
       "branch": "task/s48-gallery-white-cube",
       "base_commit": "b1b05bf201de8d126bcde2522af5eb79173d428f",
-      "evidence_commit": null,
-      "merge_commit": null,
-      "pr_url": null,
+      "evidence_commit": "fa6305ff45b3b98ef1153339c39840412a0b6eef",
+      "merge_commit": "4267631d1365bbe1824ec382694d3ab8e2302c0f",
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/95",
       "blocker": null,
-      "next_action": "Implement S48 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #95 sujungtas 4267631d1365bbe1824ec382694d3ab8e2302c0f. Rubrika 12/12. Pirmas CI naršyklės vartų failure ištaisytas 84e54d8. Baigta."
     },
     {
       "id": "S49",
