@@ -3665,23 +3665,23 @@
     {
       "id": "S51",
       "title": "Pertvarka: Field Notes",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-S51",
+      "claimed_at": "2026-10-22T18:31:03Z",
+      "updated_at": "2026-10-22T18:31:03Z",
+      "branch": "task/s51-field-notes",
+      "base_commit": "5c113f54b146300fb6f31f285af68cdb5d548355",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/S51.md.",
+      "next_action": "Implement S51 on task branch; run checks; canonical PNG via workflow; PR; review.",
       "handoff": null
     },
     {
