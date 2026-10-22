@@ -11,7 +11,7 @@ density: "sparse"
 image_dependency: "low"
 motion_level: "subtle"
 complexity: "low"
-signature: {"composition": "One softly lit sculptural object dominates A; three sequential spatial layers organize B.", "typography": "Rounded-feeling plain system sans display, open line spacing and small measured object labels.", "navigation": "Visible object/layers links, anchored reading routes and native scope notes.", "content_rhythm": "Large object stage and fine form observations versus alternating layered service volumes and output records.", "imagery": "Original static CSS clay forms with diffuse highlights, recessed openings and grounded contact shadows.", "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.", "interaction": "Real page and section links, visible focus and working native disclosures.", "motion": "Still spatial composition; no perpetual float, camera orbit or required WebGL."}
+signature: {"composition": "One sculptural object in a lit room dominates A; three indented layers, led by a primary first layer, organize B.", "typography": "Rounded-feeling plain system sans display, open line spacing and small measured object labels.", "navigation": "Visible object/layers links, anchored reading routes and native scope notes.", "content_rhythm": "Large object stage and fine form observations versus alternating layered service volumes and output records.", "imagery": "Original static CSS clay forms with diffuse highlights, recessed openings and grounded contact shadows.", "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.", "interaction": "Real page and section links, visible focus and working native disclosures.", "motion": "Still spatial composition; no perpetual float, camera orbit or required WebGL."}
 status: "ready"
 ---
 
@@ -35,15 +35,15 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-Open with a visible practice name and a compact navigation. A short invitation occupies the left of the first stage while one large Pebble form occupies the right. Its caption identifies the work as a CSS study. A form-observation section changes to three restrained notes, then two enlarged material samples introduce surface and shadow. Finish with scope information and a native disclosure. This is a focused object presentation, not a general catalogue or a row of interchangeable product cards.
+Open with a visible practice name and a compact navigation. A short invitation sits left of the first stage, where one large Pebble stands in a small room. A window lights it from the left, a floor line grounds it, and its shadow falls to the right. The caption names the window as the light source. Three restrained notes then describe what the object does in that light, not only its mood. Two enlarged material samples follow, with scope information and a native disclosure. This is a focused object presentation, not a general catalogue or a row of interchangeable product cards.
 
 ## Layout B
 
-Start with a broad typographic introduction and an anchored route through the practice. Three horizontal layers each combine an original spatial vignette with a distinct service purpose and definition-list output. Atmosphere uses overlapping light discs, arrangement uses raised volumes, and detail uses a recessed rounded surface. Alternate their visual emphasis before a generous closing statement and notes. This sequential explanation of process differs from A’s singular hero object and close observations.
+Start with a broad typographic introduction and an anchored route through the practice. Three layers step down the page as an indented staircase. The first layer, Atmosphere, is primary: its vignette is the largest and its heading the strongest, because the light it sets governs the other two. Arrangement and Detail follow, each indented further. Arrangement uses raised volumes and Detail a recessed rounded surface, and every layer ends with a definition-list output. A generous closing statement and notes follow. This sequential explanation differs from A’s singular hero object and close observations.
 
 ## Imagery
 
-All geometry is original code-authored CSS artwork. The Pebble uses an elliptical shell, a recessed opening and a broad soft contact shadow; the practice layers use discs, platforms and rounded blocks under related lighting. Decorative artwork is hidden from assistive reading and paired with meaningful adjacent prose. No external model, photograph, font or texture is loaded, so the asset registry is empty. Never substitute a grey missing-image frame or describe these illustrative surfaces as verified real materials.
+All geometry is original code-authored CSS artwork. The Pebble sits in a small room with a window glow, a floor line and an offset contact shadow; its shell is elliptical with a recessed opening. The practice layers use discs, platforms and rounded blocks under the same light direction. Decorative artwork is hidden from assistive reading and paired with meaningful adjacent prose. No external model, photograph, font or texture is loaded, so the asset registry is empty. Never substitute a grey missing-image frame or describe these illustrative surfaces as verified real materials.
 
 ## Navigation and interaction
 

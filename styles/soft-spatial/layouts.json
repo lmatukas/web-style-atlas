@@ -10,15 +10,16 @@
       "ordered_sections": [
         {
           "purpose": "Introduce one object",
-          "pattern": "Text beside large sculptural stage",
+          "pattern": "Text beside a lit room stage",
           "content_requirements": [
             "Named fictional object",
+            "Window light source",
             "Illustration caption"
           ]
         },
         {
           "purpose": "Explain form",
-          "pattern": "Heading with three observations",
+          "pattern": "Heading with three observations describing what the object does",
           "content_requirements": [
             "Light",
             "Contact shadow",
@@ -66,7 +67,7 @@
         },
         {
           "purpose": "Explain atmosphere",
-          "pattern": "Spatial discs and output record",
+          "pattern": "Primary first layer with the largest spatial vignette and output record",
           "content_requirements": [
             "Light and mood",
             "Spatial palette"
@@ -74,7 +75,7 @@
         },
         {
           "purpose": "Explain arrangement",
-          "pattern": "Raised platform volumes and output record",
+          "pattern": "Indented raised platform volumes and output record",
           "content_requirements": [
             "Routes and scale",
             "Composition output"
@@ -82,7 +83,7 @@
         },
         {
           "purpose": "Explain detail",
-          "pattern": "Recessed form and output record",
+          "pattern": "Further indented recessed form and output record",
           "content_requirements": [
             "Edges and touch",
             "Material details"
@@ -99,7 +100,8 @@
       ],
       "mobile_reflow": "Each visual precedes its explanation; records and closing action fit narrow widths.",
       "distinguishing_features": [
-        "Three distinct spatial vignettes",
+        "Primary first layer with the largest vignette",
+        "Indented staircase of three layers",
         "Service/output definition lists",
         "Layer sequence replaces single-object study"
       ]
