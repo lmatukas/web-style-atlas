@@ -3720,7 +3720,7 @@
     {
       "id": "P22",
       "title": "Footer ir kopijos šablonų valymas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S40",
         "S41",
@@ -3738,17 +3738,17 @@
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude/haiku-5.5/session-P22",
+      "claimed_at": "2026-10-22T18:50:29Z",
+      "updated_at": "2026-10-22T18:50:29Z",
+      "branch": "task/p22-footer-cleanup",
+      "base_commit": "2290a06a498def8f7c7705652962dddf3a61bff0",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti tik kai priklausomybės done; kortelė docs/tasks/P22.md.",
-      "handoff": null
+      "next_action": "Įgyvendinti footer pakeitimus ir atidaryti PR [P22].",
+      "handoff": "Claim prieš kodavimą. Footer pakeitimai 18 stilių (36 puslapių), peržiūros perstatomos po vieną per kanoninį workflow."
     },
     {
       "id": "P23",
