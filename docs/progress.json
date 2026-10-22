@@ -3665,24 +3665,57 @@
     {
       "id": "S51",
       "title": "Pertvarka: Field Notes",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "P19",
         "P20"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "npm run validate",
+          "status": "pass",
+          "details": "PR #98 exact-head CI at 0872770: Source and generated gates success (scripts/ci.mjs validate and generated actions)."
+        },
+        {
+          "name": "npm run build -- --style field-notes",
+          "status": "pass",
+          "details": "Build step in PR #98 exact-head CI at 0872770: Source and generated gates success."
+        },
+        {
+          "name": "node --test tests/*.test.mjs",
+          "status": "pass",
+          "details": "Unit tests in PR #98 exact-head CI at 0872770: Scope and queue success."
+        },
+        {
+          "name": "canonical previews workflow (includes npm run check -- --style field-notes)",
+          "status": "pass",
+          "details": "Run 39832260527 success; bot commit b6f54cb regenerated four PNG."
+        },
+        {
+          "name": "four PNG visual rubric",
+          "status": "pass",
+          "details": "Viewed all four canonical PNG from b6f54cb; rubric 12/12; neighbour botanical-engraving compared from catalogue description only."
+        },
+        {
+          "name": "Exact-head GitHub CI and actual merge",
+          "status": "pass",
+          "details": "PR #98 exact-head checks at 0872770 succeeded (Browser and accessibility gates, Source and generated gates, Scope and queue); merged as 1f061bd98685e1ca56fc0104afd5cad28a0d1489."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S51.md"
+      ],
       "worker": "Claude/haiku-5.5/session-S51",
       "claimed_at": "2026-10-22T18:31:03Z",
-      "updated_at": "2026-10-22T18:31:03Z",
+      "updated_at": "2026-10-22T18:47:17Z",
       "branch": "task/s51-field-notes",
       "base_commit": "5c113f54b146300fb6f31f285af68cdb5d548355",
-      "evidence_commit": null,
-      "merge_commit": null,
-      "pr_url": null,
+      "evidence_commit": "0872770deeb6513d01018b6c5e9f37e0f5a76738",
+      "merge_commit": "1f061bd98685e1ca56fc0104afd5cad28a0d1489",
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/98",
       "blocker": null,
-      "next_action": "Implement S51 on task branch; run checks; canonical PNG via workflow; PR; review.",
-      "handoff": null
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #98 sujungtas 1f061bd98685e1ca56fc0104afd5cad28a0d1489. Rubrika 12/12. Baigta."
     },
     {
       "id": "P22",
