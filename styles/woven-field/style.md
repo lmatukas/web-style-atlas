@@ -1,41 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "woven-field",
-  "name": "Woven Field",
-  "summary": "Ordered thread fields, a narrow creative notebook and a parameter-led studio turn two colors and three crossing structures into real standalone SVG samples.",
-  "family": "tactile",
-  "tags": [
-    "handmade",
-    "warm",
-    "annotated",
-    "task-led"
-  ],
-  "best_for": [
-    "craft",
-    "portfolio",
-    "products"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A narrow notebook index beside unequal material studies; B a parameter rail beside a large creation table.",
-    "typography": "Quiet Georgia headings, occasional italic and clear Arial control/parameter records.",
-    "navigation": "Five notebook sections versus horizontal studio links, with real sibling compositions.",
-    "content_rhythm": "Idea, field, fragment collection and ledger versus creation, live enquiry and oversized alternating samples.",
-    "imagery": "Original procedural warp/weft lines with actual plain, diagonal and paired crossing structures.",
-    "color_and_material": "Natural linen, deep pine and rust; flat readable surfaces and bounded thread artwork.",
-    "interaction": "Density, two colors, three weaves, editable presets, real standalone SVG export and accurate enquiry copy.",
-    "motion": "800ms tension, bounded nearby bending, 300ms return, 450ms interweave and one-time sample unroll."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/woven-field/prompt.lt.md"
-}
+schema_version: 1
+id: "woven-field"
+name: "Woven Field"
+summary: "Ordered thread fields, a narrow creative notebook and a parameter-led studio turn two colors and three crossing structures into real standalone SVG samples."
+family: "tactile"
+tags: ["handmade", "warm", "annotated", "task-led"]
+best_for: ["craft", "portfolio", "products"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A narrow notebook index beside unequal material studies; B a parameter rail beside a large creation table.", "typography": "Quiet Georgia headings, occasional italic and clear Arial control/parameter records.", "navigation": "Five notebook sections versus horizontal studio links, with real sibling compositions.", "content_rhythm": "Idea, field, fragment collection and ledger versus creation, live enquiry and oversized alternating samples.", "imagery": "Original procedural warp/weft lines with actual plain, diagonal and paired crossing structures.", "color_and_material": "Natural linen, deep pine and rust; flat readable surfaces and bounded thread artwork.", "interaction": "Density, two colors, three weaves, editable presets, real standalone SVG export and accurate enquiry copy.", "motion": "800ms tension, bounded nearby bending, 300ms return, 450ms interweave and one-time sample unroll."}
+status: "ready"
+prompt_path: "prompts/woven-field/prompt.lt.md"
 ---
 
 # Woven Field

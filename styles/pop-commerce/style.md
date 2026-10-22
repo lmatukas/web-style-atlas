@@ -1,36 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "pop-commerce",
-  "name": "Pop Commerce",
-  "summary": "A bold product-to-price hierarchy, colorful original objects and clear buying choices connect a single-product offer with a filtered product shelf.",
-  "family": "commercial",
-  "tags": [
-    "product-led",
-    "playful",
-    "high-contrast"
-  ],
-  "best_for": [
-    "commerce",
-    "products"
-  ],
-  "avoid_for": [],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "subtle",
-  "complexity": "medium",
-  "signature": {
-    "composition": "Dominant illustrated product beside price and choices in A; three category-filtered product bays in B.",
-    "typography": "Heavy short sans display meets readable product names, prices and practical specifications.",
-    "navigation": "Visible bottle/shelf/bag routes and actual product-category buttons.",
-    "content_rhythm": "Product offer, useful specification rows and related-object stage versus shelf, set arithmetic and live bag.",
-    "imagery": "Original CSS bottle, cup and carry-bag silhouettes with large flat commercial color fields.",
-    "color_and_material": "Warm ground, plum action/object, sunny display field and pink supporting illustration; restrained thin boundaries.",
-    "interaction": "Real finish and quantity controls, category filtering and a live local demo bag with exact totals and clear reset.",
-    "motion": "Immediate choices and brief color changes; no ticker, countdown or moving product."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "pop-commerce"
+name: "Pop Commerce"
+summary: "A bold product-to-price hierarchy, colorful original objects and clear buying choices connect a single-product offer with a filtered product shelf."
+family: "commercial"
+tags: ["product-led", "playful", "high-contrast"]
+best_for: ["commerce", "products"]
+avoid_for: []
+density: "balanced"
+image_dependency: "low"
+motion_level: "subtle"
+complexity: "medium"
+signature: {"composition": "Dominant illustrated product beside price and choices in A; three category-filtered product bays in B.", "typography": "Heavy short sans display meets readable product names, prices and practical specifications.", "navigation": "Visible bottle/shelf/bag routes and actual product-category buttons.", "content_rhythm": "Product offer, useful specification rows and related-object stage versus shelf, set arithmetic and live bag.", "imagery": "Original CSS bottle, cup and carry-bag silhouettes with large flat commercial color fields.", "color_and_material": "Warm ground, plum action/object, sunny display field and pink supporting illustration; restrained thin boundaries.", "interaction": "Real finish and quantity controls, category filtering and a live local demo bag with exact totals and clear reset.", "motion": "Immediate choices and brief color changes; no ticker, countdown or moving product."}
+status: "ready"
 ---
 
 # Pop Commerce

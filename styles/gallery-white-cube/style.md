@@ -1,36 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "gallery-white-cube",
-  "name": "Gallery White Cube",
-  "summary": "Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels.",
-  "family": "restrained",
-  "tags": [
-    "minimal",
-    "image-led",
-    "calm"
-  ],
-  "best_for": [
-    "culture",
-    "portfolio"
-  ],
-  "avoid_for": [],
-  "density": "sparse",
-  "image_dependency": "high",
-  "motion_level": "subtle",
-  "complexity": "low",
-  "signature": {
-    "composition": "Three artworks hang at different scales on a broad white wall; B isolates one tall painting beside an index.",
-    "typography": "Plain sans-serif names and readable small identification labels; no promotional display typography.",
-    "navigation": "Visible exhibition and work links; B adds a numbered collection index.",
-    "content_rhythm": "Look at work, read the label, pause, then encounter a short curatorial note.",
-    "imagery": "Three original vector paintings with distinct aspect ratios and material palettes.",
-    "color_and_material": "Neutral white architecture supports bounded colored artwork, without tinted product stages.",
-    "interaction": "Actual work links and native reproduction-note disclosures; no fictitious purchase controls.",
-    "motion": "Still artwork with reduced-motion-safe navigation; no reveals or automatic slides."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "gallery-white-cube"
+name: "Gallery White Cube"
+summary: "Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels."
+family: "restrained"
+tags: ["minimal", "image-led", "calm"]
+best_for: ["culture", "portfolio"]
+avoid_for: []
+density: "sparse"
+image_dependency: "high"
+motion_level: "subtle"
+complexity: "low"
+signature: {"composition": "Three artworks hang at different scales on a broad white wall; B isolates one tall painting beside an index.", "typography": "Plain sans-serif names and readable small identification labels; no promotional display typography.", "navigation": "Visible exhibition and work links; B adds a numbered collection index.", "content_rhythm": "Look at work, read the label, pause, then encounter a short curatorial note.", "imagery": "Three original vector paintings with distinct aspect ratios and material palettes.", "color_and_material": "Neutral white architecture supports bounded colored artwork, without tinted product stages.", "interaction": "Actual work links and native reproduction-note disclosures; no fictitious purchase controls.", "motion": "Still artwork with reduced-motion-safe navigation; no reveals or automatic slides."}
+status: "ready"
 ---
 
 # Gallery White Cube

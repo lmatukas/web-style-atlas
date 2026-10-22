@@ -1,39 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "rhythm-planner",
-  "name": "Rhythm Planner",
-  "summary": "Oversized time numerals and proportional task bars form an editable three-task local day plan with exact midnight-aware exports.",
-  "family": "functional",
-  "tags": [
-    "task-led",
-    "precise",
-    "typographic-motion"
-  ],
-  "best_for": [
-    "products",
-    "personal"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A clock-led proposition before an editor; B narrow task worksheet beside immediate temporal output.",
-    "typography": "Oversized tabular Arial digits with readable practical labels.",
-    "navigation": "Editor/result/principle anchors and real A/B siblings.",
-    "content_rhythm": "Product-to-demonstration versus editor-to-immediate-plan.",
-    "imagery": "Original HTML time digits and proportional duration marks.",
-    "color_and_material": "Cobalt, pale lavender, warm white and near-black result text.",
-    "interaction": "Three tasks, break choice, reorder, validation and actual JSON/TXT export.",
-    "motion": "650ms alignment, 500ms expansion, 250ms reorder and 280ms break gaps."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/rhythm-planner/prompt.lt.md"
-}
+schema_version: 1
+id: "rhythm-planner"
+name: "Rhythm Planner"
+summary: "Oversized time numerals and proportional task bars form an editable three-task local day plan with exact midnight-aware exports."
+family: "functional"
+tags: ["task-led", "precise", "typographic-motion"]
+best_for: ["products", "personal"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A clock-led proposition before an editor; B narrow task worksheet beside immediate temporal output.", "typography": "Oversized tabular Arial digits with readable practical labels.", "navigation": "Editor/result/principle anchors and real A/B siblings.", "content_rhythm": "Product-to-demonstration versus editor-to-immediate-plan.", "imagery": "Original HTML time digits and proportional duration marks.", "color_and_material": "Cobalt, pale lavender, warm white and near-black result text.", "interaction": "Three tasks, break choice, reorder, validation and actual JSON/TXT export.", "motion": "650ms alignment, 500ms expansion, 250ms reorder and 280ms break gaps."}
+status: "ready"
+prompt_path: "prompts/rhythm-planner/prompt.lt.md"
 ---
 
 # Rhythm Planner

@@ -1,37 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "soft-spatial",
-  "name": "Soft Spatial",
-  "summary": "Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview.",
-  "family": "spatial",
-  "tags": [
-    "dimensional",
-    "calm",
-    "product-led"
-  ],
-  "best_for": [
-    "products",
-    "portfolio",
-    "services"
-  ],
-  "avoid_for": [],
-  "density": "sparse",
-  "image_dependency": "low",
-  "motion_level": "subtle",
-  "complexity": "low",
-  "signature": {
-    "composition": "One softly lit sculptural object dominates A; three sequential spatial layers organize B.",
-    "typography": "Rounded-feeling plain system sans display, open line spacing and small measured object labels.",
-    "navigation": "Visible object/layers links, anchored reading routes and native scope notes.",
-    "content_rhythm": "Large object stage and fine form observations versus alternating layered service volumes and output records.",
-    "imagery": "Original static CSS clay forms with diffuse highlights, recessed openings and grounded contact shadows.",
-    "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.",
-    "interaction": "Real page and section links, visible focus and working native disclosures.",
-    "motion": "Still spatial composition; no perpetual float, camera orbit or required WebGL."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "soft-spatial"
+name: "Soft Spatial"
+summary: "Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview."
+family: "spatial"
+tags: ["dimensional", "calm", "product-led"]
+best_for: ["products", "portfolio", "services"]
+avoid_for: []
+density: "sparse"
+image_dependency: "low"
+motion_level: "subtle"
+complexity: "low"
+signature: {"composition": "One softly lit sculptural object dominates A; three sequential spatial layers organize B.", "typography": "Rounded-feeling plain system sans display, open line spacing and small measured object labels.", "navigation": "Visible object/layers links, anchored reading routes and native scope notes.", "content_rhythm": "Large object stage and fine form observations versus alternating layered service volumes and output records.", "imagery": "Original static CSS clay forms with diffuse highlights, recessed openings and grounded contact shadows.", "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.", "interaction": "Real page and section links, visible focus and working native disclosures.", "motion": "Still spatial composition; no perpetual float, camera orbit or required WebGL."}
+status: "ready"
 ---
 
 # Soft Spatial

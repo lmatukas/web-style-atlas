@@ -1,37 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "newspaper-ledger",
-  "name": "Newspaper Ledger",
-  "summary": "Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods.",
-  "family": "editorial",
-  "tags": [
-    "reading-led",
-    "grid",
-    "data-led"
-  ],
-  "best_for": [
-    "publishing",
-    "public-information",
-    "data"
-  ],
-  "avoid_for": [],
-  "density": "dense",
-  "image_dependency": "low",
-  "motion_level": "subtle",
-  "complexity": "low",
-  "signature": {
-    "composition": "Dense unequal front-page columns under a large masthead; B uses article rail, argument and full-width numeric ledger.",
-    "typography": "Serif masthead and compact headlines, sans-serif labels and tabular numbers.",
-    "navigation": "Department strip and persistent visible article contents; mobile wraps into readable rows.",
-    "content_rhythm": "Lead report, supporting brief columns, notebook and record; B argument, exact table and method.",
-    "imagery": "Original CSS four-branch schematic instead of borrowed news photography.",
-    "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.",
-    "interaction": "Real story/section destinations and native editorial-method disclosures.",
-    "motion": "Still reading surfaces with no animated ticker or automatic story changes."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "newspaper-ledger"
+name: "Newspaper Ledger"
+summary: "Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods."
+family: "editorial"
+tags: ["reading-led", "grid", "data-led"]
+best_for: ["publishing", "public-information", "data"]
+avoid_for: []
+density: "dense"
+image_dependency: "low"
+motion_level: "subtle"
+complexity: "low"
+signature: {"composition": "Dense unequal front-page columns under a large masthead; B uses article rail, argument and full-width numeric ledger.", "typography": "Serif masthead and compact headlines, sans-serif labels and tabular numbers.", "navigation": "Department strip and persistent visible article contents; mobile wraps into readable rows.", "content_rhythm": "Lead report, supporting brief columns, notebook and record; B argument, exact table and method.", "imagery": "Original CSS four-branch schematic instead of borrowed news photography.", "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.", "interaction": "Real story/section destinations and native editorial-method disclosures.", "motion": "Still reading surfaces with no animated ticker or automatic story changes."}
+status: "ready"
 ---
 
 # Newspaper Ledger

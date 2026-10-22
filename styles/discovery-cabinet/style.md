@@ -1,41 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "discovery-cabinet",
-  "name": "Discovery Cabinet",
-  "summary": "Six individually opening illustrated jars connect a radial table and a vertical drawer to a local collection tray and real discovery-sheet export.",
-  "family": "illustrative",
-  "tags": [
-    "annotated",
-    "task-led",
-    "playful",
-    "geometric"
-  ],
-  "best_for": [
-    "culture",
-    "publishing",
-    "campaign"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A radial six-jar tabletop beside an invitation; B a vertical drawer alongside inspection and collection.",
-    "typography": "Generous Georgia discovery headings, clear Arial actions and small two-digit jar/place labels.",
-    "navigation": "Cabinet, collection and growth anchors, a real sibling composition and a literal list alternative.",
-    "content_rhythm": "Tabletop encounter, study/tray spread, questions and growth versus indexed drawer and immediate collection.",
-    "imagery": "Six original distinct SVG forms, individually lifting lids and an explicitly artistic three-stage sprout.",
-    "color_and_material": "Paper, pale moss, deep ink and burnt clay, with a dark numbered tray and flat readable controls.",
-    "interaction": "Open/close jars, choose a free tray place, collect once, remove, restore local choices and export actual positions.",
-    "motion": "700ms opening, 350ms lid, 400ms landing and explicit three-stage 900ms growth; pause and reduced states."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/discovery-cabinet/prompt.lt.md"
-}
+schema_version: 1
+id: "discovery-cabinet"
+name: "Discovery Cabinet"
+summary: "Six individually opening illustrated jars connect a radial table and a vertical drawer to a local collection tray and real discovery-sheet export."
+family: "illustrative"
+tags: ["annotated", "task-led", "playful", "geometric"]
+best_for: ["culture", "publishing", "campaign"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A radial six-jar tabletop beside an invitation; B a vertical drawer alongside inspection and collection.", "typography": "Generous Georgia discovery headings, clear Arial actions and small two-digit jar/place labels.", "navigation": "Cabinet, collection and growth anchors, a real sibling composition and a literal list alternative.", "content_rhythm": "Tabletop encounter, study/tray spread, questions and growth versus indexed drawer and immediate collection.", "imagery": "Six original distinct SVG forms, individually lifting lids and an explicitly artistic three-stage sprout.", "color_and_material": "Paper, pale moss, deep ink and burnt clay, with a dark numbered tray and flat readable controls.", "interaction": "Open/close jars, choose a free tray place, collect once, remove, restore local choices and export actual positions.", "motion": "700ms opening, 350ms lid, 400ms landing and explicit three-stage 900ms growth; pause and reduced states."}
+status: "ready"
+prompt_path: "prompts/discovery-cabinet/prompt.lt.md"
 ---
 
 # Discovery Cabinet

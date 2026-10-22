@@ -1,42 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "light-environments",
-  "name": "Light Environments",
-  "summary": "Three distinct light installations connect a restrained exhibition narrative and a personal route workbench with real local storage, order and text export.",
-  "family": "spatial",
-  "tags": [
-    "dimensional",
-    "calm",
-    "geometric",
-    "task-led"
-  ],
-  "best_for": [
-    "culture",
-    "architecture",
-    "portfolio"
-  ],
-  "avoid_for": [
-    "data",
-    "documentation"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A narrow vertical title beside a broad installation and alternating environment essays; B immediate index, live stage and personal route ledger.",
-    "typography": "Large restrained Arial display, fine numbered labels and readable practical sans-serif descriptions, with horizontal title reflow on phones.",
-    "navigation": "Visible exhibition, environments, route and about anchors; actual sibling composition; B begins in a route-building workbench.",
-    "content_rhythm": "Three distinct spatial essays followed by a route versus a compact environment index beside scene exploration and immediate route order.",
-    "imagery": "Original native depth-tested stepped amphitheatre, pleated fabric vault and vertical shadow valley; three scene-specific original SVG fallbacks.",
-    "color_and_material": "Dark petrol, fog gray and muted lavender, with directional matte surfaces, opaque captions and flat contrast-safe controls.",
-    "interaction": "Select three environments, change light direction, add each once, move and remove stops, restore device-local route and export exact UTF-8 text.",
-    "motion": "A 900ms horizon trace, 500ms darkened environment replacement, bounded mouse/light offset with 300ms return and one finite contour/fold/shadow accent per essay."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/light-environments/prompt.lt.md"
-}
+schema_version: 1
+id: "light-environments"
+name: "Light Environments"
+summary: "Three distinct light installations connect a restrained exhibition narrative and a personal route workbench with real local storage, order and text export."
+family: "spatial"
+tags: ["dimensional", "calm", "geometric", "task-led"]
+best_for: ["culture", "architecture", "portfolio"]
+avoid_for: ["data", "documentation"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A narrow vertical title beside a broad installation and alternating environment essays; B immediate index, live stage and personal route ledger.", "typography": "Large restrained Arial display, fine numbered labels and readable practical sans-serif descriptions, with horizontal title reflow on phones.", "navigation": "Visible exhibition, environments, route and about anchors; actual sibling composition; B begins in a route-building workbench.", "content_rhythm": "Three distinct spatial essays followed by a route versus a compact environment index beside scene exploration and immediate route order.", "imagery": "Original native depth-tested stepped amphitheatre, pleated fabric vault and vertical shadow valley; three scene-specific original SVG fallbacks.", "color_and_material": "Dark petrol, fog gray and muted lavender, with directional matte surfaces, opaque captions and flat contrast-safe controls.", "interaction": "Select three environments, change light direction, add each once, move and remove stops, restore device-local route and export exact UTF-8 text.", "motion": "A 900ms horizon trace, 500ms darkened environment replacement, bounded mouse/light offset with 300ms return and one finite contour/fold/shadow accent per essay."}
+status: "ready"
+prompt_path: "prompts/light-environments/prompt.lt.md"
 ---
 
 # Light Environments

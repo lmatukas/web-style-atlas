@@ -1,39 +1,19 @@
 ---
-{
-  "schema_version": 1,
-  "id": "trail-composer",
-  "name": "Trail Composer",
-  "summary": "A paper trail and transparent three-input selection produce an imaginary day plan, linked preparation checklist and current UTF-8 download.",
-  "family": "illustrative",
-  "tags": [
-    "annotated",
-    "task-led",
-    "calm"
-  ],
-  "best_for": [
-    "travel",
-    "personal"
-  ],
-  "avoid_for": [
-    "data"
-  ],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "medium",
-  "signature": {
-    "composition": "A vertical paper trail beside invitation and chooser; B day ledger with adjacent map.",
-    "typography": "Quiet Georgia invitations with readable Arial timing and labels.",
-    "navigation": "Choices/plan/preparation anchors and actual A/B siblings.",
-    "content_rhythm": "Invitation, moods and vertical stops versus conditions, table and preparation.",
-    "imagery": "Original schematic SVG with four numbered points and HTML equivalents.",
-    "color_and_material": "Pale map paper, lake blue, moss green and small orange route marks.",
-    "interaction": "Duration/intensity eligibility, mood ranking, real open/back, checklist and TXT download.",
-    "motion": "900ms first path, 300ms mood, 450ms stops and finite checkbox confirmation."
-  },
-  "status": "ready",
-  "prompt_path": "prompts/trail-composer/prompt.lt.md"
-}
+schema_version: 1
+id: "trail-composer"
+name: "Trail Composer"
+summary: "A paper trail and transparent three-input selection produce an imaginary day plan, linked preparation checklist and current UTF-8 download."
+family: "illustrative"
+tags: ["annotated", "task-led", "calm"]
+best_for: ["travel", "personal"]
+avoid_for: ["data"]
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "medium"
+signature: {"composition": "A vertical paper trail beside invitation and chooser; B day ledger with adjacent map.", "typography": "Quiet Georgia invitations with readable Arial timing and labels.", "navigation": "Choices/plan/preparation anchors and actual A/B siblings.", "content_rhythm": "Invitation, moods and vertical stops versus conditions, table and preparation.", "imagery": "Original schematic SVG with four numbered points and HTML equivalents.", "color_and_material": "Pale map paper, lake blue, moss green and small orange route marks.", "interaction": "Duration/intensity eligibility, mood ranking, real open/back, checklist and TXT download.", "motion": "900ms first path, 300ms mood, 450ms stops and finite checkbox confirmation."}
+status: "ready"
+prompt_path: "prompts/trail-composer/prompt.lt.md"
 ---
 
 # Trail Composer

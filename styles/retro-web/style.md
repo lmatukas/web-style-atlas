@@ -1,36 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "retro-web",
-  "name": "Retro Web",
-  "summary": "A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels.",
-  "family": "nostalgic",
-  "tags": [
-    "archival",
-    "grid",
-    "playful"
-  ],
-  "best_for": [
-    "personal",
-    "publishing"
-  ],
-  "avoid_for": [],
-  "density": "dense",
-  "image_dependency": "low",
-  "motion_level": "subtle",
-  "complexity": "low",
-  "signature": {
-    "composition": "Centered compact personal portal with narrow directory and practical boxed sections; B separates archive introduction, entry column and subject shelf.",
-    "typography": "Bookish personal-site heading and readable system sans-serif copy with small dated labels.",
-    "navigation": "Always-visible site directory, underlined links and literal archive categories.",
-    "content_rhythm": "Welcome, current interests and dated additions versus filed expandable entries and subject notes.",
-    "imagery": "Original static CSS night sky and moon; content works without bitmap assets.",
-    "color_and_material": "Blue-gray outer field, warm page panels, dark blue links and shallow beveled outlines.",
-    "interaction": "Real archive category/search/reset states and native entry disclosures.",
-    "motion": "Static decoration, no marquee, blinking badge or fake animated counter."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "retro-web"
+name: "Retro Web"
+summary: "A hand-kept personal portal and subject-filed archive, with visible directories, underlined links and compact beveled information panels."
+family: "nostalgic"
+tags: ["archival", "grid", "playful"]
+best_for: ["personal", "publishing"]
+avoid_for: []
+density: "dense"
+image_dependency: "low"
+motion_level: "subtle"
+complexity: "low"
+signature: {"composition": "Centered compact personal portal with narrow directory and practical boxed sections; B separates archive introduction, entry column and subject shelf.", "typography": "Bookish personal-site heading and readable system sans-serif copy with small dated labels.", "navigation": "Always-visible site directory, underlined links and literal archive categories.", "content_rhythm": "Welcome, current interests and dated additions versus filed expandable entries and subject notes.", "imagery": "Original static CSS night sky and moon; content works without bitmap assets.", "color_and_material": "Blue-gray outer field, warm page panels, dark blue links and shallow beveled outlines.", "interaction": "Real archive category/search/reset states and native entry disclosures.", "motion": "Static decoration, no marquee, blinking badge or fake animated counter."}
+status: "ready"
 ---
 
 # Retro Web

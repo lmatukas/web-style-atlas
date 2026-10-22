@@ -1,37 +1,18 @@
 ---
-{
-  "schema_version": 1,
-  "id": "kinetic-type",
-  "name": "Kinetic Type",
-  "summary": "Oversized words become the campaign composition, with brief finite type motion and a contrasting date-led two-day programme.",
-  "family": "typographic",
-  "tags": [
-    "typographic-motion",
-    "poster",
-    "high-contrast"
-  ],
-  "best_for": [
-    "campaign",
-    "events",
-    "culture"
-  ],
-  "avoid_for": [],
-  "density": "balanced",
-  "image_dependency": "low",
-  "motion_level": "expressive",
-  "complexity": "low",
-  "signature": {
-    "composition": "Three stacked oversized word fields establish the campaign; B uses giant date numerals and ruled session rows.",
-    "typography": "Heavy tight sans-serif display carries composition, with plain readable copy and monospaced time labels.",
-    "navigation": "Literal idea/weekend/notes links and two real day buttons with current state.",
-    "content_rhythm": "Word poster, manifesto and verbs versus date-led day programme and closing type statement.",
-    "imagery": "Letterforms, scale, rules and negative space replace decorative pictures.",
-    "color_and_material": "Deep green-black field, pale type and a single acid accent word/action role.",
-    "interaction": "Actual Saturday/Sunday panels, pressed states and live day count; native practical disclosures.",
-    "motion": "One short finite typographic settling gesture; full static layout under reduced motion."
-  },
-  "status": "ready"
-}
+schema_version: 1
+id: "kinetic-type"
+name: "Kinetic Type"
+summary: "Oversized words become the campaign composition, with brief finite type motion and a contrasting date-led two-day programme."
+family: "typographic"
+tags: ["typographic-motion", "poster", "high-contrast"]
+best_for: ["campaign", "events", "culture"]
+avoid_for: []
+density: "balanced"
+image_dependency: "low"
+motion_level: "expressive"
+complexity: "low"
+signature: {"composition": "Three stacked oversized word fields establish the campaign; B uses giant date numerals and ruled session rows.", "typography": "Heavy tight sans-serif display carries composition, with plain readable copy and monospaced time labels.", "navigation": "Literal idea/weekend/notes links and two real day buttons with current state.", "content_rhythm": "Word poster, manifesto and verbs versus date-led day programme and closing type statement.", "imagery": "Letterforms, scale, rules and negative space replace decorative pictures.", "color_and_material": "Deep green-black field, pale type and a single acid accent word/action role.", "interaction": "Actual Saturday/Sunday panels, pressed states and live day count; native practical disclosures.", "motion": "One short finite typographic settling gesture; full static layout under reduced motion."}
+status: "ready"
 ---
 
 # Kinetic Type
