@@ -7,6 +7,19 @@ export const ENVIRONMENT = Object.freeze({
   fixed_time: '2026-01-01T00:00:00.000Z', random_seed: 1,
   renderer_version: 2
 });
+// System font resolution on the canonical host (GitHub ubuntu-24.04 runner image).
+// Font metrics change line breaks and page height, so a host that resolves these
+// families to other files is not canonical. Checked with fc-match before launch.
+export const CANONICAL_FONTS = Object.freeze({
+  'Arial': '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf',
+  'Courier New': '/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf',
+  'Georgia': '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf',
+  'Trebuchet MS': '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+  'DejaVu Sans': '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+  'sans-serif': '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+  'serif': '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf',
+  'monospace': '/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'
+});
 export const VIEWPORTS = Object.freeze({ desktop: { width: 1440, height: 1000 }, mobile: { width: 390, height: 844 } });
 export const TIMEOUT = 15000;
 export const MAX_PNG_BYTES = 1024 * 1024;

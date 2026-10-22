@@ -52,6 +52,17 @@ outputs, browser downloads or caches. If the standard CDN is broken locally,
 the official Chrome for Testing storage URL for the exact pinned version may be
 used; never silently substitute an arbitrary browser.
 
+## Canonical fonts
+
+System fonts are part of the canonical environment. Their metrics decide line
+breaks and page height, so the same page renders differently with other fonts.
+`CANONICAL_FONTS` in `scripts/preview.config.mjs` pins what `fc-match` must
+return for each family the styles use (the GitHub ubuntu-24.04 runner image:
+Arial -> Liberation Sans, Courier New -> Liberation Mono, Georgia and the
+generic families -> DejaVu). `npm run previews` refuses to launch on a host
+that resolves them differently. The simplest canonical host is the manual
+workflow below.
+
 ## Regenerate previews in GitHub Actions
 
 When the local machine lacks the pinned Chromium headless shell, run the manual

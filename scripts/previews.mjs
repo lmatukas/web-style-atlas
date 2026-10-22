@@ -6,7 +6,8 @@ import { dirname } from 'node:path';
 import { inflateSync } from 'node:zlib';
 import { loadAtlas } from './validate.mjs';
 import { ROOT, fail, localFile, json, isId, isMain, compare } from './lib/files.mjs';
-import { ENVIRONMENT, VIEWPORTS, TIMEOUT, MAX_PNG_BYTES, MANIFEST, previewPath } from './preview.config.mjs';
+import { ENVIRONMENT, CANONICAL_FONTS, VIEWPORTS, TIMEOUT, MAX_PNG_BYTES, MANIFEST, previewPath } from './preview.config.mjs';
+import { execFileSync } from 'node:child_process';
 import { servePreviews } from './preview-server.mjs';
 
 const require = createRequire(import.meta.url);
@@ -112,6 +113,13 @@ export async function launchCanonical() {
   if (process.version !== ENVIRONMENT.node || process.platform !== 'linux' || process.arch !== 'x64' || !/^ID=ubuntu$/m.test(os) || !/^VERSION_ID="24.04"$/m.test(os)) {
     throw new BrowserUnavailable(`canonical host required: ${ENVIRONMENT.platform}, Node ${ENVIRONMENT.node}`);
   }
+  const fonts = Object.entries(CANONICAL_FONTS).map(([family, file]) => {
+    let actual;
+    try { actual = execFileSync('fc-match', ['-f', '%{file}', family], { encoding: 'utf8' }).trim(); }
+    catch (error) { actual = `fc-match failed: ${error.message}`; }
+    return actual === file ? null : `${family} -> ${actual} (expected ${file})`;
+  }).filter(Boolean);
+  if (fonts.length) throw new BrowserUnavailable(`canonical system fonts differ: ${fonts.join('; ')}`);
   let chromium;
   try {
     if (require('playwright/package.json').version !== ENVIRONMENT.playwright) throw new Error('Playwright version mismatch');
