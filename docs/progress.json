@@ -3050,23 +3050,23 @@
     {
       "id": "S40",
       "title": "Pertvarka: Institutional Clear",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P19",
         "P20"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-22T05:35:23Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40",
+      "claimed_at": "2026-10-22T05:52:44Z",
+      "updated_at": "2026-10-22T05:52:44Z",
+      "branch": "task/s40-institutional-clear",
+      "base_commit": "b04b77f34ee2c4a2460f7ef917518c63ec57db6d",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Pradėti nuo docs/tasks/S40.md. PNG generuoti per .github/workflows/previews.yml (kanoniniai šriftai, docs/CI.md).",
+      "next_action": "Pertvarkyti institutional-clear pagal docs/tasks/S40.md; PNG per previews.yml; PR [S40].",
       "handoff": null
     },
     {
