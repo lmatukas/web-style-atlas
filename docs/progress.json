@@ -4232,22 +4232,22 @@
     {
       "id": "S58",
       "title": "Nauja kryptis: Velvet Members Hall",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S57"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/8cd832e894f0",
+      "claimed_at": "2026-10-23T21:47:52Z",
+      "updated_at": "2026-10-23T21:47:52Z",
+      "branch": "task/s58-velvet-members-hall",
+      "base_commit": "2258e8921a0a884f5902576bc7e8123f748bb7aa",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S58 ir vykdyti pagal docs/tasks/S58.md.",
+      "next_action": "Implement S58 per the approved task card; validate A/B services, motion and canonical previews.",
       "handoff": null
     },
     {
