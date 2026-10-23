@@ -1133,6 +1133,63 @@
     {
       "avoid_for": [
         "data",
+        "publishing",
+        "documentation"
+      ],
+      "best_for": [
+        "products",
+        "campaign",
+        "commerce"
+      ],
+      "complexity": "high",
+      "density": "sparse",
+      "family": "spatial",
+      "id": "obsidian-stage",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Obsidian Stage",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Black, graphite and cool near-white surfaces with one icy blue accent; the final selection area uses paper and dark ink.",
+        "composition": "A single tall metal object on a black stage leads A into five sticky chapters; B opens with three objects on a light comparison bench and a specification matrix.",
+        "content_rhythm": "One thought and one large metric per scene; a deliberate dark-to-light transition ends the narrative in a configuration receipt.",
+        "imagery": "Original native WebGL rounded metal recorder with microphone slots, circular glass dial, luminous waveform and recessed record key; authored SVG fallbacks.",
+        "interaction": "Scroll separates and recombines three physical layers; model, finish and storage controls calculate an exact local demonstration price.",
+        "motion": "A finite 1400 ms arrival, direct user-controlled rotation and scroll changes; pause, static reduced-motion image and complete resource disposal.",
+        "navigation": "Visible idea/model/selection routes, normal document scrolling and direct keyboard rotation controls.",
+        "typography": "Local Manrope at 400 and 600, restrained uppercase labels and a campaign heading capped at 80 pixels."
+      },
+      "status": "ready",
+      "style_path": "styles/obsidian-stage/style.md",
+      "summary": "A precision metal object fills a black stage, opens into scroll-driven layers and resolves into a light, exact-price configuration desk.",
+      "tags": [
+        "luxury",
+        "dimensional",
+        "product-led",
+        "metallic",
+        "cinematic",
+        "high-contrast"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/obsidian-stage/preview-mobile.png",
+          "preview_path": "styles/obsidian-stage/preview.png",
+          "reference_path": "styles/obsidian-stage/reference/index.html",
+          "title": "Object narrative and assembly"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/obsidian-stage/preview-alt-mobile.png",
+          "preview_path": "styles/obsidian-stage/preview-alt.png",
+          "reference_path": "styles/obsidian-stage/reference/alternate.html",
+          "title": "Model comparison and configuration"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
+        "data",
         "documentation"
       ],
       "best_for": [

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1000" role="img" aria-labelledby="t d"><title id="t">Veylqor 01 — portable sound recorder</title><desc id="d">An angled graphite recorder with a milled metal rim, circular illuminated sound dial, top microphone slots and a recessed record key.</desc><defs>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#ccd3df"/><stop offset=".15" stop-color="#747e8d"/><stop offset=".35" stop-color="#262b35"/><stop offset=".68" stop-color="#8b95a5"/><stop offset=".8" stop-color="#313a48"/><stop offset="1" stop-color="#9ca6b5"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4a5362"/><stop offset=".36" stop-color="#222831"/><stop offset="1" stop-color="#0c1017"/></linearGradient>
+<linearGradient id="side"><stop stop-color="#10131b"/><stop offset=".45" stop-color="#687585"/><stop offset="1" stop-color="#141922"/></linearGradient>
+<radialGradient id="glass" cx=".3" cy=".2" r=".9"><stop stop-color="#222f40"/><stop offset=".45" stop-color="#0b111c"/><stop offset="1" stop-color="#020509"/></radialGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0faff"/><stop offset=".38" stop-color="#759bbf"/><stop offset=".65" stop-color="#253d58"/><stop offset="1" stop-color="#b9ddff"/></linearGradient>
+<linearGradient id="shine"><stop stop-color="#f5fbff" stop-opacity=".2"/><stop offset=".6" stop-color="#9bbaf5" stop-opacity="0"/></linearGradient>
+</defs><g transform="translate(378 505) rotate(-18)">
+<rect x="-207" y="-413" width="446" height="856" rx="105" fill="url(#side)"/>
+<rect x="-232" y="-434" width="446" height="856" rx="105" fill="url(#rim)"/>
+<rect x="-225" y="-427" width="432" height="842" rx="99" fill="url(#body)" stroke="#8996aa" stroke-width="1"/>
+<path d="M-123-414H100q95 0 95 96v610" fill="none" stroke="#d4ddea" stroke-opacity=".55" stroke-width="1.5"/>
+<g fill="#080b10" stroke="#5c6677" stroke-width="1"><rect x="-99" y="-365" width="5" height="31" rx="2.5"/><rect x="-86" y="-365" width="5" height="31" rx="2.5"/><rect x="-73" y="-365" width="5" height="31" rx="2.5"/><rect x="-60" y="-365" width="5" height="31" rx="2.5"/><rect x="-47" y="-365" width="5" height="31" rx="2.5"/><rect x="-34" y="-365" width="5" height="31" rx="2.5"/><rect x="-21" y="-365" width="5" height="31" rx="2.5"/><rect x="-8" y="-365" width="5" height="31" rx="2.5"/><rect x="5" y="-365" width="5" height="31" rx="2.5"/><rect x="18" y="-365" width="5" height="31" rx="2.5"/><rect x="31" y="-365" width="5" height="31" rx="2.5"/><rect x="44" y="-365" width="5" height="31" rx="2.5"/><rect x="57" y="-365" width="5" height="31" rx="2.5"/><rect x="70" y="-365" width="5" height="31" rx="2.5"/><rect x="83" y="-365" width="5" height="31" rx="2.5"/></g>
+<circle cx="-9" cy="-92" r="176" fill="url(#rim)"/><circle cx="-9" cy="-92" r="169" fill="#080c13" stroke="#10151d" stroke-width="4"/><circle cx="-9" cy="-92" r="148" fill="url(#glass)" stroke="#364150"/>
+<circle cx="-9" cy="-92" r="124" fill="none" stroke="url(#ring)" stroke-width="3"/>
+<path d="M-130-110a124 124 0 0 1 165-99" fill="none" stroke="#c6ecff" stroke-width="6" stroke-linecap="round"/>
+<g stroke="#b6dfff" stroke-width="3" stroke-linecap="round"><path d="M-58 -103v22"/><path d="M-44 -116v48"/><path d="M-30 -109v34"/><path d="M-16 -130v76"/><path d="M-2 -146v108"/><path d="M12 -123v62"/><path d="M26 -110v36"/><path d="M40 -101v18"/></g>
+<path d="M-205-305q5-102 104-102H108q90 0 90 93v69Q22-357-205-135Z" fill="url(#shine)"/>
+<rect x="-47" y="173" width="76" height="76" rx="38" fill="url(#rim)"/><rect x="-42" y="178" width="66" height="66" rx="33" fill="#10151f" stroke="#647284"/><circle cx="-9" cy="211" r="9" fill="#a5d8f6"/>
+<g fill="#95a2b7"><rect x="-61" y="322" width="104" height="2" rx="1"/><rect x="-33" y="334" width="48" height="2" rx="1"/></g>
+<rect x="216" y="-180" width="9" height="90" rx="4" fill="url(#rim)"/>
+</g></svg>
