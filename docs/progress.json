@@ -4232,23 +4232,46 @@
     {
       "id": "S58",
       "title": "Nauja kryptis: Velvet Members Hall",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S57"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "source/build/check and unit tests",
+          "status": "pass",
+          "details": "46 ready styles; 184 current previews; 97/97 unit tests."
+        },
+        {
+          "name": "style/accessibility/runtime QA",
+          "status": "pass",
+          "details": "10 cases; 16 exact event-seat confirmations, 8 membership/house/referral combinations, 23 focused errors, real mouse/keyboard/touch pixels; six responsive browser/axe pages."
+        },
+        {
+          "name": "canonical local previews and visual rubric",
+          "status": "pass",
+          "details": "Four PNGs actually viewed; 11/12; largest 1035137 bytes below 1 MiB; local OFL font total 67472 bytes."
+        },
+        {
+          "name": "canonical GitHub preview workflow",
+          "status": "pass",
+          "details": "Run 40031455512 succeeded for task/s58-velvet-members-hall / velvet-members-hall. Current local canonical PNG hashes verified; workflow skipped a redundant render and changed no bytes."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S58.md"
+      ],
       "worker": "agent/8cd832e894f0",
       "claimed_at": "2026-10-23T21:47:52Z",
-      "updated_at": "2026-10-23T21:47:52Z",
+      "updated_at": "2026-10-23T22:09:11Z",
       "branch": "task/s58-velvet-members-hall",
       "base_commit": "2258e8921a0a884f5902576bc7e8123f748bb7aa",
-      "evidence_commit": null,
+      "evidence_commit": "0b2226e3db2723b610c3ceb8d303ad195057de37",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/125",
       "blocker": null,
-      "next_action": "Implement S58 per the approved task card; validate A/B services, motion and canonical previews.",
-      "handoff": null
+      "next_action": "Verify exact-head PR #125 checks, merge the accepted implementation, record actual merge and stop after S58.",
+      "handoff": "S58 implemented in PR #125. Local unit, six responsive axe pages, service/runtime QA and all four canonical PNGs pass. Canonical GitHub workflow 40031455512 passed its freshness gate without changing bytes. PR CI 40031636641 is running. S59 remains unclaimed."
     },
     {
       "id": "S59",
