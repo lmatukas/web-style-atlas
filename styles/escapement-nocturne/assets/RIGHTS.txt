@@ -9,15 +9,15 @@ https://creativecommons.org/publicdomain/zero/1.0/legalcode
 The renderer, application and dynamic vector generator use the repository MIT license.
 The conceptual gear arrangement is visual artwork, not mechanical manufacturing data.
 
-Cormorant Garamond — The Cormorant Project Authors, SIL Open Font License 1.1, no Reserved Font Name.
-Source: https://github.com/google/fonts/tree/main/ofl/cormorantgaramond (CormorantGaramond[wght].ttf)
-Instanced at weight 300; Latin/Lithuanian/punctuation subset with lining and
-tabular figures; WOFF2 encoding. Full license: assets/fonts/cormorant/OFL.txt.
+Crimson Pro — The Crimson Pro Project Authors, SIL Open Font License 1.1, no Reserved Font Name.
+Source: https://github.com/google/fonts/tree/main/ofl/crimsonpro (CrimsonPro[wght].ttf)
+Instanced at weight 300; Latin/Lithuanian/punctuation subset keeping all OpenType
+features; WOFF2 encoding. Full license: assets/fonts/crimson/OFL.txt.
 
 Jost — The Jost Project Authors, SIL Open Font License 1.1, no Reserved Font Name.
 Source: https://github.com/google/fonts/tree/main/ofl/jost (Jost[wght].ttf)
-Instanced at weight 400; Latin/Lithuanian/punctuation subset with tabular
-figures; WOFF2 encoding. Full license: assets/fonts/jost/OFL.txt.
+Instanced at weight 400; Latin/Lithuanian/punctuation subset keeping all
+OpenType features; WOFF2 encoding. Full license: assets/fonts/jost/OFL.txt.
 Both retrieved 2026-10-23 so S54 no longer shares font files with S53.
 
 Zevraqelle is an invented demonstration business. Exact-name and

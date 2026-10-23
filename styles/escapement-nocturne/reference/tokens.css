@@ -11,7 +11,7 @@
   --color-surface: #19191b;
   --color-text: #f0e9dc;
   --font-body: "Jost", sans-serif;
-  --font-display: "Cormorant Garamond", serif;
+  --font-display: "Crimson Pro", serif;
   --font-size-body: 1.125rem;
   --font-size-display: 4rem;
   --font-size-heading: 3rem;
@@ -37,8 +37,8 @@
 }
 
 @font-face {
-  font-family: "Cormorant Garamond";
-  src: url("../assets/fonts/cormorant/CormorantGaramond-Light-LT.woff2");
+  font-family: "Crimson Pro";
+  src: url("../assets/fonts/crimson/CrimsonPro-Light-LT.woff2");
   font-display: swap;
 }
 

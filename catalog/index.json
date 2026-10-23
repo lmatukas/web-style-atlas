@@ -598,7 +598,7 @@
         "interaction": "The dial opens under scroll, pointer drag, touch, arrows and a native range; case, dial and strap choices change the view, total and booking snapshot.",
         "motion": "A 1450 ms arrival settles; the requested live clock updates once a second while visible, with pause and no perpetual RAF; reduced and unavailable graphics use a frozen static SVG.",
         "navigation": "An unframed wordmark and quiet local links; chapter anchors in A and an explicit selection-review-fitting route in B.",
-        "typography": "Local Cormorant Garamond Light headings and numerals, geometric Jost 400 text, tabular figures and small tracked uppercase labels."
+        "typography": "Local Crimson Pro Light headings and numerals, geometric Jost 400 text, tabular figures and small tracked uppercase labels."
       },
       "status": "ready",
       "style_path": "styles/escapement-nocturne/style.md",
