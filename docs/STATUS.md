@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 75/75.**
+**Baigta: 75/90.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P25](tasks/P25.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -85,5 +85,20 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S51](tasks/S51.md) | Pertvarka: Field Notes | Baigta | agent/session-S51 | task/s51-field-notes | [PR](https://github.com/lmatukas/web-style-atlas/pull/98) | 2026-10-22T18:47:17Z | Nėra. Užduotis baigta. |
 | [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Baigta | agent/session-P22 | task/p22-footer-cleanup | [PR](https://github.com/lmatukas/web-style-atlas/pull/99) | 2026-10-22T19:56:05Z | Nėra. Užduotis baigta. |
 | [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Baigta | agent/session-P23 | task/p23-final-evidence | [PR](https://github.com/lmatukas/web-style-atlas/pull/100) | 2026-10-23T03:19:07Z | Nėra. Užduotis baigta. |
+| [P25](tasks/P25.md) | Šriftų, vaizdų ir 3D pamatai prabangos kryptims | Laukia | — | — | — | — | Claim P25 ir vykdyti pagal docs/tasks/P25.md. |
+| [P26](tasks/P26.md) | Prabangos gairės, žyma ir vardų patikra | Laukia | — | — | — | — | Claim P26 ir vykdyti pagal docs/tasks/P26.md. |
+| [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Laukia | — | — | — | — | Claim S52 ir vykdyti pagal docs/tasks/S52.md. |
+| [S53](tasks/S53.md) | Nauja kryptis: High Vitrine | Laukia | — | — | — | — | Claim S53 ir vykdyti pagal docs/tasks/S53.md. |
+| [S54](tasks/S54.md) | Nauja kryptis: Noir Chronograph | Laukia | — | — | — | — | Claim S54 ir vykdyti pagal docs/tasks/S54.md. |
+| [S55](tasks/S55.md) | Nauja kryptis: Night Palace | Laukia | — | — | — | — | Claim S55 ir vykdyti pagal docs/tasks/S55.md. |
+| [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Laukia | — | — | — | — | Claim S56 ir vykdyti pagal docs/tasks/S56.md. |
+| [S57](tasks/S57.md) | Nauja kryptis: Heritage House | Laukia | — | — | — | — | Claim S57 ir vykdyti pagal docs/tasks/S57.md. |
+| [S58](tasks/S58.md) | Nauja kryptis: Velvet Club | Laukia | — | — | — | — | Claim S58 ir vykdyti pagal docs/tasks/S58.md. |
+| [S59](tasks/S59.md) | Nauja kryptis: Viewing Room | Laukia | — | — | — | — | Claim S59 ir vykdyti pagal docs/tasks/S59.md. |
+| [S60](tasks/S60.md) | Nauja kryptis: Harbour Residence | Laukia | — | — | — | — | Claim S60 ir vykdyti pagal docs/tasks/S60.md. |
+| [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Laukia | — | — | — | — | Claim S61 ir vykdyti pagal docs/tasks/S61.md. |
+| [S62](tasks/S62.md) | Nauja kryptis: Tasting Room | Laukia | — | — | — | — | Claim S62 ir vykdyti pagal docs/tasks/S62.md. |
+| [P27](tasks/P27.md) | Prabangos krypčių auditas | Laukia | — | — | — | — | Claim P27 ir vykdyti pagal docs/tasks/P27.md. |
+| [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Laukia | — | — | — | — | Claim P28 ir vykdyti pagal docs/tasks/P28.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

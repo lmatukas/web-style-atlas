@@ -3822,6 +3822,321 @@
       "blocker": null,
       "next_action": "Nėra. Užduotis baigta.",
       "handoff": "PR #100 sujungtas 6327b87. Kanoninis validate ir npm run check praėjo ant 9f0e7ca. Baigta."
+    },
+    {
+      "id": "P25",
+      "title": "Šriftų, vaizdų ir 3D pamatai prabangos kryptims",
+      "status": "todo",
+      "depends_on": [
+        "P23"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P25 ir vykdyti pagal docs/tasks/P25.md.",
+      "handoff": null
+    },
+    {
+      "id": "P26",
+      "title": "Prabangos gairės, žyma ir vardų patikra",
+      "status": "todo",
+      "depends_on": [
+        "P25"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P26 ir vykdyti pagal docs/tasks/P26.md.",
+      "handoff": null
+    },
+    {
+      "id": "S52",
+      "title": "Nauja kryptis: Obsidian Stage",
+      "status": "todo",
+      "depends_on": [
+        "P26"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S52 ir vykdyti pagal docs/tasks/S52.md.",
+      "handoff": null
+    },
+    {
+      "id": "S53",
+      "title": "Nauja kryptis: High Vitrine",
+      "status": "todo",
+      "depends_on": [
+        "S52"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S53 ir vykdyti pagal docs/tasks/S53.md.",
+      "handoff": null
+    },
+    {
+      "id": "S54",
+      "title": "Nauja kryptis: Noir Chronograph",
+      "status": "todo",
+      "depends_on": [
+        "S53"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S54 ir vykdyti pagal docs/tasks/S54.md.",
+      "handoff": null
+    },
+    {
+      "id": "S55",
+      "title": "Nauja kryptis: Night Palace",
+      "status": "todo",
+      "depends_on": [
+        "S54"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S55 ir vykdyti pagal docs/tasks/S55.md.",
+      "handoff": null
+    },
+    {
+      "id": "S56",
+      "title": "Nauja kryptis: Still Sanctuary",
+      "status": "todo",
+      "depends_on": [
+        "S55"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S56 ir vykdyti pagal docs/tasks/S56.md.",
+      "handoff": null
+    },
+    {
+      "id": "S57",
+      "title": "Nauja kryptis: Heritage House",
+      "status": "todo",
+      "depends_on": [
+        "S56"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S57 ir vykdyti pagal docs/tasks/S57.md.",
+      "handoff": null
+    },
+    {
+      "id": "S58",
+      "title": "Nauja kryptis: Velvet Club",
+      "status": "todo",
+      "depends_on": [
+        "S57"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S58 ir vykdyti pagal docs/tasks/S58.md.",
+      "handoff": null
+    },
+    {
+      "id": "S59",
+      "title": "Nauja kryptis: Viewing Room",
+      "status": "todo",
+      "depends_on": [
+        "S58"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S59 ir vykdyti pagal docs/tasks/S59.md.",
+      "handoff": null
+    },
+    {
+      "id": "S60",
+      "title": "Nauja kryptis: Harbour Residence",
+      "status": "todo",
+      "depends_on": [
+        "S59"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S60 ir vykdyti pagal docs/tasks/S60.md.",
+      "handoff": null
+    },
+    {
+      "id": "S61",
+      "title": "Nauja kryptis: Scent Ritual",
+      "status": "todo",
+      "depends_on": [
+        "S60"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S61 ir vykdyti pagal docs/tasks/S61.md.",
+      "handoff": null
+    },
+    {
+      "id": "S62",
+      "title": "Nauja kryptis: Tasting Room",
+      "status": "todo",
+      "depends_on": [
+        "S61"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim S62 ir vykdyti pagal docs/tasks/S62.md.",
+      "handoff": null
+    },
+    {
+      "id": "P27",
+      "title": "Prabangos krypčių auditas",
+      "status": "todo",
+      "depends_on": [
+        "S62"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P27 ir vykdyti pagal docs/tasks/P27.md.",
+      "handoff": null
+    },
+    {
+      "id": "P28",
+      "title": "Leidimas 1.3.0: 50 krypčių, naujos pirmos",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P28 ir vykdyti pagal docs/tasks/P28.md.",
+      "handoff": null
     }
   ]
 }
