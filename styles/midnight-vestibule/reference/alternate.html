@@ -1,0 +1,64 @@
+<!doctype html><html lang="lt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kambariai — Kelvarre</title><meta name="description" content="Išgalvoto viešbučio kambarių galerija, palyginimas ir rezervacijos stalčius su tikslia naktų suma."><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"><script type="module" src="light.mjs"></script><script type="module" src="booking.mjs"></script></head>
+<body data-variant="b"><a class="skip" href="#main">Pereiti į turinį</a>
+<header class="masthead"><a class="wordmark" href="index.html" aria-label="Kelvarre pradžia">Kelvarre</a><nav aria-label="Pagrindinė"><a href="index.html">Viešbutis</a><a href="alternate.html" aria-current="page">Kambariai</a></nav><button type="button" class="primary" data-open-booking>Rezervuoti</button></header>
+<main id="main">
+<section class="rooms-intro" aria-labelledby="hero-title">
+  <div class="band" data-runtime-scene>
+    <img src="../assets/facade.webp" width="1120" height="690" alt="Tamsus fasadas mėlynąją valandą su šviečiančių langų juosta." fetchpriority="high">
+    <span class="lamp" aria-hidden="true"></span>
+    <div class="band-copy"><p class="eyebrow">Kambariai ir liuksai</p><h1 id="hero-title">Pasirinkite savo naktį.</h1><p class="booking-strip"><span>Jūsų datos</span><b data-booking-summary>Datos nepasirinktos</b></p></div>
+  </div>
+  <div class="night-tools"><p data-runtime-status role="status">Statinis vaizdas.</p><button type="button" data-motion-toggle aria-pressed="false">Sustabdyti šviesą</button></div>
+</section>
+
+<section class="room-list" aria-label="Kambarių galerija">
+  <article class="room" aria-labelledby="room-city"><figure><img src="../assets/skyline.webp" width="1920" height="1498" class="crop-city" alt="Vaizdas iš miesto kambario: dangoraižių šviesos ir tiltas."></figure><div class="room-copy"><p class="eyebrow">I · 28 m²</p><h2 id="room-city">Miesto kambarys</h2><p>Aukštas langas į dangoraižius, karališko dydžio lova ir rašomasis stalas.</p><ul class="specs"><li>Iki 2 svečių</li><li>Lietaus dušas</li><li>Langas į miestą</li></ul><p class="rate"><b>240 €</b> <span>už naktį</span></p><button type="button" class="primary" data-open-booking data-room="city">Rinktis šį kambarį</button></div></article>
+  <article class="room flip" aria-labelledby="room-gallery"><figure><img src="../assets/gallery.webp" width="1280" height="1611" class="crop-gallery" alt="Galerijos liukso svetainė prie arkų su žibintu."></figure><div class="room-copy"><p class="eyebrow">II · 44 m²</p><h2 id="room-gallery">Galerijos liuksas</h2><p>Atskira svetainė prie arkų, sofa lova trečiam svečiui ir marmurinė vonia.</p><ul class="specs"><li>Iki 3 svečių</li><li>Vonia ir dušas</li><li>Langai į galeriją</li></ul><p class="rate"><b>360 €</b> <span>už naktį</span></p><button type="button" class="ghost" data-open-booking data-room="gallery">Rinktis šį kambarį</button></div></article>
+  <article class="room" aria-labelledby="room-dome"><figure><img src="../assets/rotunda.webp" width="1560" height="851" class="crop-dome" alt="Kupolo apartamentų lubos: stiklo lankai ir lempų žiedas."></figure><div class="room-copy"><p class="eyebrow">III · 78 m²</p><h2 id="room-dome">Kupolo apartamentai</h2><p>Du miegamieji po stikliniu kupolu, valgomasis ketveriems ir privatus įėjimas iš balkono.</p><ul class="specs"><li>Iki 4 svečių</li><li>Dvi vonios</li><li>Balkonas virš salės</li></ul><p class="rate"><b>520 €</b> <span>už naktį</span></p><button type="button" class="ghost" data-open-booking data-room="dome">Rinktis šį kambarį</button></div></article>
+</section>
+
+<section class="compare" aria-labelledby="compare-title">
+  <h2 id="compare-title">Palyginimas</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Kambarių palyginimo lentelė"><table><thead><tr><th scope="col">Savybė</th><th scope="col">Miesto kambarys</th><th scope="col">Galerijos liuksas</th><th scope="col">Kupolo apartamentai</th></tr></thead><tbody>
+    <tr><th scope="row">Plotas</th><td>28 m²</td><td>44 m²</td><td>78 m²</td></tr>
+    <tr><th scope="row">Svečiai</th><td>2</td><td>3</td><td>4</td></tr>
+    <tr><th scope="row">Vaizdas</th><td>Miestas</td><td>Galerija</td><td>Kupolas ir salė</td></tr>
+    <tr><th scope="row">Vonia</th><td>Dušas</td><td>Vonia ir dušas</td><td>Dvi vonios</td></tr>
+    <tr><th scope="row">Kaina už naktį</th><td>240 €</td><td>360 €</td><td>520 €</td></tr>
+  </tbody></table></div>
+  <p class="compare-note">Pusryčiai po kupolu — 28 € asmeniui už naktį. Vėlyvas išvykimas iki 16 val. — 40 €. Visos kainos demonstracinės.</p>
+</section>
+</main>
+<a class="edge-tab" href="#booking" data-open-booking role="button">Rezervuoti <span aria-hidden="true">›</span></a>
+<footer class="footer"><a class="wordmark" href="index.html">Kelvarre</a><p>Išgalvotas demonstracinis viešbutis. Kambariai, kainos ir vietos sugalvoti; rezervacija nesiunčiama.</p><a href="#main">Į pradžią <span aria-hidden="true">↑</span></a></footer>
+<div id="booking" class="drawer" hidden>
+  <div class="drawer-backdrop" data-close></div>
+  <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+    <header class="drawer-head"><h2 id="booking-title" tabindex="-1">Rezervacija</h2><button type="button" class="close" data-close aria-label="Uždaryti rezervaciją">×</button></header>
+    <form id="booking-form" novalidate>
+      <fieldset class="calendar" name="dates"><legend>Atvykimas ir išvykimas</legend>
+        <div class="month-bar"><button type="button" data-prev aria-label="Ankstesnis mėnuo">←</button><p data-month aria-live="polite"></p><button type="button" data-next aria-label="Kitas mėnuo">→</button></div>
+        <div class="weekdays" aria-hidden="true"><span>Pr</span><span>An</span><span>Tr</span><span>Kt</span><span>Pn</span><span>Št</span><span>Sk</span></div>
+        <div class="days" data-calendar></div>
+        <p class="hint">Pirmas paspaudimas — atvykimas, antras — išvykimas. Iki 14 naktų.</p>
+      </fieldset>
+      <fieldset class="guests"><legend>Svečiai</legend><div class="stepper"><button type="button" data-minus aria-label="Mažiau svečių">−</button><output data-guests aria-live="polite">2</output><button type="button" data-plus aria-label="Daugiau svečių">+</button></div><input type="hidden" name="guests" value="2"></fieldset>
+      <fieldset class="rooms"><legend>Kambarys</legend>
+        <label class="room-option"><input type="radio" name="room" value="city"><span><b>Miesto kambarys</b><small>iki 2 svečių · 240 € naktis</small></span></label>
+        <label class="room-option"><input type="radio" name="room" value="gallery"><span><b>Galerijos liuksas</b><small>iki 3 svečių · 360 € naktis</small></span></label>
+        <label class="room-option"><input type="radio" name="room" value="dome"><span><b>Kupolo apartamentai</b><small>iki 4 svečių · 520 € naktis</small></span></label>
+      </fieldset>
+      <fieldset class="extras"><legend>Papildymai</legend>
+        <label class="check"><input type="checkbox" name="breakfast" value="yes"><span>Pusryčiai po kupolu <small>28 € asmeniui už naktį</small></span></label>
+        <label class="check"><input type="checkbox" name="late" value="yes"><span>Vėlyvas išvykimas iki 16 val. <small>40 € vieną kartą</small></span></label>
+      </fieldset>
+      <dl class="summary"><div><dt>Datos</dt><dd data-out="dates"></dd></div><div><dt>Naktys</dt><dd data-out="nights"></dd></div><div><dt>Kambarys</dt><dd data-out="stay"></dd></div><div><dt>Pusryčiai</dt><dd data-out="meals"></dd></div><div><dt>Vėlyvas išvykimas</dt><dd data-out="late"></dd></div></dl>
+      <p class="total"><span>Demonstracinė suma</span><output id="booking-total" aria-live="polite">0 €</output></p>
+      <label class="check ack"><input type="checkbox" name="ack" value="yes"><span>Suprantu, kad tai demonstracinė rezervacija ir niekas nebus išsiųsta.</span></label>
+      <p id="booking-errors" class="errors" role="alert" hidden></p>
+      <p id="booking-confirmation" class="confirmation" role="status" tabindex="-1" hidden></p>
+      <div class="drawer-actions"><button class="primary filled" type="submit">Patvirtinti rezervaciją</button><button class="text-button" type="reset">Išvalyti</button></div>
+    </form>
+  </section>
+</div>
+</body></html>

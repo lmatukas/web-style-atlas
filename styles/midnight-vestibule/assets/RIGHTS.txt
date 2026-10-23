@@ -1,0 +1,46 @@
+S55 / Midnight Vestibule — asset rights
+
+Photographs by Carol M. Highsmith, Library of Congress, Prints & Photographs Division.
+
+1. skyline.webp — City skyline at dusk, LC-DIG-highsm-13024
+Source: https://commons.wikimedia.org/wiki/File:Skyline_at_dusk,_San_Francisco,_California_LCCN2011631218.tif
+Primary record: http://lccn.loc.gov/2011631218
+Changes: 3840px Wikimedia derivative downscaled to 1920x1498; Metadata stripped; WebP quality 82.
+
+2. gallery.webp — Arcaded lobby hallway with lanterns, LC-DIG-highsm-13461
+Source: https://commons.wikimedia.org/wiki/File:Lobby_hallway_at_the_Sheraton_Palace_Hotel_in_San_Francisco,_California_LCCN2011631655.tif
+Primary record: http://lccn.loc.gov/2011631655
+Changes: 3840px Wikimedia derivative downscaled to 1280x1611 (bottom edge trimmed); Metadata stripped; WebP quality 82; Responsive CSS crops where labelled.
+
+3. rotunda.webp — Glass dome above a lobby, LC-DIG-highsm-06471
+Source: https://commons.wikimedia.org/wiki/File:Ceiling_view_of_the_Battle_House_lobby_located_in_Mobile,_Alabama_LCCN2010637885.tif
+Primary record: http://lccn.loc.gov/2010637885
+Changes: 3840px Wikimedia derivative downscaled to 1560x851; Metadata stripped; WebP quality 82; Responsive CSS crops where labelled.
+
+4. facade.webp — Dark metal facade at dusk, LC-DIG-highsm-32721
+Source: https://commons.wikimedia.org/wiki/File:Dusk_view_of_the_Robert_Hoag_Rawlings_Public_Library,_built_from_2000_to_2003_in_Pueblo,_Colorado_LCCN2015632736.tif
+Primary record: http://lccn.loc.gov/2015632736
+Changes: 3840px Wikimedia derivative downscaled to 1920 wide; Cropped to the upper facade (1120x690) so no lettering, road signs or names appear; Metadata stripped; WebP quality 82.
+
+The Commons records identify Highsmith and these reproduction numbers and mark the
+photographs public domain. The Library of Congress rights statement
+https://www.loc.gov/rr/print/res/482_high.html states that Highsmith dedicated her
+photographs to the public domain. No endorsement or project authorship is implied.
+The pages present the photographs as atmosphere for an invented hotel; they do not name
+or describe the real buildings. The facade image is cropped so no lettering is visible.
+Transfer: downscaled in a browser from the Commons 3840px derivatives and re-encoded
+locally; the conversions create no new restrictions.
+
+Fonts
+Cinzel — The Cinzel Project Authors, SIL OFL 1.1, no Reserved Font Name.
+Source: https://github.com/google/fonts/tree/main/ofl/cinzel (Cinzel[wght].ttf), weight 400.
+Figtree — The Figtree Project Authors, SIL OFL 1.1, no Reserved Font Name.
+Source: https://github.com/google/fonts/tree/main/ofl/figtree (Figtree[wght].ttf), weights 400 and 500.
+All subsets keep Latin, Lithuanian and punctuation with every OpenType feature. Full OFL.txt
+beside each family. Retrieved 2026-10-23.
+
+Demonstration content
+Kelvarre, its rooms, prices, nearby places and staff are fictional.
+Name check 2026-10-23: exact web searches for "Kelvarre" and "Kelvarre hotel OR brand OR
+company" returned no business with this name. "Nocteval" was rejected first because a
+similarly named hotel exists. Bounded web check, not a trademark clearance.
