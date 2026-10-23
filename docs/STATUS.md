@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 78/90.**
+**Baigta: 79/90.**
 
-**Pirmiausia patikrinti S53: Laukia peržiūros; vykdytojas agent/claude-opus-cowork-01D6QAux.**
+**Kita užduotis: [S54](tasks/S54.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -88,7 +88,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P25](tasks/P25.md) | Šriftų, vaizdų ir 3D pamatai prabangos kryptims | Baigta | agent/458cee2ac60f | task/p25-luxury-foundations | [PR](https://github.com/lmatukas/web-style-atlas/pull/109) | 2026-10-23T07:24:39Z | P25 accepted; P26 eligible. |
 | [P26](tasks/P26.md) | Prabangos gairės, žyma ir vardų patikra | Baigta | agent/458cee2ac60f | task/p26-luxury-guide | [PR](https://github.com/lmatukas/web-style-atlas/pull/112) | 2026-10-23T08:19:20Z | P26 accepted; S52 is the next eligible task. |
 | [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Baigta | agent/1a045315e5ea | task/s52-obsidian-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/115) | 2026-10-23T14:19:46Z | S52 accepted; S53 is the next eligible task. |
-| [S53](tasks/S53.md) | Nauja kryptis: Luminous Cut Vitrine | Laukia peržiūros | agent/claude-opus-cowork-01D6QAux | task/s53-luminous-cut-vitrine | [PR](https://github.com/lmatukas/web-style-atlas/pull/118) | 2026-10-23T15:05:36Z | Run canonical previews, review PNGs, pass Atlas validation, merge PR #118. |
+| [S53](tasks/S53.md) | Nauja kryptis: Luminous Cut Vitrine | Baigta | agent/claude-opus-cowork-01D6QAux | task/s53-luminous-cut-vitrine | [PR](https://github.com/lmatukas/web-style-atlas/pull/118) | 2026-10-23T15:10:35Z | S53 accepted; S54 is the next eligible task. |
 | [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Laukia | — | — | — | — | Claim S54 ir vykdyti pagal docs/tasks/S54.md. |
 | [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Laukia | — | — | — | — | Claim S55 ir vykdyti pagal docs/tasks/S55.md. |
 | [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Laukia | — | — | — | — | Claim S56 ir vykdyti pagal docs/tasks/S56.md. |
