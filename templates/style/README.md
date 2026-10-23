@@ -36,7 +36,10 @@ Photographs must be CC0-1.0 or documented public domain (`PD-USGov`,
 WebP and a meaningful `assets/RIGHTS.txt` naming the source, creator, rights
 and modifications. Add an `image` asset record with that license_file, source URL
 and redistribution permission. Combined photographs must fit 1,500,000 bytes.
-Do not use AI-generated imagery or bank-specific redistribution licenses.
+AI-generated imagery is allowed only under the conditions in
+`docs/luxury-expansion-plan.md` (tool terms permit redistribution, no real
+brands or people, tool, date and prompt recorded in `RIGHTS.txt`). Do not use
+bank-specific redistribution licenses.
 
 For original 3D use native WebGL, with no libraries or CDN. Invent the object;
 keep useful content and controls in HTML. In `runtime.json` declare:

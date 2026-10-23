@@ -84,7 +84,8 @@ Vadovaukis `docs/runtime-contract.md` ir `templates/style/README.md`:
 200 KB šriftų bei 1,5 MB nuotraukų vienam stiliui, iki 1 MiB vienai peržiūrai;
 šalia šrifto pilnas OFL.txt, prie CC0/PD nuotraukų RIGHTS.txt ir inventorius.
 Šaltinių URL yra teisių įrašuose. Pavyzdiniai puslapiai naudoja vietinius
-failus ir atskirai patikrintus išgalvotus verslo vardus. Nenaudok AI vaizdų.
+failus ir atskirai patikrintus išgalvotus verslo vardus. AI generuoti vaizdai
+leidžiami tik pagal `docs/luxury-expansion-plan.md` sąlygas.
 Krypties ID yra aprašomasis dizaino pavadinimas, ne verslo pavadinimas.
 
 Peržiūras naujam 3D stiliui kurk
