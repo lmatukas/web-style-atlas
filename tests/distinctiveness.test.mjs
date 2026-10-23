@@ -1,5 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { analyze, footerText, firstHeading, loadEntries, warningsFor } from '../scripts/distinctiveness.mjs';
 
 const page = (footer, h1 = 'Hello') => `<html><body><h1>${h1}</h1><footer>${footer}</footer></body></html>`;
@@ -40,6 +41,9 @@ test('footer and heading extraction strip tags and whitespace', () => {
 
 test('repository analysis is advisory and reads all styles', () => {
   const entries = loadEntries();
-  assert.equal(entries.length, 39);
+  const catalogue = JSON.parse(readFileSync(new URL('../catalog/index.json', import.meta.url), 'utf8')).styles.map(style => style.id).sort();
+  assert.ok(catalogue.length > 0);
+  assert.deepEqual(entries.map(entry => entry.id), catalogue);
+  assert.ok(entries.every(entry => typeof entry.html === 'string' && entry.html.length > 0));
   assert.ok(Array.isArray(warningsFor()));
 });

@@ -79,9 +79,22 @@ platinti rinkinyje. Kiekvienai nuotraukai pildomi `assets.json` ir `RIGHTS.txt`.
 Šaltinio URL lieka tik `RIGHTS.txt`; pavyzdiniuose puslapiuose nuorodų į
 išorines svetaines nėra (`tests/neutral-names.test.mjs`).
 
-**AI generuoti vaizdai nenaudojami.** Jų teisinis statusas skirtingose šalyse
-nevienodas, o atlasas yra viešas ir MIT licencijos. Sprendimą gali pakeisti tik
-savininkas, papildydamas šį skyrių.
+**AI generuoti vaizdai leidžiami** (savininko sprendimas, 2026-10-23). Jie gali
+pakeisti nuotraukas ten, kur laisvos licencijos kadro nėra arba jis per silpnas.
+Sąlygos:
+
+- įrankio sąlygos leidžia komercinį naudojimą ir platinimą atvirame rinkinyje;
+- vaizde nėra realių prekių ženklų, logotipų, atpažįstamų produktų, realių
+  žmonių ar aiškiai atpažįstamo gyvo menininko stiliaus;
+- `assets.json` įraše `license` nurodo „AI-generated, original, distributed
+  under the repository MIT terms“, o `RIGHTS.txt` — įrankį ir versiją, datą,
+  pilną užklausą ir rankinius pakeitimus;
+- galioja tas pats biudžetas (WebP, iki 1,5 MB stiliui), metaduomenys
+  išvalomi, vaizdas peržiūrimas akimis, ar nėra iškraipytų rankų, raidžių ar
+  netikrų užrašų.
+
+AI vaizdų autorių teisių statusas skirtingose šalyse nevienodas, todėl įrodymuose
+pažymima, kurie vaizdai yra sugeneruoti.
 
 **Kodu generuojamos tekstūros.** Aksomas, marmuras, šilkas, metalas, šviesos
 dėmės — CSS gradientais ir SVG filtrais, be failų.

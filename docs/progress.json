@@ -3913,23 +3913,61 @@
     {
       "id": "S52",
       "title": "Nauja kryptis: Obsidian Stage",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P26"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate/build/check",
+          "status": "pass",
+          "details": "40 candidate styles; all preview provenance and generated outputs checked locally in canonical environment."
+        },
+        {
+          "name": "style browser/accessibility",
+          "status": "pass",
+          "details": "A/B at 360/768/1440: 6 pages, zero axe violations/overflow/covered controls."
+        },
+        {
+          "name": "native runtime and configurator",
+          "status": "pass",
+          "details": "12 normal/reduced/blocked cases; 108 price calculations; scroll layers, finish pixels, confirmation, reset and keyboard. Both pages also passed real touch, pause and preference-change GPU cleanup."
+        },
+        {
+          "name": "canonical previews and visual rubric",
+          "status": "pass",
+          "details": "Four PNGs rendered by canonical local luxury-previews, actually viewed; 11/12; largest 828243 bytes."
+        },
+        {
+          "name": "unit tests",
+          "status": "fail",
+          "details": "94/96: tests/capabilities.test.mjs fixed 15 briefs (now 16), tests/distinctiveness.test.mjs fixed 39 styles (now 40). Shared fixes excluded by S52 card; P25 follow-up required."
+        },
+        {
+          "name": "manual canonical GitHub workflow",
+          "status": "not_run",
+          "details": "Connector has no dispatch operation; fallback browser is signed out. Exact canonical local renderer passed."
+        },
+        {
+          "name": "PR GitHub CI",
+          "status": "fail",
+          "details": "Run 39928359278 on exact head 1ab4ae9c670ff3f99f5455ef807b09a8afd90057: scope PASS; source/unit job FAIL, 94/96 with the same two fixed-count assertions; browser job skipped. Failure logs verified."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S52.md"
+      ],
       "worker": "agent/1a045315e5ea",
       "claimed_at": "2026-10-23T08:24:48Z",
-      "updated_at": "2026-10-23T08:24:48Z",
+      "updated_at": "2026-10-23T09:02:23.615Z",
       "branch": "task/s52-obsidian-stage",
       "base_commit": "af855f1829c01ccb028f10e5ce8a1e12d5e5aa3b",
-      "evidence_commit": null,
+      "evidence_commit": "1ab4ae9c670ff3f99f5455ef807b09a8afd90057",
       "merge_commit": null,
-      "pr_url": null,
-      "blocker": null,
-      "next_action": "Implement S52 A/B, native WebGL, local configurator and canonical previews.",
-      "handoff": "S52 claimed for separate implementation PR at user request."
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/115",
+      "blocker": "PR #115 draft: two shared fixed-count unit tests need P25 follow-up; manual previews.yml dispatch still required.",
+      "next_action": "Resolve the P25 shared test assumptions, run previews.yml on task/s52-obsidian-stage for obsidian-stage, validate exact PR head and review. Do not start S53.",
+      "handoff": "Separate S52 implementation PR #115 created; source, business, WebGL/fallback, accessibility and four local canonical previews verified. No merge. Any next worker may resume this documented handoff using the same PR; do not duplicate S52."
     },
     {
       "id": "S53",
