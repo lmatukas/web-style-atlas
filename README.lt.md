@@ -1,16 +1,14 @@
 # Web Style Atlas — kaip išbandyti
 
-**Paskelbta 1.1.0 versija:** 39 dizaino kryptys, 78 A/B puslapių
-pavyzdžiai ir 156 aktualios kompiuterio bei telefono peržiūros.
-[Išplėsto katalogo auditas](docs/evidence/P17.md) ir
-[darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
+**1.2.0 versija:** 39 dizaino kryptys, kiekviena su dviem veikiančiais maketo
+variantais (A ir B), ir 156 aktualios kompiuterio bei telefono peržiūros.
+Nuo 1.1.0 pertvarkyta dvylika krypčių; žr. [leidimo aprašą](docs/releases/1.2.0.md).
+[Darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
 
 **[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/).**
-Vieša **1.1.0 galerija su visomis 39 kryptimis** paskelbta ir praktiškai patikrinta
-2026-10-21. Patikrinta paieška ir filtrų atstatymas, B ir telefono peržiūros,
-tiksli pilno prompto kopija bei veikiantis naujas planuoklio pavyzdys.
-[Publikavimo įrodymai](docs/evidence/P18.md#actual-publication-and-live-checks--2026-10-21).
-[1.0.0 publikavimo istorija](docs/releases/1.0.0.md) išsaugota.
+Publikavimo paleidimas ir gyvos svetainės patikros įrašomi
+[1.2.0 leidimo apraše](docs/releases/1.2.0.md). Ankstesnė
+[1.1.0](docs/releases/1.1.0.md) ir [1.0.0](docs/releases/1.0.0.md) istorija išsaugota.
 
 Visas 39 kryptis jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
