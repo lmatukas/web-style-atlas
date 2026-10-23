@@ -1,0 +1,61 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #c7a976;
+  --color-background: #100e10;
+  --color-border: #927e70;
+  --color-error: #f7b9ae;
+  --color-focus: #ebc58e;
+  --color-ink: #2b1a22;
+  --color-muted: #c8b8ad;
+  --color-on-accent: #170f13;
+  --color-paper: #f3e9d7;
+  --color-paper-error: #942e35;
+  --color-paper-muted: #66534f;
+  --color-surface: #21171b;
+  --color-text: #f3e9d7;
+  --color-wine: #3b0f17;
+  --color-wine-dark: #200a11;
+  --color-wine-light: #782e40;
+  --font-body: "Barlow Condensed", sans-serif;
+  --font-display: "Cormorant Garamond", serif;
+  --font-size-body: 1.125rem;
+  --font-size-display: 3.5rem;
+  --font-size-heading: 2.5rem;
+  --font-size-small: 0.75rem;
+  --font-weight-bold: 400;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 84rem;
+  --layout-text-max-width: 38ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.02em;
+  --line-height-body: 1.65;
+  --line-height-heading: 1.08;
+  --motion-duration-drawer: 420ms;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 200ms;
+  --motion-easing-standard: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --radius-none: 0;
+  --radius-pill: 999px;
+  --shadow-none: none;
+  --spacing-large: 2.5rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 8rem;
+  --spacing-small: 0.5rem;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../assets/fonts/cormorant/CormorantGaramond-Regular-LT.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../assets/fonts/barlow/BarlowCondensed-Regular-LT.woff2");
+  font-display: swap;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */

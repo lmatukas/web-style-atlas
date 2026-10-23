@@ -1,0 +1,3 @@
+Velvet Members Hall / S58
+Original procedural velvet geometry, light gradients, interface and text: Web Style Atlas contributors, MIT. No photographs, AI images, logos, recordings or third-party graphics.
+Fonts downloaded 2026-10-24 from https://github.com/google/fonts/tree/main/ofl/cormorantgaramond and https://github.com/google/fonts/tree/main/ofl/barlowcondensed (raw main sources). Adjacent OFL.txt files retain full copyright and license notices. Weight 400 instantiated where variable, Latin/Lithuanian/punctuation subset, WOFF2 conversion. Italic is a real italic font.
