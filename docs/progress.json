@@ -3826,23 +3826,45 @@
     {
       "id": "P25",
       "title": "Šriftų, vaizdų ir 3D pamatai prabangos kryptims",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P23"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate/build/check",
+          "status": "pass"
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "96/96"
+        },
+        {
+          "name": "canonical preview browser tests",
+          "status": "pass",
+          "details": "4/4; final fixture also passed 6 A/B runtime cases"
+        },
+        {
+          "name": "GitHub Atlas validation",
+          "status": "not_run",
+          "details": "PR #109 workflow in progress; verify before merge."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P25.md"
+      ],
       "worker": "agent/458cee2ac60f",
       "claimed_at": "2026-10-23T06:53:58Z",
-      "updated_at": "2026-10-23T06:53:58Z",
+      "updated_at": "2026-10-23T07:13:24Z",
       "branch": "task/p25-luxury-foundations",
       "base_commit": "fafd77163b4c529763d0ff88bcb510e88a098219",
-      "evidence_commit": null,
+      "evidence_commit": "fb89b26a05ea59ef12b348f003211a16e9fd51fe",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/109",
       "blocker": null,
-      "next_action": "Implement P25 asset validation and offline font/3D fixture checks.",
-      "handoff": null
+      "next_action": "Wait for PR #109 required CI and merge when green.",
+      "handoff": "Implementation PR #109 ready; verify canonical CI, merge and record actual merge SHA before P26."
     },
     {
       "id": "P26",
