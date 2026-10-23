@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.0 — prepared 2026-10-23
+## 1.2.0 — published 2026-10-23
 
 39 ready directions, 78 working layout variants and 156 current previews.
 
@@ -15,8 +15,8 @@
 - The release workflow now reads the version from `package.json` and derives
   catalogue counts instead of using fixed values.
 
-See [1.2.0 release notes](docs/releases/1.2.0.md). Publication is recorded there
-after the manual release run.
+Published on 2026-10-23: [release run 39905598141](https://github.com/lmatukas/web-style-atlas/actions/runs/39905598141)
+passed verify and deploy on `6fa771f`. See [1.2.0 release notes](docs/releases/1.2.0.md).
 
 ## 1.1.0 — published 2026-10-21
 
