@@ -35,3 +35,9 @@ keičia stiliaus krypties.
 - Diakritikų eilutė `ĄČĘĖĮŠŲŪŽ` lieka footer'yje kaip techninis tekstas, pagal punktą 3.
 - Perkėlimas į turinį atmestas: EN stiliuose tai būtų kalbos keitimas, o punktas 5 jo neleidžia be atskiros užduoties.
 - Tai uždaro klausimą apie diakritikų testą. Platesnis klausimas (ar 20 angliškų stilių pereiti į LT) lieka atviras ir reikalauja atskiro savininko sprendimo.
+
+## Sprendimas: tarptautinė kalba (savininkas, 2026-10-23)
+
+- Matomas turinys naujuose stiliuose rašomas anglų kalba. Lietuvių kalba nėra numatytoji kalba.
+- Esami lietuviški stiliai (19) lieka tokie, kol atskira užduotis jų neperveda. Konvertavimas į anglų kalbą nėra daromas automatiškai.
+- Footer'io diakritikų testas lieka techniniu tekstu, kaip nurodyta aukščiau.
