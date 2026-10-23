@@ -736,6 +736,46 @@
       "width": 390
     },
     {
+      "height": 5226,
+      "output_sha256": "967f2f67e946789104304d7c5fe68f5e9393e31319d5973fbf0b14cee2f82895",
+      "path": "styles/luminous-cut-vitrine/preview.png",
+      "source_sha256": "89938e225459142694b1938ed582e6c0fb0cf7645d74da4c19eeb31e0c680d23",
+      "style_id": "luminous-cut-vitrine",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 7483,
+      "output_sha256": "ba8249eb5673a427d9aaa435b1587be6b681041123ff44c1a3f8ee1b8694e58d",
+      "path": "styles/luminous-cut-vitrine/preview-mobile.png",
+      "source_sha256": "89938e225459142694b1938ed582e6c0fb0cf7645d74da4c19eeb31e0c680d23",
+      "style_id": "luminous-cut-vitrine",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3483,
+      "output_sha256": "a31391b42e0e92034cd12616f1b5432fbda39953b6498406efa47b22c842f0f7",
+      "path": "styles/luminous-cut-vitrine/preview-alt.png",
+      "source_sha256": "89938e225459142694b1938ed582e6c0fb0cf7645d74da4c19eeb31e0c680d23",
+      "style_id": "luminous-cut-vitrine",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5177,
+      "output_sha256": "18549c5b299b765e00b4ba4de2fabcc2a0c31f5447b6b8112ba3ba9bdc6a84d5",
+      "path": "styles/luminous-cut-vitrine/preview-alt-mobile.png",
+      "source_sha256": "89938e225459142694b1938ed582e6c0fb0cf7645d74da4c19eeb31e0c680d23",
+      "style_id": "luminous-cut-vitrine",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 3400,
       "output_sha256": "8b2565c51b2f05bdc54d83be742b0f6cfca750a25debf2b561c3139f90c90aa2",
       "path": "styles/membrane-score/preview.png",
