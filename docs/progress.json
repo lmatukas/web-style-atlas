@@ -3826,7 +3826,7 @@
     {
       "id": "P25",
       "title": "Šriftų, vaizdų ir 3D pamatai prabangos kryptims",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P23"
       ],
@@ -3847,8 +3847,8 @@
         },
         {
           "name": "GitHub Atlas validation",
-          "status": "not_run",
-          "details": "PR #109 workflow in progress; verify before merge."
+          "status": "pass",
+          "details": "Run 39916323801, exact head fb89b26a05ea59ef12b348f003211a16e9fd51fe; source, scope and canonical browser/accessibility gates passed."
         }
       ],
       "evidence_paths": [
@@ -3856,35 +3856,35 @@
       ],
       "worker": "agent/458cee2ac60f",
       "claimed_at": "2026-10-23T06:53:58Z",
-      "updated_at": "2026-10-23T07:13:24Z",
+      "updated_at": "2026-10-23T07:24:39Z",
       "branch": "task/p25-luxury-foundations",
       "base_commit": "fafd77163b4c529763d0ff88bcb510e88a098219",
       "evidence_commit": "fb89b26a05ea59ef12b348f003211a16e9fd51fe",
-      "merge_commit": null,
+      "merge_commit": "bc90c2444d0dc01adc453839a5c3ca3c0986d683",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/109",
       "blocker": null,
-      "next_action": "Wait for PR #109 required CI and merge when green.",
-      "handoff": "Implementation PR #109 ready; verify canonical CI, merge and record actual merge SHA before P26."
+      "next_action": "P25 accepted; P26 eligible.",
+      "handoff": "PR #109 merged after successful canonical Atlas validation run 39916323801 (all three jobs). Existing 39 styles and previews unchanged."
     },
     {
       "id": "P26",
       "title": "Prabangos gairės, žyma ir vardų patikra",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P25"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/458cee2ac60f",
+      "claimed_at": "2026-10-23T07:24:39Z",
+      "updated_at": "2026-10-23T07:24:39Z",
+      "branch": "task/p26-luxury-guide",
+      "base_commit": "bc90c2444d0dc01adc453839a5c3ca3c0986d683",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P26 ir vykdyti pagal docs/tasks/P26.md.",
+      "next_action": "Implement luxury guide, gallery filter and name checks after remote claim acceptance.",
       "handoff": null
     },
     {
