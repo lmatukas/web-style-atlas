@@ -728,6 +728,63 @@
       ]
     },
     {
+      "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "craft",
+        "products",
+        "commerce",
+        "culture"
+      ],
+      "complexity": "medium",
+      "density": "sparse",
+      "family": "tactile",
+      "id": "heirloom-weave-ledger",
+      "image_dependency": "medium",
+      "motion_level": "subtle",
+      "name": "Heirloom Weave Ledger",
+      "prompt_path": "prompts/heirloom-weave-ledger/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Cream paper, deep forest-green ink, warm brown archive numerals and flat leather colour; fine interlaced rules replace noisy distress.",
+        "composition": "A follows a century through four spacious chapters beside a sticky changing archive stage; B is a portrait object collection followed by a personalisation worktable.",
+        "content_rhythm": "A monogram and one object, four generations of craft, a personal mark and useful care disclosures.",
+        "imagery": "Two rights-documented CC0 museum photographs and original folio and silk-square SVG drawings, with no claim that historic objects belong to the invented house.",
+        "interaction": "Initials generate glyph-and-line monograms in real time; thread colour and placement alter the actual SVG accessory before an accurate local summary.",
+        "motion": "The opening monogram settles in 1.6 seconds; native scroll changes decade, object and emblem frame; reduced motion keeps all choices immediate.",
+        "navigation": "Quiet house and collection links, four native decade anchors and one outlined personalisation action.",
+        "typography": "Local Newsreader regular and true italic at 400, paired with narrow tracked Jost labels and practical body text."
+      },
+      "status": "ready",
+      "style_path": "styles/heirloom-weave-ledger/style.md",
+      "summary": "An original initials monogram, cream-and-green century ledger and tactile accessory worktable connect archival craft with a live personal mark.",
+      "tags": [
+        "luxury",
+        "archival",
+        "handmade",
+        "warm",
+        "product-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/heirloom-weave-ledger/preview-mobile.png",
+          "preview_path": "styles/heirloom-weave-ledger/preview.png",
+          "reference_path": "styles/heirloom-weave-ledger/reference/index.html",
+          "title": "Century ledger"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/heirloom-weave-ledger/preview-alt-mobile.png",
+          "preview_path": "styles/heirloom-weave-ledger/preview-alt.png",
+          "reference_path": "styles/heirloom-weave-ledger/reference/alternate.html",
+          "title": "Collection and personalization"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "services",

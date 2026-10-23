@@ -421,6 +421,27 @@
         "cinematic-photo"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S57",
+      "style_id": "heirloom-weave-ledger",
+      "name": "Heirloom Weave Ledger",
+      "family": "tactile",
+      "language": "lt",
+      "prompt_path": "prompts/heirloom-weave-ledger/prompt.lt.md",
+      "demo_brand": "Esvérane",
+      "variants": {
+        "a": "Šimtmečio metraštis su slenkant kintančiu archyvo objektu ir monograma",
+        "b": "Portretinių objektų kolekcija ir inicialų personalizavimo dirbtuvė"
+      },
+      "signature": "Iš inicialų generuojama monograma; slenkamas šimtmečio metraštis keičia objektus ir monogramos variantus.",
+      "acceptance": "Inicialai, siūlo spalva ir vieta keičia tikrą daikto SVG; netinkami inicialai ir nepatvirtinta demonstracija atmetami; santrauka ir atstatymas veikia.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "botanical-engraving",
+        "spine-editions"
+      ],
+      "audio": false
     }
   ]
 }

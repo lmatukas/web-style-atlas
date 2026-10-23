@@ -1,0 +1,28 @@
+S57 — Heirloom Weave Ledger
+
+purse.webp — Purse, European, ca. 1795, silk, C.I.60.26.17.
+Source: https://www.metmuseum.org/art/collection/search/117187
+API: https://collectionapi.metmuseum.org/public/collection/v1/objects/117187
+Image: https://images.metmuseum.org/CRDImages/ci/original/60.26.17.jpg
+
+ gloves.webp — Gloves, European, ca. 1870, leather, C.I.38.23.373a, b.
+Source: https://www.metmuseum.org/art/collection/search/119792
+API: https://collectionapi.metmuseum.org/public/collection/v1/objects/119792
+Image: https://images.metmuseum.org/CRDImages/ci/original/CI38.23.373ab.jpg
+
+Both records visibly state Public Domain and the official API returned isPublicDomain=true on 2026-10-23. The museum Open Access policy makes these images CC0:
+https://www.metmuseum.org/hubs/open-access
+https://www.metmuseum.org/policies/image-resources
+Makers are unidentified; images supplied by The Metropolitan Museum of Art. Each original is converted to RGB WebP quality 84 with metadata removed; no object recolouring, initial overlay or ownership claim. Photographs illustrate historical craft, not objects made by or available from the fictional house. Public captions preserve the actual approximate object dates without naming a real brand or linking outside.
+
+Fonts
+Newsreader — The Newsreader Project Authors; SIL OFL 1.1.
+https://github.com/google/fonts/tree/main/ofl/newsreader
+Regular and italic variable files instanced at wght 400 / opsz 48, Latin/Lithuanian/punctuation subset, WOFF2. Full OFL.txt beside the files.
+Jost — The Jost Project Authors; SIL OFL 1.1.
+https://github.com/google/fonts/tree/main/ofl/jost
+Existing weight-400 Latin/Lithuanian/punctuation subset reused unchanged. Full OFL.txt beside the file.
+
+Original code, initials geometry, folio.svg and scarf.svg: Web Style Atlas contributors, MIT. These original accessory drawings represent the personalisation demo. No imported logos, real house emblems or AI imagery. The generated monogram uses local font glyphs, circles, interlaced rules and frames created in reference/app.js.
+
+Esvérane and its 1926–2026 narrative are fictional. Exact Esverane/Esvérane searches in two engines on 2026-10-23 found no matching business; one search offered unrelated Severance results. This bounded check is recorded in docs/evidence/S57.md.

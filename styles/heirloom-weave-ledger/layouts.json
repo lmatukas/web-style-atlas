@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Century ledger",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Native house/collection/atelier links; A has four decade anchors.",
+      "ordered_sections": [
+        {
+          "purpose": "Recognise the house",
+          "pattern": "Large original monogram and one archive object",
+          "content_requirements": [
+            "Century title",
+            "Quiet history link"
+          ]
+        },
+        {
+          "purpose": "Follow the century",
+          "pattern": "Sticky changing object beside four decade chapters",
+          "content_requirements": [
+            "1926",
+            "1956",
+            "1986",
+            "2026",
+            "Native decade links"
+          ]
+        },
+        {
+          "purpose": "Make a personal mark",
+          "pattern": "Live accessory preview and local personalization",
+          "content_requirements": [
+            "Initials",
+            "Thread colour",
+            "Placement",
+            "Validated local summary"
+          ]
+        },
+        {
+          "purpose": "Care",
+          "pattern": "Native service disclosures",
+          "content_requirements": [
+            "Leather care",
+            "Silk care",
+            "Changing initials"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack the archive stage above the decade stories and keep the decade links visible; use the full hero artwork without shrinking the whole spread.",
+      "distinguishing_features": [
+        "Generative initials monogram",
+        "Cream and forest-green house ledger",
+        "Live local personalisation"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Collection and personalization",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Native house/collection/atelier links; A has four decade anchors.",
+      "ordered_sections": [
+        {
+          "purpose": "Meet the collection",
+          "pattern": "Original folio with a large monogram and quiet title",
+          "content_requirements": [
+            "Collection introduction",
+            "Original object"
+          ]
+        },
+        {
+          "purpose": "Inspect the objects",
+          "pattern": "Three portrait object studies",
+          "content_requirements": [
+            "Folio",
+            "Silk square",
+            "Historical gloves clearly labelled"
+          ]
+        },
+        {
+          "purpose": "Personalise a folio",
+          "pattern": "Original live SVG worktable",
+          "content_requirements": [
+            "Initials",
+            "Colour",
+            "Placement",
+            "Confirmation and reset"
+          ]
+        },
+        {
+          "purpose": "Care for the objects",
+          "pattern": "Native care disclosures",
+          "content_requirements": [
+            "Leather",
+            "Silk",
+            "Local service limits"
+          ]
+        }
+      ],
+      "mobile_reflow": "Use one portrait object per row; hero art dominates the phone opening and personalization preview sits above full-width controls.",
+      "distinguishing_features": [
+        "Generative initials monogram",
+        "Cream and forest-green house ledger",
+        "Live local personalisation"
+      ]
+    }
+  ]
+}
