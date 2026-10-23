@@ -120,6 +120,7 @@ test('original 38 tasks survive and approved phases keep matching cards and plan
   for (const id of originalIds) assert.ok(ids.includes(id), `missing original task: ${id}`);
   assert.deepEqual(readdirSync(new URL('../docs/tasks', import.meta.url)).map(p => p.replace(/\.md$/, '')).sort(), ids);
   const planIds = [...read('docs/implementation-plan.md').matchAll(/^\| S\d{2} `([^`]+)`/gm)].map(m => m[1]);
+  const luxuryIds = new Map([...read('docs/luxury-expansion-plan.md').matchAll(/^\| (S\d{2}) \| `([^`]+)`/gm)].map(m => [m[1], m[2]]));
   const cardIds = [];
   for (const task of queue.tasks) {
     const card = read(`docs/tasks/${task.id}.md`);
@@ -131,6 +132,7 @@ test('original 38 tasks survive and approved phases keep matching cards and plan
       const styleId = card.match(/Style ID: `([^`]+)`/)[1];
       assert.match(card, /Closest styles: `[^`]+`/);
       if (Number(task.id.slice(1)) < 40) cardIds.push(styleId);
+      else if (luxuryIds.has(task.id)) assert.equal(luxuryIds.get(task.id), styleId, `${task.id}: card must match docs/luxury-expansion-plan.md`);
       else assert.doesNotThrow(() => read(`styles/${styleId}/style.md`), `${task.id}: redesign card must target an existing style`);
     }
   }

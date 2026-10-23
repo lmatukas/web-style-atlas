@@ -27,7 +27,8 @@ including fifteen linked full creation prompts; twelve directions were reworked
 in S40–S51. See [1.2.0 release notes](docs/releases/1.2.0.md); 1.1.0 and 1.0.0
 history is preserved.
 Read [the expansion plan](docs/prompt-expansion-plan.md) only when its selected
-card requires it. Use `catalog/index.json` for actual available source directions;
+card requires it. The same applies to
+[the luxury expansion plan](docs/luxury-expansion-plan.md) for P25–P28 and S52–S62. Use `catalog/index.json` for actual available source directions;
 an entry in `prompts/index.json` alone does not establish ready status.
 
 ## Inspect progress
