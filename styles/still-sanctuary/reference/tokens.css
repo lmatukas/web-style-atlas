@@ -1,0 +1,58 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #49543a;
+  --color-background: #f3eee7;
+  --color-border: #868472;
+  --color-day: #f0e5d4;
+  --color-error: #8c2d21;
+  --color-evening: #e9d4c4;
+  --color-focus: #8a402a;
+  --color-ink: #18231d;
+  --color-light: #faf7f1;
+  --color-muted: #5a5749;
+  --color-on-accent: #faf7f1;
+  --color-surface: #e7e5da;
+  --color-text: #322f25;
+  --font-body: "Figtree", sans-serif;
+  --font-display: "Newsreader", serif;
+  --font-size-body: 1.0625rem;
+  --font-size-display: 3.5rem;
+  --font-size-heading: 2.5rem;
+  --font-size-small: 0.75rem;
+  --font-weight-bold: 400;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 84rem;
+  --layout-text-max-width: 38ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.025em;
+  --line-height-body: 1.65;
+  --line-height-heading: 1.08;
+  --motion-duration-drawer: 420ms;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 200ms;
+  --motion-easing-standard: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --radius-none: 0;
+  --radius-pill: 999px;
+  --shadow-none: none;
+  --spacing-large: 2.5rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 8rem;
+  --spacing-small: 0.5rem;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../assets/fonts/newsreader/Newsreader-Regular-LT.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/figtree/Figtree-Regular-LT.woff2");
+  font-display: swap;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */

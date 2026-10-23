@@ -1496,6 +1496,46 @@
       "width": 390
     },
     {
+      "height": 5065,
+      "output_sha256": "2cc732d9092c40722b0d515f3b4d5a2dfbef8f79b974c87c01e814f50ace9e02",
+      "path": "styles/still-sanctuary/preview.png",
+      "source_sha256": "abc245b45b2fa38bfdecc55a0821a8fad9027ccf037b2e250a2065eeec97e20a",
+      "style_id": "still-sanctuary",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6297,
+      "output_sha256": "da93549334dde6d059035df1d93788b6cbda2d42bd1a2c96629e6787b3858160",
+      "path": "styles/still-sanctuary/preview-mobile.png",
+      "source_sha256": "abc245b45b2fa38bfdecc55a0821a8fad9027ccf037b2e250a2065eeec97e20a",
+      "style_id": "still-sanctuary",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3962,
+      "output_sha256": "8e016edf1c5339cb0843bdf8dc6652f460e0f4357d778c1a187f183bc61ba8be",
+      "path": "styles/still-sanctuary/preview-alt.png",
+      "source_sha256": "abc245b45b2fa38bfdecc55a0821a8fad9027ccf037b2e250a2065eeec97e20a",
+      "style_id": "still-sanctuary",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4692,
+      "output_sha256": "5899c928a3e6d00dbc1890afc976fe8e1beb75cacb858e4f87bc6d638f1db469",
+      "path": "styles/still-sanctuary/preview-alt-mobile.png",
+      "source_sha256": "abc245b45b2fa38bfdecc55a0821a8fad9027ccf037b2e250a2065eeec97e20a",
+      "style_id": "still-sanctuary",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2615,
       "output_sha256": "bc79bc00d4c1aeb4e8d732e838e95b43e4726050fa3f6b1dae6da885a2f8dd94",
       "path": "styles/swiss-grid/preview.png",

@@ -1926,6 +1926,63 @@
       ]
     },
     {
+      "avoid_for": [
+        "data",
+        "documentation",
+        "commerce"
+      ],
+      "best_for": [
+        "hospitality",
+        "travel",
+        "services"
+      ],
+      "complexity": "medium",
+      "density": "sparse",
+      "family": "photographic",
+      "id": "still-sanctuary",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Still Sanctuary",
+      "prompt_path": "prompts/still-sanctuary/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm sand with deep brown text, olive selection and clay dusk; the body changes light with the chosen hour.",
+        "composition": "A is a regional landscape directory with numbered horizontal rows; B frames one place with a split opening, a day itinerary and a two-villa comparison.",
+        "content_rhythm": "One landscape, a short invitation, three regions, a morning-to-evening ritual and a quiet enquiry.",
+        "imagery": "Rights-documented forest mist, sunset water and a monochrome garden pavilion, explicitly illustrative of invented places.",
+        "interaction": "Three day buttons update photograph, time, description and page ground; region, dates and chosen rituals produce a local enquiry summary.",
+        "motion": "A single 1.6-second photographic breath settles; pause, reduced motion, offscreen suspension and cleanup keep the landscape quiet.",
+        "navigation": "Visible region and place links, native section anchors and one outlined stay action.",
+        "typography": "Local Newsreader 400 for unhurried sentence-case headings, humanist Figtree 400 for body text and widely spaced small labels."
+      },
+      "status": "ready",
+      "style_path": "styles/still-sanctuary/style.md",
+      "summary": "Quiet landscapes, warm sand and an interactive day ritual that changes the page light, ending in a useful local stay enquiry.",
+      "tags": [
+        "luxury",
+        "image-led",
+        "warm",
+        "calm",
+        "humanist"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/still-sanctuary/preview-mobile.png",
+          "preview_path": "styles/still-sanctuary/preview.png",
+          "reference_path": "styles/still-sanctuary/reference/index.html",
+          "title": "Regional retreat directory"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/still-sanctuary/preview-alt-mobile.png",
+          "preview_path": "styles/still-sanctuary/preview-alt.png",
+          "reference_path": "styles/still-sanctuary/reference/alternate.html",
+          "title": "One place and a day itinerary"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "services",
