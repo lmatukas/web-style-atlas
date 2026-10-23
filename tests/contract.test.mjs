@@ -132,7 +132,10 @@ test('original 38 tasks survive and approved phases keep matching cards and plan
       const styleId = card.match(/Style ID: `([^`]+)`/)[1];
       assert.match(card, /Closest styles: `[^`]+`/);
       if (Number(task.id.slice(1)) < 40) cardIds.push(styleId);
-      else if (luxuryIds.has(task.id)) assert.equal(luxuryIds.get(task.id), styleId, `${task.id}: card must match docs/luxury-expansion-plan.md`);
+      else if (luxuryIds.has(task.id)) {
+        assert.equal(luxuryIds.get(task.id), styleId, `${task.id}: card must match docs/luxury-expansion-plan.md`);
+        assert.ok(card.includes('core/luxury-guide.md'), `${task.id}: luxury guide is required reading`);
+      }
       else assert.doesNotThrow(() => read(`styles/${styleId}/style.md`), `${task.id}: redesign card must target an existing style`);
     }
   }

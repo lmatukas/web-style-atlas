@@ -13,7 +13,8 @@
 <section class="intro"><p class="eyebrow">A FIELD GUIDE FOR THE WEB</p><h1>Find your<br><em>direction.</em></h1><div><p>Distinct visual systems. Working examples.<br>A clearer starting point for your next website.</p><p class="intro-note">Choose a structure, not just a color.</p></div></section>
 <section class="explorer" aria-label="Explore styles">
 <div class="search-line"><label for="search">Search the atlas<input id="search" type="search" placeholder="Try editorial, services, grid…" autocomplete="off"></label><button id="reset" type="button">Reset filters ↺</button></div>
-<div class="filters">{{FILTERS}}</div>
+<div class="filters">{{FILTERS}}
+<div class="filter" lang="lt"><label for="luxury">Prabanga</label><select id="luxury"><option value="">Visos kryptys</option><option value="1">Tik prabangos</option></select></div></div>
 <div class="view-bar"><p id="result-count" role="status" aria-live="polite">{{COUNT}} directions</p><div class="view-controls"><div role="group" aria-label="Composition"><button type="button" data-variant="a" aria-pressed="true">A</button><button type="button" data-variant="b" aria-pressed="false">B</button></div><div role="group" aria-label="Preview viewport"><button type="button" data-viewport="desktop" aria-pressed="true">Desktop</button><button type="button" data-viewport="mobile" aria-pressed="false">Mobile</button></div></div></div>
 <div class="selection-bar"><p id="compare-status" role="status">Choose up to 3 directions to compare.</p><a id="compare-jump" href="#comparison" hidden>Compare selected ↓</a></div>
 <div id="results" class="cards" tabindex="-1">{{CARDS}}</div><p id="empty" class="empty" hidden>No directions match these filters. Try a broader search or reset the filters.</p>

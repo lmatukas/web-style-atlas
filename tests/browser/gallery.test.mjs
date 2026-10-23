@@ -13,3 +13,50 @@ await p.reload({waitUntil:'networkidle'});assert.equal(await p.locator('.compare
 if(process.env.ATLAS_GALLERY_EVIDENCE){await p.locator('#comparison img').evaluateAll(async images=>{await Promise.all(images.map(i=>i.decode()));});await p.locator('#comparison').screenshot({path:process.env.ATLAS_GALLERY_EVIDENCE+'/comparison-mobile.png',animations:'disabled'});await p.setViewportSize({width:1440,height:1000});await p.locator('#comparison').screenshot({path:process.env.ATLAS_GALLERY_EVIDENCE+'/comparison-desktop.png',animations:'disabled'});}
 await p.getByRole('button',{name:'Remove '+index.styles[0].name+' from comparison',exact:true}).click();assert.equal(await p.locator('.compare-card').count(),2);await p.getByRole('button',{name:'Clear comparison',exact:true}).click();assert.equal(await p.locator('#comparison').isVisible(),false);
 }finally{await s.close();await b.close();}});
+
+test('Prabanga filters tagged styles, combines with search, restores URLs and resets at desktop/mobile', { timeout: 60000 }, async () => {
+  const browser = await launchCanonical(), server = await serveGallery(undefined, { basePath: '/luxury/' });
+  try {
+    for (const width of [390, 1440]) {
+      const page = await browser.newPage({ viewport: { width, height: 1000 }, reducedMotion: 'reduce' });
+      const errors = []; page.on('pageerror', error => errors.push(error.message));
+      await page.goto(server.url, { waitUntil: 'networkidle' });
+      const filter = page.getByLabel('Prabanga', { exact: true });
+      await filter.selectOption('1');
+      assert.deepEqual((await page.locator('.card:visible').evaluateAll(cards => cards.map(c => c.dataset.style))).sort(), index.styles.filter(s => s.tags.includes('luxury')).map(s => s.id).sort());
+      assert.match(page.url(), /luxury=1/);
+      assert.equal(await page.locator('#empty').isVisible(), !index.styles.some(s => s.tags.includes('luxury')));
+      await page.reload({ waitUntil: 'networkidle' }); assert.equal(await filter.inputValue(), '1');
+      await page.getByRole('button', { name: 'Reset filters' }).click();
+      assert.equal(await filter.inputValue(), ''); assert.doesNotMatch(page.url(), /luxury=/);
+      assert.equal(await page.locator('.card:visible').count(), index.styles.length);
+      // A response-only fixture makes one real card luxury without modifying
+      // catalogue/style sources or falsely publishing a new ready direction.
+      const sample = index.styles[0];
+      await page.route(server.url + '*', async route => {
+        if (route.request().resourceType() !== 'document') return route.continue();
+        const response = await route.fetch(), html = await response.text();
+        const data = structuredClone(index); data.styles.forEach(s => s.tags = s.tags.filter(t => t !== 'luxury')); data.styles[0].tags.push('luxury');
+        await route.fulfill({ response, body: html.replace(/(<script id="atlas-data" type="application\/json">)[\s\S]*?(<\/script>)/, (_, start, end) => start + JSON.stringify(data).replaceAll('<', '\\u003c') + end) });
+      });
+      await page.reload({ waitUntil: 'networkidle' }); await filter.selectOption('1');
+      assert.deepEqual(await page.locator('.card:visible').evaluateAll(cards => cards.map(c => c.dataset.style)), [sample.id]);
+      await page.getByLabel('Search the atlas').fill(sample.name);
+      await page.getByLabel('Families', { exact: true }).selectOption(sample.family);
+      assert.equal(await page.locator('.card:visible').count(), 1);
+      await page.reload({ waitUntil: 'networkidle' }); assert.equal(await filter.inputValue(), '1'); assert.equal(await page.locator('.card:visible').count(), 1);
+      await page.getByLabel('Search the atlas').fill('zzzz-no-match'); assert.equal(await page.locator('#empty').isVisible(), true);
+      await page.getByRole('button', { name: 'Reset filters' }).click();
+      assert.equal(await filter.inputValue(), ''); assert.equal(await page.getByLabel('Search the atlas').inputValue(), '');
+      assert.equal(await page.getByLabel('Families', { exact: true }).inputValue(), '');
+      assert.equal(await page.locator('.card:visible').count(), index.styles.length);
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
+      assert.deepEqual(errors, []);
+      if (process.env.ATLAS_GALLERY_EVIDENCE) {
+        mkdirSync(process.env.ATLAS_GALLERY_EVIDENCE, { recursive: true });
+        await page.screenshot({ path: process.env.ATLAS_GALLERY_EVIDENCE + `/p26-filter-${width}.png`, animations: 'disabled' });
+      }
+      await page.close();
+    }
+  } finally { await server.close(); await browser.close(); }
+});

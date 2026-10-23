@@ -24,3 +24,8 @@ filters, so narrowing search does not lose a chosen comparison. `compare`, `styl
 Use one direction as the primary handoff and copy its actual ID/A/B composition.
 `config.json` supplies the repository URL. An unset/unsafe URL produces an explicit
 ATLAS_REPOSITORY_URL placeholder. Clipboard denial exposes selectable text.
+
+The `Prabanga` select filters only styles explicitly tagged `luxury`. Its URL
+state is `luxury=1` and combines with the other filters and search. Reset clears
+it along with all filter fields. With no ready luxury styles, it honestly shows
+the existing empty state; planned cards are never promoted into the catalogue.
