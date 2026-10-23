@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "newsreader",
+      "path": "assets/fonts/newsreader/Newsreader-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/newsreader",
+      "creator": "The Newsreader Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/newsreader/OFL.txt",
+      "attribution": "Newsreader Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Weight 400; subset Latin, Lithuanian and punctuation, WOFF2."
+      ]
+    },
+    {
+      "id": "figtree",
+      "path": "assets/fonts/figtree/Figtree-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/figtree",
+      "creator": "The Figtree Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/figtree/OFL.txt",
+      "attribution": "Figtree Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Weight 400; subset Latin, Lithuanian and punctuation, WOFF2."
+      ]
+    },
+    {
+      "id": "forest",
+      "path": "assets/forest.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg",
+      "creator": "Austin Schmid",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Austin Schmid via Wikimedia Commons",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized to maximum 1440px",
+        "Metadata stripped",
+        "WebP quality 80"
+      ]
+    },
+    {
+      "id": "lake",
+      "path": "assets/lake.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sprague_Lake_at_Sunset_(29560309357).jpg",
+      "creator": "NPS / M. Reed",
+      "license": "PD-USGov",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "NPS / M. Reed via Wikimedia Commons",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized to maximum 1440px",
+        "Metadata stripped",
+        "WebP quality 80"
+      ]
+    },
+    {
+      "id": "pavilion",
+      "path": "assets/pavilion.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-04817",
+      "redistribution_allowed": true,
+      "modifications": [
+        "1280px Wikimedia derivative",
+        "Converted to monochrome",
+        "Metadata stripped",
+        "Lossless WebP with 64-step monochrome palette",
+        "Responsive CSS detail crop where labeled"
+      ]
+    }
+  ]
+}

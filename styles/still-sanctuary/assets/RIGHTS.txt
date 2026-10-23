@@ -1,0 +1,25 @@
+S56 — Still Sanctuary
+
+Three illustrative photographs, reused without changing their bytes from the rights-documented atlas assets. They do not depict the invented Auvrėja retreats; the references state their illustrative role.
+
+forest.webp — Austin Schmid, Mist around a forest (2016), CC0-1.0.
+Source: https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg
+Published before 5 June 2017 under CC0, as documented by the file page. Resized to maximum 1440px, metadata stripped, WebP quality 80.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+lake.webp — NPS / M. Reed, Sprague Lake at Sunset (2018), PD-USGov.
+Source: https://commons.wikimedia.org/wiki/File:Sprague_Lake_at_Sunset_(29560309357).jpg
+Official National Park Service employee photograph, public domain in the United States; reviewed Public Domain Mark. Resized to maximum 1440px, metadata stripped, WebP quality 80.
+
+pavilion.webp — Carol M. Highsmith, Glass House (2006), LC-DIG-highsm-04817.
+Source: https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg
+Primary rights: https://www.loc.gov/rr/print/res/482_high.html
+Public domain by Highsmith dedication. 1280px derivative, monochrome conversion, metadata stripped, lossless WebP with 64-step palette. It illustrates a quiet relationship between architecture and trees, not an actual bookable villa.
+
+Fonts
+Newsreader — The Newsreader Project Authors. Source: https://github.com/google/fonts/tree/main/ofl/newsreader
+Newsreader[opsz,wght].ttf instanced at weight 400, optical size 48; Latin, Lithuanian and punctuation subset, all OpenType features, WOFF2. Full original OFL.txt alongside.
+Figtree — The Figtree Project Authors. Source: https://github.com/google/fonts/tree/main/ofl/figtree
+Existing weight-400 Latin/Lithuanian WOFF2 subset, unchanged. Full original OFL.txt alongside.
+
+Original interface, writing and implementation: Web Style Atlas contributors, MIT. Auvrėja, regions, villas and rituals are invented. No AI imagery. Name check: exact Auvreja/Auvrėja web searches on 2026-10-23 returned no matching business; see S56 evidence. No endorsement from the pictured places or photographers is implied.

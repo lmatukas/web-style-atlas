@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 43. Drafts and templates are excluded.
+Ready styles: 44. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -43,6 +43,7 @@ Ready styles: 43. Drafts and templates are excluded.
 | [Seasonal Terrain](../styles/seasonal-terrain/style.md) | tactile | An irregular three-layer soil study connects the year’s seasons to a useful vegetable basket and delivery brief. | [A: Soil story and seasonal basket](../styles/seasonal-terrain/reference/index.html) · [B: Annual calendar and stepped basket](../styles/seasonal-terrain/reference/alternate.html) |
 | [Soft Spatial](../styles/soft-spatial/style.md) | spatial | Soft sculptural volumes, diffuse light and generous depth cues support a single object study and a layered practice overview. | [A: Single ambient object](../styles/soft-spatial/reference/index.html) · [B: Layered practice overview](../styles/soft-spatial/reference/alternate.html) |
 | [Spine Editions](../styles/spine-editions/style.md) | editorial | A vertical book spine, thematic edition shelves and original openable excerpts lead to a device-local reading list. | [A: Vertical spine and three thematic shelves](../styles/spine-editions/reference/index.html) · [B: Edition index and excerpt reading spread](../styles/spine-editions/reference/alternate.html) |
+| [Still Sanctuary](../styles/still-sanctuary/style.md) | photographic | Quiet landscapes, warm sand and an interactive day ritual that changes the page light, ending in a useful local stay enquiry. | [A: Regional retreat directory](../styles/still-sanctuary/reference/index.html) · [B: One place and a day itinerary](../styles/still-sanctuary/reference/alternate.html) |
 | [Swiss Grid](../styles/swiss-grid/style.md) | typographic | Numbered typographic grids, oversized alignment and precise service or portfolio indexes. | [A: Typographic service index](../styles/swiss-grid/reference/index.html) · [B: Asymmetric work catalogue](../styles/swiss-grid/reference/alternate.html) |
 | [Terminal Utility](../styles/terminal-utility/style.md) | technical | A readable command index and chronological information panels with a consistent monospace voice. | [A: Command-like service index](../styles/terminal-utility/reference/index.html) · [B: Chronological log with information panels](../styles/terminal-utility/reference/alternate.html) |
 | [Trail Composer](../styles/trail-composer/style.md) | illustrative | A paper trail and transparent three-input selection produce an imaginary day plan, linked preparation checklist and current UTF-8 download. | [A: Vertical paper trail and trip moods](../styles/trail-composer/reference/index.html) · [B: Day-plan ledger and linked preparation](../styles/trail-composer/reference/alternate.html) |

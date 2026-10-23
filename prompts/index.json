@@ -400,6 +400,27 @@
         "twilight-expedition"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S56",
+      "style_id": "still-sanctuary",
+      "name": "Still Sanctuary",
+      "family": "photographic",
+      "language": "lt",
+      "prompt_path": "prompts/still-sanctuary/prompt.lt.md",
+      "demo_brand": "Auvrėja",
+      "variants": {
+        "a": "Regionų katalogas su peizažų eilėmis, ritualais ir viešnagės užklausa",
+        "b": "Vienos vietos istorija, dienos ritualai ir vilų pasirinkimas"
+      },
+      "signature": "Trys dienos ritualai keičia nuotrauką ir šiltą puslapio šviesą; ramus didelis peizažas ir tikra vietinė užklausa.",
+      "acceptance": "Paros metas keičia tikrą vaizdą, tekstą ir puslapio foną; regionas, datos ir ritualai validuojami, patvirtinimas tik vietinis, išvalymas veikia.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "field-notes",
+        "cinematic-photo"
+      ],
+      "audio": false
     }
   ]
 }

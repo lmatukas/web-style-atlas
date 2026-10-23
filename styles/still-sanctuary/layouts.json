@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Regional retreat directory",
+      "page_type": "hospitality",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible region/place links and one stay action; local anchors remain native.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose a feeling",
+          "pattern": "Single full-screen forest photograph",
+          "content_requirements": [
+            "Quiet title",
+            "One stay action"
+          ]
+        },
+        {
+          "purpose": "Choose a region",
+          "pattern": "Three landscape rows with ruled numbering",
+          "content_requirements": [
+            "Forest",
+            "Lake",
+            "Garden"
+          ]
+        },
+        {
+          "purpose": "Choose the hour",
+          "pattern": "Three-part day ritual with changing page light",
+          "content_requirements": [
+            "Morning",
+            "Day",
+            "Evening"
+          ]
+        },
+        {
+          "purpose": "Plan a stay",
+          "pattern": "Inline local enquiry",
+          "content_requirements": [
+            "Region",
+            "Dates",
+            "Rituals",
+            "Validation and summary"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stack region photo above description, keep the quiet photographic first screen and three equal touch controls; enquiry becomes one column.",
+      "distinguishing_features": [
+        "Quiet landscape dominates",
+        "Ruled day ritual changes photo and light",
+        "Real local stay enquiry"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "One place and a day itinerary",
+      "page_type": "hospitality",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible region/place links and one stay action; local anchors remain native.",
+      "ordered_sections": [
+        {
+          "purpose": "Meet the place",
+          "pattern": "Split sand title and large lake photograph",
+          "content_requirements": [
+            "Place name",
+            "Six villas"
+          ]
+        },
+        {
+          "purpose": "Follow the day",
+          "pattern": "Ritual buttons and schedule image",
+          "content_requirements": [
+            "Three times",
+            "Light and photo change"
+          ]
+        },
+        {
+          "purpose": "Compare villas",
+          "pattern": "Two editorial villa descriptions",
+          "content_requirements": [
+            "Area",
+            "Guest capacity",
+            "Illustrative photos"
+          ]
+        },
+        {
+          "purpose": "Plan a stay",
+          "pattern": "Same enquiry contract in a quiet closing section",
+          "content_requirements": [
+            "Region",
+            "Dates",
+            "Rituals",
+            "Local confirmation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Replace the split hero with a full-bleed lake and low heading; itinerary and villas stack, native inputs stay full width.",
+      "distinguishing_features": [
+        "Quiet landscape dominates",
+        "Ruled day ritual changes photo and light",
+        "Real local stay enquiry"
+      ]
+    }
+  ]
+}
