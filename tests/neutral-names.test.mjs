@@ -28,8 +28,13 @@ test('reference pages carry no external website links', () => {
 
 test('reference pages do not reuse retired real-world brand names', () => {
   for (const page of pages) {
-    const html = readFileSync(page, 'utf8').toLowerCase();
-    for (const name of RETIRED_NAMES) assert.ok(!html.includes(name.toLowerCase()), `${page} uses retired name ${name}`);
-    for (const word of RETIRED_WORDS) assert.ok(!new RegExp(`\\b${word.toLowerCase()}\\b`).test(html), `${page} uses retired name ${word}`);
+    const html = readFileSync(page, 'utf8');
+    // Title case and capitals only: lowercase "public room" is ordinary prose.
+    for (const name of RETIRED_NAMES) {
+      for (const form of [name, name.toUpperCase()]) assert.ok(!html.includes(form), `${page} uses retired name ${form}`);
+    }
+    for (const word of RETIRED_WORDS) {
+      assert.ok(!new RegExp(`\\b(${word}|${word.toUpperCase()}|${word.toLowerCase()})\\b`).test(html), `${page} uses retired name ${word}`);
+    }
   }
 });
