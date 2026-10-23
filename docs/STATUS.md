@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 80/90.**
+**Baigta: 81/90.**
 
-**Pirmiausia patikrinti S55: Laukia peržiūros; vykdytojas agent/claude-opus-cowork-01D6QAux.**
+**Kita užduotis: [S56](tasks/S56.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -90,7 +90,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Baigta | agent/1a045315e5ea | task/s52-obsidian-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/115) | 2026-10-23T14:19:46Z | S52 accepted; S53 is the next eligible task. |
 | [S53](tasks/S53.md) | Nauja kryptis: Luminous Cut Vitrine | Baigta | agent/claude-opus-cowork-01D6QAux | task/s53-luminous-cut-vitrine | [PR](https://github.com/lmatukas/web-style-atlas/pull/118) | 2026-10-23T15:10:35Z | S53 accepted; S54 is the next eligible task. |
 | [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Baigta | agent/1dca4071cc2e | task/s54-escapement-nocturne | [PR](https://github.com/lmatukas/web-style-atlas/pull/119) | 2026-10-23T18:07:48Z | S54 accepted; S55 is the next eligible task. |
-| [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Laukia peržiūros | agent/claude-opus-cowork-01D6QAux | task/s55-midnight-vestibule | [PR](https://github.com/lmatukas/web-style-atlas/pull/121) | 2026-10-23T19:29:54Z | Review canonical PNGs, pass Atlas validation, merge PR #121. |
+| [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Baigta | agent/claude-opus-cowork-01D6QAux | task/s55-midnight-vestibule | [PR](https://github.com/lmatukas/web-style-atlas/pull/121) | 2026-10-23T19:51:54Z | S55 accepted; S56 is the next eligible task. |
 | [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Laukia | — | — | — | — | Claim S56 ir vykdyti pagal docs/tasks/S56.md. |
 | [S57](tasks/S57.md) | Nauja kryptis: Heirloom Weave Ledger | Laukia | — | — | — | — | Claim S57 ir vykdyti pagal docs/tasks/S57.md. |
 | [S58](tasks/S58.md) | Nauja kryptis: Velvet Members Hall | Laukia | — | — | — | — | Claim S58 ir vykdyti pagal docs/tasks/S58.md. |

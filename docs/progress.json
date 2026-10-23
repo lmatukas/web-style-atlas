@@ -4090,7 +4090,7 @@
     {
       "id": "S55",
       "title": "Nauja kryptis: Midnight Vestibule",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S54"
       ],
@@ -4107,13 +4107,18 @@
         },
         {
           "name": "canonical previews workflow",
-          "status": "not_run",
-          "details": "Dispatched for task/s55-midnight-vestibule."
+          "status": "pass",
+          "details": "Runs 40011837689 and 40012164053 (after the edge-tab fix); final PNGs 84804cb3, largest 2521438 bytes under the 3 MiB photo limit; all four inspected."
         },
         {
           "name": "PR GitHub CI",
-          "status": "not_run",
-          "details": "Runs after canonical previews are committed."
+          "status": "pass",
+          "details": "Atlas validation run 40013762348 on exact head 6052d6f164b351c0cb25204264b9819758e837d4: scope, source/generated (97/97 unit tests) and browser/accessibility/runtime jobs passed."
+        },
+        {
+          "name": "visual rubric and wow bar",
+          "status": "pass",
+          "details": "11/12, recognition and distinction 2; all ten luxury criteria met (docs/evidence/S55.md)."
         }
       ],
       "evidence_paths": [
@@ -4121,15 +4126,15 @@
       ],
       "worker": "agent/claude-opus-cowork-01D6QAux",
       "claimed_at": "2026-10-23T18:41:20Z",
-      "updated_at": "2026-10-23T19:29:54Z",
+      "updated_at": "2026-10-23T19:51:54Z",
       "branch": "task/s55-midnight-vestibule",
       "base_commit": "ec5444ba909e41615f1dafa0e4c4cc36a7bf6fd9",
-      "evidence_commit": "d54d82b89ba03456df4a25f8882b8930b9bd602e",
-      "merge_commit": null,
+      "evidence_commit": "6052d6f164b351c0cb25204264b9819758e837d4",
+      "merge_commit": "251b776f7fcf3edd36ff4ffbf0c5e62e2c02a5fb",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/121",
       "blocker": null,
-      "next_action": "Review canonical PNGs, pass Atlas validation, merge PR #121.",
-      "handoff": "Implementation on task/s55-midnight-vestibule (PR #121). Depends on #120 (3 MiB photo preview limit), merged."
+      "next_action": "S55 accepted; S56 is the next eligible task.",
+      "handoff": "PR #121 merged as 251b776f after canonical previews and Atlas validation passed. Shared follow-up #120 (3 MiB photo previews, media budget) merged first. S56 has not been claimed."
     },
     {
       "id": "S56",
