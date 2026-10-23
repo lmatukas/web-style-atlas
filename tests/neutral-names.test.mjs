@@ -10,6 +10,8 @@ const RETIRED_NAMES = [
   'Relay Works', 'Public Room', 'Small Wonders', 'Loud Assembly', 'Ellis Editions',
 ];
 const RETIRED_WORDS = ['Mora'];
+// Ordinary phrases in lowercase prose; only their name forms are retired.
+const EVERYDAY_PHRASES = new Set(['Public Room', 'Common Ground']);
 const ALLOWED_HOSTS = new Set(['www.w3.org']);
 
 const pages = readdirSync('styles').flatMap(id => {
@@ -28,10 +30,12 @@ test('reference pages carry no external website links', () => {
 
 test('reference pages do not reuse retired real-world brand names', () => {
   for (const page of pages) {
-    const html = readFileSync(page, 'utf8');
-    // Title case and capitals only: lowercase "public room" is ordinary prose.
+    // Strip inline tags so a logo split as "small<br><span>wonders" still matches.
+    const html = readFileSync(page, 'utf8').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
     for (const name of RETIRED_NAMES) {
-      for (const form of [name, name.toUpperCase()]) assert.ok(!html.includes(form), `${page} uses retired name ${form}`);
+      const forms = [name, name.toUpperCase()];
+      if (!EVERYDAY_PHRASES.has(name)) forms.push(name.toLowerCase());
+      for (const form of forms) assert.ok(!html.includes(form), `${page} uses retired name ${form}`);
     }
     for (const word of RETIRED_WORDS) {
       assert.ok(!new RegExp(`\\b(${word}|${word.toUpperCase()}|${word.toLowerCase()})\\b`).test(html), `${page} uses retired name ${word}`);
