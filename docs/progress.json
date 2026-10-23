@@ -4232,7 +4232,7 @@
     {
       "id": "S58",
       "title": "Nauja kryptis: Velvet Members Hall",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S57"
       ],
@@ -4256,6 +4256,16 @@
           "name": "canonical GitHub preview workflow",
           "status": "pass",
           "details": "Run 40031455512 succeeded for task/s58-velvet-members-hall / velvet-members-hall. Current local canonical PNG hashes verified; workflow skipped a redundant render and changed no bytes."
+        },
+        {
+          "name": "exact-head GitHub CI and merge",
+          "status": "pass",
+          "details": "Run 40031636641: scope/queue, source/generated, browser/accessibility all passed at 0b2226e3db2723b610c3ceb8d303ad195057de37. PR #125 merged at 3c1de2d22d2883b0fbc2c9bff555e76910b50477; no review comments or threads at merge."
+        },
+        {
+          "name": "final offscreen and mobile scrolling",
+          "status": "pass",
+          "details": "A/B actual offscreen suspension, stable frame counts and re-entry settlement passed; real CDP vertical touch drag scrolls 390px mobile pages."
         }
       ],
       "evidence_paths": [
@@ -4263,15 +4273,15 @@
       ],
       "worker": "agent/8cd832e894f0",
       "claimed_at": "2026-10-23T21:47:52Z",
-      "updated_at": "2026-10-23T22:09:11Z",
+      "updated_at": "2026-10-23T22:19:49Z",
       "branch": "task/s58-velvet-members-hall",
       "base_commit": "2258e8921a0a884f5902576bc7e8123f748bb7aa",
       "evidence_commit": "0b2226e3db2723b610c3ceb8d303ad195057de37",
-      "merge_commit": null,
+      "merge_commit": "3c1de2d22d2883b0fbc2c9bff555e76910b50477",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/125",
       "blocker": null,
-      "next_action": "Verify exact-head PR #125 checks, merge the accepted implementation, record actual merge and stop after S58.",
-      "handoff": "S58 implemented in PR #125. Local unit, six responsive axe pages, service/runtime QA and all four canonical PNGs pass. Canonical GitHub workflow 40031455512 passed its freshness gate without changing bytes. PR CI 40031636641 is running. S59 remains unclaimed."
+      "next_action": "S58 accepted; S59 is the next eligible task and remains unclaimed.",
+      "handoff": "S58 implementation PR #125 merged at 3c1de2d22d2883b0fbc2c9bff555e76910b50477. All three required CI jobs passed at exact head 0b2226e3db2723b610c3ceb8d303ad195057de37; canonical preview freshness workflow passed. Final responsive axe, offscreen suspension and real mobile touch-scrolling checks passed. Stop after S58."
     },
     {
       "id": "S59",
