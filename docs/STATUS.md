@@ -4,7 +4,7 @@
 
 **Baigta: 79/90.**
 
-**Kita užduotis: [S54](tasks/S54.md).**
+**Pirmiausia patikrinti S54: Vykdoma; vykdytojas agent/1dca4071cc2e.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -89,7 +89,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P26](tasks/P26.md) | Prabangos gairės, žyma ir vardų patikra | Baigta | agent/458cee2ac60f | task/p26-luxury-guide | [PR](https://github.com/lmatukas/web-style-atlas/pull/112) | 2026-10-23T08:19:20Z | P26 accepted; S52 is the next eligible task. |
 | [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Baigta | agent/1a045315e5ea | task/s52-obsidian-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/115) | 2026-10-23T14:19:46Z | S52 accepted; S53 is the next eligible task. |
 | [S53](tasks/S53.md) | Nauja kryptis: Luminous Cut Vitrine | Baigta | agent/claude-opus-cowork-01D6QAux | task/s53-luminous-cut-vitrine | [PR](https://github.com/lmatukas/web-style-atlas/pull/118) | 2026-10-23T15:10:35Z | S53 accepted; S54 is the next eligible task. |
-| [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Laukia | — | — | — | — | Claim S54 ir vykdyti pagal docs/tasks/S54.md. |
+| [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Vykdoma | agent/1dca4071cc2e | task/s54-escapement-nocturne | — | 2026-10-23T15:31:44Z | Implement S54, verify both watch compositions and publish one PR. |
 | [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Laukia | — | — | — | — | Claim S55 ir vykdyti pagal docs/tasks/S55.md. |
 | [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Laukia | — | — | — | — | Claim S56 ir vykdyti pagal docs/tasks/S56.md. |
 | [S57](tasks/S57.md) | Nauja kryptis: Heirloom Weave Ledger | Laukia | — | — | — | — | Claim S57 ir vykdyti pagal docs/tasks/S57.md. |

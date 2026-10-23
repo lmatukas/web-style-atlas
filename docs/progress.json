@@ -4026,23 +4026,23 @@
     {
       "id": "S54",
       "title": "Nauja kryptis: Escapement Nocturne",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S53"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/1dca4071cc2e",
+      "claimed_at": "2026-10-23T15:31:44Z",
+      "updated_at": "2026-10-23T15:31:44Z",
+      "branch": "task/s54-escapement-nocturne",
+      "base_commit": "b94babd67c888d8be20282e3c880129536c66226",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S54 ir vykdyti pagal docs/tasks/S54.md.",
-      "handoff": null
+      "next_action": "Implement S54, verify both watch compositions and publish one PR.",
+      "handoff": "Claimed by agent/1dca4071cc2e on the owner’s next-task request; no open task PRs or active claims."
     },
     {
       "id": "S55",
