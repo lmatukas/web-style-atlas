@@ -4,7 +4,7 @@
 
 **Baigta: 82/90.**
 
-**Pirmiausia patikrinti S57: Vykdoma; vykdytojas agent/961b497eaa3a.**
+**Pirmiausia patikrinti S57: Laukia peržiūros; vykdytojas agent/961b497eaa3a.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -92,7 +92,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Baigta | agent/1dca4071cc2e | task/s54-escapement-nocturne | [PR](https://github.com/lmatukas/web-style-atlas/pull/119) | 2026-10-23T18:07:48Z | S54 accepted; S55 is the next eligible task. |
 | [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Baigta | agent/claude-opus-cowork-01D6QAux | task/s55-midnight-vestibule | [PR](https://github.com/lmatukas/web-style-atlas/pull/121) | 2026-10-23T19:51:54Z | S55 accepted; S56 is the next eligible task. |
 | [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Baigta | agent/961b497eaa3a | task/s56-still-sanctuary | [PR](https://github.com/lmatukas/web-style-atlas/pull/122) | 2026-10-23T21:11:12Z | S56 accepted; S57 is next under the authorised sequential batch. |
-| [S57](tasks/S57.md) | Nauja kryptis: Heirloom Weave Ledger | Vykdoma | agent/961b497eaa3a | task/s57-heirloom-weave-ledger | — | 2026-10-23T21:11:54Z | Implement S57; owner authorised sequential S56 then S57 with merge. |
+| [S57](tasks/S57.md) | Nauja kryptis: Heirloom Weave Ledger | Laukia peržiūros | agent/961b497eaa3a | task/s57-heirloom-weave-ledger | [PR](https://github.com/lmatukas/web-style-atlas/pull/123) | 2026-10-23T21:30:32Z | Verify previews.yml branch task/s57-heirloom-weave-ledger / style heirloom-weave-ledger and exact-head CI; merge #123, mark done, then stop. |
 | [S58](tasks/S58.md) | Nauja kryptis: Velvet Members Hall | Laukia | — | — | — | — | Claim S58 ir vykdyti pagal docs/tasks/S58.md. |
 | [S59](tasks/S59.md) | Nauja kryptis: Patina Auction Room | Laukia | — | — | — | — | Claim S59 ir vykdyti pagal docs/tasks/S59.md. |
 | [S60](tasks/S60.md) | Nauja kryptis: Openwater Deck | Laukia | — | — | — | — | Claim S60 ir vykdyti pagal docs/tasks/S60.md. |

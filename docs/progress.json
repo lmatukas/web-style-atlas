@@ -4188,23 +4188,46 @@
     {
       "id": "S57",
       "title": "Nauja kryptis: Heirloom Weave Ledger",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S56"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "source/build/check and unit tests",
+          "status": "pass",
+          "details": "45 styles, 180 previews current; 97/97 unit tests."
+        },
+        {
+          "name": "style/accessibility/runtime QA",
+          "status": "pass",
+          "details": "6 responsive pages; 10 cases; 36 live combinations; 16 focused errors; 4 genuine scroll changes and actual SVG/pixel checks."
+        },
+        {
+          "name": "canonical local previews and visual rubric",
+          "status": "pass",
+          "details": "Four PNGs actually viewed; 11/12; largest 1,003,944 bytes, below 1 MiB; photos/fonts fit their budgets."
+        },
+        {
+          "name": "canonical GitHub previews and PR CI",
+          "status": "not_run",
+          "details": "PR #123 CI and separately dispatched canonical preview workflow awaiting completion."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S57.md"
+      ],
       "worker": "agent/961b497eaa3a",
       "claimed_at": "2026-10-23T21:11:54Z",
-      "updated_at": "2026-10-23T21:11:54Z",
+      "updated_at": "2026-10-23T21:30:32Z",
       "branch": "task/s57-heirloom-weave-ledger",
       "base_commit": "0cd193be41c2a043b950aad55036b846426c4f73",
-      "evidence_commit": null,
+      "evidence_commit": "9e6f64caaf90c08ef45356ec2a45256f6596b8e3",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/123",
       "blocker": null,
-      "next_action": "Implement S57; owner authorised sequential S56 then S57 with merge.",
-      "handoff": "S56 merged and accepted; second task in owner-authorised batch."
+      "next_action": "Verify previews.yml branch task/s57-heirloom-weave-ledger / style heirloom-weave-ledger and exact-head CI; merge #123, mark done, then stop.",
+      "handoff": "Second and final task in owner-authorised S56/S57 batch. S56 merged/accepted first. PR #123 ready; do not claim S58."
     },
     {
       "id": "S58",
