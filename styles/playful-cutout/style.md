@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Playful Cutout gives an imagined community making day an inviting, illustration-led identity. The fictional Small Wonders gathering uses paper tools, folded forms and short friendly instructions to encourage curiosity. It suits cultural events, creative campaigns and informal portfolios. The tone should be lively without making the interface unpredictable. Visitors need to understand the activities and follow a simple story; they should not have to chase moving stickers or decode an illustrated object as an unlabeled control.
+Playful Cutout gives an imagined community making day an inviting, illustration-led identity. The fictional Snipwhistle gathering uses paper tools, folded forms and short friendly instructions to encourage curiosity. It suits cultural events, creative campaigns and informal portfolios. The tone should be lively without making the interface unpredictable. Visitors need to understand the activities and follow a simple story; they should not have to chase moving stickers or decode an illustrated object as an unlabeled control.
 
 ## Signature
 
@@ -35,7 +35,7 @@ Cream provides a warm ground, plum anchors text and key links, and a soft yellow
 
 ## Layout A
 
-A compact Small Wonders identity leads to a two-part invitation: large friendly words and a reserved scene where a pencil, scissors and folded paper overlap. A short event strip supplies fictional context and a real activities anchor. Below, three numbered activity rows explain folding, marking and trying a new shape. A dark closing band links to the separate story composition. Native practical notes and the demonstration colophon finish the page without an inert ticket button or registration form.
+A compact Snipwhistle identity leads to a two-part invitation: large friendly words and a reserved scene where a pencil, scissors and folded paper overlap. A short event strip supplies fictional context and a real activities anchor. Below, three numbered activity rows explain folding, marking and trying a new shape. A dark closing band links to the separate story composition. Native practical notes and the demonstration colophon finish the page without an inert ticket button or registration form.
 
 ## Layout B
 

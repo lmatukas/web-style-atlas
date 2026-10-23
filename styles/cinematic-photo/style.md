@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Cinematic Photo is a photographic direction for a visual travel journal, a place-led portfolio or an atmospheric hospitality story. The fictional Afterlight journal uses real landscapes to invite unhurried attention. A visitor should feel the scale of an image before reading supporting prose. Photography controls the sequence, while typography provides a small number of clear narrative anchors. The direction requires a credible image supply; a gradient or generic gray rectangle cannot replace its primary material. No video, autoplay or WebGL is necessary.
+Cinematic Photo is a photographic direction for a visual travel journal, a place-led portfolio or an atmospheric hospitality story. The fictional Dusklore journal uses real landscapes to invite unhurried attention. A visitor should feel the scale of an image before reading supporting prose. Photography controls the sequence, while typography provides a small number of clear narrative anchors. The direction requires a credible image supply; a gradient or generic gray rectangle cannot replace its primary material. No video, autoplay or WebGL is necessary.
 
 ## Signature
 

@@ -1,1 +1,6 @@
-Original code-authored botanical line studies by Web Style Atlas contributors (Codex, S19), 2026; MIT under root LICENSE. Stylized illustrations, not identification plates. Not derived from Kew images; Kew POWO is consulted only for accepted names.
+Original code-authored botanical line studies by Web Style Atlas contributors (S19), 2026; MIT under root LICENSE. Stylized illustrations, not identification plates. Not derived from third-party images; a botanical name database (Kew Plants of the World Online) was consulted only for accepted names.
+
+Accepted name records consulted:
+- Sage: https://powo.science.kew.org/taxon/456833-1
+- Lavender: https://powo.science.kew.org/taxon/449008-1
+- Rosemary: https://powo.science.kew.org/taxon/457138-1

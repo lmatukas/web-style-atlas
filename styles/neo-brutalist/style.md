@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Neo Brutalist is an outspoken direction for an independent ideas event. The fictional Loud Assembly brings designers, organisers and curious neighbours into the same room. It should feel immediate, public and slightly unruly while remaining genuinely usable. Oversized language, exposed borders and strong fields carry the offer. This is appropriate for campaigns, cultural events and organisations with a clear voice. It is less suitable when the primary task is sustained quiet reading or comparison across hundreds of small product records.
+Neo Brutalist is an outspoken direction for an independent ideas event. The fictional Shoutmoot brings designers, organisers and curious neighbours into the same room. It should feel immediate, public and slightly unruly while remaining genuinely usable. Oversized language, exposed borders and strong fields carry the offer. This is appropriate for campaigns, cultural events and organisations with a clear voice. It is less suitable when the primary task is sustained quiet reading or comparison across hundreds of small product records.
 
 ## Signature
 

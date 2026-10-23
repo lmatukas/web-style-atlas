@@ -1,5 +1,5 @@
-fragment.svg: original pencil-style sketch by Web Style Atlas contributors (Claude, S51), MIT.
+fragment.svg: original pencil-style sketch by Web Style Atlas contributors (S51), MIT.
 No photograph or third-party image is used in this drawing.
-route.svg: original code-authored fictional loop diagram by Web Style Atlas contributors (Codex, S09), MIT.
+route.svg: original code-authored fictional loop diagram by Web Style Atlas contributors (S09), MIT.
 No coordinates or real navigational claim. No third-party fonts.
 The forest photograph used before S51 was removed from this style; Cinematic Photo keeps its own rights record.

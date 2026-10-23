@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Field Notes presents a journey as a record of observations rather than a destination advertisement. The fictional Waymark notebook combines a short travel fragment, marginal annotations and a route diary. It suits personal journals, travel writing and small documentary projects. Readers should understand what was noticed, when it was recorded and which parts are illustrative. The references use an original sketch beside explicitly fictional notes and a schematic route, without implying the drawing documents that invented journey.
+Field Notes presents a journey as a record of observations rather than a destination advertisement. The fictional Cairnwise notebook combines a short travel fragment, marginal annotations and a route diary. It suits personal journals, travel writing and small documentary projects. Readers should understand what was noticed, when it was recorded and which parts are illustrative. The references use an original sketch beside explicitly fictional notes and a schematic route, without implying the drawing documents that invented journey.
 
 ## Signature
 

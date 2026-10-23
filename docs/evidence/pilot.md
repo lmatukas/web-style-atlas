@@ -1,6 +1,6 @@
 # P04 — Three-direction pilot and v1 contract freeze
 
-2026-10-20. Actual rendered pilot reviewed by Codex under owner-authorized
+2026-10-20. Actual rendered pilot reviewed by an agent under owner-authorized
 sequential work. S01/S02/S03 were merged independently and verified before this
 review. No further style production started before this pilot's acceptance.
 

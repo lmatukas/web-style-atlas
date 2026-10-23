@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Organic Craft is a tactile direction for independent makers, material-led portfolios and small collections of useful objects. The fictional Mora ceramics studio demonstrates how a digital page can suggest touch without pretending to be a photograph or a working shop. Visitors first meet the material and its making, then study a few objects. Warmth comes from irregular forms, generous space and specific language about surfaces, rather than decorative leaves or a generic collection of rounded cards.
+Organic Craft is a tactile direction for independent makers, material-led portfolios and small collections of useful objects. The fictional Kilnrue ceramics studio demonstrates how a digital page can suggest touch without pretending to be a photograph or a working shop. Visitors first meet the material and its making, then study a few objects. Warmth comes from irregular forms, generous space and specific language about surfaces, rather than decorative leaves or a generic collection of rounded cards.
 
 ## Signature
 

@@ -19,8 +19,11 @@ metadata, encode lossless WebP with a 64-step monochrome palette. A detail figur
 same Farnsworth photograph. The local conversions do not create new restrictions.
 
 plan.svg: original MIT code-authored schematic by Web Style Atlas contributors
-(Codex, S22). It interprets enclosure, threshold and terrace relationships. It is
+(S22). It interprets enclosure, threshold and terrace relationships. It is
 not a survey, precise floor plan, reproduction of an archival drawing or source
 of construction dimensions. Do not use for construction or represent it as measured.
 Building information checked against the official Edith Farnsworth House history
-and The Glass House building account; both are linked from the references.
+and The Glass House building account:
+https://edithfarnsworthhouse.org/history-farnsworth-house/
+https://theglasshouse.org/explore/the-glass-house/
+The reference pages link to this record instead of external sites.

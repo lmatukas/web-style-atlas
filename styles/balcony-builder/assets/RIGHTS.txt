@@ -1,1 +1,5 @@
-Original overhead modular-planter and botanical SVG artwork, branch sketch, code and Lithuanian demonstration copy by Codex for Web Style Atlas. MIT repository license. No third-party images, models, logos, recordings or bundled fonts. System DejaVu Sans/Arial only. General light-group principles were paraphrased from University of Maryland Extension and Iowa State University; links are in FAQ and notes/sources.md, with no imported assets or copied wording.
+Original overhead modular-planter and botanical SVG artwork, branch sketch, code and Lithuanian demonstration copy by Web Style Atlas contributors. MIT repository license. No third-party images, models, logos, recordings or bundled fonts. System DejaVu Sans/Arial only. General light-group principles were paraphrased from university extension guidance, with no imported assets or copied wording.
+
+Sources consulted (2026-10-21), also recorded in notes/sources.md:
+- University of Maryland Extension: https://www.extension.umd.edu/resource/growing-vegetables-containers-and-salad-tables
+- Iowa State University: https://yardandgarden.extension.iastate.edu/how-to/growing-edible-plants-shady-areas
