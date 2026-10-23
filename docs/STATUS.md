@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 77/90.**
+**Baigta: 78/90.**
 
-**Pirmiausia patikrinti S52: Laukia peržiūros; vykdytojas agent/1a045315e5ea.**
+**Kita užduotis: [S53](tasks/S53.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -87,7 +87,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Baigta | agent/session-P23 | task/p23-final-evidence | [PR](https://github.com/lmatukas/web-style-atlas/pull/100) | 2026-10-23T03:19:07Z | Nėra. Užduotis baigta. |
 | [P25](tasks/P25.md) | Šriftų, vaizdų ir 3D pamatai prabangos kryptims | Baigta | agent/458cee2ac60f | task/p25-luxury-foundations | [PR](https://github.com/lmatukas/web-style-atlas/pull/109) | 2026-10-23T07:24:39Z | P25 accepted; P26 eligible. |
 | [P26](tasks/P26.md) | Prabangos gairės, žyma ir vardų patikra | Baigta | agent/458cee2ac60f | task/p26-luxury-guide | [PR](https://github.com/lmatukas/web-style-atlas/pull/112) | 2026-10-23T08:19:20Z | P26 accepted; S52 is the next eligible task. |
-| [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Laukia peržiūros | agent/1a045315e5ea | task/s52-obsidian-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/115) | 2026-10-23T09:02:23.615Z | PR #115 draft: two shared fixed-count unit tests need P25 follow-up; manual previews.yml dispatch still required. |
+| [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Baigta | agent/1a045315e5ea | task/s52-obsidian-stage | [PR](https://github.com/lmatukas/web-style-atlas/pull/115) | 2026-10-23T14:19:46Z | S52 accepted; S53 is the next eligible task. |
 | [S53](tasks/S53.md) | Nauja kryptis: Luminous Cut Vitrine | Laukia | — | — | — | — | Claim S53 ir vykdyti pagal docs/tasks/S53.md. |
 | [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Laukia | — | — | — | — | Claim S54 ir vykdyti pagal docs/tasks/S54.md. |
 | [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Laukia | — | — | — | — | Claim S55 ir vykdyti pagal docs/tasks/S55.md. |

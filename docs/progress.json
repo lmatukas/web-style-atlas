@@ -3913,7 +3913,7 @@
     {
       "id": "S52",
       "title": "Nauja kryptis: Obsidian Stage",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P26"
       ],
@@ -3940,18 +3940,18 @@
         },
         {
           "name": "unit tests",
-          "status": "fail",
-          "details": "94/96: tests/capabilities.test.mjs fixed 15 briefs (now 16), tests/distinctiveness.test.mjs fixed 39 styles (now 40). Shared fixes excluded by S52 card; P25 follow-up required."
+          "status": "pass",
+          "details": "96/96 after #116 replaced fixed 15/39 counts with independent sources."
         },
         {
           "name": "manual canonical GitHub workflow",
-          "status": "not_run",
-          "details": "Connector has no dispatch operation; fallback browser is signed out. Exact canonical local renderer passed."
+          "status": "pass",
+          "details": "Regenerate canonical previews run 39966495328 for obsidian-stage: success, no preview bytes changed."
         },
         {
           "name": "PR GitHub CI",
-          "status": "fail",
-          "details": "Run 39928359278 on exact head 1ab4ae9c670ff3f99f5455ef807b09a8afd90057: scope PASS; source/unit job FAIL, 94/96 with the same two fixed-count assertions; browser job skipped. Failure logs verified."
+          "status": "pass",
+          "details": "Atlas validation run 39968260206 on exact head a78d6b71555add8ad7fe22cca9760bc4bd9b5232: scope, source/generated and browser/accessibility jobs passed (earlier run 39966505533 on 1a465a9e also passed)."
         }
       ],
       "evidence_paths": [
@@ -3959,15 +3959,15 @@
       ],
       "worker": "agent/1a045315e5ea",
       "claimed_at": "2026-10-23T08:24:48Z",
-      "updated_at": "2026-10-23T09:02:23.615Z",
+      "updated_at": "2026-10-23T14:19:46Z",
       "branch": "task/s52-obsidian-stage",
       "base_commit": "af855f1829c01ccb028f10e5ce8a1e12d5e5aa3b",
-      "evidence_commit": "1ab4ae9c670ff3f99f5455ef807b09a8afd90057",
-      "merge_commit": null,
+      "evidence_commit": "a78d6b71555add8ad7fe22cca9760bc4bd9b5232",
+      "merge_commit": "4b23d094d33c6de5672324bb4d7e331c258b39f4",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/115",
-      "blocker": "PR #115 draft: two shared fixed-count unit tests need P25 follow-up; manual previews.yml dispatch still required.",
-      "next_action": "Resolve the P25 shared test assumptions, run previews.yml on task/s52-obsidian-stage for obsidian-stage, validate exact PR head and review. Do not start S53.",
-      "handoff": "Separate S52 implementation PR #115 created; source, business, WebGL/fallback, accessibility and four local canonical previews verified. No merge. Any next worker may resume this documented handoff using the same PR; do not duplicate S52."
+      "blocker": null,
+      "next_action": "S52 accepted; S53 is the next eligible task.",
+      "handoff": "Continued by agent/claude-opus-cowork-01D6QAux on owner request after agent/1a045315e5ea left the fixed-count blocker. #116 fixed the tests on main; main merged into the branch; canonical previews unchanged; Atlas validation passed; PR #115 merged as 4b23d094. S53 has not been claimed."
     },
     {
       "id": "S53",
