@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 39. Drafts and templates are excluded.
+Ready styles: 40. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -28,6 +28,7 @@ Ready styles: 39. Drafts and templates are excluded.
 | [Modular Light](../styles/modular-light/style.md) | spatial | A folded paper-and-aluminum lamp catalogue and numbered assembly workbench with real module, shade and light configuration. | [A: Folded-light catalogue spread](../styles/modular-light/reference/index.html) · [B: Numbered assembly workbench](../styles/modular-light/reference/alternate.html) |
 | [Neo Brutalist](../styles/neo-brutalist/style.md) | expressive | Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme. | [A: Poster-led event offer](../styles/neo-brutalist/reference/index.html) · [B: Framed two-day programme](../styles/neo-brutalist/reference/alternate.html) |
 | [Newspaper Ledger](../styles/newspaper-ledger/style.md) | editorial | Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods. | [A: Multi-story newspaper front page](../styles/newspaper-ledger/reference/index.html) · [B: Analysis with branch ledger](../styles/newspaper-ledger/reference/alternate.html) |
+| [Obsidian Stage](../styles/obsidian-stage/style.md) | spatial | A precision metal object fills a black stage, opens into scroll-driven layers and resolves into a light, exact-price configuration desk. | [A: Object narrative and assembly](../styles/obsidian-stage/reference/index.html) · [B: Model comparison and configuration](../styles/obsidian-stage/reference/alternate.html) |
 | [Organic Craft](../styles/organic-craft/style.md) | tactile | Warm material surfaces, irregular object forms and asymmetric compositions for independent makers. | [A: Materials and making story](../styles/organic-craft/reference/index.html) · [B: Asymmetric object collection](../styles/organic-craft/reference/alternate.html) |
 | [Playful Cutout](../styles/playful-cutout/style.md) | illustrative | Coherent cutout illustrations, deliberate overlap and friendly type for a playful creative story. | [A: Assembled cutout invitation](../styles/playful-cutout/reference/index.html) · [B: Event story with attached stickers](../styles/playful-cutout/reference/alternate.html) |
 | [Pop Commerce](../styles/pop-commerce/style.md) | commercial | A bold product-to-price hierarchy, colorful original objects and clear buying choices connect a single-product offer with a filtered product shelf. | [A: Bright single-product offer](../styles/pop-commerce/reference/index.html) · [B: Categories and product shelf](../styles/pop-commerce/reference/alternate.html) |

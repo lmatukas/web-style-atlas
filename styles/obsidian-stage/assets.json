@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "manrope-latin-lt",
+      "path": "assets/fonts/Manrope-Latin-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/manrope",
+      "creator": "The Manrope Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/OFL.txt",
+      "attribution": "Manrope, The Manrope Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Subset Latin, Lithuanian and punctuation; WOFF2 encoding; UI uses weights 400 and 600."
+      ]
+    },
+    {
+      "id": "device-static",
+      "path": "assets/device.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors",
+      "license": "MIT",
+      "attribution": "Original device geometry by Web Style Atlas contributors",
+      "redistribution_allowed": true,
+      "modifications": []
+    },
+    {
+      "id": "device-layers",
+      "path": "assets/layers.svg",
+      "type": "illustration",
+      "origin": "original",
+      "creator": "Web Style Atlas contributors",
+      "license": "MIT",
+      "attribution": "Original device geometry by Web Style Atlas contributors",
+      "redistribution_allowed": true,
+      "modifications": []
+    }
+  ]
+}

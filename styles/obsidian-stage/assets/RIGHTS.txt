@@ -1,0 +1,17 @@
+S52 / Obsidian Stage — asset rights
+
+Manrope-Latin-LT.woff2
+Source: https://github.com/google/fonts/tree/main/ofl/manrope
+Upstream file: Manrope[wght].ttf, Git blob 75274da58537d6123b14f2cd0c355ad4681fc2b3
+Authors: The Manrope Project Authors (see complete fonts/OFL.txt).
+License: SIL Open Font License 1.1. Redistribution permitted, including modification.
+Modification: subset Latin, Lithuanian and punctuation; WOFF2. UI weights 400/600.
+Retrieved 2026-10-23. Full OFL.txt (trailing spaces normalized) accompanies the font.
+
+device.svg, layers.svg, reference/scene.mjs and CSS light effects
+Original mathematical geometry by Web Style Atlas contributors, MIT.
+No photographs, imported models, AI-generated images, textures or external libraries.
+The Veylqor device, specifications and prices are fictional demonstration content.
+Name check 2026-10-23: quoted Veylqor and Veylqor brand company searches found no
+matching company/product result in two engines. This is a bounded web check,
+not a trademark clearance. Source URLs never appear in the reference pages.

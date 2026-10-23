@@ -896,6 +896,46 @@
       "width": 390
     },
     {
+      "height": 5308,
+      "output_sha256": "96fdf4419d4af35d7300e7f9f0dc9fbfbafe155d9ac4e696618c19d2780fa856",
+      "path": "styles/obsidian-stage/preview.png",
+      "source_sha256": "6f9b3f161d3167c9b77e5aa20ea1b88891a1b57b6cff3d07f5704b200736d9e2",
+      "style_id": "obsidian-stage",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6183,
+      "output_sha256": "4e9812c70603e123a77d402c938f788feec7219cafee3136f8c8c3c4327e6d78",
+      "path": "styles/obsidian-stage/preview-mobile.png",
+      "source_sha256": "6f9b3f161d3167c9b77e5aa20ea1b88891a1b57b6cff3d07f5704b200736d9e2",
+      "style_id": "obsidian-stage",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 4072,
+      "output_sha256": "361da801932d7b6a2d3fdcd8eddaeeca40547d0e6273e744f6e4978957a96f3f",
+      "path": "styles/obsidian-stage/preview-alt.png",
+      "source_sha256": "6f9b3f161d3167c9b77e5aa20ea1b88891a1b57b6cff3d07f5704b200736d9e2",
+      "style_id": "obsidian-stage",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4465,
+      "output_sha256": "dc0e4028eff54f91cc971c4e8479059952141b9ead6fbe14eaa9de186371e410",
+      "path": "styles/obsidian-stage/preview-alt-mobile.png",
+      "source_sha256": "6f9b3f161d3167c9b77e5aa20ea1b88891a1b57b6cff3d07f5704b200736d9e2",
+      "style_id": "obsidian-stage",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2176,
       "output_sha256": "1d7d867baf5d2d456c33e9e0b353fd2debcbfd2efd322f3df52f8f9b9a9ececa",
       "path": "styles/organic-craft/preview.png",

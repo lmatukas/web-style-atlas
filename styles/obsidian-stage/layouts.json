@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Object narrative and assembly",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Idea and models links, chapter anchor, selection anchor and rotation controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce one recorder",
+          "pattern": "Full-height black object stage with left campaign copy",
+          "content_requirements": [
+            "Short statement",
+            "Dominant original object",
+            "One action"
+          ]
+        },
+        {
+          "purpose": "Explain construction",
+          "pattern": "Five sticky chapters with one feature and metric each",
+          "content_requirements": [
+            "Form",
+            "Three-layer assembly",
+            "Recording",
+            "Endurance",
+            "Reassembly"
+          ]
+        },
+        {
+          "purpose": "Build a configuration",
+          "pattern": "Light choices and itemized receipt",
+          "content_requirements": [
+            "Model",
+            "Finish",
+            "Memory",
+            "Exact total",
+            "Local summary"
+          ]
+        }
+      ],
+      "mobile_reflow": "Centered title then dominant object; normal static chapters with reduced motion; stacked choices and receipt.",
+      "distinguishing_features": [
+        "Single object and asymmetric introduction",
+        "Scroll-driven separation and reassembly",
+        "Dark narrative resolves into a light price desk"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Model comparison and configuration",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Idea/model/selection links and a direct specification-to-choice flow.",
+      "ordered_sections": [
+        {
+          "purpose": "Compare three models",
+          "pattern": "Light centered lineup with model captions",
+          "content_requirements": [
+            "Three object sizes",
+            "Base prices"
+          ]
+        },
+        {
+          "purpose": "Understand differences",
+          "pattern": "Native specification matrix",
+          "content_requirements": [
+            "Weight",
+            "Recording rate",
+            "Endurance",
+            "Memory",
+            "Price"
+          ]
+        },
+        {
+          "purpose": "Choose a combination",
+          "pattern": "Radio groups beside a live receipt",
+          "content_requirements": [
+            "Same pricing contract as A",
+            "Confirmation",
+            "Reset"
+          ]
+        },
+        {
+          "purpose": "Return to the idea",
+          "pattern": "Dark typographic closing",
+          "content_requirements": [
+            "Working narrative link"
+          ]
+        }
+      ],
+      "mobile_reflow": "Central object emphasized in the lineup; all three captions retained; table scroll stays local; configuration stacks.",
+      "distinguishing_features": [
+        "Horizontal model comparison",
+        "Specification matrix instead of chapter storytelling",
+        "Light decision surface with dark closing"
+      ]
+    }
+  ]
+}
