@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "cinzel-regular",
+      "path": "assets/fonts/cinzel/Cinzel-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/cinzel",
+      "creator": "The Cinzel Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/cinzel/OFL.txt",
+      "attribution": "Cinzel, The Cinzel Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instanced from the variable font at weight 400; subset Latin, Lithuanian and punctuation keeping all OpenType features; WOFF2 encoding."
+      ]
+    },
+    {
+      "id": "figtree-regular",
+      "path": "assets/fonts/figtree/Figtree-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/figtree",
+      "creator": "The Figtree Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/figtree/OFL.txt",
+      "attribution": "Figtree, The Figtree Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instanced from the variable font at weight 400; subset Latin, Lithuanian and punctuation keeping all OpenType features; WOFF2 encoding."
+      ]
+    },
+    {
+      "id": "figtree-medium",
+      "path": "assets/fonts/figtree/Figtree-Medium-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/figtree",
+      "creator": "The Figtree Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/figtree/OFL.txt",
+      "attribution": "Figtree Medium, The Figtree Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instanced from the variable font at weight 500 for labels; subset Latin, Lithuanian and punctuation keeping all OpenType features; WOFF2 encoding."
+      ]
+    },
+    {
+      "id": "skyline",
+      "path": "assets/skyline.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_at_dusk,_San_Francisco,_California_LCCN2011631218.tif",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-13024",
+      "redistribution_allowed": true,
+      "modifications": [
+        "3840px Wikimedia derivative downscaled to 1920x1498",
+        "Metadata stripped",
+        "WebP quality 82"
+      ]
+    },
+    {
+      "id": "gallery",
+      "path": "assets/gallery.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lobby_hallway_at_the_Sheraton_Palace_Hotel_in_San_Francisco,_California_LCCN2011631655.tif",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-13461",
+      "redistribution_allowed": true,
+      "modifications": [
+        "3840px Wikimedia derivative downscaled to 1280x1611 (bottom edge trimmed)",
+        "Metadata stripped",
+        "WebP quality 82",
+        "Responsive CSS crops where labelled"
+      ]
+    },
+    {
+      "id": "rotunda",
+      "path": "assets/rotunda.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ceiling_view_of_the_Battle_House_lobby_located_in_Mobile,_Alabama_LCCN2010637885.tif",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-06471",
+      "redistribution_allowed": true,
+      "modifications": [
+        "3840px Wikimedia derivative downscaled to 1560x851",
+        "Metadata stripped",
+        "WebP quality 82",
+        "Responsive CSS crops where labelled"
+      ]
+    },
+    {
+      "id": "facade",
+      "path": "assets/facade.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dusk_view_of_the_Robert_Hoag_Rawlings_Public_Library,_built_from_2000_to_2003_in_Pueblo,_Colorado_LCCN2015632736.tif",
+      "creator": "Carol M. Highsmith",
+      "license": "Public domain (Highsmith dedication)",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-32721",
+      "redistribution_allowed": true,
+      "modifications": [
+        "3840px Wikimedia derivative downscaled to 1920 wide",
+        "Cropped to the upper facade (1120x690) so no lettering, road signs or names appear",
+        "Metadata stripped",
+        "WebP quality 82"
+      ]
+    }
+  ]
+}

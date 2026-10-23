@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 42. Drafts and templates are excluded.
+Ready styles: 43. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -27,6 +27,7 @@ Ready styles: 42. Drafts and templates are excluded.
 | [Light Environments](../styles/light-environments/style.md) | spatial | Three distinct light installations connect a restrained exhibition narrative and a personal route workbench with real local storage, order and text export. | [A: Three light-environment exhibition](../styles/light-environments/reference/index.html) · [B: Personal exhibition route desk](../styles/light-environments/reference/alternate.html) |
 | [Luminous Cut Vitrine](../styles/luminous-cut-vitrine/style.md) | ornamental | One original round brilliant in an empty ivory vitrine, turned by hand, followed by portrait collection plates, a facet drawing and a working visit booking. | [A: Collection vitrine and visit](../styles/luminous-cut-vitrine/reference/index.html) · [B: Single piece and visit](../styles/luminous-cut-vitrine/reference/alternate.html) |
 | [Membrane Score](../styles/membrane-score/style.md) | expressive | Three luminous sound layers connect actual synthesis, tempo and intensity controls to a readable locally saved recipe and silent visual instrument. | [A: Horizontal three-membrane score](../styles/membrane-score/reference/index.html) · [B: Mood recipe index and vertical-channel instrument](../styles/membrane-score/reference/alternate.html) |
+| [Midnight Vestibule](../styles/midnight-vestibule/style.md) | photographic | A city hotel told at night — a full-screen photograph whose lamps come on, single-image chapters and a booking drawer that slides in with an exact nights total. | [A: Night hotel presentation](../styles/midnight-vestibule/reference/index.html) · [B: Room gallery and comparison](../styles/midnight-vestibule/reference/alternate.html) |
 | [Modular Light](../styles/modular-light/style.md) | spatial | A folded paper-and-aluminum lamp catalogue and numbered assembly workbench with real module, shade and light configuration. | [A: Folded-light catalogue spread](../styles/modular-light/reference/index.html) · [B: Numbered assembly workbench](../styles/modular-light/reference/alternate.html) |
 | [Neo Brutalist](../styles/neo-brutalist/style.md) | expressive | Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme. | [A: Poster-led event offer](../styles/neo-brutalist/reference/index.html) · [B: Framed two-day programme](../styles/neo-brutalist/reference/alternate.html) |
 | [Newspaper Ledger](../styles/newspaper-ledger/style.md) | editorial | Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods. | [A: Multi-story newspaper front page](../styles/newspaper-ledger/reference/index.html) · [B: Analysis with branch ledger](../styles/newspaper-ledger/reference/alternate.html) |

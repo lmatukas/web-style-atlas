@@ -379,6 +379,27 @@
         "industrial-spec"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S55",
+      "style_id": "midnight-vestibule",
+      "name": "Midnight Vestibule",
+      "family": "photographic",
+      "language": "lt",
+      "prompt_path": "prompts/midnight-vestibule/prompt.lt.md",
+      "demo_brand": "Kelvarre",
+      "variants": {
+        "a": "Naktinis miesto viešbučio pristatymas su vienos nuotraukos skyriais",
+        "b": "Kambarių galerija, palyginimas ir rezervacijos stalčius"
+      },
+      "signature": "Pilno ekrano naktinė nuotrauka, kurios žibintai įsijungia vieną kartą, ir iš šono išslystantis rezervacijos stalčius su tikslia naktų suma.",
+      "acceptance": "Kalendorius, svečiai, kambarys ir papildymai keičia tikslią sumą; talpos ir trūkstamų žingsnių klaidos, patvirtinimas, atstatymas ir dialogo fokusas veikia.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "cinematic-photo",
+        "twilight-expedition"
+      ],
+      "audio": false
     }
   ]
 }

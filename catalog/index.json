@@ -1091,6 +1091,62 @@
     },
     {
       "avoid_for": [
+        "data",
+        "documentation",
+        "products"
+      ],
+      "best_for": [
+        "hospitality",
+        "travel",
+        "events"
+      ],
+      "complexity": "high",
+      "density": "sparse",
+      "family": "photographic",
+      "id": "midnight-vestibule",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Midnight Vestibule",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Night navy and black with cream text and one warm lamp amber for labels, prices and the drawer edge.",
+        "composition": "A opens on a full-screen night photograph with only the name and one booking action, then alternates single large photographs with short text; B is a room gallery, comparison table and the same drawer.",
+        "content_rhythm": "One chapter, one photograph, three or four sentences; prices and facts stay small and warm.",
+        "imagery": "Four public-domain night architecture and interior photographs, cropped so no real lettering appears, darkened and lit by a warm lamp glow.",
+        "interaction": "A month grid picks arrival then departure; guests, room and extras recalculate an exact demonstration total; capacity and missing steps give clear errors.",
+        "motion": "The photograph's lamps come on once in 1.6 seconds and stop; the glow then follows the pointer; the drawer slides in; reduced motion shows the lit image and opens the drawer without sliding.",
+        "navigation": "Name and one pill action on the photograph; every booking entry point opens the same side drawer.",
+        "typography": "Local Cinzel capitals with wide tracking for names and headings, calm Figtree for text and labels."
+      },
+      "status": "ready",
+      "style_path": "styles/midnight-vestibule/style.md",
+      "summary": "A city hotel told at night — a full-screen photograph whose lamps come on, single-image chapters and a booking drawer that slides in with an exact nights total.",
+      "tags": [
+        "luxury",
+        "image-led",
+        "cinematic",
+        "warm",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/midnight-vestibule/preview-mobile.png",
+          "preview_path": "styles/midnight-vestibule/preview.png",
+          "reference_path": "styles/midnight-vestibule/reference/index.html",
+          "title": "Night hotel presentation"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/midnight-vestibule/preview-alt-mobile.png",
+          "preview_path": "styles/midnight-vestibule/preview-alt.png",
+          "reference_path": "styles/midnight-vestibule/reference/alternate.html",
+          "title": "Room gallery and comparison"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "data"
       ],
       "best_for": [

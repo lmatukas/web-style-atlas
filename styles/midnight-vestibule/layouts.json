@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Night hotel presentation",
+      "page_type": "hospitality",
+      "reference_path": "reference/index.html",
+      "navigation": "Engraved name and one booking action over the photograph; chapter links to the room page and drawer triggers.",
+      "ordered_sections": [
+        {
+          "purpose": "Arrive at night",
+          "pattern": "Full-screen night photograph whose lamps come on once, with name and one action",
+          "content_requirements": [
+            "Night architecture photograph",
+            "Short engraved heading",
+            "One booking action"
+          ]
+        },
+        {
+          "purpose": "State the essentials",
+          "pattern": "Three ruled facts",
+          "content_requirements": [
+            "Rooms",
+            "Concierge hours",
+            "Walking time"
+          ]
+        },
+        {
+          "purpose": "Show the house",
+          "pattern": "Large photograph with short text per chapter",
+          "content_requirements": [
+            "Lobby",
+            "Rooms preview",
+            "Restaurant under a dome",
+            "Spa",
+            "Neighbourhood"
+          ]
+        },
+        {
+          "purpose": "Book",
+          "pattern": "Side drawer with month grid, guests, room and extras",
+          "content_requirements": [
+            "Arrival and departure",
+            "Exact nights total",
+            "Local confirmation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Photograph and heading fill the first phone screen; facts, chapters and room cards stack; the drawer becomes full width.",
+      "distinguishing_features": [
+        "Night photograph that lights up once",
+        "Chapters of single large images and short text",
+        "Booking as a sliding drawer"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Room gallery and comparison",
+      "page_type": "hospitality",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Name, hotel and rooms links, one booking action, an edge tab and per-room choose buttons.",
+      "ordered_sections": [
+        {
+          "purpose": "Frame the choice",
+          "pattern": "Shorter photograph band with the chosen dates",
+          "content_requirements": [
+            "Facade photograph",
+            "Date summary from the drawer"
+          ]
+        },
+        {
+          "purpose": "Compare rooms visually",
+          "pattern": "Alternating wide image and detail column per room",
+          "content_requirements": [
+            "Three room types",
+            "Size, guests, bath, view",
+            "Nightly rate",
+            "Choose button preselecting the room"
+          ]
+        },
+        {
+          "purpose": "Compare precisely",
+          "pattern": "Native comparison table",
+          "content_requirements": [
+            "Area",
+            "Guests",
+            "View",
+            "Bath",
+            "Rate"
+          ]
+        },
+        {
+          "purpose": "Book",
+          "pattern": "Same drawer contract as A",
+          "content_requirements": [
+            "Room preselected",
+            "Capacity error"
+          ]
+        }
+      ],
+      "mobile_reflow": "Band, then each room as image above details; the table scrolls inside its own region; the edge tab becomes a bottom pill.",
+      "distinguishing_features": [
+        "Room gallery instead of a narrative",
+        "Comparison table",
+        "Dates summary that mirrors the drawer"
+      ]
+    }
+  ]
+}
