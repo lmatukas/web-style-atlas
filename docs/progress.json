@@ -3869,23 +3869,46 @@
     {
       "id": "P26",
       "title": "Prabangos gairės, žyma ir vardų patikra",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P25"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate/build/check",
+          "status": "pass",
+          "details": "39 styles; 156 fresh previews; largest PNG 972097 bytes."
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "96/96; final contract test 11/11."
+        },
+        {
+          "name": "Prabanga browser test",
+          "status": "pass",
+          "details": "390/1440 px: real empty state, positive response fixture, search/family intersection, URL restore and reset."
+        },
+        {
+          "name": "GitHub Atlas validation",
+          "status": "not_run",
+          "details": "PR #112 workflow pending; verify before merge."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P26.md"
+      ],
       "worker": "agent/458cee2ac60f",
       "claimed_at": "2026-10-23T07:24:39Z",
-      "updated_at": "2026-10-23T07:24:39Z",
+      "updated_at": "2026-10-23T07:49:45Z",
       "branch": "task/p26-luxury-guide",
       "base_commit": "bc90c2444d0dc01adc453839a5c3ca3c0986d683",
-      "evidence_commit": null,
+      "evidence_commit": "5434721b9d0f7a779dca139cb86a731a11ebe3b2",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/112",
       "blocker": null,
-      "next_action": "Implement luxury guide, gallery filter and name checks after remote claim acceptance.",
-      "handoff": null
+      "next_action": "Verify required CI for PR #112 and merge when green.",
+      "handoff": "PR #112 ready; verify exact-head canonical CI, merge and record actual merge SHA. Eight planned names were screened and corrected; update future task titles on acceptance."
     },
     {
       "id": "S52",
