@@ -572,6 +572,63 @@
       ]
     },
     {
+      "avoid_for": [
+        "documentation",
+        "data",
+        "public-information"
+      ],
+      "best_for": [
+        "products",
+        "commerce",
+        "craft"
+      ],
+      "complexity": "high",
+      "density": "sparse",
+      "family": "spatial",
+      "id": "escapement-nocturne",
+      "image_dependency": "low",
+      "motion_level": "expressive",
+      "name": "Escapement Nocturne",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Near-black stage, warm cream text and one restrained bronze accent; material colour belongs to the watch and swatches.",
+        "composition": "A holds one watch right of three editorial scroll chapters; B reverses the weight into a left object and warm light selection desk, then a full-width ledger.",
+        "content_rhythm": "Long dark watch chapters lead to ruled figures and a cropped mechanism; the service changes to warm paper with visible form boundaries.",
+        "imagery": "Original native WebGL bevelled watch and gear train, plus a detailed original SVG generated from code, without photography or borrowed models.",
+        "interaction": "The dial opens under scroll, pointer drag, touch, arrows and a native range; case, dial and strap choices change the view, total and booking snapshot.",
+        "motion": "A 1450 ms arrival settles; the requested live clock updates once a second while visible, with pause and no perpetual RAF; reduced and unavailable graphics use a frozen static SVG.",
+        "navigation": "An unframed wordmark and quiet local links; chapter anchors in A and an explicit selection-review-fitting route in B.",
+        "typography": "Local Bodoni Moda 400 headings, light Alegreya Sans 400 body, tabular figures and small tracked uppercase labels."
+      },
+      "status": "ready",
+      "style_path": "styles/escapement-nocturne/style.md",
+      "summary": "A live mechanical watch on deep black, opened by scroll or hand, followed by an exact-price personalisation desk and a complete local salon visit.",
+      "tags": [
+        "luxury",
+        "metallic",
+        "precise",
+        "dimensional",
+        "product-led",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/escapement-nocturne/preview-mobile.png",
+          "preview_path": "styles/escapement-nocturne/preview.png",
+          "reference_path": "styles/escapement-nocturne/reference/index.html",
+          "title": "A movement revealed in three chapters"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/escapement-nocturne/preview-alt-mobile.png",
+          "preview_path": "styles/escapement-nocturne/preview-alt.png",
+          "reference_path": "styles/escapement-nocturne/reference/alternate.html",
+          "title": "A personal watch and exact-price selection desk"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "travel",
