@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.2.0 — prepared 2026-10-23
+
+39 ready directions, 78 working layout variants and 156 current previews.
+
+- Reworked twelve directions: Institutional Clear, Quiet Luxury, Newspaper
+  Ledger, Soft Spatial, Data Observatory, Editorial Journal, Terminal Utility,
+  Art Deco, Gallery White Cube, Industrial Spec, Balcony Builder and Field Notes.
+- Added a distinctiveness check, a LT/EN content language policy and a uniform
+  `style.md` frontmatter format.
+- Cleaned shared footer and copy templates; refreshed demo content and source
+  records in reference pages.
+- Extended the rights and source audit and the final quality and evidence check.
+- The release workflow now reads the version from `package.json` and derives
+  catalogue counts instead of using fixed values.
+
+See [1.2.0 release notes](docs/releases/1.2.0.md). Publication is recorded there
+after the manual release run.
+
 ## 1.1.0 — published 2026-10-21
 
 39 ready directions, 78 working A/B references and 156 current previews.

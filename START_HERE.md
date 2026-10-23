@@ -20,12 +20,12 @@ The user only needs to say:
 The task selector reads files, not GitHub. Agents must perform the remote checks
 and claim protocol themselves; the script does not create a lock or merge a PR.
 
-## Published 39-direction catalogue
+## 39-direction catalogue
 
-The published 1.1.0 catalogue has 39 ready styles, 78 A/B references and
-156 current previews, including fifteen linked full creation prompts. P17
-accepted the expanded audit; P18 verified the actual deployment and live gallery.
-See [release evidence](docs/releases/1.1.0.md); 1.0.0 history is preserved.
+Release 1.2.0 has 39 ready styles, 78 A/B references and 156 current previews,
+including fifteen linked full creation prompts; twelve directions were reworked
+in S40–S51. See [1.2.0 release notes](docs/releases/1.2.0.md); 1.1.0 and 1.0.0
+history is preserved.
 Read [the expansion plan](docs/prompt-expansion-plan.md) only when its selected
 card requires it. Use `catalog/index.json` for actual available source directions;
 an entry in `prompts/index.json` alone does not establish ready status.

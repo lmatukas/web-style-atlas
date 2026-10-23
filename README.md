@@ -3,16 +3,15 @@
 Distinct web design directions with working examples and practical instructions
 for AI coding agents. Use a direction to build a website in your own project.
 
-**Published release 1.1.0: 39 ready directions, 78 A/B reference pages and 156
-current desktop/mobile previews.** The [expanded catalogue audit](docs/evidence/P17.md)
-records visual comparisons, full prompt copies and three isolated author replays.
+**Release 1.2.0: 39 ready directions, each with two working layout variants
+(A and B), and 156 current desktop/mobile previews.** Twelve directions were
+reworked since 1.1.0; see the [release notes](docs/releases/1.2.0.md).
 The [work board](docs/STATUS.md) tracks acceptance and publication separately.
 
 **Live gallery:** [open Web Style Atlas](https://lmatukas.github.io/web-style-atlas/).
-Version **1.1.0 with all 39 styles** was published and opened on 2026-10-21.
-Search/reset, B/mobile previews, an exact full-prompt clipboard copy and a new
-working reference were checked on the actual public site; see [publication evidence](docs/evidence/P18.md#actual-publication-and-live-checks--2026-10-21).
-The [1.0.0 publication history](docs/releases/1.0.0.md) is retained.
+The [1.2.0 release notes](docs/releases/1.2.0.md) record the publication run and
+live checks. Earlier [1.1.0](docs/releases/1.1.0.md) and
+[1.0.0](docs/releases/1.0.0.md) publication history is retained.
 Use all 39 source directions through
 [the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
