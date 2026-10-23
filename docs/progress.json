@@ -4188,7 +4188,7 @@
     {
       "id": "S57",
       "title": "Nauja kryptis: Heirloom Weave Ledger",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S56"
       ],
@@ -4210,8 +4210,8 @@
         },
         {
           "name": "canonical GitHub previews and PR CI",
-          "status": "not_run",
-          "details": "PR #123 CI and separately dispatched canonical preview workflow awaiting completion."
+          "status": "pass",
+          "details": "Canonical previews 40027226143 succeeded with identical bytes; Atlas validation 40027078695 passed all three checks on 9e6f64caaf90c08ef45356ec2a45256f6596b8e3. Reviews/threads empty, actual GitHub merged state verified."
         }
       ],
       "evidence_paths": [
@@ -4219,15 +4219,15 @@
       ],
       "worker": "agent/961b497eaa3a",
       "claimed_at": "2026-10-23T21:11:54Z",
-      "updated_at": "2026-10-23T21:30:32Z",
+      "updated_at": "2026-10-23T21:32:24Z",
       "branch": "task/s57-heirloom-weave-ledger",
       "base_commit": "0cd193be41c2a043b950aad55036b846426c4f73",
       "evidence_commit": "9e6f64caaf90c08ef45356ec2a45256f6596b8e3",
-      "merge_commit": null,
+      "merge_commit": "273e5cb3989e3a0a83872aa7947bfe2be95f4544",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/123",
       "blocker": null,
-      "next_action": "Verify previews.yml branch task/s57-heirloom-weave-ledger / style heirloom-weave-ledger and exact-head CI; merge #123, mark done, then stop.",
-      "handoff": "Second and final task in owner-authorised S56/S57 batch. S56 merged/accepted first. PR #123 ready; do not claim S58."
+      "next_action": "S57 accepted. Owner-authorised S56/S57 batch complete; S58 remains unclaimed.",
+      "handoff": "PR #123 merged after Atlas validation 40027078695 passed all three jobs on exact head 9e6f64ca; canonical previews 40027226143 passed with identical PNG bytes. S56 and S57 completed sequentially, each merged before the next task. Stop here."
     },
     {
       "id": "S58",
