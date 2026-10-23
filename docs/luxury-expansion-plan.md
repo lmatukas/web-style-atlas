@@ -45,16 +45,16 @@ daromos vien sisteminiais šriftais ir CSS piešiniais. P25 tam sukuria pamatus.
 | Užduotis | ID | Sritis | Fonas | Pagrindinis vaizdas | Signatūra |
 | --- | --- | --- | --- | --- | --- |
 | S52 | `obsidian-stage` | Technologijų produktas | Juodas → grafitas, pasirinkimas šviesus | Kodu piešiamas 3D įrenginys | Prilipusios scenos: objektas sukasi ir išsiskaido slenkant |
-| S53 | `high-vitrine` | Aukštoji juvelyrika | Dramblio kaulas | 3D brangakmenis su lūžtančia šviesa | Akmuo sukamas pele ir klaviatūra; vizito rezervacija |
-| S54 | `noir-chronograph` | Laikrodžiai | Gilus juodas, šiltas metalo akcentas | 3D mechanizmas, makro detalės | Konfigūratorius: korpusas, ciferblatas, dirželis, kaina |
-| S55 | `night-palace` | Miesto viešbutis | Naktinė mėlyna / juoda | Laisvos licencijos naktinės architektūros nuotraukos | Rezervacijos stalčius: datos, kambarys, papildymai |
+| S53 | `luminous-cut-vitrine` | Aukštoji juvelyrika | Dramblio kaulas | 3D brangakmenis su lūžtančia šviesa | Akmuo sukamas pele ir klaviatūra; vizito rezervacija |
+| S54 | `escapement-nocturne` | Laikrodžiai | Gilus juodas, šiltas metalo akcentas | 3D mechanizmas, makro detalės | Konfigūratorius: korpusas, ciferblatas, dirželis, kaina |
+| S55 | `midnight-vestibule` | Miesto viešbutis | Naktinė mėlyna / juoda | Laisvos licencijos naktinės architektūros nuotraukos | Rezervacijos stalčius: datos, kambarys, papildymai |
 | S56 | `still-sanctuary` | Kurortas, retreat | Šiltas smėlis | Laisvos licencijos gamtos nuotraukos | Kelionės pagal regionus ir dienos ritualų tvarkaraštis |
-| S57 | `heritage-house` | Paveldo namai, aksesuarai | Popieriaus kremas, gilios žalios akcentai | Kodu generuojama monograma ir archyvo objektai | Šimtmečio laiko juosta slenkant |
-| S58 | `velvet-club` | Privatus narių klubas | Vyšninė / rašalo | Kodu generuojamos aksomo ir šviesos tekstūros | Narystės paraiška ir renginių kalendorius |
-| S59 | `viewing-room` | Aukcionų namai | Tamsiai pilka galerija | Laisvos licencijos muziejiniai objektai | Lotų katalogas su įverčiais ir laikmačiu |
-| S60 | `harbour-residence` | Jachtos ir rezidencijos | Balta ir smėlis, jūrinė mėlyna, žalvaris | Kodu piešiamas denio planas, jūros kadrai | Interaktyvus denio planas ir nuomos užklausa |
+| S57 | `heirloom-weave-ledger` | Paveldo namai, aksesuarai | Popieriaus kremas, gilios žalios akcentai | Kodu generuojama monograma ir archyvo objektai | Šimtmečio laiko juosta slenkant |
+| S58 | `velvet-members-hall` | Privatus narių klubas | Vyšninė / rašalo | Kodu generuojamos aksomo ir šviesos tekstūros | Narystės paraiška ir renginių kalendorius |
+| S59 | `patina-auction-room` | Aukcionų namai | Tamsiai pilka galerija | Laisvos licencijos muziejiniai objektai | Lotų katalogas su įverčiais ir laikmačiu |
+| S60 | `openwater-deck` | Jachtos ir rezidencijos | Balta ir smėlis, jūrinė mėlyna, žalvaris | Kodu piešiamas denio planas, jūros kadrai | Interaktyvus denio planas ir nuomos užklausa |
 | S61 | `scent-ritual` | Parfumerija | Šviesūs skysti gradientai | 3D stiklo buteliukas | Natų piramidė ir mėginių rinkinio sudarymas |
-| S62 | `tasting-room` | Aukščiausios klasės restoranas | Žvakių šviesos tamsa | Laisvos licencijos patiekalų ir stalo kadrai | Degustacinio meniu eiga ir vietos pasirinkimas |
+| S62 | `ember-course-room` | Aukščiausios klasės restoranas | Žvakių šviesos tamsa | Laisvos licencijos patiekalų ir stalo kadrai | Degustacinio meniu eiga ir vietos pasirinkimas |
 
 Stiliaus ID yra aprašomasis kaip `quiet-luxury` ar `art-deco`. Pavyzdinio
 verslo vardas pavyzdžiuose yra kitas, išgalvotas ir prieš naudojimą patikrintas
@@ -101,7 +101,9 @@ PR ir P27 auditas, kartu su įprasta rubrika (bent 10/12, be nulio).
 
 1. Pirmame ekrane vienas didelis vaizdas arba 3D objektas, užimantis bent 70 %
    aukščio.
-2. OFL šriftų pora ir mažos didžiosios etiketės su tarpais tarp raidžių.
+2. OFL šriftų sistema ir mažos didžiosios etiketės su tarpais tarp raidžių.
+   Paprastai serif/sans pora; S52 naudoja vieną sans šeimą 600/400, S54 gali
+   rinktis siaurą sans, kaip nurodyta kortelėse.
 3. Viena signatūrinė sąveika, veikianti pele, klaviatūra ir lietimu.
 4. Ekrane ne daugiau kaip vienas pagrindinis mygtukas.
 5. Tikra paslaugos dalis (rezervacija, konsultacija, konfigūratorius ar

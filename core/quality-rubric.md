@@ -37,3 +37,6 @@ Record template:
 The pilot accepted Swiss Grid, Editorial Journal and Neo Brutalist at 12/12 each.
 These are reviewed baseline examples, not an instruction to auto-award later
 styles the same score. Reassess when a closer neighbor exists or content changes.
+
+Luxury-tagged S52–S62 also require every acceptance condition in
+[the luxury guide](luxury-guide.md); the general rubric threshold remains unchanged.
