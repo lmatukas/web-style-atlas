@@ -1,0 +1,69 @@
+<!doctype html><html lang="lt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aušra — solitero žiedas | Quenvaire</title><meta name="description" content="Išgalvoto solitero žiedo puslapis: trimatis akmuo, metalo ir dydžio pasirinkimas, graviravimo peržiūra ir vizito rezervacija."><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"><script type="module" src="scene.mjs"></script><script type="module" src="piece.mjs"></script><script type="module" src="booking.mjs"></script></head>
+<body data-variant="b" data-metal="white"><a class="skip" href="#main">Pereiti į turinį</a>
+<header class="masthead"><nav aria-label="Pagrindinė"><a href="index.html#collection">Kolekcija</a><a href="alternate.html" aria-current="page">Kūrinys</a><a href="index.html#craft">Amatas</a></nav><a class="wordmark" href="index.html" aria-label="Quenvaire pradžia">Quenvaire</a><a class="masthead-visit" href="#visit">Rezervuoti vizitą</a></header>
+<main id="main">
+<section class="piece" aria-labelledby="piece-title">
+  <div class="piece-stage">
+    <div class="stage">
+      <span class="stage-ring" aria-hidden="true"></span>
+      <div class="scene" data-runtime-scene tabindex="0" role="group" aria-label="Akmuo su nagais. Sukite pele, braukdami arba rodyklių klavišais.">
+        <canvas hidden aria-label="Aušros akmuo su šešiais nagais, trimatis vaizdas"></canvas>
+        <img data-runtime-fallback src="../assets/stone.png" width="1000" height="1000" alt="Apvalus briliantas iš viršaus: 57 briaunos, aštuonios tamsios strėlės ir spalvoti šviesos blyksniai briaunų kraštuose.">
+      </div>
+    </div>
+    <div class="scene-tools"><p data-runtime-status role="status">Statinis akmens vaizdas.</p><div class="motion-tools"><button type="button" data-turn="-1" aria-label="Pasukti akmenį į kairę">←</button><button type="button" data-motion-toggle aria-pressed="false">Pristabdyti judesį</button><button type="button" data-turn="1" aria-label="Pasukti akmenį į dešinę">→</button></div></div>
+  </div>
+  <div class="piece-panel">
+    <p class="crumb"><a href="index.html#collection">Kolekcija</a> <span aria-hidden="true">/</span> Žiedai</p>
+    <p class="eyebrow">Šviesos kirtis · 01</p>
+    <h1 id="piece-title">Aušra</h1>
+    <p class="lede">Solitero žiedas: vienas apvalus briliantas ant šešių plonų nagų.</p>
+    <form id="piece-form" novalidate>
+      <fieldset><legend>Metalas</legend><div class="swatches">
+        <label class="swatch"><input type="radio" name="metal" value="white" checked><span><i class="metal white" aria-hidden="true"></i>Baltasis auksas</span></label>
+        <label class="swatch"><input type="radio" name="metal" value="yellow"><span><i class="metal yellow" aria-hidden="true"></i>Geltonasis auksas</span></label>
+        <label class="swatch"><input type="radio" name="metal" value="rose"><span><i class="metal rose" aria-hidden="true"></i>Rožinis auksas</span></label>
+        <label class="swatch"><input type="radio" name="metal" value="platinum"><span><i class="metal platinum" aria-hidden="true"></i>Platina <small>+650 €</small></span></label>
+      </div></fieldset>
+      <fieldset><legend>Akmuo</legend><div class="chips carats">
+        <label class="chip"><input type="radio" name="carat" value="0.5"><span>0,5 ct</span></label>
+        <label class="chip"><input type="radio" name="carat" value="1.0" checked><span>1,0 ct</span></label>
+        <label class="chip"><input type="radio" name="carat" value="1.5"><span>1,5 ct</span></label>
+        <label class="chip"><input type="radio" name="carat" value="2.0"><span>2,0 ct</span></label>
+      </div></fieldset>
+      <div class="field"><label for="size">Žiedo dydis</label><select id="size" name="size"><option>48</option><option>49</option><option>50</option><option>51</option><option>52</option><option>53</option><option selected>54</option><option>55</option><option>56</option><option>57</option><option>58</option><option>59</option><option>60</option></select></div>
+      <div class="field"><label for="engraving">Graviravimas vidinėje pusėje <span class="count" data-count>0 / 18</span></label><input id="engraving" name="engraving" maxlength="18" autocomplete="off" aria-describedby="engraving-error engraving-hint"><p class="hint" id="engraving-hint">Iki 18 ženklų. Graviravimas įskaičiuotas.</p><p class="field-error" id="engraving-error" aria-live="polite"></p></div>
+      <div class="band-preview" aria-hidden="true"><span class="band-surface"><span class="band-text" data-engraving-preview>Jūsų žodžiai</span></span></div>
+    </form>
+    <div class="piece-summary">
+      <img data-piece-image src="../assets/ring-white.webp" width="720" height="900" alt="Aušra: baltasis auksas, 1,0 ct briliantas — pasirinkto žiedo vaizdas">
+      <dl><div><dt>Metalas</dt><dd data-out="metal">Baltasis auksas</dd></div><div><dt>Akmuo</dt><dd data-out="carat">1,0 ct</dd></div><div><dt>Dydis</dt><dd data-out="size">54</dd></div><div><dt>Graviravimas</dt><dd data-out="engraving">Be graviravimo</dd></div><div><dt>Akmens kaina</dt><dd data-out="stone-price">9 800 €</dd></div><div><dt>Metalo priemoka</dt><dd data-out="metal-price">Įskaičiuota</dd></div></dl>
+      <p class="total"><span>Demonstracinė kaina</span><output id="piece-total" for="piece-form" aria-live="polite">9 800 €</output></p>
+      <div class="summary-actions"><a class="primary" href="#visit">Rezervuoti apžiūrą</a><button class="text-button" type="button" data-piece-reset>Atkurti pradinį derinį</button></div>
+      <p class="fine">Kainos ir akmens duomenys išgalvoti. Pirkimo nėra; derinys lieka tik šiame puslapyje.</p>
+    </div>
+  </div>
+</section>
+
+<section class="details" aria-labelledby="details-title">
+  <h2 id="details-title">Apie kūrinį</h2>
+  <dl class="specs"><div><dt>Kirtis</dt><dd>Apvalus briliantas, 57 briaunos</dd></div><div><dt>Spalva ir skaidrumas</dt><dd>D, VS1 (demonstraciniai)</dd></div><div><dt>Įtvirtinimas</dt><dd>Šeši nagai, atvira galerija</dd></div><div><dt>Žiedo plotis</dt><dd>1,8 mm</dd></div><div><dt>Gamyba</dt><dd>Apie šešias savaites po vizito</dd></div><div><dt>Priežiūra</dt><dd>Pirmieji metai įskaičiuoti</dd></div></dl>
+  <p class="details-note">Prieš gamybą žiedą pasimatuosite salone. Konsultantas parodys tris to paties dydžio akmenis, kad palygintumėte jų šviesą.</p>
+</section>
+
+<section class="visit" id="visit" aria-labelledby="visit-title">
+  <div class="visit-intro"><p class="eyebrow">Vizitas</p><h2 id="visit-title">Pamatykite Aušrą salone.</h2><p>Konsultantas paruoš jūsų derinį ir du kitus akmens dydžius palyginimui.</p><p id="visit-confirmation" class="confirmation" role="status" tabindex="-1" hidden></p></div>
+  <form id="visit-form" novalidate data-default-topic="ausra">
+    <p id="visit-errors" class="form-summary" role="alert"></p>
+    <fieldset data-field="salon"><legend>Salonas</legend><div class="options"><label class="option"><input type="radio" name="salon" value="old"><span><b>Senamiesčio salonas</b><small>Pirmadienis–šeštadienis, 11–19</small></span></label><label class="option"><input type="radio" name="salon" value="river"><span><b>Krantinės salonas</b><small>Antradienis–šeštadienis, 11–19</small></span></label></div><p class="field-error" id="error-salon"></p></fieldset>
+    <fieldset data-field="day"><legend>Diena</legend><div class="chips" data-days></div><p class="field-error" id="error-day"></p></fieldset>
+    <fieldset data-field="time"><legend>Laikas</legend><p class="hint" data-times-hint></p><div class="chips" data-times></div><p class="field-error" id="error-time"></p></fieldset>
+    <div class="field" data-field="topic"><label for="topic">Tema</label><select id="topic" name="topic" aria-describedby="error-topic"><option value="">Pasirinkite temą</option><option value="engagement">Sužadėtuvių žiedas</option><option value="personal">Personalizavimas ir graviravimas</option><option value="care">Priežiūra ir valymas</option><option value="gift">Dovanos parinkimas</option><option value="ausra">Kūrinys „Aušra“</option></select><p class="field-error" id="error-topic"></p></div>
+    <div class="field-row"><div class="field" data-field="name"><label for="name">Vardas</label><input id="name" name="name" autocomplete="given-name" aria-describedby="error-name"><p class="field-error" id="error-name"></p></div><div class="field" data-field="contact"><label for="contact">El. paštas arba telefonas</label><input id="contact" name="contact" autocomplete="email" aria-describedby="error-contact"><p class="field-error" id="error-contact"></p></div></div>
+    <label class="ack" data-field="ack"><input type="checkbox" name="ack" value="yes" aria-describedby="error-ack"><span>Suprantu, kad tai demonstracinė rezervacija ir niekas nebus išsiųsta.</span></label><p class="field-error" id="error-ack"></p>
+    <div class="form-actions"><button class="primary filled" type="submit">Rezervuoti vizitą</button><button class="text-button" type="reset">Išvalyti</button></div>
+  </form>
+</section>
+</main>
+<footer class="footer"><a class="wordmark" href="index.html">Quenvaire</a><p>Išgalvotas demonstracinis projektas. Akmenys, kainos ir salonai sugalvoti; nieko neparduodame.</p><a href="#main">Į pradžią <span aria-hidden="true">↑</span></a></footer>
+</body></html>

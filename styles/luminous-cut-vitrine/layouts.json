@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Collection vitrine and visit",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Collection, piece and craft links, a quiet visit link, rotation controls and a booking anchor.",
+      "ordered_sections": [
+        {
+          "purpose": "Present one stone",
+          "pattern": "Centred ivory vitrine with a fine ring, corner label, small serif heading and one outlined action",
+          "content_requirements": [
+            "Dominant original stone",
+            "Short heading",
+            "One action"
+          ]
+        },
+        {
+          "purpose": "Introduce the collection",
+          "pattern": "Three portrait 4:5 plates with the middle plate lowered",
+          "content_requirements": [
+            "Ring",
+            "Pendant",
+            "Earrings",
+            "Link to the piece page"
+          ]
+        },
+        {
+          "purpose": "Explain the craft",
+          "pattern": "Inline facet drawing beside a large numeral and four ruled steps",
+          "content_requirements": [
+            "Top view and profile",
+            "57 facets",
+            "Selection, cutting, setting, polishing"
+          ]
+        },
+        {
+          "purpose": "Offer services",
+          "pattern": "Three numbered service columns",
+          "content_requirements": [
+            "Personal consultant",
+            "Personalisation",
+            "Care"
+          ]
+        },
+        {
+          "purpose": "Book a visit",
+          "pattern": "Paper booking panel beside a short invitation",
+          "content_requirements": [
+            "Salon",
+            "Day",
+            "Time",
+            "Topic",
+            "Errors and local confirmation"
+          ]
+        }
+      ],
+      "mobile_reflow": "Label, tall stone stage, stone data, heading and action stack in that order; plates stack without offset; booking fields become one column.",
+      "distinguishing_features": [
+        "Single centred stone in an empty ivory vitrine",
+        "Portrait collection plates with staggered rhythm",
+        "Craft drawing generated from the same proportions as the 3D stone"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Single piece and visit",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Breadcrumb back to the collection, choice controls, a reservation anchor and rotation controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose one piece",
+          "pattern": "Sticky stone stage left, choice panel right",
+          "content_requirements": [
+            "Metal",
+            "Stone size",
+            "Ring size",
+            "Engraving preview",
+            "Exact demonstration price"
+          ]
+        },
+        {
+          "purpose": "Explain the piece",
+          "pattern": "Two-column specification list",
+          "content_requirements": [
+            "Cut",
+            "Grade",
+            "Setting",
+            "Making time",
+            "Care"
+          ]
+        },
+        {
+          "purpose": "Book a fitting",
+          "pattern": "Same paper booking panel with the piece preselected",
+          "content_requirements": [
+            "Same booking contract as A",
+            "Topic preset to the piece"
+          ]
+        }
+      ],
+      "mobile_reflow": "Stone stage first at about 70 % of the screen, then title, choices, summary and booking in one column.",
+      "distinguishing_features": [
+        "Split product page instead of a centred vitrine",
+        "Metal changes the claws in 3D and the ring render in the summary",
+        "Engraving shown on a metal band preview"
+      ]
+    }
+  ]
+}

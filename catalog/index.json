@@ -925,6 +925,62 @@
     },
     {
       "avoid_for": [
+        "data",
+        "documentation",
+        "publishing"
+      ],
+      "best_for": [
+        "products",
+        "commerce",
+        "craft"
+      ],
+      "complexity": "high",
+      "density": "sparse",
+      "family": "ornamental",
+      "id": "luminous-cut-vitrine",
+      "image_dependency": "medium",
+      "motion_level": "expressive",
+      "name": "Luminous Cut Vitrine",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Ivory paper, charcoal text and a thin warm metal accent; colour appears only inside the stone and in the chosen metal.",
+        "composition": "A centres one stone inside a fine vitrine ring with text pushed to the corners; B splits a sticky stone stage from a quiet choice panel.",
+        "content_rhythm": "Long ivory pauses between few sections; each section holds one idea, one image role and at most one strong action.",
+        "imagery": "Original native WebGL round brilliant with 57 facets, double pavilion reflection and spectral fire; renders of the same code for the static view and the collection plates.",
+        "interaction": "The stone turns under pointer, touch and arrow keys while its facets re-light in real time; booking and piece choices work locally.",
+        "motion": "A 1400 ms arrival that settles, then only user-driven turns; pause, static reduced-motion image, context-loss fallback and full disposal.",
+        "navigation": "Collection, piece and craft links on the left, a spaced wordmark in the centre and one quiet visit link on the right.",
+        "typography": "Local Bodoni Moda at 400 for headings and numerals, local Alegreya Sans for text and widely spaced uppercase labels."
+      },
+      "status": "ready",
+      "style_path": "styles/luminous-cut-vitrine/style.md",
+      "summary": "One original round brilliant in an empty ivory vitrine, turned by hand, followed by portrait collection plates, a facet drawing and a working visit booking.",
+      "tags": [
+        "luxury",
+        "dimensional",
+        "product-led",
+        "precise",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/luminous-cut-vitrine/preview-mobile.png",
+          "preview_path": "styles/luminous-cut-vitrine/preview.png",
+          "reference_path": "styles/luminous-cut-vitrine/reference/index.html",
+          "title": "Collection vitrine and visit"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/luminous-cut-vitrine/preview-alt-mobile.png",
+          "preview_path": "styles/luminous-cut-vitrine/preview-alt.png",
+          "reference_path": "styles/luminous-cut-vitrine/reference/alternate.html",
+          "title": "Single piece and visit"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "data"
       ],
       "best_for": [

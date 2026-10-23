@@ -1,0 +1,30 @@
+S53 / Luminous Cut Vitrine — asset rights
+
+Fonts
+BodoniModa-Display-LT.woff2 (fonts/bodoni/)
+Source: https://github.com/google/fonts/tree/main/ofl/bodonimoda (BodoniModa[opsz,wght].ttf)
+Authors: The Bodoni Moda Project Authors. License: SIL Open Font License 1.1, no Reserved Font Name.
+Modification: variable instance at wght 400, opsz 28; subset Latin, Lithuanian, punctuation; WOFF2.
+
+AlegreyaSans-Regular-LT.woff2, AlegreyaSans-Medium-LT.woff2 (fonts/alegreya/)
+Source: https://github.com/google/fonts/tree/main/ofl/alegreyasans
+Authors: The Alegreya Sans Project Authors. License: SIL Open Font License 1.1, no Reserved Font Name.
+Modification: subset Latin, Lithuanian, punctuation; WOFF2.
+Retrieved 2026-10-23. Each folder holds the complete upstream OFL.txt.
+
+Renders
+stone.png, ring-white.webp, ring-yellow.webp, ring-rose.webp, ring-platinum.webp,
+pendant-white.webp, earrings-platinum.webp
+Creator: Web Style Atlas contributors, 2026-10-23.
+Made by tools/render-stills.mjs, which draws the original geometry and shader in
+reference/gem.mjs (native WebGL) with a transparent background. No photographs,
+imported models, textures, stock images or AI-generated images are involved.
+Rights: dedicated to the public domain under CC0-1.0
+(https://creativecommons.org/publicdomain/zero/1.0/). The code that draws them
+stays under the repository MIT licence.
+
+Demonstration content
+Quenvaire, the salons, pieces, stone grades and prices are fictional.
+Name check 2026-10-23: exact web searches for "Quenvaire" and "Quenvaire jewellery
+brand company" returned no company or product with this name. This is a bounded
+web check, not a trademark clearance. Source URLs never appear in the pages.
