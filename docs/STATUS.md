@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 81/90.**
+**Baigta: 82/90.**
 
-**Pirmiausia patikrinti S56: Laukia peržiūros; vykdytojas agent/961b497eaa3a.**
+**Kita užduotis: [S57](tasks/S57.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -91,7 +91,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S53](tasks/S53.md) | Nauja kryptis: Luminous Cut Vitrine | Baigta | agent/claude-opus-cowork-01D6QAux | task/s53-luminous-cut-vitrine | [PR](https://github.com/lmatukas/web-style-atlas/pull/118) | 2026-10-23T15:10:35Z | S53 accepted; S54 is the next eligible task. |
 | [S54](tasks/S54.md) | Nauja kryptis: Escapement Nocturne | Baigta | agent/1dca4071cc2e | task/s54-escapement-nocturne | [PR](https://github.com/lmatukas/web-style-atlas/pull/119) | 2026-10-23T18:07:48Z | S54 accepted; S55 is the next eligible task. |
 | [S55](tasks/S55.md) | Nauja kryptis: Midnight Vestibule | Baigta | agent/claude-opus-cowork-01D6QAux | task/s55-midnight-vestibule | [PR](https://github.com/lmatukas/web-style-atlas/pull/121) | 2026-10-23T19:51:54Z | S55 accepted; S56 is the next eligible task. |
-| [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Laukia peržiūros | agent/961b497eaa3a | task/s56-still-sanctuary | [PR](https://github.com/lmatukas/web-style-atlas/pull/122) | 2026-10-23T20:30:56Z | Dispatch previews.yml on main, branch task/s56-still-sanctuary, style still-sanctuary; verify exact-head PR CI; merge #122, mark done, then claim S57. |
+| [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Baigta | agent/961b497eaa3a | task/s56-still-sanctuary | [PR](https://github.com/lmatukas/web-style-atlas/pull/122) | 2026-10-23T21:11:12Z | S56 accepted; S57 is next under the authorised sequential batch. |
 | [S57](tasks/S57.md) | Nauja kryptis: Heirloom Weave Ledger | Laukia | — | — | — | — | Claim S57 ir vykdyti pagal docs/tasks/S57.md. |
 | [S58](tasks/S58.md) | Nauja kryptis: Velvet Members Hall | Laukia | — | — | — | — | Claim S58 ir vykdyti pagal docs/tasks/S58.md. |
 | [S59](tasks/S59.md) | Nauja kryptis: Patina Auction Room | Laukia | — | — | — | — | Claim S59 ir vykdyti pagal docs/tasks/S59.md. |
