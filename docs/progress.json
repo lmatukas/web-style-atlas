@@ -3913,23 +3913,23 @@
     {
       "id": "S52",
       "title": "Nauja kryptis: Obsidian Stage",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P26"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/1a045315e5ea",
+      "claimed_at": "2026-10-23T08:24:48Z",
+      "updated_at": "2026-10-23T08:24:48Z",
+      "branch": "task/s52-obsidian-stage",
+      "base_commit": "af855f1829c01ccb028f10e5ce8a1e12d5e5aa3b",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S52 ir vykdyti pagal docs/tasks/S52.md.",
-      "handoff": null
+      "next_action": "Implement S52 A/B, native WebGL, local configurator and canonical previews.",
+      "handoff": "S52 claimed for separate implementation PR at user request."
     },
     {
       "id": "S53",
