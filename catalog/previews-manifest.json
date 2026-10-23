@@ -456,6 +456,46 @@
       "width": 390
     },
     {
+      "height": 4325,
+      "output_sha256": "99123804a97d8c5d697c4f00c959c227de9b746aae8ec0cc80fd6120c0e9a9e4",
+      "path": "styles/escapement-nocturne/preview.png",
+      "source_sha256": "d180c6f4061a4959e64ae82a6e484f350e5a460bca70d78397bfdab20c8ede27",
+      "style_id": "escapement-nocturne",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5862,
+      "output_sha256": "af40b5f0b23579d8ef5e491167a4a4de13fd1d4612d55a22f2fae2d35880dfcb",
+      "path": "styles/escapement-nocturne/preview-mobile.png",
+      "source_sha256": "d180c6f4061a4959e64ae82a6e484f350e5a460bca70d78397bfdab20c8ede27",
+      "style_id": "escapement-nocturne",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3826,
+      "output_sha256": "53282479a7393258c6d2a01c77071d9f6402c2e3e0698aa3a39ef93f861afe32",
+      "path": "styles/escapement-nocturne/preview-alt.png",
+      "source_sha256": "d180c6f4061a4959e64ae82a6e484f350e5a460bca70d78397bfdab20c8ede27",
+      "style_id": "escapement-nocturne",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5600,
+      "output_sha256": "30e794cfedb3f0ab5021c5c4295d8cd2258386147335450cb38b677835d68e8e",
+      "path": "styles/escapement-nocturne/preview-alt-mobile.png",
+      "source_sha256": "d180c6f4061a4959e64ae82a6e484f350e5a460bca70d78397bfdab20c8ede27",
+      "style_id": "escapement-nocturne",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2177,
       "output_sha256": "a6d4653850bebb60de7427ee9fb817ad52d25f8f09f99bb4d1be9620bc3dc3e4",
       "path": "styles/field-notes/preview.png",

@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "A movement revealed in three chapters",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Quiet house masthead; local craft/calibre links; one configuration destination. The watch has scroll, drag, arrow and range controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Introduce the closed watch",
+          "pattern": "Short editorial column left of a full-height sticky watch; small chapter number and one configuration action",
+          "content_requirements": [
+            "Working local-time hands",
+            "One large original watch",
+            "One action"
+          ]
+        },
+        {
+          "purpose": "Open the mechanism",
+          "pattern": "Two further scroll chapters share the sticky watch, with the dial progressively transparent",
+          "content_requirements": [
+            "Gear train",
+            "Bridge and balance detail",
+            "Manual reveal alternative"
+          ]
+        },
+        {
+          "purpose": "Explain the calibre",
+          "pattern": "Asymmetric title and four large ruled tabular figures",
+          "content_requirements": [
+            "40 mm",
+            "72 hours",
+            "168 parts",
+            "8.6 mm",
+            "Concept label"
+          ]
+        },
+        {
+          "purpose": "Explain the craft",
+          "pattern": "A close crop of the same original movement opposite three restrained craft steps",
+          "content_requirements": [
+            "Proportion",
+            "Surface",
+            "Personalisation"
+          ]
+        },
+        {
+          "purpose": "Prepare a visit",
+          "pattern": "Warm light invitation and a complete local booking form",
+          "content_requirements": [
+            "Salon",
+            "Future day",
+            "Available time",
+            "Name",
+            "Email",
+            "Errors",
+            "No-send confirmation"
+          ]
+        }
+      ],
+      "mobile_reflow": "The 72 svh watch precedes the text; native range and buttons replace dependence on sticky scrolling. Chapters, figures, craft and booking stack without cropped controls.",
+      "distinguishing_features": [
+        "A live watch, not a decorative medal",
+        "Three scroll chapters share one object instead of repeated hero cards",
+        "A light local service closes the dark narrative"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "A personal watch and exact-price selection desk",
+      "page_type": "commerce",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Return to the movement story, inspect choices, review the selection ledger and prepare a local fitting.",
+      "ordered_sections": [
+        {
+          "purpose": "Configure the watch",
+          "pattern": "Left sticky watch with a separate warm light specification panel on the right",
+          "content_requirements": [
+            "Three case materials",
+            "Three dial colours",
+            "Three straps",
+            "Live object update",
+            "Exact final price",
+            "Reset"
+          ]
+        },
+        {
+          "purpose": "Review the selection",
+          "pattern": "Full-width warm light spread with a ruled choice and price ledger",
+          "content_requirements": [
+            "Every choice",
+            "Base price",
+            "Extras",
+            "Final price",
+            "Fitting action"
+          ]
+        },
+        {
+          "purpose": "Inspect concept specifications",
+          "pattern": "Four dark ruled figures, without scrolling chapters",
+          "content_requirements": [
+            "Diameter",
+            "Reserve",
+            "Parts",
+            "Thickness",
+            "Demonstration boundaries"
+          ]
+        },
+        {
+          "purpose": "Prepare a fitting",
+          "pattern": "Complete light booking form with the selected watch carried into its local confirmation",
+          "content_requirements": [
+            "Same date and time validation as A",
+            "Exact configuration and total in confirmation",
+            "Clear and edit states"
+          ]
+        }
+      ],
+      "mobile_reflow": "The watch keeps its 72 svh stage, then the entire choice panel and ledger follow in one column. No sticky panel or floating checkout covers controls.",
+      "distinguishing_features": [
+        "An inverted dark object/light selection desk rather than A’s editorial scroll",
+        "All 27 combinations change both rendering paths",
+        "A real, itemised price ledger and reservation snapshot"
+      ]
+    }
+  ]
+}
