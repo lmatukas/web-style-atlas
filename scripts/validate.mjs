@@ -5,6 +5,7 @@ import { ROOT, fail, isId, json, text, localFile, validator, frontmatter, argume
 import { validate as validateQueue, render } from './tasks.mjs';
 import {validateRuntime} from './capabilities.mjs';
 import {creationPrompt, loadPromptBriefs} from './prompts.mjs';
+import {validateAssetPolicy} from './lib/asset-policy.mjs';
 
 export const SECTIONS = ['Intent', 'Signature', 'Typography', 'Color and surfaces', 'Layout A', 'Layout B', 'Imagery', 'Navigation and interaction', 'Motion', 'Responsive behavior', 'Accessibility', 'Adaptation', 'Avoid', 'Closest styles'];
 
@@ -69,6 +70,9 @@ function validateStyle(root, id, check, vocabulary, briefs) {
     if (briefs.get(id)?.prompt_path !== metadata.prompt_path) fail(path, '/prompt_path', 'must match this style in prompts/index.json');
   }
     if (metadata.prompt_path) runtime = validateRuntime(root, id, briefs.get(id), check);
+    else if (existsSync(`${root}/${base}/runtime.json`)) runtime = check('runtime', json(root, `${base}/runtime.json`), `${base}/runtime.json`);
+  if (runtime?.static_fallback) localFile(root, `${base}/${runtime.static_fallback}`);
+  if (metadata.tags.includes('luxury') && runtime?.renderer === 'webgl' && !runtime.static_fallback) fail(`${base}/runtime.json`, '/static_fallback', 'luxury WebGL requires a declared static SVG/PNG fallback');
   member(metadata.family, vocabulary.families, path, '/family');
   for (const [field, values] of [['tags', vocabulary.tags], ['best_for', vocabulary.use_cases], ['avoid_for', vocabulary.use_cases]]) {
     metadata[field].forEach((value, index) => member(value, values, path, `/${field}/${index}`));
@@ -100,6 +104,7 @@ function validateStyle(root, id, check, vocabulary, briefs) {
     reference(variant.reference_path, 'layouts.json', `/variants/${i}/reference_path`, metadata.status === 'draft');
   }
   if (metadata.status === 'ready') localFile(root, `${base}/reference/style.css`);
+  validateAssetPolicy(root, base, assets);
   return { id, base, metadata, tokens, layouts, assets, runtime };
 }
 

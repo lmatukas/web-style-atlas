@@ -56,14 +56,16 @@ test('failed resources, fonts, scripts and external requests leave no success re
   const launch = async () => ({ newContext: (...args) => browser.newContext(...args), close: async () => {} });
   for (const [html, pattern] of [
     [original.replace('../assets/shape.svg', '../assets/missing.svg'), /HTTP 404|image load failed/],
-    [original.replace('</head>', '<style>@font-face { font-family: Broken; src: url(../assets/broken.woff2) } body { font-family: Broken }</style></head>'), /font load failed/],
+    [original.replace('</head>', '<style>@font-face { font-family: Broken; src: url(../assets/broken.woff2) } body { font-family: Broken }</style></head>'), /font load failed|bundled fonts require/],
     [original.replace('</body>', '<script>throw new Error("fixture-script-error")</script></body>'), /fixture-script-error/],
     [original.replace('../assets/shape.svg', 'https://example.org/remote.svg'), /external resource blocked|image load failed/],
   ]) {
-    writeFileSync(path('assets/broken.woff2'), 'invalid font fixture'); writeFileSync(path('reference/index.html'), html);
+    if (html.includes('Broken')) writeFileSync(path('assets/broken.woff2'), 'invalid font fixture');
+    writeFileSync(path('reference/index.html'), html);
     await assert.rejects(renderPreviews({ root, launch }), pattern);
-    assert.deepEqual(JSON.parse(readFileSync(join(root, MANIFEST))).previews, []);
+    if (existsSync(join(root, MANIFEST))) assert.deepEqual(JSON.parse(readFileSync(join(root, MANIFEST))).previews, []);
     assert.equal(existsSync(path('preview.png')), false);
+    rmSync(path('assets/broken.woff2'), { force: true });
   }
 });
 
@@ -92,4 +94,35 @@ test('failure after A captures publishes no partial success; scoped renders pres
   await assert.rejects(renderPreviews({ root }), /outside style\/shared roots blocked/);
   const retained = JSON.parse(readFileSync(join(root, MANIFEST))).previews;
   assert.equal(retained.length, 4); assert.ok(retained.every(p => p.style_id === 'second-style'));
+});
+
+test('P25 canonical fixture renders local OFL/Lithuanian font and CC0 image with reduced/blocked-WebGL static fallback', { timeout: 90000 }, async t => {
+  const { renderLuxuryPreviews, verifyStaticFallbacks } = await import('../../scripts/luxury-previews.mjs');
+  const { luxuryFixture } = await import('../helpers/luxury-fixture.mjs');
+  const f = luxuryFixture(); t.after(() => rmSync(f.root, { recursive: true, force: true }));
+  assert.deepEqual(await renderLuxuryPreviews({ root: f.root }), { status: 'pass', styles: 1 });
+  build({ root: f.root }); build({ root: f.root, check: true });
+  const { servePreviews } = await import('../../scripts/preview-server.mjs');
+  const browser = await launchCanonical(), server = await servePreviews(f.root, ['example-style']);
+  t.after(async () => { await browser.close(); await server.close(); });
+  const page = await browser.newPage({ reducedMotion: 'reduce' });
+  await page.goto(`${server.origin}/${f.base}/reference/index.html`); await page.evaluate(() => document.fonts.ready);
+  assert.equal(await page.evaluate(() => document.fonts.check('20px "Noto Sans"', 'ĄČĘĖĮŠŲŪŽąčęėįšųūž') && [...document.fonts].some(f => f.family.replaceAll('"', '') === 'Noto Sans' && f.status === 'loaded')), true);
+  if (process.env.ATLAS_PREVIEW_EVIDENCE) {
+    mkdirSync(process.env.ATLAS_PREVIEW_EVIDENCE, { recursive: true });
+    cpSync(f.path('preview-mobile.png'), join(process.env.ATLAS_PREVIEW_EVIDENCE, 'p25-fixture-mobile.png'));
+    cpSync(f.path('preview.png'), join(process.env.ATLAS_PREVIEW_EVIDENCE, 'p25-fixture-desktop.png'));
+  }
+  const { runtimeGate } = await import('../../scripts/runtime-qa.mjs');
+  assert.deepEqual(await runtimeGate({ root: f.root }), { styles: 1, cases: 6 });
+  // A fallback that is missing only in one mode must fail and invalidate the
+  // generation before any new captures; old artifacts remain stale by source hash.
+  const scene = readFileSync(f.path('reference/scene.mjs'), 'utf8');
+  for (const [modified, pattern] of [
+    [scene.replace("status.textContent='Statinis vaizdas: sumažintas judesys.';return;", "fallback.hidden=true;return;"), /reduced motion requires/],
+    [scene.replace('if(!gl)return backup();', 'if(!gl){backup();fallback.hidden=true;return;}'), /blocked WebGL requires/],
+  ]) {
+    writeFileSync(f.path('reference/scene.mjs'), modified);
+    await assert.rejects(verifyStaticFallbacks({ root: f.root }), pattern);
+  }
 });

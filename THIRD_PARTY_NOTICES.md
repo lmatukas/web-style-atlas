@@ -47,3 +47,11 @@ For additions, record origin, source URL, creator, licence, local licence file,
 redistribution permission, attribution and modifications before committing an
 asset. Keep required notices beside fonts/images and update this summary when
 third-party assets change. Unknown or unclear rights block inclusion.
+
+## P25 test font
+
+`tests/fixtures/luxury/fonts/NotoSans-Regular.woff2` and the deliberately
+ASCII-only negative-test font are subsets of Noto Sans, copyright 2022 The Noto
+Project Authors. They retain the adjacent full `OFL.txt` (SIL OFL 1.1), separately
+from the root code license. Source and reproducible transformations are recorded
+in `tests/fixtures/luxury/RIGHTS.txt`. No production style receives this fixture.

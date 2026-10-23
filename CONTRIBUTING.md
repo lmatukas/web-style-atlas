@@ -92,3 +92,18 @@ selection from a viewed preview, a static check from a native host execution,
 and an accessibility audit from complete conformance. Record unavailable tools
 as not run. Never fabricate benchmark conversations or guarantee originality.
 Retain original copyright and third-party notices in reused material.
+
+### Luxury assets and static 3D
+
+Read `docs/runtime-contract.md` and `templates/style/README.md` before adding
+local fonts, photographs or native WebGL. Bundle full OFL-1.1 font licenses and
+actual Lithuanian glyph coverage; photographs require CC0/public-domain rights
+records. The per-style totals are 200 KB of fonts and 1.5 MB of photographs.
+
+For a style declaring `runtime.static_fallback`, generate its previews through
+`node scripts/luxury-previews.mjs --style <id>`. This additive entry point checks
+A/B at both viewports with reduced motion and blocked WebGL, then delegates to
+the unchanged canonical PNG renderer. CI repeats the capability preflight and
+real runtime gate independently, so a bypass of this authoring command cannot
+make a broken fallback acceptable. Existing styles without that declaration
+retain their accepted renderer and previews.

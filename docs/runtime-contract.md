@@ -69,3 +69,30 @@ No video or browser binary is committed. Tests produce temporary captures only.
 P16 introduces no file under the existing preview dependency roots or renderer
 inputs. All 96 existing preview source/output hashes remain checked and current;
 no hash exception, baseline rewrite or duplicate PNG is needed.
+
+## Luxury foundation (P25)
+
+New luxury objects use **native WebGL**, no vendored library and no CDN.
+Declare `static_fallback` in `runtime.json` as a local `assets/*.svg` or PNG.
+This opt-in extends the existing runtime contract; older briefs retain their
+existing reduced-motion final-frame acceptance. Luxury-tagged WebGL requires
+the declaration. Styles without a creation prompt can declare runtime.json too.
+
+For the new contract, render a useful `<img data-runtime-fallback>` with alt text
+inside `[data-runtime-scene]` and a visible `[data-runtime-status]` label.
+Reduced motion **and** unavailable/lost WebGL show that image and hide the
+canvas. No RAF loop starts in reduced motion. Initialize the fallback visibly
+before scripts run and swap only after successful rendering. Maintain keyboard,
+touch, pause and lifecycle controls; failure must not disable the service UI.
+
+Before writing four canonical PNG records, `scripts/luxury-previews.mjs` visits A/B at both
+viewports with reduced motion, and again with normal motion and WebGL APIs
+blocked. It requires the declared local image to decode, be visible, carry alt
+text and match the declared URL; a visible canvas or absent status fails.
+CI repeats the preflight for every declared fallback style. All local font and image loads must settle without network access. These checks
+prove fallback behavior; the existing runtime gate still proves real WebGL.
+
+Fonts require adjacent full OFL.txt, OFL-1.1 WOFF2, actual Lithuanian Unicode cmap
+coverage and a combined 200,000-byte budget. Photographs require documented CC0
+or public domain, RIGHTS.txt and a combined 1,500,000-byte budget. See the template
+README and the executable P25 fixture for asset records and local typography.

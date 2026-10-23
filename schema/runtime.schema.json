@@ -22,6 +22,10 @@
     },
     "motion": {
       "const": "finite-with-pause"
+    },
+    "static_fallback": {
+      "type": "string",
+      "pattern": "^assets/[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*\\.(?:svg|png)$"
     }
   },
   "required": [
@@ -31,5 +35,24 @@
     "stable_state",
     "motion"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "static_fallback"
+        ],
+        "properties": {
+          "static_fallback": {}
+        }
+      },
+      "then": {
+        "properties": {
+          "renderer": {
+            "const": "webgl"
+          }
+        }
+      }
+    }
+  ]
 }
