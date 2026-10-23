@@ -3826,22 +3826,22 @@
     {
       "id": "P25",
       "title": "Šriftų, vaizdų ir 3D pamatai prabangos kryptims",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P23"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/458cee2ac60f",
+      "claimed_at": "2026-10-23T06:53:58Z",
+      "updated_at": "2026-10-23T06:53:58Z",
+      "branch": "task/p25-luxury-foundations",
+      "base_commit": "fafd77163b4c529763d0ff88bcb510e88a098219",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P25 ir vykdyti pagal docs/tasks/P25.md.",
+      "next_action": "Implement P25 asset validation and offline font/3D fixture checks.",
       "handoff": null
     },
     {
