@@ -54,7 +54,9 @@ P08 must implement these constraints; until then, validate locally.
   images and licensed assets; avoid duplicate source copies.
 - Generate only changed previews. Do not commit identical regenerated binaries.
   Optimize final PNGs losslessly; resize source photographs before storing them.
-  Target <=1 MiB per preview and <=100 MiB total versioned media. Do not introduce
+  Target <=1 MiB per preview (<=3 MiB for photograph-led styles with
+  `image_dependency: high`) and <=100 MiB total versioned media; the release gate
+  checks both. Do not introduce
   a single asset above 5 MiB; optimize it or choose a smaller suitable asset.
 - Do not upload successful test output as Actions artifacts. Use job summaries.
   On failure upload only a small diagnostic set with retention-days: 1.

@@ -6,7 +6,7 @@ import { dirname } from 'node:path';
 import { inflateSync } from 'node:zlib';
 import { loadAtlas } from './validate.mjs';
 import { ROOT, fail, localFile, json, isId, isMain, compare } from './lib/files.mjs';
-import { ENVIRONMENT, CANONICAL_FONTS, VIEWPORTS, TIMEOUT, MAX_PNG_BYTES, MANIFEST, previewPath } from './preview.config.mjs';
+import { ENVIRONMENT, CANONICAL_FONTS, VIEWPORTS, TIMEOUT, MANIFEST, previewPath, previewLimit, formatLimit } from './preview.config.mjs';
 import { execFileSync } from 'node:child_process';
 import { servePreviews } from './preview-server.mjs';
 
@@ -92,7 +92,7 @@ export function checkPreviews(atlas, { style } = {}) {
     for (const record of records) {
       if (record.source_sha256 !== hash) fail(MANIFEST, entry.id, 'stale preview sources; run npm run previews -- --style ' + entry.id);
       const png = readFileSync(localFile(atlas.root, record.path));
-      if (png.length > MAX_PNG_BYTES || sha(png) !== record.output_sha256) fail(record.path, '/', 'preview output hash/size mismatch');
+      if (png.length > previewLimit(entry.metadata) || sha(png) !== record.output_sha256) fail(record.path, '/', 'preview output hash/size mismatch');
       const size = pngDimensions(png);
       if (size.width !== record.width || size.height !== record.height) fail(record.path, '/', 'PNG dimensions do not match manifest');
     }
@@ -136,7 +136,7 @@ async function bounded(promise) {
   try { return await Promise.race([promise, new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('resource readiness timed out')), TIMEOUT); })]); }
   finally { clearTimeout(timer); }
 }
-async function capture(browser, origin, path, viewport) {
+async function capture(browser, origin, path, viewport, limit = previewLimit()) {
   const context = await browser.newContext({ viewport, deviceScaleFactor: 1, locale: ENVIRONMENT.locale, timezoneId: ENVIRONMENT.timezone, colorScheme: ENVIRONMENT.color_scheme, reducedMotion: ENVIRONMENT.reduced_motion, serviceWorkers: 'block', acceptDownloads: false });
   const errors = [], pending = new Set();
   try {
@@ -183,7 +183,7 @@ async function capture(browser, origin, path, viewport) {
     if (errors.length) throw new Error(errors.join('\n'));
     const dimensions = pngDimensions(png);
     if (dimensions.width !== viewport.width || dimensions.height < viewport.height) throw new Error(`unexpected screenshot dimensions ${dimensions.width}x${dimensions.height}; expected width ${viewport.width} and height >= ${viewport.height}`);
-    if (png.length > MAX_PNG_BYTES) throw new Error('preview exceeds 1 MiB; simplify/resize the source assets');
+    if (png.length > limit) throw new Error(`preview exceeds ${formatLimit(limit)}; simplify/resize the source assets`);
     return { png, ...dimensions };
   } catch (error) { throw new Error([error.message, ...errors].join('\n')); } finally { await context.close(); }
 }
@@ -213,7 +213,7 @@ export async function renderPreviews({ root = ROOT, style, launch = launchCanoni
     for (const entry of stale) {
       const source = sourceHash(root, entry), staged = [];
       for (const variant of entry.layouts.variants) for (const [viewport, dimensions] of Object.entries(VIEWPORTS)) {
-        const result = await capture(browser, server.origin, `${entry.base}/${variant.reference_path}`, dimensions);
+        const result = await capture(browser, server.origin, `${entry.base}/${variant.reference_path}`, dimensions, previewLimit(entry.metadata));
         staged.push({ path: previewPath(entry, variant.id, viewport), ...result, style_id: entry.id, variant: variant.id, viewport });
       }
       if (sourceHash(root, entry) !== source) throw new Error(`${entry.id}: sources changed during rendering; retry`);
@@ -240,7 +240,7 @@ export async function smokePreviews({ root = ROOT, style } = {}) {
   try {
     browser = await launchCanonical(); server = await servePreviews(root, selected.map(s => s.id));
     for (const entry of selected) for (const variant of entry.layouts.variants) for (const dimensions of Object.values(VIEWPORTS)) {
-      await capture(browser, server.origin, `${entry.base}/${variant.reference_path}`, dimensions);
+      await capture(browser, server.origin, `${entry.base}/${variant.reference_path}`, dimensions, previewLimit(entry.metadata));
     }
     return { status: 'pass', styles: selected.length };
   } finally { if (server) await server.close(); if (browser) await browser.close(); }
