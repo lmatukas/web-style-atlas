@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 74/75.**
+**Baigta: 75/75.**
 
-**Nėra paruoštos užduoties. Patikrink blokatorius ir priklausomybes.**
+**Visos užduotys baigtos.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -84,6 +84,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S50](tasks/S50.md) | Pertvarka: Balcony Builder | Baigta | Claude/haiku-5.5/session-S50 | task/s50-balcony-builder | [PR](https://github.com/lmatukas/web-style-atlas/pull/97) | 2026-10-22T18:30:58Z | Nėra. Užduotis baigta. |
 | [S51](tasks/S51.md) | Pertvarka: Field Notes | Baigta | Claude/haiku-5.5/session-S51 | task/s51-field-notes | [PR](https://github.com/lmatukas/web-style-atlas/pull/98) | 2026-10-22T18:47:17Z | Nėra. Užduotis baigta. |
 | [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Baigta | Claude/haiku-5.5/session-P22 | task/p22-footer-cleanup | [PR](https://github.com/lmatukas/web-style-atlas/pull/99) | 2026-10-22T19:56:05Z | Nėra. Užduotis baigta. |
-| [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Užblokuota | Claude/haiku-5.5/session-P23 | task/p23-final-evidence | [PR](https://github.com/lmatukas/web-style-atlas/pull/100) | 2026-10-22T19:59:21Z | PR #100 sujungtas (6327b87), bet privalomos patikros nepaleistos: npm run validate, npm run build, node --test tests/*.test.mjs ir npm run check (kanoninė aplinka). Done pažymėti negalima be pass. |
+| [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Baigta | Claude/haiku-5.5/session-P23 | task/p23-final-evidence | [PR](https://github.com/lmatukas/web-style-atlas/pull/100) | 2026-10-23T03:19:07Z | Nėra. Užduotis baigta. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

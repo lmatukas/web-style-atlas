@@ -3781,7 +3781,7 @@
     {
       "id": "P23",
       "title": "Galutinė kokybės ir įrodymų patikra",
-      "status": "blocked",
+      "status": "done",
       "depends_on": [
         "P22",
         "P24"
@@ -3789,23 +3789,23 @@
       "checks": [
         {
           "name": "npm run validate; npm run build; node --test tests/*.test.mjs",
-          "status": "not_run",
-          "details": "Lokaliai nepaleista (vartotojo nurodymas). PR #100 CI ant galvos vykdoma."
+          "status": "pass",
+          "details": "Kanoninis validate.yml (workflow_dispatch) ant main 9f0e7ca, run 39893274020: Scope and queue, Source and generated gates, Browser and accessibility gates – success. Source gate apima vienetinius testus, build'ą ir užduočių patikrą."
         },
         {
           "name": "npm run check (canonical environment)",
-          "status": "not_run",
-          "details": "Lokaliai nepaleista. Changed stiliams patikra buvo P22 previews run'uose; unchanged stiliams – nepaleista."
+          "status": "pass",
+          "details": "Kanoninis previews.yml (visi stiliai, branch task/p23-canonical-check nuo main 9f0e7ca), run 39894218107: success; bot commit nebuvo sukurtas, peržiūros sutampa."
         },
         {
           "name": "39 PNG visual review",
           "status": "pass",
-          "details": "Atidaryti visi 39 stilių 156 PNG (4 × 39); be horizontalaus slinkimo ir persidengimų peržiūrose."
+          "details": "Atidaryti visi 39 stilių 156 PNG; be horizontalaus slinkimo ir persidengimų."
         },
         {
           "name": "Rubric evidence for all 39 styles",
           "status": "pass",
-          "details": "S40–S51 rubrikos įrodymai ≥11/12, be nulio; 39 stilių vizualinės peržiūros įvertinimai įrašyti docs/evidence/P23.md."
+          "details": "S40–S51 ≥11/12, be nulio; 39 stilių įvertinimai docs/evidence/P23.md (vizualiniai balai – vykdytojo įvertinimas)."
         }
       ],
       "evidence_paths": [
@@ -3813,15 +3813,15 @@
       ],
       "worker": "Claude/haiku-5.5/session-P23",
       "claimed_at": "2026-10-22T19:56:18Z",
-      "updated_at": "2026-10-22T19:59:21Z",
+      "updated_at": "2026-10-23T03:19:07Z",
       "branch": "task/p23-final-evidence",
       "base_commit": "e5f7b967a76c0734c530e302e992ee0ecd6f06ca",
       "evidence_commit": "17262ffb84f91f837abadf9379104f7d6f524c97",
       "merge_commit": "6327b8759db8af660970153bfb87ea62cb1ec438",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/100",
-      "blocker": "PR #100 sujungtas (6327b87), bet privalomos patikros nepaleistos: npm run validate, npm run build, node --test tests/*.test.mjs ir npm run check (kanoninė aplinka). Done pažymėti negalima be pass.",
-      "next_action": "Paleisti kanoninę validaciją ir check ant main (6327b87) arba per PR su kodo pakeitimu, tada atnaujinti P23 būseną su tikrais rezultatais.",
-      "handoff": "Turinys sujungtas. Rubrikos įrodymai ir 39 PNG peržiūros atlikti. Trūksta tik privalomų patikrų rezultatų."
+      "blocker": null,
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #100 sujungtas 6327b87. Kanoninis validate ir npm run check praėjo ant 9f0e7ca. Baigta."
     }
   ]
 }
