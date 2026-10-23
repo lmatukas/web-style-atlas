@@ -4,7 +4,7 @@
 
 **Baigta: 76/90.**
 
-**Pirmiausia patikrinti P26: Vykdoma; vykdytojas agent/458cee2ac60f.**
+**Pirmiausia patikrinti P26: Laukia peržiūros; vykdytojas agent/458cee2ac60f.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -86,7 +86,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P22](tasks/P22.md) | Footer ir kopijos šablonų valymas | Baigta | agent/session-P22 | task/p22-footer-cleanup | [PR](https://github.com/lmatukas/web-style-atlas/pull/99) | 2026-10-22T19:56:05Z | Nėra. Užduotis baigta. |
 | [P23](tasks/P23.md) | Galutinė kokybės ir įrodymų patikra | Baigta | agent/session-P23 | task/p23-final-evidence | [PR](https://github.com/lmatukas/web-style-atlas/pull/100) | 2026-10-23T03:19:07Z | Nėra. Užduotis baigta. |
 | [P25](tasks/P25.md) | Šriftų, vaizdų ir 3D pamatai prabangos kryptims | Baigta | agent/458cee2ac60f | task/p25-luxury-foundations | [PR](https://github.com/lmatukas/web-style-atlas/pull/109) | 2026-10-23T07:24:39Z | P25 accepted; P26 eligible. |
-| [P26](tasks/P26.md) | Prabangos gairės, žyma ir vardų patikra | Vykdoma | agent/458cee2ac60f | task/p26-luxury-guide | — | 2026-10-23T07:24:39Z | Implement luxury guide, gallery filter and name checks after remote claim acceptance. |
+| [P26](tasks/P26.md) | Prabangos gairės, žyma ir vardų patikra | Laukia peržiūros | agent/458cee2ac60f | task/p26-luxury-guide | [PR](https://github.com/lmatukas/web-style-atlas/pull/112) | 2026-10-23T07:49:45Z | Verify required CI for PR #112 and merge when green. |
 | [S52](tasks/S52.md) | Nauja kryptis: Obsidian Stage | Laukia | — | — | — | — | Claim S52 ir vykdyti pagal docs/tasks/S52.md. |
 | [S53](tasks/S53.md) | Nauja kryptis: High Vitrine | Laukia | — | — | — | — | Claim S53 ir vykdyti pagal docs/tasks/S53.md. |
 | [S54](tasks/S54.md) | Nauja kryptis: Noir Chronograph | Laukia | — | — | — | — | Claim S54 ir vykdyti pagal docs/tasks/S54.md. |
