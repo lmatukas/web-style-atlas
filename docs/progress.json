@@ -4026,7 +4026,7 @@
     {
       "id": "S54",
       "title": "Nauja kryptis: Escapement Nocturne",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S53"
       ],
@@ -4063,8 +4063,13 @@
         },
         {
           "name": "separate canonical GitHub workflow",
-          "status": "not_run",
-          "details": "Still not dispatched. Owner explicitly authorised secure GitHub sign-in on 2026-10-23. browserAuth submitted the selected password flow; GitHub rejected the sign-in. Secure manual authentication handoff is pending; no further automatic credential attempt or alternative credential entry was made. Latest ten Actions runs confirm no S54 preview dispatch."
+          "status": "pass",
+          "details": "Still not dispatched. Owner explicitly authorised secure GitHub sign-in on 2026-10-23. browserAuth submitted the selected password flow; GitHub rejected the sign-in. Secure manual authentication handoff is pending; no further automatic credential attempt or alternative credential entry was made. Latest ten Actions runs confirm no S54 preview dispatch. — Resolved: canonical previews runs 39998397088 and 39999021682 succeeded (final PNGs 5862a4a1, largest 958001 bytes, all inspected); Atlas validation run 40000348750 passed on exact head ff6ad35e."
+        },
+        {
+          "name": "finishing review",
+          "status": "pass",
+          "details": "Own type pair (Crimson Pro Light + Jost) instead of S53's files; compact reduced-motion chapters; see docs/evidence/S54.md."
         }
       ],
       "evidence_paths": [
@@ -4072,15 +4077,15 @@
       ],
       "worker": "agent/1dca4071cc2e",
       "claimed_at": "2026-10-23T15:31:44Z",
-      "updated_at": "2026-10-23T16:38:59Z",
+      "updated_at": "2026-10-23T18:07:48Z",
       "branch": "task/s54-escapement-nocturne",
       "base_commit": "b94babd67c888d8be20282e3c880129536c66226",
-      "evidence_commit": "6720437dad12b700a93efb0758b1675be856f3a8",
-      "merge_commit": null,
+      "evidence_commit": "ff6ad35e99e7e0840e4caeffb475294c7931b030",
+      "merge_commit": "6239131ca5c03cf56251f43dc6087f67b5afbed8",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/119",
-      "blocker": "Required separate canonical preview workflow remains not_run; authorised sign-in was rejected by GitHub and secure manual authentication is needed.",
-      "next_action": "Finish GitHub sign-in in the secure browser handoff, then run previews.yml (ref main, branch task/s54-escapement-nocturne, style escapement-nocturne). Verify any preview changes and final-head CI, accept PR #119, record done; S55 must wait.",
-      "handoff": "Explicit secure sign-in permission has been received; do not ask for it again. GitHub rejected the submitted sign-in, so manual authentication handoff is pending. Retain PR #119 and this claim. Exact-head Atlas validation 39983649815 is green; do not rerun unchanged green suites. After authentication, dispatch only S54 previews, inspect actual run/changed PNGs, verify final-head checks, merge under existing authorisation if all required gates pass, then record the real merge/done state. No S55 work started."
+      "blocker": null,
+      "next_action": "S54 accepted; S55 is the next eligible task.",
+      "handoff": "Finished by agent/claude-opus-cowork-01D6QAux on owner request after agent/1dca4071cc2e. PR #119 merged as 6239131c. S55 has not been claimed."
     },
     {
       "id": "S55",
