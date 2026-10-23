@@ -9,7 +9,7 @@
       "title": "Esamos būsenos patikra ir sutartas kontraktas",
       "status": "done",
       "depends_on": [],
-      "worker": "Codex/839dbcebb83d",
+      "worker": "agent/839dbcebb83d",
       "claimed_at": "2026-10-20T16:46:09Z",
       "updated_at": "2026-10-20T17:16:44Z",
       "branch": "task/p01-contract",
@@ -58,7 +58,7 @@
       "depends_on": [
         "P01"
       ],
-      "worker": "Codex/839dbcebb83d/P02",
+      "worker": "agent/839dbcebb83d/P02",
       "claimed_at": "2026-10-20T17:16:44Z",
       "updated_at": "2026-10-20T17:36:12Z",
       "branch": "task/p02-validation-build",
@@ -112,7 +112,7 @@
       "depends_on": [
         "P02"
       ],
-      "worker": "Codex/839dbcebb83d/P03",
+      "worker": "agent/839dbcebb83d/P03",
       "claimed_at": "2026-10-20T17:36:12Z",
       "updated_at": "2026-10-20T18:58:45Z",
       "branch": "task/p03-preview-renderer",
@@ -181,7 +181,7 @@
       "depends_on": [
         "P03"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T18:58:46Z",
       "updated_at": "2026-10-20T19:04:49Z",
       "branch": "task/s01-atlas",
@@ -226,7 +226,7 @@
         "P03",
         "S01"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:04:49Z",
       "updated_at": "2026-10-20T19:11:18Z",
       "branch": "task/s02-atlas",
@@ -271,7 +271,7 @@
         "P03",
         "S02"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:11:18Z",
       "updated_at": "2026-10-20T19:15:33Z",
       "branch": "task/s03-atlas",
@@ -317,7 +317,7 @@
         "S02",
         "S03"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:15:33Z",
       "updated_at": "2026-10-20T19:19:08Z",
       "branch": "task/p04-atlas",
@@ -361,7 +361,7 @@
       "depends_on": [
         "P04"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:19:08Z",
       "updated_at": "2026-10-20T19:23:37Z",
       "branch": "task/p05-atlas",
@@ -405,7 +405,7 @@
       "depends_on": [
         "P05"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:23:37Z",
       "updated_at": "2026-10-20T19:31:08Z",
       "branch": "task/p06-atlas",
@@ -454,7 +454,7 @@
       "depends_on": [
         "P06"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:31:08Z",
       "updated_at": "2026-10-20T19:36:04Z",
       "branch": "task/p07-atlas",
@@ -498,7 +498,7 @@
       "depends_on": [
         "P07"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:36:04Z",
       "updated_at": "2026-10-20T19:51:31Z",
       "branch": "task/p08-atlas",
@@ -548,7 +548,7 @@
         "P04",
         "P08"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T19:51:32Z",
       "updated_at": "2026-10-20T20:03:48Z",
       "branch": "task/s04-atlas",
@@ -602,7 +602,7 @@
       "depends_on": [
         "S04"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-20T20:03:48Z",
       "updated_at": "2026-10-20T20:12:12Z",
       "branch": "task/s05-atlas",
@@ -661,7 +661,7 @@
       "depends_on": [
         "S05"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T02:47:10Z",
       "updated_at": "2026-10-21T02:55:09Z",
       "branch": "task/s06-atlas",
@@ -715,7 +715,7 @@
       "depends_on": [
         "S06"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T02:55:09Z",
       "updated_at": "2026-10-21T03:02:11Z",
       "branch": "task/s07-atlas",
@@ -769,7 +769,7 @@
       "depends_on": [
         "S07"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:02:11Z",
       "updated_at": "2026-10-21T03:08:29Z",
       "branch": "task/s08-atlas",
@@ -823,7 +823,7 @@
       "depends_on": [
         "S08"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:08:29Z",
       "updated_at": "2026-10-21T03:16:30Z",
       "branch": "task/s09-atlas",
@@ -877,7 +877,7 @@
       "depends_on": [
         "S09"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:16:30Z",
       "updated_at": "2026-10-21T03:24:35Z",
       "branch": "task/s10-atlas",
@@ -931,7 +931,7 @@
       "depends_on": [
         "S10"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:24:35Z",
       "updated_at": "2026-10-21T03:31:37Z",
       "branch": "task/s11-atlas",
@@ -985,7 +985,7 @@
       "depends_on": [
         "S11"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:31:37Z",
       "updated_at": "2026-10-21T03:40:40Z",
       "branch": "task/s12-atlas",
@@ -1040,7 +1040,7 @@
         "P05",
         "P08"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:40:40Z",
       "updated_at": "2026-10-21T03:55:02Z",
       "branch": "task/p09-atlas",
@@ -1106,7 +1106,7 @@
         "P07",
         "S12"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T03:55:02Z",
       "updated_at": "2026-10-21T04:17:33Z",
       "branch": "task/p10-atlas",
@@ -1165,7 +1165,7 @@
       "depends_on": [
         "P10"
       ],
-      "worker": "Codex/839dbcebb83d/sequential-ten",
+      "worker": "agent/839dbcebb83d/sequential-ten",
       "claimed_at": "2026-10-21T04:17:33Z",
       "updated_at": "2026-10-21T04:24:41Z",
       "branch": "task/p11-atlas",
@@ -1221,7 +1221,7 @@
         "P10",
         "P11"
       ],
-      "worker": "Codex/2875ce3dc6da",
+      "worker": "agent/2875ce3dc6da",
       "claimed_at": "2026-10-21T05:45:05.251Z",
       "updated_at": "2026-10-21T06:09:38.160188Z",
       "branch": "task/p12-release",
@@ -1286,7 +1286,7 @@
       "depends_on": [
         "P12"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T06:50:33.234Z",
       "updated_at": "2026-10-21T06:58:30.411Z",
       "branch": "task/s13-atlas",
@@ -1340,7 +1340,7 @@
       "depends_on": [
         "S13"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T06:59:04.726Z",
       "updated_at": "2026-10-21T07:06:11.189Z",
       "branch": "task/s14-atlas",
@@ -1394,7 +1394,7 @@
       "depends_on": [
         "S14"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:06:49.845Z",
       "updated_at": "2026-10-21T07:12:52.016Z",
       "branch": "task/s15-atlas",
@@ -1448,7 +1448,7 @@
       "depends_on": [
         "S15"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:13:26.482Z",
       "updated_at": "2026-10-21T07:19:53.923Z",
       "branch": "task/s16-atlas",
@@ -1502,7 +1502,7 @@
       "depends_on": [
         "S16"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:22:30.331Z",
       "updated_at": "2026-10-21T07:27:12.866Z",
       "branch": "task/s17-atlas",
@@ -1556,7 +1556,7 @@
       "depends_on": [
         "S17"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:27:50.612Z",
       "updated_at": "2026-10-21T07:33:56.697Z",
       "branch": "task/s18-atlas",
@@ -1610,7 +1610,7 @@
       "depends_on": [
         "S18"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:34:30.458Z",
       "updated_at": "2026-10-21T07:41:16.076Z",
       "branch": "task/s19-atlas",
@@ -1664,7 +1664,7 @@
       "depends_on": [
         "S19"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:41:46.139Z",
       "updated_at": "2026-10-21T07:48:55.682Z",
       "branch": "task/s20-atlas",
@@ -1718,7 +1718,7 @@
       "depends_on": [
         "S20"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:51:43.378Z",
       "updated_at": "2026-10-21T07:58:00.254Z",
       "branch": "task/s21-atlas",
@@ -1772,7 +1772,7 @@
       "depends_on": [
         "S21"
       ],
-      "worker": "Codex/2875ce3dc6da/batch-two",
+      "worker": "agent/2875ce3dc6da/batch-two",
       "claimed_at": "2026-10-21T07:58:24.809Z",
       "updated_at": "2026-10-21T08:12:12.372Z",
       "branch": "task/s22-atlas",
@@ -1826,7 +1826,7 @@
       "depends_on": [
         "S22"
       ],
-      "worker": "Codex/2875ce3dc6da/final-four",
+      "worker": "agent/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:37:24.344Z",
       "updated_at": "2026-10-21T09:44:11.433Z",
       "branch": "task/s23-atlas",
@@ -1880,7 +1880,7 @@
       "depends_on": [
         "S23"
       ],
-      "worker": "Codex/2875ce3dc6da/final-four",
+      "worker": "agent/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:44:36.967Z",
       "updated_at": "2026-10-21T09:51:43.976Z",
       "branch": "task/s24-atlas",
@@ -1935,7 +1935,7 @@
         "S24",
         "P10"
       ],
-      "worker": "Codex/2875ce3dc6da/final-four",
+      "worker": "agent/2875ce3dc6da/final-four",
       "claimed_at": "2026-10-21T09:52:08.576Z",
       "updated_at": "2026-10-21T10:00:11.625Z",
       "branch": "task/p13-atlas",
@@ -1986,7 +1986,7 @@
       "depends_on": [
         "P13"
       ],
-      "worker": "Codex/60722bd95b94/P14-resume",
+      "worker": "agent/60722bd95b94/P14-resume",
       "claimed_at": "2026-10-21T10:00:37.372Z",
       "updated_at": "2026-10-21T10:48:15.594Z",
       "branch": "task/p14-atlas",
@@ -2036,7 +2036,7 @@
       "depends_on": [
         "P14"
       ],
-      "worker": "Codex/162fd1aaf53b/P15",
+      "worker": "agent/162fd1aaf53b/P15",
       "claimed_at": "2026-10-21T11:42:04.984Z",
       "updated_at": "2026-10-21T12:05:51.163Z",
       "branch": "task/p15-creation-prompts",
@@ -2090,7 +2090,7 @@
       "depends_on": [
         "P15"
       ],
-      "worker": "Codex/162fd1aaf53b/batch-five",
+      "worker": "agent/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T12:34:55.651Z",
       "updated_at": "2026-10-21T12:52:50.960Z",
       "branch": "task/p16-expansion",
@@ -2129,7 +2129,7 @@
       "depends_on": [
         "P16"
       ],
-      "worker": "Codex/162fd1aaf53b/batch-five",
+      "worker": "agent/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T12:53:59.815Z",
       "updated_at": "2026-10-21T13:22:25.281Z",
       "branch": "task/s25-expansion",
@@ -2178,7 +2178,7 @@
       "depends_on": [
         "S25"
       ],
-      "worker": "Codex/162fd1aaf53b/batch-five",
+      "worker": "agent/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T13:23:55.064Z",
       "updated_at": "2026-10-21T13:44:52.132Z",
       "branch": "task/s26-expansion",
@@ -2222,7 +2222,7 @@
       "depends_on": [
         "S26"
       ],
-      "worker": "Codex/162fd1aaf53b/batch-five",
+      "worker": "agent/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T13:49:09.936Z",
       "updated_at": "2026-10-21T14:20:49.681Z",
       "branch": "task/s27-expansion",
@@ -2266,7 +2266,7 @@
       "depends_on": [
         "S27"
       ],
-      "worker": "Codex/162fd1aaf53b/batch-five",
+      "worker": "agent/162fd1aaf53b/batch-five",
       "claimed_at": "2026-10-21T14:24:44.029Z",
       "updated_at": "2026-10-21T14:48:00.506Z",
       "branch": "task/s28-expansion",
@@ -2310,7 +2310,7 @@
       "depends_on": [
         "S28"
       ],
-      "worker": "Codex/fa3a4cc05875/S29",
+      "worker": "agent/fa3a4cc05875/S29",
       "claimed_at": "2026-10-21T14:53:08.537811Z",
       "updated_at": "2026-10-21T15:10:54.242657Z",
       "branch": "task/s29-twilight-expedition",
@@ -2359,7 +2359,7 @@
       "depends_on": [
         "S29"
       ],
-      "worker": "Codex/fa3a4cc05875/S30",
+      "worker": "agent/fa3a4cc05875/S30",
       "claimed_at": "2026-10-21T15:24:45.412424Z",
       "updated_at": "2026-10-21T15:47:54.625191Z",
       "branch": "task/s30-light-environments",
@@ -2408,7 +2408,7 @@
       "depends_on": [
         "S30"
       ],
-      "worker": "Codex/fa3a4cc05875/batch-five",
+      "worker": "agent/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T15:52:50.251701Z",
       "updated_at": "2026-10-21T16:09:11.382978Z",
       "branch": "task/s31-discovery-cabinet",
@@ -2457,7 +2457,7 @@
       "depends_on": [
         "S31"
       ],
-      "worker": "Codex/fa3a4cc05875/batch-five",
+      "worker": "agent/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:09:29.856177Z",
       "updated_at": "2026-10-21T16:19:59.173466Z",
       "branch": "task/s32-woven-field",
@@ -2506,7 +2506,7 @@
       "depends_on": [
         "S32"
       ],
-      "worker": "Codex/fa3a4cc05875/batch-five",
+      "worker": "agent/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:20:19.261471Z",
       "updated_at": "2026-10-21T16:28:35.332855Z",
       "branch": "task/s33-choreographic-stage",
@@ -2555,7 +2555,7 @@
       "depends_on": [
         "S33"
       ],
-      "worker": "Codex/fa3a4cc05875/batch-five",
+      "worker": "agent/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:28:56.852955Z",
       "updated_at": "2026-10-21T16:41:38.993300Z",
       "branch": "task/s34-repair-atlas",
@@ -2604,7 +2604,7 @@
       "depends_on": [
         "S34"
       ],
-      "worker": "Codex/fa3a4cc05875/batch-five",
+      "worker": "agent/fa3a4cc05875/batch-five",
       "claimed_at": "2026-10-21T16:42:00.623327Z",
       "updated_at": "2026-10-21T16:54:37.082183Z",
       "branch": "task/s35-balcony-builder",
@@ -2653,7 +2653,7 @@
       "depends_on": [
         "S35"
       ],
-      "worker": "Codex/8f365240145f/S36-S39",
+      "worker": "agent/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:24:04Z",
       "updated_at": "2026-10-21T17:31:28Z",
       "branch": "task/s36-expansion",
@@ -2687,7 +2687,7 @@
       "depends_on": [
         "S36"
       ],
-      "worker": "Codex/8f365240145f/S36-S39",
+      "worker": "agent/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:31:49Z",
       "updated_at": "2026-10-21T17:39:54Z",
       "branch": "task/s37-expansion",
@@ -2721,7 +2721,7 @@
       "depends_on": [
         "S37"
       ],
-      "worker": "Codex/8f365240145f/S36-S39",
+      "worker": "agent/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:40:10Z",
       "updated_at": "2026-10-21T17:47:37Z",
       "branch": "task/s38-expansion",
@@ -2755,7 +2755,7 @@
       "depends_on": [
         "S38"
       ],
-      "worker": "Codex/8f365240145f/S36-S39",
+      "worker": "agent/8f365240145f/S36-S39",
       "claimed_at": "2026-10-21T17:47:57Z",
       "updated_at": "2026-10-21T17:58:37Z",
       "branch": "task/s39-expansion",
@@ -2789,7 +2789,7 @@
       "depends_on": [
         "S39"
       ],
-      "worker": "Codex/8f365240145f/final-audit-release",
+      "worker": "agent/8f365240145f/final-audit-release",
       "claimed_at": "2026-10-21T18:37:03.760Z",
       "updated_at": "2026-10-21T18:53:58.915Z",
       "branch": "task/p17-final",
@@ -2830,7 +2830,7 @@
       "depends_on": [
         "P17"
       ],
-      "worker": "Codex/8f365240145f/final-audit-release",
+      "worker": "agent/8f365240145f/final-audit-release",
       "claimed_at": "2026-10-21T18:54:14.647Z",
       "updated_at": "2026-10-21T19:31:51.953043Z",
       "branch": "task/p18-final",
@@ -2902,7 +2902,7 @@
       "evidence_paths": [
         "docs/evidence/P19.md"
       ],
-      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P19",
+      "worker": "agent/P19",
       "claimed_at": "2026-10-21T20:51:25Z",
       "updated_at": "2026-10-21T21:06:25Z",
       "branch": "task/p19-distinctiveness",
@@ -2942,7 +2942,7 @@
         "docs/evidence/P20.md",
         "core/language-policy.md"
       ],
-      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P20",
+      "worker": "agent/P20",
       "claimed_at": "2026-10-21T21:06:25Z",
       "updated_at": "2026-10-21T21:08:30Z",
       "branch": "task/p20-language-policy",
@@ -2996,7 +2996,7 @@
       "evidence_paths": [
         "docs/evidence/P21.md"
       ],
-      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P21",
+      "worker": "agent/P21",
       "claimed_at": "2026-10-22T04:26:47Z",
       "updated_at": "2026-10-22T05:35:11Z",
       "branch": "task/p21-canonical-previews",
@@ -3035,7 +3035,7 @@
       "evidence_paths": [
         "docs/evidence/P24.md"
       ],
-      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/P24",
+      "worker": "agent/P24",
       "claimed_at": "2026-10-21T21:09:00Z",
       "updated_at": "2026-10-21T21:12:22Z",
       "branch": "task/p24-rights-audit",
@@ -3085,7 +3085,7 @@
       "evidence_paths": [
         "docs/evidence/S40.md"
       ],
-      "worker": "Claude Code/session_018eWDTyyNDfwFWbyh85G7Nh/S40",
+      "worker": "agent/S40",
       "claimed_at": "2026-10-22T05:52:44Z",
       "updated_at": "2026-10-22T06:04:15Z",
       "branch": "task/s40-institutional-clear",
@@ -3140,7 +3140,7 @@
       "evidence_paths": [
         "docs/evidence/S41.md"
       ],
-      "worker": "Codex/56b4d5b97962/S41",
+      "worker": "agent/56b4d5b97962/S41",
       "claimed_at": "2026-10-22T07:00:40.242Z",
       "updated_at": "2026-10-22T15:10:31.566Z",
       "branch": "task/s41-quiet-luxury",
@@ -3205,7 +3205,7 @@
       "evidence_paths": [
         "docs/evidence/S42.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S42",
+      "worker": "agent/session-S42",
       "claimed_at": "2026-10-22T16:03:40Z",
       "updated_at": "2026-10-22T16:22:38Z",
       "branch": "task/s42-newspaper-ledger",
@@ -3265,7 +3265,7 @@
       "evidence_paths": [
         "docs/evidence/S43.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S43",
+      "worker": "agent/session-S43",
       "claimed_at": "2026-10-22T16:22:53Z",
       "updated_at": "2026-10-22T17:11:16Z",
       "branch": "task/s43-soft-spatial",
@@ -3320,7 +3320,7 @@
       "evidence_paths": [
         "docs/evidence/S44.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S44",
+      "worker": "agent/session-S44",
       "claimed_at": "2026-10-22T17:11:24Z",
       "updated_at": "2026-10-22T17:17:22Z",
       "branch": "task/s44-data-observatory",
@@ -3375,7 +3375,7 @@
       "evidence_paths": [
         "docs/evidence/S45.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S45",
+      "worker": "agent/session-S45",
       "claimed_at": "2026-10-22T17:17:33Z",
       "updated_at": "2026-10-22T17:22:52Z",
       "branch": "task/s45-editorial-journal",
@@ -3430,7 +3430,7 @@
       "evidence_paths": [
         "docs/evidence/S46.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S46",
+      "worker": "agent/session-S46",
       "claimed_at": "2026-10-22T17:23:01Z",
       "updated_at": "2026-10-22T17:41:27Z",
       "branch": "task/s46-terminal-utility",
@@ -3485,7 +3485,7 @@
       "evidence_paths": [
         "docs/evidence/S47.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S47",
+      "worker": "agent/session-S47",
       "claimed_at": "2026-10-22T17:41:35Z",
       "updated_at": "2026-10-22T17:47:04Z",
       "branch": "task/s47-art-deco",
@@ -3540,7 +3540,7 @@
       "evidence_paths": [
         "docs/evidence/S48.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S48",
+      "worker": "agent/session-S48",
       "claimed_at": "2026-10-22T17:47:12Z",
       "updated_at": "2026-10-22T17:59:19Z",
       "branch": "task/s48-gallery-white-cube",
@@ -3595,7 +3595,7 @@
       "evidence_paths": [
         "docs/evidence/S49.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S49",
+      "worker": "agent/session-S49",
       "claimed_at": "2026-10-22T17:59:28Z",
       "updated_at": "2026-10-22T18:03:17Z",
       "branch": "task/s49-industrial-spec",
@@ -3650,7 +3650,7 @@
       "evidence_paths": [
         "docs/evidence/S50.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S50",
+      "worker": "agent/session-S50",
       "claimed_at": "2026-10-22T18:03:25Z",
       "updated_at": "2026-10-22T18:30:58Z",
       "branch": "task/s50-balcony-builder",
@@ -3705,7 +3705,7 @@
       "evidence_paths": [
         "docs/evidence/S51.md"
       ],
-      "worker": "Claude/haiku-5.5/session-S51",
+      "worker": "agent/session-S51",
       "claimed_at": "2026-10-22T18:31:03Z",
       "updated_at": "2026-10-22T18:47:17Z",
       "branch": "task/s51-field-notes",
@@ -3766,7 +3766,7 @@
       "evidence_paths": [
         "docs/evidence/P22.md"
       ],
-      "worker": "Claude/haiku-5.5/session-P22",
+      "worker": "agent/session-P22",
       "claimed_at": "2026-10-22T18:50:29Z",
       "updated_at": "2026-10-22T19:56:05Z",
       "branch": "task/p22-footer-cleanup",
@@ -3811,7 +3811,7 @@
       "evidence_paths": [
         "docs/evidence/P23.md"
       ],
-      "worker": "Claude/haiku-5.5/session-P23",
+      "worker": "agent/session-P23",
       "claimed_at": "2026-10-22T19:56:18Z",
       "updated_at": "2026-10-23T03:19:07Z",
       "branch": "task/p23-final-evidence",

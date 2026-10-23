@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Institutional Clear treats a public service website like the entrance of a public building. People arrive with one task and want to know where to go. The fictional Northbridge Community Centre shows the idea. A ground floor plan marks where you stand, letters on the plan match the services, and each guide reads like a short route. The direction suits public information, practical services and documentation where clarity matters more than brand performance. Every room, rule and route in the reference is an example, not real municipal guidance.
+Institutional Clear treats a public service website like the entrance of a public building. People arrive with one task and want to know where to go. The fictional Quillmere Community Centre shows the idea. A ground floor plan marks where you stand, letters on the plan match the services, and each guide reads like a short route. The direction suits public information, practical services and documentation where clarity matters more than brand performance. Every room, rule and route in the reference is an example, not real municipal guidance.
 
 ## Signature
 

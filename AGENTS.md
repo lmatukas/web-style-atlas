@@ -30,3 +30,12 @@ instructions in START_HERE instead of changing the atlas or claiming queue work.
 Read `docs/COST_POLICY.md` before executing work. No paid runners, automatic AI
 review loops, unnecessary full-suite reruns or large artifacts. Preserve this
 policy in any future generated agent instructions. Required checks still apply.
+
+## Public neutrality
+
+The repository is public. Do not add `Co-Authored-By` trailers, session links or
+AI tool names to commit messages, task worker fields, evidence author lines or
+asset creator records; use `agent/<id>` and "Web Style Atlas contributors".
+Reference pages must not link to outside websites or use names of real companies
+or brands; keep source URLs in the style's `assets/RIGHTS.txt`.
+`tests/neutral-names.test.mjs` enforces the reference-page part.

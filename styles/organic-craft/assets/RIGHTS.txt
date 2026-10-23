@@ -1,5 +1,5 @@
 Original code-authored SVG ceramic illustrations for Organic Craft.
-Creator: Web Style Atlas contributors (Codex, S05).
+Creator: Web Style Atlas contributors (S05).
 The three drawings are original fictional object studies, not traced product photographs.
 They are distributed under the repository MIT license; see ../../../LICENSE from this directory.
 No third-party images, fonts or textures are included.

@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Bauhaus Geometric uses simple geometric relationships to organize a contemporary culture page. The fictional Form Assembly gathering brings workshops, talks and original composition studies into a disciplined visual system. It suits events, cultural programmes and graphic portfolios. This is an original modern interpretation, not a reproduction of a historical poster or a claim of institutional affiliation. Shapes should create meaningful spatial emphasis while ordinary text and links explain what visitors can actually do.
+Bauhaus Geometric uses simple geometric relationships to organize a contemporary culture page. The fictional Gridmoot gathering brings workshops, talks and original composition studies into a disciplined visual system. It suits events, cultural programmes and graphic portfolios. This is an original modern interpretation, not a reproduction of a historical poster or a claim of institutional affiliation. Shapes should create meaningful spatial emphasis while ordinary text and links explain what visitors can actually do.
 
 ## Signature
 
