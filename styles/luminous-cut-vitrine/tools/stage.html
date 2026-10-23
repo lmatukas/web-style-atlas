@@ -1,0 +1,26 @@
+<!doctype html><html lang="lt"><head><meta charset="utf-8"><title>Still stage</title>
+<style>html,body{margin:0;background:transparent}canvas{display:block}</style></head><body>
+<canvas id="c"></canvas>
+<script type="module">
+import { createRenderer } from '../reference/gem.mjs';
+const q = new URLSearchParams(location.search), preset = q.get('preset') || 'hero';
+const w = Number(q.get('w') || 900), h = Number(q.get('h') || 900), light = Number(q.get('light') || 0.35);
+const canvas = document.getElementById('c'); canvas.width = w; canvas.height = h; canvas.style.width = w + 'px'; canvas.style.height = h + 'px';
+const gl = canvas.getContext('webgl', { alpha: true, antialias: true, premultipliedAlpha: false, preserveDrawingBuffer: true });
+const r = createRenderer(gl);
+const metals = { white: [0.84, 0.85, 0.86], yellow: [0.93, 0.74, 0.4], rose: [0.9, 0.62, 0.53], platinum: [0.78, 0.79, 0.82] };
+const metal = metals[q.get('metal') || 'white'];
+const presets = {
+  hero: { zoom: 1.5, items: [{ parts: ['gem'], rotation: [0.98, 0.2, 0], offset: [0, 0.12, 0], scale: 1 }] },
+  top: { zoom: 1.5, items: [{ parts: ['gem'], rotation: [1.28, 0.1, 0], offset: [0, 0, 0], scale: 1 }] },
+  side: { zoom: 1.55, items: [{ parts: ['gem'], rotation: [0.2, 0.3, 0], offset: [0, 0.2, 0], scale: 1 }] },
+  set: { zoom: 1.9, items: [{ parts: ['gem', 'head'], rotation: [0.62, 0.3, 0], offset: [0, 0.35, 0], scale: 1, metal }] },
+  ring: { zoom: 2.9, items: [{ parts: ['gem', 'head', 'band'], rotation: [0.3, 0.42, 0], offset: [0, 1.25, 0], scale: 0.92, metal }] },
+  pendant: { zoom: 2.75, items: [{ parts: ['gem', 'head'], rotation: [1.25, 0.22, 0], offset: [0, -0.7, 0], scale: 1.05, metal }, { parts: ['bail'], rotation: [0, 0, 0], offset: [0, -0.7, 0], scale: 1.05, metal }] },
+  earrings: { zoom: 2.75, items: [
+    { parts: ['gem', 'head'], rotation: [1.05, 0.25, 0.16], offset: [-0.55, 1.05, 0], scale: 0.86, metal },
+    { parts: ['gem', 'head'], rotation: [1.12, -0.4, -0.12], offset: [0.6, -1.05, 0], scale: 0.86, metal }] },
+};
+r.draw({ width: w, height: h, light, ...presets[preset] });
+window.ready = true;
+</script></body></html>

@@ -337,6 +337,27 @@
         "light-environments"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S53",
+      "style_id": "luminous-cut-vitrine",
+      "name": "Luminous Cut Vitrine",
+      "family": "ornamental",
+      "language": "lt",
+      "prompt_path": "prompts/luminous-cut-vitrine/prompt.lt.md",
+      "demo_brand": "Quenvaire",
+      "variants": {
+        "a": "Šviesi kolekcijos vitrina su vienu akmeniu, portretinėmis kortelėmis ir vizito rezervacija",
+        "b": "Vieno kūrinio puslapis su metalo, dydžio ir graviravimo pasirinkimu"
+      },
+      "signature": "Vienas originalus 57 briaunų briliantas tuščioje dramblio kaulo vitrinoje, sukamas ranka; šviesa briaunose keičiasi realiu laiku.",
+      "acceptance": "Akmuo sukasi pele, lietimu ir klaviatūra; metalas ir akmuo keičia vaizdą ir tikslią kainą; rezervacijos klaidos, patvirtinimas ir išvalymas veikia.",
+      "enhancement": "webgl",
+      "closest_styles": [
+        "quiet-luxury",
+        "gallery-white-cube"
+      ],
+      "audio": false
     }
   ]
 }

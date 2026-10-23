@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "bodoni-moda-display",
+      "path": "assets/fonts/bodoni/BodoniModa-Display-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/bodonimoda",
+      "creator": "The Bodoni Moda Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/bodoni/OFL.txt",
+      "attribution": "Bodoni Moda, The Bodoni Moda Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instanced from the variable font at weight 400 and optical size 28; subset Latin, Lithuanian and punctuation; WOFF2 encoding."
+      ]
+    },
+    {
+      "id": "alegreya-sans-regular",
+      "path": "assets/fonts/alegreya/AlegreyaSans-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/alegreyasans",
+      "creator": "The Alegreya Sans Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/alegreya/OFL.txt",
+      "attribution": "Alegreya Sans Regular, The Alegreya Sans Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Subset Latin, Lithuanian and punctuation; WOFF2 encoding."
+      ]
+    },
+    {
+      "id": "alegreya-sans-medium",
+      "path": "assets/fonts/alegreya/AlegreyaSans-Medium-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/alegreyasans",
+      "creator": "The Alegreya Sans Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/alegreya/OFL.txt",
+      "attribution": "Alegreya Sans Medium, The Alegreya Sans Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Subset Latin, Lithuanian and punctuation; WOFF2 encoding; used at weight 500 for labels."
+      ]
+    },
+    {
+      "id": "stone-static",
+      "path": "assets/stone.png",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Face-up round brilliant used as the static fallback. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    },
+    {
+      "id": "ring-white",
+      "path": "assets/ring-white.webp",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Aušra ring in white gold. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    },
+    {
+      "id": "ring-yellow",
+      "path": "assets/ring-yellow.webp",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Aušra ring in yellow gold. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    },
+    {
+      "id": "ring-rose",
+      "path": "assets/ring-rose.webp",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Aušra ring in rose gold. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    },
+    {
+      "id": "ring-platinum",
+      "path": "assets/ring-platinum.webp",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Aušra ring in platinum. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    },
+    {
+      "id": "pendant-white",
+      "path": "assets/pendant-white.webp",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Rasa pendant in white gold. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    },
+    {
+      "id": "earrings-platinum",
+      "path": "assets/earrings-platinum.webp",
+      "type": "illustration",
+      "origin": "generated",
+      "generation_note": "Žara earrings in platinum. Rendered by tools/render-stills.mjs from the original native WebGL geometry and shader in reference/gem.mjs; no model, photograph, texture or AI image.",
+      "creator": "Web Style Atlas contributors",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original render by Web Style Atlas contributors, dedicated under CC0-1.0",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Transparent background; PNG optimisation or WebP quality 84."
+      ]
+    }
+  ]
+}

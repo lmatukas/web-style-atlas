@@ -1,0 +1,52 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #7a5c2e;
+  --color-background: #f7f3ec;
+  --color-border: #8c8273;
+  --color-focus: #6a4c1f;
+  --color-muted: #5c554c;
+  --color-on-accent: #fbf8f2;
+  --color-surface: #ede5d8;
+  --color-text: #1f1c19;
+  --font-body: "Alegreya Sans", sans-serif;
+  --font-display: "Bodoni Moda", serif;
+  --font-size-body: 1.125rem;
+  --font-size-display: 3.5rem;
+  --font-size-heading: 2.75rem;
+  --font-size-small: 0.75rem;
+  --font-weight-bold: 500;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 82rem;
+  --layout-text-max-width: 36ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.01em;
+  --line-height-body: 1.62;
+  --line-height-heading: 1.12;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 180ms;
+  --motion-easing-standard: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --radius-none: 0;
+  --radius-pill: 999px;
+  --shadow-none: none;
+  --spacing-large: 2.5rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 9rem;
+  --spacing-small: 0.5rem;
+}
+
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../assets/fonts/bodoni/BodoniModa-Display-LT.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("../assets/fonts/alegreya/AlegreyaSans-Regular-LT.woff2");
+  font-display: swap;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */
