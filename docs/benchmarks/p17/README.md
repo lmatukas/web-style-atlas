@@ -1,6 +1,6 @@
 # P17 — Full creation prompt author replays
 
-These are three real isolated target projects built and checked by the same Codex author. They are **not independent model trials** and do not extend the independent P10 model claims. No additional agent or paid AI API was invoked.
+These are three real isolated target projects built and checked by the same agent author. They are **not independent model trials** and do not extend the independent P10 model claims. No additional agent or paid AI API was invoked.
 
 The frozen catalogue input is `f9ab3d1781381b705084e0710abd28d56ac15b8e`. `scenarios.json` retains exact ready style, A/B, brand/activity/content, every source-file hash and explicit applied substitutions. `prompts/` retains the exact complete customized prompts, whose SHA-256 values agree with `replay-results.json`. The materializer copies only the selected reference dependency closure into a new external project, then applies those recorded substitutions. It preserves the original objects and working functions. This is a bounded reuse/adaptation test, not a claim that a fresh external model generated an equivalent design from text alone.
 

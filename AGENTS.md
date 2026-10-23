@@ -30,3 +30,11 @@ instructions in START_HERE instead of changing the atlas or claiming queue work.
 Read `docs/COST_POLICY.md` before executing work. No paid runners, automatic AI
 review loops, unnecessary full-suite reruns or large artifacts. Preserve this
 policy in any future generated agent instructions. Required checks still apply.
+
+## Authorship and references
+
+Record authorship as `agent/<id>` in task worker fields and evidence author lines,
+and as "Web Style Atlas contributors" in asset records. Commit messages carry no
+trailers or session links. Reference pages link only to local files and use
+invented names that were checked for uniqueness; source URLs live in the style's
+`assets/RIGHTS.txt`. `tests/neutral-names.test.mjs` checks the reference pages.

@@ -19,7 +19,7 @@ Inspected the real repository `lmatukas/web-style-atlas`, default branch `main`,
 initial HEAD `087cc47853b394364bf421f9eeb9f9726dc5bebb`. The initial worktree was
 clean and GitHub had no open PRs. Claim commit
 `a254f2cab938728ff2d61cf587fe83e42fa42f06` was accepted on main before implementation
-on `task/p01-contract`, worker `Codex/839dbcebb83d`.
+on `task/p01-contract`, worker `agent/839dbcebb83d`.
 
 Preserve the existing plan, queue, dependency graph, routing instructions,
 cost policy and MIT holder, Laimonas Matukas. Extend all 38 task cards with the

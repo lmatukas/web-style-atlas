@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Terminal Utility presents a small technical practice as a useful, readable command surface. The fictional Relay Works studio explains operational services with concise verbs, visible parameters and honest output examples. It suits documentation, technical services and public project logs. The page is a website, not an executable terminal: visitors follow links and open explanations without entering shell commands. Familiar console notation provides orientation while semantic HTML remains the actual interface.
+Terminal Utility presents a small technical practice as a useful, readable command surface. The fictional Shellwick studio explains operational services with concise verbs, visible parameters and honest output examples. It suits documentation, technical services and public project logs. The page is a website, not an executable terminal: visitors follow links and open explanations without entering shell commands. Familiar console notation provides orientation while semantic HTML remains the actual interface.
 
 ## Signature
 
@@ -35,7 +35,7 @@ A nearly black green ground holds pale readable text, a soft green accent and mu
 
 ## Layout A
 
-A compact Relay Works header leads to a large terminal-style introduction and a clearly labeled demonstration command. Three native command disclosures explain audit, repair and handoff services with useful inputs and expected deliverables. A numbered runbook describes the actual sequence a customer would discuss with the practice. Each disclosure links to matching log entries, and the closing scope note points to the separate log composition. This is a service index with progressive detail, not a conventional sales hero followed by feature cards.
+A compact Shellwick header leads to a large terminal-style introduction and a clearly labeled demonstration command. Three native command disclosures explain audit, repair and handoff services with useful inputs and expected deliverables. A numbered runbook describes the actual sequence a customer would discuss with the practice. Each disclosure links to matching log entries, and the closing scope note points to the separate log composition. This is a service index with progressive detail, not a conventional sales hero followed by feature cards.
 
 ## Layout B
 

@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Editorial Journal is a reading-led direction for a small independent publication. The fictional Common Ground journal explores ordinary spaces and the people who care for them. It invites a visitor to read one substantial story rather than scan an interchangeable product pitch. Its character comes from a bookish masthead, a strong serif voice, quiet section labels and deliberate changes in reading measure. This direction is useful for essays, cultural publishing and reflective studio writing.
+Editorial Journal is a reading-led direction for a small independent publication. The fictional Plainroom journal explores ordinary spaces and the people who care for them. It invites a visitor to read one substantial story rather than scan an interchangeable product pitch. Its character comes from a bookish masthead, a strong serif voice, quiet section labels and deliberate changes in reading measure. This direction is useful for essays, cultural publishing and reflective studio writing.
 
 ## Signature
 

@@ -1,11 +1,11 @@
 Original code-authored furniture illustrations: chair.svg and bench.svg.
-Creator: Web Style Atlas contributors (Codex, S07).
+Creator: Web Style Atlas contributors (S07).
 Fictional object studies, not traced photographs. MIT repository license applies.
 No third-party assets or fonts.
 
 S41 additions: inline macro seam/timber illustration in reference/index.html
 and paired front elevations in reference/alternate.html.
-Creator: Web Style Atlas contributors (Codex, S41).
+Creator: Web Style Atlas contributors (S41).
 Original code-authored vector studies, not traced from third-party imagery.
 Colors consume the existing semantic tokens. MIT repository license applies.
 The enlargement and dimensions are illustrative, not manufacturing data.

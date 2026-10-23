@@ -19,7 +19,7 @@ status: "ready"
 
 ## Intent
 
-Quiet Luxury makes restraint useful by showing what deserves attention. Ellis Editions is a fictional seating collection, presented through one complete object, an enlarged junction and two measured records. The subject is the relationship between a soft cushion and an open timber frame. It suits edited product collections, architecture and hospitality portfolios. Visitors first see the shape, then understand a specific detail, then compare proportions. Visitor-facing copy stays in English; a technical Lithuanian glyph sample appears once in each footer.
+Quiet Luxury makes restraint useful by showing what deserves attention. Varrow Editions is a fictional seating collection, presented through one complete object, an enlarged junction and two measured records. The subject is the relationship between a soft cushion and an open timber frame. It suits edited product collections, architecture and hospitality portfolios. Visitors first see the shape, then understand a specific detail, then compare proportions. Visitor-facing copy stays in English; a technical Lithuanian glyph sample appears once in each footer.
 
 ## Signature
 
