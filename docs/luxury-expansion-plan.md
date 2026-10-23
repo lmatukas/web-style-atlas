@@ -105,7 +105,9 @@ stiliui, `woff2`, apkarpyti iki lotynų ir lietuvių raidžių. Jokių šriftų 
 išorinių CDN.
 
 **Biudžetas vienam stiliui:** nuotraukos iki 1,5 MB (WebP), šriftai iki 200 KB,
-peržiūros PNG iki 1 MiB.
+peržiūros PNG iki 1 MiB; kryptims su `image_dependency: high` (nuotraukų
+kryptys) — iki 3 MiB (savininko sprendimas, 2026-10-23). Visa versijuojama
+medija lieka iki 100 MiB.
 
 ## „Wow“ kartelė
 

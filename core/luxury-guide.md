@@ -81,7 +81,8 @@ tekstu ir būsena, kai judesys sumažintas arba WebGL neveikia. Pauzė, paslėpt
 lango sustabdymas, konteksto praradimas ir išteklių išvalymas būtini.
 
 Vadovaukis `docs/runtime-contract.md` ir `templates/style/README.md`:
-200 KB šriftų bei 1,5 MB nuotraukų vienam stiliui, iki 1 MiB vienai peržiūrai;
+200 KB šriftų bei 1,5 MB nuotraukų vienam stiliui, iki 1 MiB vienai peržiūrai
+(iki 3 MiB, kai `image_dependency: high`);
 šalia šrifto pilnas OFL.txt, prie CC0/PD nuotraukų RIGHTS.txt ir inventorius.
 Šaltinių URL yra teisių įrašuose. Pavyzdiniai puslapiai naudoja vietinius
 failus ir atskirai patikrintus išgalvotus verslo vardus. AI generuoti vaizdai
