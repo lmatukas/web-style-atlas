@@ -20,7 +20,7 @@ Išlaikyk penkis bruožus: vieną didelį laikrodį; A variante tris lėtus pasa
 
 Paletė: #0b0b0c, #19191b, kreminis #f0e9dc, aiškūs antriniai tekstai #b3ada2, metalo akcentas #c4a477. Paslaugai #eee7d9 popierius, #28251f tekstas ir #71572f akcentas. Paviršiai plokšti; metalo gradientai tik objekte, ne mygtukuose.
 
-Naudok vietinius OFL Bodoni Moda 400 ir Alegreya Sans 400 arba lygiavertę porą. Ne daugiau kaip dvi šeimos ir trys svoriai, iki 200 KB, lietuviškos raidės ir pilni OFL.txt. Antraštės 24–56 px, viena produkto antraštė gali būti iki 80 px. Etiketės 11–14 px, didžiosios raidės su 1–3 px tarpais. Skaičiams tabular numerals. Jokių išorinių šriftų CDN.
+Naudok vietinius OFL Cormorant Garamond Light (300) antraštėms ir skaičiams bei geometrinį Jost 400 tekstui arba lygiavertę porą. Ne daugiau kaip dvi šeimos ir trys svoriai, iki 200 KB, lietuviškos raidės ir pilni OFL.txt. Antraštės 24–56 px, viena produkto antraštė gali būti iki 80 px. Etiketės 11–14 px, didžiosios raidės su 1–3 px tarpais. Skaičiams tabular numerals. Jokių išorinių šriftų CDN.
 
 ## Maketai ir tikras veikimas
 

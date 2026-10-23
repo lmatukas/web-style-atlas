@@ -13,7 +13,7 @@ motion_level: expressive
 complexity: high
 signature:
   composition: A holds one watch right of three editorial scroll chapters; B reverses the weight into a left object and warm light selection desk, then a full-width ledger.
-  typography: Local Bodoni Moda 400 headings, light Alegreya Sans 400 body, tabular figures and small tracked uppercase labels.
+  typography: Local Cormorant Garamond Light headings and numerals, geometric Jost 400 text, tabular figures and small tracked uppercase labels.
   navigation: An unframed wordmark and quiet local links; chapter anchors in A and an explicit selection-review-fitting route in B.
   content_rhythm: Long dark watch chapters lead to ruled figures and a cropped mechanism; the service changes to warm paper with visible form boundaries.
   imagery: Original native WebGL bevelled watch and gear train, plus a detailed original SVG generated from code, without photography or borrowed models.
@@ -35,7 +35,7 @@ Preserve five invariants, written before implementation: one full-height watch w
 
 ## Typography
 
-Bodoni Moda at 400 and optical size 28 carries headings; Alegreya Sans Regular at 400 carries text and controls. Both are bundled OFL WOFF2 subsets including both cases of Lithuanian letters. Two families and two weights/files fit far below 200 KB. Headings stay at 38–56 px, with B’s single product name up to 67 px. Labels use 11–12 px and 1–3 px tracking. Tabular numerals keep time, measurement, price and percentages stable.
+Cormorant Garamond Light (300) carries headings and large numerals; geometric Jost at 400 carries text, labels and controls. Both are bundled OFL WOFF2 subsets including both cases of Lithuanian letters. Two families and two files total about 28 KB. Headings stay at 38–56 px, with B’s single product name up to 67 px. Labels use 11–12 px and 1–3 px tracking. Tabular numerals keep time, measurement, price and percentages stable.
 
 ## Color and surfaces
 
