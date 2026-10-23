@@ -2247,6 +2247,63 @@
     },
     {
       "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "hospitality",
+        "culture",
+        "services",
+        "events"
+      ],
+      "complexity": "medium",
+      "density": "sparse",
+      "family": "tactile",
+      "id": "velvet-members-hall",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Velvet Members Hall",
+      "prompt_path": "prompts/velvet-members-hall/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Deep cherry velvet and ink-black margins, warm brass labels and cream type; the application uses cream paper with wine-black ink.",
+        "composition": "A is a full-width velvet arrival followed by unequal room and programme spreads; B places a tall velvet panel beside a cream invitation and a progressive application worktable.",
+        "content_rhythm": "An invitation, three rooms, a six-evening programme, two membership levels and native house notes; B follows the personal letter and three-step application.",
+        "imagery": "Original code-generated velvet folds, broad curved folds and a warm light pool; no photographs, borrowed logos or decorative picture frames.",
+        "interaction": "Pointer and native range controls move actual light across velvet; month and event choices change seat limits, while referral and house choices change the membership letter.",
+        "motion": "A 1.6-second opening light sweep settles; user adjustments settle in 420ms; pause, hidden/offscreen suspension and immediate reduced-motion controls remain available.",
+        "navigation": "A quiet house masthead, native programme and membership links, two month controls and explicit application back/reset actions.",
+        "typography": "Local Cormorant Garamond 400 with a real italic face, paired with narrow Barlow Condensed 400 and small tracked labels."
+      },
+      "status": "ready",
+      "style_path": "styles/velvet-members-hall/style.md",
+      "summary": "Wine velvet folds, a movable pool of light and an intimate club programme lead to a seat reservation or a three-step personal membership letter.",
+      "tags": [
+        "luxury",
+        "warm",
+        "cinematic",
+        "task-led",
+        "asymmetric"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/velvet-members-hall/preview-mobile.png",
+          "preview_path": "styles/velvet-members-hall/preview.png",
+          "reference_path": "styles/velvet-members-hall/reference/index.html",
+          "title": "Club house and evening programme"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/velvet-members-hall/preview-alt-mobile.png",
+          "preview_path": "styles/velvet-members-hall/preview-alt.png",
+          "reference_path": "styles/velvet-members-hall/reference/alternate.html",
+          "title": "Personal invitation and membership letter"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "data"
       ],
       "best_for": [

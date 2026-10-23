@@ -442,6 +442,27 @@
         "spine-editions"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S58",
+      "style_id": "velvet-members-hall",
+      "name": "Velvet Members Hall",
+      "family": "tactile",
+      "language": "lt",
+      "prompt_path": "prompts/velvet-members-hall/prompt.lt.md",
+      "demo_brand": "Orvelleth",
+      "variants": {
+        "a": "Privataus klubo pristatymas, erdvės, mėnesių programa ir vietos rezervacija",
+        "b": "Asmeninis kvietimo laiškas ir trijų žingsnių narystės paraiška"
+      },
+      "signature": "Vyšninio aksomo klostės, kurių šviesa reaguoja į žymeklį, klaviatūros slankiklį ir lietimą.",
+      "acceptance": "Narystės lygis, klubo namas ir rekomendacijos kelias su tikslia santrauka; renginio datos ir vietų limitai; klaidos, grįžimas, atkūrimas ir vietinis patvirtinimas.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "art-deco",
+        "choreographic-stage"
+      ],
+      "audio": false
     }
   ]
 }

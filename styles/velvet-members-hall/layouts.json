@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Club house and evening programme",
+      "page_type": "hospitality",
+      "reference_path": "reference/index.html",
+      "navigation": "Quiet house/programme/membership links; native section anchors and explicit back/reset controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Arrive",
+          "pattern": "Full-height velvet with a left-aligned invitation",
+          "content_requirements": [
+            "Original procedural folds",
+            "Movable light",
+            "One programme link"
+          ]
+        },
+        {
+          "purpose": "Know the rooms",
+          "pattern": "Unequal introduction and three quiet room records",
+          "content_requirements": [
+            "Conversation",
+            "Listening",
+            "Library"
+          ]
+        },
+        {
+          "purpose": "Reserve a seat",
+          "pattern": "Month switch and radio programme beside club introduction",
+          "content_requirements": [
+            "Six events",
+            "Capacity-aware local reservation",
+            "Exact unsent summary"
+          ]
+        },
+        {
+          "purpose": "Choose membership",
+          "pattern": "Two spacious membership records",
+          "content_requirements": [
+            "Home member",
+            "House friend",
+            "Application link"
+          ]
+        },
+        {
+          "purpose": "Understand the house",
+          "pattern": "Native disclosures",
+          "content_requirements": [
+            "Recommendation alternative",
+            "Demonstration boundary"
+          ]
+        }
+      ],
+      "mobile_reflow": "A keeps a full-height velvet invitation before stacked room and programme rows. B gives the velvet its own tall first screen, then the cream letter and a full-width progressive form.",
+      "distinguishing_features": [
+        "Procedural wine velvet with a controlled light pool",
+        "A programme and seat desk",
+        "Light italic serif with condensed labels"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Personal invitation and membership letter",
+      "page_type": "services",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Quiet house/programme/membership links; native section anchors and explicit back/reset controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Read an invitation",
+          "pattern": "Vertical velvet spread beside a cream letter",
+          "content_requirements": [
+            "Original velvet",
+            "Personal note",
+            "Three-step overview"
+          ]
+        },
+        {
+          "purpose": "Apply",
+          "pattern": "Cream worktable with step rail and progressive form",
+          "content_requirements": [
+            "Name and email",
+            "Membership level",
+            "House and recommendation",
+            "Exact review",
+            "Local confirmation"
+          ]
+        },
+        {
+          "purpose": "Understand membership",
+          "pattern": "Shared house principles",
+          "content_requirements": [
+            "Respect",
+            "No fabricated prices"
+          ]
+        },
+        {
+          "purpose": "Read service notes",
+          "pattern": "Native disclosures",
+          "content_requirements": [
+            "Recommendation alternative",
+            "No transmission"
+          ]
+        }
+      ],
+      "mobile_reflow": "A keeps a full-height velvet invitation before stacked room and programme rows. B gives the velvet its own tall first screen, then the cream letter and a full-width progressive form.",
+      "distinguishing_features": [
+        "Procedural wine velvet with a controlled light pool",
+        "B asymmetric personal letter and three-step application",
+        "Light italic serif with condensed labels"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 45. Drafts and templates are excluded.
+Ready styles: 46. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -49,5 +49,6 @@ Ready styles: 45. Drafts and templates are excluded.
 | [Terminal Utility](../styles/terminal-utility/style.md) | technical | A readable command index and chronological information panels with a consistent monospace voice. | [A: Command-like service index](../styles/terminal-utility/reference/index.html) · [B: Chronological log with information panels](../styles/terminal-utility/reference/alternate.html) |
 | [Trail Composer](../styles/trail-composer/style.md) | illustrative | A paper trail and transparent three-input selection produce an imaginary day plan, linked preparation checklist and current UTF-8 download. | [A: Vertical paper trail and trip moods](../styles/trail-composer/reference/index.html) · [B: Day-plan ledger and linked preparation](../styles/trail-composer/reference/alternate.html) |
 | [Twilight Expedition](../styles/twilight-expedition/style.md) | spatial | A stable mountain-observatory panorama and relief atlas connect finite dusk-to-night transitions to a real local itinerary and enquiry. | [A: Dusk panorama and arrival chapters](../styles/twilight-expedition/reference/index.html) · [B: Relief atlas and departure ledger](../styles/twilight-expedition/reference/alternate.html) |
+| [Velvet Members Hall](../styles/velvet-members-hall/style.md) | tactile | Wine velvet folds, a movable pool of light and an intimate club programme lead to a seat reservation or a three-step personal membership letter. | [A: Club house and evening programme](../styles/velvet-members-hall/reference/index.html) · [B: Personal invitation and membership letter](../styles/velvet-members-hall/reference/alternate.html) |
 | [Woven Field](../styles/woven-field/style.md) | tactile | Ordered thread fields, a narrow creative notebook and a parameter-led studio turn two colors and three crossing structures into real standalone SVG samples. | [A: Indexed weaving notebook](../styles/woven-field/reference/index.html) · [B: Parameter-led pattern studio and oversized samples](../styles/woven-field/reference/alternate.html) |
 | [Y2K Chrome](../styles/y2k-chrome/style.md) | nostalgic | Futuristic pop-poster scale, polished metallic objects and tilted orbits, with a distinct indexed audio-visual collection composition. | [A: Audio-visual release poster](../styles/y2k-chrome/reference/index.html) · [B: Indexed edition collection](../styles/y2k-chrome/reference/alternate.html) |

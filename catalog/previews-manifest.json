@@ -1736,6 +1736,46 @@
       "width": 390
     },
     {
+      "height": 4321,
+      "output_sha256": "a9adc7644d180ead11e8a942feef6d0e90b248eb68bac8835976082ffa0bd3c0",
+      "path": "styles/velvet-members-hall/preview.png",
+      "source_sha256": "78571ba526eaaaccfb93a476a87dc96d43e8e5b7c42a736667c0acbab90f0734",
+      "style_id": "velvet-members-hall",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4879,
+      "output_sha256": "27cdd291f512a6143d455fdb338bb43a6fbeb9176a5d473a0eac147ba17fc421",
+      "path": "styles/velvet-members-hall/preview-mobile.png",
+      "source_sha256": "78571ba526eaaaccfb93a476a87dc96d43e8e5b7c42a736667c0acbab90f0734",
+      "style_id": "velvet-members-hall",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3071,
+      "output_sha256": "f9ec84b053aec5fd4d06b02df68877bde6d0ea9e62fc18e7c997838abf9bfa61",
+      "path": "styles/velvet-members-hall/preview-alt.png",
+      "source_sha256": "78571ba526eaaaccfb93a476a87dc96d43e8e5b7c42a736667c0acbab90f0734",
+      "style_id": "velvet-members-hall",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3666,
+      "output_sha256": "bc38c8e1df5045d13583bd3a885debbd4952d6e0dd9c1e6f30d8eebdc6b5e1b4",
+      "path": "styles/velvet-members-hall/preview-alt-mobile.png",
+      "source_sha256": "78571ba526eaaaccfb93a476a87dc96d43e8e5b7c42a736667c0acbab90f0734",
+      "style_id": "velvet-members-hall",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 3943,
       "output_sha256": "236c4c65acc9a60e8495d9ca916135ce0adeafa27655baa600c664c03b6b407d",
       "path": "styles/woven-field/preview.png",

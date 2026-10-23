@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "cormorant",
+      "path": "assets/fonts/cormorant/CormorantGaramond-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+      "creator": "The Cormorant Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/cormorant/OFL.txt",
+      "attribution": "Cormorant Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instantiated weight 400 where variable; subset Latin, Lithuanian and punctuation; WOFF2. True italic retained in italic file."
+      ]
+    },
+    {
+      "id": "cormorant-italic",
+      "path": "assets/fonts/cormorant/CormorantGaramond-Italic-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+      "creator": "The Cormorant Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/cormorant/OFL.txt",
+      "attribution": "Cormorant Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instantiated weight 400 where variable; subset Latin, Lithuanian and punctuation; WOFF2. True italic retained in italic file."
+      ]
+    },
+    {
+      "id": "barlow",
+      "path": "assets/fonts/barlow/BarlowCondensed-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/barlowcondensed",
+      "creator": "The Barlow Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/barlow/OFL.txt",
+      "attribution": "Barlow Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instantiated weight 400 where variable; subset Latin, Lithuanian and punctuation; WOFF2. True italic retained in italic file."
+      ]
+    }
+  ]
+}
