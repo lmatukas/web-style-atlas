@@ -1,0 +1,14 @@
+Noto Sans — Copyright 2022 The Noto Project Authors.
+Source: https://github.com/google/fonts/tree/main/ofl/notosans
+Font: https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/NotoSans%5Bwdth,wght%5D.ttf
+License: OFL-1.1; full original license in fonts/OFL.txt.
+Retrieved 2026-10-23. The source font has no Reserved Font Name declaration.
+Transformations: fontTools 4.61.1 instantiateVariableFont with wght=400,
+wdth=100; Subsetter with U+0020–U+007E plus ĄČĘĖĮŠŲŪŽąčęėįšųūž for
+NotoSans-Regular.woff2, ASCII only for NotoSans-ASCII.woff2; WOFF2 output.
+The ASCII variant is exclusively a negative-test fixture and is never published
+as an accepted local font. Both subsets may be redistributed under the OFL.
+The preview fixture materializes the already-inventoried cinematic-photo CC0
+forest and its RIGHTS.txt at test time, without duplicating that photograph.
+The cuboid, SVG fallback, HTML and JavaScript are original atlas MIT code.
+Original TTF SHA-256: bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d

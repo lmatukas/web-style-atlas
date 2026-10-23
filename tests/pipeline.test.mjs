@@ -87,10 +87,10 @@ test('local fonts must link to a matching font asset and bundled license', t => 
   change('tokens.json', data => Object.assign(data.typography.body, { source: 'local', file: 'assets/body.woff2', asset_id: 'body-font' }));
   assert.throws(() => loadAtlas({ root }), /\/typography\/body\/asset_id/);
   mkdirSync(join(root, base, 'assets'));
-  writeFileSync(join(root, base, 'assets/body.woff2'), 'fixture, not a real font');
+  cpSync(join(source, 'tests/fixtures/luxury/fonts/NotoSans-Regular.woff2'), join(root, base, 'assets/body.woff2'));
   change('assets.json', data => data.assets.push({ id: 'body-font', path: 'assets/body.woff2', type: 'font', origin: 'third_party', source_url: 'https://example.org/font', creator: null, license: 'OFL-1.1', license_file: 'assets/OFL.txt', attribution: 'Test fixture', redistribution_allowed: true, modifications: [] }));
   assert.throws(() => loadAtlas({ root }), /assets\/OFL.txt.*does not exist/);
-  writeFileSync(join(root, base, 'assets/OFL.txt'), 'Test fixture license');
+  cpSync(join(source, 'tests/fixtures/luxury/fonts/OFL.txt'), join(root, base, 'assets/OFL.txt'));
   build({ root });
   assert.match(readFileSync(join(root, base, 'reference/tokens.css'), 'utf8'), /src: url\("\.\.\/assets\/body.woff2"\)/);
 });
