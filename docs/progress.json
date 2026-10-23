@@ -4026,23 +4026,61 @@
     {
       "id": "S54",
       "title": "Nauja kryptis: Escapement Nocturne",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S53"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate/build/check",
+          "status": "pass",
+          "details": "42 ready source styles; all 168 preview records current."
+        },
+        {
+          "name": "unit tests",
+          "status": "pass",
+          "details": "96/96, including neutral names, rights, real font glyphs and release gate."
+        },
+        {
+          "name": "S54 business/runtime QA",
+          "status": "pass",
+          "details": "18 cases; 81 independently computed prices; A/B normal, reduced and blocked WebGL; real API/depth/pixels; known live clock angles; booking errors, confirmation and reset; 360/390/768/1440."
+        },
+        {
+          "name": "accessibility and interaction",
+          "status": "pass",
+          "details": "6/6 axe/coverage pages. Actual CDP touch and vertical scrolling, live preference switch, GPU disposal, retained choices, offscreen stop, desktop scroll pixels and pause."
+        },
+        {
+          "name": "canonical local previews and visual rubric",
+          "status": "pass",
+          "details": "Ubuntu 24.04 / Node 24.19.0 / Playwright 1.62.1 / Chromium 151.0.7922.34. Four PNGs inspected, largest 931444 bytes; 11/12; all ten luxury criteria recorded."
+        },
+        {
+          "name": "GitHub Atlas validation",
+          "status": "pass",
+          "details": "Run 39983649815 on exact head 6720437dad12b700a93efb0758b1675be856f3a8: all three jobs successful, including source/generated and browser/accessibility/runtime gates."
+        },
+        {
+          "name": "separate canonical GitHub workflow",
+          "status": "not_run",
+          "details": "Still not dispatched. Owner explicitly authorised secure GitHub sign-in on 2026-10-23. browserAuth submitted the selected password flow; GitHub rejected the sign-in. Secure manual authentication handoff is pending; no further automatic credential attempt or alternative credential entry was made. Latest ten Actions runs confirm no S54 preview dispatch."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S54.md"
+      ],
       "worker": "agent/1dca4071cc2e",
       "claimed_at": "2026-10-23T15:31:44Z",
-      "updated_at": "2026-10-23T15:31:44Z",
+      "updated_at": "2026-10-23T16:38:59Z",
       "branch": "task/s54-escapement-nocturne",
       "base_commit": "b94babd67c888d8be20282e3c880129536c66226",
-      "evidence_commit": null,
+      "evidence_commit": "6720437dad12b700a93efb0758b1675be856f3a8",
       "merge_commit": null,
-      "pr_url": null,
-      "blocker": null,
-      "next_action": "Implement S54, verify both watch compositions and publish one PR.",
-      "handoff": "Claimed by agent/1dca4071cc2e on the owner’s next-task request; no open task PRs or active claims."
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/119",
+      "blocker": "Required separate canonical preview workflow remains not_run; authorised sign-in was rejected by GitHub and secure manual authentication is needed.",
+      "next_action": "Finish GitHub sign-in in the secure browser handoff, then run previews.yml (ref main, branch task/s54-escapement-nocturne, style escapement-nocturne). Verify any preview changes and final-head CI, accept PR #119, record done; S55 must wait.",
+      "handoff": "Explicit secure sign-in permission has been received; do not ask for it again. GitHub rejected the submitted sign-in, so manual authentication handoff is pending. Retain PR #119 and this claim. Exact-head Atlas validation 39983649815 is green; do not rerun unchanged green suites. After authentication, dispatch only S54 previews, inspect actual run/changed PNGs, verify final-head checks, merge under existing authorisation if all required gates pass, then record the real merge/done state. No S55 work started."
     },
     {
       "id": "S55",
