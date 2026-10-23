@@ -4188,23 +4188,23 @@
     {
       "id": "S57",
       "title": "Nauja kryptis: Heirloom Weave Ledger",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S56"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/961b497eaa3a",
+      "claimed_at": "2026-10-23T21:11:54Z",
+      "updated_at": "2026-10-23T21:11:54Z",
+      "branch": "task/s57-heirloom-weave-ledger",
+      "base_commit": "0cd193be41c2a043b950aad55036b846426c4f73",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S57 ir vykdyti pagal docs/tasks/S57.md.",
-      "handoff": null
+      "next_action": "Implement S57; owner authorised sequential S56 then S57 with merge.",
+      "handoff": "S56 merged and accepted; second task in owner-authorised batch."
     },
     {
       "id": "S58",
