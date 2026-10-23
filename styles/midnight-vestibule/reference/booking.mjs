@@ -135,5 +135,11 @@ drawer.addEventListener('keydown', event => {
   if (event.shiftKey && document.activeElement === firstItem) { event.preventDefault(); last.focus(); }
   else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); firstItem.focus(); }
 });
+// The edge tab appears only once the masthead action has scrolled away, so one primary action is visible at a time.
+const edge = document.querySelector('.edge-tab'), masthead = document.querySelector('.masthead');
+if (edge && masthead) {
+  edge.classList.add('tucked');
+  new IntersectionObserver(entries => edge.classList.toggle('tucked', entries[0].isIntersecting)).observe(masthead);
+}
 renderCalendar(); render();
 window.atlasDrawer = { open, close };

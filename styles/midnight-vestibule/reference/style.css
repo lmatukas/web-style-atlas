@@ -213,3 +213,5 @@ legend{font-weight:500;font-size:var(--font-size-small);letter-spacing:.28em;tex
   .footer p{text-align:left}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.drawer-panel,.drawer-backdrop,.primary{transition:none}}
+.edge-tab.tucked{visibility:hidden;opacity:0;pointer-events:none}
+.edge-tab{transition:opacity var(--motion-duration-short)}
