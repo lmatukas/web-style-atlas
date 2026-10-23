@@ -4058,13 +4058,13 @@
         },
         {
           "name": "GitHub Atlas validation",
-          "status": "not_run",
-          "details": "Run 39983649815 on exact head 6720437dad12b700a93efb0758b1675be856f3a8: scope and source/generated jobs passed; browser job queued at this tracking update."
+          "status": "pass",
+          "details": "Run 39983649815 on exact head 6720437dad12b700a93efb0758b1675be856f3a8: all three jobs successful, including source/generated and browser/accessibility/runtime gates."
         },
         {
           "name": "separate canonical GitHub workflow",
           "status": "not_run",
-          "details": "Connector has no dispatch action; observed cloud GitHub workflow page is signed out. Local canonical generation is not reported as that separate run."
+          "details": "Not dispatched: connector has no action; cloud browser is signed out. Automatic approval review rejected the secure browserAuth request because specific credential-entry/account authorisation was not explicit. No alternative credential method was attempted."
         }
       ],
       "evidence_paths": [
@@ -4072,15 +4072,15 @@
       ],
       "worker": "agent/1dca4071cc2e",
       "claimed_at": "2026-10-23T15:31:44Z",
-      "updated_at": "2026-10-23T16:06:09Z",
+      "updated_at": "2026-10-23T16:09:29Z",
       "branch": "task/s54-escapement-nocturne",
       "base_commit": "b94babd67c888d8be20282e3c880129536c66226",
       "evidence_commit": "6720437dad12b700a93efb0758b1675be856f3a8",
       "merge_commit": null,
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/119",
-      "blocker": "S54 card still requires the separate GitHub canonical preview dispatch; current browser is signed out.",
-      "next_action": "Run previews.yml: workflow ref main, branch task/s54-escapement-nocturne, style escapement-nocturne; verify final-head CI and any changed PNGs, then accept PR #119. Do not start S55.",
-      "handoff": "Implementation complete by agent/1dca4071cc2e in draft PR #119. Explicit handoff to the owner or next agent: retain this PR and claim; after the missing canonical workflow, inspect its real run and any preview changes, verify exact-head CI, merge under existing authorisation only when all gates pass, and record the actual merge/done state on main. S55 was not started."
+      "blocker": "Required separate canonical preview workflow remains not_run; secure GitHub sign-in was rejected by automatic approval review pending explicit account authorisation.",
+      "next_action": "Owner can run previews.yml (ref main, branch task/s54-escapement-nocturne, style escapement-nocturne), or explicitly authorise secure GitHub sign-in to lmatukas for dispatch. Then verify final head/PNGs and accept PR #119; S55 must wait.",
+      "handoff": "PR #119 is draft review; exact-head Atlas validation 39983649815 passed all three jobs. Explicit handoff to the owner or next agent: retain this PR/claim; do not retry credential entry without explicit account authorisation after automatic approval rejection. After the separate canonical run, inspect any changed PNGs and final-head checks, merge only when all gates pass under existing merge authorisation, then record the actual merge/done state on main. No S55 work started."
     },
     {
       "id": "S55",
