@@ -856,6 +856,46 @@
       "width": 390
     },
     {
+      "height": 4900,
+      "output_sha256": "501fb4027530542bca4ff0342e72d40a0ab4303c1bcd4c8e9667a1395892081f",
+      "path": "styles/midnight-vestibule/preview.png",
+      "source_sha256": "122e19af5d627ae8436dc1ac4ede298d8fc471454c94e60a672e7924821a33ed",
+      "style_id": "midnight-vestibule",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5712,
+      "output_sha256": "5eb6312a8159f65f3ae4d8a886959a99a640000ddfd79334fd975837d14593b1",
+      "path": "styles/midnight-vestibule/preview-mobile.png",
+      "source_sha256": "122e19af5d627ae8436dc1ac4ede298d8fc471454c94e60a672e7924821a33ed",
+      "style_id": "midnight-vestibule",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3254,
+      "output_sha256": "b15ffb1d13f40bb5dfaa8c0f4adbfd8b975a6021cf2ff64145eb7c36cc9505db",
+      "path": "styles/midnight-vestibule/preview-alt.png",
+      "source_sha256": "122e19af5d627ae8436dc1ac4ede298d8fc471454c94e60a672e7924821a33ed",
+      "style_id": "midnight-vestibule",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3799,
+      "output_sha256": "a20c18216e623567fda6866b6ff62f91df05417190729782f696f7cc25dd7d95",
+      "path": "styles/midnight-vestibule/preview-alt-mobile.png",
+      "source_sha256": "122e19af5d627ae8436dc1ac4ede298d8fc471454c94e60a672e7924821a33ed",
+      "style_id": "midnight-vestibule",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 4258,
       "output_sha256": "c6732ab083f6f6600ed92f26a2cd1d6121b0b5142838b33d8253056ea189d81a",
       "path": "styles/modular-light/preview.png",
