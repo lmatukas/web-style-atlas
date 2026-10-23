@@ -28,3 +28,12 @@ test('release gate rejects a version without lock, changelog and release notes',
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('photo-led styles get a larger preview limit; others keep 1 MiB', async () => {
+  const { previewLimit, MAX_PNG_BYTES, MAX_PHOTO_PNG_BYTES } = await import('../scripts/preview.config.mjs');
+  assert.equal(previewLimit({ image_dependency: 'high' }), MAX_PHOTO_PNG_BYTES);
+  assert.equal(previewLimit({ image_dependency: 'medium' }), MAX_PNG_BYTES);
+  assert.equal(previewLimit(), MAX_PNG_BYTES);
+  assert.equal(MAX_PNG_BYTES, 1024 * 1024);
+  assert.equal(MAX_PHOTO_PNG_BYTES, 3 * 1024 * 1024);
+});

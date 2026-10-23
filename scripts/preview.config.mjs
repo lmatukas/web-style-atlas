@@ -23,5 +23,11 @@ export const CANONICAL_FONTS = Object.freeze({
 export const VIEWPORTS = Object.freeze({ desktop: { width: 1440, height: 1000 }, mobile: { width: 390, height: 844 } });
 export const TIMEOUT = 15000;
 export const MAX_PNG_BYTES = 1024 * 1024;
+// Photograph-led styles (image_dependency: high) may use up to 3 MiB per preview;
+// every other style keeps 1 MiB. The whole versioned media set stays within 100 MiB.
+export const MAX_PHOTO_PNG_BYTES = 3 * 1024 * 1024;
+export const MAX_MEDIA_BYTES = 100 * 1024 * 1024;
+export const previewLimit = metadata => (metadata?.image_dependency === 'high' ? MAX_PHOTO_PNG_BYTES : MAX_PNG_BYTES);
+export const formatLimit = bytes => `${bytes / (1024 * 1024)} MiB`;
 export const MANIFEST = 'catalog/previews-manifest.json';
 export const previewPath = (style, variant, viewport) => `${style.base}/preview${variant === 'b' ? '-alt' : ''}${viewport === 'mobile' ? '-mobile' : ''}.png`;
