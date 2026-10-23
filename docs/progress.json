@@ -3869,7 +3869,7 @@
     {
       "id": "P26",
       "title": "Prabangos gairės, žyma ir vardų patikra",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P25"
       ],
@@ -3891,8 +3891,8 @@
         },
         {
           "name": "GitHub Atlas validation",
-          "status": "not_run",
-          "details": "PR #112 workflow pending; verify before merge."
+          "status": "pass",
+          "details": "Run 39920358325 attempt 2, exact head 5434721b9d0f7a779dca139cb86a731a11ebe3b2: all three jobs passed; gallery 6/6, accessibility 39 styles / 237 pages, browser fixtures 10/10, runtime 15 styles / 90 cases. Attempt 1 exhausted the 15-minute job limit after slow dependency downloads; retry installed dependencies in 18 seconds."
         }
       ],
       "evidence_paths": [
@@ -3900,15 +3900,15 @@
       ],
       "worker": "agent/458cee2ac60f",
       "claimed_at": "2026-10-23T07:24:39Z",
-      "updated_at": "2026-10-23T07:49:45Z",
+      "updated_at": "2026-10-23T08:19:20Z",
       "branch": "task/p26-luxury-guide",
       "base_commit": "bc90c2444d0dc01adc453839a5c3ca3c0986d683",
       "evidence_commit": "5434721b9d0f7a779dca139cb86a731a11ebe3b2",
-      "merge_commit": null,
+      "merge_commit": "988ade679d0cd23055b5657139500c1e8ad2f303",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/112",
       "blocker": null,
-      "next_action": "Verify required CI for PR #112 and merge when green.",
-      "handoff": "PR #112 ready; verify exact-head canonical CI, merge and record actual merge SHA. Eight planned names were screened and corrected; update future task titles on acceptance."
+      "next_action": "P26 accepted; S52 is the next eligible task.",
+      "handoff": "PR #112 merged after canonical Atlas validation run 39920358325 attempt 2 passed on exact head 5434721b9d0f7a779dca139cb86a731a11ebe3b2. All 39 styles / 237 pages and 90 runtime cases passed. Planned names match the accepted cards. S52 has not been claimed."
     },
     {
       "id": "S52",
@@ -3933,7 +3933,7 @@
     },
     {
       "id": "S53",
-      "title": "Nauja kryptis: High Vitrine",
+      "title": "Nauja kryptis: Luminous Cut Vitrine",
       "status": "todo",
       "depends_on": [
         "S52"
@@ -3954,7 +3954,7 @@
     },
     {
       "id": "S54",
-      "title": "Nauja kryptis: Noir Chronograph",
+      "title": "Nauja kryptis: Escapement Nocturne",
       "status": "todo",
       "depends_on": [
         "S53"
@@ -3975,7 +3975,7 @@
     },
     {
       "id": "S55",
-      "title": "Nauja kryptis: Night Palace",
+      "title": "Nauja kryptis: Midnight Vestibule",
       "status": "todo",
       "depends_on": [
         "S54"
@@ -4017,7 +4017,7 @@
     },
     {
       "id": "S57",
-      "title": "Nauja kryptis: Heritage House",
+      "title": "Nauja kryptis: Heirloom Weave Ledger",
       "status": "todo",
       "depends_on": [
         "S56"
@@ -4038,7 +4038,7 @@
     },
     {
       "id": "S58",
-      "title": "Nauja kryptis: Velvet Club",
+      "title": "Nauja kryptis: Velvet Members Hall",
       "status": "todo",
       "depends_on": [
         "S57"
@@ -4059,7 +4059,7 @@
     },
     {
       "id": "S59",
-      "title": "Nauja kryptis: Viewing Room",
+      "title": "Nauja kryptis: Patina Auction Room",
       "status": "todo",
       "depends_on": [
         "S58"
@@ -4080,7 +4080,7 @@
     },
     {
       "id": "S60",
-      "title": "Nauja kryptis: Harbour Residence",
+      "title": "Nauja kryptis: Openwater Deck",
       "status": "todo",
       "depends_on": [
         "S59"
@@ -4122,7 +4122,7 @@
     },
     {
       "id": "S62",
-      "title": "Nauja kryptis: Tasting Room",
+      "title": "Nauja kryptis: Ember Course Room",
       "status": "todo",
       "depends_on": [
         "S61"
