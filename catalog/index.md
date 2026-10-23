@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 44. Drafts and templates are excluded.
+Ready styles: 45. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -20,6 +20,7 @@ Ready styles: 44. Drafts and templates are excluded.
 | [Escapement Nocturne](../styles/escapement-nocturne/style.md) | spatial | A live mechanical watch on deep black, opened by scroll or hand, followed by an exact-price personalisation desk and a complete local salon visit. | [A: A movement revealed in three chapters](../styles/escapement-nocturne/reference/index.html) · [B: A personal watch and exact-price selection desk](../styles/escapement-nocturne/reference/alternate.html) |
 | [Field Notes](../styles/field-notes/style.md) | tactile | Documentary labels, marginal annotations and attached source captions for a readable travel notebook. | [A: Travel fragment with margin notes](../styles/field-notes/reference/index.html) · [B: Route diary and sketches](../styles/field-notes/reference/alternate.html) |
 | [Gallery White Cube](../styles/gallery-white-cube/style.md) | restrained | Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels. | [A: Exhibition works wall](../styles/gallery-white-cube/reference/index.html) · [B: Single work with exhibition index](../styles/gallery-white-cube/reference/alternate.html) |
+| [Heirloom Weave Ledger](../styles/heirloom-weave-ledger/style.md) | tactile | An original initials monogram, cream-and-green century ledger and tactile accessory worktable connect archival craft with a live personal mark. | [A: Century ledger](../styles/heirloom-weave-ledger/reference/index.html) · [B: Collection and personalization](../styles/heirloom-weave-ledger/reference/alternate.html) |
 | [Humanist Service](../styles/humanist-service/style.md) | functional | Warm serif guidance, approachable illustrated people and a clear three-step path make practical service help feel patient and understandable. | [A: People and practical help](../styles/humanist-service/reference/index.html) · [B: A patient three-step path](../styles/humanist-service/reference/alternate.html) |
 | [Industrial Spec](../styles/industrial-spec/style.md) | technical | Numbered engineering-sheet compositions with dimensioned elevations, explicit units and revision records, plus an orthographic comparison layout. | [A: Dimensioned component sheet](../styles/industrial-spec/reference/index.html) · [B: Orthographic views and comparison](../styles/industrial-spec/reference/alternate.html) |
 | [Institutional Clear](../styles/institutional-clear/style.md) | functional | A wayfinding directory for public services: an original floor plan, lettered signs and plain routes from arrival to the next step. | [A: Building directory with floor plan](../styles/institutional-clear/reference/index.html) · [B: Area guide with route rail](../styles/institutional-clear/reference/alternate.html) |

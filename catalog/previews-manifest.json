@@ -576,6 +576,46 @@
       "width": 390
     },
     {
+      "height": 6182,
+      "output_sha256": "64e2646344ff13483c802d4fdedc6e00b4ad2a78e6de47437d53e54dc6e87720",
+      "path": "styles/heirloom-weave-ledger/preview.png",
+      "source_sha256": "b587e752ccf262efae3a01b693d796c7e3a041f0331e3b32ba9cb6f5d3600626",
+      "style_id": "heirloom-weave-ledger",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6247,
+      "output_sha256": "22c967355a8b592dc75fb78a827e00ae0ffe728f7aa4c92beca13eea39d8dbec",
+      "path": "styles/heirloom-weave-ledger/preview-mobile.png",
+      "source_sha256": "b587e752ccf262efae3a01b693d796c7e3a041f0331e3b32ba9cb6f5d3600626",
+      "style_id": "heirloom-weave-ledger",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 4077,
+      "output_sha256": "3a4e6a26f0c335faf916c614de0980413c816077c39941556471aa890a391340",
+      "path": "styles/heirloom-weave-ledger/preview-alt.png",
+      "source_sha256": "b587e752ccf262efae3a01b693d796c7e3a041f0331e3b32ba9cb6f5d3600626",
+      "style_id": "heirloom-weave-ledger",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6005,
+      "output_sha256": "a09ae55b20d61b7da67351fa2d668b382625a5482c1cd39fec938659bae79ec1",
+      "path": "styles/heirloom-weave-ledger/preview-alt-mobile.png",
+      "source_sha256": "b587e752ccf262efae3a01b693d796c7e3a041f0331e3b32ba9cb6f5d3600626",
+      "style_id": "heirloom-weave-ledger",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2472,
       "output_sha256": "ee88803042c47067a7e38515ff9d2887dff0451693730fea8f759878f11bd4b2",
       "path": "styles/humanist-service/preview.png",
