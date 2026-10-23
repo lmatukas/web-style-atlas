@@ -29,3 +29,9 @@ stilių kalbą pasirenka prompt'as, kaip dabar.
 Ar atnaujinti esamus 20 angliškų stilių į LT, ar palikti mišrią būseną ir tik
 deklaruoti kalbą? Iki atsakymo S40–S51 kortelės laikosi taisyklės 1, nes tai ne
 keičia stiliaus krypties.
+
+## Sprendimas: diakritikų testas footer'yje (P22)
+
+- Diakritikų eilutė `ĄČĘĖĮŠŲŪŽ` lieka footer'yje kaip techninis tekstas, pagal punktą 3.
+- Perkėlimas į turinį atmestas: EN stiliuose tai būtų kalbos keitimas, o punktas 5 jo neleidžia be atskiros užduoties.
+- Tai uždaro klausimą apie diakritikų testą. Platesnis klausimas (ar 20 angliškų stilių pereiti į LT) lieka atviras ir reikalauja atskiro savininko sprendimo.
