@@ -3972,23 +3972,51 @@
     {
       "id": "S53",
       "title": "Nauja kryptis: Luminous Cut Vitrine",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S52"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate/build",
+          "status": "pass",
+          "details": "41 styles; generated catalogue current."
+        },
+        {
+          "name": "style QA",
+          "status": "pass",
+          "details": "18 cases: runtime gate A/B x3 modes, 48 exact prices, booking errors/confirmation, widths, axe 360/768/1440, fallback preflight (local non-canonical Chromium)."
+        },
+        {
+          "name": "interaction QA",
+          "status": "pass",
+          "details": "CDP touch swipe, pause, live reduced-motion switch with GPU release, retained choices, pagehide."
+        },
+        {
+          "name": "canonical previews workflow",
+          "status": "not_run",
+          "details": "Dispatched for task/s53-luminous-cut-vitrine."
+        },
+        {
+          "name": "PR GitHub CI",
+          "status": "not_run",
+          "details": "Runs after canonical previews are committed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S53.md"
+      ],
       "worker": "agent/claude-opus-cowork-01D6QAux",
       "claimed_at": "2026-10-23T14:35:54Z",
-      "updated_at": "2026-10-23T14:35:54Z",
+      "updated_at": "2026-10-23T15:05:36Z",
       "branch": "task/s53-luminous-cut-vitrine",
       "base_commit": "98a6476d39f8abc0ba5d00f0ffaed3c1b324d2d5",
-      "evidence_commit": null,
+      "evidence_commit": "242467506b4cd83668dccc36bb82051c861385e4",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/118",
       "blocker": null,
-      "next_action": "Implement S53 on task/s53-luminous-cut-vitrine.",
-      "handoff": "Claimed on owner request."
+      "next_action": "Run canonical previews, review PNGs, pass Atlas validation, merge PR #118.",
+      "handoff": "Implementation on task/s53-luminous-cut-vitrine (PR #118). Previews come from the canonical workflow."
     },
     {
       "id": "S54",
