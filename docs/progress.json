@@ -4090,23 +4090,46 @@
     {
       "id": "S55",
       "title": "Nauja kryptis: Midnight Vestibule",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S54"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate/build",
+          "status": "pass",
+          "details": "43 styles; generated catalogue current."
+        },
+        {
+          "name": "style QA",
+          "status": "pass",
+          "details": "14 cases: runtime gate A/B normal+reduced, drawer dialog focus/trap/Escape, 96 exact totals, capacity/long-stay/missing-step errors, widths, axe on pages and open drawer (local non-canonical Chromium)."
+        },
+        {
+          "name": "canonical previews workflow",
+          "status": "not_run",
+          "details": "Dispatched for task/s55-midnight-vestibule."
+        },
+        {
+          "name": "PR GitHub CI",
+          "status": "not_run",
+          "details": "Runs after canonical previews are committed."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S55.md"
+      ],
       "worker": "agent/claude-opus-cowork-01D6QAux",
       "claimed_at": "2026-10-23T18:41:20Z",
-      "updated_at": "2026-10-23T18:41:20Z",
+      "updated_at": "2026-10-23T19:29:54Z",
       "branch": "task/s55-midnight-vestibule",
       "base_commit": "ec5444ba909e41615f1dafa0e4c4cc36a7bf6fd9",
-      "evidence_commit": null,
+      "evidence_commit": "d54d82b89ba03456df4a25f8882b8930b9bd602e",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/121",
       "blocker": null,
-      "next_action": "Implement S55 on task/s55-midnight-vestibule.",
-      "handoff": "Claimed on owner request."
+      "next_action": "Review canonical PNGs, pass Atlas validation, merge PR #121.",
+      "handoff": "Implementation on task/s55-midnight-vestibule (PR #121). Depends on #120 (3 MiB photo preview limit), merged."
     },
     {
       "id": "S56",
