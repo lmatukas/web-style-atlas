@@ -4410,7 +4410,7 @@
     {
       "id": "S62",
       "title": "Nauja kryptis: Ember Course Room",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S61"
       ],
@@ -4431,9 +4431,9 @@
           "details": "Workflow 40068957632 passed; all four PNGs and manifest match inspected local canonical bytes. Every PNG below 3 MiB; rubric 11/12; ten luxury conditions evidenced."
         },
         {
-          "name": "GitHub exact-head CI",
-          "status": "not_run",
-          "details": "PR #137 head 104be9d985f79f97cab3bc82ad004fe0695e1a1d; Atlas validation 40069169771 is running."
+          "name": "GitHub exact-head CI and merge acceptance",
+          "status": "pass",
+          "details": "All three jobs passed at 104be9d985f79f97cab3bc82ad004fe0695e1a1d in run 40069169771. Canonical workflow 40068957632 passed. PR #137 merged at 334cac2; no reviews or unresolved threads."
         }
       ],
       "evidence_paths": [
@@ -4441,15 +4441,15 @@
       ],
       "worker": "agent/a96d97c591e1",
       "claimed_at": "2026-10-24T05:29:52.726017Z",
-      "updated_at": "2026-10-24T06:12:02.983599Z",
+      "updated_at": "2026-10-24T06:16:00.401790Z",
       "branch": "task/s62-ember-course-room",
       "base_commit": "61584e3cf229ef1196cf264359736e4ed2092429",
       "evidence_commit": "104be9d985f79f97cab3bc82ad004fe0695e1a1d",
-      "merge_commit": null,
+      "merge_commit": "334cac24a3df64ae4fa93773e4649217b4e3a128",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/137",
       "blocker": null,
-      "next_action": "Verify exact-head CI and review threads; merge #137 with existing owner authorization if all required checks pass, then record done. P27 remains unclaimed.",
-      "handoff": "S62 implementation PR #137, exact head 104be9d985f79f97cab3bc82ad004fe0695e1a1d. Canonical workflow 40068957632 passed. P25 prerequisite #136 merged at 1f0b288. Local acceptance complete; final CI running."
+      "next_action": "S62 accepted. P27 is next eligible and remains unclaimed until the next owner request.",
+      "handoff": "S62 implementation #137 merged at 334cac24a3df64ae4fa93773e4649217b4e3a128. Exact head 104be9d985f79f97cab3bc82ad004fe0695e1a1d passed all three CI jobs in run 40069169771. Canonical workflow 40068957632 passed; four inspected PNGs and manifest match its output. No reviews or unresolved threads. 50 ready directions / 200 previews; rubric 11/12; all luxury conditions evidenced. Stop after S62."
     },
     {
       "id": "P27",
