@@ -7,3 +7,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .invitation .scene-tools{position:absolute;bottom:18px;left:0;right:0}.invitation .light-controls{padding:12px 32px 0;gap:10px 16px}.invitation .light-help{padding:4px 32px 0}.invitation .scene-number{bottom:160px}.invitation .light-controls [role=status]{margin-left:0}@media(max-width:650px){.invitation .light-controls{padding-left:22px;padding-right:22px}.invitation .light-help{padding-left:22px;padding-right:22px}.invitation .scene-number{bottom:170px}}
+.secondary-link{display:inline-flex;align-items:center;gap:12px;min-height:44px;justify-self:start;color:var(--color-text);font:400 17px/1.4 var(--font-body);text-decoration:underline;text-decoration-color:var(--color-accent);text-decoration-thickness:1px;text-underline-offset:7px}.secondary-link:hover{color:var(--color-accent)}.secondary-link span{font-size:18px}
