@@ -4548,7 +4548,7 @@
     {
       "id": "P30",
       "title": "Pataisa: S55 B fasadas ir rezervacijos veiksmas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4564,15 +4564,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T12:38:33.098Z",
-      "updated_at": "2026-10-24T12:38:33.098Z",
+      "updated_at": "2026-10-24T12:47:54.442Z",
       "branch": "task/p30-s55-hero",
       "base_commit": "e4b261ca0b8b80ac80b4beb2d854fc1cd6bbf9ad",
-      "evidence_commit": null,
+      "evidence_commit": "4b1011417aa57ebe7bbb357b0cbb8c33c5ec0e50",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/148",
       "blocker": null,
       "next_action": "Claim and resolve issue #139.",
-      "handoff": null
+      "handoff": "PR #148 open; S55 B facade 76% and one primary CTA per screen. Owner merges."
     },
     {
       "id": "P31",
