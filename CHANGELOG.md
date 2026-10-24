@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.3.0 — prepared 2026-10-24
+
+50 ready directions, 100 working layout variants and 200 current previews.
+
+- Added eleven luxury directions: Obsidian Stage, Luminous Cut Vitrine,
+  Escapement Nocturne, Midnight Vestibule, Still Sanctuary, Heirloom Weave
+  Ledger, Velvet Members Hall, Patina Auction Room, Openwater Deck, Scent Ritual
+  and Ember Course Room. They open the gallery with a New badge.
+- Added the luxury foundations: bundled OFL fonts with licence checks, rights
+  rules for photographs and AI-generated images, native WebGL scenes with
+  required static fallbacks, a luxury authoring guide, tag and gallery filter.
+- Audited the collection and resolved every finding before release: first-screen
+  image height in five directions, one primary action per screen in two, a
+  keyboard reveal defect in Escapement Nocturne and shared images flagged by the
+  distinctiveness check.
+- The distinctiveness check now accepts identical licensed font files across
+  directions only with a licence file and a rights entry; images keep the
+  no-duplicate rule.
+
+Not yet published. See [1.3.0 release notes](docs/releases/1.3.0.md).
+
 ## 1.2.0 — published 2026-10-23
 
 39 ready directions, 78 working layout variants and 156 current previews.

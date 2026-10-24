@@ -29,3 +29,8 @@ The `Prabanga` select filters only styles explicitly tagged `luxury`. Its URL
 state is `luxury=1` and combines with the other filters and search. Reset clears
 it along with all filter fields. With no ready luxury styles, it honestly shows
 the existing empty state; planned cards are never promoted into the catalogue.
+
+`config.json` may list `new_styles` (ready style IDs) and `new_label`. Those
+cards render first, in the listed order, with a small badge; every other ready
+card follows in catalogue order. IDs that are not ready are skipped, and
+`tests/gallery.test.mjs` checks that the listed IDs are real and the order holds.

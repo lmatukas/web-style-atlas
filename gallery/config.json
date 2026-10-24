@@ -1,3 +1,17 @@
 {
-  "repository_url": "https://github.com/lmatukas/web-style-atlas"
+  "repository_url": "https://github.com/lmatukas/web-style-atlas",
+  "new_label": "New",
+  "new_styles": [
+    "obsidian-stage",
+    "luminous-cut-vitrine",
+    "escapement-nocturne",
+    "midnight-vestibule",
+    "still-sanctuary",
+    "heirloom-weave-ledger",
+    "velvet-members-hall",
+    "patina-auction-room",
+    "openwater-deck",
+    "scent-ritual",
+    "ember-course-room"
+  ]
 }
