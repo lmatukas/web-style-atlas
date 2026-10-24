@@ -4768,7 +4768,7 @@
     {
       "id": "P35",
       "title": "Pataisa: S58 pagrindinis ir antrinis veiksmas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4782,11 +4782,11 @@
       "evidence_paths": [
         "docs/evidence/P35.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T19:18:24.463Z",
+      "updated_at": "2026-10-24T19:18:24.463Z",
+      "branch": "task/p35-s58-cta",
+      "base_commit": "ffb1f4dc7e9d7eddf9bcc13247231aef8e8a055c",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
