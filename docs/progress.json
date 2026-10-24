@@ -4454,7 +4454,7 @@
     {
       "id": "P27",
       "title": "Prabangos krypčių auditas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S62"
       ],
@@ -4480,9 +4480,9 @@
           "details": "Issues #138–#145 register all findings: five hero geometry failures, two competing CTA failures, unresolved S54 QA and nine expansion shared-resource warnings. P19 reports ten advisories, one from the current original-39 subset; zero added by documentation-only P27. Release is not cleared."
         },
         {
-          "name": "GitHub documentation-only exact-head CI and review inspection",
+          "name": "GitHub documentation-only PR and merged audit acceptance",
           "status": "pass",
-          "details": "Run 40073327416 at e30c07efe857185c016ecb3bbc472b63f56710b7: Scope and queue passed; source/build and browser jobs intentionally skipped by existing docs-only dispatcher. No reviews or unresolved threads. PR #146 still open; merge not yet recorded."
+          "details": "Exact head e30c07efe857185c016ecb3bbc472b63f56710b7: run 40073327416 Scope and queue passed; source/build and browser intentionally skipped by docs-only dispatcher. No reviews or unresolved threads. PR #146 merged at 17bb3c5e9522abd6114b413422712de25e09e0b5; merged state, main ancestry and both report bytes verified."
         }
       ],
       "evidence_paths": [
@@ -4491,36 +4491,45 @@
       ],
       "worker": "agent/3b83668a4046",
       "claimed_at": "2026-10-24T06:52:45.312908Z",
-      "updated_at": "2026-10-24T07:14:48.068990Z",
+      "updated_at": "2026-10-24T07:17:07.462816Z",
       "branch": "task/p27-luxury-audit",
       "base_commit": "65b28cd1c44e339ddd73bb53ed3b426654ed3bfd",
       "evidence_commit": "e30c07efe857185c016ecb3bbc472b63f56710b7",
-      "merge_commit": null,
+      "merge_commit": "17bb3c5e9522abd6114b413422712de25e09e0b5",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/146",
       "blocker": null,
-      "next_action": "Verify documentation-only PR #146 CI/reviews, merge under existing authorization, then record P27 audit completion and block P28 on issues #138–#145.",
-      "handoff": "P27 audit complete on branch: 44/44 canonical PNGs inspected; ten conditions per direction and requested comparisons recorded. Eight correction tasks #138–#145 are open. Five hero-height failures, two CTA failures, S54 full keyboard QA FAIL and nine expansion P19 signals remain. No style fixes or release approval in P27."
+      "next_action": "P27 audit accepted. Resolve registered correction tasks #138–#145 in separate scoped work before P28; stop after this audit.",
+      "handoff": "PR #146 merged at 17bb3c5e9522abd6114b413422712de25e09e0b5; actual merged state and exact audit bytes verified. Documentation-only CI run 40073327416 passed Scope and queue; source/build and browser jobs correctly skipped. Local validate/build/check, 98 unit tests and 88 browser cases passed. All 44 PNGs audited. Findings remain open in #138–#145: five hero-height failures, two CTA failures, original S54 full QA FAIL and nine expansion P19 signals. P27 done follows its explicit audit-or-registered-correction rule; P28 is blocked, not approved for release."
     },
     {
       "id": "P28",
       "title": "Leidimas 1.3.0: 50 krypčių, naujos pirmos",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "P27"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "Luxury collection readiness for release",
+          "status": "fail",
+          "details": "Open P27-A01–A08 correction tasks: https://github.com/lmatukas/web-style-atlas/issues/138 through /145. Audit completion is not product acceptance."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P27.md",
+        "docs/evidence/luxury-review.md"
+      ],
       "worker": null,
       "claimed_at": null,
-      "updated_at": null,
+      "updated_at": "2026-10-24T07:17:07.462816Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": null,
-      "next_action": "Claim P28 ir vykdyti pagal docs/tasks/P28.md.",
-      "handoff": null
+      "blocker": "P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication.",
+      "next_action": "Resolve #138–#145 through scoped correction tasks/PRs, reconcile their acceptance evidence and canonical queue, then make P28 eligible. Keep P28 publication subject to its owner-approval requirement.",
+      "handoff": "Blocked by completed P27 audit, PR #146, merge 17bb3c5e9522abd6114b413422712de25e09e0b5. Read docs/evidence/luxury-review.md and issue acceptance criteria before claiming follow-up work. P28 has not been claimed or implemented."
     }
   ]
 }
