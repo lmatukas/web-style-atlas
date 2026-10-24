@@ -4724,7 +4724,7 @@
     {
       "id": "P34",
       "title": "Pataisa: S54 klaviatūros QA",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4738,11 +4738,11 @@
       "evidence_paths": [
         "docs/evidence/P34.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T18:38:57.024Z",
+      "updated_at": "2026-10-24T18:38:57.024Z",
+      "branch": "task/p34-s54-keyboard",
+      "base_commit": "f0b527fedbfb00efdb8c331faf325f6409de1a8f",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
