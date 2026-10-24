@@ -4410,23 +4410,23 @@
     {
       "id": "S62",
       "title": "Nauja kryptis: Ember Course Room",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S61"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/a96d97c591e1",
+      "claimed_at": "2026-10-24T05:29:52.726017Z",
+      "updated_at": "2026-10-24T05:29:52.726017Z",
+      "branch": "task/s62-ember-course-room",
+      "base_commit": "61584e3cf229ef1196cf264359736e4ed2092429",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S62 ir vykdyti pagal docs/tasks/S62.md.",
-      "handoff": null
+      "next_action": "Implement S62 according to docs/tasks/S62.md; one implementation PR.",
+      "handoff": "Owner requested S62. No active task or open task PR at claim."
     },
     {
       "id": "P27",
