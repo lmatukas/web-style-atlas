@@ -4768,7 +4768,7 @@
     {
       "id": "P35",
       "title": "Pataisa: S58 pagrindinis ir antrinis veiksmas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4784,15 +4784,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T19:18:24.463Z",
-      "updated_at": "2026-10-24T19:18:24.463Z",
+      "updated_at": "2026-10-24T19:21:05.388Z",
       "branch": "task/p35-s58-cta",
       "base_commit": "ffb1f4dc7e9d7eddf9bcc13247231aef8e8a055c",
-      "evidence_commit": null,
+      "evidence_commit": "7dfc19e2a976fef60f2780dda717984043744bcd",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/153",
       "blocker": null,
       "next_action": "Claim and resolve issue #144.",
-      "handoff": null
+      "handoff": "PR #153 open. S58 one primary CTA per screen. Owner merges."
     },
     {
       "id": "P36",
