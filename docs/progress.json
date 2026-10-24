@@ -4856,7 +4856,7 @@
     {
       "id": "P28",
       "title": "Leidimas 1.3.0: 50 krypčių, naujos pirmos",
-      "status": "blocked",
+      "status": "todo",
       "depends_on": [
         "P27",
         "P29",
@@ -4871,8 +4871,8 @@
       "checks": [
         {
           "name": "Luxury collection readiness for release",
-          "status": "fail",
-          "details": "Open P27-A01–A08 correction tasks: https://github.com/lmatukas/web-style-atlas/issues/138 through /145. Audit completion is not product acceptance."
+          "status": "pass",
+          "details": "All P27 corrections P29–P36 merged; issues #138–#145 closed."
         }
       ],
       "evidence_paths": [
@@ -4881,14 +4881,14 @@
       ],
       "worker": null,
       "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
+      "updated_at": "2026-10-24T20:21:01.827Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
-      "blocker": "P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication.",
-      "next_action": "Resolve P29–P36 (issues #138–#145), then make P28 eligible. Keep P28 publication subject to its owner-approval requirement.",
+      "blocker": null,
+      "next_action": "Claim and prepare the 1.3.0 release; publication still needs owner approval.",
       "handoff": "Blocked by completed P27 audit, PR #146, merge 17bb3c5e9522abd6114b413422712de25e09e0b5. Read docs/evidence/luxury-review.md and issue acceptance criteria before claiming follow-up work. P28 has not been claimed or implemented."
     }
   ]
