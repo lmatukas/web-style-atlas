@@ -4636,7 +4636,7 @@
     {
       "id": "P32",
       "title": "Pataisa: S59 A telefono objektas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4650,11 +4650,11 @@
       "evidence_paths": [
         "docs/evidence/P32.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T16:44:22.518Z",
+      "updated_at": "2026-10-24T16:44:22.518Z",
+      "branch": "task/p32-s59-hero",
+      "base_commit": "8a439a903f343e18bd43ba53706d0ccd149e19eb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
