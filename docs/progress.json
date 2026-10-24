@@ -4548,15 +4548,30 @@
     {
       "id": "P30",
       "title": "Pataisa: S55 B fasadas ir rezervacijos veiksmas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #139 acceptance",
-          "status": "not_run",
-          "details": "P27-A02: see https://github.com/lmatukas/web-style-atlas/issues/139"
+          "status": "pass",
+          "details": "B facade 76% at 360/390/768/1440; full scroll path max one primary CTA (was two at 1440); drawer states checked."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S55 qa 14 cases/96 totals; canonical preview workflow; both changed PNGs inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #148."
         }
       ],
       "evidence_paths": [
@@ -4564,15 +4579,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T12:38:33.098Z",
-      "updated_at": "2026-10-24T12:47:54.442Z",
+      "updated_at": "2026-10-24T16:08:55.184Z",
       "branch": "task/p30-s55-hero",
       "base_commit": "e4b261ca0b8b80ac80b4beb2d854fc1cd6bbf9ad",
       "evidence_commit": "4b1011417aa57ebe7bbb357b0cbb8c33c5ec0e50",
-      "merge_commit": null,
+      "merge_commit": "6928f8fb37efdc18646c35695b22634c54ae9707",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/148",
       "blocker": null,
-      "next_action": "Claim and resolve issue #139.",
-      "handoff": "PR #148 open; S55 B facade 76% and one primary CTA per screen. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #148 merged at 6928f8f; issue #139 closed."
     },
     {
       "id": "P31",
