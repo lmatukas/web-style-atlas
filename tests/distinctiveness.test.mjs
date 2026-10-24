@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { analyze, footerText, firstHeading, loadEntries, warningsFor } from '../scripts/distinctiveness.mjs';
+import { analyze, classify, footerText, firstHeading, loadEntries, warningsFor } from '../scripts/distinctiveness.mjs';
 
 const page = (footer, h1 = 'Hello') => `<html><body><h1>${h1}</h1><footer>${footer}</footer></body></html>`;
 
@@ -46,4 +46,25 @@ test('repository analysis is advisory and reads all styles', () => {
   assert.deepEqual(entries.map(entry => entry.id), catalogue);
   assert.ok(entries.every(entry => typeof entry.html === 'string' && entry.html.length > 0));
   assert.ok(Array.isArray(warningsFor()));
+});
+
+test('identical licensed font files are accepted only with licence folder and RIGHTS naming the family', () => {
+  const font = (id, extra = {}) => ({ id, html: null, assets: [{ path: 'assets/fonts/jost/Jost-Regular-LT.woff2', sha256: 'f1' }], rights: 'Jost — OFL', fontLicences: ['jost'], ...extra });
+  const ok = classify([font('a'), font('b')]);
+  assert.equal(ok.warnings.filter(w => w.kind === 'shared-asset').length, 0);
+  assert.deepEqual(ok.accepted.map(a => a.kind), ['shared-licensed-font']);
+  for (const broken of [{ fontLicences: [] }, { rights: 'no family named here' }]) {
+    const r = classify([font('a'), font('b', broken)]);
+    assert.equal(r.warnings.filter(w => w.kind === 'shared-asset').length, 1, JSON.stringify(broken));
+    assert.equal(r.accepted.length, 0);
+  }
+});
+
+test('photos and other binaries keep the zero-duplicate rule even next to the font policy', () => {
+  const entry = (id, path) => ({ id, html: null, assets: [{ path, sha256: 'p1' }], rights: 'forest jost OFL', fontLicences: ['jost'] });
+  for (const [x, y] of [['assets/forest.webp', 'assets/forest.webp'], ['assets/fonts/jost/x.woff2', 'assets/forest.webp'], ['assets/fonts/jost/OFL.txt.bin', 'assets/fonts/jost/OFL.txt.bin']]) {
+    const r = classify([entry('a', x), entry('b', y)]);
+    assert.equal(r.warnings.filter(w => w.kind === 'shared-asset').length, 1, `${x} / ${y}`);
+    assert.equal(r.accepted.length, 0);
+  }
 });

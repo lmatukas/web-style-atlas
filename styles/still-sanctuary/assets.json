@@ -35,53 +35,45 @@
       "id": "forest",
       "path": "assets/forest.webp",
       "type": "image",
-      "origin": "third_party",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg",
-      "creator": "Austin Schmid",
-      "license": "CC0-1.0",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (misty forested hills), ChatGPT image generation, 2026-10-24; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
       "license_file": "assets/RIGHTS.txt",
-      "attribution": "Austin Schmid via Wikimedia Commons",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
       "redistribution_allowed": true,
       "modifications": [
-        "Resized to maximum 1440px",
-        "Metadata stripped",
-        "WebP quality 80"
+        "Cropped to 1440×960 px, WebP quality 80, metadata stripped; no compositing or retouching."
       ]
     },
     {
       "id": "lake",
       "path": "assets/lake.webp",
       "type": "image",
-      "origin": "third_party",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Sprague_Lake_at_Sunset_(29560309357).jpg",
-      "creator": "NPS / M. Reed",
-      "license": "PD-USGov",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (mountain lake at dusk), ChatGPT image generation, 2026-10-24; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
       "license_file": "assets/RIGHTS.txt",
-      "attribution": "NPS / M. Reed via Wikimedia Commons",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
       "redistribution_allowed": true,
       "modifications": [
-        "Resized to maximum 1440px",
-        "Metadata stripped",
-        "WebP quality 80"
+        "Cropped to 1440×725 px, WebP quality 80, metadata stripped; no compositing or retouching."
       ]
     },
     {
       "id": "pavilion",
       "path": "assets/pavilion.webp",
       "type": "image",
-      "origin": "third_party",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg",
-      "creator": "Carol M. Highsmith",
-      "license": "Public domain (Highsmith dedication)",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (generic glass pavilion among trees), ChatGPT image generation, 2026-10-24; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
       "license_file": "assets/RIGHTS.txt",
-      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-04817",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
       "redistribution_allowed": true,
       "modifications": [
-        "1280px Wikimedia derivative",
-        "Converted to monochrome",
-        "Metadata stripped",
-        "Lossless WebP with 64-step monochrome palette",
-        "Responsive CSS detail crop where labeled"
+        "Cropped to 1280×916 px, converted to monochrome with 64 grey levels, lossless WebP, metadata stripped."
       ]
     }
   ]
