@@ -4812,7 +4812,7 @@
     {
       "id": "P36",
       "title": "Pataisa: P19 bendrų išteklių signalai",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4826,11 +4826,11 @@
       "evidence_paths": [
         "docs/evidence/P36.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T20:15:30.598Z",
+      "updated_at": "2026-10-24T20:15:30.598Z",
+      "branch": "task/p36-shared-resources",
+      "base_commit": "8312f8a01ad99a6da262367c5aa1d58be4f83320",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
