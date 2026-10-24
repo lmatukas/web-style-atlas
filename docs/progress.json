@@ -4881,15 +4881,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T20:21:04.592Z",
-      "updated_at": "2026-10-24T20:28:54.826Z",
+      "updated_at": "2026-10-24T20:47:12.209Z",
       "branch": "task/p28-release-1-3-0",
       "base_commit": "bb0d49d2918d0f25dddc8f1fcfa98eb68770a511",
       "evidence_commit": "f5286b755b6ff0a7787af27447cddff209ad11f4",
-      "merge_commit": null,
+      "merge_commit": "2eac5e0a6fd0639a660027376d2520310a9bc688",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/155",
       "blocker": null,
-      "next_action": "Claim and prepare the 1.3.0 release; publication still needs owner approval.",
-      "handoff": "PR #155 open. Release 1.3.0 prepared. Owner merges, then runs the release workflow with publish=true; live checks follow."
+      "next_action": "Owner runs Verify release and optionally publish Pages on main with publish=true; then live checks and done.",
+      "handoff": "PR #155 merged at 2eac5e0. Release not yet published."
     }
   ]
 }
