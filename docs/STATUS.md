@@ -4,7 +4,7 @@
 
 **Baigta: 91/98.**
 
-**Pirmiausia patikrinti P31: Vykdoma; vykdytojas agent/01dpob2fr2xg.**
+**Pirmiausia patikrinti P31: Laukia peržiūros; vykdytojas agent/01dpob2fr2xg.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -101,7 +101,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P27](tasks/P27.md) | Prabangos krypčių auditas | Baigta | agent/3b83668a4046 | task/p27-luxury-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/146) | 2026-10-24T07:17:07.462816Z | P27 audit accepted. Resolve registered correction tasks #138–#145 in separate scoped work before P28; stop after this audit. |
 | [P29](tasks/P29.md) | Pataisa: S53 B pirmo ekrano vaizdas | Baigta | agent/01dpob2fr2xg | task/p29-s53-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/147) | 2026-10-24T12:41:44.834Z | Nėra. Užduotis baigta. |
 | [P30](tasks/P30.md) | Pataisa: S55 B fasadas ir rezervacijos veiksmas | Baigta | agent/01dpob2fr2xg | task/p30-s55-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/148) | 2026-10-24T16:08:55.184Z | Nėra. Užduotis baigta. |
-| [P31](tasks/P31.md) | Pataisa: S57 telefono monogramos kompozicija | Vykdoma | agent/01dpob2fr2xg | task/p31-s57-hero | — | 2026-10-24T16:09:13.259Z | Claim and resolve issue #140. |
+| [P31](tasks/P31.md) | Pataisa: S57 telefono monogramos kompozicija | Laukia peržiūros | agent/01dpob2fr2xg | task/p31-s57-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/149) | 2026-10-24T16:11:27.938Z | Claim and resolve issue #140. |
 | [P32](tasks/P32.md) | Pataisa: S59 A telefono objektas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #141. |
 | [P33](tasks/P33.md) | Pataisa: S60 B žemėlapio aukštis | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #142. |
 | [P34](tasks/P34.md) | Pataisa: S54 klaviatūros QA | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #143. |

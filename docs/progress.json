@@ -4592,7 +4592,7 @@
     {
       "id": "P31",
       "title": "Pataisa: S57 telefono monogramos kompozicija",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4608,15 +4608,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T16:09:13.259Z",
-      "updated_at": "2026-10-24T16:09:13.259Z",
+      "updated_at": "2026-10-24T16:11:27.938Z",
       "branch": "task/p31-s57-hero",
       "base_commit": "d8b06d381e61c8e845a87663147ff841a1afa185",
-      "evidence_commit": null,
+      "evidence_commit": "a0c0c4c9e46e47bf984df6e33d28153379884a19",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/149",
       "blocker": null,
       "next_action": "Claim and resolve issue #140.",
-      "handoff": null
+      "handoff": "PR #149 open. S57 phone artwork 74.7%/76.3%. Owner merges."
     },
     {
       "id": "P32",
