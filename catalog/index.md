@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 49. Drafts and templates are excluded.
+Ready styles: 50. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -17,6 +17,7 @@ Ready styles: 49. Drafts and templates are excluded.
 | [Data Observatory](../styles/data-observatory/style.md) | technical | Explicit units, synchronized metrics and accurate quantitative marks with a searchable comparison table. | [A: Metrics and paired-dot chart overview](../styles/data-observatory/reference/index.html) · [B: Filtered comparison table](../styles/data-observatory/reference/alternate.html) |
 | [Discovery Cabinet](../styles/discovery-cabinet/style.md) | illustrative | Six individually opening illustrated jars connect a radial table and a vertical drawer to a local collection tray and real discovery-sheet export. | [A: Radial six-jar discovery table](../styles/discovery-cabinet/reference/index.html) · [B: Vertical drawer and personal collection workbench](../styles/discovery-cabinet/reference/alternate.html) |
 | [Editorial Journal](../styles/editorial-journal/style.md) | editorial | A literary issue cover and long-form essay, with serif reading rhythm, margin notes and quiet paper surfaces. | [A: Cover story and departments](../styles/editorial-journal/reference/index.html) · [B: Essay with margin notes](../styles/editorial-journal/reference/alternate.html) |
+| [Ember Course Room](../styles/ember-course-room/style.md) | photographic | A candlelit table becomes a ten-course evening journey or a spatial reservation atelier, with warming light, wine pairings and a real local table-selection service. | [A: Ten-course evening journey](../styles/ember-course-room/reference/index.html) · [B: Room and reservation atelier](../styles/ember-course-room/reference/alternate.html) |
 | [Escapement Nocturne](../styles/escapement-nocturne/style.md) | spatial | A live mechanical watch on deep black, opened by scroll or hand, followed by an exact-price personalisation desk and a complete local salon visit. | [A: A movement revealed in three chapters](../styles/escapement-nocturne/reference/index.html) · [B: A personal watch and exact-price selection desk](../styles/escapement-nocturne/reference/alternate.html) |
 | [Field Notes](../styles/field-notes/style.md) | tactile | Documentary labels, marginal annotations and attached source captions for a readable travel notebook. | [A: Travel fragment with margin notes](../styles/field-notes/reference/index.html) · [B: Route diary and sketches](../styles/field-notes/reference/alternate.html) |
 | [Gallery White Cube](../styles/gallery-white-cube/style.md) | restrained | Artwork-first exhibition walls and concentrated single-work views, with captions behaving like quiet museum labels. | [A: Exhibition works wall](../styles/gallery-white-cube/reference/index.html) · [B: Single work with exhibition index](../styles/gallery-white-cube/reference/alternate.html) |

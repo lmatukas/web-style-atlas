@@ -573,6 +573,63 @@
     },
     {
       "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "hospitality",
+        "events",
+        "craft"
+      ],
+      "complexity": "high",
+      "density": "sparse",
+      "family": "photographic",
+      "id": "ember-course-room",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Ember Course Room",
+      "prompt_path": "prompts/ember-course-room/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Charcoal and walnut darkness, one amber accent, cream text and a warm paper reservation surface; ceramic, candlewax, linen and glass.",
+        "composition": "A pairs a broad sticky food photograph with ten timed course records; B makes a six-table room plan the center of an appointment ledger after a panoramic opening.",
+        "content_rhythm": "Candlelit arrival, seasonal introduction, ten small courses, dessert, a paper reservation surface and practical hospitality notes.",
+        "imagery": "Three original AI-generated photographs show a candlelit table, trout and pear, paired with an original HTML room plan; no real venue or brand is represented.",
+        "interaction": "The nearest course advances the photograph, clock and room warmth; date, time and party size determine which physical tables can be selected.",
+        "motion": "One 1.5-second arrival-light episode settles; scrolling drives later warmth without hijacking. Pause, reduced motion, hidden/offscreen stopping and cleanup remain explicit.",
+        "navigation": "Menu and room routes stay visible; native previous/next controls complement scrolling; reservation choices, edit and clear are explicit.",
+        "typography": "Local Newsreader regular and italic 400 with Jost 400; italic dish names, quiet serif invitations and small tracked sans labels."
+      },
+      "status": "ready",
+      "style_path": "styles/ember-course-room/style.md",
+      "summary": "A candlelit table becomes a ten-course evening journey or a spatial reservation atelier, with warming light, wine pairings and a real local table-selection service.",
+      "tags": [
+        "luxury",
+        "image-led",
+        "warm",
+        "cinematic",
+        "task-led",
+        "calm"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/ember-course-room/preview-mobile.png",
+          "preview_path": "styles/ember-course-room/preview.png",
+          "reference_path": "styles/ember-course-room/reference/index.html",
+          "title": "Ten-course evening journey"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/ember-course-room/preview-alt-mobile.png",
+          "preview_path": "styles/ember-course-room/preview-alt.png",
+          "reference_path": "styles/ember-course-room/reference/alternate.html",
+          "title": "Room and reservation atelier"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "documentation",
         "data",
         "public-information"
