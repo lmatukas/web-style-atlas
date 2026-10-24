@@ -1,0 +1,57 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #6c4436;
+  --color-amber: #e9cf98;
+  --color-background: #fffefa;
+  --color-border: #8a8076;
+  --color-error: #9d2f35;
+  --color-focus: #315b54;
+  --color-green: #c4d7bb;
+  --color-ivory: #eee3cd;
+  --color-muted: #625952;
+  --color-on-accent: #fffefa;
+  --color-rose: #f2c9bd;
+  --color-surface: #f4f1eb;
+  --color-text: #302c2a;
+  --font-body: "Jost", sans-serif;
+  --font-display: "Crimson Pro", serif;
+  --font-size-body: 1.125rem;
+  --font-size-display: 4rem;
+  --font-size-heading: 3rem;
+  --font-size-small: 0.75rem;
+  --font-weight-bold: 300;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 82rem;
+  --layout-text-max-width: 36ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: 0em;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.04;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 180ms;
+  --motion-easing-standard: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --radius-none: 0;
+  --radius-pill: 999px;
+  --shadow-none: none;
+  --spacing-large: 2.5rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 7rem;
+  --spacing-small: 0.5rem;
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("../assets/fonts/crimson/CrimsonPro-Light-LT.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/jost/Jost-Regular-LT.woff2");
+  font-display: swap;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */

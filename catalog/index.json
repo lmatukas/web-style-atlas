@@ -1940,6 +1940,62 @@
     },
     {
       "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "products",
+        "commerce",
+        "craft"
+      ],
+      "complexity": "high",
+      "density": "sparse",
+      "family": "spatial",
+      "id": "scent-ritual",
+      "image_dependency": "low",
+      "motion_level": "subtle",
+      "name": "Scent Ritual",
+      "prompt_path": "prompts/scent-ritual/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "White and graphite with rose, amber, pale green and ivory light; transparent glass edges and an illuminated liquid surface.",
+        "composition": "A divides a quiet invitation from an oversized glass bottle and continues through linear scent dossiers; B opens a full-width bottle study before a two-column question and note-pyramid atelier.",
+        "content_rhythm": "Bottle, four scent records, three note layers, personal tray and sampling ritual; B moves through atmosphere, questions, explained result and tray.",
+        "imagery": "Original native WebGL ray-traced glass vessel with liquid, frosted stopper and paper label; code-rendered PNG fallback and original CSS miniature bottles.",
+        "interaction": "Pointer or native range input tilts the liquid; all 27 quiz combinations map to an explained scent; up to three distinct 2 ml samples form an exact local summary.",
+        "motion": "An initial 1.5-second light and liquid episode settles; later episodes are bounded, with pause, reduced motion, offscreen/hidden suspension and disposal.",
+        "navigation": "Visible collection/finder links, local section anchors, scent selection, three radio questions, back and edit controls, explicit sample removal.",
+        "typography": "Local Crimson Pro 300 display and Jost 400 body; delicate serif rhythm, small tracked labels and generous paragraph spacing."
+      },
+      "status": "ready",
+      "style_path": "styles/scent-ritual/style.md",
+      "summary": "A sculptural glass perfume bottle in liquid pastel light leads to four scent dossiers or a three-question finder, a note pyramid and a personal sample tray.",
+      "tags": [
+        "luxury",
+        "dimensional",
+        "product-led",
+        "calm",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/scent-ritual/preview-mobile.png",
+          "preview_path": "styles/scent-ritual/preview.png",
+          "reference_path": "styles/scent-ritual/reference/index.html",
+          "title": "Scent collection and a personal sample tray"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/scent-ritual/preview-alt-mobile.png",
+          "preview_path": "styles/scent-ritual/preview-alt.png",
+          "reference_path": "styles/scent-ritual/reference/alternate.html",
+          "title": "Three-question scent finder and note pyramid"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
         "data"
       ],
       "best_for": [
