@@ -4502,11 +4502,251 @@
       "handoff": "PR #146 merged at 17bb3c5e9522abd6114b413422712de25e09e0b5; actual merged state and exact audit bytes verified. Documentation-only CI run 40073327416 passed Scope and queue; source/build and browser jobs correctly skipped. Local validate/build/check, 98 unit tests and 88 browser cases passed. All 44 PNGs audited. Findings remain open in #138–#145: five hero-height failures, two CTA failures, original S54 full QA FAIL and nine expansion P19 signals. P27 done follows its explicit audit-or-registered-correction rule; P28 is blocked, not approved for release."
     },
     {
+      "id": "P29",
+      "title": "Pataisa: S53 B pirmo ekrano vaizdas",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #138 acceptance",
+          "status": "not_run",
+          "details": "P27-A01: see https://github.com/lmatukas/web-style-atlas/issues/138"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P29.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #138.",
+      "handoff": null
+    },
+    {
+      "id": "P30",
+      "title": "Pataisa: S55 B fasadas ir rezervacijos veiksmas",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #139 acceptance",
+          "status": "not_run",
+          "details": "P27-A02: see https://github.com/lmatukas/web-style-atlas/issues/139"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P30.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #139.",
+      "handoff": null
+    },
+    {
+      "id": "P31",
+      "title": "Pataisa: S57 telefono monogramos kompozicija",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #140 acceptance",
+          "status": "not_run",
+          "details": "P27-A03: see https://github.com/lmatukas/web-style-atlas/issues/140"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P31.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #140.",
+      "handoff": null
+    },
+    {
+      "id": "P32",
+      "title": "Pataisa: S59 A telefono objektas",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #141 acceptance",
+          "status": "not_run",
+          "details": "P27-A04: see https://github.com/lmatukas/web-style-atlas/issues/141"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P32.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #141.",
+      "handoff": null
+    },
+    {
+      "id": "P33",
+      "title": "Pataisa: S60 B žemėlapio aukštis",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #142 acceptance",
+          "status": "not_run",
+          "details": "P27-A05: see https://github.com/lmatukas/web-style-atlas/issues/142"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P33.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #142.",
+      "handoff": null
+    },
+    {
+      "id": "P34",
+      "title": "Pataisa: S54 klaviatūros QA",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #143 acceptance",
+          "status": "not_run",
+          "details": "P27-A06: see https://github.com/lmatukas/web-style-atlas/issues/143"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P34.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #143.",
+      "handoff": null
+    },
+    {
+      "id": "P35",
+      "title": "Pataisa: S58 pagrindinis ir antrinis veiksmas",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #144 acceptance",
+          "status": "not_run",
+          "details": "P27-A07: see https://github.com/lmatukas/web-style-atlas/issues/144"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P35.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #144.",
+      "handoff": null
+    },
+    {
+      "id": "P36",
+      "title": "Pataisa: P19 bendrų išteklių signalai",
+      "status": "todo",
+      "depends_on": [
+        "P27"
+      ],
+      "checks": [
+        {
+          "name": "Issue #145 acceptance",
+          "status": "not_run",
+          "details": "P27-A08: see https://github.com/lmatukas/web-style-atlas/issues/145"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P36.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": "2026-10-24T09:09:49.396Z",
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim and resolve issue #145.",
+      "handoff": null
+    },
+    {
       "id": "P28",
       "title": "Leidimas 1.3.0: 50 krypčių, naujos pirmos",
       "status": "blocked",
       "depends_on": [
-        "P27"
+        "P27",
+        "P29",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36"
       ],
       "checks": [
         {
@@ -4521,14 +4761,14 @@
       ],
       "worker": null,
       "claimed_at": null,
-      "updated_at": "2026-10-24T07:17:07.462816Z",
+      "updated_at": "2026-10-24T09:09:49.396Z",
       "branch": null,
       "base_commit": null,
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": "P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication.",
-      "next_action": "Resolve #138–#145 through scoped correction tasks/PRs, reconcile their acceptance evidence and canonical queue, then make P28 eligible. Keep P28 publication subject to its owner-approval requirement.",
+      "next_action": "Resolve P29–P36 (issues #138–#145), then make P28 eligible. Keep P28 publication subject to its owner-approval requirement.",
       "handoff": "Blocked by completed P27 audit, PR #146, merge 17bb3c5e9522abd6114b413422712de25e09e0b5. Read docs/evidence/luxury-review.md and issue acceptance criteria before claiming follow-up work. P28 has not been claimed or implemented."
     }
   ]

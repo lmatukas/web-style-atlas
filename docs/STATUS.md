@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 89/90.**
+**Baigta: 89/98.**
 
-**Nėra paruoštos užduoties. Patikrink blokatorius ir priklausomybes.**
+**Kita užduotis: [P29](tasks/P29.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -99,6 +99,14 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Baigta | agent/417f6ffda8ee | task/s61-scent-ritual | [PR](https://github.com/lmatukas/web-style-atlas/pull/135) | 2026-10-24T05:23:46.036791Z | S61 accepted. S62 is next eligible and remains unclaimed until the next owner request. |
 | [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Baigta | agent/a96d97c591e1 | task/s62-ember-course-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/137) | 2026-10-24T06:16:00.401790Z | S62 accepted. P27 is next eligible and remains unclaimed until the next owner request. |
 | [P27](tasks/P27.md) | Prabangos krypčių auditas | Baigta | agent/3b83668a4046 | task/p27-luxury-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/146) | 2026-10-24T07:17:07.462816Z | P27 audit accepted. Resolve registered correction tasks #138–#145 in separate scoped work before P28; stop after this audit. |
-| [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Užblokuota | — | — | — | 2026-10-24T07:17:07.462816Z | P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication. |
+| [P29](tasks/P29.md) | Pataisa: S53 B pirmo ekrano vaizdas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #138. |
+| [P30](tasks/P30.md) | Pataisa: S55 B fasadas ir rezervacijos veiksmas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #139. |
+| [P31](tasks/P31.md) | Pataisa: S57 telefono monogramos kompozicija | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #140. |
+| [P32](tasks/P32.md) | Pataisa: S59 A telefono objektas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #141. |
+| [P33](tasks/P33.md) | Pataisa: S60 B žemėlapio aukštis | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #142. |
+| [P34](tasks/P34.md) | Pataisa: S54 klaviatūros QA | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #143. |
+| [P35](tasks/P35.md) | Pataisa: S58 pagrindinis ir antrinis veiksmas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #144. |
+| [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #145. |
+| [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Užblokuota | — | — | — | 2026-10-24T09:09:49.396Z | P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
