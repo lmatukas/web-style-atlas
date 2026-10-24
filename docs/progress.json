@@ -4680,7 +4680,7 @@
     {
       "id": "P33",
       "title": "Pataisa: S60 B žemėlapio aukštis",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4696,15 +4696,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T18:31:58.281Z",
-      "updated_at": "2026-10-24T18:31:58.281Z",
+      "updated_at": "2026-10-24T18:35:26.374Z",
       "branch": "task/p33-s60-map",
       "base_commit": "825e90027d8c6fc90ebcdb5b52b9d3e7af5c0d1c",
-      "evidence_commit": null,
+      "evidence_commit": "965701f3509537e6fa567b2bb4c7bdf3caf65532",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/151",
       "blocker": null,
       "next_action": "Claim and resolve issue #142.",
-      "handoff": null
+      "handoff": "PR #151 open. S60 B map 76% on phones/tablet. Owner merges."
     },
     {
       "id": "P34",
