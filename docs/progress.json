@@ -4504,15 +4504,30 @@
     {
       "id": "P29",
       "title": "Pataisa: S53 B pirmo ekrano vaizdas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #138 acceptance",
-          "status": "not_run",
-          "details": "P27-A01: see https://github.com/lmatukas/web-style-atlas/issues/138"
+          "status": "pass",
+          "details": "B visible stone 74.2% (360/390x844), 73.6% (768x1000), 85.8% (1440x1000); normal/reduced/blocked-WebGL."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S53 qa 18 cases/48 prices; interaction suite; canonical preview workflow; alt-mobile PNG inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #147."
         }
       ],
       "evidence_paths": [
@@ -4520,15 +4535,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T09:11:28.584Z",
-      "updated_at": "2026-10-24T09:17:37.296Z",
+      "updated_at": "2026-10-24T12:38:30.855Z",
       "branch": "task/p29-s53-hero",
       "base_commit": "c9965b4584323ff6687cb4b79ce49118d67f4460",
       "evidence_commit": "f25d10fa5bec3ee208d29af168826f850074b96e",
-      "merge_commit": null,
+      "merge_commit": "62d1dabb3593e19e6e549b1551595f4d903e7494",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/147",
       "blocker": null,
-      "next_action": "Claim and resolve issue #138.",
-      "handoff": "PR #147 open; S53 B hero now 73.6–85.8% across 360/390/768/1440. Merge after CI."
+      "next_action": null,
+      "handoff": "PR #147 merged at 62d1dab; issue #138 closed."
     },
     {
       "id": "P30",
