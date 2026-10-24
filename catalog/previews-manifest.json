@@ -1496,6 +1496,46 @@
       "width": 390
     },
     {
+      "height": 5186,
+      "output_sha256": "9bf93276bfc8d40a18c08c4800433d783ea2d3e1c9d00096ee735bcd05925cb1",
+      "path": "styles/scent-ritual/preview.png",
+      "source_sha256": "50dcb8c8e73e60495414d6016134b161eba638f8222327ffe6dd3c7067afe95c",
+      "style_id": "scent-ritual",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 6081,
+      "output_sha256": "46d4be11c9ee9e0d1462578f51967ddc819b749008ebf9cb6d37ce4807cbfca9",
+      "path": "styles/scent-ritual/preview-mobile.png",
+      "source_sha256": "50dcb8c8e73e60495414d6016134b161eba638f8222327ffe6dd3c7067afe95c",
+      "style_id": "scent-ritual",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 4084,
+      "output_sha256": "2e8fb54de036d6a0f0ec8662c2739144acdbeb0dd8dc6f0609d9492b6f0fe279",
+      "path": "styles/scent-ritual/preview-alt.png",
+      "source_sha256": "50dcb8c8e73e60495414d6016134b161eba638f8222327ffe6dd3c7067afe95c",
+      "style_id": "scent-ritual",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5282,
+      "output_sha256": "5c89a108b101500c37e41687ab6192da07a294a3a989a89d24e2c4a41bb386af",
+      "path": "styles/scent-ritual/preview-alt-mobile.png",
+      "source_sha256": "50dcb8c8e73e60495414d6016134b161eba638f8222327ffe6dd3c7067afe95c",
+      "style_id": "scent-ritual",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 3786,
       "output_sha256": "7005388f55e4a2e161396f05546105f973ccef38fa5bf50a9134af148e09ef48",
       "path": "styles/seasonal-terrain/preview.png",

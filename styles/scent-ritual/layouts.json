@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Scent collection and a personal sample tray",
+      "page_type": "products",
+      "reference_path": "reference/index.html",
+      "navigation": "Native collection/finder links and anchors; pressed scent buttons, radio questions, back/edit/reset and explicit tray controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Encounter",
+          "pattern": "Light typographic invitation beside one monumental glass bottle",
+          "content_requirements": [
+            "Real encounter content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Discover",
+          "pattern": "Four unequal scent records with individual liquid gradients and note lists",
+          "content_requirements": [
+            "Real discover content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Understand",
+          "pattern": "Three horizontal note layers and the selected scent story",
+          "content_requirements": [
+            "Real understand content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Compose",
+          "pattern": "Spacious sample tray with up to three distinct scents",
+          "content_requirements": [
+            "Real compose content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Keep",
+          "pattern": "Local exact confirmation and sampling notes",
+          "content_requirements": [
+            "Real keep content with keyboard-operable local controls"
+          ]
+        }
+      ],
+      "distinguishing_features": [
+        "Large original glass bottle and fluid pastel light",
+        "Light serif with tracked small sans labels",
+        "Notes as a spatial hierarchy and a useful local sample tray"
+      ],
+      "mobile_reflow": "A dedicated full-height bottle scene precedes the invitation; collection or question/pyramid columns stack with 24px gutters and a two-column sample picker."
+    },
+    {
+      "id": "b",
+      "title": "Three-question scent finder and note pyramid",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Native collection/finder links and anchors; pressed scent buttons, radio questions, back/edit/reset and explicit tray controls.",
+      "ordered_sections": [
+        {
+          "purpose": "Begin",
+          "pattern": "Full-bleed pastel bottle study with a compact invitation",
+          "content_requirements": [
+            "Real begin content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Choose",
+          "pattern": "One numbered question at a time beside a changing three-tier note pyramid",
+          "content_requirements": [
+            "Real choose content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Read",
+          "pattern": "Explained recommendation with all three answer effects",
+          "content_requirements": [
+            "Real read content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Compose",
+          "pattern": "Customizable sample set and exact local summary",
+          "content_requirements": [
+            "Real compose content with keyboard-operable local controls"
+          ]
+        },
+        {
+          "purpose": "Return",
+          "pattern": "Sampling ritual and disclosure ending",
+          "content_requirements": [
+            "Real return content with keyboard-operable local controls"
+          ]
+        }
+      ],
+      "distinguishing_features": [
+        "Large original glass bottle and fluid pastel light",
+        "Light serif with tracked small sans labels",
+        "Notes as a spatial hierarchy and a useful local sample tray"
+      ],
+      "mobile_reflow": "A dedicated full-height bottle scene precedes the invitation; collection or question/pyramid columns stack with 24px gutters and a two-column sample picker."
+    }
+  ]
+}
