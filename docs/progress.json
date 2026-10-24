@@ -4768,15 +4768,30 @@
     {
       "id": "P35",
       "title": "Pataisa: S58 pagrindinis ir antrinis veiksmas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #144 acceptance",
-          "status": "not_run",
-          "details": "P27-A07: see https://github.com/lmatukas/web-style-atlas/issues/144"
+          "status": "pass",
+          "details": "Full scroll path A/B at 360/390/768/1440 and booking error state: at most one primary CTA (was two at 768 and 1440); membership link 44 px, keyboard reachable."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S58 qa 10 cases, 23 errors, axe across steps; A PNGs regenerated and inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #153."
         }
       ],
       "evidence_paths": [
@@ -4784,15 +4799,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T19:18:24.463Z",
-      "updated_at": "2026-10-24T19:21:05.388Z",
+      "updated_at": "2026-10-24T20:15:27.004Z",
       "branch": "task/p35-s58-cta",
       "base_commit": "ffb1f4dc7e9d7eddf9bcc13247231aef8e8a055c",
       "evidence_commit": "7dfc19e2a976fef60f2780dda717984043744bcd",
-      "merge_commit": null,
+      "merge_commit": "266f222a0850b29cc7741db24ea6a1750876d419",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/153",
       "blocker": null,
-      "next_action": "Claim and resolve issue #144.",
-      "handoff": "PR #153 open. S58 one primary CTA per screen. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #153 merged at 266f222; issue #144 closed."
     },
     {
       "id": "P36",
