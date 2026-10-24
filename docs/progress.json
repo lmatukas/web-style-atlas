@@ -4410,23 +4410,46 @@
     {
       "id": "S62",
       "title": "Nauja kryptis: Ember Course Room",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S61"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "Source, build, generated data and unit tests",
+          "status": "pass",
+          "details": "50 ready sources; validate/build/check; 98/98 unit tests."
+        },
+        {
+          "name": "Responsive browser, service and runtime",
+          "status": "pass",
+          "details": "8 responsive/axe pages; 1800 inventory combinations; 6 complete service/no-JS browser cases; 8 runtime/lifecycle cases; full prompt A/B preview/copy at two widths."
+        },
+        {
+          "name": "Canonical previews and visual acceptance",
+          "status": "pass",
+          "details": "Workflow 40068957632 passed; all four PNGs and manifest match inspected local canonical bytes. Every PNG below 3 MiB; rubric 11/12; ten luxury conditions evidenced."
+        },
+        {
+          "name": "GitHub exact-head CI",
+          "status": "not_run",
+          "details": "PR #137 head 104be9d985f79f97cab3bc82ad004fe0695e1a1d; Atlas validation 40069169771 is running."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S62.md"
+      ],
       "worker": "agent/a96d97c591e1",
       "claimed_at": "2026-10-24T05:29:52.726017Z",
-      "updated_at": "2026-10-24T05:29:52.726017Z",
+      "updated_at": "2026-10-24T06:12:02.983599Z",
       "branch": "task/s62-ember-course-room",
       "base_commit": "61584e3cf229ef1196cf264359736e4ed2092429",
-      "evidence_commit": null,
+      "evidence_commit": "104be9d985f79f97cab3bc82ad004fe0695e1a1d",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/137",
       "blocker": null,
-      "next_action": "Implement S62 according to docs/tasks/S62.md; one implementation PR.",
-      "handoff": "Owner requested S62. No active task or open task PR at claim."
+      "next_action": "Verify exact-head CI and review threads; merge #137 with existing owner authorization if all required checks pass, then record done. P27 remains unclaimed.",
+      "handoff": "S62 implementation PR #137, exact head 104be9d985f79f97cab3bc82ad004fe0695e1a1d. Canonical workflow 40068957632 passed. P25 prerequisite #136 merged at 1f0b288. Local acceptance complete; final CI running."
     },
     {
       "id": "P27",

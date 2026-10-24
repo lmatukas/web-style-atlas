@@ -4,7 +4,7 @@
 
 **Baigta: 87/90.**
 
-**Pirmiausia patikrinti S62: Vykdoma; vykdytojas agent/a96d97c591e1.**
+**Pirmiausia patikrinti S62: Laukia peržiūros; vykdytojas agent/a96d97c591e1.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -97,7 +97,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S59](tasks/S59.md) | Nauja kryptis: Patina Auction Room | Baigta | agent/77b9d776ea91 | task/s59-patina-auction-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/129) | 2026-10-24T03:47:42.092003Z | S59 accepted; continue owner-authorised S60. |
 | [S60](tasks/S60.md) | Nauja kryptis: Openwater Deck | Baigta | agent/77b9d776ea91 | task/s60-openwater-deck | [PR](https://github.com/lmatukas/web-style-atlas/pull/132) | 2026-10-24T04:06:00.559826Z | Owner-authorised S59/S60 batch complete. S61 remains unclaimed for the next request. |
 | [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Baigta | agent/417f6ffda8ee | task/s61-scent-ritual | [PR](https://github.com/lmatukas/web-style-atlas/pull/135) | 2026-10-24T05:23:46.036791Z | S61 accepted. S62 is next eligible and remains unclaimed until the next owner request. |
-| [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Vykdoma | agent/a96d97c591e1 | task/s62-ember-course-room | — | 2026-10-24T05:29:52.726017Z | Implement S62 according to docs/tasks/S62.md; one implementation PR. |
+| [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Laukia peržiūros | agent/a96d97c591e1 | task/s62-ember-course-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/137) | 2026-10-24T06:12:02.983599Z | Verify exact-head CI and review threads; merge #137 with existing owner authorization if all required checks pass, then record done. P27 remains unclaimed. |
 | [P27](tasks/P27.md) | Prabangos krypčių auditas | Laukia | — | — | — | — | Claim P27 ir vykdyti pagal docs/tasks/P27.md. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Laukia | — | — | — | — | Claim P28 ir vykdyti pagal docs/tasks/P28.md. |
 
