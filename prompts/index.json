@@ -484,6 +484,27 @@
         "architectural-monograph"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S60",
+      "style_id": "openwater-deck",
+      "name": "Openwater Deck",
+      "family": "photographic",
+      "language": "lt",
+      "prompt_path": "prompts/openwater-deck/prompt.lt.md",
+      "demo_brand": "Avelrune",
+      "variants": {
+        "a": "Laivo pristatymas, pasirenkamos denio zonos, kajutės ir specifikacijos",
+        "b": "Scheminis maršrutas, savaitės pasirinkimas ir vietinė nuomos užklausa"
+      },
+      "signature": "Numeruotas denio planas atveria erdvės aprašą, matmenis ir plotą; maršrutas keičia tikrą scheminį žemėlapį.",
+      "acceptance": "Keturios denio zonos, du maršrutai, trys savaitės, 1–8 svečiai; klaidos, tiksli santrauka, redagavimas ir atkūrimas; tik vietinė demonstracija.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "industrial-spec",
+        "trail-composer"
+      ],
+      "audio": false
     }
   ]
 }

@@ -1,0 +1,14 @@
+S60 — Openwater Deck. Verified 2026-10-24.
+
+sea.webp — Picture of Sea, Kyou 1868, 28 May 2025. Own work, uploaded 11 October 2025.
+Source and explicit image license: https://commons.wikimedia.org/wiki/File:Picture_of_Sea.jpg
+Original: https://upload.wikimedia.org/wikipedia/commons/c/c3/Picture_of_Sea.jpg
+CC0-1.0 Universal Public Domain Dedication, explicitly applied by uploader to the image. Not relying on the Commons structured-metadata license.
+EXIF orientation applied; resized RGB WebP, metadata removed. CSS crop only. The sea photograph is atmospheric and is not claimed to depict any fictional charter route. No people, logos or endorsement.
+
+Crimson Pro — The Crimson Pro Project Authors. https://github.com/google/fonts/tree/main/ofl/crimsonpro
+Existing weight-300 Latin/Lithuanian/punctuation subset reused unchanged. Full OFL adjacent.
+Jost — The Jost Project Authors. https://github.com/google/fonts/tree/main/ofl/jost
+Existing weight-400 Latin/Lithuanian/punctuation subset reused unchanged. Full OFL adjacent.
+
+Original yacht silhouette, deck plan, schematic map and code: Web Style Atlas contributors, MIT. Yacht name, dimensions, crew, cabins, dates and routes are fictional demonstration data. The map is a schematic, not a navigation aid. No AI imagery or real vessel design was copied. Avelrune name check in docs/evidence/S60.md.

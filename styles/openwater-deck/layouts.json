@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Vessel introduction and numbered deck atlas",
+      "page_type": "hospitality",
+      "reference_path": "reference/index.html",
+      "navigation": "Native deck/week anchors, numbered deck buttons, route buttons, explicit edit and reset.",
+      "ordered_sections": [
+        {
+          "purpose": "Arrive",
+          "pattern": "Full-height horizon and long yacht silhouette",
+          "content_requirements": [
+            "Arrive with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Explore deck",
+          "pattern": "Tall numbered plan beside zone dossier",
+          "content_requirements": [
+            "Explore deck with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Know cabins",
+          "pattern": "Three roomy cabin records",
+          "content_requirements": [
+            "Know cabins with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Check specifications",
+          "pattern": "Semantic technical table",
+          "content_requirements": [
+            "Check specifications with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Meet service",
+          "pattern": "Crew roles and week link",
+          "content_requirements": [
+            "Meet service with meaningful local content and controls"
+          ]
+        }
+      ],
+      "mobile_reflow": "A preserves a full-height horizon then tall plan and dossier; B puts the full-height chart first and stacks invitation, routes and full-width enquiry.",
+      "distinguishing_features": [
+        "Long original yacht over a real horizon",
+        "Navy numbered deck or schematic route atlas",
+        "Local charter service and quiet technical typography"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Schematic route and charter enquiry",
+      "page_type": "travel",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Native deck/week anchors, numbered deck buttons, route buttons, explicit edit and reset.",
+      "ordered_sections": [
+        {
+          "purpose": "Imagine journey",
+          "pattern": "Paper invitation beside broad marine chart",
+          "content_requirements": [
+            "Imagine journey with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Choose route",
+          "pattern": "Two route buttons change chart geometry",
+          "content_requirements": [
+            "Choose route with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Prepare enquiry",
+          "pattern": "Week, guest count and exact local summary",
+          "content_requirements": [
+            "Prepare enquiry with meaningful local content and controls"
+          ]
+        },
+        {
+          "purpose": "Read boundaries",
+          "pattern": "Native route and availability disclosures",
+          "content_requirements": [
+            "Read boundaries with meaningful local content and controls"
+          ]
+        }
+      ],
+      "mobile_reflow": "A preserves a full-height horizon then tall plan and dossier; B puts the full-height chart first and stacks invitation, routes and full-width enquiry.",
+      "distinguishing_features": [
+        "Long original yacht over a real horizon",
+        "Navy numbered deck or schematic route atlas",
+        "Local charter service and quiet technical typography"
+      ]
+    }
+  ]
+}

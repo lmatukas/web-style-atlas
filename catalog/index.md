@@ -2,7 +2,7 @@
 
 <!-- GENERATED from ready style metadata and layouts. Do not edit. -->
 
-Ready styles: 47. Drafts and templates are excluded.
+Ready styles: 48. Drafts and templates are excluded.
 
 | Style | Family | Summary | Variants |
 |---|---|---|---|
@@ -33,6 +33,7 @@ Ready styles: 47. Drafts and templates are excluded.
 | [Neo Brutalist](../styles/neo-brutalist/style.md) | expressive | Loud poster language, exposed frames and hard shadows paired with a genuinely usable event programme. | [A: Poster-led event offer](../styles/neo-brutalist/reference/index.html) · [B: Framed two-day programme](../styles/neo-brutalist/reference/alternate.html) |
 | [Newspaper Ledger](../styles/newspaper-ledger/style.md) | editorial | Dense editorial columns, strong rules and a clear news hierarchy, paired with a tabular analysis page with explicit units and methods. | [A: Multi-story newspaper front page](../styles/newspaper-ledger/reference/index.html) · [B: Analysis with branch ledger](../styles/newspaper-ledger/reference/alternate.html) |
 | [Obsidian Stage](../styles/obsidian-stage/style.md) | spatial | A precision metal object fills a black stage, opens into scroll-driven layers and resolves into a light, exact-price configuration desk. | [A: Object narrative and assembly](../styles/obsidian-stage/reference/index.html) · [B: Model comparison and configuration](../styles/obsidian-stage/reference/alternate.html) |
+| [Openwater Deck](../styles/openwater-deck/style.md) | photographic | A long white yacht across an open horizon leads to an interactive deck atlas or a schematic island route and a local seven-night charter enquiry. | [A: Vessel introduction and numbered deck atlas](../styles/openwater-deck/reference/index.html) · [B: Schematic route and charter enquiry](../styles/openwater-deck/reference/alternate.html) |
 | [Organic Craft](../styles/organic-craft/style.md) | tactile | Warm material surfaces, irregular object forms and asymmetric compositions for independent makers. | [A: Materials and making story](../styles/organic-craft/reference/index.html) · [B: Asymmetric object collection](../styles/organic-craft/reference/alternate.html) |
 | [Patina Auction Room](../styles/patina-auction-room/style.md) | photographic | A charcoal auction wall, museum bronzes and movable light lead to a filtered catalogue or a single-lot dossier with local bid and viewing demonstrations. | [A: Auction inventory and viewing calendar](../styles/patina-auction-room/reference/index.html) · [B: Single lot dossier and bid desk](../styles/patina-auction-room/reference/alternate.html) |
 | [Playful Cutout](../styles/playful-cutout/style.md) | illustrative | Coherent cutout illustrations, deliberate overlap and friendly type for a playful creative story. | [A: Assembled cutout invitation](../styles/playful-cutout/reference/index.html) · [B: Event story with attached stickers](../styles/playful-cutout/reference/alternate.html) |

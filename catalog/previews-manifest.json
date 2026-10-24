@@ -1096,6 +1096,46 @@
       "width": 390
     },
     {
+      "height": 4320,
+      "output_sha256": "4fc0d7da5ccfe955e131755beee1ab786ed1e84f625567d5f1648d80072e1f8e",
+      "path": "styles/openwater-deck/preview.png",
+      "source_sha256": "3d52780cf9c254c7167812aeb93bba1fa2ff3e4cd0759246fa50957bd73776a4",
+      "style_id": "openwater-deck",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5113,
+      "output_sha256": "59d0a62082cb9bd13ccd7e18a92be8cab57df4558635449d783da38c0b074087",
+      "path": "styles/openwater-deck/preview-mobile.png",
+      "source_sha256": "3d52780cf9c254c7167812aeb93bba1fa2ff3e4cd0759246fa50957bd73776a4",
+      "style_id": "openwater-deck",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3083,
+      "output_sha256": "5a160e9fe528652975cdda95c86105a2faa068d0226919ffc12a5f6164310a60",
+      "path": "styles/openwater-deck/preview-alt.png",
+      "source_sha256": "3d52780cf9c254c7167812aeb93bba1fa2ff3e4cd0759246fa50957bd73776a4",
+      "style_id": "openwater-deck",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 3893,
+      "output_sha256": "0b577ee79b901ace7fd5b526303bcae3366c023651e7bf5601decf9f28737f63",
+      "path": "styles/openwater-deck/preview-alt-mobile.png",
+      "source_sha256": "3d52780cf9c254c7167812aeb93bba1fa2ff3e4cd0759246fa50957bd73776a4",
+      "style_id": "openwater-deck",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 2176,
       "output_sha256": "e3d5bf3885ca70d52893d75a4efb50c895505e7eb474dda82b70cb1a2fa527df",
       "path": "styles/organic-craft/preview.png",
