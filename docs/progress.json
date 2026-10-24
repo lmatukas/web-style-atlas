@@ -4454,23 +4454,52 @@
     {
       "id": "P27",
       "title": "Prabangos krypčių auditas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S62"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "Required source, build, generated freshness and unit commands",
+          "status": "pass",
+          "details": "validate/build/check: 50 ready directions and 200 current previews; node --test tests/*.test.mjs: 98/98 passed."
+        },
+        {
+          "name": "Complete visual audit and source identity",
+          "status": "pass",
+          "details": "All 44 new PNGs and 16 requested older comparison PNGs inspected; 44 output hashes/dimensions match canonical manifest; independent scores, ten-condition matrix and measured failures recorded."
+        },
+        {
+          "name": "Responsive and service audit performed with failures preserved",
+          "status": "pass",
+          "details": "88/88 browser/axe/resource/focus cases passed. Ten original service suites passed. Original S54 full QA remains FAIL on scene/range keyboard assertions (#143); isolated service/runtime checks passed 18 cases/81 prices. This is audit coverage, not a product-wide pass."
+        },
+        {
+          "name": "Correction tasks registered under the P27 completion rule",
+          "status": "pass",
+          "details": "Issues #138–#145 register all findings: five hero geometry failures, two competing CTA failures, unresolved S54 QA and nine expansion shared-resource warnings. P19 reports ten advisories, one from the current original-39 subset; zero added by documentation-only P27. Release is not cleared."
+        },
+        {
+          "name": "GitHub documentation-only exact-head CI and review inspection",
+          "status": "pass",
+          "details": "Run 40073327416 at e30c07efe857185c016ecb3bbc472b63f56710b7: Scope and queue passed; source/build and browser jobs intentionally skipped by existing docs-only dispatcher. No reviews or unresolved threads. PR #146 still open; merge not yet recorded."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P27.md",
+        "docs/evidence/luxury-review.md"
+      ],
       "worker": "agent/3b83668a4046",
       "claimed_at": "2026-10-24T06:52:45.312908Z",
-      "updated_at": "2026-10-24T06:52:45.312908Z",
+      "updated_at": "2026-10-24T07:14:48.068990Z",
       "branch": "task/p27-luxury-audit",
       "base_commit": "65b28cd1c44e339ddd73bb53ed3b426654ed3bfd",
-      "evidence_commit": null,
+      "evidence_commit": "e30c07efe857185c016ecb3bbc472b63f56710b7",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/146",
       "blocker": null,
-      "next_action": "Independently inspect all 44 luxury previews and audit the ten acceptance conditions; record scoped correction tasks where necessary.",
-      "handoff": null
+      "next_action": "Verify documentation-only PR #146 CI/reviews, merge under existing authorization, then record P27 audit completion and block P28 on issues #138–#145.",
+      "handoff": "P27 audit complete on branch: 44/44 canonical PNGs inspected; ten conditions per direction and requested comparisons recorded. Eight correction tasks #138–#145 are open. Five hero-height failures, two CTA failures, S54 full keyboard QA FAIL and nine expansion P19 signals remain. No style fixes or release approval in P27."
     },
     {
       "id": "P28",

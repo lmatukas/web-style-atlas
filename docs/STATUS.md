@@ -4,7 +4,7 @@
 
 **Baigta: 88/90.**
 
-**Pirmiausia patikrinti P27: Vykdoma; vykdytojas agent/3b83668a4046.**
+**Pirmiausia patikrinti P27: Laukia peržiūros; vykdytojas agent/3b83668a4046.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -98,7 +98,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S60](tasks/S60.md) | Nauja kryptis: Openwater Deck | Baigta | agent/77b9d776ea91 | task/s60-openwater-deck | [PR](https://github.com/lmatukas/web-style-atlas/pull/132) | 2026-10-24T04:06:00.559826Z | Owner-authorised S59/S60 batch complete. S61 remains unclaimed for the next request. |
 | [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Baigta | agent/417f6ffda8ee | task/s61-scent-ritual | [PR](https://github.com/lmatukas/web-style-atlas/pull/135) | 2026-10-24T05:23:46.036791Z | S61 accepted. S62 is next eligible and remains unclaimed until the next owner request. |
 | [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Baigta | agent/a96d97c591e1 | task/s62-ember-course-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/137) | 2026-10-24T06:16:00.401790Z | S62 accepted. P27 is next eligible and remains unclaimed until the next owner request. |
-| [P27](tasks/P27.md) | Prabangos krypčių auditas | Vykdoma | agent/3b83668a4046 | task/p27-luxury-audit | — | 2026-10-24T06:52:45.312908Z | Independently inspect all 44 luxury previews and audit the ten acceptance conditions; record scoped correction tasks where necessary. |
+| [P27](tasks/P27.md) | Prabangos krypčių auditas | Laukia peržiūros | agent/3b83668a4046 | task/p27-luxury-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/146) | 2026-10-24T07:14:48.068990Z | Verify documentation-only PR #146 CI/reviews, merge under existing authorization, then record P27 audit completion and block P28 on issues #138–#145. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Laukia | — | — | — | — | Claim P28 ir vykdyti pagal docs/tasks/P28.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
