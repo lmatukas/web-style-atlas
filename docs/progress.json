@@ -4326,7 +4326,7 @@
     {
       "id": "S60",
       "title": "Nauja kryptis: Openwater Deck",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S59"
       ],
@@ -4345,7 +4345,7 @@
         },
         {
           "name": "GitHub exact-head CI and canonical workflow",
-          "status": "not_run"
+          "status": "pass"
         }
       ],
       "evidence_paths": [
@@ -4353,15 +4353,15 @@
       ],
       "worker": "agent/77b9d776ea91",
       "claimed_at": "2026-10-24T03:47:42.092003Z",
-      "updated_at": "2026-10-24T03:59:34.209642Z",
+      "updated_at": "2026-10-24T04:06:00.559826Z",
       "branch": "task/s60-openwater-deck",
       "base_commit": "99db5396e3901544972e8b57d86ee12b223e1613",
       "evidence_commit": "c5be068368afadea311237aa21b111fa8b16d59e",
-      "merge_commit": null,
+      "merge_commit": "04d4f06fed1d72c60b3cf822cd583d4d413d32b3",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/132",
       "blocker": null,
-      "next_action": "Verify exact-head PR #132 checks and canonical workflow, merge and record acceptance; stop before S61.",
-      "handoff": "Owner authorised S59/S60 only. S59 accepted. S60 local implementation complete; GitHub acceptance pending."
+      "next_action": "Owner-authorised S59/S60 batch complete. S61 remains unclaimed for the next request.",
+      "handoff": "Implementation #132 merged. Exact head c5be068368afadea311237aa21b111fa8b16d59e passed all three CI jobs in run 40060545914 and canonical preview workflow 40060868150 on task/s60-openwater-deck. No reviews or unresolved threads."
     },
     {
       "id": "S61",
