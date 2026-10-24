@@ -4535,14 +4535,14 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T09:11:28.584Z",
-      "updated_at": "2026-10-24T12:38:30.855Z",
+      "updated_at": "2026-10-24T12:41:44.834Z",
       "branch": "task/p29-s53-hero",
       "base_commit": "c9965b4584323ff6687cb4b79ce49118d67f4460",
       "evidence_commit": "f25d10fa5bec3ee208d29af168826f850074b96e",
       "merge_commit": "62d1dabb3593e19e6e549b1551595f4d903e7494",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/147",
       "blocker": null,
-      "next_action": null,
+      "next_action": "Nėra. Užduotis baigta.",
       "handoff": "PR #147 merged at 62d1dab; issue #138 closed."
     },
     {
