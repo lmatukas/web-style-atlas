@@ -4680,15 +4680,30 @@
     {
       "id": "P33",
       "title": "Pataisa: S60 B žemėlapio aukštis",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #142 acceptance",
-          "status": "not_run",
-          "details": "P27-A05: see https://github.com/lmatukas/web-style-atlas/issues/142"
+          "status": "pass",
+          "details": "B svg.route-map 76% at 360/390/768, 73.4% at 1440; normal/reduced/blocked; all labels inside map for both routes at six widths."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S60 qa 48 combinations plus map-share assertion; alt-mobile PNG regenerated and inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #151."
         }
       ],
       "evidence_paths": [
@@ -4696,15 +4711,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T18:31:58.281Z",
-      "updated_at": "2026-10-24T18:35:26.374Z",
+      "updated_at": "2026-10-24T18:38:53.768Z",
       "branch": "task/p33-s60-map",
       "base_commit": "825e90027d8c6fc90ebcdb5b52b9d3e7af5c0d1c",
       "evidence_commit": "965701f3509537e6fa567b2bb4c7bdf3caf65532",
-      "merge_commit": null,
+      "merge_commit": "6913e28581223497a5d783a6389fd5f0d5caa2fd",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/151",
       "blocker": null,
-      "next_action": "Claim and resolve issue #142.",
-      "handoff": "PR #151 open. S60 B map 76% on phones/tablet. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #151 merged at 6913e28; issue #142 closed."
     },
     {
       "id": "P34",
