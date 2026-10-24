@@ -4286,22 +4286,22 @@
     {
       "id": "S59",
       "title": "Nauja kryptis: Patina Auction Room",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S58"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/77b9d776ea91",
+      "claimed_at": "2026-10-24T03:32:03.743406Z",
+      "updated_at": "2026-10-24T03:32:03.743406Z",
+      "branch": "task/s59-patina-auction-room",
+      "base_commit": "b79bdc1f1350643426d6569272b5563731bfa8c7",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S59 ir vykdyti pagal docs/tasks/S59.md.",
+      "next_action": "Implement S59, then S60 in owner-authorised sequential batch.",
       "handoff": null
     },
     {
