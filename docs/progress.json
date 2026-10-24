@@ -4812,7 +4812,7 @@
     {
       "id": "P36",
       "title": "Pataisa: P19 bendrų išteklių signalai",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4828,15 +4828,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T20:15:30.598Z",
-      "updated_at": "2026-10-24T20:15:30.598Z",
+      "updated_at": "2026-10-24T20:17:23.739Z",
       "branch": "task/p36-shared-resources",
       "base_commit": "8312f8a01ad99a6da262367c5aa1d58be4f83320",
-      "evidence_commit": null,
+      "evidence_commit": "bb3a43d6305ce2beb482db4373d40b2a508507fd",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/154",
       "blocker": null,
       "next_action": "Claim and resolve issue #145.",
-      "handoff": null
+      "handoff": "PR #154 open. P19 down to the old footer advisory; images replaced. Owner merges."
     },
     {
       "id": "P28",
