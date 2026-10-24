@@ -4504,7 +4504,7 @@
     {
       "id": "P29",
       "title": "Pataisa: S53 B pirmo ekrano vaizdas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4518,11 +4518,11 @@
       "evidence_paths": [
         "docs/evidence/P29.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T09:11:28.584Z",
+      "updated_at": "2026-10-24T09:11:28.584Z",
+      "branch": "task/p29-s53-hero",
+      "base_commit": "c9965b4584323ff6687cb4b79ce49118d67f4460",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
