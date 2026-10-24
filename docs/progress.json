@@ -4680,7 +4680,7 @@
     {
       "id": "P33",
       "title": "Pataisa: S60 B žemėlapio aukštis",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4694,11 +4694,11 @@
       "evidence_paths": [
         "docs/evidence/P33.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T18:31:58.281Z",
+      "updated_at": "2026-10-24T18:31:58.281Z",
+      "branch": "task/p33-s60-map",
+      "base_commit": "825e90027d8c6fc90ebcdb5b52b9d3e7af5c0d1c",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
