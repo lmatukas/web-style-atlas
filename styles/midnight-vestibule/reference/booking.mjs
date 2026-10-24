@@ -135,11 +135,17 @@ drawer.addEventListener('keydown', event => {
   if (event.shiftKey && document.activeElement === firstItem) { event.preventDefault(); last.focus(); }
   else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); firstItem.focus(); }
 });
-// The edge tab appears only once the masthead action has scrolled away, so one primary action is visible at a time.
+// The edge tab appears only while no other booking action (masthead or a primary room CTA) is on screen,
+// so one primary action is visible at a time, including between sections.
 const edge = document.querySelector('.edge-tab'), masthead = document.querySelector('.masthead');
 if (edge && masthead) {
   edge.classList.add('tucked');
-  new IntersectionObserver(entries => edge.classList.toggle('tucked', entries[0].isIntersecting)).observe(masthead);
+  const onScreen = new Set();
+  const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) entry.isIntersecting ? onScreen.add(entry.target) : onScreen.delete(entry.target);
+    edge.classList.toggle('tucked', onScreen.size > 0);
+  });
+  for (const rival of [masthead, ...document.querySelectorAll('main .primary[data-open-booking]')]) observer.observe(rival);
 }
 renderCalendar(); render();
 window.atlasDrawer = { open, close };
