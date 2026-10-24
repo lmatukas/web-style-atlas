@@ -4636,7 +4636,7 @@
     {
       "id": "P32",
       "title": "Pataisa: S59 A telefono objektas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4652,15 +4652,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T16:44:22.518Z",
-      "updated_at": "2026-10-24T16:44:22.518Z",
+      "updated_at": "2026-10-24T16:47:03.019Z",
       "branch": "task/p32-s59-hero",
       "base_commit": "8a439a903f343e18bd43ba53706d0ccd149e19eb",
-      "evidence_commit": null,
+      "evidence_commit": "ebee1b5125e301be81ba20d82a07db003aa6854b",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/150",
       "blocker": null,
       "next_action": "Claim and resolve issue #141.",
-      "handoff": null
+      "handoff": "PR #150 open. S59 A phone vessel 73.9%. Owner merges."
     },
     {
       "id": "P33",
