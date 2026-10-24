@@ -1136,6 +1136,46 @@
       "width": 390
     },
     {
+      "height": 3711,
+      "output_sha256": "02976ab7bc4298285d76023b47b4802432697da793cd9dc130ebcbfda070f5f0",
+      "path": "styles/patina-auction-room/preview.png",
+      "source_sha256": "1bd88b23b409afc9e71fab75eab57df2703c269581815db92a3c5eba5f477582",
+      "style_id": "patina-auction-room",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 5624,
+      "output_sha256": "963ec514a55f9902909ecc90364f25789eda8fa48a7bd322a7931799e00c9111",
+      "path": "styles/patina-auction-room/preview-mobile.png",
+      "source_sha256": "1bd88b23b409afc9e71fab75eab57df2703c269581815db92a3c5eba5f477582",
+      "style_id": "patina-auction-room",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3586,
+      "output_sha256": "e177c9b9964d950b61932bcbf021400a1f8af9d489063d1328e7901e445f970f",
+      "path": "styles/patina-auction-room/preview-alt.png",
+      "source_sha256": "1bd88b23b409afc9e71fab75eab57df2703c269581815db92a3c5eba5f477582",
+      "style_id": "patina-auction-room",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4191,
+      "output_sha256": "5c7d23857c57711b849b34bb0a94dbe5b960e19098785ad68982a3f29da27e39",
+      "path": "styles/patina-auction-room/preview-alt-mobile.png",
+      "source_sha256": "1bd88b23b409afc9e71fab75eab57df2703c269581815db92a3c5eba5f477582",
+      "style_id": "patina-auction-room",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 1963,
       "output_sha256": "2036f139ca6634a313aab6f5a8a810cb3c68faa1be44dadfbfa9e95265604ec6",
       "path": "styles/playful-cutout/preview.png",

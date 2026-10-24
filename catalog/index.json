@@ -1468,6 +1468,62 @@
       ]
     },
     {
+      "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
+        "culture",
+        "commerce",
+        "products"
+      ],
+      "complexity": "medium",
+      "density": "sparse",
+      "family": "photographic",
+      "id": "patina-auction-room",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Patina Auction Room",
+      "prompt_path": "prompts/patina-auction-room/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Charcoal gallery wall, warm ivory text and paper desk; red reserved for the demonstration countdown.",
+        "composition": "A features one large wall object before an inventory grid; B is a 65/35 object dossier followed by provenance and a cream bidding desk.",
+        "content_rhythm": "Exhibition, inventory, viewing desk and notes; B uses object, provenance, condition and bidding.",
+        "imagery": "Three documented CC0 museum bronze objects with feathered photographic edges and warm directional light.",
+        "interaction": "Pointer spotlight with native range equivalent; lot filters, object zoom, viewing registration and minimum-step local bidding.",
+        "motion": "Finite 1.4-second light episodes, pause, immediate reduced-motion state and hidden/offscreen suspension; separately controllable session countdown.",
+        "navigation": "Native catalogue, viewing and lot dossier links; category/estimate filters and explicit reset controls.",
+        "typography": "High-contrast local Bodoni Moda 400 headings and local Patina Mono 400 (renamed IBM Plex subset) lot numbers and practical text."
+      },
+      "status": "ready",
+      "style_path": "styles/patina-auction-room/style.md",
+      "summary": "A charcoal auction wall, museum bronzes and movable light lead to a filtered catalogue or a single-lot dossier with local bid and viewing demonstrations.",
+      "tags": [
+        "luxury",
+        "image-led",
+        "archival",
+        "task-led",
+        "high-contrast"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/patina-auction-room/preview-mobile.png",
+          "preview_path": "styles/patina-auction-room/preview.png",
+          "reference_path": "styles/patina-auction-room/reference/index.html",
+          "title": "Auction inventory and viewing calendar"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/patina-auction-room/preview-alt-mobile.png",
+          "preview_path": "styles/patina-auction-room/preview-alt.png",
+          "reference_path": "styles/patina-auction-room/reference/alternate.html",
+          "title": "Single lot dossier and bid desk"
+        }
+      ]
+    },
+    {
       "avoid_for": [],
       "best_for": [
         "events",

@@ -463,6 +463,27 @@
         "choreographic-stage"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S59",
+      "style_id": "patina-auction-room",
+      "name": "Patina Auction Room",
+      "family": "photographic",
+      "language": "lt",
+      "prompt_path": "prompts/patina-auction-room/prompt.lt.md",
+      "demo_brand": "Orvélume",
+      "variants": {
+        "a": "Filtruojamas aukciono katalogas ir peržiūrų registracija",
+        "b": "Vieno loto byla, priartinimas ir vietinis statymas"
+      },
+      "signature": "Prožektoriaus šviesa seka žymeklį; klaviatūra ir lietimu ją valdo natyvus slankiklis.",
+      "acceptance": "Kategorijų ir įverčių filtrai, priartinimas, šeši peržiūros laikai, minimalaus žingsnio statymai, laikmatis, klaidos, santrauka ir atkūrimas.",
+      "enhancement": "html-svg",
+      "closest_styles": [
+        "gallery-white-cube",
+        "architectural-monograph"
+      ],
+      "audio": false
     }
   ]
 }

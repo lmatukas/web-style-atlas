@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "bodoni",
+      "path": "assets/fonts/bodoni/BodoniModa-Display-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/bodonimoda",
+      "creator": "The Bodoni Moda Project Authors",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/bodoni/OFL.txt",
+      "attribution": "Bodoni Moda, The Bodoni Moda Project Authors, SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Instanced from the variable font at weight 400 and optical size 28; subset Latin, Lithuanian and punctuation; WOFF2 encoding."
+      ]
+    },
+    {
+      "id": "plex",
+      "path": "assets/fonts/plex/IBMPlexMono-Regular-LT.woff2",
+      "type": "font",
+      "origin": "third_party",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/ibmplexmono",
+      "creator": "IBM Corp.",
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/plex/OFL.txt",
+      "attribution": "IBM Plex Mono, IBM Corp., SIL OFL 1.1",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Subset Latin, Lithuanian and punctuation; WOFF2.",
+        "Renamed internal family to Patina Mono to respect reserved font name Plex."
+      ]
+    },
+    {
+      "id": "vase",
+      "path": "assets/vase.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://www.metmuseum.org/art/collection/search/59973",
+      "creator": "Unidentified maker; The Metropolitan Museum of Art",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Vase, mid-18th–late 19th century, 14.58.169; The Metropolitan Museum of Art, CC0.",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized RGB WebP, metadata removed. CSS edge vignette and warm spotlight."
+      ]
+    },
+    {
+      "id": "vase-light",
+      "path": "assets/vase-light.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://www.metmuseum.org/art/collection/search/59843",
+      "creator": "Unidentified maker; The Metropolitan Museum of Art",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Vase, 19th century, 91.1.491; The Metropolitan Museum of Art, CC0.",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized RGB WebP, metadata removed. CSS edge vignette and warm spotlight."
+      ]
+    },
+    {
+      "id": "cypriot",
+      "path": "assets/cypriot.webp",
+      "type": "image",
+      "origin": "third_party",
+      "source_url": "https://www.metmuseum.org/art/collection/search/244443",
+      "creator": "Unidentified maker; The Metropolitan Museum of Art",
+      "license": "CC0-1.0",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Vase, 6th century BCE, 74.51.5564; The Metropolitan Museum of Art, CC0.",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized RGB WebP, metadata removed. CSS edge vignette and warm spotlight."
+      ]
+    }
+  ]
+}

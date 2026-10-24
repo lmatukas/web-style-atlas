@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Auction inventory and viewing calendar",
+      "page_type": "commerce",
+      "reference_path": "reference/index.html",
+      "navigation": "Native local catalogue and lot links; explicit filters, ranges and form resets.",
+      "ordered_sections": [
+        {
+          "purpose": "Arrive",
+          "pattern": "Full-height object and estimate ledger",
+          "content_requirements": [
+            "Arrive with useful local controls"
+          ]
+        },
+        {
+          "purpose": "Explore",
+          "pattern": "Category and estimate inventory filters",
+          "content_requirements": [
+            "Explore with useful local controls"
+          ]
+        },
+        {
+          "purpose": "Book viewing",
+          "pattern": "Calendar beside local form",
+          "content_requirements": [
+            "Book viewing with useful local controls"
+          ]
+        },
+        {
+          "purpose": "Understand",
+          "pattern": "Native service disclosures",
+          "content_requirements": [
+            "Understand with useful local controls"
+          ]
+        }
+      ],
+      "mobile_reflow": "Full-height object scene precedes a stacked inventory or dossier; cream forms use full width and clear native controls.",
+      "distinguishing_features": [
+        "Charcoal museum wall",
+        "Monospaced lot data",
+        "Working local viewing and bid services"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Single lot dossier and bid desk",
+      "page_type": "products",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Native local catalogue and lot links; explicit filters, ranges and form resets.",
+      "ordered_sections": [
+        {
+          "purpose": "Inspect",
+          "pattern": "Large zoomable object beside narrow lot data",
+          "content_requirements": [
+            "Inspect with useful local controls"
+          ]
+        },
+        {
+          "purpose": "Research",
+          "pattern": "Provenance and condition disclosure",
+          "content_requirements": [
+            "Research with useful local controls"
+          ]
+        },
+        {
+          "purpose": "Bid locally",
+          "pattern": "Minimum-increment bid demonstration",
+          "content_requirements": [
+            "Bid locally with useful local controls"
+          ]
+        },
+        {
+          "purpose": "Understand",
+          "pattern": "Native demo disclosures",
+          "content_requirements": [
+            "Understand with useful local controls"
+          ]
+        }
+      ],
+      "mobile_reflow": "Full-height object scene precedes a stacked inventory or dossier; cream forms use full width and clear native controls.",
+      "distinguishing_features": [
+        "Charcoal museum wall",
+        "Monospaced lot data",
+        "Working local viewing and bid services"
+      ]
+    }
+  ]
+}
