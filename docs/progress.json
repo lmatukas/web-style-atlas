@@ -4326,23 +4326,42 @@
     {
       "id": "S60",
       "title": "Nauja kryptis: Openwater Deck",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "S59"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "Source/build and 97 unit tests",
+          "status": "pass"
+        },
+        {
+          "name": "Six browser/axe pages and six runtime cases",
+          "status": "pass"
+        },
+        {
+          "name": "48 service combinations and four viewed PNGs; rubric 11/12",
+          "status": "pass"
+        },
+        {
+          "name": "GitHub exact-head CI and canonical workflow",
+          "status": "not_run"
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/S60.md"
+      ],
       "worker": "agent/77b9d776ea91",
       "claimed_at": "2026-10-24T03:47:42.092003Z",
-      "updated_at": "2026-10-24T03:47:42.092003Z",
+      "updated_at": "2026-10-24T03:59:34.209642Z",
       "branch": "task/s60-openwater-deck",
       "base_commit": "99db5396e3901544972e8b57d86ee12b223e1613",
-      "evidence_commit": null,
+      "evidence_commit": "c5be068368afadea311237aa21b111fa8b16d59e",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/132",
       "blocker": null,
-      "next_action": "Implement S60 after acceptance/claim PR merges. Owner authorised S59 and S60 sequentially.",
-      "handoff": null
+      "next_action": "Verify exact-head PR #132 checks and canonical workflow, merge and record acceptance; stop before S61.",
+      "handoff": "Owner authorised S59/S60 only. S59 accepted. S60 local implementation complete; GitHub acceptance pending."
     },
     {
       "id": "S61",
