@@ -1,0 +1,59 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #d5c6aa;
+  --color-background: #1c1c1c;
+  --color-border: #8c877e;
+  --color-error: #a32927;
+  --color-focus: #ebd5a8;
+  --color-ink: #262622;
+  --color-light: #fff0d0;
+  --color-muted: #c6c0b5;
+  --color-on-accent: #1c1c1c;
+  --color-paper: #f4efe5;
+  --color-paper-muted: #59594f;
+  --color-surface: #272725;
+  --color-text: #f4efe5;
+  --color-timer: #ffaaa1;
+  --font-body: "Patina Mono", monospace;
+  --font-display: "Bodoni Moda", serif;
+  --font-size-body: 1rem;
+  --font-size-display: 3.5rem;
+  --font-size-heading: 2.5rem;
+  --font-size-small: 0.75rem;
+  --font-weight-bold: 400;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 84rem;
+  --layout-text-max-width: 38ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.02em;
+  --line-height-body: 1.65;
+  --line-height-heading: 1.08;
+  --motion-duration-drawer: 420ms;
+  --motion-duration-instant: 0ms;
+  --motion-duration-short: 200ms;
+  --motion-easing-standard: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --radius-none: 0;
+  --radius-pill: 999px;
+  --shadow-none: none;
+  --spacing-large: 2.5rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 8rem;
+  --spacing-small: 0.5rem;
+}
+
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../assets/fonts/bodoni/BodoniModa-Display-LT.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Patina Mono";
+  src: url("../assets/fonts/plex/IBMPlexMono-Regular-LT.woff2");
+  font-display: swap;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */

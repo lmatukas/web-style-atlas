@@ -1,0 +1,33 @@
+S59 — Patina Auction Room. Downloaded and verified 2026-10-24.
+
+vase.webp — Vase, Japan, mid-18th–late 19th century; Bronze; H. 4 3/4 in. (12.1 cm); inventory 14.58.169. Bequest of John L. Cadwalader, 1914.
+Source: https://www.metmuseum.org/art/collection/search/59973
+API: https://collectionapi.metmuseum.org/public/collection/v1/objects/59973
+Image: https://images.metmuseum.org/CRDImages/as/original/LC-14_58_169-005.jpg
+API isPublicDomain=true. Maker unidentified; image supplied by The Metropolitan Museum of Art.
+
+vase-light.webp — Vase, Japan, 19th century; Bronze, light colored; H. 5 1/2 in. (14 cm); W. 3 3/4 in. (9.5 cm); D. 3 3/4 in. (9.5 cm); inventory 91.1.491. Edward C. Moore Collection, Bequest of Edward C. Moore, 1891.
+Source: https://www.metmuseum.org/art/collection/search/59843
+API: https://collectionapi.metmuseum.org/public/collection/v1/objects/59843
+Image: https://images.metmuseum.org/CRDImages/as/original/91_1_491_O1.JPG
+API isPublicDomain=true. Maker unidentified; image supplied by The Metropolitan Museum of Art.
+
+cypriot.webp — Vase, Cypriot, 6th century BCE; Bronze; 9 1/4in. (23.5cm)
+Other (height of vase): 9 1/4in. (23.5cm)
+Other (length of spout): 8 9/16in. (21.7cm); inventory 74.51.5564. The Cesnola Collection, Purchased by subscription, 1874–76.
+Source: https://www.metmuseum.org/art/collection/search/244443
+API: https://collectionapi.metmuseum.org/public/collection/v1/objects/244443
+Image: https://images.metmuseum.org/CRDImages/gr/original/LC-74_51_5564.jpg
+API isPublicDomain=true. Maker unidentified; image supplied by The Metropolitan Museum of Art.
+
+Museum Open Access policy: https://www.metmuseum.org/hubs/open-access
+https://www.metmuseum.org/policies/image-resources
+CC0-1.0. RGB WebP resized <=1100x1200; metadata removed. CSS edge masks, no object recolouring. These objects are not for sale. Lot IDs, names, estimates and bids are invented demonstration data. Actual dates, materials, provenance and inventory numbers are retained.
+
+Bodoni Moda — The Bodoni Moda Project Authors. https://github.com/google/fonts/tree/main/ofl/bodonimoda
+Existing weight-400 / opsz-28 display subset reused unchanged. IBM Plex Mono — IBM Corp. https://github.com/google/fonts/tree/main/ofl/ibmplexmono
+Regular 400, Latin/Lithuanian/punctuation WOFF2 subset. Full OFL beside both fonts.
+
+Original code, light and layout: Web Style Atlas contributors, MIT. No AI imagery. Orvélume is fictional; name check in docs/evidence/S59.md.
+
+The IBM Plex subset internal family is renamed Patina Mono, respecting the reserved font name Plex.
