@@ -4,7 +4,7 @@
 
 **Baigta: 97/98.**
 
-**Pirmiausia patikrinti P28: Vykdoma; vykdytojas agent/01dpob2fr2xg.**
+**Pirmiausia patikrinti P28: Laukia peržiūros; vykdytojas agent/01dpob2fr2xg.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -107,6 +107,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P34](tasks/P34.md) | Pataisa: S54 klaviatūros QA | Baigta | agent/01dpob2fr2xg | task/p34-s54-keyboard | [PR](https://github.com/lmatukas/web-style-atlas/pull/152) | 2026-10-24T19:18:20.826Z | Nėra. Užduotis baigta. |
 | [P35](tasks/P35.md) | Pataisa: S58 pagrindinis ir antrinis veiksmas | Baigta | agent/01dpob2fr2xg | task/p35-s58-cta | [PR](https://github.com/lmatukas/web-style-atlas/pull/153) | 2026-10-24T20:15:27.004Z | Nėra. Užduotis baigta. |
 | [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Baigta | agent/01dpob2fr2xg | task/p36-shared-resources | [PR](https://github.com/lmatukas/web-style-atlas/pull/154) | 2026-10-24T20:20:51.219Z | Nėra. Užduotis baigta. |
-| [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Vykdoma | agent/01dpob2fr2xg | task/p28-release-1-3-0 | — | 2026-10-24T20:21:04.592Z | Claim and prepare the 1.3.0 release; publication still needs owner approval. |
+| [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Laukia peržiūros | agent/01dpob2fr2xg | task/p28-release-1-3-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/155) | 2026-10-24T20:28:54.826Z | Claim and prepare the 1.3.0 release; publication still needs owner approval. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
