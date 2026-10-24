@@ -456,6 +456,46 @@
       "width": 390
     },
     {
+      "height": 8313,
+      "output_sha256": "ecc7b561db9ff87f45a27780e28e72dccdb7d8d0e4a27eeabddb95de8dbcc45d",
+      "path": "styles/ember-course-room/preview.png",
+      "source_sha256": "4e6651143f41f37dee3a1eba59ab58c6dcc5318e1efefc84de09077f00bac50a",
+      "style_id": "ember-course-room",
+      "variant": "a",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 9739,
+      "output_sha256": "9a64b271886f3bacf9965ecad4c75fc72ca4ccfc1833f2e3859a59bc44906982",
+      "path": "styles/ember-course-room/preview-mobile.png",
+      "source_sha256": "4e6651143f41f37dee3a1eba59ab58c6dcc5318e1efefc84de09077f00bac50a",
+      "style_id": "ember-course-room",
+      "variant": "a",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
+      "height": 3602,
+      "output_sha256": "e2d9cd630a604d0d921b8828bd4dea2f47c8fec0a0cc9dff3f7287891444ebd2",
+      "path": "styles/ember-course-room/preview-alt.png",
+      "source_sha256": "4e6651143f41f37dee3a1eba59ab58c6dcc5318e1efefc84de09077f00bac50a",
+      "style_id": "ember-course-room",
+      "variant": "b",
+      "viewport": "desktop",
+      "width": 1440
+    },
+    {
+      "height": 4181,
+      "output_sha256": "8ccf0d9ea6e54447e8c0bb45c1458497e38adf564a29301a827d11f6bb667f16",
+      "path": "styles/ember-course-room/preview-alt-mobile.png",
+      "source_sha256": "4e6651143f41f37dee3a1eba59ab58c6dcc5318e1efefc84de09077f00bac50a",
+      "style_id": "ember-course-room",
+      "variant": "b",
+      "viewport": "mobile",
+      "width": 390
+    },
+    {
       "height": 4325,
       "output_sha256": "99123804a97d8c5d697c4f00c959c227de9b746aae8ec0cc80fd6120c0e9a9e4",
       "path": "styles/escapement-nocturne/preview.png",
