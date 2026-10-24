@@ -4366,23 +4366,23 @@
     {
       "id": "S61",
       "title": "Nauja kryptis: Scent Ritual",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S60"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/417f6ffda8ee",
+      "claimed_at": "2026-10-24T04:57:47.371390+00:00",
+      "updated_at": "2026-10-24T04:57:47.371401+00:00",
+      "branch": "task/s61-scent-ritual",
+      "base_commit": "2105ee8b28fe9bc3c6b0d4f554c39c0db26991c3",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S61 ir vykdyti pagal docs/tasks/S61.md.",
-      "handoff": null
+      "next_action": "Implement S61 Scent Ritual, validate A/B service and WebGL fallback, inspect canonical previews.",
+      "handoff": "Owner requested S61. S60 accepted and no open task PRs; agent/417f6ffda8ee owns this task."
     },
     {
       "id": "S62",

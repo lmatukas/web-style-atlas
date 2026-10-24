@@ -4,7 +4,7 @@
 
 **Baigta: 86/90.**
 
-**Kita užduotis: [S61](tasks/S61.md).**
+**Pirmiausia patikrinti S61: Vykdoma; vykdytojas agent/417f6ffda8ee.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -96,7 +96,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S58](tasks/S58.md) | Nauja kryptis: Velvet Members Hall | Baigta | agent/8cd832e894f0 | task/s58-velvet-members-hall | [PR](https://github.com/lmatukas/web-style-atlas/pull/125) | 2026-10-23T22:19:49Z | S58 accepted; S59 is the next eligible task and remains unclaimed. |
 | [S59](tasks/S59.md) | Nauja kryptis: Patina Auction Room | Baigta | agent/77b9d776ea91 | task/s59-patina-auction-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/129) | 2026-10-24T03:47:42.092003Z | S59 accepted; continue owner-authorised S60. |
 | [S60](tasks/S60.md) | Nauja kryptis: Openwater Deck | Baigta | agent/77b9d776ea91 | task/s60-openwater-deck | [PR](https://github.com/lmatukas/web-style-atlas/pull/132) | 2026-10-24T04:06:00.559826Z | Owner-authorised S59/S60 batch complete. S61 remains unclaimed for the next request. |
-| [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Laukia | — | — | — | — | Claim S61 ir vykdyti pagal docs/tasks/S61.md. |
+| [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Vykdoma | agent/417f6ffda8ee | task/s61-scent-ritual | — | 2026-10-24T04:57:47.371401+00:00 | Implement S61 Scent Ritual, validate A/B service and WebGL fallback, inspect canonical previews. |
 | [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Laukia | — | — | — | — | Claim S62 ir vykdyti pagal docs/tasks/S62.md. |
 | [P27](tasks/P27.md) | Prabangos krypčių auditas | Laukia | — | — | — | — | Claim P27 ir vykdyti pagal docs/tasks/P27.md. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Laukia | — | — | — | — | Claim P28 ir vykdyti pagal docs/tasks/P28.md. |
