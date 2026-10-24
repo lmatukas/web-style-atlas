@@ -27,4 +27,18 @@ try{
  const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'no-preference'}),page=await context.newPage();await page.goto(`${server.origin}/styles/${ID}/reference/index.html`,{waitUntil:'networkidle'});await page.waitForTimeout(1600);await page.addStyleTag({content:'html{scroll-behavior:auto!important}'});
  const before=await page.locator('[data-runtime-scene]').screenshot();await page.evaluate(()=>scrollTo(0,1100));await page.waitForTimeout(60);assert.ok((await page.evaluate(()=>atlasRuntime.state.reveal))>.4,'desktop scroll reveals the dial');assert.ok(!before.equals(await page.locator('[data-runtime-scene]').screenshot()),'scroll changes actual watch pixels');
  await page.locator('[data-motion-toggle]').click();const reveal=await page.evaluate(()=>atlasRuntime.state.reveal);await page.evaluate(()=>scrollTo(0,1400));await page.waitForTimeout(20);assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),reveal,'pause also freezes scroll-linked motion');await context.close();console.log('PASS desktop scroll pixel change and paused reveal');
+ // P34: focusing the scene or range moves the page, and that scroll event arrives a frame later. It must not
+ // overwrite the keyboard choice (P27 saw End=0.0157 and range=0.03). A real later scroll still drives the reveal.
+ for(const variant of ['index','alternate'])for(const width of [390,1440]){
+  const context=await browser.newContext({viewport:{width,height:width>1000?1000:844},reducedMotion:'no-preference'});await probe(context,{audio:false});const page=await context.newPage();
+  await page.goto(`${server.origin}/styles/${ID}/reference/${variant}.html`,{waitUntil:'networkidle'});await page.waitForTimeout(1900);await page.addStyleTag({content:'html{scroll-behavior:auto!important}'});
+  const height=await page.evaluate(()=>document.body.scrollHeight),reveal=()=>page.evaluate(()=>atlasRuntime.state.reveal);
+  for(let y=0;y<height;y+=150){
+   await page.evaluate(y=>scrollTo(0,y),y);await page.waitForTimeout(40);
+   await page.locator('[data-runtime-scene]').focus();await page.keyboard.press('End');await page.waitForTimeout(60);assert.equal(await reveal(),1,`${variant}/${width}: End after focus from y=${y}`);
+   await page.locator('#reveal').focus();await page.keyboard.press('Home');await page.keyboard.press('ArrowRight');await page.waitForTimeout(60);assert.equal(await reveal(),.01,`${variant}/${width}: range keys after focus from y=${y}`);
+  }
+  if(variant==='index'&&width===1440){await page.evaluate(()=>scrollTo(0,1100));await page.waitForTimeout(60);assert.ok((await reveal())>.4,'a real later scroll drives the reveal again');}
+  await context.close();console.log('PASS',variant,width,'keyboard and range choices survive focus scroll');
+ }
 }finally{await browser.close();await server.close();}

@@ -3,6 +3,7 @@ import { watchDrawing, MATERIALS, DEFAULTS, BASE_PRICE, totalPrice, angles } fro
 const $=s=>document.querySelector(s), scene=$('[data-runtime-scene]'), canvas=$('[data-watch-canvas]'), fallback=$('[data-runtime-fallback]'), status=$('[data-runtime-status]'), motion=$('[data-motion-toggle]'), revealInput=$('#reveal'), revealToggle=$('[data-reveal-toggle]'), clock=$('[data-clock]');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)'), abort=new AbortController(), signal=abort.signal;
 const state={progress:1,frames:0,active:false,disposed:false,mode:'fallback',paused:false,visible:true,reveal:.78,config:{...DEFAULTS},gearTurn:0,clockAngles:[]};
+let manualScroll=null; // scroll position at the last manual reveal choice
 window.atlasRuntime={state};
 let engine=null,raf=0,tick=0,visible=true,objectURL=null,frameDate=new Date(),staticDate=new Date('2026-01-01T10:08:32'),episodeStart=0,episodeGear=0;
 const clamp=x=>Math.max(0,Math.min(1,x));
@@ -23,7 +24,7 @@ function init(){if(state.disposed)return;if(reduced.matches){useFallback('judesy
  try{engine=createMechanism(canvas);state.mode='webgl';canvas.hidden=false;frameDate=new Date();paint(0);fallback.hidden=true;$('[data-watch-lettering]').removeAttribute('hidden');describe();episode();scheduleClock();}
  catch{useFallback('3D neprieinamas');}
 }
-function setReveal(value,manual=true){state.reveal=clamp(Number(value));revealInput.value=String(Math.round(state.reveal*100));$('#reveal-value').textContent=`${Math.round(state.reveal*100)} %`;revealToggle.setAttribute('aria-pressed',String(state.reveal>.5));revealToggle.textContent=state.reveal>.5?'Uždengti ciferblatą':'Atverti mechanizmą';if(!engine)staticImage();else paint();if(manual)state.progress=1;}
+function setReveal(value,manual=true){state.reveal=clamp(Number(value));revealInput.value=String(Math.round(state.reveal*100));$('#reveal-value').textContent=`${Math.round(state.reveal*100)} %`;revealToggle.setAttribute('aria-pressed',String(state.reveal>.5));revealToggle.textContent=state.reveal>.5?'Uždengti ciferblatą':'Atverti mechanizmą';if(!engine)staticImage();else paint();if(manual){state.progress=1;manualScroll=scrollY;}}
 revealInput.addEventListener('input',()=>setReveal(Number(revealInput.value)/100),{signal});
 revealToggle.addEventListener('click',()=>setReveal(state.reveal>.5?0:1),{signal});
 scene.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight'||e.key==='ArrowUp')next=state.reveal+.1;if(e.key==='ArrowLeft'||e.key==='ArrowDown')next=state.reveal-.1;if(e.key==='Home')next=0;if(e.key==='End')next=1;if(next!==undefined){e.preventDefault();setReveal(next);}},{signal});
@@ -33,7 +34,9 @@ scene.addEventListener('pointermove',e=>{if(!pointer||pointer.id!==e.pointerId)r
 for(const event of ['pointerup','pointercancel','lostpointercapture'])scene.addEventListener(event,()=>{pointer=null;},{signal});
 motion.addEventListener('click',()=>{state.paused=!state.paused;if(state.paused){cancel();state.progress=1;}else{frameDate=new Date();episode();scheduleClock();}describe();},{signal});
 const story=$('.story');
-function scrollReveal(){if(!story||!engine||reduced.matches||state.paused||!visible||state.disposed)return;const rect=story.getBoundingClientRect();const total=rect.height-innerHeight;if(total>0&&rect.top<0&&rect.bottom>0)setReveal(clamp(-rect.top/total),false);}
+// A manual choice (keys, range, button, drag) owns the reveal until the reader actually scrolls on.
+// Focus can move the page and its scroll event arrives a frame later; that event must not undo the choice.
+function scrollReveal(){if(!story||!engine||reduced.matches||state.paused||!visible||state.disposed)return;if(manualScroll!==null){if(Math.abs(scrollY-manualScroll)<24)return;manualScroll=null;}const rect=story.getBoundingClientRect();const total=rect.height-innerHeight;if(total>0&&rect.top<0&&rect.bottom>0)setReveal(clamp(-rect.top/total),false);}
 addEventListener('scroll',scrollReveal,{passive:true,signal});
 const resizeObserver=new ResizeObserver(()=>{paint();});resizeObserver.observe(scene);
 const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;state.visible=visible;if(!visible){cancel();state.progress=1;}else{frameDate=new Date();paint();scheduleClock();}},{threshold:0});intersection.observe(scene);
