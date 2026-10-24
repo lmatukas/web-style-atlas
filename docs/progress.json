@@ -4548,7 +4548,7 @@
     {
       "id": "P30",
       "title": "Pataisa: S55 B fasadas ir rezervacijos veiksmas",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27"
       ],
@@ -4562,11 +4562,11 @@
       "evidence_paths": [
         "docs/evidence/P30.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T09:09:49.396Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T12:38:33.098Z",
+      "updated_at": "2026-10-24T12:38:33.098Z",
+      "branch": "task/p30-s55-hero",
+      "base_commit": "e4b261ca0b8b80ac80b4beb2d854fc1cd6bbf9ad",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
