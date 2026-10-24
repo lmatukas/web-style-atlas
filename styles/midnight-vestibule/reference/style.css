@@ -102,7 +102,7 @@ img{display:block;max-width:100%;height:auto}
 
 /* B: room gallery and comparison. */
 .rooms-intro{display:grid}
-.band{min-height:54svh;display:grid;align-items:end}
+.band{min-height:76svh;display:grid;align-items:end}
 .band>img{object-position:50% 45%}
 .band::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,15,26,.1) 0%,rgba(10,15,26,.82) 85%);pointer-events:none}
 .band-copy{position:relative;z-index:2;display:grid;gap:1rem;padding:3rem clamp(1.25rem,4vw,3.5rem)}
@@ -207,7 +207,7 @@ legend{font-weight:500;font-size:var(--font-size-small);letter-spacing:.28em;tex
   .section-head{grid-template-columns:minmax(0,1fr)}
   .room-cards{grid-template-columns:minmax(0,1fr);gap:2.5rem}
   .dome,.spa{padding-top:4.5rem;padding-bottom:4.5rem}
-  .band{min-height:56svh}
+  .band{min-height:76svh}
   .edge-tab{top:auto;bottom:1rem;right:1rem;writing-mode:horizontal-tb;border:1px solid var(--color-accent);border-radius:var(--radius-pill);padding:.6rem 1rem;min-height:44px}
   .footer{grid-template-columns:minmax(0,1fr);gap:1rem}
   .footer p{text-align:left}
