@@ -4812,15 +4812,30 @@
     {
       "id": "P36",
       "title": "Pataisa: P19 bendrų išteklių signalai",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #145 acceptance",
-          "status": "not_run",
-          "details": "P27-A08: see https://github.com/lmatukas/web-style-atlas/issues/145"
+          "status": "pass",
+          "details": "P19 10 warnings -> 1 (old footer advisory) + 6 accepted licensed-font groups; 3 shared photos replaced with owner-supplied AI images; per-signal disposition recorded."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate incl. AI rights rule; build/check; 100/100 unit (2 new)."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S56 qa 10 cases, axe 6 colour modes; four PNGs regenerated (max 2.3 MiB) and inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #154."
         }
       ],
       "evidence_paths": [
@@ -4828,15 +4843,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T20:15:30.598Z",
-      "updated_at": "2026-10-24T20:17:23.739Z",
+      "updated_at": "2026-10-24T20:20:51.219Z",
       "branch": "task/p36-shared-resources",
       "base_commit": "8312f8a01ad99a6da262367c5aa1d58be4f83320",
       "evidence_commit": "bb3a43d6305ce2beb482db4373d40b2a508507fd",
-      "merge_commit": null,
+      "merge_commit": "357f223a8fa34d04b68ec60d38c4ebc8d77a24ef",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/154",
       "blocker": null,
-      "next_action": "Claim and resolve issue #145.",
-      "handoff": "PR #154 open. P19 down to the old footer advisory; images replaced. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #154 merged at 357f223; issue #145 closed."
     },
     {
       "id": "P28",

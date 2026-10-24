@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 96/98.**
+**Baigta: 97/98.**
 
-**Pirmiausia patikrinti P36: Laukia peržiūros; vykdytojas agent/01dpob2fr2xg.**
+**Nėra paruoštos užduoties. Patikrink blokatorius ir priklausomybes.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -106,7 +106,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P33](tasks/P33.md) | Pataisa: S60 B žemėlapio aukštis | Baigta | agent/01dpob2fr2xg | task/p33-s60-map | [PR](https://github.com/lmatukas/web-style-atlas/pull/151) | 2026-10-24T18:38:53.768Z | Nėra. Užduotis baigta. |
 | [P34](tasks/P34.md) | Pataisa: S54 klaviatūros QA | Baigta | agent/01dpob2fr2xg | task/p34-s54-keyboard | [PR](https://github.com/lmatukas/web-style-atlas/pull/152) | 2026-10-24T19:18:20.826Z | Nėra. Užduotis baigta. |
 | [P35](tasks/P35.md) | Pataisa: S58 pagrindinis ir antrinis veiksmas | Baigta | agent/01dpob2fr2xg | task/p35-s58-cta | [PR](https://github.com/lmatukas/web-style-atlas/pull/153) | 2026-10-24T20:15:27.004Z | Nėra. Užduotis baigta. |
-| [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Laukia peržiūros | agent/01dpob2fr2xg | task/p36-shared-resources | [PR](https://github.com/lmatukas/web-style-atlas/pull/154) | 2026-10-24T20:17:23.739Z | Claim and resolve issue #145. |
+| [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Baigta | agent/01dpob2fr2xg | task/p36-shared-resources | [PR](https://github.com/lmatukas/web-style-atlas/pull/154) | 2026-10-24T20:20:51.219Z | Nėra. Užduotis baigta. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Užblokuota | — | — | — | 2026-10-24T09:09:49.396Z | P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
