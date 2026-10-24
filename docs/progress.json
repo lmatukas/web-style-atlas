@@ -4286,7 +4286,7 @@
     {
       "id": "S59",
       "title": "Nauja kryptis: Patina Auction Room",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S58"
       ],
@@ -4305,7 +4305,7 @@
         },
         {
           "name": "GitHub exact-head CI and canonical workflow",
-          "status": "not_run"
+          "status": "pass"
         }
       ],
       "evidence_paths": [
@@ -4313,35 +4313,35 @@
       ],
       "worker": "agent/77b9d776ea91",
       "claimed_at": "2026-10-24T03:32:03.743406Z",
-      "updated_at": "2026-10-24T03:45:41.679583Z",
+      "updated_at": "2026-10-24T03:47:42.092003Z",
       "branch": "task/s59-patina-auction-room",
       "base_commit": "b79bdc1f1350643426d6569272b5563731bfa8c7",
       "evidence_commit": "3e016e2fb13055e60d71c1159082b9f9e0e05edf",
-      "merge_commit": null,
+      "merge_commit": "99db5396e3901544972e8b57d86ee12b223e1613",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/129",
       "blocker": null,
-      "next_action": "Verify PR #129 exact-head CI and canonical workflow; merge and accept S59, then claim S60.",
-      "handoff": "Owner authorised sequential S59/S60. Local implementation complete; GitHub acceptance pending."
+      "next_action": "S59 accepted; continue owner-authorised S60.",
+      "handoff": "Implementation #129 merged. Exact head 3e016e2 passed all three CI jobs in run 40059586775 and canonical previews run 40059603887. No reviews or threads."
     },
     {
       "id": "S60",
       "title": "Nauja kryptis: Openwater Deck",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "S59"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/77b9d776ea91",
+      "claimed_at": "2026-10-24T03:47:42.092003Z",
+      "updated_at": "2026-10-24T03:47:42.092003Z",
+      "branch": "task/s60-openwater-deck",
+      "base_commit": "99db5396e3901544972e8b57d86ee12b223e1613",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim S60 ir vykdyti pagal docs/tasks/S60.md.",
+      "next_action": "Implement S60 after acceptance/claim PR merges. Owner authorised S59 and S60 sequentially.",
       "handoff": null
     },
     {

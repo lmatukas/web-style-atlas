@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 84/90.**
+**Baigta: 85/90.**
 
-**Pirmiausia patikrinti S59: Laukia peržiūros; vykdytojas agent/77b9d776ea91.**
+**Pirmiausia patikrinti S60: Vykdoma; vykdytojas agent/77b9d776ea91.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -94,8 +94,8 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S56](tasks/S56.md) | Nauja kryptis: Still Sanctuary | Baigta | agent/961b497eaa3a | task/s56-still-sanctuary | [PR](https://github.com/lmatukas/web-style-atlas/pull/122) | 2026-10-23T21:11:12Z | S56 accepted; S57 is next under the authorised sequential batch. |
 | [S57](tasks/S57.md) | Nauja kryptis: Heirloom Weave Ledger | Baigta | agent/961b497eaa3a | task/s57-heirloom-weave-ledger | [PR](https://github.com/lmatukas/web-style-atlas/pull/123) | 2026-10-23T21:32:24Z | S57 accepted. Owner-authorised S56/S57 batch complete; S58 remains unclaimed. |
 | [S58](tasks/S58.md) | Nauja kryptis: Velvet Members Hall | Baigta | agent/8cd832e894f0 | task/s58-velvet-members-hall | [PR](https://github.com/lmatukas/web-style-atlas/pull/125) | 2026-10-23T22:19:49Z | S58 accepted; S59 is the next eligible task and remains unclaimed. |
-| [S59](tasks/S59.md) | Nauja kryptis: Patina Auction Room | Laukia peržiūros | agent/77b9d776ea91 | task/s59-patina-auction-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/129) | 2026-10-24T03:45:41.679583Z | Verify PR #129 exact-head CI and canonical workflow; merge and accept S59, then claim S60. |
-| [S60](tasks/S60.md) | Nauja kryptis: Openwater Deck | Laukia | — | — | — | — | Claim S60 ir vykdyti pagal docs/tasks/S60.md. |
+| [S59](tasks/S59.md) | Nauja kryptis: Patina Auction Room | Baigta | agent/77b9d776ea91 | task/s59-patina-auction-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/129) | 2026-10-24T03:47:42.092003Z | S59 accepted; continue owner-authorised S60. |
+| [S60](tasks/S60.md) | Nauja kryptis: Openwater Deck | Vykdoma | agent/77b9d776ea91 | task/s60-openwater-deck | — | 2026-10-24T03:47:42.092003Z | Implement S60 after acceptance/claim PR merges. Owner authorised S59 and S60 sequentially. |
 | [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Laukia | — | — | — | — | Claim S61 ir vykdyti pagal docs/tasks/S61.md. |
 | [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Laukia | — | — | — | — | Claim S62 ir vykdyti pagal docs/tasks/S62.md. |
 | [P27](tasks/P27.md) | Prabangos krypčių auditas | Laukia | — | — | — | — | Claim P27 ir vykdyti pagal docs/tasks/P27.md. |
