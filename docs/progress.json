@@ -4592,15 +4592,30 @@
     {
       "id": "P31",
       "title": "Pataisa: S57 telefono monogramos kompozicija",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #140 acceptance",
-          "status": "not_run",
-          "details": "P27-A03: see https://github.com/lmatukas/web-style-atlas/issues/140"
+          "status": "pass",
+          "details": "Phone drawn artwork 74.7% (A) and 76.3% (B) at 360/390x844; tablet/desktop unchanged; no overflow."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S57 qa 10 cases, 36 combinations, 16 errors, axe; both phone PNGs regenerated and inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #149."
         }
       ],
       "evidence_paths": [
@@ -4608,15 +4623,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T16:09:13.259Z",
-      "updated_at": "2026-10-24T16:11:27.938Z",
+      "updated_at": "2026-10-24T16:44:19.484Z",
       "branch": "task/p31-s57-hero",
       "base_commit": "d8b06d381e61c8e845a87663147ff841a1afa185",
       "evidence_commit": "a0c0c4c9e46e47bf984df6e33d28153379884a19",
-      "merge_commit": null,
+      "merge_commit": "068a691c35a33d55a2f5d3aed55aee6eb02de02c",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/149",
       "blocker": null,
-      "next_action": "Claim and resolve issue #140.",
-      "handoff": "PR #149 open. S57 phone artwork 74.7%/76.3%. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #149 merged at 068a691; issue #140 closed."
     },
     {
       "id": "P32",
