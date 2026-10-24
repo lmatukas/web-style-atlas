@@ -4,7 +4,7 @@
 
 **Baigta: 89/98.**
 
-**Pirmiausia patikrinti P29: Vykdoma; vykdytojas agent/01dpob2fr2xg.**
+**Pirmiausia patikrinti P29: Laukia peržiūros; vykdytojas agent/01dpob2fr2xg.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -99,7 +99,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [S61](tasks/S61.md) | Nauja kryptis: Scent Ritual | Baigta | agent/417f6ffda8ee | task/s61-scent-ritual | [PR](https://github.com/lmatukas/web-style-atlas/pull/135) | 2026-10-24T05:23:46.036791Z | S61 accepted. S62 is next eligible and remains unclaimed until the next owner request. |
 | [S62](tasks/S62.md) | Nauja kryptis: Ember Course Room | Baigta | agent/a96d97c591e1 | task/s62-ember-course-room | [PR](https://github.com/lmatukas/web-style-atlas/pull/137) | 2026-10-24T06:16:00.401790Z | S62 accepted. P27 is next eligible and remains unclaimed until the next owner request. |
 | [P27](tasks/P27.md) | Prabangos krypčių auditas | Baigta | agent/3b83668a4046 | task/p27-luxury-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/146) | 2026-10-24T07:17:07.462816Z | P27 audit accepted. Resolve registered correction tasks #138–#145 in separate scoped work before P28; stop after this audit. |
-| [P29](tasks/P29.md) | Pataisa: S53 B pirmo ekrano vaizdas | Vykdoma | agent/01dpob2fr2xg | task/p29-s53-hero | — | 2026-10-24T09:11:28.584Z | Claim and resolve issue #138. |
+| [P29](tasks/P29.md) | Pataisa: S53 B pirmo ekrano vaizdas | Laukia peržiūros | agent/01dpob2fr2xg | task/p29-s53-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/147) | 2026-10-24T09:17:37.296Z | Claim and resolve issue #138. |
 | [P30](tasks/P30.md) | Pataisa: S55 B fasadas ir rezervacijos veiksmas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #139. |
 | [P31](tasks/P31.md) | Pataisa: S57 telefono monogramos kompozicija | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #140. |
 | [P32](tasks/P32.md) | Pataisa: S59 A telefono objektas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #141. |

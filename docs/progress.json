@@ -4504,7 +4504,7 @@
     {
       "id": "P29",
       "title": "Pataisa: S53 B pirmo ekrano vaizdas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4520,15 +4520,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T09:11:28.584Z",
-      "updated_at": "2026-10-24T09:11:28.584Z",
+      "updated_at": "2026-10-24T09:17:37.296Z",
       "branch": "task/p29-s53-hero",
       "base_commit": "c9965b4584323ff6687cb4b79ce49118d67f4460",
-      "evidence_commit": null,
+      "evidence_commit": "f25d10fa5bec3ee208d29af168826f850074b96e",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/147",
       "blocker": null,
       "next_action": "Claim and resolve issue #138.",
-      "handoff": null
+      "handoff": "PR #147 open; S53 B hero now 73.6–85.8% across 360/390/768/1440. Merge after CI."
     },
     {
       "id": "P30",
