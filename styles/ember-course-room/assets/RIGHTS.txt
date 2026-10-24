@@ -1,0 +1,59 @@
+EMBER COURSE ROOM — asset provenance
+Author: Web Style Atlas contributors
+Date: 2026-10-24
+
+All three food/table images are original AI-generated illustrations for a
+fictional venue. They are not photographs documenting an actual restaurant.
+License: AI-generated, original, distributed under the repository MIT terms.
+Tool: OpenAI built-in image_gen.imagegen; exact model/version not exposed by tool.
+The operator receives output rights to the extent permitted by law under the
+OpenAI Europe Terms of Use, Ownership of content, checked 2026-10-24:
+https://openai.com/policies/eu-terms-of-use/
+Output ownership and absence of a noncommercial restriction support commercial
+use and distribution in this collection, subject to the terms. This is a
+provenance record, not a guarantee of copyright protection. AI copyright status
+varies by jurisdiction. No third-party image input, real brand, real person,
+actual venue or identifiable living artist's style was requested.
+
+Asset: table.webp
+Tool: OpenAI built-in image_gen.imagegen; exact model/version not exposed.
+Date: 2026-10-24
+Prompt: Use case: photorealistic-natural. Asset type: 16:9 landscape hero photograph for an original fictional fine dining restaurant web design, no UI. Primary request: an intimate dark dining table in a pool of amber candlelight, night, beautiful theatrical still life. A single round charcoal ceramic plate in the right-center foreground with precisely arranged roasted forest mushrooms, glossy brown butter and tiny fresh herbs; slim silver cutlery, an elegant clear stemmed wine glass and one slender beeswax candle glowing just behind the plate. Deep oxblood linen, dark walnut tabletop, almost black room beyond, subtle soft distant candle bokeh. Shot at table height, sophisticated food editorial photography, tactile, realistic, quiet cinematic shadows, the full plate clearly visible. Composition: scene and objects fill the right two-thirds; dark negative space on left for future website text but do NOT draw any text. Restrained colors charcoal #120d0a, warm amber, warm cream. Natural material details, controlled specular highlights. Original unbranded design, no real venue, no people, no hands, no logos, no letters, no watermark. Rich but not overly dark food. Output a wide landscape image.
+Modifications: ImageMagick convert, max 1280px width, WebP quality 85, metadata stripped. No retouching/compositing.
+Inspection: plate, glass, cutlery and candle checked visually; no lettering,
+logos, people or malformed hands; no hands are depicted. Dark negative space
+is intentional and retains readable local text overlays.
+
+Asset: trout.webp
+Tool: OpenAI built-in image_gen.imagegen; exact model/version not exposed.
+Date: 2026-10-24
+Prompt: Use case: photorealistic-natural. Asset type: landscape fine dining course photograph for a fictional restaurant web design. Primary request: one exquisitely plated small piece of roasted river trout with crisp golden skin, a swirl of pale celeriac puree, three tiny dill fronds, a few vivid green herb oil drops. On a wide handmade matte charcoal ceramic plate, very dark walnut table, softly blurred distant amber candle behind. Original inventive restaurant dish, no reference to real restaurant. Quiet cinematic food editorial photography, close-up three-quarter view, plate fills center 65 percent, clear natural texture, gentle directional warm side light with deep shadows; food appetizing, realistic, understated portions, charcoal #120d0a room, warm cream and golden amber highlights. No words, no labels, no real brand, no logos, no people, no hands, no watermark. Wide landscape 3:2.
+Modifications: ImageMagick convert, max 1000px width, WebP quality 84, metadata stripped. No retouching/compositing.
+Inspection: food, plate and herb contours checked; no writing, brands or people.
+The image illustrates an invented course and makes no ingredient guarantee.
+
+Asset: pear.webp
+Tool: OpenAI built-in image_gen.imagegen; exact model/version not exposed.
+Date: 2026-10-24
+Prompt: Use case: photorealistic-natural. Asset type: landscape fine dining dessert photograph for an original fictional restaurant website. Primary request: a small elegant amber poached pear standing upright on a dark flat handmade ceramic plate beside one perfectly smooth oval of ivory vanilla ice cream and a very thin crisp almond tuile. A few drops of translucent warm caramel, a tiny thyme sprig, almost black walnut table and quiet dark restaurant background with distant golden candle bokeh. Cinematic editorial food photography, graceful asymmetry, restrained portions, photoreal texture, warm directional light, lots of surrounding darkness, charcoal #120d0a, cream and amber. Original unbranded dish, no actual restaurant, no real people, no hands, no text, no logos, no watermark. Landscape 3:2.
+Modifications: ImageMagick convert, max 1000px width, WebP quality 84, metadata stripped. No retouching/compositing.
+Inspection: pear, ice cream and almond tuile checked visually; no fake letters,
+real logos, people or hands. Specular highlights are original generated light.
+
+FONT SOURCES
+Newsreader Regular and Italic 400, Latin/Lithuanian WOFF2 subsets, optical size
+48, reused from this repository's approved heirloom-weave-ledger assets.
+Creator: The Newsreader Project Authors. License: SIL OFL 1.1.
+Source: https://github.com/google/fonts/tree/main/ofl/newsreader
+Full license: fonts/newsreader/OFL.txt
+Jost Regular 400, Latin/Lithuanian WOFF2 subset, reused from the same approved
+style. Creator: The Jost Project Authors. License: SIL OFL 1.1.
+Source: https://github.com/google/fonts/tree/main/ofl/jost
+Full license: fonts/jost/OFL.txt
+Both families contain uppercase/lowercase ĄČĘĖĮŠŲŪŽ ąčęėįšųūž.
+
+ROOM PLAN
+The six-table HTML/CSS plan, capacities, menu, availability formula, texts and
+motion code are original Web Style Atlas contributors work under the repo MIT
+license. No downloaded model, icon library, actual venue plan, external font
+service or third-party JavaScript is used. No image URL is loaded at runtime.

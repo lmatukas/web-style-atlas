@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "a",
+      "title": "Ten-course evening journey",
+      "page_type": "hospitality",
+      "reference_path": "reference/index.html",
+      "navigation": "Visible menu/room routes, local chapter anchors, native course controls and explicit booking edit/reset.",
+      "ordered_sections": [
+        {
+          "purpose": "Arrive",
+          "pattern": "Full-height candlelit table photograph",
+          "content_requirements": [
+            "Fictional house name",
+            "Season",
+            "One reservation action"
+          ]
+        },
+        {
+          "purpose": "Meet the season",
+          "pattern": "Unequal introduction and ruled facts",
+          "content_requirements": [
+            "Ten courses",
+            "Evening duration",
+            "Seasonal approach"
+          ]
+        },
+        {
+          "purpose": "Follow ten courses",
+          "pattern": "Sticky photographic stage beside ten timed course records",
+          "content_requirements": [
+            "Course descriptions",
+            "Wine and alcohol-free pairings",
+            "Scroll, previous and next controls"
+          ]
+        },
+        {
+          "purpose": "Let the evening settle",
+          "pattern": "Wide dessert photograph with a short hospitality note",
+          "content_requirements": [
+            "Final course",
+            "Allergy information"
+          ]
+        },
+        {
+          "purpose": "Reserve locally",
+          "pattern": "Paper booking surface with date, time and room plan",
+          "content_requirements": [
+            "Dynamic time and capacity availability",
+            "Allergy note",
+            "Validated editable local summary"
+          ]
+        },
+        {
+          "purpose": "Prepare for arrival",
+          "pattern": "Native disclosures and honest ending",
+          "content_requirements": [
+            "Duration",
+            "Demonstration boundary"
+          ]
+        }
+      ],
+      "mobile_reflow": "A dedicated portrait crop keeps the candlelit table at full height; the course stage and text stack. Booking fields and room plan stack with six large touch targets, no horizontal scrolling.",
+      "distinguishing_features": [
+        "Candlelit table as a full-height scene",
+        "Evening time, course and warmer light advance together",
+        "Actual room capacity and local availability alter the reservation"
+      ]
+    },
+    {
+      "id": "b",
+      "title": "Room and reservation atelier",
+      "page_type": "hospitality",
+      "reference_path": "reference/alternate.html",
+      "navigation": "Visible menu/room routes, local chapter anchors, native course controls and explicit booking edit/reset.",
+      "ordered_sections": [
+        {
+          "purpose": "Choose an evening",
+          "pattern": "Panoramic candlelit table with an open lower title",
+          "content_requirements": [
+            "Season",
+            "Fictional house",
+            "One plan action"
+          ]
+        },
+        {
+          "purpose": "Choose a place",
+          "pattern": "Large room plan next to a date/time appointment ledger",
+          "content_requirements": [
+            "Six positioned tables",
+            "Capacity and availability labels",
+            "Allergy note and pairing choice"
+          ]
+        },
+        {
+          "purpose": "Review the visit",
+          "pattern": "Local confirmation replacing the form",
+          "content_requirements": [
+            "Exact date and start/end",
+            "Guests and table",
+            "Edit and clear"
+          ]
+        },
+        {
+          "purpose": "Follow the atmosphere",
+          "pattern": "Three evening moments and one changing photograph",
+          "content_requirements": [
+            "Arrival",
+            "Warmth",
+            "Last ember"
+          ]
+        },
+        {
+          "purpose": "Know the house",
+          "pattern": "Short preparation notes and native disclosures",
+          "content_requirements": [
+            "Duration",
+            "Allergy boundary",
+            "Local demo ending"
+          ]
+        }
+      ],
+      "mobile_reflow": "A dedicated portrait crop keeps the candlelit table at full height; the course stage and text stack. Booking fields and room plan stack with six large touch targets, no horizontal scrolling.",
+      "distinguishing_features": [
+        "Candlelit table as a full-height scene",
+        "Evening time, course and warmer light advance together",
+        "Actual room capacity and local availability alter the reservation"
+      ]
+    }
+  ]
+}

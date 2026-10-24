@@ -1,0 +1,59 @@
+/* Generated from tokens.json. Do not edit. */
+:root {
+  --breakpoint-desktop: 1024px;
+  --breakpoint-tablet: 768px;
+  --color-accent: #e9ba78;
+  --color-background: #120d0a;
+  --color-border: #98826c;
+  --color-error: #922c26;
+  --color-focus: #ffdb9e;
+  --color-glow: #b96b2a;
+  --color-ink: #32261b;
+  --color-muted: #c9b49c;
+  --color-on-accent: #211711;
+  --color-paper: #f2e8d9;
+  --color-paper-border: #8b735d;
+  --color-paper-muted: #68523f;
+  --color-surface: #211711;
+  --color-text: #f4eada;
+  --font-body: "Jost", sans-serif;
+  --font-display: "Newsreader", serif;
+  --font-size-body: 1.0625rem;
+  --font-size-display: 4.75rem;
+  --font-size-heading: 3rem;
+  --font-size-small: 0.75rem;
+  --font-weight-bold: 400;
+  --font-weight-regular: 400;
+  --layout-content-max-width: 84rem;
+  --layout-text-max-width: 34ch;
+  --letter-spacing-body: 0em;
+  --letter-spacing-heading: -0.025em;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.05;
+  --motion-duration-instant: 0ms;
+  --motion-duration-light: 1500ms;
+  --motion-duration-short: 220ms;
+  --motion-easing-standard: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --radius-none: 0;
+  --radius-pill: 999px;
+  --shadow-none: none;
+  --spacing-large: 2.5rem;
+  --spacing-medium: 1rem;
+  --spacing-section: 8rem;
+  --spacing-small: 0.5rem;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../assets/fonts/newsreader/Newsreader-Regular-LT.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/jost/Jost-Regular-LT.woff2");
+  font-display: swap;
+}
+
+/* Breakpoint variables document the values; use numeric @media conditions. */
+/* With prefers-reduced-motion: reduce, remove nonessential motion in style.css. */
