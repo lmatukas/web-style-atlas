@@ -4724,15 +4724,30 @@
     {
       "id": "P34",
       "title": "Pataisa: S54 klaviatūros QA",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #143 acceptance",
-          "status": "not_run",
-          "details": "P27-A06: see https://github.com/lmatukas/web-style-atlas/issues/143"
+          "status": "pass",
+          "details": "Cause explained (focus scroll overwrote manual reveal); fix keeps manual choice until real scroll; unmodified qa.mjs 11/11; new regression sweep fails on old code, passes now."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S54 qa 18 cases/81 prices; qa-interaction incl. focus sweep; previews byte-identical, manifest refreshed."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #152."
         }
       ],
       "evidence_paths": [
@@ -4740,15 +4755,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T18:38:57.024Z",
-      "updated_at": "2026-10-24T18:48:05.788Z",
+      "updated_at": "2026-10-24T19:18:20.826Z",
       "branch": "task/p34-s54-keyboard",
       "base_commit": "f0b527fedbfb00efdb8c331faf325f6409de1a8f",
       "evidence_commit": "c70c1cf33a12762b91f41b95d0c5d32a46a1bccc",
-      "merge_commit": null,
+      "merge_commit": "f6b75844c805f0ff859db406015e92c3cbae3215",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/152",
       "blocker": null,
-      "next_action": "Claim and resolve issue #143.",
-      "handoff": "PR #152 open. S54 keyboard QA fixed; 11/11 full QA runs. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #152 merged at f6b7584; issue #143 closed."
     },
     {
       "id": "P35",
