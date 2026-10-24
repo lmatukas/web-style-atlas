@@ -1419,6 +1419,62 @@
         "documentation"
       ],
       "best_for": [
+        "hospitality",
+        "travel",
+        "products"
+      ],
+      "complexity": "medium",
+      "density": "sparse",
+      "family": "photographic",
+      "id": "openwater-deck",
+      "image_dependency": "high",
+      "motion_level": "subtle",
+      "name": "Openwater Deck",
+      "prompt_path": "prompts/openwater-deck/prompt.lt.md",
+      "schema_version": 1,
+      "signature": {
+        "color_and_material": "Warm white and sand paper, deep navy text and chart lines, restrained brass labels and pale sea.",
+        "composition": "A stretches a long yacht across a sea horizon before a three-column deck atlas; B pairs a paper invitation with a broad schematic chart and route-planning desk.",
+        "content_rhythm": "Horizon, deck atlas, cabin records, technical table and crew; B follows chart, route choice, exact enquiry and practical notes.",
+        "imagery": "One documented CC0 sea photograph; original detailed yacht side silhouette, plan geometry and schematic island map.",
+        "interaction": "Four native deck buttons update geometry highlight, dimensions and use; two routes change real map paths and stops; local charter enquiry validates week and guest count.",
+        "motion": "A finite 1.5-second wake or route episode settles; explicit pause, reduced-motion, hidden/offscreen suspension and pagehide cleanup.",
+        "navigation": "Native deck and week links; numbered deck hotspots and explicit route selection with pressed states.",
+        "typography": "Local Crimson Pro 300 serif headings and Jost 400 technical text with tabular numerals; small tracked nautical labels."
+      },
+      "status": "ready",
+      "style_path": "styles/openwater-deck/style.md",
+      "summary": "A long white yacht across an open horizon leads to an interactive deck atlas or a schematic island route and a local seven-night charter enquiry.",
+      "tags": [
+        "luxury",
+        "image-led",
+        "precise",
+        "calm",
+        "task-led"
+      ],
+      "variants": [
+        {
+          "id": "a",
+          "preview_mobile_path": "styles/openwater-deck/preview-mobile.png",
+          "preview_path": "styles/openwater-deck/preview.png",
+          "reference_path": "styles/openwater-deck/reference/index.html",
+          "title": "Vessel introduction and numbered deck atlas"
+        },
+        {
+          "id": "b",
+          "preview_mobile_path": "styles/openwater-deck/preview-alt-mobile.png",
+          "preview_path": "styles/openwater-deck/preview-alt.png",
+          "reference_path": "styles/openwater-deck/reference/alternate.html",
+          "title": "Schematic route and charter enquiry"
+        }
+      ]
+    },
+    {
+      "avoid_for": [
+        "data",
+        "documentation"
+      ],
+      "best_for": [
         "craft",
         "products",
         "portfolio"
