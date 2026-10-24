@@ -20,7 +20,33 @@ export const firstHeading = html => {
   return match ? normalise(match[1]) : null;
 };
 
-// Pure: entries = [{ id, html|null, assets: [{ path, sha256 }] }]
+// Licensed font reuse (owner decision, P36): an identical font binary may appear in several styles
+// only when, in every one of them, it sits at assets/fonts/<family>/<file>, that folder carries its
+// licence (OFL.txt or LICENSE.txt) and the style's assets/RIGHTS.txt names the family. Anything else,
+// including photos and every other binary, keeps the zero-duplicate rule and stays a warning.
+const FONT = /^assets\/fonts\/([^/]+)\/[^/]+\.(woff2?|ttf|otf)$/i;
+export function licensedFont(entry, path) {
+  const match = path.match(FONT);
+  if (!match) return false;
+  const family = match[1].toLowerCase();
+  return Boolean(entry.fontLicences?.includes(family)) && (entry.rights ?? '').toLowerCase().includes(family);
+}
+
+// Pure: entries = [{ id, html|null, assets: [{ path, sha256 }], rights?, fontLicences? }]
+// Returns { warnings, accepted }: accepted lists shared resources covered by an explicit policy.
+export function classify(entries, options = {}) {
+  const accepted = [];
+  const byId = new Map(entries.map(e => [e.id, e]));
+  const warnings = analyze(entries, options).filter(w => {
+    if (w.kind !== 'shared-asset') return true;
+    const places = w.detail.split(', ');
+    const ok = places.every(place => { const i = place.indexOf('/'); return licensedFont(byId.get(place.slice(0, i)), place.slice(i + 1)); });
+    if (ok) accepted.push({ kind: 'shared-licensed-font', styles: w.styles, detail: w.detail });
+    return !ok;
+  });
+  return { warnings, accepted };
+}
+
 export function analyze(entries, { footerThreshold = FOOTER_THRESHOLD } = {}) {
   const warnings = [];
   const byHash = new Map();
@@ -96,16 +122,24 @@ export function loadEntries(root = ROOT) {
       }
     };
     walk(dir);
-    return { id, html, assets };
+    const rightsPath = join(dir, 'assets', 'RIGHTS.txt'), fontsDir = join(dir, 'assets', 'fonts');
+    const rights = existsSync(rightsPath) ? readFileSync(rightsPath, 'utf8') : '';
+    const fontLicences = existsSync(fontsDir) ? readdirSync(fontsDir).filter(f => ['OFL.txt', 'LICENSE.txt'].some(l => existsSync(join(fontsDir, f, l)))).map(f => f.toLowerCase()) : [];
+    return { id, html, assets, rights, fontLicences };
   });
 }
 
 export function warningsFor(root = ROOT) {
-  return analyze(loadEntries(root));
+  return classify(loadEntries(root)).warnings;
+}
+
+export function acceptedFor(root = ROOT) {
+  return classify(loadEntries(root)).accepted;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  const warnings = warningsFor();
+  const { warnings, accepted } = classify(loadEntries());
   for (const w of warnings) console.warn(`WARN ${w.kind}: ${w.styles.join(', ')} — ${w.detail}`);
-  console.log(`distinctiveness: ${warnings.length} warning(s); advisory only.`);
+  for (const a of accepted) console.log(`ACCEPTED ${a.kind}: ${a.styles.join(', ')} — ${a.detail}`);
+  console.log(`distinctiveness: ${warnings.length} warning(s), ${accepted.length} accepted by policy; advisory only.`);
 }

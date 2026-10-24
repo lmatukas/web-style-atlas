@@ -16,7 +16,7 @@ signature:
   typography: Local Newsreader 400 for unhurried sentence-case headings, humanist Figtree 400 for body text and widely spaced small labels.
   navigation: Visible region and place links, native section anchors and one outlined stay action.
   content_rhythm: One landscape, a short invitation, three regions, a morning-to-evening ritual and a quiet enquiry.
-  imagery: Rights-documented forest mist, sunset water and a monochrome garden pavilion, explicitly illustrative of invented places.
+  imagery: Original AI-generated forest mist, mountain lake at dusk and a monochrome garden pavilion, explicitly illustrative of invented places.
   color_and_material: Warm sand with deep brown text, olive selection and clay dusk; the body changes light with the chosen hour.
   interaction: Three day buttons update photograph, time, description and page ground; region, dates and chosen rituals produce a local enquiry summary.
   motion: A single 1.6-second photographic breath settles; pause, reduced motion, offscreen suspension and cleanup keep the landscape quiet.
@@ -52,7 +52,7 @@ The single-place page begins with a sand title panel beside a large lake photogr
 
 ## Imagery
 
-Three existing rights-documented photographs are reused without modifying their bytes: CC0 forest mist, a public-domain National Park Service sunset lake, and a Highsmith public-domain monochrome garden pavilion. The pavilion is an architecture illustration, never evidence of a villa one can reserve. Their inventory and full provenance remain in assets.json and RIGHTS.txt. No source-site links appear in either reference page. Images have descriptive alternatives, fixed intrinsic dimensions and deliberate cover crops. The same source photographs can be replaced with licensed owner material without changing the regional structure.
+Three original AI-generated images, made for this direction, carry the visual weight: mist over forested hills, a mountain lake at dusk and a monochrome garden pavilion. They replaced photographs that this style used to share with other directions. The pavilion is a generic architecture illustration, never evidence of a villa one can reserve. Their inventory, prompts and provenance are in assets.json and RIGHTS.txt. No source-site links appear in either reference page. Images have descriptive alternatives, fixed intrinsic dimensions and deliberate cover crops. They can be replaced with licensed owner material without changing the regional structure.
 
 ## Navigation and interaction
 
@@ -82,4 +82,4 @@ Replace invented regions, schedules and villas only with verified owner informat
 
 ## Closest styles
 
-Field Notes uses annotated writing, sketches and a preparation rail; this direction uses large photographs, a regional directory and a stay enquiry. Cinematic Photo uses dark editorial frames and a scene notebook; this direction uses sand, olive and clay, native day choices and a service task. The structural regional rows and single-place itinerary distinguish it even when the same forest and lake photographs are used. Typography, palette and the image-to-form relationship provide further separation from both neighbours.
+Field Notes uses annotated writing, sketches and a preparation rail; this direction uses large photographs, a regional directory and a stay enquiry. Cinematic Photo uses dark editorial frames and a scene notebook; this direction uses sand, olive and clay, native day choices and a service task. The structural regional rows and single-place itinerary distinguish it, and it no longer shares any image with Cinematic Photo. Typography, palette and the image-to-form relationship provide further separation from both neighbours.

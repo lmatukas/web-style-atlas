@@ -1,20 +1,33 @@
 S56 — Still Sanctuary
 
-Three illustrative photographs, reused without changing their bytes from the rights-documented atlas assets. They do not depict the invented Auvrėja retreats; the references state their illustrative role.
+Three AI-generated images, created for this style on 2026-10-24 with ChatGPT (OpenAI) at the
+owner's request. They are not photographs of real places and do not depict the invented Auvrėja
+retreats; the references state their illustrative role. They replace three photographs this
+style previously shared byte-for-byte with other atlas styles (P36, issue #145).
+License: AI-generated, original, distributed under the repository MIT terms.
+Tool: ChatGPT image generation (OpenAI); exact model/version not exposed by the tool.
+Date: 2026-10-24
+Modifications: cropped to the sizes below, metadata stripped, WebP encoding; pavilion converted to monochrome with 64 grey levels. No compositing or retouching.
+The operator receives output rights to the extent permitted by law under the OpenAI Europe
+Terms of Use: https://openai.com/policies/eu-terms-of-use/
+This is a provenance record, not a guarantee of copyright protection; AI copyright status
+varies by jurisdiction. No third-party image input, real person or brand was used.
 
-forest.webp — Austin Schmid, Mist around a forest (2016), CC0-1.0.
-Source: https://commons.wikimedia.org/wiki/File:Mist_around_a_forest_(Unsplash).jpg
-Published before 5 June 2017 under CC0, as documented by the file page. Resized to maximum 1440px, metadata stripped, WebP quality 80.
-License: https://creativecommons.org/publicdomain/zero/1.0/
+forest.webp — 1440×960, WebP quality 80.
+Prompt: Mist slowly rising over green forested hills in early morning, layered ridgelines fading
+into fog, soft diffused light, muted sage and grey-green tones, still and calm. No people, no
+text, no logos or signage, no recognisable real place, natural photographic look.
 
-lake.webp — NPS / M. Reed, Sprague Lake at Sunset (2018), PD-USGov.
-Source: https://commons.wikimedia.org/wiki/File:Sprague_Lake_at_Sunset_(29560309357).jpg
-Official National Park Service employee photograph, public domain in the United States; reviewed Public Domain Mark. Resized to maximum 1440px, metadata stripped, WebP quality 80.
+lake.webp — 1440×725, WebP quality 80.
+Prompt: Calm mountain lake at dusk, mirror-smooth water reflecting distant mountains and a pale
+peach and blue evening sky, low dark tree line along the shore, lots of open sky, no boats. No
+people, no text, no logos or signage, no recognisable real place, natural photographic look.
 
-pavilion.webp — Carol M. Highsmith, Glass House (2006), LC-DIG-highsm-04817.
-Source: https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg
-Primary rights: https://www.loc.gov/rr/print/res/482_high.html
-Public domain by Highsmith dedication. 1280px derivative, monochrome conversion, metadata stripped, lossless WebP with 64-step palette. It illustrates a quiet relationship between architecture and trees, not an actual bookable villa.
+pavilion.webp — 1280×916, monochrome conversion, 64 grey levels, lossless WebP.
+Prompt: Small minimalist glass and slim steel pavilion standing among tall trees on a green lawn,
+seen from a distance, overcast soft light, simple rectangular form, quiet architectural
+photography. No people, no text, no logos or signage, no recognisable real building.
+It shows a generic modernist form and is not a depiction of any specific existing house.
 
 Fonts
 Newsreader — The Newsreader Project Authors. Source: https://github.com/google/fonts/tree/main/ofl/newsreader
@@ -22,4 +35,4 @@ Newsreader[opsz,wght].ttf instanced at weight 400, optical size 48; Latin, Lithu
 Figtree — The Figtree Project Authors. Source: https://github.com/google/fonts/tree/main/ofl/figtree
 Existing weight-400 Latin/Lithuanian WOFF2 subset, unchanged. Full original OFL.txt alongside.
 
-Original interface, writing and implementation: Web Style Atlas contributors, MIT. Auvrėja, regions, villas and rituals are invented. No AI imagery. Name check: exact Auvreja/Auvrėja web searches on 2026-10-23 returned no matching business; see S56 evidence. No endorsement from the pictured places or photographers is implied.
+Original interface, writing and implementation: Web Style Atlas contributors, MIT. Auvrėja, regions, villas and rituals are invented. The three images above are AI-generated. Name check: exact Auvreja/Auvrėja web searches on 2026-10-23 returned no matching business; see S56 evidence. No endorsement by any place or person is implied.
