@@ -4636,15 +4636,30 @@
     {
       "id": "P32",
       "title": "Pataisa: S59 A telefono objektas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P27"
       ],
       "checks": [
         {
           "name": "Issue #141 acceptance",
-          "status": "not_run",
-          "details": "P27-A04: see https://github.com/lmatukas/web-style-atlas/issues/141"
+          "status": "pass",
+          "details": "A phone vessel 73.9% at 360/390x844 (normal/reduced); title and intro no longer cover it; tablet/desktop/B unchanged."
+        },
+        {
+          "name": "Source, generated and unit",
+          "status": "pass",
+          "details": "validate/build/check; 98/98 unit."
+        },
+        {
+          "name": "Style QA and canonical previews",
+          "status": "pass",
+          "details": "S59 qa 47 combinations plus keyboard/touch; phone PNG regenerated and inspected."
+        },
+        {
+          "name": "PR CI",
+          "status": "pass",
+          "details": "Scope, source/generated and browser/axe gates green on PR #150."
         }
       ],
       "evidence_paths": [
@@ -4652,15 +4667,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T16:44:22.518Z",
-      "updated_at": "2026-10-24T16:47:03.019Z",
+      "updated_at": "2026-10-24T18:31:55.351Z",
       "branch": "task/p32-s59-hero",
       "base_commit": "8a439a903f343e18bd43ba53706d0ccd149e19eb",
       "evidence_commit": "ebee1b5125e301be81ba20d82a07db003aa6854b",
-      "merge_commit": null,
+      "merge_commit": "40cd9f3f9e739a3832694f53d5afa1934048c762",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/150",
       "blocker": null,
-      "next_action": "Claim and resolve issue #141.",
-      "handoff": "PR #150 open. S59 A phone vessel 73.9%. Owner merges."
+      "next_action": "Nėra. Užduotis baigta.",
+      "handoff": "PR #150 merged at 40cd9f3; issue #141 closed."
     },
     {
       "id": "P33",
