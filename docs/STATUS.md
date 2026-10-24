@@ -4,7 +4,7 @@
 
 **Baigta: 94/98.**
 
-**Pirmiausia patikrinti P34: Vykdoma; vykdytojas agent/01dpob2fr2xg.**
+**Pirmiausia patikrinti P34: Laukia peržiūros; vykdytojas agent/01dpob2fr2xg.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -104,7 +104,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P31](tasks/P31.md) | Pataisa: S57 telefono monogramos kompozicija | Baigta | agent/01dpob2fr2xg | task/p31-s57-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/149) | 2026-10-24T16:44:19.484Z | Nėra. Užduotis baigta. |
 | [P32](tasks/P32.md) | Pataisa: S59 A telefono objektas | Baigta | agent/01dpob2fr2xg | task/p32-s59-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/150) | 2026-10-24T18:31:55.351Z | Nėra. Užduotis baigta. |
 | [P33](tasks/P33.md) | Pataisa: S60 B žemėlapio aukštis | Baigta | agent/01dpob2fr2xg | task/p33-s60-map | [PR](https://github.com/lmatukas/web-style-atlas/pull/151) | 2026-10-24T18:38:53.768Z | Nėra. Užduotis baigta. |
-| [P34](tasks/P34.md) | Pataisa: S54 klaviatūros QA | Vykdoma | agent/01dpob2fr2xg | task/p34-s54-keyboard | — | 2026-10-24T18:38:57.024Z | Claim and resolve issue #143. |
+| [P34](tasks/P34.md) | Pataisa: S54 klaviatūros QA | Laukia peržiūros | agent/01dpob2fr2xg | task/p34-s54-keyboard | [PR](https://github.com/lmatukas/web-style-atlas/pull/152) | 2026-10-24T18:48:05.788Z | Claim and resolve issue #143. |
 | [P35](tasks/P35.md) | Pataisa: S58 pagrindinis ir antrinis veiksmas | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #144. |
 | [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Laukia | — | — | — | 2026-10-24T09:09:49.396Z | Claim and resolve issue #145. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Užblokuota | — | — | — | 2026-10-24T09:09:49.396Z | P27 registered eight unresolved correction tasks (#138–#145): hero geometry, duplicate primary CTAs, S54 keyboard QA and expansion P19 shared-resource signals. Collection is not cleared for publication. |

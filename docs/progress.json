@@ -4724,7 +4724,7 @@
     {
       "id": "P34",
       "title": "Pataisa: S54 klaviatūros QA",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P27"
       ],
@@ -4740,15 +4740,15 @@
       ],
       "worker": "agent/01dpob2fr2xg",
       "claimed_at": "2026-10-24T18:38:57.024Z",
-      "updated_at": "2026-10-24T18:38:57.024Z",
+      "updated_at": "2026-10-24T18:48:05.788Z",
       "branch": "task/p34-s54-keyboard",
       "base_commit": "f0b527fedbfb00efdb8c331faf325f6409de1a8f",
-      "evidence_commit": null,
+      "evidence_commit": "c70c1cf33a12762b91f41b95d0c5d32a46a1bccc",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/152",
       "blocker": null,
       "next_action": "Claim and resolve issue #143.",
-      "handoff": null
+      "handoff": "PR #152 open. S54 keyboard QA fixed; 11/11 full QA runs. Owner merges."
     },
     {
       "id": "P35",
