@@ -4856,7 +4856,7 @@
     {
       "id": "P28",
       "title": "Leidimas 1.3.0: 50 krypčių, naujos pirmos",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P27",
         "P29",
@@ -4879,11 +4879,11 @@
         "docs/evidence/P27.md",
         "docs/evidence/luxury-review.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": "2026-10-24T20:21:01.827Z",
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/01dpob2fr2xg",
+      "claimed_at": "2026-10-24T20:21:04.592Z",
+      "updated_at": "2026-10-24T20:21:04.592Z",
+      "branch": "task/p28-release-1-3-0",
+      "base_commit": "bb0d49d2918d0f25dddc8f1fcfa98eb68770a511",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
