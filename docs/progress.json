@@ -4366,7 +4366,7 @@
     {
       "id": "S61",
       "title": "Nauja kryptis: Scent Ritual",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "S60"
       ],
@@ -4387,9 +4387,9 @@
           "details": "All four viewed, below 1 MiB; rubric 11/12; all ten luxury conditions evidenced."
         },
         {
-          "name": "GitHub exact-head CI and manual preview workflow",
-          "status": "not_run",
-          "details": "PR #135 open; exact-head CI and dispatched canonical workflow awaiting results."
+          "name": "GitHub exact-head CI and canonical workflow",
+          "status": "pass",
+          "details": "Run 40065799422: all three jobs passed at ee065ea1275c06cf9adcb90d771dfb21642b5bb7. Canonical workflow 40065843887 passed and made no changes. PR #135 merged."
         }
       ],
       "evidence_paths": [
@@ -4397,15 +4397,15 @@
       ],
       "worker": "agent/417f6ffda8ee",
       "claimed_at": "2026-10-24T04:57:47.371390Z",
-      "updated_at": "2026-10-24T05:20:35.268233Z",
+      "updated_at": "2026-10-24T05:23:46.036791Z",
       "branch": "task/s61-scent-ritual",
       "base_commit": "2105ee8b28fe9bc3c6b0d4f554c39c0db26991c3",
       "evidence_commit": "ee065ea1275c06cf9adcb90d771dfb21642b5bb7",
-      "merge_commit": null,
+      "merge_commit": "487240af57e8ee0a29832fd6a44e630d252f7038",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/135",
       "blocker": null,
-      "next_action": "Verify PR #135 exact-head CI and canonical preview workflow, merge if green, then record done.",
-      "handoff": "S61 complete locally, PR #135 open at ee065ea1275c06cf9adcb90d771dfb21642b5bb7. Same worker continues through acceptance and authorised merge. S62 remains unclaimed."
+      "next_action": "S61 accepted. S62 is next eligible and remains unclaimed until the next owner request.",
+      "handoff": "S61 implementation #135 merged at 487240af57e8ee0a29832fd6a44e630d252f7038. Exact head ee065ea1275c06cf9adcb90d771dfb21642b5bb7 passed all three CI jobs in run 40065799422; canonical workflow 40065843887 verified current preview hashes on the task branch without changing bytes. No reviews or unresolved threads. Stop after S61."
     },
     {
       "id": "S62",
