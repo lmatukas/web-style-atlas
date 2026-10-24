@@ -3,6 +3,7 @@ import { dirname, basename } from 'node:path';
 import { fail, localFile } from './files.mjs';
 import { missingGlyphs } from './font-coverage.mjs';
 const photoLicenses = new Set(['CC0-1.0', 'PD-USGov', 'Public domain', 'Public domain (Highsmith dedication)', 'PDM-1.0']);
+const aiLicense = 'AI-generated, original, distributed under the repository MIT terms';
 export function validateAssetPolicy(root, base, assets) {
   let fonts = 0, photos = 0;
   for (const [i, asset] of assets.entries()) {
@@ -20,10 +21,13 @@ export function validateAssetPolicy(root, base, assets) {
     }
     if (asset.type === 'image' || /\.(webp|jpe?g|png|avif)$/i.test(asset.path)) {
       photos += bytes.length;
-      if (!photoLicenses.has(asset.license)) fail(path, field, 'photographs require CC0-1.0 or documented public-domain rights');
+      const ai = asset.license === aiLicense;
+      if (!photoLicenses.has(asset.license) && !ai) fail(path, field, 'photographs require CC0-1.0, documented public-domain rights or the approved AI-generated license');
+      if (ai && (asset.origin !== 'generated' || !asset.generation_note?.trim())) fail(path, field, 'AI photographs require generated origin and a generation note');
       if (!asset.license_file || basename(asset.license_file) !== 'RIGHTS.txt') fail(path, field, 'photographs require RIGHTS.txt');
       const rights = readFileSync(localFile(root, `${base}/${asset.license_file}`), 'utf8');
       if (rights.trim().length < 40) fail(path, field, 'RIGHTS.txt must document source, creator and rights');
+      if (ai && (!/^Tool:\s*\S.+$/m.test(rights) || !/^Date:\s*\d{4}-\d{2}-\d{2}\b/m.test(rights) || !/^Prompt:\s*\S[\s\S]+/m.test(rights) || !/^Modifications:\s*\S.+$/m.test(rights))) fail(path, field, 'AI RIGHTS.txt must document Tool, Date, Prompt and Modifications');
     }
   }
   if (fonts > 200_000) fail(`${base}/assets.json`, '/assets', 'font budget exceeds 200 KB per style');

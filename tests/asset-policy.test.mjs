@@ -37,6 +37,22 @@ test('asset budgets sum files per style; large photos and fonts fail', t => {
   mutate(f, assets => { for (let i = 0; i < 27; i++) { const path = `assets/fonts/weight-${i}.woff2`; writeFileSync(f.path(path), font); assets.push({ ...assets[0], id: `weight-${i}`, path }); } });
   writeFileSync(f.path('assets/forest.webp'), Buffer.alloc(1)); assert.throws(() => loadAtlas({ root: f.root }), /font budget/);
 });
+test('approved AI images require generated provenance, full rights fields and the same photo budget', t => {
+  const f = setup(t), license = 'AI-generated, original, distributed under the repository MIT terms';
+  mutate(f, a => { a[1].license = license; });
+  assert.throws(() => loadAtlas({ root: f.root }), /generated origin/);
+  mutate(f, a => { a[1].origin = 'generated'; a[1].generation_note = 'Original unbranded fictional dish.'; });
+  assert.throws(() => loadAtlas({ root: f.root }), /AI RIGHTS/);
+  const rights = 'Tool: Built-in image generation, version not exposed\nDate: 2026-10-24\nPrompt: Original unbranded fictional meal, no people or text.\nModifications: WebP encoding; metadata removed.\n';
+  for (const field of ['Tool', 'Date', 'Prompt', 'Modifications']) {
+    writeFileSync(f.path('assets/RIGHTS.txt'), rights.replace(new RegExp('^' + field + ':.*\\n', 'm'), ''));
+    assert.throws(() => loadAtlas({ root: f.root }), /AI RIGHTS/);
+  }
+  writeFileSync(f.path('assets/RIGHTS.txt'), rights);
+  assert.doesNotThrow(() => loadAtlas({ root: f.root }));
+  writeFileSync(f.path('assets/forest.webp'), Buffer.alloc(1_500_001));
+  assert.throws(() => loadAtlas({ root: f.root }), /photograph budget/);
+});
 test('external font CSS imports, font-face URLs and HTML links fail before rendering', t => {
   const f = setup(t), css = readFileSync(f.path('reference/style.css'), 'utf8');
   for (const rule of ['@import url("https://fonts.example/style.css");', '@import "//fonts.example/style.css";', '@font-face {font-family:X;src:url(https://fonts.example/a.woff2)}', '@\\69mport "https://fonts.example/style.css";']) {
