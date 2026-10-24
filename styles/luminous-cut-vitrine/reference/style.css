@@ -182,7 +182,8 @@ body[data-metal=platinum]{--band:linear-gradient(180deg,#eceef1 0%,#9ea4ac 50%,#
   .piece{grid-template-columns:minmax(0,1fr)}
   .piece-panel{border-left:0}
   .piece-stage{position:relative;height:auto;border-bottom:1px solid color-mix(in srgb,var(--color-border) 35%,transparent)}
-  .piece-stage .stage{height:min(72svh,40rem)}
+  .piece-stage .stage{height:min(80svh,52rem)}
+  .piece-stage .scene>[data-runtime-fallback]{padding:8% 0}
   .craft,.visit,.details{grid-template-columns:1fr}
   .details-note{grid-column:auto}
 }
@@ -203,7 +204,7 @@ body[data-metal=platinum]{--band:linear-gradient(180deg,#eceef1 0%,#9ea4ac 50%,#
   .service-list{grid-template-columns:1fr}
   .collection,.craft,.services,.visit,.details{padding-top:4.5rem;padding-bottom:4.5rem}
   .options,.field-row,.swatches,.specs{grid-template-columns:1fr}
-  .piece-stage .stage{height:70svh;padding:1rem}
+  .piece-stage .stage{height:78svh;padding:1rem}
   .piece-summary{grid-template-columns:minmax(0,1fr);padding:1.25rem}
   .piece-summary img{grid-row:auto;width:9rem;justify-self:center}
   .footer{grid-template-columns:1fr;text-align:left;gap:1rem}
