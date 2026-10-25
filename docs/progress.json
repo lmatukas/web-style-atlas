@@ -6121,23 +6121,46 @@
     {
       "id": "P61",
       "title": "English conversion: Trail Composer",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P60"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews; distinctiveness reports 0 warnings."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 10 cases / 108 configurations, qa-fallback, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P61.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:51:04Z",
-      "updated_at": "2026-10-25T15:51:04.589Z",
+      "updated_at": "2026-10-25T15:54:36.141Z",
       "branch": "task/p61-trail-composer-en",
       "base_commit": "1ad8d46c601716f5d6dc24de655aed4c2436e3ff",
-      "evidence_commit": null,
+      "evidence_commit": "646a245a1f855cb6f0b0430d8e12d88697b30578",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/182",
       "blocker": null,
-      "next_action": "Implement P61 on task/p61-trail-composer-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Trail Composer converted to English; brand Keliata kept; awaiting CI."
     },
     {
       "id": "P62",
