@@ -5239,23 +5239,46 @@
     {
       "id": "P44",
       "title": "English conversion: Velvet Members Hall",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P43"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 10 cases/16 seats/23 errors; runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P44.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:23:37Z",
-      "updated_at": "2026-10-25T10:23:37.893Z",
+      "updated_at": "2026-10-25T10:28:11.412Z",
       "branch": "task/p44-velvet-members-hall-en",
       "base_commit": "ddcc355e779440a9dc4bb3277ce12be9efacbf0c",
-      "evidence_commit": null,
+      "evidence_commit": "72bad7eecabb5cfb601ca6f3918ba4987a1c7f38",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/164",
       "blocker": null,
-      "next_action": "Implement P44 on task/p44-velvet-members-hall-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Velvet Members Hall in English (linked prompt prompt.en.md); backlog 19."
     },
     {
       "id": "P45",
