@@ -6323,25 +6323,36 @@
     {
       "id": "P66",
       "title": "Correction: prompts README in English",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P63"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P66.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T18:58:27Z",
-      "updated_at": "2026-10-25T18:58:27.471Z",
+      "updated_at": "2026-10-25T18:59:16.917Z",
       "branch": "task/p66-prompts-readme-en",
       "base_commit": "1394822e8305af6b13687e58bd0371d94ac1f5dd",
-      "evidence_commit": null,
+      "evidence_commit": "551a24b723af803845734289fd81e7fc77daf3b0",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/186",
       "blocker": null,
-      "next_action": "Implement P66 on task/p66-prompts-readme-en.",
-      "handoff": "Found during P64: prompts/README.md is still Lithuanian."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "prompts/README.md translated; PR open, awaiting CI."
     }
   ]
 }
