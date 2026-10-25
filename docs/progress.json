@@ -4994,23 +4994,46 @@
     {
       "id": "P39",
       "title": "English conversion: Luminous Cut Vitrine",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P38"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 18 cases/48 prices; qa-interaction; runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P39.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:43:56Z",
-      "updated_at": "2026-10-25T09:43:56.538Z",
+      "updated_at": "2026-10-25T09:49:30.687Z",
       "branch": "task/p39-luminous-cut-vitrine-en",
       "base_commit": "169711324277f68b56f09a96869885e6d9f9abef",
-      "evidence_commit": null,
+      "evidence_commit": "a93c464ebc681ebca63682928046dcad11233a46",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/159",
       "blocker": null,
-      "next_action": "Implement P39 on task/p39-luminous-cut-vitrine-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Luminous Cut Vitrine in English; backlog 24."
     },
     {
       "id": "P40",
