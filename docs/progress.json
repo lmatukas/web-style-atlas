@@ -5043,23 +5043,46 @@
     {
       "id": "P40",
       "title": "English conversion: Escapement Nocturne",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P39"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 18 cases/81 prices; qa-interaction; runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P40.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:52:38Z",
-      "updated_at": "2026-10-25T09:52:38.312Z",
+      "updated_at": "2026-10-25T10:00:06.813Z",
       "branch": "task/p40-escapement-nocturne-en",
       "base_commit": "c3f4bef1e84689d9e0ab01907ce75fa726fd8c54",
-      "evidence_commit": null,
+      "evidence_commit": "4f4bccd3d8587f394fdd7c6f93f9d7784fefbdc0",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/160",
       "blocker": null,
-      "next_action": "Implement P40 on task/p40-escapement-nocturne-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Escapement Nocturne in English; backlog 23."
     },
     {
       "id": "P41",
