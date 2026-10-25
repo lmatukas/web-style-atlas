@@ -4945,23 +4945,46 @@
     {
       "id": "P38",
       "title": "English conversion: Obsidian Stage",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P37"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes after canonical preview regeneration (run 40181522675)."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 12 cases/108 totals; qa-interaction both variants; runtime 6; browser 6 pages."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared with previous; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P38.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:31:30Z",
-      "updated_at": "2026-10-25T09:31:30.951Z",
+      "updated_at": "2026-10-25T09:41:15.726Z",
       "branch": "task/p38-obsidian-stage-en",
       "base_commit": "6d4f82e4d2850f083da24473c256ceee1df409e1",
-      "evidence_commit": null,
+      "evidence_commit": "23a9953d292c672f19e7095b4f1ea15f6eb3deb0",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/158",
       "blocker": null,
-      "next_action": "Translate obsidian-stage on task/p38-obsidian-stage-en.",
-      "handoff": null
+      "next_action": "Wait for PR #158 CI, merge, mark done.",
+      "handoff": "Obsidian Stage in English; backlog 25. English fallback status must contain the word fallback (runtime-qa regex)."
     },
     {
       "id": "P39",

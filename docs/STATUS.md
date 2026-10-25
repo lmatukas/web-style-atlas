@@ -4,7 +4,7 @@
 
 **Baigta: 99/126.**
 
-**Pirmiausia patikrinti P38: Vykdoma; vykdytojas agent/015fh6w2uenf.**
+**Pirmiausia patikrinti P38: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -109,7 +109,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Baigta | agent/01dpob2fr2xg | task/p36-shared-resources | [PR](https://github.com/lmatukas/web-style-atlas/pull/154) | 2026-10-24T20:20:51.219Z | Nėra. Užduotis baigta. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Baigta | agent/01dpob2fr2xg | task/p28-release-1-3-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/155) | 2026-10-25T07:30:14.000Z | Nėra. Užduotis baigta. |
 | [P37](tasks/P37.md) | English conversion: shared tooling | Baigta | agent/015fh6w2uenf | task/p37-english-tooling | [PR](https://github.com/lmatukas/web-style-atlas/pull/157) | 2026-10-25T09:31:19.793Z | None. P38 is next. |
-| [P38](tasks/P38.md) | English conversion: Obsidian Stage | Vykdoma | agent/015fh6w2uenf | task/p38-obsidian-stage-en | — | 2026-10-25T09:31:30.951Z | Translate obsidian-stage on task/p38-obsidian-stage-en. |
+| [P38](tasks/P38.md) | English conversion: Obsidian Stage | Laukia peržiūros | agent/015fh6w2uenf | task/p38-obsidian-stage-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/158) | 2026-10-25T09:41:15.726Z | Wait for PR #158 CI, merge, mark done. |
 | [P39](tasks/P39.md) | English conversion: Luminous Cut Vitrine | Laukia | — | — | — | — | Claim P39 and follow docs/tasks/P39.md. |
 | [P40](tasks/P40.md) | English conversion: Escapement Nocturne | Laukia | — | — | — | — | Claim P40 and follow docs/tasks/P40.md. |
 | [P41](tasks/P41.md) | English conversion: Midnight Vestibule | Laukia | — | — | — | — | Claim P41 and follow docs/tasks/P41.md. |
