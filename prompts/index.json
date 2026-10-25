@@ -385,15 +385,15 @@
       "style_id": "midnight-vestibule",
       "name": "Midnight Vestibule",
       "family": "photographic",
-      "language": "lt",
-      "prompt_path": "prompts/midnight-vestibule/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/midnight-vestibule/prompt.en.md",
       "demo_brand": "Kelvarre",
       "variants": {
-        "a": "Naktinis miesto viešbučio pristatymas su vienos nuotraukos skyriais",
-        "b": "Kambarių galerija, palyginimas ir rezervacijos stalčius"
+        "a": "A night-time city hotel story with one-photograph sections",
+        "b": "A room gallery, comparison and booking drawer"
       },
-      "signature": "Pilno ekrano naktinė nuotrauka, kurios žibintai įsijungia vieną kartą, ir iš šono išslystantis rezervacijos stalčius su tikslia naktų suma.",
-      "acceptance": "Kalendorius, svečiai, kambarys ir papildymai keičia tikslią sumą; talpos ir trūkstamų žingsnių klaidos, patvirtinimas, atstatymas ir dialogo fokusas veikia.",
+      "signature": "A full-screen night photograph whose lanterns come on once, and a booking drawer that slides in from the side with an exact nightly total.",
+      "acceptance": "Calendar, guests, room and extras change the exact total; capacity and missing-step errors, the confirmation, reset and dialog focus all work.",
       "enhancement": "html-svg",
       "closest_styles": [
         "cinematic-photo",

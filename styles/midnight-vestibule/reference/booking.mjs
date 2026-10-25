@@ -10,18 +10,18 @@ const confirmation = drawer.querySelector('#booking-confirmation');
 const outside = [...document.body.children].filter(el => el !== drawer && el.tagName !== 'SCRIPT');
 
 export const ROOMS = Object.freeze({
-  city: { name: 'Miesto kambarys', rate: 240, capacity: 2 },
-  gallery: { name: 'Galerijos liuksas', rate: 360, capacity: 3 },
-  dome: { name: 'Kupolo apartamentai', rate: 520, capacity: 4 },
+  city: { name: 'City room', rate: 240, capacity: 2 },
+  gallery: { name: 'Gallery suite', rate: 360, capacity: 3 },
+  dome: { name: 'Dome apartment', rate: 520, capacity: 4 },
 });
 export const BREAKFAST = 28, LATE = 40, MAX_NIGHTS = 14;
-const MONTHS = ['sausis', 'vasaris', 'kovas', 'balandis', 'gegužė', 'birželis', 'liepa', 'rugpjūtis', 'rugsėjis', 'spalis', 'lapkritis', 'gruodis'];
-const MONTHS_OF = ['sausio', 'vasario', 'kovo', 'balandžio', 'gegužės', 'birželio', 'liepos', 'rugpjūčio', 'rugsėjo', 'spalio', 'lapkričio', 'gruodžio'];
-const WEEKDAYS = ['sekmadienis', 'pirmadienis', 'antradienis', 'trečiadienis', 'ketvirtadienis', 'penktadienis', 'šeštadienis'];
-const money = v => `${String(v).replace(/\B(?=(\d{3})+(?!\d))/g, ' ')} €`;
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const MONTHS_OF = MONTHS;
+const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const money = v => `€${String(v).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 const parse = s => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
-const human = s => { const d = parse(s); return `${MONTHS_OF[d.getMonth()]} ${d.getDate()} d.`; };
+const human = s => { const d = parse(s); return `${d.getDate()} ${MONTHS_OF[d.getMonth()]}`; };
 const nightsBetween = (a, b) => Math.round((parse(b) - parse(a)) / 86400000);
 
 const now = new Date(Date.now());
@@ -42,7 +42,7 @@ function renderCalendar() {
     const date = new Date(view.getFullYear(), view.getMonth(), d), value = iso(date);
     const disabled = date < first, start = value === arrival, end = value === departure;
     const inside = arrival && departure && value > arrival && value < departure;
-    const label = `${MONTHS_OF[date.getMonth()]} ${d} d., ${WEEKDAYS[date.getDay()]}${start ? ', atvykimas' : ''}${end ? ', išvykimas' : ''}`;
+    const label = `${WEEKDAYS[date.getDay()]} ${d} ${MONTHS_OF[date.getMonth()]}${start ? ', arrival' : ''}${end ? ', departure' : ''}`;
     html += `<button type="button" class="day${start ? ' start' : ''}${end ? ' end' : ''}${inside ? ' inside' : ''}" data-date="${value}" aria-label="${label}" aria-pressed="${start || end}"${disabled ? ' disabled' : ''}>${d}</button>`;
   }
   grid.innerHTML = html;
@@ -58,16 +58,16 @@ function selection() {
 
 function render() {
   const s = selection();
-  drawer.querySelector('[data-out=dates]').textContent = arrival ? (departure ? `${human(arrival)} – ${human(departure)}` : `${human(arrival)} – pasirinkite išvykimą`) : 'Pasirinkite atvykimo dieną';
-  drawer.querySelector('[data-out=nights]').textContent = s.nights ? `${s.nights} ${s.nights === 1 ? 'naktis' : s.nights < 10 ? 'naktys' : 'naktų'}` : '—';
+  drawer.querySelector('[data-out=dates]').textContent = arrival ? (departure ? `${human(arrival)} – ${human(departure)}` : `${human(arrival)} – choose departure`) : 'Choose an arrival day';
+  drawer.querySelector('[data-out=nights]').textContent = s.nights ? `${s.nights} ${s.nights === 1 ? 'night' : 'nights'}` : '—';
   drawer.querySelector('[data-out=stay]').textContent = s.room && s.nights ? `${s.nights} × ${money(ROOMS[s.room].rate)} = ${money(s.stay)}` : '—';
-  drawer.querySelector('[data-out=meals]').textContent = s.breakfast ? (s.nights ? money(s.meals) : `${money(BREAKFAST)} asmeniui už naktį`) : 'Neįtraukta';
-  drawer.querySelector('[data-out=late]').textContent = s.late ? money(LATE) : 'Neįtraukta';
+  drawer.querySelector('[data-out=meals]').textContent = s.breakfast ? (s.nights ? money(s.meals) : `${money(BREAKFAST)} per person per night`) : 'Not included';
+  drawer.querySelector('[data-out=late]').textContent = s.late ? money(LATE) : 'Not included';
   drawer.querySelector('#booking-total').textContent = money(s.total);
   drawer.querySelector('[data-guests]').textContent = String(s.guests);
   drawer.querySelector('[data-minus]').disabled = s.guests <= 1;
   drawer.querySelector('[data-plus]').disabled = s.guests >= 4;
-  document.querySelectorAll('[data-booking-summary]').forEach(el => { el.textContent = s.nights ? `${human(arrival)} – ${human(departure)} · ${s.guests} sv.` : 'Datos nepasirinktos'; });
+  document.querySelectorAll('[data-booking-summary]').forEach(el => { el.textContent = s.nights ? `${human(arrival)} – ${human(departure)} · ${s.guests} ${s.guests === 1 ? 'guest' : 'guests'}` : 'No dates chosen'; });
   window.atlasBooking = { arrival, departure, ...s };
 }
 function clearMessages() { errors.textContent = ''; errors.hidden = true; confirmation.textContent = ''; confirmation.hidden = true; form.querySelectorAll('[aria-invalid]').forEach(el => el.removeAttribute('aria-invalid')); }
@@ -76,7 +76,7 @@ grid.addEventListener('click', event => {
   const button = event.target.closest('[data-date]'); if (!button || button.disabled) return;
   const value = button.dataset.date; clearMessages();
   if (!arrival || departure || value <= arrival) { arrival = value; departure = null; }
-  else if (nightsBetween(arrival, value) > MAX_NIGHTS) { errors.hidden = false; errors.textContent = `Ilgiausia demonstracinė viešnagė — ${MAX_NIGHTS} naktų.`; }
+  else if (nightsBetween(arrival, value) > MAX_NIGHTS) { errors.hidden = false; errors.textContent = `The longest demonstration stay is ${MAX_NIGHTS} nights.`; }
   else departure = value;
   renderCalendar(); render(); grid.querySelector(`[data-date="${value}"]`)?.focus();
 });
@@ -89,10 +89,10 @@ form.addEventListener('change', () => { clearMessages(); render(); });
 form.addEventListener('submit', event => {
   event.preventDefault(); clearMessages();
   const s = selection(), problems = [];
-  if (!arrival || !departure) problems.push(['dates', 'Pasirinkite atvykimo ir išvykimo dienas kalendoriuje.']);
-  if (!s.room) problems.push(['room', 'Pasirinkite kambario tipą.']);
-  else if (s.guests > ROOMS[s.room].capacity) problems.push(['room', `${ROOMS[s.room].name}: daugiausia ${ROOMS[s.room].capacity} svečiai. Rinkitės didesnį kambarį.`]);
-  if (!form.elements.ack.checked) problems.push(['ack', 'Pažymėkite, kad suprantate demonstracinę rezervaciją.']);
+  if (!arrival || !departure) problems.push(['dates', 'Choose arrival and departure days in the calendar.']);
+  if (!s.room) problems.push(['room', 'Choose a room type.']);
+  else if (s.guests > ROOMS[s.room].capacity) problems.push(['room', `${ROOMS[s.room].name}: at most ${ROOMS[s.room].capacity} guests. Choose a larger room.`]);
+  if (!form.elements.ack.checked) problems.push(['ack', 'Tick the box to confirm this is a demonstration booking.']);
   if (problems.length) {
     errors.hidden = false; errors.textContent = problems.map(p => p[1]).join(' ');
     for (const [key] of problems) form.querySelectorAll(`[name="${key}"]`).forEach(el => el.setAttribute('aria-invalid', 'true'));
@@ -101,7 +101,7 @@ form.addEventListener('submit', event => {
     return;
   }
   confirmation.hidden = false;
-  confirmation.textContent = `Rezervacija paruošta demonstracijai: ${ROOMS[s.room].name}, ${human(arrival)} – ${human(departure)}, ${s.nights} n., ${s.guests} sv.${s.breakfast ? ', su pusryčiais' : ''}${s.late ? ', vėlyvas išvykimas' : ''}. Suma ${money(s.total)}. Tai vietinė demonstracija: niekas neišsiųsta ir nerezervuota.`;
+  confirmation.textContent = `Booking ready for the demonstration: ${ROOMS[s.room].name}, ${human(arrival)} – ${human(departure)}, ${s.nights} ${s.nights === 1 ? 'night' : 'nights'}, ${s.guests} ${s.guests === 1 ? 'guest' : 'guests'}${s.breakfast ? ', with breakfast' : ''}${s.late ? ', late check-out' : ''}. Total ${money(s.total)}. This is a local demonstration: nothing was sent and nothing was booked.`;
   confirmation.focus();
 });
 form.addEventListener('reset', event => {
