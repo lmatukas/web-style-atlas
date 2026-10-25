@@ -5827,22 +5827,22 @@
     {
       "id": "P55",
       "title": "English conversion: Modular Light",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P54"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T15:08:51Z",
+      "updated_at": "2026-10-25T15:08:51.245Z",
+      "branch": "task/p55-modular-light-en",
+      "base_commit": "29e2798adaaac5d875c833b38e3952aca6cacec1",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P55 and follow docs/tasks/P55.md.",
+      "next_action": "Implement P55 on task/p55-modular-light-en.",
       "handoff": null
     },
     {
