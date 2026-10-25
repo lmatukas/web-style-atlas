@@ -21,7 +21,7 @@ signature:
   interaction: The nearest course advances the photograph, clock and room warmth; date, time and party size determine which physical tables can be selected.
   motion: One 1.5-second arrival-light episode settles; scrolling drives later warmth without hijacking. Pause, reduced motion, hidden/offscreen stopping and cleanup remain explicit.
 status: ready
-prompt_path: prompts/ember-course-room/prompt.lt.md
+prompt_path: prompts/ember-course-room/prompt.en.md
 ---
 
 # Ember Course Room

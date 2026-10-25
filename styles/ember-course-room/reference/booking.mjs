@@ -14,34 +14,34 @@ export function initializeBooking(root){
  }
  function renderRoom(){
   const free=available(date.value,state.slot,+guests.value,range),ids=new Set(free.map(t=>t.id));
-  for(const table of tables){const input=room.querySelector(`[value="${table.id}"]`),label=input.closest('label'),small=label.querySelector('[data-table-state]');const reason=!state.slot?'Pirma laikas':table.capacity<+guests.value?'Per mažas':ids.has(table.id)?'Laisvas':'Užimtas';input.disabled=reason!=='Laisvas';input.checked=state.table===table.id;label.dataset.state=input.checked?'selected':reason==='Laisvas'?'available':'unavailable';small.textContent=input.checked?'Pasirinktas':reason;input.setAttribute('aria-label',`Stalas ${table.id}, ${table.zone}, iki ${table.capacity} svečių. ${small.textContent}.`);}
+  for(const table of tables){const input=room.querySelector(`[value="${table.id}"]`),label=input.closest('label'),small=label.querySelector('[data-table-state]');const reason=!state.slot?'Time first':table.capacity<+guests.value?'Too small':ids.has(table.id)?'Laisvas':'Taken';input.disabled=reason!=='Laisvas';input.checked=state.table===table.id;label.dataset.state=input.checked?'selected':reason==='Laisvas'?'available':'unavailable';small.textContent=input.checked?'Pasirinktas':reason;input.setAttribute('aria-label',`Table ${table.id}, ${table.zone}, up to ${table.capacity} guests. ${small.textContent}.`);}
  }
  function renderAvailability(resetMessage=''){
   const kind=dateState(date.value,range),count=slots.filter(s=>available(date.value,s,+guests.value,range).length).length;
-  announce(kind==='invalid'?'Pasirinkite datą nuo rytojaus iki 60 dienų į priekį.':kind==='closed'?'Pirmadieniais menė ilsisi. Pasirinkite kitą datą.':kind==='full'?'Šis demonstracinis vakaras užpildytas. Pasirinkite kitą datą.':!count?'Šiam svečių skaičiui vietų nėra. Pasirinkite kitą datą.':resetMessage||`${formatDate(date.value)} · ${guests.value} sveč. · ${count} laisvi laikai. Pasirinkite laiką, tada stalą.`);
+  announce(kind==='invalid'?'Choose a date from tomorrow up to 60 days ahead.':kind==='closed'?'The room rests on Mondays. Choose another date.':kind==='full'?'This demonstration evening is full. Choose another date.':!count?'No places for this number of guests. Choose another date.':resetMessage||`${formatDate(date.value)} · ${guests.value} ${+guests.value===1?'guest':'guests'} · ${count} free ${count===1?'time':'times'}. Choose a time, then a table.`);
  }
- function refresh(){state.slot='';state.table='';clearErrors();renderTimes();renderRoom();renderAvailability('Pasirinkimai atnaujinti. Pasirinkite laiką ir stalą iš naujo.');}
+ function refresh(){state.slot='';state.table='';clearErrors();renderTimes();renderRoom();renderAvailability('Choices updated. Choose a time and table again.');}
  date.addEventListener('change',refresh);guests.addEventListener('change',refresh);
- times.addEventListener('change',event=>{if(event.target.name!=='time')return;state.slot=event.target.value;state.table='';clearErrors();renderRoom();announce(`${state.slot}–${endTime(state.slot)} · ${available(date.value,state.slot,+guests.value,range).length} tinkami stalai. Pasirinkite vietą plane.`);});
- room.addEventListener('change',event=>{if(event.target.name!=='table')return;state.table=event.target.value;clearErrors();renderRoom();const t=tables.find(t=>t.id===state.table);announce(`Pasirinktas stalas ${t.id} · ${t.zone} · iki ${t.capacity} svečių.`);});
+ times.addEventListener('change',event=>{if(event.target.name!=='time')return;state.slot=event.target.value;state.table='';clearErrors();renderRoom();announce(`${state.slot}–${endTime(state.slot)} · ${available(date.value,state.slot,+guests.value,range).length} suitable tables. Choose a place on the plan.`);});
+ room.addEventListener('change',event=>{if(event.target.name!=='table')return;state.table=event.target.value;clearErrors();renderRoom();const t=tables.find(t=>t.id===state.table);announce(`Table ${t.id} chosen · ${t.zone} · up to ${t.capacity} guests.`);});
  form.addEventListener('submit',event=>{
   event.preventDefault();clearErrors();range=bounds();date.min=range.min;date.max=range.max;
   let first=null;const problem=(key,message,el)=>{const target=showError(key,message,el);first??=target;};
-  if(dateState(date.value,range)!=='open')problem('date','Pasirinkite atvirą vakarą nuo rytojaus iki 60 dienų į priekį.',date);
-  if(!Number.isInteger(+guests.value)||+guests.value<1||+guests.value>6)problem('guests','Galima rinktis nuo 1 iki 6 svečių.',guests);
+  if(dateState(date.value,range)!=='open')problem('date','Choose an open evening from tomorrow up to 60 days ahead.',date);
+  if(!Number.isInteger(+guests.value)||+guests.value<1||+guests.value>6)problem('guests','You can choose 1 to 6 guests.',guests);
   const free=available(date.value,state.slot,+guests.value,range);
-  if(!state.slot||!free.length)problem('time','Pasirinkite laisvą laiką.',times.querySelector('input:not(:disabled)')||form.querySelector('[data-time-heading]'));
-  if(!state.table||!free.some(t=>t.id===state.table))problem('table','Pasirinkite tinkamo dydžio laisvą stalą.',room.querySelector('input:not(:disabled)')||form.querySelector('[data-room-heading]'));
-  if(note.value.length>300)problem('allergies','Pastaba gali būti iki 300 simbolių.',note);
-  if(!ack.checked)problem('demo','Pažymėkite, kad suprantate demonstracijos ribą.',ack);
-  if(first){error.textContent='Patikrinkite pažymėtus pasirinkimus. Santrauka dar nesukurta.';first.focus();return;}
-  const table=tables.find(t=>t.id===state.table),rows=[['Vakaras',formatDate(date.value)],['Laikas',`${state.slot}–${endTime(state.slot)} · apie 2,5 val.`],['Svečiai',guests.value],['Vieta',`Stalas ${table.id} · ${table.zone} · iki ${table.capacity} svečių`],['Meniu','10 patiekalų · Ruduo / žiema'],['Derinimas',pairing.options[pairing.selectedIndex].text],['Alergijų pastaba',note.value.trim()||'Pastabos nepateikta. Alergijų suderinimas nepatvirtintas.']];
+  if(!state.slot||!free.length)problem('time','Choose a free time.',times.querySelector('input:not(:disabled)')||form.querySelector('[data-time-heading]'));
+  if(!state.table||!free.some(t=>t.id===state.table))problem('table','Choose a free table of the right size.',room.querySelector('input:not(:disabled)')||form.querySelector('[data-room-heading]'));
+  if(note.value.length>300)problem('allergies','The note can be up to 300 characters.',note);
+  if(!ack.checked)problem('demo','Tick the box to confirm you understand the demonstration limit.',ack);
+  if(first){error.textContent='Check the marked choices. No summary has been created yet.';first.focus();return;}
+  const table=tables.find(t=>t.id===state.table),rows=[['Evening',formatDate(date.value)],['Time',`${state.slot}–${endTime(state.slot)} · about 2.5 h`],['Guests',guests.value],['Place',`Table ${table.id} · ${table.zone} · up to ${table.capacity} guests`],['Menu','10 courses · Autumn / winter'],['Pairing',pairing.options[pairing.selectedIndex].text],['Allergy note',note.value.trim()||'No note given. Allergy arrangements are not confirmed.']];
   details.replaceChildren();for(const [key,value] of rows){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=key;dd.textContent=value;details.append(dt,dd);}
   form.hidden=true;summary.hidden=false;summary.focus();
  });
  function reset(){range=bounds();form.reset();date.min=range.min;date.max=range.max;date.value=firstDate(range);state.slot='';state.table='';summary.hidden=true;form.hidden=false;details.replaceChildren();clearErrors();renderTimes();renderRoom();renderAvailability();}
  root.querySelector('[data-edit]').addEventListener('click',()=>{summary.hidden=true;form.hidden=false;date.focus();});
- root.querySelector('[data-clear]').addEventListener('click',()=>{reset();date.focus();announce('Santrauka ir pasirinkimai išvalyti. Pasirinkite naują vakarą.');});
- form.querySelector('[data-reset]').addEventListener('click',()=>{reset();date.focus();announce('Pasirinkimai išvalyti.');});
+ root.querySelector('[data-clear]').addEventListener('click',()=>{reset();date.focus();announce('Summary and choices cleared. Choose a new evening.');});
+ form.querySelector('[data-reset]').addEventListener('click',()=>{reset();date.focus();announce('Choices cleared.');});
  reset();fields.disabled=false;form.querySelector('[type="submit"]').disabled=false;root.dataset.ready='true';
 }
