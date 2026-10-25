@@ -511,15 +511,15 @@
       "style_id": "scent-ritual",
       "name": "Scent Ritual",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/scent-ritual/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/scent-ritual/prompt.en.md",
       "demo_brand": "Orsivelle",
       "variants": {
-        "a": "Keturių kvapų kolekcija, natų sluoksniai ir asmeninis mėginių rinkinys",
-        "b": "Trijų klausimų kvapo paieška, natų piramidė ir pritaikomas mėginių rinkinys"
+        "a": "A four-scent collection, note layers and a personal sample set",
+        "b": "A three-question scent search, a note pyramid and an adjustable sample set"
       },
-      "signature": "Originalus WebGL stiklo buteliukas su lūžtančia šviesa ir judančiu skysčiu; žymeklio, klaviatūros bei lietimo valdymas.",
-      "acceptance": "Visi 27 trijų klausimų deriniai, aiški rekomendacija, keturi kvapai, 1–3 unikalūs mėginiai, klaidos, tiksli santrauka, taisymas ir atkūrimas; statinis 3D pakaitalas.",
+      "signature": "An original WebGL glass bottle with refracted light and moving liquid; pointer, keyboard and touch control.",
+      "acceptance": "All 27 three-question combinations, a clear recommendation, four scents, 1–3 unique samples, errors, an exact summary, editing and reset; a static 3D fallback.",
       "enhancement": "webgl",
       "closest_styles": [
         "soft-spatial",
