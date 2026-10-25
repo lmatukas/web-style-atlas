@@ -5582,22 +5582,22 @@
     {
       "id": "P50",
       "title": "English conversion: Balcony Builder",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P49"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T14:35:28Z",
+      "updated_at": "2026-10-25T14:35:28.813Z",
+      "branch": "task/p50-balcony-builder-en",
+      "base_commit": "3c866d8e74d8a6f2d2b2f508a8d4f0d132becbee",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P50 and follow docs/tasks/P50.md.",
+      "next_action": "Implement P50 on task/p50-balcony-builder-en.",
       "handoff": null
     },
     {
