@@ -1487,7 +1487,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Openwater Deck",
-      "prompt_path": "prompts/openwater-deck/prompt.lt.md",
+      "prompt_path": "prompts/openwater-deck/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm white and sand paper, deep navy text and chart lines, restrained brass labels and pale sea.",
