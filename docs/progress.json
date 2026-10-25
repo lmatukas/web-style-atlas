@@ -5974,23 +5974,46 @@
     {
       "id": "P58",
       "title": "English conversion: Rhythm Planner",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P57"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews; footer advisory lists four backlog styles."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 12 cases, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P58.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:30:12Z",
-      "updated_at": "2026-10-25T15:30:12.264Z",
+      "updated_at": "2026-10-25T15:34:13.240Z",
       "branch": "task/p58-rhythm-planner-en",
       "base_commit": "61fa2a3a939a0349ca308800c92655485a73b62e",
-      "evidence_commit": null,
+      "evidence_commit": "a1ae6b663f39d9cf6456df47b245510bc4442763",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/179",
       "blocker": null,
-      "next_action": "Implement P58 on task/p58-rhythm-planner-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Rhythm Planner converted to English; brand Cadenly; awaiting CI."
     },
     {
       "id": "P59",
