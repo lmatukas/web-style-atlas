@@ -1,6 +1,26 @@
 # Changelog
 
-## 1.3.0 — prepared 2026-10-24
+## 1.4.0 — prepared 2026-10-25
+
+50 ready directions, 100 working layout variants and 200 current previews.
+All directions are now in English.
+
+- Converted the 26 directions that were still Lithuanian (P38–P63): both
+  reference pages, script messages, QA and the full creation prompt of each.
+  Layout, palette, fonts, imagery and motion are unchanged.
+- Demo brands that were real Lithuanian phrases got new invented names, each
+  checked with a web search; invented brands were kept.
+- Every converted direction has its own footer; the shared-footer advisory is
+  gone.
+- Prompts accept `prompt.en.md` next to `prompt.lt.md`, and a language test
+  keeps every page and brief in one language. The gallery's luxury filter
+  reads in English.
+- Fixed leftover Lithuanian words in five converted luxury scripts and added a
+  test for common interface words (P65).
+
+Not yet published. See [1.4.0 release notes](docs/releases/1.4.0.md).
+
+## 1.3.0 — published 2026-10-24
 
 50 ready directions, 100 working layout variants and 200 current previews.
 
@@ -19,7 +39,8 @@
   directions only with a licence file and a rights entry; images keep the
   no-duplicate rule.
 
-Not yet published. See [1.3.0 release notes](docs/releases/1.3.0.md).
+Published on 2026-10-24: [release run 40131531770](https://github.com/lmatukas/web-style-atlas/actions/runs/40131531770)
+passed verify and deploy on `ebffb46`. See [1.3.0 release notes](docs/releases/1.3.0.md).
 
 ## 1.2.0 — published 2026-10-23
 
