@@ -5141,7 +5141,7 @@
     {
       "id": "P42",
       "title": "English conversion: Still Sanctuary",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P41"
       ],
@@ -5165,6 +5165,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #162 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 594c613."
         }
       ],
       "evidence_paths": [
@@ -5172,15 +5177,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:09:20Z",
-      "updated_at": "2026-10-25T10:15:01.796Z",
+      "updated_at": "2026-10-25T10:17:24.297Z",
       "branch": "task/p42-still-sanctuary-en",
       "base_commit": "5a20e16937a0edd3cc382bacb8b8d1e10aa1ee3d",
       "evidence_commit": "594c6132f69c8a651218f5f4b86c59f8e60f8552",
-      "merge_commit": null,
+      "merge_commit": "14e30e0646ccde69c535018d777f902306f6701d",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/162",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Still Sanctuary in English (linked prompt now prompt.en.md); backlog 21."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 14e30e0. Still Sanctuary in English; backlog 21."
     },
     {
       "id": "P43",
