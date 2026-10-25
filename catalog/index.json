@@ -1166,7 +1166,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Membrane Score",
-      "prompt_path": "prompts/membrane-score/prompt.lt.md",
+      "prompt_path": "prompts/membrane-score/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Deep burgundy, warm white and electric cyan on opaque surfaces.",

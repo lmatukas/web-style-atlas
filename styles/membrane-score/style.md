@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A broad horizontal three-lane score; B mood index beside vertical channels.", "typography": "Large light Arial invitations and clear named layer outputs.", "navigation": "Instrument/mood/recipe anchors and actual A/B siblings.", "content_rhythm": "Score-to-presets-to-recipe versus recipe-index-to-channel-workbench.", "imagery": "Original SVG light membrane traces tied to actual parameters.", "color_and_material": "Deep burgundy, warm white and electric cyan on opaque surfaces.", "interaction": "Three gains, user-start audio, tempo, texture, mute, variants and validated local recipe.", "motion": "Finite intro, 600ms user-start pulse, one-bar tempo change, 400ms texture and 700ms reorder."}
 status: "ready"
-prompt_path: "prompts/membrane-score/prompt.lt.md"
+prompt_path: "prompts/membrane-score/prompt.en.md"
 ---
 
 # Membrane Score
 
 ## Intent
 
-Membrane Score is an original short-form sound instrument with a complete silent visual route. The fictional Tarpsnis project lets a visitor combine rhythm, texture and tone, change their intensity and retain a recipe on the current device. It is both a visual composition and a comprehensible working instrument. Audio never starts before an explicit button action. A finite eight-bar session stops itself, while pause, volume and mute remain ordinary visible controls. There is no therapeutic, productivity or commercial claim.
+Membrane Score is an original short-form sound instrument with a complete silent visual route. The fictional Tessaryn project lets a visitor combine rhythm, texture and tone, change their intensity and retain a recipe on the current device. It is both a visual composition and a comprehensible working instrument. Audio never starts before an explicit button action. A finite eight-bar session stops itself, while pause, volume and mute remain ordinary visible controls. There is no therapeutic, productivity or commercial claim.
 
 ## Signature
 

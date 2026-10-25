@@ -301,15 +301,15 @@
       "style_id": "membrane-score",
       "name": "Membrane Score",
       "family": "expressive",
-      "language": "lt",
-      "prompt_path": "prompts/membrane-score/prompt.lt.md",
-      "demo_brand": "Tarpsnis",
+      "language": "en",
+      "prompt_path": "prompts/membrane-score/prompt.en.md",
+      "demo_brand": "Tessaryn",
       "variants": {
-        "a": "Horizontali trijų šviesos membranų partitūra",
-        "b": "Nuotaikų receptų indeksas ir trijų vertikalių kanalų instrumentas"
+        "a": "A horizontal score of three light membranes",
+        "b": "A mood recipe index and an instrument of three vertical channels"
       },
-      "signature": "Trys atskiri garso sluoksniai; membranų impulsai pagal parametrus; matomas receptas",
-      "acceptance": "Paleidimas, pauzė, garsumas, nutildymas, tempas, intensyvumai, recepto išsaugojimas ir atkūrimas veikia; garso API fallback sąžiningas.",
+      "signature": "Three separate sound layers; membrane pulses driven by the settings; a visible recipe",
+      "acceptance": "Play, pause, volume, mute, tempo, intensities, saving and restoring the recipe all work; the audio API fallback is honest.",
       "enhancement": "web-audio-2d",
       "closest_styles": [
         "resonant-ribbon",
