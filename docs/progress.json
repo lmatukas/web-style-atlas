@@ -5288,7 +5288,7 @@
     {
       "id": "P45",
       "title": "English conversion: Patina Auction Room",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P44"
       ],
@@ -5312,6 +5312,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #165 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 608db4d."
         }
       ],
       "evidence_paths": [
@@ -5319,15 +5324,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:30:38Z",
-      "updated_at": "2026-10-25T10:34:28.671Z",
+      "updated_at": "2026-10-25T10:36:51.006Z",
       "branch": "task/p45-patina-auction-room-en",
       "base_commit": "ae2591503491d7ef0a22573ad96cb8e2d653a504",
       "evidence_commit": "608db4d75a1800d8ef08f04a752e95cbdbfa12aa",
-      "merge_commit": null,
+      "merge_commit": "fae331434e9642c6944a8fa11a77da423d7117a2",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/165",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Patina Auction Room in English (linked prompt prompt.en.md); backlog 18."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in fae3314. Patina Auction Room in English; backlog 18."
     },
     {
       "id": "P46",
