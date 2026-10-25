@@ -5288,22 +5288,22 @@
     {
       "id": "P45",
       "title": "English conversion: Patina Auction Room",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P44"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T10:30:38Z",
+      "updated_at": "2026-10-25T10:30:38.310Z",
+      "branch": "task/p45-patina-auction-room-en",
+      "base_commit": "ae2591503491d7ef0a22573ad96cb8e2d653a504",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P45 and follow docs/tasks/P45.md.",
+      "next_action": "Implement P45 on task/p45-patina-auction-room-en.",
       "handoff": null
     },
     {

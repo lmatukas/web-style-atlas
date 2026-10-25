@@ -4,7 +4,7 @@
 
 **Baigta: 106/126.**
 
-**Kita užduotis: [P45](tasks/P45.md).**
+**Pirmiausia patikrinti P45: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -116,7 +116,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P42](tasks/P42.md) | English conversion: Still Sanctuary | Baigta | agent/015fh6w2uenf | task/p42-still-sanctuary-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/162) | 2026-10-25T10:17:24.297Z | None. Task done. |
 | [P43](tasks/P43.md) | English conversion: Heirloom Weave Ledger | Baigta | agent/015fh6w2uenf | task/p43-heirloom-weave-ledger-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/163) | 2026-10-25T10:23:35.098Z | None. Task done. |
 | [P44](tasks/P44.md) | English conversion: Velvet Members Hall | Baigta | agent/015fh6w2uenf | task/p44-velvet-members-hall-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/164) | 2026-10-25T10:30:35.382Z | None. Task done. |
-| [P45](tasks/P45.md) | English conversion: Patina Auction Room | Laukia | — | — | — | — | Claim P45 and follow docs/tasks/P45.md. |
+| [P45](tasks/P45.md) | English conversion: Patina Auction Room | Vykdoma | agent/015fh6w2uenf | task/p45-patina-auction-room-en | — | 2026-10-25T10:30:38.310Z | Implement P45 on task/p45-patina-auction-room-en. |
 | [P46](tasks/P46.md) | English conversion: Openwater Deck | Laukia | — | — | — | — | Claim P46 and follow docs/tasks/P46.md. |
 | [P47](tasks/P47.md) | English conversion: Scent Ritual | Laukia | — | — | — | — | Claim P47 and follow docs/tasks/P47.md. |
 | [P48](tasks/P48.md) | English conversion: Ember Course Room | Laukia | — | — | — | — | Claim P48 and follow docs/tasks/P48.md. |
