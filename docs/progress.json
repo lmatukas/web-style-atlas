@@ -6170,7 +6170,7 @@
     {
       "id": "P62",
       "title": "English conversion: Twilight Expedition",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P61"
       ],
@@ -6194,6 +6194,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #183 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -6201,15 +6206,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T16:03:55Z",
-      "updated_at": "2026-10-25T16:07:42.148Z",
+      "updated_at": "2026-10-25T16:09:51.717Z",
       "branch": "task/p62-twilight-expedition-en",
       "base_commit": "0172bbcc8ec2310dd8a614a0d30c7b2ec5bc3f28",
       "evidence_commit": "398e330ae1021a62b621a07a034433d7d15f24af",
-      "merge_commit": null,
+      "merge_commit": "d725de901e73fe9055cd2fb81658ce97fae52ed6",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/183",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Twilight Expedition converted to English; brand Hesperyn; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in d725de9. Twilight Expedition is English; brand Hesperyn; routes, stops and enquiry renamed with the copy."
     },
     {
       "id": "P63",
