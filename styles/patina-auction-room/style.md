@@ -31,7 +31,7 @@ signature:
   interaction: Pointer spotlight with native range equivalent; lot filters, object zoom, viewing registration and minimum-step local bidding.
   motion: Finite 1.4-second light episodes, pause, immediate reduced-motion state and hidden/offscreen suspension; separately controllable session countdown.
 status: ready
-prompt_path: prompts/patina-auction-room/prompt.lt.md
+prompt_path: prompts/patina-auction-room/prompt.en.md
 ---
 
 # Patina Auction Room
