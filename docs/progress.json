@@ -4945,7 +4945,7 @@
     {
       "id": "P38",
       "title": "English conversion: Obsidian Stage",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P37"
       ],
@@ -4953,7 +4953,7 @@
         {
           "name": "validate, build, check",
           "status": "pass",
-          "details": "check passes after canonical preview regeneration (run 40181522675)."
+          "details": "check passes with regenerated previews."
         },
         {
           "name": "Unit tests",
@@ -4963,12 +4963,17 @@
         {
           "name": "Style QA, runtime and browser QA",
           "status": "pass",
-          "details": "qa.mjs 12 cases/108 totals; qa-interaction both variants; runtime 6; browser 6 pages."
+          "details": "qa.mjs 12 cases/108 totals; qa-interaction; runtime 6; browser 6."
         },
         {
           "name": "Previews inspected",
           "status": "pass",
-          "details": "Four canonical PNGs compared with previous; layout unchanged."
+          "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #158 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 23a9953."
         }
       ],
       "evidence_paths": [
@@ -4976,15 +4981,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:31:30Z",
-      "updated_at": "2026-10-25T09:41:15.726Z",
+      "updated_at": "2026-10-25T09:43:45.701Z",
       "branch": "task/p38-obsidian-stage-en",
       "base_commit": "6d4f82e4d2850f083da24473c256ceee1df409e1",
       "evidence_commit": "23a9953d292c672f19e7095b4f1ea15f6eb3deb0",
-      "merge_commit": null,
+      "merge_commit": "d522925d0da153afeec2b9c2c6a5bafa454da485",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/158",
       "blocker": null,
-      "next_action": "Wait for PR #158 CI, merge, mark done.",
-      "handoff": "Obsidian Stage in English; backlog 25. English fallback status must contain the word fallback (runtime-qa regex)."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in d522925. Obsidian Stage in English; backlog 25."
     },
     {
       "id": "P39",
