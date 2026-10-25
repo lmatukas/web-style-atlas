@@ -5141,23 +5141,46 @@
     {
       "id": "P42",
       "title": "English conversion: Still Sanctuary",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P41"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime, browser and gallery QA",
+          "status": "pass",
+          "details": "qa.mjs 10 cases/16 errors; runtime 6; browser 6; gallery/prompt tests 6/6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P42.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:09:20Z",
-      "updated_at": "2026-10-25T10:09:20.665Z",
+      "updated_at": "2026-10-25T10:15:01.796Z",
       "branch": "task/p42-still-sanctuary-en",
       "base_commit": "5a20e16937a0edd3cc382bacb8b8d1e10aa1ee3d",
-      "evidence_commit": null,
+      "evidence_commit": "594c6132f69c8a651218f5f4b86c59f8e60f8552",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/162",
       "blocker": null,
-      "next_action": "Implement P42 on task/p42-still-sanctuary-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Still Sanctuary in English (linked prompt now prompt.en.md); backlog 21."
     },
     {
       "id": "P43",
