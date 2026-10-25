@@ -4906,22 +4906,22 @@
     {
       "id": "P37",
       "title": "English conversion: shared tooling",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P28"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T09:10:12Z",
+      "updated_at": "2026-10-25T09:10:12.228Z",
+      "branch": "task/p37-english-tooling",
+      "base_commit": "7627b2f91453275ea79c9071405363516fb46672",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P37 and follow docs/tasks/P37.md.",
+      "next_action": "Implement P37 on task/p37-english-tooling.",
       "handoff": null
     },
     {
