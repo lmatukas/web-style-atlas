@@ -5729,23 +5729,46 @@
     {
       "id": "P53",
       "title": "English conversion: Light Environments",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P52"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 17 cases, qa-motion, qa-workbench-scroll, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P53.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:55:46Z",
-      "updated_at": "2026-10-25T14:55:46.995Z",
+      "updated_at": "2026-10-25T14:59:40.876Z",
       "branch": "task/p53-light-environments-en",
       "base_commit": "32e33987116d79d0225e274a72596fed3d3b0cfb",
-      "evidence_commit": null,
+      "evidence_commit": "2a4caeb7a3d52f08cb401fe0057395b770ec6c98",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/174",
       "blocker": null,
-      "next_action": "Implement P53 on task/p53-light-environments-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Light Environments converted to English; brand Velumbre; awaiting CI."
     },
     {
       "id": "P54",
