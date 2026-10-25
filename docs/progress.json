@@ -5582,23 +5582,46 @@
     {
       "id": "P50",
       "title": "English conversion: Balcony Builder",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P49"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 12 cases / 48 configurations, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P50.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:35:28Z",
-      "updated_at": "2026-10-25T14:35:28.813Z",
+      "updated_at": "2026-10-25T14:40:55.819Z",
       "branch": "task/p50-balcony-builder-en",
       "base_commit": "3c866d8e74d8a6f2d2b2f508a8d4f0d132becbee",
-      "evidence_commit": null,
+      "evidence_commit": "2b6ec1945c4b84c76b583904fe02043d38bb5e5f",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/171",
       "blocker": null,
-      "next_action": "Implement P50 on task/p50-balcony-builder-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Balcony Builder converted to English; brand Sprouvel; awaiting CI."
     },
     {
       "id": "P51",

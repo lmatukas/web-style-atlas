@@ -4,7 +4,7 @@
 
 **Baigta: 112/127.**
 
-**Pirmiausia patikrinti P50: Vykdoma; vykdytojas agent/015fh6w2uenf.**
+**Pirmiausia patikrinti P50: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -122,7 +122,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P48](tasks/P48.md) | English conversion: Ember Course Room | Baigta | agent/015fh6w2uenf | task/p48-ember-course-room-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/168) | 2026-10-25T14:05:43.678Z | None. Task done. |
 | [P65](tasks/P65.md) | Correction: Lithuanian words left in converted luxury scripts | Baigta | agent/015fh6w2uenf | task/p65-leftover-lithuanian | [PR](https://github.com/lmatukas/web-style-atlas/pull/169) | 2026-10-25T14:25:07.759Z | None. Task done. |
 | [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Baigta | agent/015fh6w2uenf | task/p49-acoustic-sculpture-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/170) | 2026-10-25T14:35:25.939Z | None. Task done. |
-| [P50](tasks/P50.md) | English conversion: Balcony Builder | Vykdoma | agent/015fh6w2uenf | task/p50-balcony-builder-en | — | 2026-10-25T14:35:28.813Z | Implement P50 on task/p50-balcony-builder-en. |
+| [P50](tasks/P50.md) | English conversion: Balcony Builder | Laukia peržiūros | agent/015fh6w2uenf | task/p50-balcony-builder-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/171) | 2026-10-25T14:40:55.819Z | Wait for CI, merge, mark done. |
 | [P51](tasks/P51.md) | English conversion: Choreographic Stage | Laukia | — | — | — | — | Claim P51 and follow docs/tasks/P51.md. |
 | [P52](tasks/P52.md) | English conversion: Discovery Cabinet | Laukia | — | — | — | — | Claim P52 and follow docs/tasks/P52.md. |
 | [P53](tasks/P53.md) | English conversion: Light Environments | Laukia | — | — | — | — | Claim P53 and follow docs/tasks/P53.md. |
