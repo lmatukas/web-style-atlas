@@ -4,7 +4,7 @@
 
 **Baigta: 108/126.**
 
-**Pirmiausia patikrinti P47: Vykdoma; vykdytojas agent/015fh6w2uenf.**
+**Pirmiausia patikrinti P47: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -118,7 +118,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P44](tasks/P44.md) | English conversion: Velvet Members Hall | Baigta | agent/015fh6w2uenf | task/p44-velvet-members-hall-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/164) | 2026-10-25T10:30:35.382Z | None. Task done. |
 | [P45](tasks/P45.md) | English conversion: Patina Auction Room | Baigta | agent/015fh6w2uenf | task/p45-patina-auction-room-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/165) | 2026-10-25T10:36:51.006Z | None. Task done. |
 | [P46](tasks/P46.md) | English conversion: Openwater Deck | Baigta | agent/015fh6w2uenf | task/p46-openwater-deck-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/166) | 2026-10-25T10:43:22.584Z | None. Task done. |
-| [P47](tasks/P47.md) | English conversion: Scent Ritual | Vykdoma | agent/015fh6w2uenf | task/p47-scent-ritual-en | — | 2026-10-25T10:43:25.536Z | Implement P47 on task/p47-scent-ritual-en. |
+| [P47](tasks/P47.md) | English conversion: Scent Ritual | Laukia peržiūros | agent/015fh6w2uenf | task/p47-scent-ritual-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/167) | 2026-10-25T10:54:37.490Z | Wait for CI, merge, mark done. |
 | [P48](tasks/P48.md) | English conversion: Ember Course Room | Laukia | — | — | — | — | Claim P48 and follow docs/tasks/P48.md. |
 | [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Laukia | — | — | — | — | Claim P49 and follow docs/tasks/P49.md. |
 | [P50](tasks/P50.md) | English conversion: Balcony Builder | Laukia | — | — | — | — | Claim P50 and follow docs/tasks/P50.md. |

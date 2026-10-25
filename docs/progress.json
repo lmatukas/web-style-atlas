@@ -5386,23 +5386,46 @@
     {
       "id": "P47",
       "title": "English conversion: Scent Ritual",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P46"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "tools/qa.mjs 145 cases/27 combinations; runtime-proof 16; runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged; bottle still label only differs."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P47.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:43:25Z",
-      "updated_at": "2026-10-25T10:43:25.536Z",
+      "updated_at": "2026-10-25T10:54:37.490Z",
       "branch": "task/p47-scent-ritual-en",
       "base_commit": "4b03fc4585130049dc949f204548dc1c933d4491",
-      "evidence_commit": null,
+      "evidence_commit": "20239bb436af4685344ed6284f1866e02f7ae609",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/167",
       "blocker": null,
-      "next_action": "Implement P47 on task/p47-scent-ritual-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Scent Ritual in English; fallback still re-rendered with English label; backlog 16."
     },
     {
       "id": "P48",
