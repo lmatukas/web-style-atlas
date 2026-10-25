@@ -5680,7 +5680,7 @@
     {
       "id": "P52",
       "title": "English conversion: Discovery Cabinet",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P51"
       ],
@@ -5704,6 +5704,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #173 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5711,15 +5716,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:49:11Z",
-      "updated_at": "2026-10-25T14:53:43.185Z",
+      "updated_at": "2026-10-25T14:55:44.260Z",
       "branch": "task/p52-discovery-cabinet-en",
       "base_commit": "b440c0744bed733bbf04df7d0d2d1ad691a4948e",
       "evidence_commit": "9d4e0377ba962e752c1684196a4791e25631c8f0",
-      "merge_commit": null,
+      "merge_commit": "b1041bea64cdfd55c5e06ad3e7646a05bcd3c85f",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/173",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Discovery Cabinet converted to English; brand Granovel; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in b1041be. Discovery Cabinet is English; brand Granovel; it left the footer-boilerplate advisory."
     },
     {
       "id": "P53",
