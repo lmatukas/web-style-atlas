@@ -49,7 +49,7 @@ try {
       }
       await page.locator('#seats').fill('1'); await submit.click(); await focused(page, '#reservation-demo');
       await page.locator('#reservation-demo').check();
-      for (const [month, events] of [['11', [['nov06', 4, 'Pokalbis be scenos', '19.00', 'Vilniaus namai'], ['nov14', 2, 'Klausymosi valanda', '20.00', 'Upės namai'], ['nov27', 3, 'Vakarienė su istorija', '19.30', 'Vilniaus namai']]], ['12', [['dec04', 4, 'Žiemos skaitiniai', '18.30', 'Upės namai'], ['dec12', 2, 'Mažasis muzikos salonas', '20.00', 'Vilniaus namai'], ['dec19', 1, 'Metų paskutinis stalas', '19.00', 'Upės namai']]]]) {
+      for (const [month, events] of [['11', [['nov06', 4, 'Talk without a stage', '19.00', 'Vilnius house'], ['nov14', 2, 'The listening hour', '20.00', 'River house'], ['nov27', 3, 'Dinner with a story', '19.30', 'Vilnius house']]], ['12', [['dec04', 4, 'Winter readings', '18.30', 'River house'], ['dec12', 2, 'The small music salon', '20.00', 'Vilnius house'], ['dec19', 1, 'The last table of the year', '19.00', 'River house']]]]) {
         await page.locator(`[data-month="${month}"]`).tap();
         for (const [id, capacity, title, time, house] of events) {
           await page.locator(`[name=event][value=${id}]`).check();
@@ -57,7 +57,7 @@ try {
           for (let count = 1; count <= capacity; count++) {
             await page.locator('#seats').fill(String(count)); await submit.click();
             const summary = await page.locator('#reservation-confirmation').textContent();
-            for (const value of ['Ąžuolas Žilinskas', title, `2026-${month}-${id.slice(-2)}`, time, house, `Vietų skaičius: ${count}`, 'nerezervuotos', 'neišsiųsti']) assert.ok(summary.includes(value), value);
+            for (const value of ['Ąžuolas Žilinskas', title, `2026-${month}-${id.slice(-2)}`, time, house, `Seats: ${count}`, 'No seats were booked', 'no data was sent']) assert.ok(summary.includes(value), value);
             reservations++;
           }
           await page.locator('#seats').fill(String(capacity + 1));
@@ -99,11 +99,11 @@ try {
         assert.equal(await page.locator('#referrer').isDisabled(), referral === 'introduction');
         if (referral === 'member') await page.locator('#referrer').fill('Ūla Čepaitė');
         await next.click();
-        const expected = ['Ąžuolas Žilinskas', 'azuolas@example.test', level === 'home' ? 'Namų narys' : 'Namų bičiulis', house === 'river' ? 'Upės namai' : 'Vilniaus namai', referral === 'member' ? 'Nario rekomendacija: Ūla Čepaitė' : 'Pažintinis pokalbis'];
+        const expected = ['Ąžuolas Žilinskas', 'azuolas@example.test', level === 'home' ? 'House member' : 'House friend', house === 'river' ? 'River house' : 'Vilnius house', referral === 'member' ? 'A member\'s recommendation: Ūla Čepaitė' : 'An introductory conversation'];
         assert.deepEqual(await page.locator('#application-summary dd').allTextContents(), expected);
         await page.locator('#application-demo').check(); await next.click();
         const result = await page.locator('#application-confirmation').textContent();
-        for (const text of [...expected, 'neišsiųsta', 'nesukurta']) assert.ok(result.includes(text), text);
+        for (const text of [...expected, 'No application was sent', 'no membership was created']) assert.ok(result.includes(text), text);
         assert.ok(await next.isDisabled()); applications++;
         await page.locator('#application-back').click();
         assert.equal(await page.locator('#application-confirmation').isVisible(), false);

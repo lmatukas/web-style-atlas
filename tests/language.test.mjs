@@ -6,11 +6,11 @@ import {existsSync, readdirSync, readFileSync} from 'node:fs';
 // conversion (P38–P63) removes its own ID; P64 needs this list empty.
 // See docs/english-conversion-plan.md.
 export const LITHUANIAN_BACKLOG = [
-  'velvet-members-hall', 'patina-auction-room', 'openwater-deck', 'scent-ritual',
-  'ember-course-room', 'acoustic-sculpture', 'balcony-builder', 'choreographic-stage',
-  'discovery-cabinet', 'light-environments', 'membrane-score', 'modular-light',
-  'repair-atlas', 'resonant-ribbon', 'rhythm-planner', 'seasonal-terrain',
-  'spine-editions', 'trail-composer', 'twilight-expedition', 'woven-field'
+  'patina-auction-room', 'openwater-deck', 'scent-ritual', 'ember-course-room',
+  'acoustic-sculpture', 'balcony-builder', 'choreographic-stage', 'discovery-cabinet',
+  'light-environments', 'membrane-score', 'modular-light', 'repair-atlas',
+  'resonant-ribbon', 'rhythm-planner', 'seasonal-terrain', 'spine-editions',
+  'trail-composer', 'twilight-expedition', 'woven-field'
 ];
 const LANGUAGES = ['en', 'lt'];
 

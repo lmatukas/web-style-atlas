@@ -2488,7 +2488,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Velvet Members Hall",
-      "prompt_path": "prompts/velvet-members-hall/prompt.lt.md",
+      "prompt_path": "prompts/velvet-members-hall/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Deep cherry velvet and ink-black margins, warm brass labels and cream type; the application uses cream paper with wine-black ink.",

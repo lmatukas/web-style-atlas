@@ -32,7 +32,7 @@ function frame(time) {
   state.frames++;
   paint();
   if (state.progress < 1) raf = requestAnimationFrame(frame);
-  else { halt(); elapsed = duration; status.textContent = 'Šviesa nurimo'; }
+  else { halt(); elapsed = duration; status.textContent = 'The light has settled'; }
 }
 function run() {
   if (state.active || state.disposed || paused || !visible || document.hidden || preference.matches || state.progress === 1) return;
@@ -57,18 +57,18 @@ function onPointer(event) {
 function onRange() { aim(Number(slider.value), 40); }
 function onToggle() {
   paused = !paused;
-  if (paused) { stop(); status.textContent = 'Judesys pristabdytas'; }
+  if (paused) { stop(); status.textContent = 'Motion paused'; }
   else run();
-  toggle.textContent = paused ? 'Tęsti judesį' : 'Pristabdyti';
+  toggle.textContent = paused ? 'Resume motion' : 'Pristabdyti';
   toggle.setAttribute('aria-pressed', String(paused));
 }
 function onPreference() {
   stop(); toggle.disabled = preference.matches;
-  toggle.textContent = preference.matches ? 'Judesys išjungtas' : paused ? 'Tęsti judesį' : 'Pristabdyti';
+  toggle.textContent = preference.matches ? 'Motion off' : paused ? 'Resume motion' : 'Pristabdyti';
   state.mode = preference.matches ? 'static' : 'svg';
   if (preference.matches) {
     position = {...target}; state.progress = 1; elapsed = duration;
-    status.textContent = 'Statinė šviesa'; paint();
+    status.textContent = 'Static light'; paint();
   } else run();
 }
 function onVisibility() { document.hidden ? stop() : run(); }
@@ -105,12 +105,12 @@ function fail(error, input, message) {
 const reservation = $('#reservation-form');
 if (reservation) {
   const events = [
-    {id: 'nov06', month: '11', day: '06', title: 'Pokalbis be scenos', time: '19.00', house: 'Vilniaus namai', seats: 4},
-    {id: 'nov14', month: '11', day: '14', title: 'Klausymosi valanda', time: '20.00', house: 'Upės namai', seats: 2},
-    {id: 'nov27', month: '11', day: '27', title: 'Vakarienė su istorija', time: '19.30', house: 'Vilniaus namai', seats: 3},
-    {id: 'dec04', month: '12', day: '04', title: 'Žiemos skaitiniai', time: '18.30', house: 'Upės namai', seats: 4},
-    {id: 'dec12', month: '12', day: '12', title: 'Mažasis muzikos salonas', time: '20.00', house: 'Vilniaus namai', seats: 2},
-    {id: 'dec19', month: '12', day: '19', title: 'Metų paskutinis stalas', time: '19.00', house: 'Upės namai', seats: 1}
+    {id: 'nov06', month: '11', day: '06', title: 'Talk without a stage', time: '19.00', house: 'Vilnius house', seats: 4},
+    {id: 'nov14', month: '11', day: '14', title: 'The listening hour', time: '20.00', house: 'River house', seats: 2},
+    {id: 'nov27', month: '11', day: '27', title: 'Dinner with a story', time: '19.30', house: 'Vilnius house', seats: 3},
+    {id: 'dec04', month: '12', day: '04', title: 'Winter readings', time: '18.30', house: 'River house', seats: 4},
+    {id: 'dec12', month: '12', day: '12', title: 'The small music salon', time: '20.00', house: 'Vilnius house', seats: 2},
+    {id: 'dec19', month: '12', day: '19', title: 'The last table of the year', time: '19.00', house: 'River house', seats: 1}
   ];
   const error = $('#reservation-error'), confirmation = $('#reservation-confirmation');
   let month = '11';
@@ -118,8 +118,8 @@ if (reservation) {
   function invalidate() { clearError(reservation, error); confirmation.hidden = true; }
   function detail() {
     const event = selected();
-    $('#event-title').textContent = event?.title || 'Jūsų pasirinktas vakaras';
-    $('#event-detail').textContent = event ? `2026-${event.month}-${event.day} · ${event.time} · ${event.house}. Galite pasirinkti iki ${event.seats} vietų (demonstracinis limitas).` : 'Pasirinkite programos įrašą. Tuomet paruošime vietinę rezervacijos santrauką.';
+    $('#event-title').textContent = event?.title || 'Your chosen evening';
+    $('#event-detail').textContent = event ? `2026-${event.month}-${event.day} · ${event.time} · ${event.house}. You can choose up to ${event.seats} ${event.seats === 1 ? 'seat' : 'seats'} (demonstration limit).` : 'Choose a programme entry. We will then prepare a local booking summary.';
     $('#seats').max = String(event?.seats || 4);
   }
   function renderEvents() {
@@ -127,7 +127,7 @@ if (reservation) {
     for (const event of events.filter(e => e.month === month)) {
       const label = document.createElement('label'); label.className = 'event-row';
       // All event metadata above is fixed authored content, never form input.
-      label.innerHTML = `<input type="radio" name="event" value="${event.id}" required aria-describedby="reservation-error"><span class="event-date">${event.day}<small>${month === '11' ? 'LAPKR.' : 'GRUOD.'}</small></span><span class="event-name">${event.title}<small>${event.time} / ${event.house}<br>Iki ${event.seats} vietų · demonstracija</small></span>`;
+      label.innerHTML = `<input type="radio" name="event" value="${event.id}" required aria-describedby="reservation-error"><span class="event-date">${event.day}<small>${month === '11' ? 'NOV' : 'DEC'}</small></span><span class="event-name">${event.title}<small>${event.time} / ${event.house}<br>Up to ${event.seats} ${event.seats === 1 ? 'seat' : 'seats'} · demonstration</small></span>`;
       $('#event-list').append(label);
     }
     all('[data-month]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.month === month)));
@@ -142,11 +142,11 @@ if (reservation) {
   reservation.addEventListener('submit', event => {
     event.preventDefault(); invalidate();
     const choice = selected(), count = Number($('#seats').value), name = cleanName($('#guest-name').value);
-    if (!choice) return fail(error, reservation.querySelector('[name=event]'), 'Pasirinkite vakarą iš programos.');
-    if (!validName(name)) return fail(error, $('#guest-name'), 'Įrašykite vardą: bent du ženklus, įskaitant raidę.');
-    if (!Number.isInteger(count) || count < 1 || count > choice.seats) return fail(error, $('#seats'), `Šiam vakarui pasirinkite sveiką vietų skaičių nuo 1 iki ${choice.seats}.`);
-    if (!$('#reservation-demo').checked) return fail(error, $('#reservation-demo'), 'Patvirtinkite, kad suprantate demonstracijos sąlygas.');
-    $('#reservation-summary').textContent = `${name} · ${choice.title} · 2026-${choice.month}-${choice.day}, ${choice.time} · ${choice.house} · Vietų skaičius: ${count}.`;
+    if (!choice) return fail(error, reservation.querySelector('[name=event]'), 'Choose an evening from the programme.');
+    if (!validName(name)) return fail(error, $('#guest-name'), 'Enter your name: at least two characters, including a letter.');
+    if (!Number.isInteger(count) || count < 1 || count > choice.seats) return fail(error, $('#seats'), `For this evening, choose a whole number of seats from 1 to ${choice.seats}.`);
+    if (!$('#reservation-demo').checked) return fail(error, $('#reservation-demo'), 'Confirm that you understand this is a demonstration.');
+    $('#reservation-summary').textContent = `${name} · ${choice.title} · 2026-${choice.month}-${choice.day}, ${choice.time} · ${choice.house} · Seats: ${count}.`;
     confirmation.hidden = false; confirmation.focus();
   });
   reservation.addEventListener('reset', () => {
@@ -159,14 +159,14 @@ const application = $('#application-form');
 if (application) {
   let step = 1;
   const error = $('#application-error'), confirmation = $('#application-confirmation'), next = $('#application-next');
-  const houses = {vilnius: 'Vilniaus namai', river: 'Upės namai'};
-  const levels = {home: 'Namų narys', friend: 'Namų bičiulis'};
+  const houses = {vilnius: 'Vilnius house', river: 'River house'};
+  const levels = {home: 'House member', friend: 'House friend'};
   function values() {
     return {name: cleanName($('#member-name').value), email: $('#member-email').value.trim(), level: application.elements.level.value, house: $('#club-house').value, referral: application.elements.referral.value, referrer: cleanName($('#referrer').value)};
   }
   function rows() {
     const v = values();
-    return [['Vardas ir pavardė', v.name], ['El. paštas', v.email], ['Narystės lygis', levels[v.level]], ['Pagrindiniai klubo namai', houses[v.house]], ['Pažinties kelias', v.referral === 'member' ? 'Nario rekomendacija: ' + v.referrer : 'Pažintinis pokalbis']];
+    return [['Full name', v.name], ['Email', v.email], ['Membership level', levels[v.level]], ['Main club house', houses[v.house]], ['How we meet', v.referral === 'member' ? 'A member\'s recommendation: ' + v.referrer : 'An introductory conversation']];
   }
   function summary() {
     const list = $('#application-summary'); list.replaceChildren();
@@ -187,21 +187,21 @@ if (application) {
     all('[data-step]').forEach(section => section.hidden = Number(section.dataset.step) !== step);
     all('[data-step-indicator]').forEach(item => Number(item.dataset.stepIndicator) === step ? item.setAttribute('aria-current', 'step') : item.removeAttribute('aria-current'));
     $('#application-back').hidden = step === 1;
-    next.textContent = step === 3 ? 'Paruošti paraišką ↗' : 'Toliau →';
+    next.textContent = step === 3 ? 'Prepare application ↗' : 'Next →';
     if (step === 3) summary();
     if (focus) $(`[data-step="${step}"] [data-step-title]`).focus();
   }
   function validate(number) {
     const v = values();
     if (number === 1) {
-      if (!validName(v.name)) return fail(error, $('#member-name'), 'Įrašykite vardą ir pavardę: bent du ženklus, įskaitant raidę.');
-      if (!v.email || !$('#member-email').validity.valid) return fail(error, $('#member-email'), 'Įrašykite taisyklingą el. pašto adresą.');
-      if (!levels[v.level]) return fail(error, application.querySelector('[name=level]'), 'Pasirinkite narystės lygį.');
+      if (!validName(v.name)) return fail(error, $('#member-name'), 'Enter your full name: at least two characters, including a letter.');
+      if (!v.email || !$('#member-email').validity.valid) return fail(error, $('#member-email'), 'Enter a valid email address.');
+      if (!levels[v.level]) return fail(error, application.querySelector('[name=level]'), 'Choose a membership level.');
     }
     if (number === 2) {
-      if (!houses[v.house]) return fail(error, $('#club-house'), 'Pasirinkite pageidaujamus klubo namus.');
-      if (!['member', 'introduction'].includes(v.referral)) return fail(error, application.querySelector('[name=referral]'), 'Pasirinkite pažinties kelią.');
-      if (v.referral === 'member' && !validName(v.referrer)) return fail(error, $('#referrer'), 'Įrašykite rekomenduojančio nario vardą ir pavardę.');
+      if (!houses[v.house]) return fail(error, $('#club-house'), 'Choose your preferred club house.');
+      if (!['member', 'introduction'].includes(v.referral)) return fail(error, application.querySelector('[name=referral]'), 'Choose how we should meet.');
+      if (v.referral === 'member' && !validName(v.referrer)) return fail(error, $('#referrer'), 'Enter the recommending member\'s full name.');
     }
     return true;
   }
@@ -214,7 +214,7 @@ if (application) {
       if (!validate(previous)) return;
     }
     show(3, false);
-    if (!$('#application-demo').checked) return fail(error, $('#application-demo'), 'Patvirtinkite, kad suprantate vietinės demonstracijos sąlygas.');
+    if (!$('#application-demo').checked) return fail(error, $('#application-demo'), 'Confirm that you understand this is a local demonstration.');
     $('#application-result').textContent = rows().map(([label, value]) => `${label}: ${value}`).join('. ') + '.';
     confirmation.hidden = false; next.disabled = true; confirmation.focus();
   });
