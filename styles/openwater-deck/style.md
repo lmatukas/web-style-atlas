@@ -31,7 +31,7 @@ signature:
   interaction: Four native deck buttons update geometry highlight, dimensions and use; two routes change real map paths and stops; local charter enquiry validates week and guest count.
   motion: A finite 1.5-second wake or route episode settles; explicit pause, reduced-motion, hidden/offscreen suspension and pagehide cleanup.
 status: ready
-prompt_path: prompts/openwater-deck/prompt.lt.md
+prompt_path: prompts/openwater-deck/prompt.en.md
 ---
 
 # Openwater Deck

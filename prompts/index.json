@@ -490,15 +490,15 @@
       "style_id": "openwater-deck",
       "name": "Openwater Deck",
       "family": "photographic",
-      "language": "lt",
-      "prompt_path": "prompts/openwater-deck/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/openwater-deck/prompt.en.md",
       "demo_brand": "Avelrune",
       "variants": {
-        "a": "Laivo pristatymas, pasirenkamos denio zonos, kajutės ir specifikacijos",
-        "b": "Scheminis maršrutas, savaitės pasirinkimas ir vietinė nuomos užklausa"
+        "a": "A yacht introduction with selectable deck zones, cabins and specifications",
+        "b": "A schematic route, week choice and a local charter enquiry"
       },
-      "signature": "Numeruotas denio planas atveria erdvės aprašą, matmenis ir plotą; maršrutas keičia tikrą scheminį žemėlapį.",
-      "acceptance": "Keturios denio zonos, du maršrutai, trys savaitės, 1–8 svečiai; klaidos, tiksli santrauka, redagavimas ir atkūrimas; tik vietinė demonstracija.",
+      "signature": "A numbered deck plan opens a space's description, dimensions and area; the route changes a real schematic map.",
+      "acceptance": "Four deck zones, two routes, three weeks, 1–8 guests; errors, an exact summary, editing and reset; local demonstration only.",
       "enhancement": "html-svg",
       "closest_styles": [
         "industrial-spec",
