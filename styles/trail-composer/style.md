@@ -13,7 +13,7 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A vertical paper trail beside invitation and chooser; B day ledger with adjacent map.", "typography": "Quiet Georgia invitations with readable Arial timing and labels.", "navigation": "Choices/plan/preparation anchors and actual A/B siblings.", "content_rhythm": "Invitation, moods and vertical stops versus conditions, table and preparation.", "imagery": "Original schematic SVG with four numbered points and HTML equivalents.", "color_and_material": "Pale map paper, lake blue, moss green and small orange route marks.", "interaction": "Duration/intensity eligibility, mood ranking, real open/back, checklist and TXT download.", "motion": "900ms first path, 300ms mood, 450ms stops and finite checkbox confirmation."}
 status: "ready"
-prompt_path: "prompts/trail-composer/prompt.lt.md"
+prompt_path: "prompts/trail-composer/prompt.en.md"
 ---
 
 # Trail Composer
