@@ -5190,7 +5190,7 @@
     {
       "id": "P43",
       "title": "English conversion: Heirloom Weave Ledger",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P42"
       ],
@@ -5214,6 +5214,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #163 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on cbcaea5."
         }
       ],
       "evidence_paths": [
@@ -5221,15 +5226,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:17:27Z",
-      "updated_at": "2026-10-25T10:21:11.286Z",
+      "updated_at": "2026-10-25T10:23:35.098Z",
       "branch": "task/p43-heirloom-weave-ledger-en",
       "base_commit": "ac46fa33d4a8019bd8c087bf30da550125ea8c76",
       "evidence_commit": "cbcaea5d6cf646e28696071fec7c44565fca8ab0",
-      "merge_commit": null,
+      "merge_commit": "5ac1565d9216c856add4970b4829ec2e45315c27",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/163",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Heirloom Weave Ledger in English (linked prompt prompt.en.md); backlog 20."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 5ac1565. Heirloom Weave Ledger in English; backlog 20."
     },
     {
       "id": "P44",
