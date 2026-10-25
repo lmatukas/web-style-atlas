@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 98/126.**
+**Baigta: 99/126.**
 
-**Pirmiausia patikrinti P37: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P38](tasks/P38.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -108,7 +108,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P35](tasks/P35.md) | Pataisa: S58 pagrindinis ir antrinis veiksmas | Baigta | agent/01dpob2fr2xg | task/p35-s58-cta | [PR](https://github.com/lmatukas/web-style-atlas/pull/153) | 2026-10-24T20:15:27.004Z | Nėra. Užduotis baigta. |
 | [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Baigta | agent/01dpob2fr2xg | task/p36-shared-resources | [PR](https://github.com/lmatukas/web-style-atlas/pull/154) | 2026-10-24T20:20:51.219Z | Nėra. Užduotis baigta. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Baigta | agent/01dpob2fr2xg | task/p28-release-1-3-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/155) | 2026-10-25T07:30:14.000Z | Nėra. Užduotis baigta. |
-| [P37](tasks/P37.md) | English conversion: shared tooling | Laukia peržiūros | agent/015fh6w2uenf | task/p37-english-tooling | [PR](https://github.com/lmatukas/web-style-atlas/pull/157) | 2026-10-25T09:16:21.491Z | Wait for PR #157 CI, merge, then mark done. |
+| [P37](tasks/P37.md) | English conversion: shared tooling | Baigta | agent/015fh6w2uenf | task/p37-english-tooling | [PR](https://github.com/lmatukas/web-style-atlas/pull/157) | 2026-10-25T09:31:19.793Z | None. P38 is next. |
 | [P38](tasks/P38.md) | English conversion: Obsidian Stage | Laukia | — | — | — | — | Claim P38 and follow docs/tasks/P38.md. |
 | [P39](tasks/P39.md) | English conversion: Luminous Cut Vitrine | Laukia | — | — | — | — | Claim P39 and follow docs/tasks/P39.md. |
 | [P40](tasks/P40.md) | English conversion: Escapement Nocturne | Laukia | — | — | — | — | Claim P40 and follow docs/tasks/P40.md. |

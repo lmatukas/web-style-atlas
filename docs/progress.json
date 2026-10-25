@@ -4906,7 +4906,7 @@
     {
       "id": "P37",
       "title": "English conversion: shared tooling",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P28"
       ],
@@ -4922,9 +4922,9 @@
           "details": "106/106 incl. language and prompt-language tests."
         },
         {
-          "name": "Gallery browser test",
-          "status": "not_run",
-          "details": "Needs canonical host; runs in PR CI."
+          "name": "PR #157 CI (scope, source, browser and accessibility gates)",
+          "status": "pass",
+          "details": "Run 40179947901 all three jobs success on 9fda946."
         }
       ],
       "evidence_paths": [
@@ -4932,15 +4932,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:10:12Z",
-      "updated_at": "2026-10-25T09:16:21.491Z",
+      "updated_at": "2026-10-25T09:31:19.793Z",
       "branch": "task/p37-english-tooling",
       "base_commit": "7627b2f91453275ea79c9071405363516fb46672",
       "evidence_commit": "9fda946f36dd928b627569b5a813a780fdd6b210",
-      "merge_commit": null,
+      "merge_commit": "ebd40e44b8bc493cfdde8834630ed03db4ebbc6b",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/157",
       "blocker": null,
-      "next_action": "Wait for PR #157 CI, merge, then mark done.",
-      "handoff": "English prompt paths, language backlog (26 IDs), English luxury filter. Also widened lt-only prompt pattern in style/index schemas and gallery, and fixed P37–P64 card dependency lines for the contract test."
+      "next_action": "None. P38 is next.",
+      "handoff": "Merged in ebd40e4. English prompt paths, LITHUANIAN_BACKLOG (26 IDs), English luxury filter. Each conversion removes its ID; English prompt slot is \"- Composition: [A OR B; default A].\""
     },
     {
       "id": "P38",
