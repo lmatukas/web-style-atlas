@@ -21,7 +21,7 @@ signature:
   interaction: Three day buttons update photograph, time, description and page ground; region, dates and chosen rituals produce a local enquiry summary.
   motion: A single 1.6-second photographic breath settles; pause, reduced motion, offscreen suspension and cleanup keep the landscape quiet.
 status: ready
-prompt_path: prompts/still-sanctuary/prompt.lt.md
+prompt_path: prompts/still-sanctuary/prompt.en.md
 ---
 
 # Still Sanctuary

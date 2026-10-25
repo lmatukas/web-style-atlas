@@ -14,7 +14,7 @@ try {
   const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce',hasTouch:true});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(url,{waitUntil:'networkidle'});
-  for(const [period,image,phrase] of [['morning','forest','Rytas'],['day','pavilion','Diena'],['evening','lake','Vakaras']]) {
+  for(const [period,image,phrase] of [['morning','forest','morning'],['day','pavilion','day'],['evening','lake','evening']]) {
    await page.locator(`[data-period="${period}"]`).tap();
    assert.equal(await page.locator('body').getAttribute('data-light'),period);
    assert.match(await page.locator('[data-ritual-image]').getAttribute('src'),new RegExp(image));
@@ -31,23 +31,23 @@ try {
    assert.equal(await page.locator(field).evaluate(e=>e===document.activeElement),true);
    assert.equal(await page.locator('#confirmation').isVisible(),false);errorsChecked++;
   }
-  await submitError(/regioną/,'#region');
-  await page.locator('#region').selectOption('water');await submitError(/datas/,'#arrival');
-  await page.locator('#arrival').fill('2020-01-01');await page.locator('#departure').fill('2027-05-10');await submitError(/praeityje/,'#arrival');
-  await page.locator('#arrival').fill('2027-05-10');await page.locator('#departure').fill('2027-05-10');await submitError(/vėliau/,'#departure');
-  await page.locator('#departure').fill('2027-05-09');await submitError(/vėliau/,'#departure');
-  await page.locator('#departure').fill('2027-06-01');await submitError(/21 nakties/,'#departure');
-  await page.locator('#departure').fill('2027-05-13');await submitError(/ritualą/,'#walk');
-  await page.locator('#walk').check();await submitError(/demonstracijos/,'#demo');
+  await submitError(/region/,'#region');
+  await page.locator('#region').selectOption('water');await submitError(/dates/,'#arrival');
+  await page.locator('#arrival').fill('2020-01-01');await page.locator('#departure').fill('2027-05-10');await submitError(/in the past/,'#arrival');
+  await page.locator('#arrival').fill('2027-05-10');await page.locator('#departure').fill('2027-05-10');await submitError(/later than arrival/,'#departure');
+  await page.locator('#departure').fill('2027-05-09');await submitError(/later than arrival/,'#departure');
+  await page.locator('#departure').fill('2027-06-01');await submitError(/21 nights/,'#departure');
+  await page.locator('#departure').fill('2027-05-13');await submitError(/one ritual/,'#walk');
+  await page.locator('#walk').check();await submitError(/demonstration/,'#demo');
   await page.locator('#demo').check();await page.locator('[name="ritual"][value="tea"]').check();await page.locator('[type="submit"]').click();
   const summary=await page.locator('#confirmation').textContent();
-  for(const value of ['Ežero pakrantė','2027-05-10','2027-05-13','Naktys: 3','Miško pasivaikščiojimas','Vakaro arbata','neišsiųsta','nerezervuota'])assert.ok(summary.includes(value),value);
+  for(const value of ['Lakeshore','2027-05-10','2027-05-13','Nights: 3','Forest walk','Evening tea','no enquiry was sent','nothing was booked'])assert.ok(summary.includes(value),value);
   assert.equal(await page.locator('#confirmation').evaluate(e=>e===document.activeElement),true);
   await page.locator('#region').selectOption('garden');assert.equal(await page.locator('#confirmation').isVisible(),false);
   // Independent UTC date arithmetic, across leap day and the maximum duration.
   for(const [arrival,departure,nights] of [['2028-02-28','2028-03-01',2],['2027-12-31','2028-01-01',1],['2027-04-01','2027-04-22',21]]) {
    await page.locator('#arrival').fill(arrival);await page.locator('#departure').fill(departure);await page.locator('[type="submit"]').click();
-   assert.match(await page.locator('#confirmation').textContent(),new RegExp('Naktys: '+nights+'\\.'));
+   assert.match(await page.locator('#confirmation').textContent(),new RegExp('Nights: '+nights+'\\.'));
   }
   await page.locator('[type="reset"]').click();
   assert.equal(await page.locator('#region').inputValue(),'');assert.equal(await page.locator('#arrival').inputValue(),'');assert.equal(await page.locator('[name="ritual"]:checked').count(),0);assert.equal(await page.locator('#demo').isChecked(),false);assert.equal(await page.locator('#confirmation').isVisible(),false);

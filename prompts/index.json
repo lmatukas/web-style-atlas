@@ -406,15 +406,15 @@
       "style_id": "still-sanctuary",
       "name": "Still Sanctuary",
       "family": "photographic",
-      "language": "lt",
-      "prompt_path": "prompts/still-sanctuary/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/still-sanctuary/prompt.en.md",
       "demo_brand": "Auvrėja",
       "variants": {
-        "a": "Regionų katalogas su peizažų eilėmis, ritualais ir viešnagės užklausa",
-        "b": "Vienos vietos istorija, dienos ritualai ir vilų pasirinkimas"
+        "a": "A catalogue of regions with landscape rows, rituals and a stay enquiry",
+        "b": "The story of one place, its daily rituals and a choice of villas"
       },
-      "signature": "Trys dienos ritualai keičia nuotrauką ir šiltą puslapio šviesą; ramus didelis peizažas ir tikra vietinė užklausa.",
-      "acceptance": "Paros metas keičia tikrą vaizdą, tekstą ir puslapio foną; regionas, datos ir ritualai validuojami, patvirtinimas tik vietinis, išvalymas veikia.",
+      "signature": "Three daily rituals change the photograph and the warm light of the page; a calm, large landscape and a real local enquiry.",
+      "acceptance": "The time of day changes the real image, the text and the page background; region, dates and rituals are validated, the confirmation stays local and clearing works.",
       "enhancement": "html-svg",
       "closest_styles": [
         "field-notes",

@@ -2225,7 +2225,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Still Sanctuary",
-      "prompt_path": "prompts/still-sanctuary/prompt.lt.md",
+      "prompt_path": "prompts/still-sanctuary/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm sand with deep brown text, olive selection and clay dusk; the body changes light with the chosen hour.",
