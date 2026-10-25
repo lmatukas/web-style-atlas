@@ -2067,7 +2067,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Seasonal Terrain",
-      "prompt_path": "prompts/seasonal-terrain/prompt.lt.md",
+      "prompt_path": "prompts/seasonal-terrain/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Cream paper, burnt clay and dark olive frame uneven earth strata; texture comes from geometry rather than a distressed bitmap.",

@@ -28,15 +28,15 @@
       "style_id": "seasonal-terrain",
       "name": "Seasonal Terrain",
       "family": "tactile",
-      "language": "lt",
-      "prompt_path": "prompts/seasonal-terrain/prompt.lt.md",
-      "demo_brand": "Dirvos ratas",
+      "language": "en",
+      "prompt_path": "prompts/seasonal-terrain/prompt.en.md",
+      "demo_brand": "Glebora",
       "variants": {
-        "a": "Dirvos pjūvis ir sezoninis pasakojimas",
-        "b": "Sezonų kalendorius su krepšelio surinkimo eiga"
+        "a": "A soil section and a seasonal story",
+        "b": "A seasons calendar with a basket-building flow"
       },
-      "signature": "Trijų dirvos sluoksnių reljefas; fiksuota kamera; sezonas keičia augalus ir produktus",
-      "acceptance": "Sezonas, dydis ir dažnis sudaro nuoseklią krepšelio santrauką; sluoksnių žymekliai veikia klaviatūra.",
+      "signature": "A relief of three soil layers; a fixed camera; the season changes the plants and the produce",
+      "acceptance": "Season, size and frequency make a consistent basket summary; the layer markers work with the keyboard.",
       "enhancement": "webgl",
       "closest_styles": [
         "organic-craft",
