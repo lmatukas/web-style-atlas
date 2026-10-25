@@ -7,7 +7,7 @@ function paint(progress){scene.style.setProperty('--arrival',String(progress));s
 function settle(){cancelAnimationFrame(raf);raf=0;state.active=false;paint(1);}
 function tick(now){if(!state.active||state.disposed)return;const progress=Math.min((now-started)/1500,1);paint(progress);state.frames++;if(progress<1)raf=requestAnimationFrame(tick);else{state.active=false;raf=0;}}
 function play(){if(state.disposed||state.reduced||state.paused||document.hidden||!visible){settle();return;}cancelAnimationFrame(raf);paint(0);started=performance.now();state.active=true;raf=requestAnimationFrame(tick);}
-function motionLabel(){toggle.textContent=state.paused?'Leisti šviesos kaitą':'Sustabdyti šviesą';toggle.setAttribute('aria-pressed',String(state.paused));status.textContent=state.reduced?'Ramus vaizdas · visas meniu ir rezervacija veikia.':state.paused?'Šviesos kaita sustabdyta · meniu veikia.':'Šviesa nusistovi per 1,5 sekundės.';}
+function motionLabel(){toggle.textContent=state.paused?'Play the light':'Pause the light';toggle.setAttribute('aria-pressed',String(state.paused));status.textContent=state.reduced?'Calm view · the full menu and booking work.':state.paused?'Light change paused · the menu works.':'The light settles over 1.5 seconds.';}
 function toggleMotion(){state.paused=!state.paused;document.documentElement.classList.toggle('motion-paused',state.paused);state.paused?settle():play();motionLabel();}
 function reducedChange(){state.reduced=media.matches;settle();motionLabel();}
 function visibility(){if(document.hidden)settle();}
@@ -22,7 +22,7 @@ function setCourse(index,{move=false}={}){
  for(const el of document.querySelectorAll('[data-course-jump]'))el.setAttribute('aria-pressed',String(+el.dataset.courseJump===index));
  const previous=document.querySelector('[data-previous]'),next=document.querySelector('[data-next]');if(previous)previous.disabled=index===0;if(next)next.disabled=index===9;
  if(!state.paused)document.documentElement.style.setProperty('--evening',String(index/9));
- if(changed&&move){const article=document.querySelector(`[data-course-record="${index}"]`);article?.scrollIntoView({block:'center',behavior:'instant'});document.querySelector('[data-course-live]').textContent=`${index+1} iš 10 · ${c.name} · ${c.time}`;}
+ if(changed&&move){const article=document.querySelector(`[data-course-record="${index}"]`);article?.scrollIntoView({block:'center',behavior:'instant'});document.querySelector('[data-course-live]').textContent=`${index+1} of 10 · ${c.name} · ${c.time}`;}
 }
 function scrollCourse(){if(restoring||state.disposed||!document.querySelector('[data-course-record]'))return;const records=[...document.querySelectorAll('[data-course-record]')],target=innerHeight*.58;let chosen=null,distance=Infinity;for(const record of records){const rect=record.getBoundingClientRect();if(rect.bottom<innerHeight*.28||rect.top>innerHeight*.9)continue;const d=Math.abs(rect.top+Math.min(rect.height,240)/2-target);if(d<distance){distance=d;chosen=record;}}if(chosen)setCourse(+chosen.dataset.courseRecord);}
 function previous(){setCourse(courseIndex-1,{move:true});}function next(){setCourse(courseIndex+1,{move:true});}

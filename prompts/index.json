@@ -532,15 +532,15 @@
       "style_id": "ember-course-room",
       "name": "Ember Course Room",
       "family": "photographic",
-      "language": "lt",
-      "prompt_path": "prompts/ember-course-room/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/ember-course-room/prompt.en.md",
       "demo_brand": "Velari Ember",
       "variants": {
-        "a": "Dešimties patiekalų vakaro eiga su besikeičiančia šviesa",
-        "b": "Salės planas ir vietinė stalo rezervacija"
+        "a": "A ten-course evening with changing light",
+        "b": "A room plan and a local table booking"
       },
-      "signature": "Žvakių šviesos tamsa, vakarėjantis patiekalų laikas, šiltėjanti šviesa ir tikras salės vietos pasirinkimas.",
-      "acceptance": "Data ir svečių skaičius perskaičiuoja laisvus laikus, laikas ir talpa — stalus; santrauka tik vietinė, redagavimas ir atšaukimas veikia.",
+      "signature": "Candlelit darkness, an evening course clock, warming light and a real choice of place in the room.",
+      "acceptance": "Date and guest count recalculate free times, time and capacity recalculate tables; the summary stays local, editing and cancelling work.",
       "enhancement": "html-svg",
       "closest_styles": [
         "editorial-journal",
