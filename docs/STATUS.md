@@ -4,7 +4,7 @@
 
 **Baigta: 115/127.**
 
-**Kita užduotis: [P53](tasks/P53.md).**
+**Pirmiausia patikrinti P53: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -125,7 +125,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P50](tasks/P50.md) | English conversion: Balcony Builder | Baigta | agent/015fh6w2uenf | task/p50-balcony-builder-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/171) | 2026-10-25T14:43:36.367Z | None. Task done. |
 | [P51](tasks/P51.md) | English conversion: Choreographic Stage | Baigta | agent/015fh6w2uenf | task/p51-choreographic-stage-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/172) | 2026-10-25T14:49:09.088Z | None. Task done. |
 | [P52](tasks/P52.md) | English conversion: Discovery Cabinet | Baigta | agent/015fh6w2uenf | task/p52-discovery-cabinet-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/173) | 2026-10-25T14:55:44.260Z | None. Task done. |
-| [P53](tasks/P53.md) | English conversion: Light Environments | Laukia | — | — | — | — | Claim P53 and follow docs/tasks/P53.md. |
+| [P53](tasks/P53.md) | English conversion: Light Environments | Vykdoma | agent/015fh6w2uenf | task/p53-light-environments-en | — | 2026-10-25T14:55:46.995Z | Implement P53 on task/p53-light-environments-en. |
 | [P54](tasks/P54.md) | English conversion: Membrane Score | Laukia | — | — | — | — | Claim P54 and follow docs/tasks/P54.md. |
 | [P55](tasks/P55.md) | English conversion: Modular Light | Laukia | — | — | — | — | Claim P55 and follow docs/tasks/P55.md. |
 | [P56](tasks/P56.md) | English conversion: Repair Atlas | Laukia | — | — | — | — | Claim P56 and follow docs/tasks/P56.md. |

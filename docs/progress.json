@@ -5729,22 +5729,22 @@
     {
       "id": "P53",
       "title": "English conversion: Light Environments",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P52"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T14:55:46Z",
+      "updated_at": "2026-10-25T14:55:46.995Z",
+      "branch": "task/p53-light-environments-en",
+      "base_commit": "32e33987116d79d0225e274a72596fed3d3b0cfb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P53 and follow docs/tasks/P53.md.",
+      "next_action": "Implement P53 on task/p53-light-environments-en.",
       "handoff": null
     },
     {
