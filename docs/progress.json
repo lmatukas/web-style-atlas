@@ -5092,23 +5092,46 @@
     {
       "id": "P41",
       "title": "English conversion: Midnight Vestibule",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P40"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 14 cases/96 totals; runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P41.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:02:43Z",
-      "updated_at": "2026-10-25T10:02:43.819Z",
+      "updated_at": "2026-10-25T10:06:53.391Z",
       "branch": "task/p41-midnight-vestibule-en",
       "base_commit": "4750b32702dfa4e939d0ed12024eeed19d85b1cb",
-      "evidence_commit": null,
+      "evidence_commit": "ad908c11d902dfd2e29c6b550a038f68e4c12885",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/161",
       "blocker": null,
-      "next_action": "Implement P41 on task/p41-midnight-vestibule-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Midnight Vestibule in English; backlog 22."
     },
     {
       "id": "P42",
