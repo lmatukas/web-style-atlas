@@ -5729,7 +5729,7 @@
     {
       "id": "P53",
       "title": "English conversion: Light Environments",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P52"
       ],
@@ -5753,6 +5753,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #174 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5760,15 +5765,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:55:46Z",
-      "updated_at": "2026-10-25T14:59:40.876Z",
+      "updated_at": "2026-10-25T15:02:04.443Z",
       "branch": "task/p53-light-environments-en",
       "base_commit": "32e33987116d79d0225e274a72596fed3d3b0cfb",
       "evidence_commit": "2a4caeb7a3d52f08cb401fe0057395b770ec6c98",
-      "merge_commit": null,
+      "merge_commit": "822847471032bcac678e4f00373d76c1dc5dd76d",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/174",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Light Environments converted to English; brand Velumbre; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 8228474. Light Environments is English; brand Velumbre; asset titles and attributions updated."
     },
     {
       "id": "P54",
