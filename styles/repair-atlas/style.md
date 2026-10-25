@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A sticky chair beside assembly/material narrative; B a material object ledger and route worksheet beside a compact study.", "typography": "Heavy Arial promises contrast with small museum numbers, material tags and practical route records.", "navigation": "Materials, real dual filters, personal route and actual sibling composition links.", "content_rhythm": "Whole object, materials, repair logic and catalogue versus material-led selection, route and construction context.", "imagery": "Original depth-tested segmental chair, SVG disassembly alternative and six distinct local concept illustrations.", "color_and_material": "Matte yellow scene, ultramarine route/explanation, chalk ground, black type and original wood tones.", "interaction": "Manual disassembly, repeatable one-joint replacement, six-object filtering and unique 2–4-stop reorder/remove/export.", "motion": "800ms assembly, bounded material separation, 500ms replacement and 400ms route-number landing, pause/reduced states."}
 status: "ready"
-prompt_path: "prompts/repair-atlas/prompt.lt.md"
+prompt_path: "prompts/repair-atlas/prompt.en.md"
 ---
 
 # Repair Atlas
 
 ## Intent
 
-Repair Atlas makes an object's construction into an inspectable exhibition story. The fictional Rytojaus daiktai explores six original circular-design scenarios through a segmental wooden armchair, material labels and a visitor-made route. These are design concepts rather than manufactured products, verified repair instructions or environmental performance claims. The visitor can inspect a whole object, separate its parts, replace one illustrative joint and choose two to four exhibition stops to carry away as text.
+Repair Atlas makes an object's construction into an inspectable exhibition story. The fictional Mendaval Objects explores six original circular-design scenarios through a segmental wooden armchair, material labels and a visitor-made route. These are design concepts rather than manufactured products, verified repair instructions or environmental performance claims. The visitor can inspect a whole object, separate its parts, replace one illustrative joint and choose two to four exhibition stops to carry away as text.
 
 ## Signature
 
