@@ -6323,7 +6323,7 @@
     {
       "id": "P66",
       "title": "Correction: prompts README in English",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P63"
       ],
@@ -6337,6 +6337,11 @@
           "name": "Unit tests",
           "status": "pass",
           "details": "108/108."
+        },
+        {
+          "name": "PR #186 CI",
+          "status": "pass",
+          "details": "Scope and queue passed; docs-only change, so source and browser gates were skipped by scope."
         }
       ],
       "evidence_paths": [
@@ -6344,15 +6349,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T18:58:27Z",
-      "updated_at": "2026-10-25T18:59:16.917Z",
+      "updated_at": "2026-10-25T19:10:09.957Z",
       "branch": "task/p66-prompts-readme-en",
       "base_commit": "1394822e8305af6b13687e58bd0371d94ac1f5dd",
       "evidence_commit": "551a24b723af803845734289fd81e7fc77daf3b0",
-      "merge_commit": null,
+      "merge_commit": "5b5fb2296a8fd87967dba97f6897694c5de8608a",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/186",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "prompts/README.md translated; PR open, awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 5b5fb22 by the owner. prompts/README.md is English; README.lt.md prompt count fixed (22)."
     }
   ]
 }
