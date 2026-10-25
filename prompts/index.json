@@ -70,15 +70,15 @@
       "style_id": "modular-light",
       "name": "Modular Light",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/modular-light/prompt.lt.md",
-      "demo_brand": "Kinta",
+      "language": "en",
+      "prompt_path": "prompts/modular-light/prompt.en.md",
+      "demo_brand": "Plivane",
       "variants": {
-        "a": "Modulinio šviestuvo katalogo atvartas",
-        "b": "Surinkimo darbastalis su numeruota išklotine"
+        "a": "A catalogue spread for a modular lamp",
+        "b": "An assembly workbench with a numbered exploded view"
       },
-      "signature": "Penki popieriaus ir aliuminio moduliai; valdoma išklotinė; matomas šviesos kūgis",
-      "acceptance": "Modulių kiekis, atspalvis ir paskirtis pakeičia objektą bei gabaritų santrauką; eksportas ir atšaukimas veikia.",
+      "signature": "Five paper and aluminium modules; a controllable exploded view; a visible cone of light",
+      "acceptance": "The number of modules, the shade and the purpose change the object and the size summary; export and undo work.",
       "enhancement": "webgl",
       "closest_styles": [
         "industrial-spec",
