@@ -9,12 +9,12 @@ export function initializeBooking(root){
  function renderTimes(){
   const old=state.slot;times.replaceChildren();
   for(const time of slots){const count=available(date.value,time,+guests.value,range).length,label=document.createElement('label');label.className='time-option';const input=document.createElement('input');input.type='radio';input.name='time';input.value=time;input.disabled=!count;input.checked=old===time;input.setAttribute('aria-describedby','time-error');
-   const text=document.createElement('span'),small=document.createElement('small');text.textContent=time;small.textContent=count?`${count} ${count===1?'stalas':'stalai'}`:'Pilna';label.append(input,text,small);times.append(label);
+   const text=document.createElement('span'),small=document.createElement('small');text.textContent=time;small.textContent=count?`${count} ${count===1?'table':'tables'}`:'Full';label.append(input,text,small);times.append(label);
   }
  }
  function renderRoom(){
   const free=available(date.value,state.slot,+guests.value,range),ids=new Set(free.map(t=>t.id));
-  for(const table of tables){const input=room.querySelector(`[value="${table.id}"]`),label=input.closest('label'),small=label.querySelector('[data-table-state]');const reason=!state.slot?'Time first':table.capacity<+guests.value?'Too small':ids.has(table.id)?'Laisvas':'Taken';input.disabled=reason!=='Laisvas';input.checked=state.table===table.id;label.dataset.state=input.checked?'selected':reason==='Laisvas'?'available':'unavailable';small.textContent=input.checked?'Pasirinktas':reason;input.setAttribute('aria-label',`Table ${table.id}, ${table.zone}, up to ${table.capacity} guests. ${small.textContent}.`);}
+  for(const table of tables){const input=room.querySelector(`[value="${table.id}"]`),label=input.closest('label'),small=label.querySelector('[data-table-state]');const reason=!state.slot?'Time first':table.capacity<+guests.value?'Too small':ids.has(table.id)?'Free':'Taken';input.disabled=reason!=='Free';input.checked=state.table===table.id;label.dataset.state=input.checked?'selected':reason==='Free'?'available':'unavailable';small.textContent=input.checked?'Chosen':reason;input.setAttribute('aria-label',`Table ${table.id}, ${table.zone}, up to ${table.capacity} guests. ${small.textContent}.`);}
  }
  function renderAvailability(resetMessage=''){
   const kind=dateState(date.value,range),count=slots.filter(s=>available(date.value,s,+guests.value,range).length).length;
