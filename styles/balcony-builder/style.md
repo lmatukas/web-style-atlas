@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A bold balcony promise beside an overhead planter and complete conditions sheet; B a current-step worksheet beside the live result.", "typography": "Large soft-curved DejaVu Sans promises and clear Arial practical reasons, with round substantial controls.", "navigation": "Builder, bounded growth sketch and native FAQ links plus real offer/workshop siblings.", "content_rhythm": "Offer, three situations, conditions and broad composition versus one current step with immediate visual result.", "imagery": "Original modular SVG box with tomato/pepper or lettuce/spinach shapes and a finite four-leaf branch.", "color_and_material": "Deep plum, bright lime, warm white and coral; a white result area with dark readable records.", "interaction": "Three actual inputs, consistent reasons/composition, include, explicit local save, edit, cross-layout restore and own-key removal.", "motion": "800ms module assembly, 500ms botanical change, 350ms composition expansion and monotonic finite branch unfolding."}
 status: "ready"
-prompt_path: "prompts/balcony-builder/prompt.lt.md"
+prompt_path: "prompts/balcony-builder/prompt.en.md"
 ---
 
 # Balcony Builder
 
 ## Intent
 
-Balcony Builder makes a small urban-growing proposition into a clear three-input choice. The fictional Želmuo identity offers a modular planter concept, playful original botanical illustration and a concrete explanation of the selected demonstration kit. Visitors choose light, available module places and experience, include the resulting kit and explicitly save it in this browser. The reference does not sell hardware, promise a harvest or simulate an order. Its energy supports a practical decision rather than decorative movement alone.
+Balcony Builder makes a small urban-growing proposition into a clear three-input choice. The fictional Sprouvel identity offers a modular planter concept, playful original botanical illustration and a concrete explanation of the selected demonstration kit. Visitors choose light, available module places and experience, include the resulting kit and explicitly save it in this browser. The reference does not sell hardware, promise a harvest or simulate an order. Its energy supports a practical decision rather than decorative movement alone.
 
 ## Signature
 

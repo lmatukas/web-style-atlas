@@ -217,15 +217,15 @@
       "style_id": "balcony-builder",
       "name": "Balcony Builder",
       "family": "commercial",
-      "language": "lt",
-      "prompt_path": "prompts/balcony-builder/prompt.lt.md",
-      "demo_brand": "Želmuo",
+      "language": "en",
+      "prompt_path": "prompts/balcony-builder/prompt.en.md",
+      "demo_brand": "Sprouvel",
       "variants": {
-        "a": "Ryškus sodinimo dėžės pasiūlymas ir auginimo eiga",
-        "b": "Trijų žingsnių balkono rinkinio parinkimo dirbtuvė"
+        "a": "A bold planter box offer and how it grows",
+        "b": "A three-step workshop for picking a balcony kit"
       },
-      "signature": "Modulinė sodinimo dėžė; botaninė iliustracija; produkto surinkimas ir pasirinkimų paaiškinimas",
-      "acceptance": "Šviesa, plotas ir patirtis pateikia pagrįstą demonstracinį rinkinį; galima vietoje išsaugoti ir pakeisti pasirinkimus.",
+      "signature": "A modular planter box; botanical illustration; assembling the product and explaining the choices",
+      "acceptance": "Light, area and experience produce a reasoned demonstration kit; the choices can be saved locally and changed.",
       "enhancement": "svg-or-webgl",
       "closest_styles": [
         "pop-commerce",
