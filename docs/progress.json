@@ -5778,23 +5778,46 @@
     {
       "id": "P54",
       "title": "English conversion: Membrane Score",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P53"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews; footer advisory lists five backlog styles."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 14 cases, qa-duration, qa-audio, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P54.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:02:07Z",
-      "updated_at": "2026-10-25T15:02:07.208Z",
+      "updated_at": "2026-10-25T15:06:40.437Z",
       "branch": "task/p54-membrane-score-en",
       "base_commit": "93eb7441a2ec26723cd76306b8f29397b844c8a3",
-      "evidence_commit": null,
+      "evidence_commit": "52a0c8906713736943ac80450ba625bead90ff64",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/175",
       "blocker": null,
-      "next_action": "Implement P54 on task/p54-membrane-score-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Membrane Score converted to English; brand Tessaryn; awaiting CI."
     },
     {
       "id": "P55",
