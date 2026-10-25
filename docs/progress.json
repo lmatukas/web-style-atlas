@@ -6309,6 +6309,29 @@
       "blocker": null,
       "next_action": "Owner: merge PR #185 (CI green), run Verify release and optionally publish Pages on main with publish=true, then record the run, deployed SHA and live checks (50 cards, English luxury filter, one converted reference page) in docs/releases/1.4.0.md and mark P64 done.",
       "handoff": "Stopped at the owner step. P37-P63 and P65 are merged and done; all 50 directions are English, LITHUANIAN_BACKLOG is empty, distinctiveness has 0 warnings. PR #185 (release 1.4.0) is open with all three CI checks green on bb2b083; all 200 previews were regenerated (run 40210953840). Not merged on purpose: the card says the owner merges and publishes. Follow-up idea, not queued: prompts/README.md is still written in Lithuanian."
+    },
+    {
+      "id": "P66",
+      "title": "Correction: prompts README in English",
+      "status": "todo",
+      "depends_on": [
+        "P63"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P66.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P66 and translate prompts/README.md.",
+      "handoff": "Found during P64: prompts/README.md is still Lithuanian."
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 126/127.**
+**Baigta: 126/128.**
 
 **Pirmiausia patikrinti P64: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
@@ -137,5 +137,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P62](tasks/P62.md) | English conversion: Twilight Expedition | Baigta | agent/015fh6w2uenf | task/p62-twilight-expedition-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/183) | 2026-10-25T16:09:51.717Z | None. Task done. |
 | [P63](tasks/P63.md) | English conversion: Woven Field | Baigta | agent/015fh6w2uenf | task/p63-woven-field-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/184) | 2026-10-25T16:15:15.830Z | None. Task done. |
 | [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Laukia peržiūros | agent/015fh6w2uenf | task/p64-release-1-4-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/185) | 2026-10-25T18:40:37.766Z | Owner: merge PR #185 (CI green), run Verify release and optionally publish Pages on main with publish=true, then record the run, deployed SHA and live checks (50 cards, English luxury filter, one converted reference page) in docs/releases/1.4.0.md and mark P64 done. |
+| [P66](tasks/P66.md) | Correction: prompts README in English | Laukia | — | — | — | — | Claim P66 and translate prompts/README.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
