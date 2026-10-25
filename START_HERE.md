@@ -22,10 +22,10 @@ and claim protocol themselves; the script does not create a lock or merge a PR.
 
 ## 50-direction catalogue
 
-Release 1.3.0 has 50 ready styles, 100 A/B references and 200 current previews,
-including twenty-two linked full creation prompts; eleven luxury directions were added
-in S52–S62 and open the gallery. See [1.3.0 release notes](docs/releases/1.3.0.md);
-1.2.0, 1.1.0 and 1.0.0 history is preserved.
+Release 1.4.0 has 50 ready styles, 100 A/B references and 200 current previews,
+including twenty-two linked full creation prompts; every page and prompt is in
+English after P37–P65. See [1.4.0 release notes](docs/releases/1.4.0.md);
+1.3.0, 1.2.0, 1.1.0 and 1.0.0 history is preserved.
 Read [the expansion plan](docs/prompt-expansion-plan.md) only when its selected
 card requires it. The same applies to
 [the luxury expansion plan](docs/luxury-expansion-plan.md) for P25–P28 and S52–S62. Use `catalog/index.json` for actual available source directions;
