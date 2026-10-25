@@ -5778,22 +5778,22 @@
     {
       "id": "P54",
       "title": "English conversion: Membrane Score",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P53"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T15:02:07Z",
+      "updated_at": "2026-10-25T15:02:07.208Z",
+      "branch": "task/p54-membrane-score-en",
+      "base_commit": "93eb7441a2ec26723cd76306b8f29397b844c8a3",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P54 and follow docs/tasks/P54.md.",
+      "next_action": "Implement P54 on task/p54-membrane-score-en.",
       "handoff": null
     },
     {
