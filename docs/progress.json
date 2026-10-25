@@ -5239,7 +5239,7 @@
     {
       "id": "P44",
       "title": "English conversion: Velvet Members Hall",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P43"
       ],
@@ -5263,6 +5263,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #164 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 72bad7e."
         }
       ],
       "evidence_paths": [
@@ -5270,15 +5275,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:23:37Z",
-      "updated_at": "2026-10-25T10:28:11.412Z",
+      "updated_at": "2026-10-25T10:30:35.382Z",
       "branch": "task/p44-velvet-members-hall-en",
       "base_commit": "ddcc355e779440a9dc4bb3277ce12be9efacbf0c",
       "evidence_commit": "72bad7eecabb5cfb601ca6f3918ba4987a1c7f38",
-      "merge_commit": null,
+      "merge_commit": "0190ca14d7931e7e09a136f5159631a0b40f9233",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/164",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Velvet Members Hall in English (linked prompt prompt.en.md); backlog 19."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 0190ca1. Velvet Members Hall in English; backlog 19."
     },
     {
       "id": "P45",
