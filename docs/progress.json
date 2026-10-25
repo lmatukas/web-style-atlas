@@ -6268,24 +6268,47 @@
     {
       "id": "P64",
       "title": "Release 1.4.0: every direction in English",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P63",
         "P65"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "release gate",
+          "status": "pass",
+          "details": "1.4.0: 50 styles / 100 variants / 200 previews."
+        },
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes after full canonical preview render (run 40210953840)."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Release workflow verify/deploy",
+          "status": "not_run",
+          "details": "Owner runs it after merging, per the card."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P64.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T16:15:30Z",
-      "updated_at": "2026-10-25T16:15:30.976Z",
+      "updated_at": "2026-10-25T16:21:36.289Z",
       "branch": "task/p64-release-1-4-0",
       "base_commit": "bb0bf0cf1ae040dab414121a40e294ba3bc06632",
-      "evidence_commit": null,
+      "evidence_commit": "bb2b0835b8bd86aec636bddbab27fd567f55318d",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/185",
       "blocker": null,
-      "next_action": "Implement P64 on task/p64-release-1-4-0.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Release 1.4.0 prepared; PR open. Owner merges, runs the release workflow with publish=true, then live checks are recorded and P64 marked done."
     }
   ]
 }
