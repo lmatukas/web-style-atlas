@@ -19,18 +19,18 @@ function schedule() { if (!raf && !paused && !disposed && inView && !document.hi
 function tick(t) {
   raf = 0; if (!start) start = t - progress * DURATION;
   progress = Math.min(1, (t - start) / DURATION); phase = progress; apply();
-  if (progress >= 1) status.textContent = 'Šviesos įsijungė. Veskite pelę per nuotrauką — žibintų šviesa seka paskui.';
+  if (progress >= 1) status.textContent = 'The lights are on. Move the pointer over the photograph and the lantern glow follows.';
   schedule();
 }
 function settle(reason) {
   stop(); progress = 1; phase = 1; apply();
-  status.textContent = `Statinis vaizdas: ${reason}. Rezervacija veikia.`;
-  toggle.disabled = true; toggle.textContent = 'Statinis vaizdas';
+  status.textContent = `Static fallback: ${reason}. Booking still works.`;
+  toggle.disabled = true; toggle.textContent = 'Static view';
 }
 
 toggle.addEventListener('click', () => {
   paused = !paused; toggle.setAttribute('aria-pressed', String(paused));
-  toggle.textContent = paused ? 'Tęsti šviesą' : 'Sustabdyti šviesą';
+  toggle.textContent = paused ? 'Resume the light' : 'Pause the light';
   if (paused) stop(); else schedule();
 });
 function follow(event) {
@@ -45,10 +45,10 @@ const observer = new IntersectionObserver(entries => { inView = entries[0].isInt
 observer.observe(scene);
 const onVisibility = () => { if (document.hidden) stop(); else schedule(); };
 document.addEventListener('visibilitychange', onVisibility);
-reduced.addEventListener('change', () => { if (reduced.matches) settle('sumažintas judesys'); else { toggle.disabled = false; toggle.textContent = paused ? 'Tęsti šviesą' : 'Sustabdyti šviesą'; } });
+reduced.addEventListener('change', () => { if (reduced.matches) settle('reduced motion'); else { toggle.disabled = false; toggle.textContent = paused ? 'Resume the light' : 'Pause the light'; } });
 function dispose() { if (disposed) return; disposed = true; stop(); observer.disconnect(); scene.removeEventListener('pointermove', follow); document.removeEventListener('visibilitychange', onVisibility); }
 addEventListener('pagehide', dispose);
 
 window.atlasRuntime = { get state() { return { progress, frames, active: Boolean(raf), disposed, mode: 'html', lit: phase, paused }; }, dispose };
-if (reduced.matches) settle('sumažintas judesys');
-else { status.textContent = 'Vakaras. Žibintai įsijungia…'; apply(); schedule(); }
+if (reduced.matches) settle('reduced motion');
+else { status.textContent = 'Evening. The lanterns come on…'; apply(); schedule(); }
