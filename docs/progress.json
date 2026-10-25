@@ -6023,22 +6023,22 @@
     {
       "id": "P59",
       "title": "English conversion: Seasonal Terrain",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P58"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T15:36:33Z",
+      "updated_at": "2026-10-25T15:36:33.985Z",
+      "branch": "task/p59-seasonal-terrain-en",
+      "base_commit": "2e20c7648acc8fcc3bf0b8b858677b48ea8c4b0f",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P59 and follow docs/tasks/P59.md.",
+      "next_action": "Implement P59 on task/p59-seasonal-terrain-en.",
       "handoff": null
     },
     {
