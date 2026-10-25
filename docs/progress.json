@@ -5925,22 +5925,22 @@
     {
       "id": "P57",
       "title": "English conversion: Resonant Ribbon",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P56"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T15:23:54Z",
+      "updated_at": "2026-10-25T15:23:54.459Z",
+      "branch": "task/p57-resonant-ribbon-en",
+      "base_commit": "4c87a672b4f6550c8a4de75d2f8ed8e57ebe4b0c",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P57 and follow docs/tasks/P57.md.",
+      "next_action": "Implement P57 on task/p57-resonant-ribbon-en.",
       "handoff": null
     },
     {
