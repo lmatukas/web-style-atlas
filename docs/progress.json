@@ -5631,7 +5631,7 @@
     {
       "id": "P51",
       "title": "English conversion: Choreographic Stage",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P50"
       ],
@@ -5655,6 +5655,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #172 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5662,15 +5667,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:43:39Z",
-      "updated_at": "2026-10-25T14:46:56.293Z",
+      "updated_at": "2026-10-25T14:49:09.088Z",
       "branch": "task/p51-choreographic-stage-en",
       "base_commit": "488e615f836f29c12d27b622509b3132286d534d",
       "evidence_commit": "23ea5d23ca01d12472c6b522fe4a6eab52795a87",
-      "merge_commit": null,
+      "merge_commit": "fd0c369ce5630ce3b012825af28ccc27c74e2890",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/172",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Choreographic Stage converted to English; brand Oryndel Studio; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in fd0c369. Choreographic Stage is English; brand Oryndel Studio; anchors and session titles renamed with the copy."
     },
     {
       "id": "P52",

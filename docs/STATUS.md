@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 113/127.**
+**Baigta: 114/127.**
 
-**Pirmiausia patikrinti P51: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P52](tasks/P52.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -123,7 +123,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P65](tasks/P65.md) | Correction: Lithuanian words left in converted luxury scripts | Baigta | agent/015fh6w2uenf | task/p65-leftover-lithuanian | [PR](https://github.com/lmatukas/web-style-atlas/pull/169) | 2026-10-25T14:25:07.759Z | None. Task done. |
 | [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Baigta | agent/015fh6w2uenf | task/p49-acoustic-sculpture-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/170) | 2026-10-25T14:35:25.939Z | None. Task done. |
 | [P50](tasks/P50.md) | English conversion: Balcony Builder | Baigta | agent/015fh6w2uenf | task/p50-balcony-builder-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/171) | 2026-10-25T14:43:36.367Z | None. Task done. |
-| [P51](tasks/P51.md) | English conversion: Choreographic Stage | Laukia peržiūros | agent/015fh6w2uenf | task/p51-choreographic-stage-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/172) | 2026-10-25T14:46:56.293Z | Wait for CI, merge, mark done. |
+| [P51](tasks/P51.md) | English conversion: Choreographic Stage | Baigta | agent/015fh6w2uenf | task/p51-choreographic-stage-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/172) | 2026-10-25T14:49:09.088Z | None. Task done. |
 | [P52](tasks/P52.md) | English conversion: Discovery Cabinet | Laukia | — | — | — | — | Claim P52 and follow docs/tasks/P52.md. |
 | [P53](tasks/P53.md) | English conversion: Light Environments | Laukia | — | — | — | — | Claim P53 and follow docs/tasks/P53.md. |
 | [P54](tasks/P54.md) | English conversion: Membrane Score | Laukia | — | — | — | — | Claim P54 and follow docs/tasks/P54.md. |
