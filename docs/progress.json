@@ -5974,22 +5974,22 @@
     {
       "id": "P58",
       "title": "English conversion: Rhythm Planner",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P57"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T15:30:12Z",
+      "updated_at": "2026-10-25T15:30:12.264Z",
+      "branch": "task/p58-rhythm-planner-en",
+      "base_commit": "61fa2a3a939a0349ca308800c92655485a73b62e",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P58 and follow docs/tasks/P58.md.",
+      "next_action": "Implement P58 on task/p58-rhythm-planner-en.",
       "handoff": null
     },
     {
