@@ -5974,7 +5974,7 @@
     {
       "id": "P58",
       "title": "English conversion: Rhythm Planner",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P57"
       ],
@@ -5998,6 +5998,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #179 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -6005,15 +6010,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:30:12Z",
-      "updated_at": "2026-10-25T15:34:13.240Z",
+      "updated_at": "2026-10-25T15:36:31.383Z",
       "branch": "task/p58-rhythm-planner-en",
       "base_commit": "61fa2a3a939a0349ca308800c92655485a73b62e",
       "evidence_commit": "a1ae6b663f39d9cf6456df47b245510bc4442763",
-      "merge_commit": null,
+      "merge_commit": "25ea1a1c65a9848f7e69fa8f83c1d3519ec559ea",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/179",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Rhythm Planner converted to English; brand Cadenly; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 25ea1a1. Rhythm Planner is English; brand Cadenly; it left the footer-boilerplate advisory."
     },
     {
       "id": "P59",

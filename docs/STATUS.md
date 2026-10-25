@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 120/127.**
+**Baigta: 121/127.**
 
-**Pirmiausia patikrinti P58: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P59](tasks/P59.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -130,7 +130,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P55](tasks/P55.md) | English conversion: Modular Light | Baigta | agent/015fh6w2uenf | task/p55-modular-light-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/176) | 2026-10-25T15:18:21.869Z | None. Task done. |
 | [P56](tasks/P56.md) | English conversion: Repair Atlas | Baigta | agent/015fh6w2uenf | task/p56-repair-atlas-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/177) | 2026-10-25T15:23:51.757Z | None. Task done. |
 | [P57](tasks/P57.md) | English conversion: Resonant Ribbon | Baigta | agent/015fh6w2uenf | task/p57-resonant-ribbon-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/178) | 2026-10-25T15:30:09.365Z | None. Task done. |
-| [P58](tasks/P58.md) | English conversion: Rhythm Planner | Laukia peržiūros | agent/015fh6w2uenf | task/p58-rhythm-planner-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/179) | 2026-10-25T15:34:13.240Z | Wait for CI, merge, mark done. |
+| [P58](tasks/P58.md) | English conversion: Rhythm Planner | Baigta | agent/015fh6w2uenf | task/p58-rhythm-planner-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/179) | 2026-10-25T15:36:31.383Z | None. Task done. |
 | [P59](tasks/P59.md) | English conversion: Seasonal Terrain | Laukia | — | — | — | — | Claim P59 and follow docs/tasks/P59.md. |
 | [P60](tasks/P60.md) | English conversion: Spine Editions | Laukia | — | — | — | — | Claim P60 and follow docs/tasks/P60.md. |
 | [P61](tasks/P61.md) | English conversion: Trail Composer | Laukia | — | — | — | — | Claim P61 and follow docs/tasks/P61.md. |
