@@ -91,15 +91,15 @@
       "style_id": "twilight-expedition",
       "name": "Twilight Expedition",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/twilight-expedition/prompt.lt.md",
-      "demo_brand": "Aukščio linija",
+      "language": "en",
+      "prompt_path": "prompts/twilight-expedition/prompt.en.md",
+      "demo_brand": "Hesperyn",
       "variants": {
-        "a": "Panorama nuo sutemų iki nakties ir trys atvykimo skyriai",
-        "b": "Reljefo maršrutų atlasas su laiko ir sustojimų planu"
+        "a": "A panorama from twilight to night and three arrival sections",
+        "b": "A relief route atlas with a time and stop plan"
       },
-      "signature": "Viena stabili panorama; sutemos pereina į naktį; ribotas kameros poslinkis",
-      "acceptance": "Maršrutas, trukmė ir dalyviai atnaujina sustojimus bei užklausą; nėra tariamų orų ar rezervacijų.",
+      "signature": "One stable panorama; twilight turns into night; a limited camera shift",
+      "acceptance": "Route, length and participants update the stops and the enquiry; no pretend weather or bookings.",
       "enhancement": "webgl",
       "closest_styles": [
         "cinematic-photo",
