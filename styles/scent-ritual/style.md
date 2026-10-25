@@ -21,7 +21,7 @@ signature:
   interaction: Pointer or native range input tilts the liquid; all 27 quiz combinations map to an explained scent; up to three distinct 2 ml samples form an exact local summary.
   motion: An initial 1.5-second light and liquid episode settles; later episodes are bounded, with pause, reduced motion, offscreen/hidden suspension and disposal.
 status: ready
-prompt_path: prompts/scent-ritual/prompt.lt.md
+prompt_path: prompts/scent-ritual/prompt.en.md
 ---
 
 # Scent Ritual

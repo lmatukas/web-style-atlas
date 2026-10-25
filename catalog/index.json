@@ -2012,7 +2012,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Scent Ritual",
-      "prompt_path": "prompts/scent-ritual/prompt.lt.md",
+      "prompt_path": "prompts/scent-ritual/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "White and graphite with rose, amber, pale green and ivory light; transparent glass edges and an illuminated liquid surface.",
