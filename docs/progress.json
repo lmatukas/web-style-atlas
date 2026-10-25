@@ -6268,23 +6268,23 @@
     {
       "id": "P64",
       "title": "Release 1.4.0: every direction in English",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P63",
         "P65"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T16:15:30Z",
+      "updated_at": "2026-10-25T16:15:30.976Z",
+      "branch": "task/p64-release-1-4-0",
+      "base_commit": "bb0bf0cf1ae040dab414121a40e294ba3bc06632",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P64 and follow docs/tasks/P64.md.",
+      "next_action": "Implement P64 on task/p64-release-1-4-0.",
       "handoff": null
     }
   ]
