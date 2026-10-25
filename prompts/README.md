@@ -1,48 +1,55 @@
-# Svetainių kūrimo promptai
+# Website creation prompts
 
-Čia laikomi vieši, savarankiški kūrimo promptai su projekto pritaikymo laukais.
-Kiekvienas numato A ir B kompoziciją, konkretų judesį, veikiančią funkciją ir patikras.
+This folder holds public, self-contained creation prompts with fields for
+adapting them to a project. Each one sets out an A and a B composition,
+specific motion, a working function and the checks to run.
 
-Tai paruošti kūrimo briefai, o ne jau įgyvendintų pavyzdžių sąrašas. Tikrą
-paruoštų stilių būseną rodo [ready katalogas](../catalog/index.json).
-[Promptų registras](index.json) sieja promptus su S25–S39 užduotimis; jis nėra
-antroji ready būsena ir nesuteikia teisės žymėti neegzistuojančių pavyzdžių paruoštais.
+These are prepared creation briefs, not a list of finished examples. The
+[ready catalogue](../catalog/index.json) shows which styles are actually ready.
+The [prompt registry](index.json) links the briefs to tasks S25–S39 and
+S52–S62; it is not a second ready status and never makes a missing example
+count as ready.
 
-Pasirinkite vieno stiliaus `prompt.lt.md`, užpildykite pradžioje esančius laukus
-ir pateikite visą promptą savo programavimo agentui naujos svetainės projekte.
-Galima palikti demonstracinę temą. Ready krypties galerijos kortelėje galima
-peržiūrėti pilną tekstą ir kopijuoti jį su pasirinktu A/B. Animacijų bei
-technologijų patikras parengs P16, pavyzdžius – atitinkamos S užduotys.
+Pick one style's `prompt.en.md`, fill in the fields at the top and give the
+whole prompt to your coding agent in a new website project. You can keep the
+demonstration theme. On a ready direction's gallery card you can read the full
+text and copy it with the A/B you chose. Animation and technology checks come
+from P16; the examples come from the matching S tasks.
 
-## Ryšys su paruoštu stiliumi
+## Linking a prompt to a ready style
 
-Prie `styles/<id>/style.md` YAML metaduomenų pasirinktinai pridėkite:
+Optionally add this to the YAML metadata of `styles/<id>/style.md`:
 
 ```yaml
 prompt_path: prompts/<id>/prompt.<language>.md
 ```
 
-`<language>` yra `lt` arba `en` ir turi sutapti su briefo `language` lauku.
+`<language>` is `en` or `lt` and must match the brief's `language` field. Since
+1.4.0 every brief is English (`prompt.en.md`); the schema still accepts
+`prompt.lt.md` for a future Lithuanian brief.
 
-Kelias turi tiksliai atitikti stiliaus ID ir jo `prompts/index.json` įrašą.
-Leidžiamas tik esamas vietinis UTF-8 tekstas iki 64 KiB, be symlinkų ar NUL.
-Registro schema ir visų jame nurodytų briefų šaltiniai tikrinami net tada, kai
-jų pavyzdžiai dar nesukurti. Registras nėra ready būsenos šaltinis.
+The path must match the style ID and its `prompts/index.json` entry exactly.
+Only an existing local UTF-8 text file of up to 64 KiB is allowed, with no
+symlinks or NUL bytes. The registry schema and the source of every brief it
+lists are checked even when their examples do not exist yet. The registry is
+not a source of ready status.
 
-Build perkelia šį optional lauką į generated ready indeksą ir į `dist` kopijuoja
-tik ready stilių pasirinktus promptus. Visas planavimo registras ir neprijungti
-briefai į `dist` nepatenka. Pašalinus ready ryšį, ankstesnė dist kopija pašalinama.
-Esamiems stiliams be `prompt_path` lieka ankstesnis selection promptas.
+Build carries this optional field into the generated ready index and copies
+into `dist` only the linked prompts of ready styles. The full planning registry
+and unlinked briefs never reach `dist`. When a ready link is removed, the
+earlier copy in `dist` is removed too. Existing styles without `prompt_path`
+keep the earlier selection prompt.
 
-Galerija pateikia pilną tekstą, projekto pritaikymo laukus ir pasirinktą A/B;
-kompozicijos laukas užpildomas pasirinkta reikšme. Kitas tekstas išsaugomas.
-Markdown ir jame esantis HTML rodomi tik kaip tekstas. Failo pakrovimo klaida
-neleidžia vietoje pilno prompto nukopijuoti trumpos instrukcijos: galima kartoti
-pakrovimą. Kai clipboard nepasiekiamas ar atsisako leidimo, parenkamas tas pats
-pilnas tekstas rankiniam kopijavimui. Svetainė veikia ir projekto subpath iš dist,
-be GitHub prieigos. Vartotojas po kopijavimo užpildo laukus savo projekte.
+The gallery shows the full text, the project fields and the chosen A/B; the
+composition field is filled with the chosen value and the rest of the text is
+kept as written. Markdown and any HTML inside it are shown as plain text only.
+If the file fails to load, the gallery never copies a short instruction in its
+place: you can retry the load. When the clipboard is unavailable or permission
+is refused, the same full text is selected for manual copying. The site works
+from `dist` under a project subpath, without GitHub access. After copying, fill
+in the fields in your own project.
 
-## English prompts
+## Writing an English prompt
 
 An English brief lives at `prompts/<id>/prompt.en.md` and has `language: "en"`
 in `prompts/index.json`. The gallery fills the selected A/B into this exact
@@ -52,13 +59,13 @@ line, so keep it word for word:
 - Composition: [A OR B; default A].
 ```
 
-Use `[FILL IN]`-style project fields and end with a `## Final check` section, in
-the same order as the Lithuanian briefs. A Lithuanian brief keeps
-`- Kompozicija: [A ARBA B; numatytoji A].` until its style is converted.
+Use `[FILL IN]`-style project fields and end with a `## Final check` section.
+A Lithuanian brief, if one is added later, uses
+`- Kompozicija: [A ARBA B; numatytoji A].` instead.
 
-Pradinis savininko pateiktas rinkinys ir jo įkvėpimo šaltinių atitikmenys nėra
-šio viešo repo dalis. Viešuose promptuose nėra jų pavadinimų ar nuorodų.
-Nuosavi promptų tekstai naudojami pagal repo MIT licenciją; tai nesuteikia
-teisių į kitų žmonių vaizdus, modelius, šriftus ar garsus.
+The owner's original prompt set and the sources that inspired it are not part
+of this public repository. Public prompts contain no names of or links to them.
+The prompt texts themselves are used under the repository's MIT licence; this
+gives no rights to other people's images, models, fonts or sounds.
 
-[Plėtros planas](../docs/prompt-expansion-plan.md) · [Darbų lentelė](../docs/STATUS.md).
+[Expansion plan](../docs/prompt-expansion-plan.md) · [Work board](../docs/STATUS.md).
