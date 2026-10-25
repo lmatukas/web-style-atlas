@@ -6023,7 +6023,7 @@
     {
       "id": "P59",
       "title": "English conversion: Seasonal Terrain",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P58"
       ],
@@ -6047,6 +6047,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #180 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -6054,15 +6059,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:36:33Z",
-      "updated_at": "2026-10-25T15:39:54.979Z",
+      "updated_at": "2026-10-25T15:42:14.659Z",
       "branch": "task/p59-seasonal-terrain-en",
       "base_commit": "2e20c7648acc8fcc3bf0b8b858677b48ea8c4b0f",
       "evidence_commit": "c5661da205e7fc4f0b4d3a79a221bc4ca9f768cc",
-      "merge_commit": null,
+      "merge_commit": "4ba445b599875e2300081da482750ec9c71aaa62",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/180",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Seasonal Terrain converted to English; brand Glebora; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 4ba445b. Seasonal Terrain is English; brand Glebora; season and frequency values renamed with the copy."
     },
     {
       "id": "P60",
