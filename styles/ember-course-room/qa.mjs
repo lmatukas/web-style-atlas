@@ -58,7 +58,9 @@ try{
   await page.getByRole('button',{name:'Clear summary'}).click();assert.equal(await confirmation.isVisible(),false);assert.equal(await note.inputValue(),'');assert.equal(await guests.inputValue(),'2');assert.equal(await page.locator('[name="table"]:checked').count(),0);assert.equal(await page.locator('[name="demo"]').isChecked(),false);assert.equal(await confirmation.locator('dd').count(),0);
   if(file==='index'){
    await page.locator('[data-course-record="0"]').evaluate(e=>e.scrollIntoView({block:'center'}));await page.waitForFunction(()=>document.querySelector('[data-course-count]').textContent==='01 / 10');
-   await page.getByRole('button',{name:'Next course',exact:true}).click();await page.waitForFunction(()=>document.querySelector('[data-course-count]').textContent==='02 / 10');
+   // Bring the arrow into view first: that scroll may legitimately move the reading line to a later course.
+   const nextButton=page.getByRole('button',{name:'Next course',exact:true});await nextButton.scrollIntoViewIfNeeded();await page.waitForTimeout(50);const before=await page.locator('[data-course-count]').textContent(),expected=`${String(Number(before.slice(0,2))+1).padStart(2,'0')} / 10`;
+   await nextButton.click();await page.waitForFunction(text=>document.querySelector('[data-course-count]').textContent===text,expected);
    await page.locator('[data-course-record="8"]').evaluate(e=>e.scrollIntoView({block:'center'}));await page.waitForFunction(()=>document.querySelector('[data-course-count]').textContent==='09 / 10');assert.match(await page.locator('[data-course-photo]').getAttribute('src'),/pear/);
    await page.getByRole('button',{name:'Pause the light'}).click();const warmth=await page.evaluate(()=>document.documentElement.style.getPropertyValue('--evening'));await page.getByRole('button',{name:'Previous course'}).click();assert.equal(await page.evaluate(()=>document.documentElement.style.getPropertyValue('--evening')),warmth);
   }else{
