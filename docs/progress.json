@@ -5876,23 +5876,46 @@
     {
       "id": "P56",
       "title": "English conversion: Repair Atlas",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P55"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 12 cases, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P56.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:18:24Z",
-      "updated_at": "2026-10-25T15:18:24.744Z",
+      "updated_at": "2026-10-25T15:21:39.855Z",
       "branch": "task/p56-repair-atlas-en",
       "base_commit": "61bfae4af9682614e459542daecf1e2f2aa3a51c",
-      "evidence_commit": null,
+      "evidence_commit": "6a9c79c55961c2ea8320bed8d593994b06ca37db",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/177",
       "blocker": null,
-      "next_action": "Implement P56 on task/p56-repair-atlas-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Repair Atlas converted to English; brand Mendaval Objects; awaiting CI."
     },
     {
       "id": "P57",
