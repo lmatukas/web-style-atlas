@@ -2378,7 +2378,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Trail Composer",
-      "prompt_path": "prompts/trail-composer/prompt.lt.md",
+      "prompt_path": "prompts/trail-composer/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Pale map paper, lake blue, moss green and small orange route marks.",

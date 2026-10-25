@@ -280,15 +280,15 @@
       "style_id": "trail-composer",
       "name": "Trail Composer",
       "family": "illustrative",
-      "language": "lt",
-      "prompt_path": "prompts/trail-composer/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/trail-composer/prompt.en.md",
       "demo_brand": "Keliata",
       "variants": {
-        "a": "Vertikali tako schema ir išvykos nuotaikos",
-        "b": "Dienos plano lentelė su susietais sustojimais ir pasiruošimu"
+        "a": "A vertical trail diagram and outing moods",
+        "b": "A day plan sheet with linked stops and preparation"
       },
-      "signature": "Popierinis maršrutas; baigtinis kelio brėžimas; vertikali sustojimų seka",
-      "acceptance": "Trukmė, intensyvumas ir nuotaika parenka vieną iš trijų aiškiai demonstracinių planų; pasiruošimo sąrašas ir TXT eksportas veikia.",
+      "signature": "A paper route; a finite path drawing; a vertical sequence of stops",
+      "acceptance": "Length, pace and mood pick one of three clearly demonstrational plans; the preparation list and TXT export work.",
       "enhancement": "svg",
       "closest_styles": [
         "field-notes",
