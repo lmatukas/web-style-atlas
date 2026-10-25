@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A clock-led proposition before an editor; B narrow task worksheet beside immediate temporal output.", "typography": "Oversized tabular Arial digits with readable practical labels.", "navigation": "Editor/result/principle anchors and real A/B siblings.", "content_rhythm": "Product-to-demonstration versus editor-to-immediate-plan.", "imagery": "Original HTML time digits and proportional duration marks.", "color_and_material": "Cobalt, pale lavender, warm white and near-black result text.", "interaction": "Three tasks, break choice, reorder, validation and actual JSON/TXT export.", "motion": "650ms alignment, 500ms expansion, 250ms reorder and 280ms break gaps."}
 status: "ready"
-prompt_path: "prompts/rhythm-planner/prompt.lt.md"
+prompt_path: "prompts/rhythm-planner/prompt.en.md"
 ---
 
 # Rhythm Planner
 
 ## Intent
 
-Rhythm Planner turns an ordinary day into a visible sequence rather than a dense productivity dashboard. The fictional Lithuanian Taktas product presents three actual editable tasks, their start time and the space between them. Visitors can understand the proposition, calculate a plan and retain it as a real local file. Nothing promises measured productivity or submits information to a service. The page begins with an explicit planning metaphor: large time digits align with three bars whose different lengths suggest distinct periods of attention.
+Rhythm Planner turns an ordinary day into a visible sequence rather than a dense productivity dashboard. The fictional Lithuanian Cadenly product presents three actual editable tasks, their start time and the space between them. Visitors can understand the proposition, calculate a plan and retain it as a real local file. Nothing promises measured productivity or submits information to a service. The page begins with an explicit planning metaphor: large time digits align with three bars whose different lengths suggest distinct periods of attention.
 
 ## Signature
 
