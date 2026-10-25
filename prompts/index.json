@@ -175,15 +175,15 @@
       "style_id": "choreographic-stage",
       "name": "Choreographic Stage",
       "family": "expressive",
-      "language": "lt",
-      "prompt_path": "prompts/choreographic-stage/prompt.lt.md",
-      "demo_brand": "Šuolio studija",
+      "language": "en",
+      "prompt_path": "prompts/choreographic-stage/prompt.en.md",
+      "demo_brand": "Oryndel Studio",
       "variants": {
-        "a": "Asimetrinė judesio scena ir trys pasirodymų skyriai",
-        "b": "Formato ir patirties vedama užsiėmimų programa"
+        "a": "An asymmetric movement stage and three performance sections",
+        "b": "A session programme led by format and experience"
       },
-      "signature": "Abstrakti oro šokio figūra; baigtinė trajektorija; pasirodymų ritmas",
-      "acceptance": "Formato ir patirties filtrai pakeičia demonstracinę programą; kopijuojama užklausa apima pasirinktus laukus.",
+      "signature": "An abstract aerial dance figure; a finite path; the rhythm of performances",
+      "acceptance": "The format and experience filters change the demonstration programme; the copied enquiry includes the chosen fields.",
       "enhancement": "svg",
       "closest_styles": [
         "kinetic-type",
