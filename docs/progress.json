@@ -4994,7 +4994,7 @@
     {
       "id": "P39",
       "title": "English conversion: Luminous Cut Vitrine",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P38"
       ],
@@ -5018,6 +5018,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #159 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on a93c464."
         }
       ],
       "evidence_paths": [
@@ -5025,15 +5030,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:43:56Z",
-      "updated_at": "2026-10-25T09:49:30.687Z",
+      "updated_at": "2026-10-25T09:52:35.420Z",
       "branch": "task/p39-luminous-cut-vitrine-en",
       "base_commit": "169711324277f68b56f09a96869885e6d9f9abef",
       "evidence_commit": "a93c464ebc681ebca63682928046dcad11233a46",
-      "merge_commit": null,
+      "merge_commit": "97a56c64546a98db8a0ddaf8ff8ef28f8143f27d",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/159",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Luminous Cut Vitrine in English; backlog 24."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 97a56c6. Luminous Cut Vitrine in English; backlog 24."
     },
     {
       "id": "P40",
