@@ -6219,23 +6219,46 @@
     {
       "id": "P63",
       "title": "English conversion: Woven Field",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P62"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews; distinctiveness 0 warnings."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108 with an empty LITHUANIAN_BACKLOG."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 10 cases, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P63.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T16:09:54Z",
-      "updated_at": "2026-10-25T16:09:54.918Z",
+      "updated_at": "2026-10-25T16:13:10.404Z",
       "branch": "task/p63-woven-field-en",
       "base_commit": "61ffa080a23ed9ac0d730b1342fd8800b864929c",
-      "evidence_commit": null,
+      "evidence_commit": "0af61f8a6756b626fbe22a8b60ea582dfe64c184",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/184",
       "blocker": null,
-      "next_action": "Implement P63 on task/p63-woven-field-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Woven Field converted to English; brand Lintrova; backlog empty; awaiting CI."
     },
     {
       "id": "P64",
