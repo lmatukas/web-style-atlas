@@ -30,7 +30,7 @@ try {
     await page.waitForFunction(() => atlasRuntime.state.mode === 'fallback');
     assert.ok(await page.locator('[data-runtime-fallback]').isVisible());
     assert.ok(await page.evaluate(() => __capabilityProbe.deletes > 0), 'GPU buffers released on reduced motion');
-    if (variant === 'alternate') { await page.locator('input[name=carat][value="1.5"]').check(); assert.equal(await page.locator('#piece-total').textContent(), '16 400 €'); }
+    if (variant === 'alternate') { await page.locator('input[name=carat][value="1.5"]').check(); assert.equal(await page.locator('#piece-total').textContent(), '€16,400'); }
     await page.emulateMedia({ reducedMotion: 'no-preference' });
     await page.waitForFunction(() => atlasRuntime.state.mode === 'webgl');
     if (variant === 'alternate') { assert.equal(await page.evaluate(() => atlasRuntime.state.metal), 'rose'); assert.equal(await page.evaluate(() => atlasRuntime.state.carat), '1.5'); }

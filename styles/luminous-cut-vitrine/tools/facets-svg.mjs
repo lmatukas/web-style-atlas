@@ -24,10 +24,10 @@ for (const x of [-0.71, -0.38, 0.38, 0.71]) parts.push(line([X(x), Y(-g)], [X(0)
 parts.push(line([X(-1), Y(g)], [X(1), Y(g)])); parts.push(line([X(-1), Y(-g)], [X(1), Y(-g)]));
 // Leaders and labels (HTML fonts apply because the SVG is inline).
 const label = (y, x0, text) => `<line class="lead" x1="${x0}" y1="${y}" x2="${X(1) + 26}" y2="${y}"/><circle class="dot" cx="${x0}" cy="${y}" r="2.5"/><text x="${X(1) + 34}" y="${y + 4}">${text}</text>`;
-parts.push(label(Y(hc), X(rt * 0.6), 'Aikštelė'));
-parts.push(label(Y((hc + g) / 2), X(0.8), 'Karūna'));
-parts.push(label(Y(0), X(0.99), 'Runda'));
-parts.push(label(Y(-hp * 0.45), X(0.5), 'Paviljonas'));
-parts.push(label(Y(-hp), X(0), 'Kaletas'));
-parts.push(`<text class="cap" x="${cx}" y="${top + R + 34}" text-anchor="middle">Vaizdas iš viršaus</text>`);
-console.log(`<svg class="facets" viewBox="0 0 640 740" role="img" aria-labelledby="facets-title"><title id="facets-title">Apvalaus brilianto schema: vaizdas iš viršaus su aikštele ir briaunomis, po juo profilis su aikštele, karūna, runda, paviljonu ir kaletu.</title>${parts.join('')}</svg>`);
+parts.push(label(Y(hc), X(rt * 0.6), 'Table'));
+parts.push(label(Y((hc + g) / 2), X(0.8), 'Crown'));
+parts.push(label(Y(0), X(0.99), 'Girdle'));
+parts.push(label(Y(-hp * 0.45), X(0.5), 'Pavilion'));
+parts.push(label(Y(-hp), X(0), 'Culet'));
+parts.push(`<text class="cap" x="${cx}" y="${top + R + 34}" text-anchor="middle">Top view</text>`);
+console.log(`<svg class="facets" viewBox="0 0 640 740" role="img" aria-labelledby="facets-title"><title id="facets-title">Round brilliant diagram: a top view with the table and facets, and below it a profile with the table, crown, girdle, pavilion and culet.</title>${parts.join('')}</svg>`);
