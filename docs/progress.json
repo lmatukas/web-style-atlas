@@ -5533,7 +5533,7 @@
     {
       "id": "P49",
       "title": "English conversion: Acoustic Sculpture",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P48"
       ],
@@ -5557,6 +5557,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #170 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5564,15 +5569,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:25:14Z",
-      "updated_at": "2026-10-25T14:33:05.279Z",
+      "updated_at": "2026-10-25T14:35:25.939Z",
       "branch": "task/p49-acoustic-sculpture-en",
       "base_commit": "499acc0d81bbddf5baf7a0be87260ba2689bb03c",
       "evidence_commit": "7f7048beb521b23378eae4d5b23f736489407cef",
-      "merge_commit": null,
+      "merge_commit": "d1d52a0db9fe902bbca6fdc05809c5312bd28f38",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/170",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Acoustic Sculpture converted to English; brand Aurivane; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in d1d52a0. Acoustic Sculpture is English; brand Aurivane; prompt test fixture now uses a fixed Lithuanian sample."
     },
     {
       "id": "P50",
