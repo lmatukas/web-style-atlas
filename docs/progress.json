@@ -5386,22 +5386,22 @@
     {
       "id": "P47",
       "title": "English conversion: Scent Ritual",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P46"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T10:43:25Z",
+      "updated_at": "2026-10-25T10:43:25.536Z",
+      "branch": "task/p47-scent-ritual-en",
+      "base_commit": "4b03fc4585130049dc949f204548dc1c933d4491",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P47 and follow docs/tasks/P47.md.",
+      "next_action": "Implement P47 on task/p47-scent-ritual-en.",
       "handoff": null
     },
     {
