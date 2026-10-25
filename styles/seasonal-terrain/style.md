@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "high"
 signature: {"composition": "A centered large harvest invitation opens into a broad irregular soil cross-section; B begins with a complete four-season year calendar and a stepped basket builder.", "typography": "Large comfortable serif statements contrast with practical sans-serif season, ingredient and delivery labels.", "navigation": "Visible soil, seasons and basket anchors; twelve real month buttons lead into the selected seasonal basket.", "content_rhythm": "Terrain, four-season strip and farming principles lead to a basket; the alternate starts with the annual calendar and concrete configuration steps.", "imagery": "Original irregular three-stratum WebGL landform with procedural leaves; fixed camera and an informative authored SVG cross-section.", "color_and_material": "Cream paper, burnt clay and dark olive frame uneven earth strata; texture comes from geometry rather than a distressed bitmap.", "interaction": "Season changes plants and ingredient examples; size and delivery frequency determine a consistent local enquiry summary. Keyboard layer markers expose real notes.", "motion": "Finite lateral soil opening, 500ms seasonal leaf change, layer highlighting and ingredient reflow; reduced state is fixed, with an honest non-WebGL fallback."}
 status: "ready"
-prompt_path: "prompts/seasonal-terrain/prompt.lt.md"
+prompt_path: "prompts/seasonal-terrain/prompt.en.md"
 ---
 
 # Seasonal Terrain
 
 ## Intent
 
-Seasonal Terrain connects a seasonal food proposition to the ground that makes it imaginable. The fictional Dirvos ratas presents vegetable baskets and regenerative farming as an explicitly illustrative project. The visitor explores an irregular soil cross-section, chooses a season and prepares a consistent basket enquiry. There is no claimed harvest, real farmer certification, price, stock level or completed order. The interface should feel earthy and useful without treating agricultural language as proof of actual practice.
+Seasonal Terrain connects a seasonal food proposition to the ground that makes it imaginable. The fictional Glebora presents vegetable baskets and regenerative farming as an explicitly illustrative project. The visitor explores an irregular soil cross-section, chooses a season and prepares a consistent basket enquiry. There is no claimed harvest, real farmer certification, price, stock level or completed order. The interface should feel earthy and useful without treating agricultural language as proof of actual practice.
 
 ## Signature
 
