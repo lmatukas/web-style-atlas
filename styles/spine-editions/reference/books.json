@@ -2,49 +2,49 @@
   {
     "id": "slenkstis",
     "theme": "miestai",
-    "themeName": "Miestai",
-    "title": "Slenksčio miestas",
-    "description": "Apie vietas, kuriose baigiasi gatvė ir prasideda pokalbis.",
+    "themeName": "Cities",
+    "title": "Threshold City",
+    "description": "On places where the street ends and a conversation begins.",
     "page": "001",
     "excerpt": [
-      "Ryte slenkstis dar vėsus. Ant jo telpa pusė žingsnio ir visas sprendimas sustoti. Kitoje gatvės pusėje žmogus kelia žaliuzę, o miestas trumpam pasirodo esąs ne pastatų rinkinys, bet mažų atvėrimų seka.",
-      "Slenkstis neskuba priklausyti nei laukui, nei kambariui. Jis priima lietų, bato žymę ir trumpą kaimyno klausimą. Tokias vietas žymime ne žemėlapyje: jas atpažįstame iš tempo, kuriuo pradedame eiti."
+      "In the morning the threshold is still cool. It holds half a step and the whole decision to stop. Across the street someone lifts a blind, and for a moment the city turns out to be not a set of buildings but a run of small openings.",
+      "The threshold is in no hurry to belong to the outside or to the room. It takes the rain, a shoe print and a neighbour's quick question. We do not mark such places on a map: we know them by the pace at which we start to walk."
     ]
   },
   {
     "id": "laiptai",
     "theme": "architektura",
-    "themeName": "Architektūra",
-    "title": "Laiptų paraštės",
-    "description": "Mažas skaitymas apie judėjimą tarp aukštų.",
+    "themeName": "Architecture",
+    "title": "Staircase Margins",
+    "description": "A short read about moving between floors.",
     "page": "017",
     "excerpt": [
-      "Laiptinė turi savo sakinį. Pirmas laiptelis jį pradeda, aikštelė padeda kablelį, o langas leidžia įkvėpti. Kylant keičiasi ne vien aukštis: gatvės garsai pamažu tampa prisiminimu.",
-      "Ant turėklo blizga delnų nupoliruota juosta. Joks brėžinys tiksliai nenusako šio paviršiaus. Architektūra čia baigiasi ne ties dažų sluoksniu, o tęsiasi kiekviename kasdieniame prisilietime."
+      "A stairwell has its own sentence. The first step begins it, the landing adds a comma, and the window lets you breathe in. As you climb, it is not only the height that changes: the sounds of the street slowly turn into a memory.",
+      "On the handrail shines a strip polished by palms. No drawing describes this surface exactly. Here architecture does not end at the layer of paint; it carries on in every everyday touch."
     ]
   },
   {
     "id": "puodelis",
     "theme": "kasdienybe",
-    "themeName": "Kasdienybė",
-    "title": "Puodelio atstumas",
-    "description": "Kasdieniai daiktai kaip laiko ir dėmesio matas.",
+    "themeName": "Everyday",
+    "title": "A Cup's Distance",
+    "description": "Everyday things as a measure of time and attention.",
     "page": "033",
     "excerpt": [
-      "Tarp puodelio ir lango telpa rytas. Jo neišmatuosi centimetrais: vieną dieną jis trumpas kaip žvilgsnis, kitą išsitęsia iki pirmo pravažiuojančio autobuso. Ant stalo lieka apskritimas.",
-      "Puodelis yra mažas susitarimas su laiku. Kol jis šiltas, dar galima niekur neskubėti. Daiktai nepasakoja už mus, tačiau kartais pasiūlo vietą sakiniui pradėti."
+      "Between the cup and the window there is room for a morning. You cannot measure it in centimetres: one day it is as short as a glance, the next it stretches until the first bus goes by. A ring stays on the table.",
+      "A cup is a small agreement with time. While it is warm, there is still no need to hurry anywhere. Things do not speak for us, but sometimes they offer a place to begin a sentence."
     ]
   },
   {
     "id": "suolas",
     "theme": "miestai",
-    "themeName": "Miestai",
-    "title": "Antras suolas",
-    "description": "Apie pasilikimą viešoje vietoje be skubaus tikslo.",
+    "themeName": "Cities",
+    "title": "Second Bench",
+    "description": "On staying in a public place with no urgent purpose.",
     "page": "049",
     "excerpt": [
-      "Pirmas suolas skirtas laukti. Antras – tiesiog sėdėti. Skirtumas nedidelis, kol nepastebi, kaip pasikeičia pečiai, kai nebereikia ieškoti atvažiuojančio žmogaus.",
-      "Medžio šešėlis per dieną pereina tris lentas. Sėdintys žmonės išsiskirsto anksčiau, nei užsibaigia šis lėtas judesys. Miesto ilgį kartais lengviau suprasti sustojus negu jį pereinant."
+      "The first bench is for waiting. The second is simply for sitting. The difference is small until you notice how your shoulders change when you no longer have to look out for someone arriving.",
+      "Over a day, a tree's shadow crosses three boards. The people sitting there leave before this slow movement is finished. Sometimes the length of a city is easier to understand by stopping than by walking it."
     ]
   }
 ]

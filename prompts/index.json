@@ -259,15 +259,15 @@
       "style_id": "spine-editions",
       "name": "Spine Editions",
       "family": "editorial",
-      "language": "lt",
-      "prompt_path": "prompts/spine-editions/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/spine-editions/prompt.en.md",
       "demo_brand": "Raštmė",
       "variants": {
-        "a": "Knygos nugarėlės viršelis ir trys teminės lentynos",
-        "b": "Ištraukų skaityklė su leidinių indeksu ir skaitymo sąrašu"
+        "a": "A book-spine cover and three themed shelves",
+        "b": "An excerpt reading room with an edition index and a reading list"
       },
-      "signature": "Vertikali knygos nugarėlė; paraštės ir puslapių numeriai; atverčiamos originalios ištraukos",
-      "acceptance": "Bent keturi autoriniai leidiniai filtruojami, atveriami ir įtraukiami į vietinį sąrašą; išvalymas veikia.",
+      "signature": "A vertical book spine; margins and page numbers; original excerpts that open",
+      "acceptance": "At least four original editions can be filtered, opened and added to a local list; clearing works.",
       "enhancement": "html-svg",
       "closest_styles": [
         "editorial-journal",
