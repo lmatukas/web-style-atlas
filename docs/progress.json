@@ -5386,7 +5386,7 @@
     {
       "id": "P47",
       "title": "English conversion: Scent Ritual",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P46"
       ],
@@ -5410,6 +5410,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged; bottle still label only differs."
+        },
+        {
+          "name": "PR #167 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 20239bb."
         }
       ],
       "evidence_paths": [
@@ -5417,15 +5422,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:43:25Z",
-      "updated_at": "2026-10-25T10:54:37.490Z",
+      "updated_at": "2026-10-25T10:57:39.538Z",
       "branch": "task/p47-scent-ritual-en",
       "base_commit": "4b03fc4585130049dc949f204548dc1c933d4491",
       "evidence_commit": "20239bb436af4685344ed6284f1866e02f7ae609",
-      "merge_commit": null,
+      "merge_commit": "acd5d79a31c91425de9e671b61e7cdbddcbc4ab4",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/167",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Scent Ritual in English; fallback still re-rendered with English label; backlog 16."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in acd5d79. Scent Ritual in English; backlog 16."
     },
     {
       "id": "P48",
