@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "An asymmetric full stage and vertical chapters; B a compact study above a programme/enquiry workspace.", "typography": "Spacious Georgia editorial phrases with quiet Arial filters and demonstration-time labels.", "navigation": "Performances, programme and enquiry anchors with real sibling links and accessible native filters.", "content_rhythm": "Stage, manifesto and three large studies versus programme-first work and concise illustrated concept records.", "imagery": "Three original abstract body/ribbon SVG figures and a separately drawing finite trajectory.", "color_and_material": "Deep aubergine, warm peach and bone; broad theatrical pauses and a pale practical programme.", "interaction": "Three formats, two experience levels, real radio selection and exact query copy with manual fallback.", "motion": "900ms path, bounded scroll displacement, 250ms descriptions and 200ms filter rows with pause/reduced states."}
 status: "ready"
-prompt_path: "prompts/choreographic-stage/prompt.lt.md"
+prompt_path: "prompts/choreographic-stage/prompt.en.md"
 ---
 
 # Choreographic Stage
 
 ## Intent
 
-Choreographic Stage treats movement as a relationship between a figure and its surrounding space. The fictional Šuolio studija introduces three original aerial-dance concepts and a practical way to choose a demonstration introductory format. The page offers artistic exploration and a copyable enquiry draft. It does not advertise real performances, confirmed classes, physical exercise instructions or completed reservations. Broad pauses and editorial language give each gesture room to be understood.
+Choreographic Stage treats movement as a relationship between a figure and its surrounding space. The fictional Oryndel Studio introduces three original aerial-dance concepts and a practical way to choose a demonstration introductory format. The page offers artistic exploration and a copyable enquiry draft. It does not advertise real performances, confirmed classes, physical exercise instructions or completed reservations. Broad pauses and editorial language give each gesture room to be understood.
 
 ## Signature
 

@@ -326,7 +326,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Choreographic Stage",
-      "prompt_path": "prompts/choreographic-stage/prompt.lt.md",
+      "prompt_path": "prompts/choreographic-stage/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Deep aubergine, warm peach and bone; broad theatrical pauses and a pale practical programme.",
