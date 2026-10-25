@@ -6313,7 +6313,7 @@
     {
       "id": "P66",
       "title": "Correction: prompts README in English",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P63"
       ],
@@ -6321,16 +6321,16 @@
       "evidence_paths": [
         "docs/evidence/P66.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T18:46:53Z",
+      "updated_at": "2026-10-25T18:46:53.378Z",
+      "branch": "task/p66-prompts-readme-en",
+      "base_commit": "776bcf54c3f33004b1acd31286c59642e220a27a",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P66 and translate prompts/README.md.",
+      "next_action": "Implement P66 on task/p66-prompts-readme-en.",
       "handoff": "Found during P64: prompts/README.md is still Lithuanian."
     }
   ]
