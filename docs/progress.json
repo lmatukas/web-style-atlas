@@ -5043,22 +5043,22 @@
     {
       "id": "P40",
       "title": "English conversion: Escapement Nocturne",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P39"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T09:52:38Z",
+      "updated_at": "2026-10-25T09:52:38.312Z",
+      "branch": "task/p40-escapement-nocturne-en",
+      "base_commit": "c3f4bef1e84689d9e0ab01907ce75fa726fd8c54",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P40 and follow docs/tasks/P40.md.",
+      "next_action": "Implement P40 on task/p40-escapement-nocturne-en.",
       "handoff": null
     },
     {
