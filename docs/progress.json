@@ -6121,22 +6121,22 @@
     {
       "id": "P61",
       "title": "English conversion: Trail Composer",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P60"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T15:51:04Z",
+      "updated_at": "2026-10-25T15:51:04.589Z",
+      "branch": "task/p61-trail-composer-en",
+      "base_commit": "1ad8d46c601716f5d6dc24de655aed4c2436e3ff",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P61 and follow docs/tasks/P61.md.",
+      "next_action": "Implement P61 on task/p61-trail-composer-en.",
       "handoff": null
     },
     {
