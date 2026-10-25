@@ -5092,7 +5092,7 @@
     {
       "id": "P41",
       "title": "English conversion: Midnight Vestibule",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P40"
       ],
@@ -5116,6 +5116,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #161 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on ad908c1."
         }
       ],
       "evidence_paths": [
@@ -5123,15 +5128,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:02:43Z",
-      "updated_at": "2026-10-25T10:06:53.391Z",
+      "updated_at": "2026-10-25T10:09:17.786Z",
       "branch": "task/p41-midnight-vestibule-en",
       "base_commit": "4750b32702dfa4e939d0ed12024eeed19d85b1cb",
       "evidence_commit": "ad908c11d902dfd2e29c6b550a038f68e4c12885",
-      "merge_commit": null,
+      "merge_commit": "dc144e3e732973d1bef3c2e97a18c7da969db4cc",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/161",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Midnight Vestibule in English; backlog 22."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in dc144e3. Midnight Vestibule in English; backlog 22."
     },
     {
       "id": "P42",
