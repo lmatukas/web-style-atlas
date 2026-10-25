@@ -1056,7 +1056,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Light Environments",
-      "prompt_path": "prompts/light-environments/prompt.lt.md",
+      "prompt_path": "prompts/light-environments/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Dark petrol, fog gray and muted lavender, with directional matte surfaces, opaque captions and flat contrast-safe controls.",

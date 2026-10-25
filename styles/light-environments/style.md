@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A narrow vertical title beside a broad installation and alternating environment essays; B immediate index, live stage and personal route ledger.", "typography": "Large restrained Arial display, fine numbered labels and readable practical sans-serif descriptions, with horizontal title reflow on phones.", "navigation": "Visible exhibition, environments, route and about anchors; actual sibling composition; B begins in a route-building workbench.", "content_rhythm": "Three distinct spatial essays followed by a route versus a compact environment index beside scene exploration and immediate route order.", "imagery": "Original native depth-tested stepped amphitheatre, pleated fabric vault and vertical shadow valley; three scene-specific original SVG fallbacks.", "color_and_material": "Dark petrol, fog gray and muted lavender, with directional matte surfaces, opaque captions and flat contrast-safe controls.", "interaction": "Select three environments, change light direction, add each once, move and remove stops, restore device-local route and export exact UTF-8 text.", "motion": "A 900ms horizon trace, 500ms darkened environment replacement, bounded mouse/light offset with 300ms return and one finite contour/fold/shadow accent per essay."}
 status: "ready"
-prompt_path: "prompts/light-environments/prompt.lt.md"
+prompt_path: "prompts/light-environments/prompt.en.md"
 ---
 
 # Light Environments
 
 ## Intent
 
-Light Environments presents a fictional virtual exhibition through three original spaces and a visitor-controlled route. Rūko salė has no real artists, dates, tickets or reservation service. The visitor explores a sand amphitheatre, a fabric vault and a shadow valley, changes illumination and arranges a personal sequence. A real text download carries that sequence away from the page.  This direction suits cultural concepts, exhibition proposals and architectural experiences with a small number of meaningful environments.
+Light Environments presents a fictional virtual exhibition through three original spaces and a visitor-controlled route. Velumbre has no real artists, dates, tickets or reservation service. The visitor explores a sand amphitheatre, a fabric vault and a shadow valley, changes illumination and arranges a personal sequence. A real text download carries that sequence away from the page.  This direction suits cultural concepts, exhibition proposals and architectural experiences with a small number of meaningful environments.
 
 ## Signature
 
@@ -36,7 +36,7 @@ Dark petrol supports the page and a slightly lighter petrol defines installation
 
 ## Layout A
 
-A visible masthead provides Paroda, Aplinkos, Mano maršrutas and Apie links. A narrow vertical title strip sits beside a broad initial amphitheatre. Direction buttons, a motion control and an explicit environment invitation follow the scene. Three environment essays alternate large schematic studies and original descriptions. Each essay offers a real exploration action and an add action. A broad typographic invitation then shares space with the personal route ledger. The concept and storage explanation close the exhibition. The visitor understands spatial differences before composing a sequence.
+A visible masthead provides Exhibition, Environments, My route and About links. A narrow vertical title strip sits beside a broad initial amphitheatre. Direction buttons, a motion control and an explicit environment invitation follow the scene. Three environment essays alternate large schematic studies and original descriptions. Each essay offers a real exploration action and an add action. A broad typographic invitation then shares space with the personal route ledger. The concept and storage explanation close the exhibition. The visitor understands spatial differences before composing a sequence.
 
 ## Layout B
 
