@@ -5190,22 +5190,22 @@
     {
       "id": "P43",
       "title": "English conversion: Heirloom Weave Ledger",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P42"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T10:17:27Z",
+      "updated_at": "2026-10-25T10:17:27.059Z",
+      "branch": "task/p43-heirloom-weave-ledger-en",
+      "base_commit": "ac46fa33d4a8019bd8c087bf30da550125ea8c76",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P43 and follow docs/tasks/P43.md.",
+      "next_action": "Implement P43 on task/p43-heirloom-weave-ledger-en.",
       "handoff": null
     },
     {
