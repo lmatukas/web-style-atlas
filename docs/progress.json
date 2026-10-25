@@ -6332,10 +6332,10 @@
         "docs/evidence/P66.md"
       ],
       "worker": "agent/015fh6w2uenf",
-      "claimed_at": "2026-10-25T18:46:53Z",
-      "updated_at": "2026-10-25T18:46:53.378Z",
+      "claimed_at": "2026-10-25T18:58:27Z",
+      "updated_at": "2026-10-25T18:58:27.471Z",
       "branch": "task/p66-prompts-readme-en",
-      "base_commit": "776bcf54c3f33004b1acd31286c59642e220a27a",
+      "base_commit": "1394822e8305af6b13687e58bd0371d94ac1f5dd",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
