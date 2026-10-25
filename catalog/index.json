@@ -1856,7 +1856,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Resonant Ribbon",
-      "prompt_path": "prompts/resonant-ribbon/prompt.lt.md",
+      "prompt_path": "prompts/resonant-ribbon/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Paper, saturated red and deep blue surround warm natural wood; flat readable labels remain distinct from the grain.",

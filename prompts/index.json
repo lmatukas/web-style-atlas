@@ -49,15 +49,15 @@
       "style_id": "resonant-ribbon",
       "name": "Resonant Ribbon",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/resonant-ribbon/prompt.lt.md",
-      "demo_brand": "Garso juosta",
+      "language": "en",
+      "prompt_path": "prompts/resonant-ribbon/prompt.en.md",
+      "demo_brand": "Tembrelo",
       "variants": {
-        "a": "Vienos medinės juostos gamybos pasakojimas",
-        "b": "Trijų instrumentų makrogalerija ir charakterio parinkiklis"
+        "a": "The making story of a single wooden ribbon",
+        "b": "A macro gallery of three instruments and a character picker"
       },
-      "signature": "Viena dažyto medžio juosta; etapuose keičiama jos forma; apčiuopiamas instrumento charakteris",
-      "acceptance": "Instrumentas, charakteris ir medžio atspalvis sudaro užklausą; garsas pasirenkamas, esminė informacija pateikta tekstu.",
+      "signature": "One painted wooden ribbon; its shape changes in stages; a tangible instrument character",
+      "acceptance": "Instrument, character and wood tone make up the enquiry; sound is optional and the key information is given in text.",
       "enhancement": "svg-or-webgl",
       "closest_styles": [
         "acoustic-sculpture",
