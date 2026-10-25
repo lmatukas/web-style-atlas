@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 98/98.**
+**Baigta: 98/126.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P37](tasks/P37.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -108,5 +108,33 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P35](tasks/P35.md) | Pataisa: S58 pagrindinis ir antrinis veiksmas | Baigta | agent/01dpob2fr2xg | task/p35-s58-cta | [PR](https://github.com/lmatukas/web-style-atlas/pull/153) | 2026-10-24T20:15:27.004Z | Nėra. Užduotis baigta. |
 | [P36](tasks/P36.md) | Pataisa: P19 bendrų išteklių signalai | Baigta | agent/01dpob2fr2xg | task/p36-shared-resources | [PR](https://github.com/lmatukas/web-style-atlas/pull/154) | 2026-10-24T20:20:51.219Z | Nėra. Užduotis baigta. |
 | [P28](tasks/P28.md) | Leidimas 1.3.0: 50 krypčių, naujos pirmos | Baigta | agent/01dpob2fr2xg | task/p28-release-1-3-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/155) | 2026-10-25T07:30:14.000Z | Nėra. Užduotis baigta. |
+| [P37](tasks/P37.md) | English conversion: shared tooling | Laukia | — | — | — | — | Claim P37 and follow docs/tasks/P37.md. |
+| [P38](tasks/P38.md) | English conversion: Obsidian Stage | Laukia | — | — | — | — | Claim P38 and follow docs/tasks/P38.md. |
+| [P39](tasks/P39.md) | English conversion: Luminous Cut Vitrine | Laukia | — | — | — | — | Claim P39 and follow docs/tasks/P39.md. |
+| [P40](tasks/P40.md) | English conversion: Escapement Nocturne | Laukia | — | — | — | — | Claim P40 and follow docs/tasks/P40.md. |
+| [P41](tasks/P41.md) | English conversion: Midnight Vestibule | Laukia | — | — | — | — | Claim P41 and follow docs/tasks/P41.md. |
+| [P42](tasks/P42.md) | English conversion: Still Sanctuary | Laukia | — | — | — | — | Claim P42 and follow docs/tasks/P42.md. |
+| [P43](tasks/P43.md) | English conversion: Heirloom Weave Ledger | Laukia | — | — | — | — | Claim P43 and follow docs/tasks/P43.md. |
+| [P44](tasks/P44.md) | English conversion: Velvet Members Hall | Laukia | — | — | — | — | Claim P44 and follow docs/tasks/P44.md. |
+| [P45](tasks/P45.md) | English conversion: Patina Auction Room | Laukia | — | — | — | — | Claim P45 and follow docs/tasks/P45.md. |
+| [P46](tasks/P46.md) | English conversion: Openwater Deck | Laukia | — | — | — | — | Claim P46 and follow docs/tasks/P46.md. |
+| [P47](tasks/P47.md) | English conversion: Scent Ritual | Laukia | — | — | — | — | Claim P47 and follow docs/tasks/P47.md. |
+| [P48](tasks/P48.md) | English conversion: Ember Course Room | Laukia | — | — | — | — | Claim P48 and follow docs/tasks/P48.md. |
+| [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Laukia | — | — | — | — | Claim P49 and follow docs/tasks/P49.md. |
+| [P50](tasks/P50.md) | English conversion: Balcony Builder | Laukia | — | — | — | — | Claim P50 and follow docs/tasks/P50.md. |
+| [P51](tasks/P51.md) | English conversion: Choreographic Stage | Laukia | — | — | — | — | Claim P51 and follow docs/tasks/P51.md. |
+| [P52](tasks/P52.md) | English conversion: Discovery Cabinet | Laukia | — | — | — | — | Claim P52 and follow docs/tasks/P52.md. |
+| [P53](tasks/P53.md) | English conversion: Light Environments | Laukia | — | — | — | — | Claim P53 and follow docs/tasks/P53.md. |
+| [P54](tasks/P54.md) | English conversion: Membrane Score | Laukia | — | — | — | — | Claim P54 and follow docs/tasks/P54.md. |
+| [P55](tasks/P55.md) | English conversion: Modular Light | Laukia | — | — | — | — | Claim P55 and follow docs/tasks/P55.md. |
+| [P56](tasks/P56.md) | English conversion: Repair Atlas | Laukia | — | — | — | — | Claim P56 and follow docs/tasks/P56.md. |
+| [P57](tasks/P57.md) | English conversion: Resonant Ribbon | Laukia | — | — | — | — | Claim P57 and follow docs/tasks/P57.md. |
+| [P58](tasks/P58.md) | English conversion: Rhythm Planner | Laukia | — | — | — | — | Claim P58 and follow docs/tasks/P58.md. |
+| [P59](tasks/P59.md) | English conversion: Seasonal Terrain | Laukia | — | — | — | — | Claim P59 and follow docs/tasks/P59.md. |
+| [P60](tasks/P60.md) | English conversion: Spine Editions | Laukia | — | — | — | — | Claim P60 and follow docs/tasks/P60.md. |
+| [P61](tasks/P61.md) | English conversion: Trail Composer | Laukia | — | — | — | — | Claim P61 and follow docs/tasks/P61.md. |
+| [P62](tasks/P62.md) | English conversion: Twilight Expedition | Laukia | — | — | — | — | Claim P62 and follow docs/tasks/P62.md. |
+| [P63](tasks/P63.md) | English conversion: Woven Field | Laukia | — | — | — | — | Claim P63 and follow docs/tasks/P63.md. |
+| [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Laukia | — | — | — | — | Claim P64 and follow docs/tasks/P64.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
