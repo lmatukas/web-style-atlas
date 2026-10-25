@@ -5190,23 +5190,46 @@
     {
       "id": "P43",
       "title": "English conversion: Heirloom Weave Ledger",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P42"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 10 cases/36 combinations/16 errors; runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P43.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:17:27Z",
-      "updated_at": "2026-10-25T10:17:27.059Z",
+      "updated_at": "2026-10-25T10:21:11.286Z",
       "branch": "task/p43-heirloom-weave-ledger-en",
       "base_commit": "ac46fa33d4a8019bd8c087bf30da550125ea8c76",
-      "evidence_commit": null,
+      "evidence_commit": "cbcaea5d6cf646e28696071fec7c44565fca8ab0",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/163",
       "blocker": null,
-      "next_action": "Implement P43 on task/p43-heirloom-weave-ledger-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Heirloom Weave Ledger in English (linked prompt prompt.en.md); backlog 20."
     },
     {
       "id": "P44",
