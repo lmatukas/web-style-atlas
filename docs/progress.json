@@ -5631,23 +5631,46 @@
     {
       "id": "P51",
       "title": "English conversion: Choreographic Stage",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P50"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 10 cases incl. 3x2 programme matrix, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P51.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:43:39Z",
-      "updated_at": "2026-10-25T14:43:39.175Z",
+      "updated_at": "2026-10-25T14:46:56.293Z",
       "branch": "task/p51-choreographic-stage-en",
       "base_commit": "488e615f836f29c12d27b622509b3132286d534d",
-      "evidence_commit": null,
+      "evidence_commit": "23ea5d23ca01d12472c6b522fe4a6eab52795a87",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/172",
       "blocker": null,
-      "next_action": "Implement P51 on task/p51-choreographic-stage-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Choreographic Stage converted to English; brand Oryndel Studio; awaiting CI."
     },
     {
       "id": "P52",
