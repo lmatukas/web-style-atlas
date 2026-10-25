@@ -427,15 +427,15 @@
       "style_id": "heirloom-weave-ledger",
       "name": "Heirloom Weave Ledger",
       "family": "tactile",
-      "language": "lt",
-      "prompt_path": "prompts/heirloom-weave-ledger/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/heirloom-weave-ledger/prompt.en.md",
       "demo_brand": "Esvérane",
       "variants": {
-        "a": "Šimtmečio metraštis su slenkant kintančiu archyvo objektu ir monograma",
-        "b": "Portretinių objektų kolekcija ir inicialų personalizavimo dirbtuvė"
+        "a": "A century chronicle with an archive object and monogram that change on scroll",
+        "b": "A collection of portrait object studies and an initials personalisation workshop"
       },
-      "signature": "Iš inicialų generuojama monograma; slenkamas šimtmečio metraštis keičia objektus ir monogramos variantus.",
-      "acceptance": "Inicialai, siūlo spalva ir vieta keičia tikrą daikto SVG; netinkami inicialai ir nepatvirtinta demonstracija atmetami; santrauka ir atstatymas veikia.",
+      "signature": "A monogram generated from initials; a scrolling century chronicle changes the objects and the monogram variants.",
+      "acceptance": "Initials, thread colour and placement change the real object SVG; invalid initials and an unconfirmed demonstration are rejected; the summary and reset work.",
       "enhancement": "html-svg",
       "closest_styles": [
         "botanical-engraving",

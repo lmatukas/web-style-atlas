@@ -39,11 +39,11 @@ try {
   assert.ok(!initialPixels.equals(await page.locator('.live-object').screenshot()),'actual object pixels must change');
   for(const value of ['','123','A!','A B','😀','ABCD','И']) {
    await page.locator('#initials').evaluate((e,value)=>{e.value=value;e.dispatchEvent(new Event('input',{bubbles:true}));},value);
-   await page.locator('[type="submit"]').click();assert.match(await page.locator('#form-error').textContent(),/trijų/);assert.equal(await page.locator('#initials').evaluate(e=>e===document.activeElement),true);assert.equal(await page.locator('#confirmation').isVisible(),false);invalids++;
+   await page.locator('[type="submit"]').click();assert.match(await page.locator('#form-error').textContent(),/one to three/);assert.equal(await page.locator('#initials').evaluate(e=>e===document.activeElement),true);assert.equal(await page.locator('#confirmation').isVisible(),false);invalids++;
   }
-  await page.locator('#initials').fill('ąž');await page.locator('[type="submit"]').click();assert.match(await page.locator('#form-error').textContent(),/demonstracijos/);assert.equal(await page.locator('#demo').evaluate(e=>e===document.activeElement),true);invalids++;
+  await page.locator('#initials').fill('ąž');await page.locator('[type="submit"]').click();assert.match(await page.locator('#form-error').textContent(),/demonstration/);assert.equal(await page.locator('#demo').evaluate(e=>e===document.activeElement),true);invalids++;
   await page.locator('#demo').check();await page.locator('[name="thread"][value="brown"]').tap();await page.locator('[name="placement"][value="corner"]').tap();await page.locator('[type="submit"]').click();
-  const result=await page.locator('#confirmation').textContent();for(const s of ['ĄŽ','Šiltas rudas','Apatiniame kampe','nesukurtas','neišsiųsti','nevyksta'])assert.ok(result.includes(s),s);
+  const result=await page.locator('#confirmation').textContent();for(const s of ['ĄŽ','Warm brown','Lower corner','no order was created','no data was sent','no payment'])assert.ok(result.includes(s),s);
   assert.equal(await page.locator('#initials').inputValue(),'ĄŽ');assert.equal(await page.locator('#confirmation').evaluate(e=>e===document.activeElement),true);
   await page.locator('#initials').fill('JK');assert.equal(await page.locator('#confirmation').isVisible(),false);
   await page.locator('[type="reset"]').click();await page.waitForFunction(()=>window.atlasPersonalization.initials==='ES');
