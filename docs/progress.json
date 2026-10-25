@@ -5435,22 +5435,22 @@
     {
       "id": "P48",
       "title": "English conversion: Ember Course Room",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P47"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T10:57:42Z",
+      "updated_at": "2026-10-25T10:57:42.479Z",
+      "branch": "task/p48-ember-course-room-en",
+      "base_commit": "f02609fcbc411a9728a28812136ea9003d714fde",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P48 and follow docs/tasks/P48.md.",
+      "next_action": "Implement P48 on task/p48-ember-course-room-en.",
       "handoff": null
     },
     {
