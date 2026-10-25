@@ -5876,7 +5876,7 @@
     {
       "id": "P56",
       "title": "English conversion: Repair Atlas",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P55"
       ],
@@ -5900,6 +5900,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #177 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5907,15 +5912,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:18:24Z",
-      "updated_at": "2026-10-25T15:21:39.855Z",
+      "updated_at": "2026-10-25T15:23:51.757Z",
       "branch": "task/p56-repair-atlas-en",
       "base_commit": "61bfae4af9682614e459542daecf1e2f2aa3a51c",
       "evidence_commit": "6a9c79c55961c2ea8320bed8d593994b06ca37db",
-      "merge_commit": null,
+      "merge_commit": "6479b349428cf74fac996b988af169f573c55c83",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/177",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Repair Atlas converted to English; brand Mendaval Objects; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 6479b34. Repair Atlas is English; brand Mendaval Objects; object titles/notes renamed with the copy."
     },
     {
       "id": "P57",
