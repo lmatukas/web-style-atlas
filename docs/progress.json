@@ -4994,22 +4994,22 @@
     {
       "id": "P39",
       "title": "English conversion: Luminous Cut Vitrine",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P38"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T09:43:56Z",
+      "updated_at": "2026-10-25T09:43:56.538Z",
+      "branch": "task/p39-luminous-cut-vitrine-en",
+      "base_commit": "169711324277f68b56f09a96869885e6d9f9abef",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P39 and follow docs/tasks/P39.md.",
+      "next_action": "Implement P39 on task/p39-luminous-cut-vitrine-en.",
       "handoff": null
     },
     {
