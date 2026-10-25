@@ -6121,7 +6121,7 @@
     {
       "id": "P61",
       "title": "English conversion: Trail Composer",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P60"
       ],
@@ -6145,6 +6145,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #182 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -6152,15 +6157,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:51:04Z",
-      "updated_at": "2026-10-25T15:54:36.141Z",
+      "updated_at": "2026-10-25T16:03:52.939Z",
       "branch": "task/p61-trail-composer-en",
       "base_commit": "1ad8d46c601716f5d6dc24de655aed4c2436e3ff",
       "evidence_commit": "646a245a1f855cb6f0b0430d8e12d88697b30578",
-      "merge_commit": null,
+      "merge_commit": "57cd9d73de9aa879c01ba17a11156b0e2cfe4cf4",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/182",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Trail Composer converted to English; brand Keliata kept; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 57cd9d7. Trail Composer is English; brand Keliata kept; distinctiveness now reports 0 warnings."
     },
     {
       "id": "P62",

@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 123/127.**
+**Baigta: 124/127.**
 
-**Pirmiausia patikrinti P61: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P62](tasks/P62.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -133,7 +133,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P58](tasks/P58.md) | English conversion: Rhythm Planner | Baigta | agent/015fh6w2uenf | task/p58-rhythm-planner-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/179) | 2026-10-25T15:36:31.383Z | None. Task done. |
 | [P59](tasks/P59.md) | English conversion: Seasonal Terrain | Baigta | agent/015fh6w2uenf | task/p59-seasonal-terrain-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/180) | 2026-10-25T15:42:14.659Z | None. Task done. |
 | [P60](tasks/P60.md) | English conversion: Spine Editions | Baigta | agent/015fh6w2uenf | task/p60-spine-editions-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/181) | 2026-10-25T15:51:01.793Z | None. Task done. |
-| [P61](tasks/P61.md) | English conversion: Trail Composer | Laukia peržiūros | agent/015fh6w2uenf | task/p61-trail-composer-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/182) | 2026-10-25T15:54:36.141Z | Wait for CI, merge, mark done. |
+| [P61](tasks/P61.md) | English conversion: Trail Composer | Baigta | agent/015fh6w2uenf | task/p61-trail-composer-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/182) | 2026-10-25T16:03:52.939Z | None. Task done. |
 | [P62](tasks/P62.md) | English conversion: Twilight Expedition | Laukia | — | — | — | — | Claim P62 and follow docs/tasks/P62.md. |
 | [P63](tasks/P63.md) | English conversion: Woven Field | Laukia | — | — | — | — | Claim P63 and follow docs/tasks/P63.md. |
 | [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Laukia | — | — | — | — | Claim P64 and follow docs/tasks/P64.md. |
