@@ -5484,7 +5484,7 @@
     {
       "id": "P65",
       "title": "Correction: Lithuanian words left in converted luxury scripts",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P48"
       ],
@@ -5508,6 +5508,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated for five styles; 20 PNGs pixel-identical."
+        },
+        {
+          "name": "PR #169 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5515,15 +5520,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:06:08Z",
-      "updated_at": "2026-10-25T14:21:16.677Z",
+      "updated_at": "2026-10-25T14:25:07.759Z",
       "branch": "task/p65-leftover-lithuanian",
       "base_commit": "9160ccc1eed6bbe3b01184b38c1f9df974e5184d",
       "evidence_commit": "a6bf00fb5b88e9b8540ded6cdc2f174f6b939957",
-      "merge_commit": null,
+      "merge_commit": "80d1da6cd4c73e6bcc78aa92d3741e48251c1af5",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/169",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Six leftover strings fixed in S53/S54/S58/S59/S61; language test guards common Lithuanian UI words."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 80d1da6. Leftover Lithuanian strings in five converted luxury styles translated; a guard test now catches common Lithuanian UI words in reference scripts."
     },
     {
       "id": "P49",
