@@ -2432,7 +2432,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Twilight Expedition",
-      "prompt_path": "prompts/twilight-expedition/prompt.lt.md",
+      "prompt_path": "prompts/twilight-expedition/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Night blue, rock gray, amber and warm white, with opaque readable labels and a finite sky-light change.",

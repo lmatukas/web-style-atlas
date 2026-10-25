@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A broad stable observatory panorama and three arrival chapters; B a relief atlas beside an immediate narrow planning ledger.", "typography": "Quiet Georgia display headings, small spaced documentary labels and practical Arial controls.", "navigation": "Visible route/enquiry anchors and an actual sibling layout; B begins with planning rather than narrative chapters.", "content_rhythm": "Panorama, three arrival chapters and route programme versus atlas workbench, timed stops and enquiry.", "imagery": "Original depth-tested triangulated mountain terrain and small faceted observatory dome; labelled static SVG fallback.", "color_and_material": "Night blue, rock gray, amber and warm white, with opaque readable labels and a finite sky-light change.", "interaction": "Three routes, four durations and one-to-eight participants change three stop descriptions, total time and exact validated unsent enquiry.", "motion": "One-second initial light; reversible two-second dusk-to-night; small linear chapter camera shifts; finite route drawing and a duration marker, with pause and reduced states."}
 status: "ready"
-prompt_path: "prompts/twilight-expedition/prompt.lt.md"
+prompt_path: "prompts/twilight-expedition/prompt.en.md"
 ---
 
 # Twilight Expedition
 
 ## Intent
 
-Twilight Expedition makes a small mountain observatory the destination of a useful evening plan. Aukščio linija is a clearly fictional concept, with original schematic geography and an unsent local enquiry. The visitor chooses a route, observation duration and group size before preparing text for a real organizer. There are no location coordinates, availability, weather, astronomical predictions or successful bookings.  This direction suits architecture, travel concepts and small hospitality experiences whose practical information can accompany an atmospheric view.
+Twilight Expedition makes a small mountain observatory the destination of a useful evening plan. Hesperyn is a clearly fictional concept, with original schematic geography and an unsent local enquiry. The visitor chooses a route, observation duration and group size before preparing text for a real organizer. There are no location coordinates, availability, weather, astronomical predictions or successful bookings.  This direction suits architecture, travel concepts and small hospitality experiences whose practical information can accompany an atmospheric view.
 
 ## Signature
 
@@ -36,7 +36,7 @@ Night blue grounds the whole page. Rock gray supports secondary information and 
 
 ## Layout A
 
-A slim masthead precedes a broad panorama with a compact title near its upper corner. The small dome remains part of the ridge rather than replacing it. Light and pause controls sit below the image with a truthful capability label. Three numbered arrival chapters follow in reading order: Atvykti, Apsiprasti and Stebėti. A route ledger then shares space with the duration and participants panel. Preparation and an enquiry finish the experience. This sequence lets a visitor understand arrival before building a programme.
+A slim masthead precedes a broad panorama with a compact title near its upper corner. The small dome remains part of the ridge rather than replacing it. Light and pause controls sit below the image with a truthful capability label. Three numbered arrival chapters follow in reading order: Arrive, Settle and Watch. A route ledger then shares space with the duration and participants panel. Preparation and an enquiry finish the experience. This sequence lets a visitor understand arrival before building a programme.
 
 ## Layout B
 
