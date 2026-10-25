@@ -196,15 +196,15 @@
       "style_id": "repair-atlas",
       "name": "Repair Atlas",
       "family": "expressive",
-      "language": "lt",
-      "prompt_path": "prompts/repair-atlas/prompt.lt.md",
-      "demo_brand": "Rytojaus daiktai",
+      "language": "en",
+      "prompt_path": "prompts/repair-atlas/prompt.en.md",
+      "demo_brand": "Mendaval Objects",
       "variants": {
-        "a": "Surinkimo ir išardymo krėslo istorija",
-        "b": "Šešių objektų medžiagų katalogas ir remonto maršrutas"
+        "a": "The story of a chair being assembled and taken apart",
+        "b": "A materials catalogue of six objects and a repair route"
       },
-      "signature": "Medinis segmentinis krėslas; išardymo etiketės; viena pakeičiama jungtis",
-      "acceptance": "Šešių objektų filtrai, 2–4 sustojimų maršrutas, perrikiavimas, šalinimas ir eksportas veikia; talpos ribos aiškios.",
+      "signature": "A segmented wooden chair; disassembly labels; one replaceable joint",
+      "acceptance": "Filters for six objects, a route of 2–4 stops, reordering, removal and export work; the capacity limits are clear.",
       "enhancement": "webgl",
       "closest_styles": [
         "industrial-spec",
