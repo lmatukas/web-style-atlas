@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 119/127.**
+**Baigta: 120/127.**
 
-**Pirmiausia patikrinti P57: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P58](tasks/P58.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -129,7 +129,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P54](tasks/P54.md) | English conversion: Membrane Score | Baigta | agent/015fh6w2uenf | task/p54-membrane-score-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/175) | 2026-10-25T15:08:48.172Z | None. Task done. |
 | [P55](tasks/P55.md) | English conversion: Modular Light | Baigta | agent/015fh6w2uenf | task/p55-modular-light-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/176) | 2026-10-25T15:18:21.869Z | None. Task done. |
 | [P56](tasks/P56.md) | English conversion: Repair Atlas | Baigta | agent/015fh6w2uenf | task/p56-repair-atlas-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/177) | 2026-10-25T15:23:51.757Z | None. Task done. |
-| [P57](tasks/P57.md) | English conversion: Resonant Ribbon | Laukia peržiūros | agent/015fh6w2uenf | task/p57-resonant-ribbon-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/178) | 2026-10-25T15:27:47.145Z | Wait for CI, merge, mark done. |
+| [P57](tasks/P57.md) | English conversion: Resonant Ribbon | Baigta | agent/015fh6w2uenf | task/p57-resonant-ribbon-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/178) | 2026-10-25T15:30:09.365Z | None. Task done. |
 | [P58](tasks/P58.md) | English conversion: Rhythm Planner | Laukia | — | — | — | — | Claim P58 and follow docs/tasks/P58.md. |
 | [P59](tasks/P59.md) | English conversion: Seasonal Terrain | Laukia | — | — | — | — | Claim P59 and follow docs/tasks/P59.md. |
 | [P60](tasks/P60.md) | English conversion: Spine Editions | Laukia | — | — | — | — | Claim P60 and follow docs/tasks/P60.md. |
