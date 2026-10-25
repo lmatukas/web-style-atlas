@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A vertical collection title, broad central folded lamp and a narrow configure invitation; B a numbered parts rail and live assembly workbench beside controls.", "typography": "Large light grotesque collection typography and small monospaced assembly numbers, with clear practical sans-serif copy.", "navigation": "Visible principle, light and assembly destinations; B starts directly in a parts-to-configuration workbench.", "content_rhythm": "Catalogue spread, fold principle and three use scenarios versus numbered components, direct construction and an envelope ledger.", "imagery": "Original depth-tested WebGL polygonal lamp with folded opaque paper planes, matte aluminum joints and a visible directional light cone; truthful SVG fallback.", "color_and_material": "Warm white, graphite and butter yellow; sage material option, flat readable labels and finely separated joint lines.", "interaction": "Three to seven real modules, three shades and three purposes update geometry and concept dimensions, with undo, exact copy, download and validated unsent enquiry.", "motion": "Five modules assemble in 900ms, scenario cone and ambience interpolate, one-axis explosion returns on toggle and module edits briefly reflow; stable reduced state and pause."}
 status: "ready"
-prompt_path: "prompts/modular-light/prompt.lt.md"
+prompt_path: "prompts/modular-light/prompt.en.md"
 ---
 
 # Modular Light
 
 ## Intent
 
-Modular Light explains an imagined lighting collection through the actual relationship between joined planes, illumination and configuration. The fictional Kinta is a concept demonstration, not a manufacturer, certified product or available stock. Visitors inspect a five-module paper and aluminum shade, try three lighting purposes and build a local configuration. The resulting dimensions are clearly concept envelope parameters, not engineering or electrical safety data. A separate enquiry can be prepared honestly without claiming delivery to a server.
+Modular Light explains an imagined lighting collection through the actual relationship between joined planes, illumination and configuration. The fictional Plivane is a concept demonstration, not a manufacturer, certified product or available stock. Visitors inspect a five-module paper and aluminum shade, try three lighting purposes and build a local configuration. The resulting dimensions are clearly concept envelope parameters, not engineering or electrical safety data. A separate enquiry can be prepared honestly without claiming delivery to a server.
 
 ## Signature
 
