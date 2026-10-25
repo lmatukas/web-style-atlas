@@ -6,8 +6,8 @@ import {existsSync, readdirSync, readFileSync} from 'node:fs';
 // conversion (P38–P63) removes its own ID; P64 needs this list empty.
 // See docs/english-conversion-plan.md.
 export const LITHUANIAN_BACKLOG = [
-  'resonant-ribbon', 'rhythm-planner', 'seasonal-terrain', 'spine-editions',
-  'trail-composer', 'twilight-expedition', 'woven-field'
+  'rhythm-planner', 'seasonal-terrain', 'spine-editions', 'trail-composer',
+  'twilight-expedition', 'woven-field'
 ];
 const LANGUAGES = ['en', 'lt'];
 

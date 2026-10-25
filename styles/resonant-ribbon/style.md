@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A travelling ribbon sits beside a vertical making story; B presents three large instrument macro studies before a character and wood selector.", "typography": "Compact heavy grotesque display with short fragmented lines, clear practical sans-serif copy and numbered production captions.", "navigation": "Visible making, character and enquiry anchors; three instrument selectors update the active macro and the enquiry together.", "content_rhythm": "One ribbon changes through three manufacturing chapters; the alternate changes scale through three separate macro gallery panels.", "imagery": "Original vector wooden ribbon with layered thickness, authored grain pattern and restrained shadows; explicitly an SVG study, not claimed 3D.", "color_and_material": "Paper, saturated red and deep blue surround warm natural wood; flat readable labels remain distinct from the grain.", "interaction": "Instrument, Šiltas/Skaidrus/Ritmiškas character and wood shade build a validated exact-copy enquiry; sound requires deliberate opt-in.", "motion": "Finite flex-and-return, straight/arch/body morphs, horizontal instrument wipe and tension changes; real short synthesized samples, pause and reduced state."}
 status: "ready"
-prompt_path: "prompts/resonant-ribbon/prompt.lt.md"
+prompt_path: "prompts/resonant-ribbon/prompt.en.md"
 ---
 
 # Resonant Ribbon
 
 ## Intent
 
-Resonant Ribbon introduces an imagined handmade instrument workshop through a single painted wooden strip. The fictional Garso juosta connects material, shape and a visitor’s selected sound character without pretending that a vector study is a manufactured instrument or a real recording. Visitors can follow a making sequence or browse three original macro illustrations, then create a consistent local enquiry. There is no claimed maker biography, award, client list, stock availability or completed message delivery.
+Resonant Ribbon introduces an imagined handmade instrument workshop through a single painted wooden strip. The fictional Tembrelo connects material, shape and a visitor’s selected sound character without pretending that a vector study is a manufactured instrument or a real recording. Visitors can follow a making sequence or browse three original macro illustrations, then create a consistent local enquiry. There is no claimed maker biography, award, client list, stock availability or completed message delivery.
 
 ## Signature
 
