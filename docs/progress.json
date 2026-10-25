@@ -4906,23 +4906,41 @@
     {
       "id": "P37",
       "title": "English conversion: shared tooling",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P28"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "50 styles; no committed output changed."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106 incl. language and prompt-language tests."
+        },
+        {
+          "name": "Gallery browser test",
+          "status": "not_run",
+          "details": "Needs canonical host; runs in PR CI."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P37.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:10:12Z",
-      "updated_at": "2026-10-25T09:10:12.228Z",
+      "updated_at": "2026-10-25T09:16:21.491Z",
       "branch": "task/p37-english-tooling",
       "base_commit": "7627b2f91453275ea79c9071405363516fb46672",
-      "evidence_commit": null,
+      "evidence_commit": "9fda946f36dd928b627569b5a813a780fdd6b210",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/157",
       "blocker": null,
-      "next_action": "Implement P37 on task/p37-english-tooling.",
-      "handoff": null
+      "next_action": "Wait for PR #157 CI, merge, then mark done.",
+      "handoff": "English prompt paths, language backlog (26 IDs), English luxury filter. Also widened lt-only prompt pattern in style/index schemas and gallery, and fixed P37–P64 card dependency lines for the contract test."
     },
     {
       "id": "P38",
