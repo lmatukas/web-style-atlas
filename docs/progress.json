@@ -5482,6 +5482,27 @@
       "handoff": "Merged in 801e16d. Ember Course Room in English; backlog 15. Leftover words in earlier conversions go to P65."
     },
     {
+      "id": "P65",
+      "title": "Correction: Lithuanian words left in converted luxury scripts",
+      "status": "todo",
+      "depends_on": [
+        "P48"
+      ],
+      "checks": [],
+      "evidence_paths": [],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P65 and follow docs/tasks/P65.md.",
+      "handoff": null
+    },
+    {
       "id": "P49",
       "title": "English conversion: Acoustic Sculpture",
       "status": "todo",
@@ -5801,7 +5822,8 @@
       "title": "Release 1.4.0: every direction in English",
       "status": "todo",
       "depends_on": [
-        "P63"
+        "P63",
+        "P65"
       ],
       "checks": [],
       "evidence_paths": [],

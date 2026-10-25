@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 110/126.**
+**Baigta: 110/127.**
 
-**Kita užduotis: [P49](tasks/P49.md).**
+**Kita užduotis: [P65](tasks/P65.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -120,6 +120,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P46](tasks/P46.md) | English conversion: Openwater Deck | Baigta | agent/015fh6w2uenf | task/p46-openwater-deck-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/166) | 2026-10-25T10:43:22.584Z | None. Task done. |
 | [P47](tasks/P47.md) | English conversion: Scent Ritual | Baigta | agent/015fh6w2uenf | task/p47-scent-ritual-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/167) | 2026-10-25T10:57:39.538Z | None. Task done. |
 | [P48](tasks/P48.md) | English conversion: Ember Course Room | Baigta | agent/015fh6w2uenf | task/p48-ember-course-room-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/168) | 2026-10-25T14:05:43.678Z | None. Task done. |
+| [P65](tasks/P65.md) | Correction: Lithuanian words left in converted luxury scripts | Laukia | — | — | — | — | Claim P65 and follow docs/tasks/P65.md. |
 | [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Laukia | — | — | — | — | Claim P49 and follow docs/tasks/P49.md. |
 | [P50](tasks/P50.md) | English conversion: Balcony Builder | Laukia | — | — | — | — | Claim P50 and follow docs/tasks/P50.md. |
 | [P51](tasks/P51.md) | English conversion: Choreographic Stage | Laukia | — | — | — | — | Claim P51 and follow docs/tasks/P51.md. |
