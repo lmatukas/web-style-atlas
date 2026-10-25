@@ -364,15 +364,15 @@
       "style_id": "escapement-nocturne",
       "name": "Escapement Nocturne",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/escapement-nocturne/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/escapement-nocturne/prompt.en.md",
       "demo_brand": "Zevraqelle",
       "variants": {
-        "a": "Tamsi trijų skyrių mechanizmo istorija su vienu prilipusiu laikrodžiu",
-        "b": "Asmeninio laikrodžio konfigūravimo stalas ir kainų suvestinė"
+        "a": "A dark three-chapter movement story with one sticky watch",
+        "b": "A personal watch configuration table with a price summary"
       },
-      "signature": "Tikru laiku einantis laikrodis, kurio ciferblatas slenkant atveria krumpliaračius; originalus 3D mechanizmas ir statinis SVG.",
-      "acceptance": "Korpusas, ciferblatas ir dirželis keičia objektą, tikslią kainą ir santrauką; datos klaidos, vizito patvirtinimas ir išvalymas veikia.",
+      "signature": "A watch running on real time whose dial opens on scroll to reveal its gear wheels; an original 3D movement with a static SVG.",
+      "acceptance": "Case, dial and strap change the object, the exact price and the summary; date errors, the visit confirmation and clearing work.",
       "enhancement": "webgl",
       "closest_styles": [
         "art-deco",

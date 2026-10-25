@@ -10,23 +10,23 @@ const ID='escapement-nocturne',browser=await launchCanonical(),server=await serv
 const runtime={renderer:'webgl',audio:false,static_fallback:'assets/watch.svg'};
 const cases=['gold','steel','bronze'],dials=['black','blue','ivory'],straps=['black','brown','mesh'];
 const casePrice=[1600,0,600],dialPrice=[0,250,350],strapPrice=[0,180,480];
-const money=n=>`${new Intl.NumberFormat('lt-LT',{maximumFractionDigits:0}).format(n)} €`;
+const money=n=>`€${new Intl.NumberFormat('en-US',{maximumFractionDigits:0}).format(n)}`;
 let prices=0,checks=0;
 async function booking(page){
- const submit=page.getByRole('button',{name:'Parengti vizito patvirtinimą'});
+ const submit=page.getByRole('button',{name:'Prepare visit confirmation'});
  await submit.click();assert.equal(await page.locator('[aria-invalid=true]').count(),6);assert.equal(await page.evaluate(()=>document.activeElement.id),'salon');
  await page.selectOption('#salon','north');await page.selectOption('#slot','11:30');
- await page.fill('#name','A');await page.fill('#email','netinka');await submit.click();
- assert.match(await page.locator('#error-name').textContent(),/bent 2/);assert.match(await page.locator('#error-email').textContent(),/el. pašto/);
- for(const [day,expected]of [['2025-12-31',/rytojaus/],['2026-01-04',/Sekmadieniais/],['2026-05-01',/90 dienų/]]){await page.fill('#day',day);await submit.click();assert.match(await page.locator('#error-day').textContent(),expected);}
+ await page.fill('#name','A');await page.fill('#email','not-valid');await submit.click();
+ assert.match(await page.locator('#error-name').textContent(),/at least 2/);assert.match(await page.locator('#error-email').textContent(),/valid email/);
+ for(const [day,expected]of [['2025-12-31',/from tomorrow/],['2026-01-04',/closed on Sundays/],['2026-05-01',/90 days/]]){await page.fill('#day',day);await submit.click();assert.match(await page.locator('#error-day').textContent(),expected);}
  assert.equal(await page.locator('#slot option[value="14:00"]').isDisabled(),true);
- await page.fill('#day','2026-01-02');await page.fill('#name','Ąžuolas');await page.fill('#email','azuolas@pavyzdys.lt');await page.check('#ack');
+ await page.fill('#day','2026-01-02');await page.fill('#name','Zoë');await page.fill('#email','zoe@example.com');await page.check('#ack');
  await submit.focus();await page.keyboard.press('Enter');
  const confirmation=page.locator('#visit-confirmation'),text=await confirmation.textContent();
- assert.match(text,/Šiaurės salonas · Vilnius/);assert.match(text,/2026-01-02 · 11:30/);assert.match(text,/niekur neišsiųsti/);assert.match(text,/N.01/);assert.equal(await page.evaluate(()=>document.activeElement.id),'visit-confirmation');
+ assert.match(text,/North salon · Vilnius/);assert.match(text,/2026-01-02 · 11:30/);assert.match(text,/no data was sent anywhere/);assert.match(text,/N.01/);assert.equal(await page.evaluate(()=>document.activeElement.id),'visit-confirmation');
  if(await page.locator('#total').count())assert.ok(text.includes(await page.locator('#total').textContent()),'booking carries the exact total');
- await page.fill('#name','Ona');assert.equal(await confirmation.isVisible(),false,'editing invalidates confirmation');
- await submit.click();assert.ok(await confirmation.isVisible());await page.getByRole('button',{name:'Išvalyti',exact:true}).click();assert.equal(await confirmation.isVisible(),false);assert.equal(await confirmation.textContent(),'');assert.equal(await page.locator('#name').inputValue(),'');assert.equal(await page.locator('#salon').inputValue(),'');
+ await page.fill('#name','Ana');assert.equal(await confirmation.isVisible(),false,'editing invalidates confirmation');
+ await submit.click();assert.ok(await confirmation.isVisible());await page.getByRole('button',{name:'Clear',exact:true}).click();assert.equal(await confirmation.isVisible(),false);assert.equal(await confirmation.textContent(),'');assert.equal(await page.locator('#name').inputValue(),'');assert.equal(await page.locator('#salon').inputValue(),'');
 }
 try{
  for(const variant of ['index','alternate']){
@@ -43,14 +43,14 @@ try{
      await page.check(`input[name=case][value=${cases[c]}]`);await page.check(`input[name=dial][value=${dials[d]}]`);await page.check(`input[name=strap][value=${straps[s]}]`);
      const expected=money(6800+casePrice[c]+dialPrice[d]+strapPrice[s]);assert.equal(await page.locator('#total').textContent(),expected);assert.equal(await page.locator('#summary-total').textContent(),expected);assert.deepEqual(await page.evaluate(()=>atlasRuntime.state.config),{case:cases[c],dial:dials[d],strap:straps[s]});prices++;
     }
-    await page.getByRole('button',{name:'Atkurti pradinį derinį'}).click();assert.equal(await page.locator('#total').textContent(),money(8400));
+    await page.getByRole('button',{name:'Restore the original set-up'}).click();assert.equal(await page.locator('#total').textContent(),money(8400));
     await page.evaluate(()=>scrollTo(0,0));await page.clock.runFor(20);const before=await page.locator('[data-runtime-scene]').screenshot();
     await page.check('input[name=dial][value=ivory]');await page.evaluate(()=>scrollTo(0,0));await page.clock.runFor(20);await page.locator('[data-runtime-fallback]').evaluate(async img=>{if(!img.hidden)await img.decode();});
     assert.ok(!before.equals(await page.locator('[data-runtime-scene]').screenshot()),`${mode}: a material choice changes real pixels`);
    }
    const scene=page.locator('[data-runtime-scene]');await scene.focus();await page.keyboard.press('Home');assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),0);await page.keyboard.press('End');assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),1);await page.keyboard.press('ArrowLeft');assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),.9);
    await page.locator('#reveal').focus();await page.keyboard.press('Home');await page.keyboard.press('ArrowRight');assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),.01,'native range keyboard interaction');
-   await page.getByRole('button',{name:'Atverti mechanizmą'}).click();assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),1);
+   await page.getByRole('button',{name:'Open the movement'}).click();assert.equal(await page.evaluate(()=>atlasRuntime.state.reveal),1);
    await booking(page);
    if(mode==='normal'){
     await page.evaluate(()=>__capabilityProbe.contexts[0].getExtension('WEBGL_lose_context').loseContext());await page.clock.runFor(50);await page.waitForFunction(()=>atlasRuntime.state.mode==='fallback');assert.ok(await page.locator('[data-runtime-fallback]').isVisible());
