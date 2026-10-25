@@ -19,8 +19,10 @@ technologijų patikras parengs P16, pavyzdžius – atitinkamos S užduotys.
 Prie `styles/<id>/style.md` YAML metaduomenų pasirinktinai pridėkite:
 
 ```yaml
-prompt_path: prompts/<id>/prompt.lt.md
+prompt_path: prompts/<id>/prompt.<language>.md
 ```
+
+`<language>` yra `lt` arba `en` ir turi sutapti su briefo `language` lauku.
 
 Kelias turi tiksliai atitikti stiliaus ID ir jo `prompts/index.json` įrašą.
 Leidžiamas tik esamas vietinis UTF-8 tekstas iki 64 KiB, be symlinkų ar NUL.
@@ -39,6 +41,20 @@ neleidžia vietoje pilno prompto nukopijuoti trumpos instrukcijos: galima kartot
 pakrovimą. Kai clipboard nepasiekiamas ar atsisako leidimo, parenkamas tas pats
 pilnas tekstas rankiniam kopijavimui. Svetainė veikia ir projekto subpath iš dist,
 be GitHub prieigos. Vartotojas po kopijavimo užpildo laukus savo projekte.
+
+## English prompts
+
+An English brief lives at `prompts/<id>/prompt.en.md` and has `language: "en"`
+in `prompts/index.json`. The gallery fills the selected A/B into this exact
+line, so keep it word for word:
+
+```
+- Composition: [A OR B; default A].
+```
+
+Use `[FILL IN]`-style project fields and end with a `## Final check` section, in
+the same order as the Lithuanian briefs. A Lithuanian brief keeps
+`- Kompozicija: [A ARBA B; numatytoji A].` until its style is converted.
 
 Pradinis savininko pateiktas rinkinys ir jo įkvėpimo šaltinių atitikmenys nėra
 šio viešo repo dalis. Viešuose promptuose nėra jų pavadinimų ar nuorodų.

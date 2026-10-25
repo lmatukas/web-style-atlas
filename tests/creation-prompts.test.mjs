@@ -5,7 +5,8 @@ import {join} from 'node:path';
 import {promptFixture} from './helpers/creation-prompt-fixture.mjs';
 import {build} from '../scripts/build.mjs';
 import {loadAtlas} from '../scripts/validate.mjs';
-import {creationSelectionPrompt, selectionPrompt} from '../gallery/selection.mjs';
+import {creationSelectionPrompt, promptLanguage, selectionPrompt} from '../gallery/selection.mjs';
+import {creationPrompt} from '../scripts/prompts.mjs';
 import {scopeFor} from '../scripts/ci-scope.mjs';
 
 test('ready full prompt is portable; planned briefs stay out of dist and ready index', t => {
@@ -48,6 +49,36 @@ test('brief validation checks schema, unique identities, relation and actual UTF
   assert.throws(()=>loadAtlas({root:f.root}),/must match/);
   f.registry.prompts=[{...f.brief,prompt_path:'https://example.org/prompt'}];writeFileSync(join(f.root,'prompts/index.json'),JSON.stringify(f.registry));
   assert.throws(()=>loadAtlas({root:f.root}),/prompt_path/);
+});
+
+test('English prompt path prompts/<id>/prompt.en.md is valid and fills the English composition line', t => {
+  const f=promptFixture();t.after(()=>rmSync(f.root,{recursive:true,force:true}));
+  const enPath='prompts/example-style/prompt.en.md';
+  const source='# Example — creation prompt\n\n## Adapt to the project\n\n- Composition: [A OR B; default A].\n\n## Final check\n';
+  rmSync(f.promptFile);writeFileSync(join(f.root,enPath),source);
+  f.registry.prompts=[{...f.brief,language:'en',prompt_path:enPath}];writeFileSync(join(f.root,'prompts/index.json'),JSON.stringify(f.registry));
+  writeFileSync(f.path('style.md'),readFileSync(f.path('style.md'),'utf8').replace(`prompt_path: ${f.brief.prompt_path}`,`prompt_path: ${enPath}`));
+  build({root:f.root});
+  const style=JSON.parse(readFileSync(join(f.root,'dist/catalog/index.json'))).styles[0];
+  assert.equal(style.prompt_path,enPath);assert.equal(readFileSync(join(f.root,'dist',enPath),'utf8'),source);
+  assert.equal(promptLanguage(style),'en');
+  const value=creationSelectionPrompt(style,'b',source);
+  assert.match(value,/^Selected direction: .+\nSelected composition: B — /);
+  assert.ok(value.includes('- Composition: B.'));assert.ok(!value.includes('[A OR B; default A]'));
+  assert.equal(promptLanguage({...style,prompt_path:'prompts/other-style/prompt.en.md'}),null);
+  assert.equal(promptLanguage({...style,prompt_path:'prompts/example-style/prompt.de.md'}),null);
+});
+
+test('prompt language must match the file name and be lt or en', t => {
+  const f=promptFixture();t.after(()=>rmSync(f.root,{recursive:true,force:true}));
+  f.registry.prompts=[{...f.brief,language:'en'}];writeFileSync(join(f.root,'prompts/index.json'),JSON.stringify(f.registry));
+  assert.throws(()=>loadAtlas({root:f.root}),/prompt_path.*expected prompts\/example-style\/prompt\.en\.md/);
+  const dePath='prompts/example-style/prompt.de.md';writeFileSync(join(f.root,dePath),f.source);
+  f.registry.prompts=[{...f.brief,language:'de',prompt_path:dePath}];writeFileSync(join(f.root,'prompts/index.json'),JSON.stringify(f.registry));
+  assert.throws(()=>loadAtlas({root:f.root}),/language|prompt_path/);
+  assert.throws(()=>creationPrompt(f.root,'example-style',f.brief.prompt_path,'de'),/unknown prompt language/);
+  assert.equal(creationPrompt(f.root,'example-style',f.brief.prompt_path,'lt'),f.source);
+  assert.throws(()=>creationPrompt(f.root,'example-style',f.brief.prompt_path,'en'),/expected prompts\/example-style\/prompt\.en\.md/);
 });
 
 test('creation copy preserves every source instruction and resolves selected A/B while legacy stays unchanged', t => {
