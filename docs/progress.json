@@ -5631,22 +5631,22 @@
     {
       "id": "P51",
       "title": "English conversion: Choreographic Stage",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P50"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T14:43:39Z",
+      "updated_at": "2026-10-25T14:43:39.175Z",
+      "branch": "task/p51-choreographic-stage-en",
+      "base_commit": "488e615f836f29c12d27b622509b3132286d534d",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P51 and follow docs/tasks/P51.md.",
+      "next_action": "Implement P51 on task/p51-choreographic-stage-en.",
       "handoff": null
     },
     {
