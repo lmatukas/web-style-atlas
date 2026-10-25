@@ -5337,7 +5337,7 @@
     {
       "id": "P46",
       "title": "English conversion: Openwater Deck",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P45"
       ],
@@ -5361,6 +5361,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #166 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 3ee4f06."
         }
       ],
       "evidence_paths": [
@@ -5368,15 +5373,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:36:53Z",
-      "updated_at": "2026-10-25T10:40:31.204Z",
+      "updated_at": "2026-10-25T10:43:22.584Z",
       "branch": "task/p46-openwater-deck-en",
       "base_commit": "ce1370e79fb4f37b7bd1e763a4d881b2c48addda",
       "evidence_commit": "3ee4f06cf88e5d0bec1d357647febebbaf84bb30",
-      "merge_commit": null,
+      "merge_commit": "ad28ed853da1278cb3e1a804e3b81ef56212be02",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/166",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Openwater Deck in English (linked prompt prompt.en.md); backlog 17."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in ad28ed8. Openwater Deck in English; backlog 17."
     },
     {
       "id": "P47",

@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 107/126.**
+**Baigta: 108/126.**
 
-**Pirmiausia patikrinti P46: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P47](tasks/P47.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -117,7 +117,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P43](tasks/P43.md) | English conversion: Heirloom Weave Ledger | Baigta | agent/015fh6w2uenf | task/p43-heirloom-weave-ledger-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/163) | 2026-10-25T10:23:35.098Z | None. Task done. |
 | [P44](tasks/P44.md) | English conversion: Velvet Members Hall | Baigta | agent/015fh6w2uenf | task/p44-velvet-members-hall-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/164) | 2026-10-25T10:30:35.382Z | None. Task done. |
 | [P45](tasks/P45.md) | English conversion: Patina Auction Room | Baigta | agent/015fh6w2uenf | task/p45-patina-auction-room-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/165) | 2026-10-25T10:36:51.006Z | None. Task done. |
-| [P46](tasks/P46.md) | English conversion: Openwater Deck | Laukia peržiūros | agent/015fh6w2uenf | task/p46-openwater-deck-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/166) | 2026-10-25T10:40:31.204Z | Wait for CI, merge, mark done. |
+| [P46](tasks/P46.md) | English conversion: Openwater Deck | Baigta | agent/015fh6w2uenf | task/p46-openwater-deck-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/166) | 2026-10-25T10:43:22.584Z | None. Task done. |
 | [P47](tasks/P47.md) | English conversion: Scent Ritual | Laukia | — | — | — | — | Claim P47 and follow docs/tasks/P47.md. |
 | [P48](tasks/P48.md) | English conversion: Ember Course Room | Laukia | — | — | — | — | Claim P48 and follow docs/tasks/P48.md. |
 | [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Laukia | — | — | — | — | Claim P49 and follow docs/tasks/P49.md. |
