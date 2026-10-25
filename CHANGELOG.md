@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.4.0 — prepared 2026-10-25
+## 1.4.0 — published 2026-10-25
 
 50 ready directions, 100 working layout variants and 200 current previews.
 All directions are now in English.
@@ -18,7 +18,8 @@ All directions are now in English.
 - Fixed leftover Lithuanian words in five converted luxury scripts and added a
   test for common interface words (P65).
 
-Not yet published. See [1.4.0 release notes](docs/releases/1.4.0.md).
+Published on 2026-10-25: [release run 40222604044](https://github.com/lmatukas/web-style-atlas/actions/runs/40222604044)
+passed verify and deploy on `f61a4d2`. See [1.4.0 release notes](docs/releases/1.4.0.md).
 
 ## 1.3.0 — published 2026-10-24
 
