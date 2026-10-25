@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "high"
 signature: {"composition": "A narrow humanist invitation accompanies a large seven-plate instrument; B is a three-part character workbench with a real comparison tray.", "typography": "Large open humanist sans invitations paired with restrained serif narrative and measured monospaced object captions.", "navigation": "Visible scenario, workshop and enquiry links; three spatial scenarios become an explicit enquiry selection.", "content_rhythm": "A moves from a singular object into three spatial stories; B begins with controls and compares saved character/scenario configurations.", "imagery": "Original depth-tested WebGL sculpture of seven matte copper plates, directional light and an informative authored SVG fallback.", "color_and_material": "Warm ivory ground, oxidized copper surfaces and deep blue text; warm flat controls remain separate from shaded metal.", "interaction": "Scenario and Ramu/Gyva/Sodru choices alter the instrument and generate a validated, copyable local enquiry; real opt-in sound.", "motion": "Finite 1.2-second assembly, bounded pointer lighting, scroll separation and character spacing; pause, reduced motion and API fallbacks."}
 status: "ready"
-prompt_path: "prompts/acoustic-sculpture/prompt.lt.md"
+prompt_path: "prompts/acoustic-sculpture/prompt.en.md"
 ---
 
 # Acoustic Sculpture
 
 ## Intent
 
-Acoustic Sculpture presents an imagined sound-art workshop through one intelligible instrument and a practical spatial brief. The visitor is choosing the feeling of a room, rather than shopping for an unverified technical product. The fictional Vėjo archyvas demonstrates how a gallery, a courtyard or a reading room can suggest different acoustic characters. Every enquiry remains local text. Nothing is sent and no measured acoustic performance is promised. Material and sound are explicitly artistic interpretations.
+Acoustic Sculpture presents an imagined sound-art workshop through one intelligible instrument and a practical spatial brief. The visitor is choosing the feeling of a room, rather than shopping for an unverified technical product. The fictional Aurivane demonstrates how a gallery, a courtyard or a reading room can suggest different acoustic characters. Every enquiry remains local text. Nothing is sent and no measured acoustic performance is promised. Material and sound are explicitly artistic interpretations.
 
 ## Signature
 

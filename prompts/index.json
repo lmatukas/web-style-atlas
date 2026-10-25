@@ -7,15 +7,15 @@
       "style_id": "acoustic-sculpture",
       "name": "Acoustic Sculpture",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/acoustic-sculpture/prompt.lt.md",
-      "demo_brand": "Vėjo archyvas",
+      "language": "en",
+      "prompt_path": "prompts/acoustic-sculpture/prompt.en.md",
+      "demo_brand": "Aurivane",
       "variants": {
-        "a": "Septynių vario plokštelių instrumentas ir erdvių istorija",
-        "b": "Garso charakterio dirbtuvė su scenarijų palyginimu"
+        "a": "An instrument of seven copper plates and a story of spaces",
+        "b": "A sound character workshop with a comparison of scenarios"
       },
-      "signature": "Septynios matinio vario plokštelės; stabili apšviesta scena; trys pasirinkimo charakteriai",
-      "acceptance": "Scenarijaus ir charakterio pasirinkimai persikelia į validuojamą kopijuojamą užklausą; garsas tik sąmoningai įjungus; aiškus nutildymas.",
+      "signature": "Seven matte copper plates; a stable lit scene; three characters to choose from",
+      "acceptance": "The scenario and character choices carry over into a validated enquiry that can be copied; sound only after it is deliberately turned on; a clear mute.",
       "enhancement": "webgl",
       "closest_styles": [
         "soft-spatial",
