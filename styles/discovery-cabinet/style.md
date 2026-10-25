@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A radial six-jar tabletop beside an invitation; B a vertical drawer alongside inspection and collection.", "typography": "Generous Georgia discovery headings, clear Arial actions and small two-digit jar/place labels.", "navigation": "Cabinet, collection and growth anchors, a real sibling composition and a literal list alternative.", "content_rhythm": "Tabletop encounter, study/tray spread, questions and growth versus indexed drawer and immediate collection.", "imagery": "Six original distinct SVG forms, individually lifting lids and an explicitly artistic three-stage sprout.", "color_and_material": "Paper, pale moss, deep ink and burnt clay, with a dark numbered tray and flat readable controls.", "interaction": "Open/close jars, choose a free tray place, collect once, remove, restore local choices and export actual positions.", "motion": "700ms opening, 350ms lid, 400ms landing and explicit three-stage 900ms growth; pause and reduced states."}
 status: "ready"
-prompt_path: "prompts/discovery-cabinet/prompt.lt.md"
+prompt_path: "prompts/discovery-cabinet/prompt.en.md"
 ---
 
 # Discovery Cabinet
 
 ## Intent
 
-Discovery Cabinet turns close looking into a small collection-making task. The fictional Sėklų kabinetas is a family-oriented artistic exposition with six original seed-like forms. Visitors open a jar, inspect its shape, choose a tray position and carry a personal discovery sheet away as text. Names describe invented forms rather than botanical species. Questions invite observation without claiming germination rates, identification accuracy or growing instructions.
+Discovery Cabinet turns close looking into a small collection-making task. The fictional Granovel is a family-oriented artistic exposition with six original seed-like forms. Visitors open a jar, inspect its shape, choose a tray position and carry a personal discovery sheet away as text. Names describe invented forms rather than botanical species. Questions invite observation without claiming germination rates, identification accuracy or growing instructions.
 
 ## Signature
 

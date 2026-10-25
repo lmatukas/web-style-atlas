@@ -133,15 +133,15 @@
       "style_id": "discovery-cabinet",
       "name": "Discovery Cabinet",
       "family": "illustrative",
-      "language": "lt",
-      "prompt_path": "prompts/discovery-cabinet/prompt.lt.md",
-      "demo_brand": "Sėklų kabinetas",
+      "language": "en",
+      "prompt_path": "prompts/discovery-cabinet/prompt.en.md",
+      "demo_brand": "Granovel",
       "variants": {
-        "a": "Radialus šešių sėklų indelių stalas",
-        "b": "Vertikalus atradimų stalčius ir kolekcijos padėklas"
+        "a": "A radial table of six seed jars",
+        "b": "A vertical discovery drawer and a collection tray"
       },
-      "signature": "Šeši individualūs indeliai; atidaromi dangteliai; pasirinkimų padėklas",
-      "acceptance": "Visos šešios sėklos pasiekiamos be tempimo; kolekcija papildoma, šalinama ir eksportuojama; daigas pažymėtas interpretacija.",
+      "signature": "Six individual jars; lids that open; a tray of choices",
+      "acceptance": "All six seeds are reachable without dragging; the collection can be added to, removed from and exported; the sprout is marked as an interpretation.",
       "enhancement": "svg-or-webgl",
       "closest_styles": [
         "botanical-engraving",
