@@ -238,15 +238,15 @@
       "style_id": "rhythm-planner",
       "name": "Rhythm Planner",
       "family": "functional",
-      "language": "lt",
-      "prompt_path": "prompts/rhythm-planner/prompt.lt.md",
-      "demo_brand": "Taktas",
+      "language": "en",
+      "prompt_path": "prompts/rhythm-planner/prompt.en.md",
+      "demo_brand": "Cadenly",
       "variants": {
-        "a": "Tipografinis laikrodis ir produkto demonstracija",
-        "b": "Laiko juostos darbastalis su trijų užduočių redaktoriumi"
+        "a": "A typographic clock and a product demonstration",
+        "b": "A timeline workbench with an editor for three tasks"
       },
-      "signature": "Dideli laiko skaitmenys; trukmę atitinkančios juostos; įvestimi grindžiamas ritmas",
-      "acceptance": "Trys užduotys ir 0/5/10 min pertraukos; nėra pertraukos po paskutinės; perskaičiavimas, vidurnaktis ir JSON/TXT eksportas tikslūs.",
+      "signature": "Large time digits; bars matching the lengths; a rhythm driven by the input",
+      "acceptance": "Three tasks and 0/5/10 min breaks; no break after the last one; recalculation, midnight and JSON/TXT export are exact.",
       "enhancement": "html-svg",
       "closest_styles": [
         "data-observatory",
