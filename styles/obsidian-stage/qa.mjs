@@ -19,12 +19,12 @@ try{
    for(const model of ['01','02','03'])for(const finish of ['graphite','silver'])for(const storage of ['32','64','128']) {
     await page.locator(`input[name=model][value="${model}"]`).check();await page.locator(`input[name=finish][value="${finish}"]`).check();await page.locator(`input[name=storage][value="${storage}"]`).check();
     const expected=({'01':249,'02':349,'03':449})[model]+(finish==='silver'?20:0)+({'32':0,'64':40,'128':90})[storage];
-    assert.equal(await page.locator('#total').textContent(),`${expected} €`);
+    assert.equal(await page.locator('#total').textContent(),`€${expected}`);
     assert.equal(await page.evaluate(()=>atlasRuntime.state.finish),finish);assert.equal(await page.evaluate(()=>atlasRuntime.state.model),model);
    }
-   await page.getByRole('button',{name:/Sukurti santrauką/}).click();assert.match(await page.locator('#form-error').textContent(),/Pažymėkite/);assert.equal(await page.locator('#ack').evaluate(e=>e===document.activeElement),true);
-   await page.keyboard.press('Space');await page.getByRole('button',{name:/Sukurti santrauką/}).focus();await page.keyboard.press('Enter');assert.match(await page.locator('#confirmation').textContent(),/Veylqor 03 · Šerkšnas · 128 GB. Suma 559 €/);assert.match(await page.locator('#confirmation').textContent(),/Užsakymas nepateiktas/);
-   await page.getByRole('button',{name:'Pradėti iš naujo'}).click();assert.equal(await page.locator('#total').textContent(),'249 €');assert.equal(await page.locator('#ack').isChecked(),false);assert.equal(await page.locator('#confirmation').textContent(),'');assert.equal(await page.evaluate(()=>atlasRuntime.state.finish),'graphite');
+   await page.getByRole('button',{name:/Create summary/}).click();assert.match(await page.locator('#form-error').textContent(),/Tick the box/);assert.equal(await page.locator('#ack').evaluate(e=>e===document.activeElement),true);
+   await page.keyboard.press('Space');await page.getByRole('button',{name:/Create summary/}).focus();await page.keyboard.press('Enter');assert.match(await page.locator('#confirmation').textContent(),/Veylqor 03 · Frost · 128 GB. Total €559/);assert.match(await page.locator('#confirmation').textContent(),/No order was placed/);
+   await page.getByRole('button',{name:'Start over'}).click();assert.equal(await page.locator('#total').textContent(),'€249');assert.equal(await page.locator('#ack').isChecked(),false);assert.equal(await page.locator('#confirmation').textContent(),'');assert.equal(await page.evaluate(()=>atlasRuntime.state.finish),'graphite');
    await page.locator('[data-turn="1"]').focus();const before=await page.evaluate(()=>atlasRuntime.state.rotation);await page.keyboard.press('Enter');assert.ok((await page.evaluate(()=>atlasRuntime.state.rotation))>before);
    for(const width of [360,390,768,1440]){await page.setViewportSize({width,height:1000});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,`${variant}/${mode}/${width} overflow`);}
    await page.evaluate(()=>scrollTo(0,0));await page.clock.runFor(100);await page.screenshot({path:`test-results/s52/${variant}-${mode}.png`,fullPage:false});
@@ -34,7 +34,7 @@ try{
      await page.locator('#chapter-1').evaluate(e=>e.scrollIntoView({block:'center',behavior:'instant'}));await page.waitForTimeout(80);assert.ok((await page.evaluate(()=>atlasRuntime.state.explosion))>.2,'Scroll must open physical layers');
      const open=await page.locator('[data-runtime-scene]').screenshot();await page.locator('#chapter-4').evaluate(e=>e.scrollIntoView({block:'center',behavior:'instant'}));await page.waitForTimeout(80);assert.ok((await page.evaluate(()=>atlasRuntime.state.explosion))<.1,'Final scene must close layers');assert.ok(!open.equals(await page.locator('[data-runtime-scene]').screenshot()));
     }
-    await page.evaluate(()=>__capabilityProbe.contexts[0].getExtension('WEBGL_lose_context').loseContext());await page.waitForFunction(()=>atlasRuntime.state.mode==='fallback');assert.ok(await page.locator('[data-runtime-fallback]').isVisible());await page.locator('input[name=storage][value="64"]').check();assert.equal(await page.locator('#total').textContent(),'309 €');
+    await page.evaluate(()=>__capabilityProbe.contexts[0].getExtension('WEBGL_lose_context').loseContext());await page.waitForFunction(()=>atlasRuntime.state.mode==='fallback');assert.ok(await page.locator('[data-runtime-fallback]').isVisible());await page.locator('input[name=storage][value="64"]').check();assert.equal(await page.locator('#total').textContent(),'€309');
    }
    assert.deepEqual(errors,[]);await context.close();cases++;console.log('business',variant,mode,'18 combinations, reset, keyboard, four widths, pixels/layers/fallback');
   }

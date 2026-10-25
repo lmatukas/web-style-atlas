@@ -19,7 +19,7 @@ try{
   await p.locator('[data-motion-toggle]').click();assert.equal(await p.locator('[data-motion-toggle]').getAttribute('aria-pressed'),'false');
   // A runtime preference change must dispose resources and present the complete SVG.
   await p.emulateMedia({reducedMotion:'reduce'});await p.waitForFunction(()=>atlasRuntime.state.mode==='fallback');assert.ok(await p.locator('[data-runtime-fallback]').isVisible());assert.ok(await p.evaluate(()=>__capabilityProbe.deletes>0));
-  await p.locator('input[name=model][value="03"]').check();assert.equal(await p.locator('#total').textContent(),'449 €');
+  await p.locator('input[name=model][value="03"]').check();assert.equal(await p.locator('#total').textContent(),'€449');
   await p.emulateMedia({reducedMotion:'no-preference'});await p.waitForFunction(()=>atlasRuntime.state.mode==='webgl');assert.equal(await p.evaluate(()=>atlasRuntime.state.model),'03');
   await p.evaluate(()=>dispatchEvent(new Event('pagehide')));assert.equal(await p.evaluate(()=>atlasRuntime.state.disposed),true);
   await c.close();console.log('PASS',variant,'real touch, pause, live reduced-motion transition, GPU disposal and retained selection');

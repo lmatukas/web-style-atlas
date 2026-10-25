@@ -19,8 +19,8 @@ function backup(reason) {
   if (mountedInStory) { heroMount.append(scene); mountedInStory = false; }
   document.body.classList.add('static-mode');
   document.querySelector('.lineup')?.classList.remove('live');
-  status.textContent = `Statinis vaizdas: ${reason}. Visi pasirinkimai veikia.`;
-  toggle.disabled = true; toggle.textContent = 'Statinis vaizdas';
+  status.textContent = `Static fallback: ${reason}. Every choice still works.`;
+  toggle.disabled = true; toggle.textContent = 'Static view';
 }
 function shader(type, source) {
   const s = gl.createShader(type); gl.shaderSource(s, source); gl.compileShader(s);
@@ -81,10 +81,10 @@ function geometry() {
 }
 function init() {
   if(disposed)return;
-  if(reduced.matches)return backup('sumažintas judesys');
+  if(reduced.matches)return backup('reduced motion');
   try {
     gl=canvas.getContext('webgl',{alpha:true,antialias:true,preserveDrawingBuffer:true});
-    if(!gl)return backup('3D nepasiekiamas');
+    if(!gl)return backup('3D unavailable');
     program=gl.createProgram();
     const vs=shader(gl.VERTEX_SHADER,`attribute vec3 position;attribute vec3 normal;uniform vec3 rotation;uniform vec3 offset;uniform float scale;uniform float spread;uniform float aspect;uniform float zoom;varying vec3 N;varying vec3 P;
     vec3 rotate(vec3 p){float a=rotation.x,b=rotation.y,c=rotation.z;p=vec3(p.x,p.y*cos(a)-p.z*sin(a),p.y*sin(a)+p.z*cos(a));p=vec3(p.x*cos(b)+p.z*sin(b),p.y,-p.x*sin(b)+p.z*cos(b));return vec3(p.x*cos(c)-p.y*sin(c),p.x*sin(c)+p.y*cos(c),p.z);}
@@ -95,10 +95,10 @@ function init() {
     meshes=[];geometry();gl.useProgram(program);gl.enable(gl.DEPTH_TEST);
     canvas.hidden=false;fallback.hidden=true;document.body.classList.remove('static-mode');
     document.querySelector('.lineup')?.classList.add('live');
-    toggle.disabled=false;toggle.textContent=paused?'Tęsti judesį':'Pristabdyti judesį';
-    status.textContent='Sukite rodyklėmis arba braukite horizontaliai. Slinkite pažinti sluoksnius.';
+    toggle.disabled=false;toggle.textContent=paused?'Resume motion':'Pause motion';
+    status.textContent='Rotate with the arrows or swipe sideways. Scroll to explore the layers.';
     resize();episode(1,1400);draw();
-  } catch { backup('3D paleisti nepavyko'); }
+  } catch { backup('3D could not start'); }
 }
 function uniform(name,...values) { const loc=gl.getUniformLocation(program,name);if(values.length===3)gl.uniform3f(loc,...values);else gl.uniform1f(loc,values[0]); }
 function draw() {
@@ -124,8 +124,8 @@ function episode(next,ms=550) {from=phase;target=next;progress=0;duration=ms;sto
 function schedule(){if(!raf&&!paused&&!disposed&&!reduced.matches&&inView&&!document.hidden&&!canvas.hidden&&progress<1)raf=requestAnimationFrame(tick);}
 function tick(t){raf=0;if(!start)start=t;progress=Math.min(1,(t-start)/duration);phase=from+(target-from)*(1-Math.pow(1-progress,3));draw();schedule();}
 function resize(){if(disposed)return;const rect=scene.getBoundingClientRect();const dpr=Math.min(devicePixelRatio,1.5);canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);draw();}
-toggle.addEventListener('click',()=>{paused=!paused;toggle.setAttribute('aria-pressed',String(paused));toggle.textContent=paused?'Tęsti judesį':'Pristabdyti judesį';if(paused)stop();else{if(progress<1){from=phase;start=0;}schedule();}});
-function turn(value){rotation+=value*.22;draw();if(canvas.hidden){fallback.style.transform=`rotate(${rotation*12}deg)`;}status.textContent=canvas.hidden?'Statinis vaizdas: pakeistas peržiūros kampas.':`Pasuktas įrenginio vaizdas. Kampas ${Math.round(rotation*180/Math.PI)}°.`;}
+toggle.addEventListener('click',()=>{paused=!paused;toggle.setAttribute('aria-pressed',String(paused));toggle.textContent=paused?'Resume motion':'Pause motion';if(paused)stop();else{if(progress<1){from=phase;start=0;}schedule();}});
+function turn(value){rotation+=value*.22;draw();if(canvas.hidden){fallback.style.transform=`rotate(${rotation*12}deg)`;}status.textContent=canvas.hidden?'Static fallback: viewing angle changed.':`Device view rotated. Angle ${Math.round(rotation*180/Math.PI)}°.`;}
 document.querySelectorAll('[data-turn]').forEach(b=>b.addEventListener('click',()=>turn(Number(b.dataset.turn))));
 let pointer;
 scene.addEventListener('pointerdown',e=>{pointer={x:e.clientX,y:e.clientY};});
@@ -144,10 +144,10 @@ addEventListener('scroll',onScroll,{passive:true});
 const resizeObserver=new ResizeObserver(resize);resizeObserver.observe(scene);
 const intersection=new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)schedule();else stop();});intersection.observe(scene);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else schedule();});
-canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();backup('3D ryšys prarastas');});
+canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();backup('3D context lost');});
 canvas.addEventListener('webglcontextrestored',()=>{if(!disposed&&!reduced.matches)init();});
 function release(){if(gl&&!gl.isContextLost()){for(const m of meshes)gl.deleteBuffer(m.buffer);if(program)gl.deleteProgram(program);}meshes=[];program=null;}
-reduced.addEventListener('change',()=>{stop();if(reduced.matches){release();backup('sumažintas judesys');}else init();});
+reduced.addEventListener('change',()=>{stop();if(reduced.matches){release();backup('reduced motion');}else init();});
 function dispose(){if(disposed)return;disposed=true;stop();resizeObserver.disconnect();intersection.disconnect();removeEventListener('scroll',onScroll);release();}
 addEventListener('pagehide',dispose);
 window.atlasRuntime={get state(){return{progress,frames,active:Boolean(raf),disposed,mode:canvas.hidden?'fallback':'webgl',rotation,explosion,finish,model};},setSelection(value){finish=value.finish;model=value.model;scene.style.setProperty('--finish-filter',finish==='silver'?'brightness(1.7) saturate(.5)':'none');fallback.style.filter=finish==='silver'?'brightness(1.7) saturate(.5)':'none';draw();},dispose};
