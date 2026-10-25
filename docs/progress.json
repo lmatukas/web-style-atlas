@@ -5680,22 +5680,22 @@
     {
       "id": "P52",
       "title": "English conversion: Discovery Cabinet",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P51"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T14:49:11Z",
+      "updated_at": "2026-10-25T14:49:11.930Z",
+      "branch": "task/p52-discovery-cabinet-en",
+      "base_commit": "b440c0744bed733bbf04df7d0d2d1ad691a4948e",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P52 and follow docs/tasks/P52.md.",
+      "next_action": "Implement P52 on task/p52-discovery-cabinet-en.",
       "handoff": null
     },
     {
