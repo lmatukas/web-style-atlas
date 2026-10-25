@@ -20,13 +20,13 @@ let yaw = 0, pitch = 0, glance = 0;
 let metal = 'white', carat = '1.0';
 
 const stop = () => { cancelAnimationFrame(raf); raf = 0; start = 0; };
-const label = () => `Pasukta ${Math.round(yaw * 57.3)}°, pakreipta ${Math.round(pitch * 57.3)}°.`;
+const label = () => `Turned ${Math.round(yaw * 57.3)}°, tilted ${Math.round(pitch * 57.3)}°.`;
 
 function backup(reason) {
   stop(); progress = 1; canvas.hidden = true; fallback.hidden = false;
   document.body.classList.add('static-mode');
-  status.textContent = `Statinis vaizdas: ${reason}. Akmenį vis tiek galima pasukti rodyklėmis; visi pasirinkimai veikia.`;
-  toggle.disabled = true; toggle.textContent = 'Statinis vaizdas';
+  status.textContent = `Static fallback: ${reason}. The arrows still turn the stone, and every choice works.`;
+  toggle.disabled = true; toggle.textContent = 'Static view';
 }
 
 function size() {
@@ -50,17 +50,17 @@ function draw() {
 
 function init() {
   if (disposed) return;
-  if (reduced.matches) return backup('sumažintas judesys');
+  if (reduced.matches) return backup('reduced motion');
   try {
     gl = canvas.getContext('webgl', { alpha: true, antialias: true, premultipliedAlpha: false, preserveDrawingBuffer: true });
     if (!gl) return backup('3D nepasiekiamas');
     renderer = createRenderer(gl);
     canvas.hidden = false; size(); draw();
     fallback.hidden = true; document.body.classList.remove('static-mode');
-    toggle.disabled = false; toggle.textContent = paused ? 'Tęsti judesį' : 'Pristabdyti judesį';
-    status.textContent = 'Sukite akmenį pele, braukdami arba rodyklėmis. Šviesa briaunose keičiasi kartu.';
+    toggle.disabled = false; toggle.textContent = paused ? 'Resume motion' : 'Pause motion';
+    status.textContent = 'Turn the stone with the mouse, a swipe or the arrows. The light in the facets moves with it.';
     episode(1, 1400);
-  } catch { renderer = null; backup('3D paleisti nepavyko'); }
+  } catch { renderer = null; backup('3D could not start'); }
 }
 
 function episode(next, ms) { from = phase; target = next; progress = 0; duration = ms; stop(); if (paused || reduced.matches) { phase = next; progress = 1; draw(); } else schedule(); }
@@ -69,12 +69,12 @@ function tick(t) { raf = 0; if (!start) start = t; progress = Math.min(1, (t - s
 
 function turn(dYaw, dPitch = 0) {
   yaw = Math.max(-3.2, Math.min(3.2, yaw + dYaw)); pitch = Math.max(-0.55, Math.min(0.55, pitch + dPitch));
-  if (canvas.hidden) { fallback.style.transform = `rotate(${Math.round(yaw * 30)}deg)`; status.textContent = `Statinis vaizdas: ${label()}`; }
+  if (canvas.hidden) { fallback.style.transform = `rotate(${Math.round(yaw * 30)}deg)`; status.textContent = `Static fallback: ${label()}`; }
   else { draw(); status.textContent = label(); }
 }
 
 toggle.addEventListener('click', () => {
-  paused = !paused; toggle.setAttribute('aria-pressed', String(paused)); toggle.textContent = paused ? 'Tęsti judesį' : 'Pristabdyti judesį';
+  paused = !paused; toggle.setAttribute('aria-pressed', String(paused)); toggle.textContent = paused ? 'Resume motion' : 'Pause motion';
   if (paused) stop(); else { if (progress < 1) start = 0; schedule(); }
 });
 document.querySelectorAll('[data-turn]').forEach(button => button.addEventListener('click', () => turn(Number(button.dataset.turn) * 0.32)));
@@ -99,10 +99,10 @@ resizeObserver.observe(scene);
 const intersection = new IntersectionObserver(entries => { inView = entries[0].isIntersecting; if (inView) schedule(); else stop(); });
 intersection.observe(scene);
 document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); else schedule(); });
-canvas.addEventListener('webglcontextlost', event => { event.preventDefault(); renderer = null; backup('3D ryšys prarastas'); });
+canvas.addEventListener('webglcontextlost', event => { event.preventDefault(); renderer = null; backup('3D context lost'); });
 canvas.addEventListener('webglcontextrestored', () => { if (!disposed && !reduced.matches) { canvas.hidden = false; init(); } });
 function release() { renderer?.release(); renderer = null; }
-reduced.addEventListener('change', () => { stop(); if (reduced.matches) { release(); backup('sumažintas judesys'); } else { canvas.hidden = false; init(); } });
+reduced.addEventListener('change', () => { stop(); if (reduced.matches) { release(); backup('reduced motion'); } else { canvas.hidden = false; init(); } });
 function dispose() { if (disposed) return; disposed = true; stop(); resizeObserver.disconnect(); intersection.disconnect(); release(); }
 addEventListener('pagehide', dispose);
 

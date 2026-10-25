@@ -47,7 +47,7 @@ The first screen is the vitrine: a spaced label at the top, the stone filling ab
 
 ## Layout B
 
-The piece page is a split product view. The left half is a sticky stage with the same stone now held by six claws; the right half holds a breadcrumb, the title Aušra, and native controls for metal, stone size, ring size and an 18-character engraving shown live on a metal band. A plate-tone summary shows a render of the ring in the chosen metal, every choice, the stone and metal prices and the demonstration total, with one outlined action leading to the booking panel. A two-column specification list and the same booking form, preset to this piece, close the page. A answers "what is this house"; B answers "which version of this piece".
+The piece page is a split product view. The left half is a sticky stage with the same stone now held by six claws; the right half holds a breadcrumb, the title Dawn, and native controls for metal, stone size, ring size and an 18-character engraving shown live on a metal band. A plate-tone summary shows a render of the ring in the chosen metal, every choice, the stone and metal prices and the demonstration total, with one outlined action leading to the booking panel. A two-column specification list and the same booking form, preset to this piece, close the page. A answers "what is this house"; B answers "which version of this piece".
 
 ## Imagery
 
