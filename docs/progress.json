@@ -5337,22 +5337,22 @@
     {
       "id": "P46",
       "title": "English conversion: Openwater Deck",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P45"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T10:36:53Z",
+      "updated_at": "2026-10-25T10:36:53.671Z",
+      "branch": "task/p46-openwater-deck-en",
+      "base_commit": "ce1370e79fb4f37b7bd1e763a4d881b2c48addda",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P46 and follow docs/tasks/P46.md.",
+      "next_action": "Implement P46 on task/p46-openwater-deck-en.",
       "handoff": null
     },
     {

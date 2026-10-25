@@ -4,7 +4,7 @@
 
 **Baigta: 107/126.**
 
-**Kita užduotis: [P46](tasks/P46.md).**
+**Pirmiausia patikrinti P46: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -117,7 +117,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P43](tasks/P43.md) | English conversion: Heirloom Weave Ledger | Baigta | agent/015fh6w2uenf | task/p43-heirloom-weave-ledger-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/163) | 2026-10-25T10:23:35.098Z | None. Task done. |
 | [P44](tasks/P44.md) | English conversion: Velvet Members Hall | Baigta | agent/015fh6w2uenf | task/p44-velvet-members-hall-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/164) | 2026-10-25T10:30:35.382Z | None. Task done. |
 | [P45](tasks/P45.md) | English conversion: Patina Auction Room | Baigta | agent/015fh6w2uenf | task/p45-patina-auction-room-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/165) | 2026-10-25T10:36:51.006Z | None. Task done. |
-| [P46](tasks/P46.md) | English conversion: Openwater Deck | Laukia | — | — | — | — | Claim P46 and follow docs/tasks/P46.md. |
+| [P46](tasks/P46.md) | English conversion: Openwater Deck | Vykdoma | agent/015fh6w2uenf | task/p46-openwater-deck-en | — | 2026-10-25T10:36:53.671Z | Implement P46 on task/p46-openwater-deck-en. |
 | [P47](tasks/P47.md) | English conversion: Scent Ritual | Laukia | — | — | — | — | Claim P47 and follow docs/tasks/P47.md. |
 | [P48](tasks/P48.md) | English conversion: Ember Course Room | Laukia | — | — | — | — | Claim P48 and follow docs/tasks/P48.md. |
 | [P49](tasks/P49.md) | English conversion: Acoustic Sculpture | Laukia | — | — | — | — | Claim P49 and follow docs/tasks/P49.md. |
