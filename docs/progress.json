@@ -5435,7 +5435,7 @@
     {
       "id": "P48",
       "title": "English conversion: Ember Course Room",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P47"
       ],
@@ -5459,6 +5459,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #168 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 1311adf."
         }
       ],
       "evidence_paths": [
@@ -5466,15 +5471,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:57:42Z",
-      "updated_at": "2026-10-25T14:03:24.346Z",
+      "updated_at": "2026-10-25T14:05:43.678Z",
       "branch": "task/p48-ember-course-room-en",
       "base_commit": "f02609fcbc411a9728a28812136ea9003d714fde",
       "evidence_commit": "1311adf458f4276748b93c2f7d22c237ec7c708a",
-      "merge_commit": null,
+      "merge_commit": "801e16d725407ccbe38602c4e44114873dca5c24",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/168",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Ember Course Room in English; QA Next-course step made geometry-independent; backlog 15. Audit found Lithuanian words without diacritics left in P39/P40/P44/P45/P47 scripts; needs a follow-up correction."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 801e16d. Ember Course Room in English; backlog 15. Leftover words in earlier conversions go to P65."
     },
     {
       "id": "P49",
