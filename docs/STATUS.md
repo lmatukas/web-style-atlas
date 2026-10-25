@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 125/127.**
+**Baigta: 126/127.**
 
-**Pirmiausia patikrinti P63: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P64](tasks/P64.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -135,7 +135,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P60](tasks/P60.md) | English conversion: Spine Editions | Baigta | agent/015fh6w2uenf | task/p60-spine-editions-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/181) | 2026-10-25T15:51:01.793Z | None. Task done. |
 | [P61](tasks/P61.md) | English conversion: Trail Composer | Baigta | agent/015fh6w2uenf | task/p61-trail-composer-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/182) | 2026-10-25T16:03:52.939Z | None. Task done. |
 | [P62](tasks/P62.md) | English conversion: Twilight Expedition | Baigta | agent/015fh6w2uenf | task/p62-twilight-expedition-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/183) | 2026-10-25T16:09:51.717Z | None. Task done. |
-| [P63](tasks/P63.md) | English conversion: Woven Field | Laukia peržiūros | agent/015fh6w2uenf | task/p63-woven-field-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/184) | 2026-10-25T16:13:10.404Z | Wait for CI, merge, mark done. |
+| [P63](tasks/P63.md) | English conversion: Woven Field | Baigta | agent/015fh6w2uenf | task/p63-woven-field-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/184) | 2026-10-25T16:15:15.830Z | None. Task done. |
 | [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Laukia | — | — | — | — | Claim P64 and follow docs/tasks/P64.md. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

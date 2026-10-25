@@ -6219,7 +6219,7 @@
     {
       "id": "P63",
       "title": "English conversion: Woven Field",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P62"
       ],
@@ -6243,6 +6243,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #184 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -6250,15 +6255,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T16:09:54Z",
-      "updated_at": "2026-10-25T16:13:10.404Z",
+      "updated_at": "2026-10-25T16:15:15.830Z",
       "branch": "task/p63-woven-field-en",
       "base_commit": "61ffa080a23ed9ac0d730b1342fd8800b864929c",
       "evidence_commit": "0af61f8a6756b626fbe22a8b60ea582dfe64c184",
-      "merge_commit": null,
+      "merge_commit": "5fa2a077e1508751c4ec551e8260654a16bf9afa",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/184",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Woven Field converted to English; brand Lintrova; backlog empty; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 5fa2a07. Woven Field is English; brand Lintrova; LITHUANIAN_BACKLOG is empty, all pages and briefs en."
     },
     {
       "id": "P64",
