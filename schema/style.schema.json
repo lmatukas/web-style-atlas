@@ -149,7 +149,7 @@
     },
     "prompt_path": {
       "type": "string",
-      "pattern": "^prompts/[a-z][a-z0-9]*(?:-[a-z0-9]+)*/prompt\\.lt\\.md$",
+      "pattern": "^prompts/[a-z][a-z0-9]*(?:-[a-z0-9]+)*/prompt\\.(?:lt|en)\\.md$",
       "description": "Optional full creation prompt. Must match this style ID and its public brief registry entry."
     }
   },

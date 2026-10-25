@@ -31,12 +31,16 @@
             "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
           },
           "language": {
-            "const": "lt"
+            "enum": [
+              "lt",
+              "en"
+            ],
+            "description": "Language of the creation prompt. The prompt file name must use the same code."
           },
           "prompt_path": {
             "type": "string",
-            "pattern": "^prompts/[a-z][a-z0-9]*(?:-[a-z0-9]+)*/prompt\\.lt\\.md$",
-            "description": "Optional full creation prompt. Must match this style ID and its public brief registry entry."
+            "pattern": "^prompts/[a-z][a-z0-9]*(?:-[a-z0-9]+)*/prompt\\.(?:lt|en)\\.md$",
+            "description": "Full creation prompt prompts/<id>/prompt.<language>.md. Must match this style ID, the brief language and its public brief registry entry."
           },
           "demo_brand": {
             "type": "string",

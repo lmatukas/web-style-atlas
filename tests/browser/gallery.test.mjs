@@ -14,14 +14,14 @@ if(process.env.ATLAS_GALLERY_EVIDENCE){await p.locator('#comparison img').evalua
 await p.getByRole('button',{name:'Remove '+index.styles[0].name+' from comparison',exact:true}).click();assert.equal(await p.locator('.compare-card').count(),2);await p.getByRole('button',{name:'Clear comparison',exact:true}).click();assert.equal(await p.locator('#comparison').isVisible(),false);
 }finally{await s.close();await b.close();}});
 
-test('Prabanga filters tagged styles, combines with search, restores URLs and resets at desktop/mobile', { timeout: 60000 }, async () => {
+test('Luxury filter shows tagged styles, combines with search, restores URLs and resets at desktop/mobile', { timeout: 60000 }, async () => {
   const browser = await launchCanonical(), server = await serveGallery(undefined, { basePath: '/luxury/' });
   try {
     for (const width of [390, 1440]) {
       const page = await browser.newPage({ viewport: { width, height: 1000 }, reducedMotion: 'reduce' });
       const errors = []; page.on('pageerror', error => errors.push(error.message));
       await page.goto(server.url, { waitUntil: 'networkidle' });
-      const filter = page.getByLabel('Prabanga', { exact: true });
+      const filter = page.getByLabel('Luxury', { exact: true });
       await filter.selectOption('1');
       assert.deepEqual((await page.locator('.card:visible').evaluateAll(cards => cards.map(c => c.dataset.style))).sort(), index.styles.filter(s => s.tags.includes('luxury')).map(s => s.id).sort());
       assert.match(page.url(), /luxury=1/);

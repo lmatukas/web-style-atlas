@@ -1,4 +1,4 @@
-import {MAX_COMPARE,normalizeComparison,selectionPrompt,creationSelectionPrompt} from './selection.mjs';
+import {MAX_COMPARE,normalizeComparison,selectionPrompt,creationSelectionPrompt,promptLanguage} from './selection.mjs';
 const config=JSON.parse(document.getElementById('atlas-config').textContent);
 const atlas=JSON.parse(document.getElementById('atlas-data').textContent);
 const styles=new Map(atlas.styles.map(style=>[style.id,style]));
@@ -10,12 +10,12 @@ let promptRequest=0;
 async function renderPrompt(style,selectedVariant){
  const request=++promptRequest,copy=document.getElementById('copy-prompt'),textarea=document.getElementById('selection-prompt'),status=document.getElementById('copy-status');
  const full=Boolean(style?.prompt_path);copy.textContent=full?'Copy full creation prompt':'Copy selection prompt';copy.disabled=true;textarea.value='';
- document.getElementById('prompt-preview').hidden=!full;document.getElementById('creation-prompt-text').textContent='';document.getElementById('prompt-help').hidden=!full;document.getElementById('retry-prompt').hidden=true;
+ document.getElementById('prompt-preview').hidden=!full;document.getElementById('creation-prompt-text').textContent='';const language=full?promptLanguage(style):null;document.getElementById('prompt-help').hidden=language!=='lt';document.getElementById('creation-prompt-text').lang=language||'en';document.getElementById('retry-prompt').hidden=true;
  if(!style)return;
  if(!full){textarea.value=selectionPrompt(style,selectedVariant,config);copy.disabled=false;return;}
  status.textContent='Loading full creation prompt…';
  try{
-  if(style.prompt_path!==`prompts/${style.id}/prompt.lt.md`)throw new Error('Invalid prompt path');
+  if(!language)throw new Error('Invalid prompt path');
   if(!promptCache.has(style.prompt_path)){
    const response=await fetch(new URL(style.prompt_path,new URL('./',location.href)),{redirect:'error'});
    if(!response.ok)throw new Error('Prompt request failed');

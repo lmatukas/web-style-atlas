@@ -41,3 +41,20 @@ keičia stiliaus krypties.
 - Matomas turinys naujuose stiliuose rašomas anglų kalba. Lietuvių kalba nėra numatytoji kalba.
 - Esami lietuviški stiliai (19) lieka tokie, kol atskira užduotis jų neperveda. Konvertavimas į anglų kalbą nėra daromas automatiškai.
 - Footer'io diakritikų testas lieka techniniu tekstu, kaip nurodyta aukščiau.
+
+## English conversion (P37–P64)
+
+The 26 Lithuanian directions are moved to English one style per task, following
+[the English conversion plan](../docs/english-conversion-plan.md). Short rules:
+
+- Translate, do not redesign. Layout, colour, type, motion and imagery stay.
+- All visible text, script messages, `alt`, `<title>` and the description turn
+  English; the pages get `lang="en"`.
+- An invented demo brand stays. A brand that is a real Lithuanian phrase gets a
+  new invented name, checked for uniqueness.
+- The footer is written for that style only. The `ĄČĘĖĮŠŲŪŽ` glyph line may stay
+  once as technical text.
+- The prompt moves from `prompt.lt.md` to `prompt.en.md` with `language: "en"`.
+- `tests/language.test.mjs` keeps a `LITHUANIAN_BACKLOG`. Each conversion
+  removes its ID; a style outside the list must be fully English, and no style
+  may mix the two languages.
