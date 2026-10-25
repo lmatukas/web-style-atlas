@@ -802,7 +802,7 @@
       "image_dependency": "medium",
       "motion_level": "subtle",
       "name": "Heirloom Weave Ledger",
-      "prompt_path": "prompts/heirloom-weave-ledger/prompt.lt.md",
+      "prompt_path": "prompts/heirloom-weave-ledger/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Cream paper, deep forest-green ink, warm brown archive numerals and flat leather colour; fine interlaced rules replace noisy distress.",

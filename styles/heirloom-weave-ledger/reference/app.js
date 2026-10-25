@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s), all=s=>[...document.querySelectorAll(s)], NS='http://www.w3.org/2000/svg';
 function el(tag,attributes,text){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attributes))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;return n;}
 function renderMark(target,initials,variant='round'){
- target.replaceChildren();if(target.tagName.toLowerCase()==='svg')target.setAttribute('aria-label','Monograma '+initials);
+ target.replaceChildren();if(target.tagName.toLowerCase()==='svg')target.setAttribute('aria-label','Monogram '+initials);
  const outline={fill:'none',stroke:'currentColor','stroke-width':1};
  if(variant==='diamond')target.append(el('path',{...outline,d:'M150 15L280 150L150 285L20 150Z'}),el('path',{...outline,d:'M150 28L267 150L150 272L33 150Z'}));
  else target.append(el('circle',{...outline,cx:150,cy:150,r:120}),el('circle',{...outline,cx:150,cy:150,r:111}));
@@ -13,10 +13,10 @@ function renderMark(target,initials,variant='round'){
 }
 all('[data-monogram]').forEach(s=>renderMark(s,'ES'));
 const periods={
- '1926':{image:'purse.webp',alt:'Istorinis šilko kapšelis, apie 1795 metus',caption:'1926 / Pirmoji gija',note:'Šilko kapšelio studija, apie 1795 m. Iliustracija.',variant:'round'},
- '1956':{image:'gloves.webp',alt:'Istorinės odinės pirštinės su kutais, apie 1870 metus',caption:'1956 / Rankos atsimena',note:'Odinių pirštinių studija, apie 1870 m. Iliustracija.',variant:'diamond'},
- '1986':{image:'folio.svg',alt:'Originalus sulankstomo odos dėklo piešinys',caption:'1986 / Kasdienybės archyvas',note:'Originali šiuolaikinio dėklo iliustracija.',variant:'round'},
- '2026':{image:'scarf.svg',alt:'Originalus austų linijų šilko kvadrato piešinys',caption:'2026 / Jūsų eilutė',note:'Originali šiuolaikinio šilko kvadrato iliustracija.',variant:'diamond'}
+ '1926':{image:'purse.webp',alt:'A historic silk purse, around 1795',caption:'1926 / The first thread',note:'Silk purse study, around 1795. Illustration.',variant:'round'},
+ '1956':{image:'gloves.webp',alt:'Historic fringed leather gloves, around 1870',caption:'1956 / Hands remember',note:'Leather glove study, around 1870. Illustration.',variant:'diamond'},
+ '1986':{image:'folio.svg',alt:'Original drawing of a folding leather case',caption:'1986 / An archive of everyday life',note:'Original illustration of a contemporary case.',variant:'round'},
+ '2026':{image:'scarf.svg',alt:'Original drawing of a silk square with woven lines',caption:'2026 / Your line',note:'Original illustration of a contemporary silk square.',variant:'diamond'}
 };
 let era='1926';
 function chooseEra(key){if(!periods[key]||!$('[data-era-image]'))return;era=key;const p=periods[key];$('[data-era-image]').src='../assets/'+p.image;$('[data-era-image]').alt=p.alt;$('[data-era-caption]').textContent=p.caption;$('[data-era-status]').textContent=p.note;all('[data-era-link]').forEach(a=>a.dataset.eraLink===key?a.setAttribute('aria-current','step'):a.removeAttribute('aria-current'));renderMark($('[data-ledger-mark]'),'ES',p.variant);document.body.dataset.era=key;}
@@ -28,21 +28,21 @@ const state={progress:0,frames:0,active:false,disposed:false,mode:'svg'};window.
 function paint(){scene.style.setProperty('--reveal',String(.45+.55*state.progress));}
 function halt(){cancelAnimationFrame(raf);raf=0;started=null;state.active=false;}
 function stop(){elapsed=state.progress*1600;halt();}
-function frame(t){if(!state.active||state.disposed)return;if(started===null)started=t;state.progress=Math.min(1,(elapsed+t-started)/1600);state.frames++;paint();if(state.progress<1)raf=requestAnimationFrame(frame);else{elapsed=1600;halt();$('[data-runtime-status]').textContent='Ženklas nurimo';}}
+function frame(t){if(!state.active||state.disposed)return;if(started===null)started=t;state.progress=Math.min(1,(elapsed+t-started)/1600);state.frames++;paint();if(state.progress<1)raf=requestAnimationFrame(frame);else{elapsed=1600;halt();$('[data-runtime-status]').textContent='The mark has settled';}}
 function run(){if(state.active||state.disposed||paused||!visible||document.hidden||mq.matches||state.progress===1)return;state.active=true;raf=requestAnimationFrame(frame);}
-motion.addEventListener('click',()=>{paused=!paused;paused?stop():run();motion.textContent=paused?'Tęsti judesį':'Pristabdyti';motion.setAttribute('aria-pressed',String(paused));});
-function preference(){stop();motion.disabled=mq.matches;motion.textContent=mq.matches?'Judesys išjungtas':paused?'Tęsti judesį':'Pristabdyti';if(mq.matches){state.progress=1;elapsed=1600;state.mode='static';$('[data-runtime-status]').textContent='Statinis ženklas';paint();}else state.mode='svg';run();}
+motion.addEventListener('click',()=>{paused=!paused;paused?stop():run();motion.textContent=paused?'Resume motion':'Pause';motion.setAttribute('aria-pressed',String(paused));});
+function preference(){stop();motion.disabled=mq.matches;motion.textContent=mq.matches?'Motion off':paused?'Resume motion':'Pause';if(mq.matches){state.progress=1;elapsed=1600;state.mode='static';$('[data-runtime-status]').textContent='Static mark';paint();}else state.mode='svg';run();}
 function visibility(){document.hidden?stop():run();}
 const observer=new IntersectionObserver(([e])=>{visible=e.isIntersecting;visible?run():stop();});observer.observe(scene);mq.addEventListener('change',preference);document.addEventListener('visibilitychange',visibility);preference();paint();
 addEventListener('pagehide',()=>{stop();state.disposed=true;observer.disconnect();eraObserver.disconnect();mq.removeEventListener('change',preference);document.removeEventListener('visibilitychange',visibility);},{once:true});
 
 const form=$('#personal-form'),input=$('#initials'),confirmation=$('#confirmation'),error=$('#form-error'),preview=$('.personal-preview'),mark=$('[data-object-mark]');
-const threadNames={green:'Miško žalia',brown:'Šiltas rudas',wine:'Tamsus vynas'},colours={green:'var(--color-accent)',brown:'var(--color-brown)',wine:'var(--color-wine)'},positions={center:'Centre',corner:'Apatiniame kampe'};
+const threadNames={green:'Forest green',brown:'Warm brown',wine:'Dark wine'},colours={green:'var(--color-accent)',brown:'var(--color-brown)',wine:'var(--color-wine)'},positions={center:'Centre',corner:'Lower corner'};
 let lastValid='ES';
-const letters=v=>/^[A-ZĄČĘĖĮŠŲŪŽ]{1,3}$/.test(v);
+const letters=v=>/^[A-Z\u0104\u010C\u0118\u0116\u012E\u0160\u0172\u016A\u017D]{1,3}$/.test(v);
 function selection(){return {initials:input.value.trim().toLocaleUpperCase('lt-LT'),thread:form.elements.thread.value,placement:form.elements.placement.value};}
 function invalidate(){error.hidden=true;confirmation.hidden=true;input.removeAttribute('aria-invalid');$('#demo').removeAttribute('aria-invalid');}
-function update(){const s=selection();if(letters(s.initials))lastValid=s.initials;preview.style.setProperty('--thread-color',colours[s.thread]);mark.setAttribute('transform',s.placement==='corner'?'translate(330 390) scale(.26)':'translate(180 310) scale(.52)');renderMark(mark,lastValid,s.placement==='corner'?'diamond':'round');$('.live-object').setAttribute('aria-label',`Dėklas su inicialais ${lastValid}, ${threadNames[s.thread]}, ${positions[s.placement]}`);$('[data-preview-label]').textContent=`${lastValid} / ${threadNames[s.thread]} / ${positions[s.placement]}`;window.atlasPersonalization={...s,valid:letters(s.initials),displayedInitials:lastValid,era};}
+function update(){const s=selection();if(letters(s.initials))lastValid=s.initials;preview.style.setProperty('--thread-color',colours[s.thread]);mark.setAttribute('transform',s.placement==='corner'?'translate(330 390) scale(.26)':'translate(180 310) scale(.52)');renderMark(mark,lastValid,s.placement==='corner'?'diamond':'round');$('.live-object').setAttribute('aria-label',`Case with the initials ${lastValid}, ${threadNames[s.thread]}, ${positions[s.placement]}`);$('[data-preview-label]').textContent=`${lastValid} / ${threadNames[s.thread]} / ${positions[s.placement]}`;window.atlasPersonalization={...s,valid:letters(s.initials),displayedInitials:lastValid,era};}
 form.addEventListener('input',()=>{invalidate();update();});form.addEventListener('change',()=>{invalidate();update();});
-form.addEventListener('submit',e=>{e.preventDefault();invalidate();const s=selection();let message='',bad;if(!letters(s.initials)){message='Įveskite nuo vienos iki trijų lotyniškų arba lietuviškų raidžių.';bad=input;}else if(!$('#demo').checked){message='Patvirtinkite, kad suprantate demonstracijos sąlygas.';bad=$('#demo');}if(message){error.textContent=message;error.hidden=false;bad.setAttribute('aria-invalid','true');bad.focus();return;}input.value=s.initials;update();$('#confirmation-text').textContent=`Sulankstomas odos dėklas. Inicialai: ${s.initials}. Siūlo spalva: ${threadNames[s.thread]}. Vieta: ${positions[s.placement]}. Tai vietinė demonstracija: užsakymas nesukurtas, duomenys neišsiųsti, mokėjimas nevyksta.`;confirmation.hidden=false;confirmation.focus();});
+form.addEventListener('submit',e=>{e.preventDefault();invalidate();const s=selection();let message='',bad;if(!letters(s.initials)){message='Enter one to three letters, A–Z or with accents.';bad=input;}else if(!$('#demo').checked){message='Confirm that you understand this is a demonstration.';bad=$('#demo');}if(message){error.textContent=message;error.hidden=false;bad.setAttribute('aria-invalid','true');bad.focus();return;}input.value=s.initials;update();$('#confirmation-text').textContent=`Folding leather case. Initials: ${s.initials}. Thread colour: ${threadNames[s.thread]}. Place: ${positions[s.placement]}. This is a local demonstration: no order was created, no data was sent and no payment is taken.`;confirmation.hidden=false;confirmation.focus();});
 form.addEventListener('reset',()=>{invalidate();requestAnimationFrame(()=>{lastValid='ES';update();});});update();

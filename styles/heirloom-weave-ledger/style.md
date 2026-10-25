@@ -21,7 +21,7 @@ signature:
   interaction: Initials generate glyph-and-line monograms in real time; thread colour and placement alter the actual SVG accessory before an accurate local summary.
   motion: The opening monogram settles in 1.6 seconds; native scroll changes decade, object and emblem frame; reduced motion keeps all choices immediate.
 status: ready
-prompt_path: prompts/heirloom-weave-ledger/prompt.lt.md
+prompt_path: prompts/heirloom-weave-ledger/prompt.en.md
 ---
 
 # Heirloom Weave Ledger
