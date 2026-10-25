@@ -13,14 +13,14 @@ motion_level: "expressive"
 complexity: "medium"
 signature: {"composition": "A narrow notebook index beside unequal material studies; B a parameter rail beside a large creation table.", "typography": "Quiet Georgia headings, occasional italic and clear Arial control/parameter records.", "navigation": "Five notebook sections versus horizontal studio links, with real sibling compositions.", "content_rhythm": "Idea, field, fragment collection and ledger versus creation, live enquiry and oversized alternating samples.", "imagery": "Original procedural warp/weft lines with actual plain, diagonal and paired crossing structures.", "color_and_material": "Natural linen, deep pine and rust; flat readable surfaces and bounded thread artwork.", "interaction": "Density, two colors, three weaves, editable presets, real standalone SVG export and accurate enquiry copy.", "motion": "800ms tension, bounded nearby bending, 300ms return, 450ms interweave and one-time sample unroll."}
 status: "ready"
-prompt_path: "prompts/woven-field/prompt.lt.md"
+prompt_path: "prompts/woven-field/prompt.en.md"
 ---
 
 # Woven Field
 
 ## Intent
 
-Woven Field makes the relationship between crossing threads into a practical graphic design tool. The fictional Pluošto ritmas studio presents original textile interpretations rather than fabrication specifications. Visitors change density, two thread colors and one of three weave structures, then take a real vector sample and an accurate enquiry note away. The material language comes from repeated directional lines, controlled crossings and deliberate blank linen spaces.
+Woven Field makes the relationship between crossing threads into a practical graphic design tool. The fictional Lintrova studio presents original textile interpretations rather than fabrication specifications. Visitors change density, two thread colors and one of three weave structures, then take a real vector sample and an accurate enquiry note away. The material language comes from repeated directional lines, controlled crossings and deliberate blank linen spaces.
 
 ## Signature
 

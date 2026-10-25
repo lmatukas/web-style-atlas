@@ -154,15 +154,15 @@
       "style_id": "woven-field",
       "name": "Woven Field",
       "family": "tactile",
-      "language": "lt",
-      "prompt_path": "prompts/woven-field/prompt.lt.md",
-      "demo_brand": "Pluošto ritmas",
+      "language": "en",
+      "prompt_path": "prompts/woven-field/prompt.en.md",
+      "demo_brand": "Lintrova",
       "variants": {
-        "a": "Kūrybinis audimo sąsiuvinis su siūlų lauku",
-        "b": "Rašto kūrimo studija ir dideli kolekcijos mėginiai"
+        "a": "A creative weaving notebook with a field of threads",
+        "b": "A pattern-making studio and large collection samples"
       },
-      "signature": "Įtemptų siūlų laukas; ribota lino, žalios ir rūdžių paletė; pynimo struktūra",
-      "acceptance": "Tankis, dvi spalvos ir trys pynimai realiai keičia autorinį SVG; eksportuojamas visas savarankiškas SVG.",
+      "signature": "A field of taut threads; a limited palette of linen, green and rust; a woven structure",
+      "acceptance": "Density, two colours and three weaves really change the original SVG; the whole self-contained SVG can be exported.",
       "enhancement": "svg",
       "closest_styles": [
         "organic-craft",
