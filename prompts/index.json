@@ -112,15 +112,15 @@
       "style_id": "light-environments",
       "name": "Light Environments",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/light-environments/prompt.lt.md",
-      "demo_brand": "Rūko salė",
+      "language": "en",
+      "prompt_path": "prompts/light-environments/prompt.en.md",
+      "demo_brand": "Velumbre",
       "variants": {
-        "a": "Trijų skirtingų erdvių parodos pasakojimas",
-        "b": "Asmeninio parodos maršruto sudarymo stalas"
+        "a": "An exhibition story of three different spaces",
+        "b": "A table for building a personal exhibition route"
       },
-      "signature": "Amfiteatras, audinio skliautas ir šešėlių slėnis; skirtingi siluetai; valdoma šviesos kryptis",
-      "acceptance": "Aplinkos pridedamos į maršrutą, perrikiuojamos, pašalinamos, išsaugomos vietoje ir eksportuojamos.",
+      "signature": "An amphitheatre, a fabric vault and a shadow valley; different silhouettes; a controllable light direction",
+      "acceptance": "Environments can be added to the route, reordered, removed, saved locally and exported.",
       "enhancement": "webgl",
       "closest_styles": [
         "twilight-expedition",

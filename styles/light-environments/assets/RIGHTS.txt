@@ -1,1 +1,1 @@
-Light Environments: original native WebGL geometry, shaders, three SVGs and Lithuanian copy authored for Web Style Atlas under MIT. No imported models, photography, fonts or recordings. System Arial only. Rūko salė is a fictional exhibition concept.
+Light Environments: original native WebGL geometry, shaders, three SVGs and English copy authored for Web Style Atlas under MIT. No imported models, photography, fonts or recordings. System Arial only. Rūko salė is a fictional exhibition concept.
