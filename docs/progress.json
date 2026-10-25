@@ -5043,7 +5043,7 @@
     {
       "id": "P40",
       "title": "English conversion: Escapement Nocturne",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P39"
       ],
@@ -5067,6 +5067,11 @@
           "name": "Previews inspected",
           "status": "pass",
           "details": "Four canonical PNGs compared; layout unchanged."
+        },
+        {
+          "name": "PR #160 CI",
+          "status": "pass",
+          "details": "Scope, source and browser gates success on 4f4bccd."
         }
       ],
       "evidence_paths": [
@@ -5074,15 +5079,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T09:52:38Z",
-      "updated_at": "2026-10-25T10:00:06.813Z",
+      "updated_at": "2026-10-25T10:02:40.915Z",
       "branch": "task/p40-escapement-nocturne-en",
       "base_commit": "c3f4bef1e84689d9e0ab01907ce75fa726fd8c54",
       "evidence_commit": "4f4bccd3d8587f394fdd7c6f93f9d7784fefbdc0",
-      "merge_commit": null,
+      "merge_commit": "71ff186f914b2b4e8d29fa688f76fc0d98bcae79",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/160",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Escapement Nocturne in English; backlog 23."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 71ff186. Escapement Nocturne in English; backlog 23."
     },
     {
       "id": "P41",
