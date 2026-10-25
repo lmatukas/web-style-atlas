@@ -18,7 +18,7 @@ try{
   assert.ok((await page.evaluate(()=>scrollY))>scroll,'vertical touch still scrolls the page');
   if(variant==='alternate')await page.check('input[name=case][value=bronze]');
   const beforeDelete=await page.evaluate(()=>__capabilityProbe.deletes);await page.emulateMedia({reducedMotion:'reduce'});await page.waitForFunction(()=>atlasRuntime.state.mode==='fallback');assert.ok((await page.evaluate(()=>__capabilityProbe.deletes))>beforeDelete,'preference switch releases GPU');assert.ok(await page.locator('[data-runtime-fallback]').isVisible());
-  if(variant==='alternate'){await page.check('input[name=strap][value=mesh]');assert.equal(await page.locator('#total').textContent(),'7 880 €');}
+  if(variant==='alternate'){await page.check('input[name=strap][value=mesh]');assert.equal(await page.locator('#total').textContent(),'€7,880');}
   const frames=await page.evaluate(()=>atlasRuntime.state.frames);await page.waitForTimeout(2500);assert.equal(await page.evaluate(()=>atlasRuntime.state.frames),frames,'reduced mode has no render loop');
   await page.emulateMedia({reducedMotion:'no-preference'});await page.waitForFunction(()=>atlasRuntime.state.mode==='webgl');await page.waitForTimeout(1600);if(variant==='alternate')assert.deepEqual(await page.evaluate(()=>atlasRuntime.state.config),{case:'bronze',dial:'black',strap:'mesh'});
   await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));await page.waitForTimeout(30);const hiddenFrames=await page.evaluate(()=>atlasRuntime.state.frames);await page.waitForTimeout(2100);assert.equal(await page.evaluate(()=>atlasRuntime.state.frames),hiddenFrames,'offscreen clock stops');

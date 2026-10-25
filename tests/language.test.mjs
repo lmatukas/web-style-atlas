@@ -6,7 +6,7 @@ import {existsSync, readdirSync, readFileSync} from 'node:fs';
 // conversion (P38–P63) removes its own ID; P64 needs this list empty.
 // See docs/english-conversion-plan.md.
 export const LITHUANIAN_BACKLOG = [
-  'escapement-nocturne', 'midnight-vestibule',
+  'midnight-vestibule',
   'still-sanctuary', 'heirloom-weave-ledger', 'velvet-members-hall', 'patina-auction-room',
   'openwater-deck', 'scent-ritual', 'ember-course-room', 'acoustic-sculpture',
   'balcony-builder', 'choreographic-stage', 'discovery-cabinet', 'light-environments',

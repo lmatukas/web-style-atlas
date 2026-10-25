@@ -1,8 +1,8 @@
 // Original vector counterpart of the native WebGL watch. No imported artwork.
 export const MATERIALS = {
-  case: { gold: { label: 'Šiltas auksas', price: 1600, color: '#bb9862' }, steel: { label: 'Poliruotas plienas', price: 0, color: '#b8bec1' }, bronze: { label: 'Tamsi bronza', price: 600, color: '#a87550' } },
-  dial: { black: { label: 'Obsidiano juoda', price: 0, color: '#131416' }, blue: { label: 'Nakties mėlyna', price: 250, color: '#172d40' }, ivory: { label: 'Šiltas dramblio kaulas', price: 350, color: '#ddd2b7' } },
-  strap: { black: { label: 'Juoda oda', price: 0, color: '#202024' }, brown: { label: 'Tabako oda', price: 180, color: '#704831' }, mesh: { label: 'Plieno pynė', price: 480, color: '#8b9295' } }
+  case: { gold: { label: 'Warm gold', price: 1600, color: '#bb9862' }, steel: { label: 'Polished steel', price: 0, color: '#b8bec1' }, bronze: { label: 'Dark bronze', price: 600, color: '#a87550' } },
+  dial: { black: { label: 'Obsidian black', price: 0, color: '#131416' }, blue: { label: 'Night blue', price: 250, color: '#172d40' }, ivory: { label: 'Warm ivory', price: 350, color: '#ddd2b7' } },
+  strap: { black: { label: 'Black leather', price: 0, color: '#202024' }, brown: { label: 'Tobacco leather', price: 180, color: '#704831' }, mesh: { label: 'Steel mesh', price: 480, color: '#8b9295' } }
 };
 export const DEFAULTS = { case: 'gold', dial: 'black', strap: 'black' };
 export const BASE_PRICE = 6800;
