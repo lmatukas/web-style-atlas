@@ -6072,23 +6072,46 @@
     {
       "id": "P60",
       "title": "English conversion: Spine Editions",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P59"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews; footer advisory lists three backlog styles."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 12 cases, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P60.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:42:17Z",
-      "updated_at": "2026-10-25T15:42:17.495Z",
+      "updated_at": "2026-10-25T15:48:36.497Z",
       "branch": "task/p60-spine-editions-en",
       "base_commit": "01c652936a96a3be6b4faa5f343a938ee3860169",
-      "evidence_commit": null,
+      "evidence_commit": "ad3d18c2ee6ae88bd920d7c711085aa5a153c4a1",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/181",
       "blocker": null,
-      "next_action": "Implement P60 on task/p60-spine-editions-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Spine Editions converted to English; brand Raštmė kept; awaiting CI."
     },
     {
       "id": "P61",
