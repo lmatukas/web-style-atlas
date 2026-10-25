@@ -6023,23 +6023,46 @@
     {
       "id": "P59",
       "title": "English conversion: Seasonal Terrain",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P58"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "check.mjs 10 cases, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P59.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:36:33Z",
-      "updated_at": "2026-10-25T15:36:33.985Z",
+      "updated_at": "2026-10-25T15:39:54.979Z",
       "branch": "task/p59-seasonal-terrain-en",
       "base_commit": "2e20c7648acc8fcc3bf0b8b858677b48ea8c4b0f",
-      "evidence_commit": null,
+      "evidence_commit": "c5661da205e7fc4f0b4d3a79a221bc4ca9f768cc",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/180",
       "blocker": null,
-      "next_action": "Implement P59 on task/p59-seasonal-terrain-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Seasonal Terrain converted to English; brand Glebora; awaiting CI."
     },
     {
       "id": "P60",

@@ -4,7 +4,7 @@
 
 **Baigta: 121/127.**
 
-**Pirmiausia patikrinti P59: Vykdoma; vykdytojas agent/015fh6w2uenf.**
+**Pirmiausia patikrinti P59: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -131,7 +131,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P56](tasks/P56.md) | English conversion: Repair Atlas | Baigta | agent/015fh6w2uenf | task/p56-repair-atlas-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/177) | 2026-10-25T15:23:51.757Z | None. Task done. |
 | [P57](tasks/P57.md) | English conversion: Resonant Ribbon | Baigta | agent/015fh6w2uenf | task/p57-resonant-ribbon-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/178) | 2026-10-25T15:30:09.365Z | None. Task done. |
 | [P58](tasks/P58.md) | English conversion: Rhythm Planner | Baigta | agent/015fh6w2uenf | task/p58-rhythm-planner-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/179) | 2026-10-25T15:36:31.383Z | None. Task done. |
-| [P59](tasks/P59.md) | English conversion: Seasonal Terrain | Vykdoma | agent/015fh6w2uenf | task/p59-seasonal-terrain-en | — | 2026-10-25T15:36:33.985Z | Implement P59 on task/p59-seasonal-terrain-en. |
+| [P59](tasks/P59.md) | English conversion: Seasonal Terrain | Laukia peržiūros | agent/015fh6w2uenf | task/p59-seasonal-terrain-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/180) | 2026-10-25T15:39:54.979Z | Wait for CI, merge, mark done. |
 | [P60](tasks/P60.md) | English conversion: Spine Editions | Laukia | — | — | — | — | Claim P60 and follow docs/tasks/P60.md. |
 | [P61](tasks/P61.md) | English conversion: Trail Composer | Laukia | — | — | — | — | Claim P61 and follow docs/tasks/P61.md. |
 | [P62](tasks/P62.md) | English conversion: Twilight Expedition | Laukia | — | — | — | — | Claim P62 and follow docs/tasks/P62.md. |
