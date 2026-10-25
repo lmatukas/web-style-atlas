@@ -1597,7 +1597,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Patina Auction Room",
-      "prompt_path": "prompts/patina-auction-room/prompt.lt.md",
+      "prompt_path": "prompts/patina-auction-room/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Charcoal gallery wall, warm ivory text and paper desk; red reserved for the demonstration countdown.",

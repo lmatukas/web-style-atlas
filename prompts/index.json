@@ -469,15 +469,15 @@
       "style_id": "patina-auction-room",
       "name": "Patina Auction Room",
       "family": "photographic",
-      "language": "lt",
-      "prompt_path": "prompts/patina-auction-room/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/patina-auction-room/prompt.en.md",
       "demo_brand": "Orvélume",
       "variants": {
-        "a": "Filtruojamas aukciono katalogas ir peržiūrų registracija",
-        "b": "Vieno loto byla, priartinimas ir vietinis statymas"
+        "a": "A filterable auction catalogue with viewing registration",
+        "b": "A single lot file with zoom and a local bid"
       },
-      "signature": "Prožektoriaus šviesa seka žymeklį; klaviatūra ir lietimu ją valdo natyvus slankiklis.",
-      "acceptance": "Kategorijų ir įverčių filtrai, priartinimas, šeši peržiūros laikai, minimalaus žingsnio statymai, laikmatis, klaidos, santrauka ir atkūrimas.",
+      "signature": "A spotlight follows the pointer; a native slider controls it with keyboard and touch.",
+      "acceptance": "Category and estimate filters, zoom, six viewing times, minimum-step bids, the timer, errors, summary and reset.",
       "enhancement": "html-svg",
       "closest_styles": [
         "gallery-white-cube",
