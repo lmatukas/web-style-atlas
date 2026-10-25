@@ -52,6 +52,44 @@ export function languageProblems(styles, backlog = LITHUANIAN_BACKLOG) {
   return problems;
 }
 
+// Common Lithuanian interface words. A letter search alone misses words like
+// "Pristabdyti" or "objektai"; P65 found such strings left in converted styles.
+const LITHUANIAN_UI_WORDS = ['pristabdyti', 'sustabdyti', 'tęsti', 'statinis', 'statinė', 'vaizdas', 'judesys',
+  'nepasiekiamas', 'neprieinamas', 'prarastas', 'kontekstas', 'objektai', 'stalai', 'stalas', 'pilna', 'laisvas',
+  'pasirinktas', 'užimta', 'užimtas', 'išvalyti', 'toliau', 'atgal', 'rezervuoti', 'patvirtinti', 'pasirinkite',
+  'įrašykite', 'laikrodis', 'mechaninis', 'originalus', 'svečiai', 'naktys', 'demonstracija', 'kaina', 'suma'];
+export function lithuanianWords(text) {
+  const found = new Set();
+  for (const word of text.toLowerCase().match(/[\p{L}]+/gu) ?? []) if (LITHUANIAN_UI_WORDS.includes(word)) found.add(word);
+  return [...found];
+}
+function visibleSource(path) {
+  let source = read(path);
+  if (path.endsWith('.html')) return source.replace(/<(script|style)\b[\s\S]*?<\/\1>/g, '').replace(/<[^>]+>/g, ' ');
+  // Script strings only: quoted literals and the text parts of template literals.
+  return [...source.matchAll(/'((?:[^'\\\n]|\\.)*)'|"((?:[^"\\\n]|\\.)*)"|`([^`]*)`/g)].map(m => (m[1] ?? m[2] ?? m[3] ?? '').replace(/\$\{[^}]*\}/g, ' ')).join(' ');
+}
+
+test('converted styles keep no common Lithuanian interface words in pages or scripts', () => {
+  const problems = [];
+  for (const id of readdirSync(new URL('styles/', root)).sort()) {
+    if (LITHUANIAN_BACKLOG.includes(id)) continue;
+    const dir = `styles/${id}/reference/`;
+    if (!existsSync(new URL(dir, root))) continue;
+    for (const file of readdirSync(new URL(dir, root)).filter(f => /\.(html|mjs|js)$/.test(f))) {
+      const words = lithuanianWords(visibleSource(dir + file));
+      if (words.length) problems.push(`${dir}${file}: ${words.join(', ')}`);
+    }
+  }
+  assert.deepEqual(problems, []);
+});
+
+test('Lithuanian interface word check catches strings without Lithuanian letters', () => {
+  assert.deepEqual(lithuanianWords("toggle.textContent = paused ? 'Resume motion' : 'Pristabdyti'"), ['pristabdyti']);
+  assert.deepEqual(lithuanianWords('count + " objektai"'), ['objektai']);
+  assert.deepEqual(lithuanianWords('Static fallback: 3D unavailable. Every choice still works.'), []);
+});
+
 test('every style is English unless it is still in the Lithuanian backlog', () => {
   assert.deepEqual(languageProblems(languageMap()), []);
 });

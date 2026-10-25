@@ -22,7 +22,7 @@ function describe(reason=''){status.textContent=engine?(state.paused?'3D view â€
 function useFallback(reason,redraw=false){cancel();if(engine)engine.dispose();engine=null;state.mode='fallback';state.progress=1;canvas.hidden=true;$('[data-watch-lettering]').setAttribute('hidden','');fallback.hidden=false;clockText(staticDate);if(redraw)staticImage();describe(reason);}
 function init(){if(state.disposed)return;if(reduced.matches){useFallback('reduced motion');return;}
  try{engine=createMechanism(canvas);state.mode='webgl';canvas.hidden=false;frameDate=new Date();paint(0);fallback.hidden=true;$('[data-watch-lettering]').removeAttribute('hidden');describe();episode();scheduleClock();}
- catch{useFallback('3D neprieinamas');}
+ catch{useFallback('3D unavailable');}
 }
 function setReveal(value,manual=true){state.reveal=clamp(Number(value));revealInput.value=String(Math.round(state.reveal*100));$('#reveal-value').textContent=`${Math.round(state.reveal*100)}%`;revealToggle.setAttribute('aria-pressed',String(state.reveal>.5));revealToggle.textContent=state.reveal>.5?'Close the dial':'Open the movement';if(!engine)staticImage();else paint();if(manual){state.progress=1;manualScroll=scrollY;}}
 revealInput.addEventListener('input',()=>setReveal(Number(revealInput.value)/100),{signal});
@@ -41,7 +41,7 @@ addEventListener('scroll',scrollReveal,{passive:true,signal});
 const resizeObserver=new ResizeObserver(()=>{paint();});resizeObserver.observe(scene);
 const intersection=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;state.visible=visible;if(!visible){cancel();state.progress=1;}else{frameDate=new Date();paint();scheduleClock();}},{threshold:0});intersection.observe(scene);
 document.addEventListener('visibilitychange',()=>{if(document.hidden){cancel();state.progress=1;}else if(visible){frameDate=new Date();paint();scheduleClock();}},{signal});
-canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();staticDate=new Date(frameDate);useFallback('3D kontekstas prarastas',true);},{signal});
+canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();staticDate=new Date(frameDate);useFallback('3D context lost',true);},{signal});
 reduced.addEventListener('change',()=>{if(reduced.matches){staticDate=new Date(frameDate);useFallback('reduced motion',true);}else{init();}},{signal});
 addEventListener('pagehide',()=>{cancel();state.disposed=true;if(engine)engine.dispose();engine=null;revokeImage();resizeObserver.disconnect();intersection.disconnect();abort.abort();},{once:true});
 // A real configuration: every choice updates both rendering paths and exact totals.

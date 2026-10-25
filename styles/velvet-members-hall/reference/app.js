@@ -59,12 +59,12 @@ function onToggle() {
   paused = !paused;
   if (paused) { stop(); status.textContent = 'Motion paused'; }
   else run();
-  toggle.textContent = paused ? 'Resume motion' : 'Pristabdyti';
+  toggle.textContent = paused ? 'Resume motion' : 'Pause';
   toggle.setAttribute('aria-pressed', String(paused));
 }
 function onPreference() {
   stop(); toggle.disabled = preference.matches;
-  toggle.textContent = preference.matches ? 'Motion off' : paused ? 'Resume motion' : 'Pristabdyti';
+  toggle.textContent = preference.matches ? 'Motion off' : paused ? 'Resume motion' : 'Pause';
   state.mode = preference.matches ? 'static' : 'svg';
   if (preference.matches) {
     position = {...target}; state.progress = 1; elapsed = duration;

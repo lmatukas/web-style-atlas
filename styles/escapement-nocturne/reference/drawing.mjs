@@ -27,7 +27,7 @@ export function watchDrawing(config = DEFAULTS, reveal = .78, date = new Date('2
   for (const [x,y] of [[300,335],[530,390],[276,620],[508,652],[423,310]]) screws += `<g transform="translate(${x} ${y})"><circle r="8" fill="url(#steel)" stroke="#08090a"/><path d="M-4 -2L4 2" stroke="#262a2e" stroke-width="2"/></g>`;
   for(let i=0;i<12;i++) brushing += `<path d="M196 ${330+i*28}H605" stroke="#e5ddc1" opacity=".035" stroke-width="9"/>`;
   for(let i=0;i<29;i++) {stitches += `<path d="M304 ${i*36}v15M496 ${i*36}v15" stroke="#a09583" stroke-width="1" opacity=".5"/>`;mesh += `<path d="M295 ${i*36}l210 18m-210 0l210 18" stroke="#d4d5d4" opacity=".4" stroke-width="2"/>`;}
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000"><title>Zevraqelle N.01 — originalus mechaninis laikrodis</title><defs>
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000"><title>Zevraqelle N.01 — an original mechanical watch</title><defs>
 <linearGradient id="metal" x1="0" y1="0" x2="1" y2=".85"><stop stop-color="#ede5cd"/><stop offset=".18" stop-color="${c}"/><stop offset=".33" stop-color="#51483c"/><stop offset=".49" stop-color="${c}"/><stop offset=".69" stop-color="#f1e5c9"/><stop offset=".83" stop-color="${c}"/><stop offset="1" stop-color="#51483b"/></linearGradient>
 <linearGradient id="steel"><stop stop-color="#45494c"/><stop offset=".27" stop-color="#d1d3d0"/><stop offset=".55" stop-color="#666b70"/><stop offset=".8" stop-color="#d5d4ca"/><stop offset="1" stop-color="#54595b"/></linearGradient>
 <radialGradient id="dial"><stop stop-color="${d}"/><stop offset=".8" stop-color="${d}"/><stop offset="1" stop-color="${light?'#a69a7c':'#050607'}"/></radialGradient>
