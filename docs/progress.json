@@ -5925,23 +5925,46 @@
     {
       "id": "P57",
       "title": "English conversion: Resonant Ribbon",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P56"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "check.mjs 10 cases, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P57.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:23:54Z",
-      "updated_at": "2026-10-25T15:23:54.459Z",
+      "updated_at": "2026-10-25T15:27:47.145Z",
       "branch": "task/p57-resonant-ribbon-en",
       "base_commit": "4c87a672b4f6550c8a4de75d2f8ed8e57ebe4b0c",
-      "evidence_commit": null,
+      "evidence_commit": "d01e8f899ad9774825ff8c08e60cc6c92686fd75",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/178",
       "blocker": null,
-      "next_action": "Implement P57 on task/p57-resonant-ribbon-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Resonant Ribbon converted to English; brand Tembrelo; awaiting CI."
     },
     {
       "id": "P58",
