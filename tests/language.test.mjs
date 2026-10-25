@@ -6,7 +6,7 @@ import {existsSync, readdirSync, readFileSync} from 'node:fs';
 // conversion (P38–P63) removes its own ID; P64 needs this list empty.
 // See docs/english-conversion-plan.md.
 export const LITHUANIAN_BACKLOG = [
-  'obsidian-stage', 'luminous-cut-vitrine', 'escapement-nocturne', 'midnight-vestibule',
+  'luminous-cut-vitrine', 'escapement-nocturne', 'midnight-vestibule',
   'still-sanctuary', 'heirloom-weave-ledger', 'velvet-members-hall', 'patina-auction-room',
   'openwater-deck', 'scent-ritual', 'ember-course-room', 'acoustic-sculpture',
   'balcony-builder', 'choreographic-stage', 'discovery-cabinet', 'light-environments',
@@ -59,9 +59,9 @@ test('every style is English unless it is still in the Lithuanian backlog', () =
   assert.deepEqual(languageProblems(languageMap()), []);
 });
 
-test('backlog holds exactly the 26 directions queued for English conversion', () => {
-  assert.equal(LITHUANIAN_BACKLOG.length, 26);
-  assert.equal(new Set(LITHUANIAN_BACKLOG).size, 26);
+test('backlog only shrinks: no duplicates and at most the 26 directions queued in P37', () => {
+  assert.ok(LITHUANIAN_BACKLOG.length <= 26);
+  assert.equal(new Set(LITHUANIAN_BACKLOG).size, LITHUANIAN_BACKLOG.length);
 });
 
 test('language check fails on an unlisted lt page, a listed English style and a mixed style', () => {

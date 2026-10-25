@@ -322,15 +322,15 @@
       "style_id": "obsidian-stage",
       "name": "Obsidian Stage",
       "family": "spatial",
-      "language": "lt",
-      "prompt_path": "prompts/obsidian-stage/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/obsidian-stage/prompt.en.md",
       "demo_brand": "Veylqor",
       "variants": {
-        "a": "Tamsus vieno įrenginio pasakojimas su penkiomis konstrukcijos scenomis",
-        "b": "Šviesus trijų modelių palyginimas ir pasirinkimo stalas"
+        "a": "A dark single-device story with five construction scenes",
+        "b": "A light comparison of three models and a selection desk"
       },
-      "signature": "Didelis metalinis objektas, slenkant atsiveriantys trys sluoksniai ir šviesi tikslios kainos santrauka.",
-      "acceptance": "Modelis, apdaila ir atmintis keičia vaizdą, kainą ir vietinę santrauką; klaida, patvirtinimas ir atstatymas veikia.",
+      "signature": "A large metal object, three layers that open on scroll and a light summary with an exact price.",
+      "acceptance": "Model, finish and storage change the image, the price and the local summary; the error, confirmation and reset all work.",
       "enhancement": "webgl",
       "closest_styles": [
         "soft-spatial",
