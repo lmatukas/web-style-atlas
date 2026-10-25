@@ -6072,7 +6072,7 @@
     {
       "id": "P60",
       "title": "English conversion: Spine Editions",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P59"
       ],
@@ -6096,6 +6096,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #181 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -6103,15 +6108,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:42:17Z",
-      "updated_at": "2026-10-25T15:48:36.497Z",
+      "updated_at": "2026-10-25T15:51:01.793Z",
       "branch": "task/p60-spine-editions-en",
       "base_commit": "01c652936a96a3be6b4faa5f343a938ee3860169",
       "evidence_commit": "ad3d18c2ee6ae88bd920d7c711085aa5a153c4a1",
-      "merge_commit": null,
+      "merge_commit": "899387bb78db5b8d7d68f08cca82877d41563d13",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/181",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Spine Editions converted to English; brand Raštmė kept; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 899387b. Spine Editions is English; brand Raštmė kept; it left the footer-boilerplate advisory."
     },
     {
       "id": "P61",
