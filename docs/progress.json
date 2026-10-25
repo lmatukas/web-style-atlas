@@ -5435,23 +5435,46 @@
     {
       "id": "P48",
       "title": "English conversion: Ember Course Room",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P47"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "106/106."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "qa.mjs 10/10 runs (1800 inventory + 6 browser cases); runtime 6; browser 6."
+        },
+        {
+          "name": "Previews inspected",
+          "status": "pass",
+          "details": "Four canonical PNGs compared; layout unchanged."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P48.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T10:57:42Z",
-      "updated_at": "2026-10-25T10:57:42.479Z",
+      "updated_at": "2026-10-25T14:03:24.346Z",
       "branch": "task/p48-ember-course-room-en",
       "base_commit": "f02609fcbc411a9728a28812136ea9003d714fde",
-      "evidence_commit": null,
+      "evidence_commit": "1311adf458f4276748b93c2f7d22c237ec7c708a",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/168",
       "blocker": null,
-      "next_action": "Implement P48 on task/p48-ember-course-room-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Ember Course Room in English; QA Next-course step made geometry-independent; backlog 15. Audit found Lithuanian words without diacritics left in P39/P40/P44/P45/P47 scripts; needs a follow-up correction."
     },
     {
       "id": "P49",
