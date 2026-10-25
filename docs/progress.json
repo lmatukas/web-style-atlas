@@ -5484,22 +5484,22 @@
     {
       "id": "P65",
       "title": "Correction: Lithuanian words left in converted luxury scripts",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P48"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T14:06:08Z",
+      "updated_at": "2026-10-25T14:06:08.467Z",
+      "branch": "task/p65-leftover-lithuanian",
+      "base_commit": "9160ccc1eed6bbe3b01184b38c1f9df974e5184d",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P65 and follow docs/tasks/P65.md.",
+      "next_action": "Implement P65 on task/p65-leftover-lithuanian.",
       "handoff": null
     },
     {
