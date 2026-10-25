@@ -5,9 +5,7 @@ import {existsSync, readdirSync, readFileSync} from 'node:fs';
 // Styles whose pages and prompt may still be Lithuanian. Every English
 // conversion (P38–P63) removes its own ID; P64 needs this list empty.
 // See docs/english-conversion-plan.md.
-export const LITHUANIAN_BACKLOG = [
-  'woven-field'
-];
+export const LITHUANIAN_BACKLOG = [];
 const LANGUAGES = ['en', 'lt'];
 
 const root = new URL('../', import.meta.url);
