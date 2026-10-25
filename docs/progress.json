@@ -5680,23 +5680,46 @@
     {
       "id": "P52",
       "title": "English conversion: Discovery Cabinet",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P51"
       ],
-      "checks": [],
-      "evidence_paths": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews; footer advisory lists six styles."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Style QA",
+          "status": "pass",
+          "details": "qa.mjs 12 cases, qa-gallery, runtime-qa 6, browser-qa 6 pages."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        }
+      ],
+      "evidence_paths": [
+        "docs/evidence/P52.md"
+      ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:49:11Z",
-      "updated_at": "2026-10-25T14:49:11.930Z",
+      "updated_at": "2026-10-25T14:53:43.185Z",
       "branch": "task/p52-discovery-cabinet-en",
       "base_commit": "b440c0744bed733bbf04df7d0d2d1ad691a4948e",
-      "evidence_commit": null,
+      "evidence_commit": "9d4e0377ba962e752c1684196a4791e25631c8f0",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/173",
       "blocker": null,
-      "next_action": "Implement P52 on task/p52-discovery-cabinet-en.",
-      "handoff": null
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Discovery Cabinet converted to English; brand Granovel; awaiting CI."
     },
     {
       "id": "P53",
