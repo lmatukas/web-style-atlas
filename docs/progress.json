@@ -5582,7 +5582,7 @@
     {
       "id": "P50",
       "title": "English conversion: Balcony Builder",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P49"
       ],
@@ -5606,6 +5606,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #171 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5613,15 +5618,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T14:35:28Z",
-      "updated_at": "2026-10-25T14:40:55.819Z",
+      "updated_at": "2026-10-25T14:43:36.367Z",
       "branch": "task/p50-balcony-builder-en",
       "base_commit": "3c866d8e74d8a6f2d2b2f508a8d4f0d132becbee",
       "evidence_commit": "2b6ec1945c4b84c76b583904fe02043d38bb5e5f",
-      "merge_commit": null,
+      "merge_commit": "2e42e4b32475dae2928564f60a1635f8d4d9ec1e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/171",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Balcony Builder converted to English; brand Sprouvel; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 2e42e4b. Balcony Builder is English; brand Sprouvel; anchors renamed with the copy."
     },
     {
       "id": "P51",
