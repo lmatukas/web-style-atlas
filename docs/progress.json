@@ -5778,7 +5778,7 @@
     {
       "id": "P54",
       "title": "English conversion: Membrane Score",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P53"
       ],
@@ -5802,6 +5802,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #175 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5809,15 +5814,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:02:07Z",
-      "updated_at": "2026-10-25T15:06:40.437Z",
+      "updated_at": "2026-10-25T15:08:48.172Z",
       "branch": "task/p54-membrane-score-en",
       "base_commit": "93eb7441a2ec26723cd76306b8f29397b844c8a3",
       "evidence_commit": "52a0c8906713736943ac80450ba625bead90ff64",
-      "merge_commit": null,
+      "merge_commit": "1bc0afe01b4c5f2835fcf9c96bdc6791d35d4c37",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/175",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Membrane Score converted to English; brand Tessaryn; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 1bc0afe. Membrane Score is English; brand Tessaryn; it left the footer-boilerplate advisory."
     },
     {
       "id": "P55",
