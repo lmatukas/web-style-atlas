@@ -53,7 +53,7 @@ function init() {
   if (reduced.matches) return backup('reduced motion');
   try {
     gl = canvas.getContext('webgl', { alpha: true, antialias: true, premultipliedAlpha: false, preserveDrawingBuffer: true });
-    if (!gl) return backup('3D nepasiekiamas');
+    if (!gl) return backup('3D unavailable');
     renderer = createRenderer(gl);
     canvas.hidden = false; size(); draw();
     fallback.hidden = true; document.body.classList.remove('static-mode');
