@@ -5092,22 +5092,22 @@
     {
       "id": "P41",
       "title": "English conversion: Midnight Vestibule",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P40"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T10:02:43Z",
+      "updated_at": "2026-10-25T10:02:43.819Z",
+      "branch": "task/p41-midnight-vestibule-en",
+      "base_commit": "4750b32702dfa4e939d0ed12024eeed19d85b1cb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P41 and follow docs/tasks/P41.md.",
+      "next_action": "Implement P41 on task/p41-midnight-vestibule-en.",
       "handoff": null
     },
     {

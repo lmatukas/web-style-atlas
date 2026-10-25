@@ -4,7 +4,7 @@
 
 **Baigta: 102/126.**
 
-**Kita užduotis: [P41](tasks/P41.md).**
+**Pirmiausia patikrinti P41: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -112,7 +112,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P38](tasks/P38.md) | English conversion: Obsidian Stage | Baigta | agent/015fh6w2uenf | task/p38-obsidian-stage-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/158) | 2026-10-25T09:43:45.701Z | None. Task done. |
 | [P39](tasks/P39.md) | English conversion: Luminous Cut Vitrine | Baigta | agent/015fh6w2uenf | task/p39-luminous-cut-vitrine-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/159) | 2026-10-25T09:52:35.420Z | None. Task done. |
 | [P40](tasks/P40.md) | English conversion: Escapement Nocturne | Baigta | agent/015fh6w2uenf | task/p40-escapement-nocturne-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/160) | 2026-10-25T10:02:40.915Z | None. Task done. |
-| [P41](tasks/P41.md) | English conversion: Midnight Vestibule | Laukia | — | — | — | — | Claim P41 and follow docs/tasks/P41.md. |
+| [P41](tasks/P41.md) | English conversion: Midnight Vestibule | Vykdoma | agent/015fh6w2uenf | task/p41-midnight-vestibule-en | — | 2026-10-25T10:02:43.819Z | Implement P41 on task/p41-midnight-vestibule-en. |
 | [P42](tasks/P42.md) | English conversion: Still Sanctuary | Laukia | — | — | — | — | Claim P42 and follow docs/tasks/P42.md. |
 | [P43](tasks/P43.md) | English conversion: Heirloom Weave Ledger | Laukia | — | — | — | — | Claim P43 and follow docs/tasks/P43.md. |
 | [P44](tasks/P44.md) | English conversion: Velvet Members Hall | Laukia | — | — | — | — | Claim P44 and follow docs/tasks/P44.md. |
