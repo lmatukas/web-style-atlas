@@ -21,7 +21,7 @@ signature:
   interaction: Pointer and native range controls move actual light across velvet; month and event choices change seat limits, while referral and house choices change the membership letter.
   motion: A 1.6-second opening light sweep settles; user adjustments settle in 420ms; pause, hidden/offscreen suspension and immediate reduced-motion controls remain available.
 status: ready
-prompt_path: prompts/velvet-members-hall/prompt.lt.md
+prompt_path: prompts/velvet-members-hall/prompt.en.md
 ---
 
 # Velvet Members Hall

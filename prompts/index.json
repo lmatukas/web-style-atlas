@@ -448,15 +448,15 @@
       "style_id": "velvet-members-hall",
       "name": "Velvet Members Hall",
       "family": "tactile",
-      "language": "lt",
-      "prompt_path": "prompts/velvet-members-hall/prompt.lt.md",
+      "language": "en",
+      "prompt_path": "prompts/velvet-members-hall/prompt.en.md",
       "demo_brand": "Orvelleth",
       "variants": {
-        "a": "Privataus klubo pristatymas, erdvės, mėnesių programa ir vietos rezervacija",
-        "b": "Asmeninis kvietimo laiškas ir trijų žingsnių narystės paraiška"
+        "a": "A private club introduction with rooms, a monthly programme and seat booking",
+        "b": "A personal invitation letter and a three-step membership application"
       },
-      "signature": "Vyšninio aksomo klostės, kurių šviesa reaguoja į žymeklį, klaviatūros slankiklį ir lietimą.",
-      "acceptance": "Narystės lygis, klubo namas ir rekomendacijos kelias su tikslia santrauka; renginio datos ir vietų limitai; klaidos, grįžimas, atkūrimas ir vietinis patvirtinimas.",
+      "signature": "Folds of cherry velvet whose light responds to the pointer, a keyboard slider and touch.",
+      "acceptance": "Membership level, club house and recommendation path with an exact summary; event dates and seat limits; errors, going back, reset and a local confirmation.",
       "enhancement": "html-svg",
       "closest_styles": [
         "art-deco",
