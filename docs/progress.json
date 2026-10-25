@@ -6170,22 +6170,22 @@
     {
       "id": "P62",
       "title": "English conversion: Twilight Expedition",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P61"
       ],
       "checks": [],
       "evidence_paths": [],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-25T16:03:55Z",
+      "updated_at": "2026-10-25T16:03:55.949Z",
+      "branch": "task/p62-twilight-expedition-en",
+      "base_commit": "0172bbcc8ec2310dd8a614a0d30c7b2ec5bc3f28",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P62 and follow docs/tasks/P62.md.",
+      "next_action": "Implement P62 on task/p62-twilight-expedition-en.",
       "handoff": null
     },
     {
