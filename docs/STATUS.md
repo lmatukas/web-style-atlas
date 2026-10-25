@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 117/127.**
+**Baigta: 118/127.**
 
-**Pirmiausia patikrinti P55: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P56](tasks/P56.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -127,7 +127,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P52](tasks/P52.md) | English conversion: Discovery Cabinet | Baigta | agent/015fh6w2uenf | task/p52-discovery-cabinet-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/173) | 2026-10-25T14:55:44.260Z | None. Task done. |
 | [P53](tasks/P53.md) | English conversion: Light Environments | Baigta | agent/015fh6w2uenf | task/p53-light-environments-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/174) | 2026-10-25T15:02:04.443Z | None. Task done. |
 | [P54](tasks/P54.md) | English conversion: Membrane Score | Baigta | agent/015fh6w2uenf | task/p54-membrane-score-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/175) | 2026-10-25T15:08:48.172Z | None. Task done. |
-| [P55](tasks/P55.md) | English conversion: Modular Light | Laukia peržiūros | agent/015fh6w2uenf | task/p55-modular-light-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/176) | 2026-10-25T15:15:53.628Z | Wait for CI, merge, mark done. |
+| [P55](tasks/P55.md) | English conversion: Modular Light | Baigta | agent/015fh6w2uenf | task/p55-modular-light-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/176) | 2026-10-25T15:18:21.869Z | None. Task done. |
 | [P56](tasks/P56.md) | English conversion: Repair Atlas | Laukia | — | — | — | — | Claim P56 and follow docs/tasks/P56.md. |
 | [P57](tasks/P57.md) | English conversion: Resonant Ribbon | Laukia | — | — | — | — | Claim P57 and follow docs/tasks/P57.md. |
 | [P58](tasks/P58.md) | English conversion: Rhythm Planner | Laukia | — | — | — | — | Claim P58 and follow docs/tasks/P58.md. |

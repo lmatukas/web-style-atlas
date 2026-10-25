@@ -5827,7 +5827,7 @@
     {
       "id": "P55",
       "title": "English conversion: Modular Light",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P54"
       ],
@@ -5851,6 +5851,11 @@
           "name": "Previews",
           "status": "pass",
           "details": "Regenerated in workflow; four PNGs inspected against the previous ones."
+        },
+        {
+          "name": "PR #176 CI",
+          "status": "pass",
+          "details": "Scope and queue, Source and generated gates, Browser and accessibility gates all green."
         }
       ],
       "evidence_paths": [
@@ -5858,15 +5863,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-25T15:08:51Z",
-      "updated_at": "2026-10-25T15:15:53.628Z",
+      "updated_at": "2026-10-25T15:18:21.869Z",
       "branch": "task/p55-modular-light-en",
       "base_commit": "29e2798adaaac5d875c833b38e3952aca6cacec1",
       "evidence_commit": "62f0b1606fd8d37675d09217361e41316fa91aa0",
-      "merge_commit": null,
+      "merge_commit": "af310def40889507e1c96892bbd2e47c44907b9b",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/176",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Modular Light converted to English; brand Plivane; awaiting CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in af310de. Modular Light is English; brand Plivane; shade/purpose keys renamed with the copy."
     },
     {
       "id": "P56",
