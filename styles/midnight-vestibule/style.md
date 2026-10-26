@@ -21,6 +21,7 @@ signature:
   interaction: A month grid picks arrival then departure; guests, room and extras recalculate an exact demonstration total; capacity and missing steps give clear errors.
   motion: The photograph's lamps come on once in 1.6 seconds and stop; the glow then follows the pointer; the drawer slides in; reduced motion shows the lit image and opens the drawer without sliding.
 status: ready
+prompt_path: prompts/midnight-vestibule/prompt.en.md
 ---
 
 # Midnight Vestibule

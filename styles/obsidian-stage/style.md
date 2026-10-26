@@ -21,6 +21,7 @@ signature:
   interaction: Scroll separates and recombines three physical layers; model, finish and storage controls calculate an exact local demonstration price.
   motion: A finite 1400 ms arrival, direct user-controlled rotation and scroll changes; pause, static reduced-motion image and complete resource disposal.
 status: ready
+prompt_path: prompts/obsidian-stage/prompt.en.md
 ---
 
 # Obsidian Stage
