@@ -21,6 +21,7 @@ signature:
   interaction: The dial opens under scroll, pointer drag, touch, arrows and a native range; case, dial and strap choices change the view, total and booking snapshot.
   motion: A 1450 ms arrival settles; the requested live clock updates once a second while visible, with pause and no perpetual RAF; reduced and unavailable graphics use a frozen static SVG.
 status: ready
+prompt_path: prompts/escapement-nocturne/prompt.en.md
 ---
 
 # Escapement Nocturne

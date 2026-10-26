@@ -21,6 +21,7 @@ signature:
   interaction: The stone turns under pointer, touch and arrow keys while its facets re-light in real time; booking and piece choices work locally.
   motion: A 1400 ms arrival that settles, then only user-driven turns; pause, static reduced-motion image, context-loss fallback and full disposal.
 status: ready
+prompt_path: prompts/luminous-cut-vitrine/prompt.en.md
 ---
 
 # Luminous Cut Vitrine

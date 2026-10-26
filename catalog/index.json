@@ -646,6 +646,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Escapement Nocturne",
+      "prompt_path": "prompts/escapement-nocturne/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Near-black stage, warm cream text and one restrained bronze accent; material colour belongs to the watch and swatches.",
@@ -1112,6 +1113,7 @@
       "image_dependency": "medium",
       "motion_level": "expressive",
       "name": "Luminous Cut Vitrine",
+      "prompt_path": "prompts/luminous-cut-vitrine/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Ivory paper, charcoal text and a thin warm metal accent; colour appears only inside the stone and in the chosen metal.",
@@ -1221,6 +1223,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Midnight Vestibule",
+      "prompt_path": "prompts/midnight-vestibule/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Night navy and black with cream text and one warm lamp amber for labels, prices and the drawer edge.",
@@ -1431,6 +1434,7 @@
       "image_dependency": "low",
       "motion_level": "expressive",
       "name": "Obsidian Stage",
+      "prompt_path": "prompts/obsidian-stage/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Black, graphite and cool near-white surfaces with one icy blue accent; the final selection area uses paper and dark ink.",
