@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 128/129.**
+**Baigta: 129/129.**
 
-**Pirmiausia patikrinti P67: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Visos užduotys baigtos.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -138,6 +138,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P63](tasks/P63.md) | English conversion: Woven Field | Baigta | agent/015fh6w2uenf | task/p63-woven-field-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/184) | 2026-10-25T16:15:15.830Z | None. Task done. |
 | [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Baigta | agent/015fh6w2uenf | task/p64-release-1-4-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/185) | 2026-10-25T18:58:16.775Z | None. Task done. |
 | [P66](tasks/P66.md) | Correction: prompts README in English | Baigta | agent/015fh6w2uenf | task/p66-prompts-readme-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/186) | 2026-10-25T19:10:09.957Z | None. Task done. |
-| [P67](tasks/P67.md) | Gallery: explain an empty filter result | Laukia peržiūros | agent/015fh6w2uenf | task/p67-gallery-empty-state | [PR](https://github.com/lmatukas/web-style-atlas/pull/187) | 2026-10-26T07:01:18.761Z | Wait for CI, merge, mark done. |
+| [P67](tasks/P67.md) | Gallery: explain an empty filter result | Baigta | agent/015fh6w2uenf | task/p67-gallery-empty-state | [PR](https://github.com/lmatukas/web-style-atlas/pull/187) | 2026-10-26T07:03:23.975Z | None. Task done. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

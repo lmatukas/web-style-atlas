@@ -6362,7 +6362,7 @@
     {
       "id": "P67",
       "title": "Gallery: explain an empty filter result",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P66"
       ],
@@ -6381,6 +6381,11 @@
           "name": "Gallery browser tests",
           "status": "pass",
           "details": "5/5 including the new empty-state case."
+        },
+        {
+          "name": "PR #187 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6388,15 +6393,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-26T06:57:30Z",
-      "updated_at": "2026-10-26T07:01:18.761Z",
+      "updated_at": "2026-10-26T07:03:23.975Z",
       "branch": "task/p67-gallery-empty-state",
       "base_commit": "adef02ac0529ac4b7135e33d653ab37f98aa5c22",
       "evidence_commit": "3c6c1f44b3eef4caecc3f9c4939af0c366928158",
-      "merge_commit": null,
+      "merge_commit": "a2dfcbbc7c0d9bcfc9f5f0b0000b064780f1f2b0",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/187",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Gallery options show counts; empty state offers one-click filter removal. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in a2dfcbb. Gallery options show counts; empty state offers one-click filter removal. Live after the next Pages publish."
     }
   ]
 }
