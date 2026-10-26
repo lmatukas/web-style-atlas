@@ -6406,7 +6406,7 @@
     {
       "id": "P68",
       "title": "Link the four unlinked luxury prompts",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P67"
       ],
@@ -6414,16 +6414,16 @@
       "evidence_paths": [
         "docs/evidence/P68.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-26T07:19:48Z",
+      "updated_at": "2026-10-26T07:19:48.408Z",
+      "branch": "task/p68-link-luxury-prompts",
+      "base_commit": "f835e25db2f0bf57893b8f03d3f32c4384437233",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P68 and add prompt_path to four style.md files.",
+      "next_action": "Implement P68 on task/p68-link-luxury-prompts.",
       "handoff": "Found 2026-10-26: four luxury prompts exist but are not linked."
     },
     {
