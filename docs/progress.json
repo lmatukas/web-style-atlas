@@ -6362,25 +6362,41 @@
     {
       "id": "P67",
       "title": "Gallery: explain an empty filter result",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P66"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Gallery browser tests",
+          "status": "pass",
+          "details": "5/5 including the new empty-state case."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P67.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-26T06:57:30Z",
-      "updated_at": "2026-10-26T06:57:30.512Z",
+      "updated_at": "2026-10-26T07:01:18.761Z",
       "branch": "task/p67-gallery-empty-state",
       "base_commit": "adef02ac0529ac4b7135e33d653ab37f98aa5c22",
-      "evidence_commit": null,
+      "evidence_commit": "3c6c1f44b3eef4caecc3f9c4939af0c366928158",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/187",
       "blocker": null,
-      "next_action": "Implement P67 on task/p67-gallery-empty-state.",
-      "handoff": "Owner report 2026-10-26: combined filters gave 0 directions with no hint which filter caused it."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Gallery options show counts; empty state offers one-click filter removal. Waiting for CI."
     }
   ]
 }
