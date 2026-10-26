@@ -6406,7 +6406,7 @@
     {
       "id": "P68",
       "title": "Link the four unlinked luxury prompts",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P67"
       ],
@@ -6425,6 +6425,11 @@
           "name": "Gallery and creation-prompt browser tests",
           "status": "pass",
           "details": "7/7."
+        },
+        {
+          "name": "PR #188 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6432,15 +6437,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-26T07:19:48Z",
-      "updated_at": "2026-10-26T07:26:55.565Z",
+      "updated_at": "2026-10-26T07:30:40.969Z",
       "branch": "task/p68-link-luxury-prompts",
       "base_commit": "f835e25db2f0bf57893b8f03d3f32c4384437233",
       "evidence_commit": "256da763945927847a8752d077fa1418d5e3d0ad",
-      "merge_commit": null,
+      "merge_commit": "6193b41d6c39286d9618df201a2c95150c95b720",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/188",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Four luxury prompts linked; 26 full prompts. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 6193b41. Four luxury prompts linked; 26 full prompts. Live after the next Pages publish."
     },
     {
       "id": "P69",
