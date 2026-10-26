@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 129/129.**
+**Baigta: 129/136.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P68](tasks/P68.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -139,5 +139,12 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Baigta | agent/015fh6w2uenf | task/p64-release-1-4-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/185) | 2026-10-25T18:58:16.775Z | None. Task done. |
 | [P66](tasks/P66.md) | Correction: prompts README in English | Baigta | agent/015fh6w2uenf | task/p66-prompts-readme-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/186) | 2026-10-25T19:10:09.957Z | None. Task done. |
 | [P67](tasks/P67.md) | Gallery: explain an empty filter result | Baigta | agent/015fh6w2uenf | task/p67-gallery-empty-state | [PR](https://github.com/lmatukas/web-style-atlas/pull/187) | 2026-10-26T07:03:23.975Z | None. Task done. |
+| [P68](tasks/P68.md) | Link the four unlinked luxury prompts | Laukia | — | — | — | — | Claim P68 and add prompt_path to four style.md files. |
+| [P69](tasks/P69.md) | Full creation prompts: editorial group | Laukia | — | — | — | — | Claim P69 and write four full creation prompts. |
+| [P70](tasks/P70.md) | Full creation prompts: grid and structure group | Laukia | — | — | — | — | Claim P70 and write four full creation prompts. |
+| [P71](tasks/P71.md) | Full creation prompts: service and data group | Laukia | — | — | — | — | Claim P71 and write four full creation prompts. |
+| [P72](tasks/P72.md) | Full creation prompts: bold and playful group | Laukia | — | — | — | — | Claim P72 and write four full creation prompts. |
+| [P73](tasks/P73.md) | Full creation prompts: luxe and chrome group | Laukia | — | — | — | — | Claim P73 and write four full creation prompts. |
+| [P74](tasks/P74.md) | Full creation prompts: image-led group | Laukia | — | — | — | — | Claim P74 and write four full creation prompts. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

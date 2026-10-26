@@ -6402,6 +6402,167 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in a2dfcbb. Gallery options show counts; empty state offers one-click filter removal. Live after the next Pages publish."
+    },
+    {
+      "id": "P68",
+      "title": "Link the four unlinked luxury prompts",
+      "status": "todo",
+      "depends_on": [
+        "P67"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P68.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P68 and add prompt_path to four style.md files.",
+      "handoff": "Found 2026-10-26: four luxury prompts exist but are not linked."
+    },
+    {
+      "id": "P69",
+      "title": "Full creation prompts: editorial group",
+      "status": "todo",
+      "depends_on": [
+        "P68"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P69.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P69 and write four full creation prompts.",
+      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+    },
+    {
+      "id": "P70",
+      "title": "Full creation prompts: grid and structure group",
+      "status": "todo",
+      "depends_on": [
+        "P69"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P70.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P70 and write four full creation prompts.",
+      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+    },
+    {
+      "id": "P71",
+      "title": "Full creation prompts: service and data group",
+      "status": "todo",
+      "depends_on": [
+        "P70"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P71.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P71 and write four full creation prompts.",
+      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+    },
+    {
+      "id": "P72",
+      "title": "Full creation prompts: bold and playful group",
+      "status": "todo",
+      "depends_on": [
+        "P71"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P72.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P72 and write four full creation prompts.",
+      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+    },
+    {
+      "id": "P73",
+      "title": "Full creation prompts: luxe and chrome group",
+      "status": "todo",
+      "depends_on": [
+        "P72"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P73.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P73 and write four full creation prompts.",
+      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+    },
+    {
+      "id": "P74",
+      "title": "Full creation prompts: image-led group",
+      "status": "todo",
+      "depends_on": [
+        "P73"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P74.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P74 and write four full creation prompts.",
+      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
     }
   ]
 }
