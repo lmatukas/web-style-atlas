@@ -6358,6 +6358,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in 5b5fb22 by the owner. prompts/README.md is English; README.lt.md prompt count fixed (22)."
+    },
+    {
+      "id": "P67",
+      "title": "Gallery: explain an empty filter result",
+      "status": "todo",
+      "depends_on": [
+        "P66"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P67.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P67 and improve the gallery empty state.",
+      "handoff": "Owner report 2026-10-26: combined filters gave 0 directions with no hint which filter caused it."
     }
   ]
 }
