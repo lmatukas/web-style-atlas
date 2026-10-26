@@ -30,6 +30,13 @@ state is `luxury=1` and combines with the other filters and search. Reset clears
 it along with all filter fields. With no ready luxury styles, it honestly shows
 the existing empty state; planned cards are never promoted into the catalogue.
 
+Search and filters combine with AND. Every filter option shows how many
+directions it would give with the other current choices kept (the "All …"
+option shows the count with that filter removed). When nothing matches, the
+empty state lists each active filter and the search term as a button with the
+count it would bring back, most useful first; one click removes only that
+filter and moves focus to it. If no single removal helps, it points to Reset.
+
 A full creation prompt is `prompts/<id>/prompt.en.md` (all briefs are English
 since 1.4.0; the schema still accepts `prompt.lt.md`). The preview marks its
 language, and the short Lithuanian notice appears only for a Lithuanian brief. The chosen A/B fills the composition line in either language.
