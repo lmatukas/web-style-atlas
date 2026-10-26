@@ -6362,7 +6362,7 @@
     {
       "id": "P67",
       "title": "Gallery: explain an empty filter result",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P66"
       ],
@@ -6370,16 +6370,16 @@
       "evidence_paths": [
         "docs/evidence/P67.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-26T06:57:30Z",
+      "updated_at": "2026-10-26T06:57:30.512Z",
+      "branch": "task/p67-gallery-empty-state",
+      "base_commit": "adef02ac0529ac4b7135e33d653ab37f98aa5c22",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P67 and improve the gallery empty state.",
+      "next_action": "Implement P67 on task/p67-gallery-empty-state.",
       "handoff": "Owner report 2026-10-26: combined filters gave 0 directions with no hint which filter caused it."
     }
   ]

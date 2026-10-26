@@ -4,7 +4,7 @@
 
 **Baigta: 128/129.**
 
-**Kita užduotis: [P67](tasks/P67.md).**
+**Pirmiausia patikrinti P67: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -138,6 +138,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P63](tasks/P63.md) | English conversion: Woven Field | Baigta | agent/015fh6w2uenf | task/p63-woven-field-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/184) | 2026-10-25T16:15:15.830Z | None. Task done. |
 | [P64](tasks/P64.md) | Release 1.4.0: every direction in English | Baigta | agent/015fh6w2uenf | task/p64-release-1-4-0 | [PR](https://github.com/lmatukas/web-style-atlas/pull/185) | 2026-10-25T18:58:16.775Z | None. Task done. |
 | [P66](tasks/P66.md) | Correction: prompts README in English | Baigta | agent/015fh6w2uenf | task/p66-prompts-readme-en | [PR](https://github.com/lmatukas/web-style-atlas/pull/186) | 2026-10-25T19:10:09.957Z | None. Task done. |
-| [P67](tasks/P67.md) | Gallery: explain an empty filter result | Laukia | — | — | — | — | Claim P67 and improve the gallery empty state. |
+| [P67](tasks/P67.md) | Gallery: explain an empty filter result | Vykdoma | agent/015fh6w2uenf | task/p67-gallery-empty-state | — | 2026-10-26T06:57:30.512Z | Implement P67 on task/p67-gallery-empty-state. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
