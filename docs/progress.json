@@ -6406,25 +6406,41 @@
     {
       "id": "P68",
       "title": "Link the four unlinked luxury prompts",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P67"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "108/108."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P68.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-26T07:19:48Z",
-      "updated_at": "2026-10-26T07:19:48.408Z",
+      "updated_at": "2026-10-26T07:26:55.565Z",
       "branch": "task/p68-link-luxury-prompts",
       "base_commit": "f835e25db2f0bf57893b8f03d3f32c4384437233",
-      "evidence_commit": null,
+      "evidence_commit": "256da763945927847a8752d077fa1418d5e3d0ad",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/188",
       "blocker": null,
-      "next_action": "Implement P68 on task/p68-link-luxury-prompts.",
-      "handoff": "Found 2026-10-26: four luxury prompts exist but are not linked."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four luxury prompts linked; 26 full prompts. Waiting for CI."
     },
     {
       "id": "P69",
