@@ -6842,6 +6842,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in e9ce340. Pines and stone bath replace repeats; pavilion lighter."
+    },
+    {
+      "id": "P78",
+      "title": "Midnight Vestibule: generated night images instead of real buildings",
+      "status": "todo",
+      "depends_on": [
+        "P77"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P78.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P78 and replace four photographs.",
+      "handoff": "Image plan: K-05, K-04, M-01, M-02 replace the four real-building photographs."
     }
   ]
 }
