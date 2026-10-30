@@ -7,18 +7,11 @@ import {execFileSync} from 'node:child_process';
 // P82–P86 remove IDs as their last failing reference is rewritten.
 // Never add directions or the gallery to this list.
 export const COPY_BACKLOG = [
-  "botanical-engraving",
   "cinematic-photo",
   "data-observatory",
-  "discovery-cabinet",
-  "kinetic-type",
-  "membrane-score",
-  "organic-craft",
   "seasonal-terrain",
   "spine-editions",
-  "swiss-grid",
-  "trail-composer",
-  "twilight-expedition"
+  "swiss-grid"
 ];
 
 const root = new URL('../', import.meta.url);

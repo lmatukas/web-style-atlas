@@ -5,7 +5,7 @@
     "mood": "vanduo",
     "duration": 180,
     "intensity": 0,
-    "description": "A slow reading of an imagined shore. Plenty of time to stop and watch.",
+    "description": "An easy walk along a lake shore, with long stops.",
     "stops": [
       {
         "name": "Paper Shore",
@@ -65,7 +65,7 @@
     "mood": "miestas",
     "duration": 420,
     "intensity": 2,
-    "description": "A longer day around an imagined small town and its outskirts.",
+    "description": "A longer day around a small town and its outskirts.",
     "stops": [
       {
         "name": "Empty Square",

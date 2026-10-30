@@ -16,7 +16,7 @@ Composition A: an oversized word campaign with a manifesto and three verbs. Comp
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Keep one shouted campaign line per page; other headings state facts about the sessions; use real facts only once the user provides reliable content.
 
 The project is OPEN / FORM, an invented creative weekend for people who want to think, make and share a first version of an idea. The weekend, its dates and all six sessions are fictional; say so in the practical notes. Day buttons change the local view only and never reserve a place.
 
@@ -24,9 +24,9 @@ Palette: dark green #17201c, a slightly lighter green surface #223128, off-white
 
 Motion: on load, the three headline lines settle from a small offset into place once, at full opacity, finishing in under two seconds. Nothing repeats, marquees, blinks or depends on scrolling; practical copy and controls never move. With prefers-reduced-motion, show the final composition immediately.
 
-Composition A, the campaign: a compact identity (OPEN / FORM) with links to the idea, the weekend and practical notes. A date line, then three huge word fields with deliberate breaks — MAKE / ROOM / FOR IDEAS. — and a small lower band with one sentence and a "Find your day" link to the programme. A manifesto turns from word-image into a readable argument ("LESS WAITING. MORE MAKING." with two paragraphs). Three huge verbs — LOOK. TRY. SHARE. — each structure one practical observation. A notes block explains the fictional weekend with a native disclosure.
+Composition A, the campaign: a compact identity (OPEN / FORM) with links to the idea, the weekend and practical notes. A date line, then three huge word fields with deliberate breaks — MAKE / ROOM / FOR IDEAS. — and a small lower band with one sentence and a "Find your day" link to the programme. A manifesto turns from word-image into a readable argument ("BRING A HALF-FORMED QUESTION." with two paragraphs). Three huge verbs — LOOK. TRY. SHARE. — each structure one practical observation. A notes block explains the fictional weekend with a native disclosure.
 
-Composition B, the programme: a large two-line proposition ("TWO DAYS. WIDE OPEN."). Two real buttons, "14 / Saturday" and "15 / Sunday", with aria-pressed; the selected date appears as a giant numeral beside the day name, and a polite line reports "Saturday 14 November · 3 sessions". Each day panel lists three ruled rows that keep time, uppercase title, one-sentence description and session type together (Saturday 10:00, 13:00, 16:00; Sunday 10:30, 13:30, 16:30). Only the current panel is in the reading and focus order. A closing typographic statement changes pace before practical notes.
+Composition B, the programme: a large two-line proposition ("SIX SESSIONS IN TWO DAYS."). Two real buttons, "14 / Saturday" and "15 / Sunday", with aria-pressed; the selected date appears as a giant numeral beside the day name, and a polite line reports "Saturday 14 November · 3 sessions". Each day panel lists three ruled rows that keep time, uppercase title, one-sentence description and session type together (Saturday 10:00, 13:00, 16:00; Sunday 10:30, 13:30, 16:30). Only the current panel is in the reading and focus order. A closing typographic statement changes pace before practical notes.
 
 On a phone the giant words scale with the viewport but never overflow or break mid-word, the date numeral stays beside or above its day name, and session rows stack time above title.
 

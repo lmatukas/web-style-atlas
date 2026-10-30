@@ -31,7 +31,7 @@ function render() {
   document.querySelector('[data-count]').textContent = `${s.engraving.length} / 18`;
   const image = document.querySelector('[data-piece-image]');
   image.src = `../assets/ring-${s.metal}.webp`;
-  image.alt = `Dawn: ${METALS[s.metal].label.toLowerCase()}, ${CARATS[s.carat].label} brilliant — image of the selected ring`;
+  image.alt = `Dawn: ${METALS[s.metal].label.toLowerCase()}, ${CARATS[s.carat].label} brilliant, image of the selected ring`;
   window.atlasRuntime?.setSelection({ metal: s.metal, carat: s.carat });
 }
 
