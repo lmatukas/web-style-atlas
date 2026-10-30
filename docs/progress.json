@@ -6494,25 +6494,41 @@
     {
       "id": "P70",
       "title": "Full creation prompts: grid and structure group",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P69"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P70.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T04:45:18Z",
-      "updated_at": "2026-10-30T04:45:18.731Z",
+      "updated_at": "2026-10-30T04:55:05.931Z",
       "branch": "task/p70-grid-prompts",
       "base_commit": "61c74afaa6153806a7abc72df04a24f76a399b2f",
-      "evidence_commit": null,
+      "evidence_commit": "a720aa6439676359e61a3c39225d773c1ba76f6b",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/190",
       "blocker": null,
-      "next_action": "Implement P70 on task/p70-grid-prompts.",
-      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four full creation prompts. Waiting for CI."
     },
     {
       "id": "P71",
