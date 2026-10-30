@@ -20,7 +20,7 @@ prompt_path: prompts/pop-commerce/prompt.en.md
 
 ## Intent
 
-Pop Commerce makes a small product offer immediately understandable. The fictional Loop collection presents an everyday bottle, a cup and a carry bag through strong scale, clear names and visible prices. A visitor can inspect a single product, change a finish, choose a quantity or browse the full shelf. A real local demonstration bag calculates totals without claiming that a shop, stock system or payment service exists. Commercial clarity is the organizing idea; visual energy should help a decision rather than manufacture urgency.
+Pop Commerce makes a small product offer immediately understandable. The fictional Tumbelo collection presents an everyday bottle, a cup and a carry bag through strong scale, clear names and visible prices. A visitor can inspect a single product, change a finish, choose a quantity or browse the full shelf. A real local demonstration bag calculates totals without claiming that a shop, stock system or payment service exists. Commercial clarity is the organizing idea; visual energy should help a decision rather than manufacture urgency.
 
 ## Signature
 

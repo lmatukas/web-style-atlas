@@ -10,7 +10,7 @@ Build a working website in the user's project. This is a self-contained creation
 - Project technology and environment rules: [FILL IN OR FOLLOW THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields are left empty, use the "Loop" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: a dominant product silhouette; abrupt product-to-practical scale contrast; a visible product name beside its price; a small set of literal purchase choices.
+If the fields are left empty, use the "Tumbelo" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: a dominant product silhouette; abrupt product-to-practical scale contrast; a visible product name beside its price; a small set of literal purchase choices.
 
 Composition A: a bright single-product offer with finish, quantity and a demo bag. Composition B: a filterable three-product shelf with a demo bag. The brief below describes both; build the chosen one. B has a different content structure and flow of use, not just a different order. In both versions keep the same palette, type voice and honesty rules.
 
@@ -18,7 +18,7 @@ Composition A: a bright single-product offer with finish, quantity and a demo ba
 
 Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
 
-The project is LOOP, an invented collection of three everyday essentials: the Everyday Bottle (€24, 500 ml, twist cap), the Pause Cup (€16, 300 ml, open rim) and the Day Carry bag (€12, 38 × 42 cm, two handles). Prices, capacities and materials are demonstration content. State plainly that nothing can be bought, that the bag is local to the page and resets on reload, and that there is no checkout, stock, delivery, warranty or personal data. Never add ratings, stock counters, discounts or delivery promises.
+The project is TUMBELO, an invented collection of three everyday essentials: the Everyday Bottle (€24, 500 ml, twist cap), the Pause Cup (€16, 300 ml, open rim) and the Day Carry bag (€12, 38 × 42 cm, two handles). Prices, capacities and materials are demonstration content. State plainly that nothing can be bought, that the bag is local to the page and resets on reload, and that there is no checkout, stock, delivery, warranty or personal data. Never add ratings, stock counters, discounts or delivery promises.
 
 Palette: warm cream #fff9ef, a pink surface #f8e2e6, dark plum text #322235, muted text #6e5767, a deep plum accent #58305f with white text, borders #8e7488, a blue focus outline #173ba0, and two broad product fields: sun yellow #f5d950 and rose #fa9caf. Use one bold rounded or plain sans serif (Arial or a licensed geometric sans) with very large product headlines and calm small practical text. Use broad saturated fields with clean edges, not rough frames or hard offset shadows.
 

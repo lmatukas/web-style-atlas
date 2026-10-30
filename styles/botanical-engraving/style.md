@@ -20,7 +20,7 @@ prompt_path: prompts/botanical-engraving/prompt.en.md
 
 ## Intent
 
-Botanical Engraving connects close-looking illustration with the discipline of a labeled cabinet. It suits a botanical publication, a source-led product story or a small collection whose material origin matters. The fictional Folium cabinet contains three original line studies: sage, lavender and rosemary. A visitor can follow the garden story or inspect complete classified records. The accepted names are checked separately from the fictional collection, and the stylized drawings do not claim scientific identification accuracy.
+Botanical Engraving connects close-looking illustration with the discipline of a labeled cabinet. It suits a botanical publication, a source-led product story or a small collection whose material origin matters. The fictional Sprigvane cabinet contains three original line studies: sage, lavender and rosemary. A visitor can follow the garden story or inspect complete classified records. The accepted names are checked separately from the fictional collection, and the stylized drawings do not claim scientific identification accuracy.
 
 ## Signature
 

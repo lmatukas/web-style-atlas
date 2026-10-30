@@ -618,7 +618,7 @@
       "family": "illustrative",
       "language": "en",
       "prompt_path": "prompts/botanical-engraving/prompt.en.md",
-      "demo_brand": "Folium",
+      "demo_brand": "Sprigvane",
       "variants": {
         "a": "A plant and origin story led by one large leaf plate",
         "b": "A classified three-plate herbarium with complete records"
@@ -723,7 +723,7 @@
       "family": "functional",
       "language": "en",
       "prompt_path": "prompts/humanist-service/prompt.en.md",
-      "demo_brand": "Neighbour",
+      "demo_brand": "Nearwell",
       "variants": {
         "a": "A warm service introduction with tasks, people and a first step",
         "b": "A patient three-step planner that builds a local session outline"
@@ -786,7 +786,7 @@
       "family": "technical",
       "language": "en",
       "prompt_path": "prompts/data-observatory/prompt.en.md",
-      "demo_brand": "Tallyhall Observatory",
+      "demo_brand": "Numberell Observatory",
       "variants": {
         "a": "An overview with summary measures, a paired-dot chart and period buttons",
         "b": "A searchable, sortable comparison table with stated extremes"
@@ -807,7 +807,7 @@
       "family": "commercial",
       "language": "en",
       "prompt_path": "prompts/pop-commerce/prompt.en.md",
-      "demo_brand": "Loop",
+      "demo_brand": "Tumbelo",
       "variants": {
         "a": "A bright single-product offer with finish, quantity and a demo bag",
         "b": "A filterable three-product shelf with a demo bag"
@@ -912,7 +912,7 @@
       "family": "ornamental",
       "language": "en",
       "prompt_path": "prompts/art-deco/prompt.en.md",
-      "demo_brand": "The Atrium",
+      "demo_brand": "The Ardelune",
       "variants": {
         "a": "An axial evening invitation with a timed programme",
         "b": "A house story with a stepped elevation and two room concepts"
@@ -933,7 +933,7 @@
       "family": "nostalgic",
       "language": "en",
       "prompt_path": "prompts/y2k-chrome/prompt.en.md",
-      "demo_brand": "Phase",
+      "demo_brand": "Vellaxis",
       "variants": {
         "a": "A release poster with a chrome sphere and orbit and a track list",
         "b": "An indexed collection of three chrome object editions"
@@ -954,7 +954,7 @@
       "family": "spatial",
       "language": "en",
       "prompt_path": "prompts/soft-spatial/prompt.en.md",
-      "demo_brand": "Morrow",
+      "demo_brand": "Halvessa",
       "variants": {
         "a": "A single ambient object lit in a small room",
         "b": "A practice overview of three stepped layers"

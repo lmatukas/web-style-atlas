@@ -10,7 +10,7 @@ Build a working website in the user's project. This is a self-contained creation
 - Project technology and environment rules: [FILL IN OR FOLLOW THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields are left empty, use the "Neighbour" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: warm conversational serif headings; visible person-to-person context; plain task labels next to a clear next action; a paced numbered path that explains what happens next.
+If the fields are left empty, use the "Nearwell" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: warm conversational serif headings; visible person-to-person context; plain task labels next to a clear next action; a paced numbered path that explains what happens next.
 
 Composition A: a warm service introduction with tasks, people and a first step. Composition B: a patient three-step planner that builds a local session outline. The brief below describes both; build the chosen one. B has a different content structure and flow of use, not just a different order. In both versions keep the same palette, type voice and honesty rules.
 
@@ -18,7 +18,7 @@ Composition A: a warm service introduction with tasks, people and a first step. 
 
 Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
 
-The project is NEIGHBOUR, an invented service that gives patient, one-to-one digital help with everyday tasks: a phone, files, email. A visitor should feel they can take one small step without being rushed. It is not a real support line or booking service: no appointment is created and no personal information is requested. The people are illustrated fictional profiles, never verified staff, qualifications or testimonials.
+The project is NEARWELL, an invented service that gives patient, one-to-one digital help with everyday tasks: a phone, files, email. A visitor should feel they can take one small step without being rushed. It is not a real support line or booking service: no appointment is created and no personal information is requested. The people are illustrated fictional profiles, never verified staff, qualifications or testimonials.
 
 Palette: warm off-white #fff8ef, a peach surface #f6dfcc, dark green-grey text #323a32, muted labels #68645a, a warm brick accent #914a30 with white text, borders #8f8778 and a blue focus outline #245d85. Use Georgia (or a licensed humane serif) for conversational headings and Arial for practical copy, labels and controls. Warmth comes from wording, space and illustration, never from low contrast or a pile of rounded cards.
 

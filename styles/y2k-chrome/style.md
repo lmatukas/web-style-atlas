@@ -20,7 +20,7 @@ prompt_path: prompts/y2k-chrome/prompt.en.md
 
 ## Intent
 
-Y2K Chrome channels speculative turn-of-the-century pop culture through material, scale and an optimistic sense of artificial space. It suits a music-world concept, a limited creative collection or an expressive product campaign with a strong central object. The fictional Phase editions imagine three audio–visual releases. A visitor can enter through the Volume 02 poster or browse the related object studies. Identity comes from polished forms and oversized campaign language rather than a personal web directory.
+Y2K Chrome channels speculative turn-of-the-century pop culture through material, scale and an optimistic sense of artificial space. It suits a music-world concept, a limited creative collection or an expressive product campaign with a strong central object. The fictional Vellaxis editions imagine three audio–visual releases. A visitor can enter through the Volume 02 poster or browse the related object studies. Identity comes from polished forms and oversized campaign language rather than a personal web directory.
 
 ## Signature
 
@@ -36,7 +36,7 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-The compact Phase header leads to a poster split between three stacked title lines and a reflective sphere/orbit composition. A narrow transmission strip closes the image field. Below, an editorial release introduction sits beside three numbered title/duration rows. A large slogan band changes the rhythm before a plain edition record and volume disclosure finish the page. The track list has no fake play button. Its purpose is to establish a convincing release world and a genuine route into the collection.
+The compact Vellaxis header leads to a poster split between three stacked title lines and a reflective sphere/orbit composition. A narrow transmission strip closes the image field. Below, an editorial release introduction sits beside three numbered title/duration rows. A large slogan band changes the rhythm before a plain edition record and volume disclosure finish the page. The track list has no fake play button. Its purpose is to establish a convincing release world and a genuine route into the collection.
 
 ## Layout B
 
@@ -64,7 +64,7 @@ Use one main landmark, one descriptive h1, ordered headings, visible keyboard fo
 
 ## Adaptation
 
-Begin with one object and a short campaign message, then build a small related collection with real records. Change the Phase identity and invented tracks to approved content. Preserve reflected-light material, open orbit and deliberate scale changes in another stack without requiring WebGL or a video. If metallic effects are removed, retain the object-led poster and indexed exhibition, but do not claim the direction is fully preserved through a pale purple palette alone.
+Begin with one object and a short campaign message, then build a small related collection with real records. Change the Vellaxis identity and invented tracks to approved content. Preserve reflected-light material, open orbit and deliberate scale changes in another stack without requiring WebGL or a video. If metallic effects are removed, retain the object-led poster and indexed exhibition, but do not claim the direction is fully preserved through a pale purple palette alone.
 
 ## Avoid
 

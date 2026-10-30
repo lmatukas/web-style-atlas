@@ -20,7 +20,7 @@ prompt_path: prompts/data-observatory/prompt.en.md
 
 ## Intent
 
-Data Observatory helps readers inspect a small dataset through a concise overview and a precise comparison table. The fictional Tallyhall observatory uses simulated library visits to show a complete local data interface. It suits analytical pages, public information and operational reporting. Visitors should understand the unit, period, source boundary and relationship between summary and detail. No value is live or externally sourced: the bundled six-location dataset is an explicit demonstration, and every visible calculation comes from that same source.
+Data Observatory helps readers inspect a small dataset through a concise overview and a precise comparison table. The fictional Numberell observatory uses simulated library visits to show a complete local data interface. It suits analytical pages, public information and operational reporting. Visitors should understand the unit, period, source boundary and relationship between summary and detail. No value is live or externally sourced: the bundled six-location dataset is an explicit demonstration, and every visible calculation comes from that same source.
 
 ## Signature
 

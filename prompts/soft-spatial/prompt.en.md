@@ -10,7 +10,7 @@ Build a working website in the user's project. This is a self-contained creation
 - Project technology and environment rules: [FILL IN OR FOLLOW THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields are left empty, use the "Morrow" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: a large softly rounded volume; diffuse directional highlights; a contact shadow that places every object; generous clear space between objects and practical copy.
+If the fields are left empty, use the "Halvessa" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: a large softly rounded volume; diffuse directional highlights; a contact shadow that places every object; generous clear space between objects and practical copy.
 
 Composition A: a single ambient object lit in a small room. Composition B: a practice overview of three stepped layers. The brief below describes both; build the chosen one. B has a different content structure and flow of use, not just a different order. In both versions keep the same palette, type voice and honesty rules.
 
@@ -18,7 +18,7 @@ Composition A: a single ambient object lit in a small room. Composition B: a pra
 
 Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
 
-The project is MORROW, an invented spatial practice that presents one ambient-object study, the Pebble, and explains its work in three connected layers: atmosphere, arrangement and detail. The Pebble is an illustration, not a product: give no light output, material or price. Say that the practice and its studies are fictional, and that no enquiry is submitted.
+The project is HALVESSA, an invented spatial practice that presents one ambient-object study, the Pebble, and explains its work in three connected layers: atmosphere, arrangement and detail. The Pebble is an illustration, not a product: give no light output, material or price. Say that the practice and its studies are fictional, and that no enquiry is submitted.
 
 Palette: chalk #f4f4ed, a pale sage surface #e6eae2, dark green text #263b35, muted text #54675c, a deep green accent #305b4d with white text, borders #7b8b7e and a plum focus outline #6d3a62; in the artwork, add a pale blush within the same family. Use one calm sans serif (Arial or a licensed humanist sans). Text stays dark and flat; never emboss labels or lower contrast to look soft.
 
