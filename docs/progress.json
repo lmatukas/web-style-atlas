@@ -7276,7 +7276,7 @@
     {
       "id": "P88",
       "title": "Release 1.5.0: copy without AI-template signs",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P87"
       ],
@@ -7295,6 +7295,21 @@
           "name": "Unit tests",
           "status": "pass",
           "details": "115/115."
+        },
+        {
+          "name": "PR #208 CI",
+          "status": "pass",
+          "details": "All three checks green."
+        },
+        {
+          "name": "Release workflow verify/deploy",
+          "status": "pass",
+          "details": "Run 41052213639 on 00e78fe: verify and deploy succeeded."
+        },
+        {
+          "name": "Live checks",
+          "status": "pass",
+          "details": "50 cards, new gallery hero, Openwater Deck and Pop Commerce pages show rewritten copy."
         }
       ],
       "evidence_paths": [
@@ -7302,15 +7317,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T11:39:40Z",
-      "updated_at": "2026-10-30T11:58:30.858Z",
+      "updated_at": "2026-10-30T12:19:33.776Z",
       "branch": "task/p88-release-1-5-0",
       "base_commit": "574b0c4260271949f072658443c608050efa8bfa",
       "evidence_commit": "73e104148d00f7d69a86e9426b62ddd4f4d13c20",
-      "merge_commit": "276880f33149c84fd588154613473dabed8056e4",
+      "merge_commit": "622ffb981a2778f05c4f3ffec021b170c20fae84",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/208",
       "blocker": null,
-      "next_action": "Owner runs Verify release and optionally publish Pages with publish = true; then record the run and live checks in docs/releases/1.5.0.md.",
-      "handoff": "PR #208 merged; waiting for the owner's publication run."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 622ffb9. 1.5.0 published by the owner's run 41052213639; live checks recorded."
     }
   ]
 }
