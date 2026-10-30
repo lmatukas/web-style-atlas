@@ -4,7 +4,7 @@
 
 **Baigta: 136/137.**
 
-**Pirmiausia patikrinti P75: Vykdoma; vykdytojas agent/015fh6w2uenf.**
+**Pirmiausia patikrinti P75: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -146,6 +146,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P72](tasks/P72.md) | Full creation prompts: bold and playful group | Baigta | agent/015fh6w2uenf | task/p72-bold-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/192) | 2026-10-30T05:13:36.406Z | None. Task done. |
 | [P73](tasks/P73.md) | Full creation prompts: luxe and chrome group | Baigta | agent/015fh6w2uenf | task/p73-luxe-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/193) | 2026-10-30T05:23:52.326Z | None. Task done. |
 | [P74](tasks/P74.md) | Full creation prompts: image-led group | Baigta | agent/015fh6w2uenf | task/p74-image-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/194) | 2026-10-30T05:31:40.528Z | None. Task done. |
-| [P75](tasks/P75.md) | Rename demo brands that match real names | Vykdoma | agent/015fh6w2uenf | task/p75-rename-brands | — | 2026-10-30T05:40:20.771Z | Implement P75 on task/p75-rename-brands. |
+| [P75](tasks/P75.md) | Rename demo brands that match real names | Laukia peržiūros | agent/015fh6w2uenf | task/p75-rename-brands | [PR](https://github.com/lmatukas/web-style-atlas/pull/195) | 2026-10-30T05:52:38.836Z | Wait for CI, merge, mark done. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

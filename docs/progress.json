@@ -6714,25 +6714,41 @@
     {
       "id": "P75",
       "title": "Rename demo brands that match real names",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P74"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        },
+        {
+          "name": "Browser QA (7 directions) and gallery tests",
+          "status": "pass",
+          "details": "All pass."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P75.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:40:20Z",
-      "updated_at": "2026-10-30T05:40:20.771Z",
+      "updated_at": "2026-10-30T05:52:38.836Z",
       "branch": "task/p75-rename-brands",
       "base_commit": "03d5d87e8bb4a70fae7154282cf96e95b1b4ac9b",
-      "evidence_commit": null,
+      "evidence_commit": "bfe44d4fafcea5dd51116d0a4cc0afe30570fd1e",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/195",
       "blocker": null,
-      "next_action": "Implement P75 on task/p75-rename-brands.",
-      "handoff": "Found by web checks in P69-P74: seven demo names match real companies, labels, bands or venues."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Seven demo brands renamed. Waiting for CI."
     }
   ]
 }
