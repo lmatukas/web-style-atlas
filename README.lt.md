@@ -17,7 +17,7 @@ ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
 
 ## Pilni kūrimo promptai
 
-[46 pilni kūrimo promptai](prompts/README.md) turi veikiančius krypčių
+[50 pilni kūrimo promptai](prompts/README.md) turi veikiančius krypčių
 pavyzdžius. Galerijoje pasirink kryptį ir A/B variantą, spausk
 **Copy full creation prompt**, įrašyk savo projekto duomenis ir perduok visą
 tekstą agentui. Išlieka objekto, sąveikų, judesio ir vykdymo reikalavimai;

@@ -967,6 +967,90 @@
         "quiet-luxury"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S04",
+      "style_id": "cinematic-photo",
+      "name": "Cinematic Photo",
+      "family": "photographic",
+      "language": "en",
+      "prompt_path": "prompts/cinematic-photo/prompt.en.md",
+      "demo_brand": "Dusklore",
+      "variants": {
+        "a": "A photographic cover with one dominant image and a selected scene",
+        "b": "A numbered vertical notebook of photographs and short reflections"
+      },
+      "signature": "Large landscape photographs framed by deep dark space, short serif anchors and attached captions, read slowly as a sequence of scenes; atmosphere from framing, not motion.",
+      "acceptance": "Every photograph is rights-cleared, credited in a disclosure and described by alt text; chapter links reach the scenes; no text sits on busy bright areas; no autoplay, parallax, carousel, player or booking.",
+      "enhancement": "static",
+      "closest_styles": [
+        "gallery-white-cube",
+        "architectural-monograph"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S13",
+      "style_id": "gallery-white-cube",
+      "name": "Gallery White Cube",
+      "family": "restrained",
+      "language": "en",
+      "prompt_path": "prompts/gallery-white-cube/prompt.en.md",
+      "demo_brand": "Room for Looking",
+      "variants": {
+        "a": "An exhibition wall of three works with radio wall labels and a route plan",
+        "b": "One selected work with a dossier and an exhibition index"
+      },
+      "signature": "A white room where three original abstract works hang at unequal positions with their own proportions, labels outside the art, a no-script radio label chooser and a single-work dossier.",
+      "acceptance": "The three wall-label radios show one note at a time with keyboard and touch and without script; works keep their aspect ratio uncropped; the index and companion links reach real destinations; rights disclosures work; no purchase, booking or zoom action.",
+      "enhancement": "static",
+      "closest_styles": [
+        "quiet-luxury",
+        "cinematic-photo"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S05",
+      "style_id": "organic-craft",
+      "name": "Organic Craft",
+      "family": "tactile",
+      "language": "en",
+      "prompt_path": "prompts/organic-craft/prompt.en.md",
+      "demo_brand": "Kilnrue",
+      "variants": {
+        "a": "A making story led by one large uneven vessel",
+        "b": "An asymmetric shelf of three illustrated objects with dimensions"
+      },
+      "signature": "Warm paper and earthen colours, original illustrations of uneven handmade ceramics on irregular stages, and a slow asymmetric alternation of material notes and single pieces.",
+      "acceptance": "Material, process and object links reach real sections; each object's native disclosure shows its illustrative dimensions and material with no capacity or food-safety claim; no price, stock or purchase control.",
+      "enhancement": "static",
+      "closest_styles": [
+        "botanical-engraving",
+        "field-notes"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S22",
+      "style_id": "architectural-monograph",
+      "name": "Architectural Monograph",
+      "family": "photographic",
+      "language": "en",
+      "prompt_path": "prompts/architectural-monograph/prompt.en.md",
+      "demo_brand": "Field / Measure",
+      "variants": {
+        "a": "A single-house monograph with photograph, interpretive plan and detail crop",
+        "b": "An indexed two-house atlas with alternating photograph spreads"
+      },
+      "signature": "Large uncrowded house photographs with small attached captions, an interpretive plan with a stated purpose, analytic notes in their own column and an indexed atlas table.",
+      "acceptance": "The atlas index is a real table with scoped headers whose links reach each spread; the plan is labelled not to scale and not a survey; every photograph has an honest credit and alt text; source disclosures work; no carousel, filter or enquiry control.",
+      "enhancement": "static",
+      "closest_styles": [
+        "quiet-luxury",
+        "cinematic-photo"
+      ],
+      "audio": false
     }
   ]
 }

@@ -70,6 +70,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Architectural Monograph",
+      "prompt_path": "prompts/architectural-monograph/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Near-white paper, dark ink, restrained warm action signal and monochrome architectural evidence.",
@@ -384,6 +385,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Cinematic Photo",
+      "prompt_path": "prompts/cinematic-photo/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Deep green-black, off-white, muted captions and a restrained warm signal.",
@@ -755,6 +757,7 @@
       "image_dependency": "high",
       "motion_level": "subtle",
       "name": "Gallery White Cube",
+      "prompt_path": "prompts/gallery-white-cube/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Neutral white architecture supports bounded colored artwork, without tinted product stages.",
@@ -1559,6 +1562,7 @@
       "image_dependency": "medium",
       "motion_level": "subtle",
       "name": "Organic Craft",
+      "prompt_path": "prompts/organic-craft/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm cream, sand, brown and terracotta; restrained grain stays inside artwork.",

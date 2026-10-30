@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "medium"
 signature: {"composition": "Broad photographic cover and dark breathing space; centred vertical scene filmstrip in B.", "typography": "Quiet serif narrative headings and small neutral caption hierarchy.", "navigation": "Visible journal links and numbered local chapter anchors.", "content_rhythm": "Large real photographic scenes interrupted by short reflections.", "imagery": "Rights-documented local forest mist and sunset lake photographs, deliberately cropped.", "color_and_material": "Deep green-black, off-white, muted captions and a restrained warm signal.", "interaction": "Local scene navigation, visible focus and native credit disclosure.", "motion": "Static frames with short link transitions; no required video or parallax."}
 status: "ready"
+prompt_path: prompts/cinematic-photo/prompt.en.md
 ---
 
 # Cinematic Photo

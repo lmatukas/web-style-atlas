@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Large project photograph with analytic plan/caption pairs in A; a compact index and unequal project spreads in B.", "typography": "Measured sans-serif project titles, quiet body notes and monospaced figure/index labels.", "navigation": "Monograph/atlas page routes and a real numbered table of project anchors.", "content_rhythm": "Photograph, interpretation, plan and detail note versus index then two unequal documented building spreads.", "imagery": "Two rights-documented monochrome architectural photographs and one clearly labeled original interpretive plan diagram.", "color_and_material": "Near-white paper, dark ink, restrained warm action signal and monochrome architectural evidence.", "interaction": "Working project anchors, direct official histories, local rights record and native credit disclosures.", "motion": "Still documentary frames; no parallax, slideshow or camera animation."}
 status: "ready"
+prompt_path: prompts/architectural-monograph/prompt.en.md
 ---
 
 # Architectural Monograph

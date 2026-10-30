@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "medium"
 signature: {"composition": "Unequal object stages, soft backplates and asymmetric story/collection arrangements.", "typography": "Personable serif display, occasional italic annotation and clear sans-serif practical notes.", "navigation": "Visible making/collection links and local object anchors, wrapping on mobile.", "content_rhythm": "Short material observations alternating with process chapters or individual object studies.", "imagery": "Three original shaded, speckled SVG ceramic illustrations with readable silhouettes.", "color_and_material": "Warm cream, sand, brown and terracotta; restrained grain stays inside artwork.", "interaction": "Native dimensions/care disclosures, local anchors and clearly visible keyboard focus.", "motion": "Settled still objects and brief link transitions, removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/organic-craft/prompt.en.md
 ---
 
 # Organic Craft
