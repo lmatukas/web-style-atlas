@@ -6798,6 +6798,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in c9fc1d4. Ember B opens on the candlelit dining room; A keeps the table."
+    },
+    {
+      "id": "P77",
+      "title": "Still Sanctuary: fewer repeated photographs",
+      "status": "todo",
+      "depends_on": [
+        "P76"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P77.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P77 and replace repeated photographs.",
+      "handoff": "Image plan: D-01 for A region 01, J-02 for B villa card, recompress pavilion."
     }
   ]
 }

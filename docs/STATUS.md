@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 138/138.**
+**Baigta: 138/139.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P77](tasks/P77.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -148,5 +148,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P74](tasks/P74.md) | Full creation prompts: image-led group | Baigta | agent/015fh6w2uenf | task/p74-image-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/194) | 2026-10-30T05:31:40.528Z | None. Task done. |
 | [P75](tasks/P75.md) | Rename demo brands that match real names | Baigta | agent/015fh6w2uenf | task/p75-rename-brands | [PR](https://github.com/lmatukas/web-style-atlas/pull/195) | 2026-10-30T05:55:43.517Z | None. Task done. |
 | [P76](tasks/P76.md) | Ember Course Room: own hero for layout B | Baigta | agent/015fh6w2uenf | task/p76-ember-b-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/196) | 2026-10-30T06:04:17.789Z | None. Task done. |
+| [P77](tasks/P77.md) | Still Sanctuary: fewer repeated photographs | Laukia | — | — | — | — | Claim P77 and replace repeated photographs. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
