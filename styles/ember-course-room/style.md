@@ -16,7 +16,7 @@ signature:
   typography: Local Newsreader regular and italic 400 with Jost 400; italic dish names, quiet serif invitations and small tracked sans labels.
   navigation: Menu and room routes stay visible; native previous/next controls complement scrolling; reservation choices, edit and clear are explicit.
   content_rhythm: Candlelit arrival, seasonal introduction, ten small courses, dessert, a paper reservation surface and practical hospitality notes.
-  imagery: Three original AI-generated photographs show a candlelit table, trout and pear, paired with an original HTML room plan; no real venue or brand is represented.
+  imagery: Four original AI-generated photographs show a candlelit table, trout, pear and an empty candlelit dining room (B's hero), paired with an original HTML room plan; no real venue or brand is represented.
   color_and_material: Charcoal and walnut darkness, one amber accent, cream text and a warm paper reservation surface; ceramic, candlewax, linen and glass.
   interaction: The nearest course advances the photograph, clock and room warmth; date, time and party size determine which physical tables can be selected.
   motion: One 1.5-second arrival-light episode settles; scrolling drives later warmth without hijacking. Pause, reduced motion, hidden/offscreen stopping and cleanup remain explicit.
@@ -52,7 +52,7 @@ A panoramic opening with a broad lower invitation leads directly to an appointme
 
 ## Imagery
 
-Three original built-in AI-generated images are explicitly identified in assets.json and RIGHTS.txt. The table establishes candlewax, dark ceramic, walnut, glass and linen; the two close-ups show trout and a poached pear. They contain no people, lettering, visible brands or real venue. Encoded local WebP files are resized and metadata-free; combined image weight is below 1.5 MB. The room diagram is original semantic HTML/CSS, not a photograph of a real space. All source and tool URLs remain in RIGHTS.txt.
+Four original AI-generated images are explicitly identified in assets.json and RIGHTS.txt. The table establishes candlewax, dark ceramic, walnut, glass and linen; the two close-ups show trout and a poached pear; B opens on an empty candlelit dining room (a landscape file and a portrait file for narrow screens), so A and B no longer share a hero. They contain no people, lettering, visible brands or real venue. Encoded local WebP files are resized and metadata-free; combined image weight is below 1.5 MB. The room diagram is original semantic HTML/CSS, not a photograph of a real space. All source and tool URLs remain in RIGHTS.txt.
 
 ## Navigation and interaction
 
