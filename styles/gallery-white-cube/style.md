@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Three artworks hang at different scales on a broad white wall; B isolates one tall painting beside an index.", "typography": "Plain sans-serif names and readable small identification labels; no promotional display typography.", "navigation": "Visible exhibition and work links; B adds a numbered collection index.", "content_rhythm": "Look at work, read the label, pause, then encounter a short curatorial note.", "imagery": "Three original vector paintings with distinct aspect ratios and material palettes.", "color_and_material": "Neutral white architecture supports bounded colored artwork, without tinted product stages.", "interaction": "Actual work links and native reproduction-note disclosures; no fictitious purchase controls.", "motion": "Still artwork with reduced-motion-safe navigation; no reveals or automatic slides."}
 status: "ready"
+prompt_path: prompts/gallery-white-cube/prompt.en.md
 ---
 
 # Gallery White Cube
