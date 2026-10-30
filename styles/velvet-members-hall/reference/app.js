@@ -105,11 +105,11 @@ function fail(error, input, message) {
 const reservation = $('#reservation-form');
 if (reservation) {
   const events = [
-    {id: 'nov06', month: '11', day: '06', title: 'Talk without a stage', time: '19.00', house: 'Vilnius house', seats: 4},
+    {id: 'nov06', month: '11', day: '06', title: 'Talk without a stage', time: '19.00', house: 'Old Town house', seats: 4},
     {id: 'nov14', month: '11', day: '14', title: 'The listening hour', time: '20.00', house: 'River house', seats: 2},
-    {id: 'nov27', month: '11', day: '27', title: 'Dinner with a story', time: '19.30', house: 'Vilnius house', seats: 3},
+    {id: 'nov27', month: '11', day: '27', title: 'Dinner with a story', time: '19.30', house: 'Old Town house', seats: 3},
     {id: 'dec04', month: '12', day: '04', title: 'Winter readings', time: '18.30', house: 'River house', seats: 4},
-    {id: 'dec12', month: '12', day: '12', title: 'The small music salon', time: '20.00', house: 'Vilnius house', seats: 2},
+    {id: 'dec12', month: '12', day: '12', title: 'The small music salon', time: '20.00', house: 'Old Town house', seats: 2},
     {id: 'dec19', month: '12', day: '19', title: 'The last table of the year', time: '19.00', house: 'River house', seats: 1}
   ];
   const error = $('#reservation-error'), confirmation = $('#reservation-confirmation');
@@ -119,7 +119,7 @@ if (reservation) {
   function detail() {
     const event = selected();
     $('#event-title').textContent = event?.title || 'Your chosen evening';
-    $('#event-detail').textContent = event ? `2026-${event.month}-${event.day} · ${event.time} · ${event.house}. You can choose up to ${event.seats} ${event.seats === 1 ? 'seat' : 'seats'} (demonstration limit).` : 'Choose a programme entry. We will then prepare a local booking summary.';
+    $('#event-detail').textContent = event ? `2026-${event.month}-${event.day} · ${event.time} · ${event.house}. You can choose up to ${event.seats} ${event.seats === 1 ? 'seat' : 'seats'} per booking.` : 'Choose a programme entry. We will then prepare a local booking summary.';
     $('#seats').max = String(event?.seats || 4);
   }
   function renderEvents() {
@@ -159,7 +159,7 @@ const application = $('#application-form');
 if (application) {
   let step = 1;
   const error = $('#application-error'), confirmation = $('#application-confirmation'), next = $('#application-next');
-  const houses = {vilnius: 'Vilnius house', river: 'River house'};
+  const houses = {oldtown: 'Old Town house', river: 'River house'};
   const levels = {home: 'House member', friend: 'House friend'};
   function values() {
     return {name: cleanName($('#member-name').value), email: $('#member-email').value.trim(), level: application.elements.level.value, house: $('#club-house').value, referral: application.elements.referral.value, referrer: cleanName($('#referrer').value)};
@@ -187,7 +187,7 @@ if (application) {
     all('[data-step]').forEach(section => section.hidden = Number(section.dataset.step) !== step);
     all('[data-step-indicator]').forEach(item => Number(item.dataset.stepIndicator) === step ? item.setAttribute('aria-current', 'step') : item.removeAttribute('aria-current'));
     $('#application-back').hidden = step === 1;
-    next.textContent = step === 3 ? 'Prepare application ↗' : 'Next →';
+    next.textContent = step === 3 ? 'Prepare application' : 'Next →';
     if (step === 3) summary();
     if (focus) $(`[data-step="${step}"] [data-step-title]`).focus();
   }

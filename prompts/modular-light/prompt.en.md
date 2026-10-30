@@ -16,7 +16,7 @@ Composition A: a catalogue spread for a modular lamp. Composition B: an assembly
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside the enquiry that nothing is sent. Headings name parts, materials, module counts or uses, not moods; use real facts only once the user provides reliable content.
 
 Build a working, original website for the invented working brand "Plivane", a demonstration collection of modular lamps.
 

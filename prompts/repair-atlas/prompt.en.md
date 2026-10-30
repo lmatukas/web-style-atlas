@@ -16,7 +16,7 @@ Composition A: the story of a chair being assembled and taken apart. Composition
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the exhibition is invented, and keep one note that the chair is not proof of durability or recyclability. Call the six items objects, not scenarios or concepts, and give headings a concrete part or object; use real facts only once the user provides reliable content.
 
 The new project is MENDAVAL OBJECTS, an invented circular design exhibition. It tells how one everyday object can be taken apart, repaired and made again. Create six original exhibits. Do not make unverified environmental promises or pretend certificates. Each object's story must be clearly presented as a design scenario, not as facts about a product on the market.
 

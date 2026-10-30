@@ -16,7 +16,7 @@ Composition A: an asymmetric movement stage and three performance sections. Comp
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the studio is invented, and once beside the enquiry that nothing is sent; do not prefix every session with "demo". Headings name pieces, sessions and steps, not possibility or curiosity; use real facts only once the user provides reliable content.
 
 The project is ORYNDEL STUDIO, an invented contemporary aerial dance collective. The core idea: movement builds a relationship with space. The visitor should get to know the creative direction, look through three concept performances and choose the format of an introductory session. Do not give the impression of a real organisation or of events that actually take place: mark the demo performances and schedule data clearly as concept content.
 

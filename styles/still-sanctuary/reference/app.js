@@ -1,9 +1,9 @@
 const $ = s => document.querySelector(s);
 const all = s => [...document.querySelectorAll(s)];
 const periods = {
-  morning: {light:'morning', image:'forest.webp', alt:'Green wooded hills wrapped in mist', time:'07:00 — 10:00', title:'A morning without hurry.', copy:'A quiet walk along the forest path. Breathing practice, and breakfast whenever you want it. Time that does not need filling.'},
-  day: {light:'day', image:'pavilion.webp', alt:'A glass pavilion among the trees, an illustrative architecture photograph', time:'12:00 — 16:00', title:'A day at your own pace.', copy:'Shade, a book and a long lunch. Gentle movement in the garden or an hour of complete quiet. Choose what suits you today.'},
-  evening: {light:'evening', image:'lake.webp', alt:'The evening sky and mountains reflected in a calm lake', time:'18:00 — 21:00', title:'An evening by the water.', copy:'A slow walk along the shore and a warm herbal tea. We see the day out without screens, watching the light change.'}
+  morning: {light:'morning', image:'forest.webp', alt:'Green wooded hills wrapped in mist', time:'07:00–10:00', title:'A morning walk before breakfast.', copy:'A walk along the forest path, then the breathing class. Breakfast is served until ten.'},
+  day: {light:'day', image:'pavilion.webp', alt:'A glass pavilion among the trees', time:'12:00–16:00', title:'A long lunch in the middle of the day.', copy:'Lunch is served in the shade from twelve. Afterwards there is stretching on the lawn, or you can read.'},
+  evening: {light:'evening', image:'lake.webp', alt:'The evening sky and mountains reflected in a lake', time:'18:00–21:00', title:'An evening by the water.', copy:'A walk along the shore, then herbal tea on the jetty while the light goes.'}
 };
 function choosePeriod(key) {
   const p=periods[key]; document.body.dataset.light=p.light;
@@ -51,7 +51,7 @@ form.addEventListener('submit',e=>{e.preventDefault();invalidate();
   else if(!d.get('demo')){message='Confirm that you understand this is a demonstration.';bad=$('#demo');}
   if(message){error.textContent=message;error.hidden=false;bad.setAttribute('aria-invalid','true');bad.focus();return;}
   const nights=(Date.parse(departure)-Date.parse(arrival))/86400000;
-  $('#confirmation-text').textContent=`${regions[region]}. Arrival ${arrival}, departure ${departure}. Nights: ${nights}. Rituals: ${rituals.map(x=>ritualNames[x]).join(', ')}. This is a local demonstration: no enquiry was sent and nothing was booked.`;
+  $('#confirmation-text').textContent=`${regions[region]}. Arrival ${arrival}, departure ${departure}. Nights: ${nights}. Rituals: ${rituals.map(x=>ritualNames[x]).join(', ')}. Summary only: no enquiry was sent and nothing was booked.`;
   confirmation.hidden=false;confirmation.focus();
 });
 form.addEventListener('reset',()=>{invalidate();$('#departure').min=localDate(new Date(today.getTime()+86400000));});
