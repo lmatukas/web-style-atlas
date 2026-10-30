@@ -9,7 +9,7 @@ Build a working website in the user's project. Do not change the atlas or its ta
 - Search questions and an explainable recommendation rule: [FILL IN].
 - Technology, existing project rules and authorised integrations: [FILL IN].
 
-Without an approved integration everything runs locally. No real order, payment, sending or storage of customer data. Before using an invented business name, search for it to check it does not match a real company. Note descriptions are not claims about real ingredients, safety or a scientifically chosen scent.
+Without an approved integration everything runs locally. No real order, payment, sending or storage of customer data. Before using an invented business name, search for it to check it does not match a real company. Note descriptions are not claims about real ingredients, safety or a scientifically chosen scent. Say once, in the footer, that the atelier is invented, and once beside the sample set that nothing is ordered. Headings name scents, notes and sample sizes rather than moods.
 
 ## Design direction
 
@@ -39,7 +39,7 @@ The three questions must really change the result. Use a clear deterministic rul
 
 Offer four scents, but let the set hold 1–3 different 2 ml samples. The same scent cannot be added twice. A fourth scent triggers a clear error; an earlier one can be removed. The collection and set buttons change the real state, aria-pressed and the quantity. The recommendation button only adds, so pressing it again does not remove a sample that is already in the set.
 
-Confirmation needs at least one sample and the demonstration notice ticked. The summary lists each scent's name, number, all three note groups, 2 ml and the exact total volume. Insert data as text. Say clearly: this is a local demonstration, nothing was ordered, nothing was sent and there is no payment. Any change to the set or the notice removes the old summary. "Edit" keeps the choice; "Clear the set" clears the samples and the confirmation. No storage.
+Confirmation needs at least one sample and the demonstration notice ticked. The summary lists each scent's name, number, all three note groups, 2 ml and the exact total volume. Insert data as text. Say clearly: nothing was ordered, nothing was sent and there is no payment. Any change to the set or the notice removes the old summary. "Edit" keeps the choice; "Clear the set" clears the samples and the confirmation. No storage.
 
 ## Final check
 

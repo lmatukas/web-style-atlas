@@ -16,29 +16,19 @@ export const COPY_BACKLOG = [
   "cinematic-photo",
   "data-observatory",
   "discovery-cabinet",
-  "ember-course-room",
-  "escapement-nocturne",
-  "field-notes",
-  "humanist-service",
-  "industrial-spec",
   "kinetic-type",
   "membrane-score",
-  "neo-brutalist",
   "newspaper-ledger",
   "organic-craft",
   "patina-auction-room",
-  "playful-cutout",
   "quiet-luxury",
   "rhythm-planner",
-  "scent-ritual",
   "seasonal-terrain",
   "soft-spatial",
   "spine-editions",
   "swiss-grid",
-  "terminal-utility",
   "trail-composer",
-  "twilight-expedition",
-  "woven-field"
+  "twilight-expedition"
 ];
 
 const root = new URL('../', import.meta.url);

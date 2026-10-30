@@ -16,7 +16,7 @@ Composition A: a creative weaving notebook with a field of threads. Composition 
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the weave, the colours or the file, not "relation" or "rhythm"; use real facts only once the user provides reliable content.
 
 The project is LINTROVA, an invented textile design workshop. Its visual world rests on the tension of threads and the logic of weaving. The main image is an original field of thin threads from which the visitor can make their own abstract cloth pattern. It must be a clear graphic system with a limited palette, not a freely floating mass of colour. Create a working wordmark that could easily be swapped for another name.
 

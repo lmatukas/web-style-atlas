@@ -18,7 +18,7 @@ export function initializeBooking(root){
  }
  function renderAvailability(resetMessage=''){
   const kind=dateState(date.value,range),count=slots.filter(s=>available(date.value,s,+guests.value,range).length).length;
-  announce(kind==='invalid'?'Choose a date from tomorrow up to 60 days ahead.':kind==='closed'?'The room rests on Mondays. Choose another date.':kind==='full'?'This demonstration evening is full. Choose another date.':!count?'No places for this number of guests. Choose another date.':resetMessage||`${formatDate(date.value)} · ${guests.value} ${+guests.value===1?'guest':'guests'} · ${count} free ${count===1?'time':'times'}. Choose a time, then a table.`);
+  announce(kind==='invalid'?'Choose a date from tomorrow up to 60 days ahead.':kind==='closed'?'The room rests on Mondays. Choose another date.':kind==='full'?'This evening is full. Choose another date.':!count?'No places for this number of guests. Choose another date.':resetMessage||`${formatDate(date.value)} · ${guests.value} ${+guests.value===1?'guest':'guests'} · ${count} free ${count===1?'time':'times'}. Choose a time, then a table.`);
  }
  function refresh(){state.slot='';state.table='';clearErrors();renderTimes();renderRoom();renderAvailability('Choices updated. Choose a time and table again.');}
  date.addEventListener('change',refresh);guests.addEventListener('change',refresh);

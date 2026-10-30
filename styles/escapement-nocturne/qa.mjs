@@ -23,7 +23,7 @@ async function booking(page){
  await page.fill('#day','2026-01-02');await page.fill('#name','Zoë');await page.fill('#email','zoe@example.com');await page.check('#ack');
  await submit.focus();await page.keyboard.press('Enter');
  const confirmation=page.locator('#visit-confirmation'),text=await confirmation.textContent();
- assert.match(text,/North salon · Vilnius/);assert.match(text,/2026-01-02 · 11:30/);assert.match(text,/no data was sent anywhere/);assert.match(text,/N.01/);assert.equal(await page.evaluate(()=>document.activeElement.id),'visit-confirmation');
+ assert.match(text,/North salon · Old Town/);assert.match(text,/2026-01-02 · 11:30/);assert.match(text,/no data was sent anywhere/);assert.match(text,/N.01/);assert.equal(await page.evaluate(()=>document.activeElement.id),'visit-confirmation');
  if(await page.locator('#total').count())assert.ok(text.includes(await page.locator('#total').textContent()),'booking carries the exact total');
  await page.fill('#name','Ana');assert.equal(await confirmation.isVisible(),false,'editing invalidates confirmation');
  await submit.click();assert.ok(await confirmation.isVisible());await page.getByRole('button',{name:'Clear',exact:true}).click();assert.equal(await confirmation.isVisible(),false);assert.equal(await confirmation.textContent(),'');assert.equal(await page.locator('#name').inputValue(),'');assert.equal(await page.locator('#salon').inputValue(),'');
