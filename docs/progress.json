@@ -7276,7 +7276,7 @@
     {
       "id": "P88",
       "title": "Release 1.5.0: copy without AI-template signs",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P87"
       ],
@@ -7284,16 +7284,16 @@
       "evidence_paths": [
         "docs/evidence/P88.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T11:39:40Z",
+      "updated_at": "2026-10-30T11:39:40.610Z",
+      "branch": "task/p88-release-1-5-0",
+      "base_commit": "574b0c4260271949f072658443c608050efa8bfa",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P88 after P87 is done.",
+      "next_action": "Implement P88 on task/p88-release-1-5-0.",
       "handoff": "Owner asked to release after P87."
     }
   ]
