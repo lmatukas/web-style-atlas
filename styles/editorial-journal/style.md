@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Literary masthead and unequal cover columns; narrow essay measure with a note margin.", "typography": "Georgia serif headlines and reading text with quiet sans-serif metadata.", "navigation": "Publication departments in A; issue return and article contents in B.", "content_rhythm": "Cover, departments and editor letter versus continuous argument and pull quotation.", "imagery": "An original CSS still-life on the cover and an original SVG line drawing of a cup in the department column and the essay.", "color_and_material": "Ivory paper, deep ink, muted olive and restrained editorial rules.", "interaction": "Underlined local story links and native reading-note disclosure.", "motion": "Short color transitions only; reading remains still."}
 status: "ready"
+prompt_path: prompts/editorial-journal/prompt.en.md
 ---
 
 # Editorial Journal

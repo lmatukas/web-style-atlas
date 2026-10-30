@@ -274,6 +274,7 @@
       "image_dependency": "medium",
       "motion_level": "subtle",
       "name": "Botanical Engraving",
+      "prompt_path": "prompts/botanical-engraving/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Quiet herbarium paper and green-black ink, with sparse rules and no noisy texture.",
@@ -535,6 +536,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Editorial Journal",
+      "prompt_path": "prompts/editorial-journal/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Ivory paper, deep ink, muted olive and restrained editorial rules.",
@@ -700,6 +702,7 @@
       "image_dependency": "medium",
       "motion_level": "subtle",
       "name": "Field Notes",
+      "prompt_path": "prompts/field-notes/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm paper, sand notes, dark brown and restrained rust annotation marks.",
@@ -1380,6 +1383,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Newspaper Ledger",
+      "prompt_path": "prompts/newspaper-ledger/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.",

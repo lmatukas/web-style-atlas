@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "A large botanical plate beside story and specimen label; B organizes complete illustrations with numbered classification records.", "typography": "Serif display and italic accepted names, plain readable documentary metadata.", "navigation": "Garden-story route and literal three-plate herbarium index.", "content_rhythm": "Plant, origin story and related specimens versus repeated image/name/observation records.", "imagery": "Three original hatched SVG plant line studies, explicitly stylized rather than scientific identification plates.", "color_and_material": "Quiet herbarium paper and green-black ink, with sparse rules and no noisy texture.", "interaction": "Actual specimen destinations and native source/plate disclosures.", "motion": "Still illustration, stable captions and reduced-motion-safe navigation."}
 status: "ready"
+prompt_path: prompts/botanical-engraving/prompt.en.md
 ---
 
 # Botanical Engraving

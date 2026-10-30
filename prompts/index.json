@@ -547,6 +547,90 @@
         "art-deco"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S02",
+      "style_id": "editorial-journal",
+      "name": "Editorial Journal",
+      "family": "editorial",
+      "language": "en",
+      "prompt_path": "prompts/editorial-journal/prompt.en.md",
+      "demo_brand": "Plainroom",
+      "variants": {
+        "a": "A literary issue cover with three departments and an editor's letter",
+        "b": "A long-form essay with a contents margin, a pull quote and an end note"
+      },
+      "signature": "A large literary masthead, a narrow serif reading column, margin notes and original drawn illustrations instead of stock photos.",
+      "acceptance": "Department links and essay contents reach real sections; the essay notes disclosure opens and closes with a keyboard; all reading content is visible without waiting for animation.",
+      "enhancement": "static",
+      "closest_styles": [
+        "newspaper-ledger",
+        "field-notes"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S14",
+      "style_id": "newspaper-ledger",
+      "name": "Newspaper Ledger",
+      "family": "editorial",
+      "language": "en",
+      "prompt_path": "prompts/newspaper-ledger/prompt.en.md",
+      "demo_brand": "The Common Ledger",
+      "variants": {
+        "a": "A ruled multi-story front page with a lead plan, briefs and a chart",
+        "b": "One analysis article with a contents rail, a data table and method notes"
+      },
+      "signature": "A dense ruled front page: a strong lead with an original labelled plan, unequal brief columns with a real chart, and an analysis page with a numeric ledger table and stated method.",
+      "acceptance": "Every figure in the plan, chart and table adds up and carries its unit; the table is real selectable HTML with row and column headers; disclosures and section links work with a keyboard.",
+      "enhancement": "static",
+      "closest_styles": [
+        "editorial-journal",
+        "data-observatory"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S09",
+      "style_id": "field-notes",
+      "name": "Field Notes",
+      "family": "tactile",
+      "language": "en",
+      "prompt_path": "prompts/field-notes/prompt.en.md",
+      "demo_brand": "Cairnwise",
+      "variants": {
+        "a": "An annotated travel fragment with a margin of notes and a route sketch",
+        "b": "A timed route diary with three stops and a preparation rail"
+      },
+      "signature": "A notebook of observations: a narrative column beside margin notes, an original pencil sketch and a schematic route, each with a truthful caption, plus a timed diary.",
+      "acceptance": "Fragment, route and diary links reach real sections; the source disclosures work; the three preparation checkboxes change state with mouse, touch and keyboard and say plainly that nothing is saved.",
+      "enhancement": "static",
+      "closest_styles": [
+        "organic-craft",
+        "botanical-engraving"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S19",
+      "style_id": "botanical-engraving",
+      "name": "Botanical Engraving",
+      "family": "illustrative",
+      "language": "en",
+      "prompt_path": "prompts/botanical-engraving/prompt.en.md",
+      "demo_brand": "Folium",
+      "variants": {
+        "a": "A plant and origin story led by one large leaf plate",
+        "b": "A classified three-plate herbarium with complete records"
+      },
+      "signature": "Original fine-line plant plates with plate numbers, italic accepted names and observations, ordered like a labelled cabinet rather than a scattered collection.",
+      "acceptance": "The three plates are distinct original drawings; every plate shows plate number, common name and italic accepted name; index links and native record disclosures work with a keyboard; the page states it is not an identification guide.",
+      "enhancement": "static",
+      "closest_styles": [
+        "field-notes",
+        "organic-craft"
+      ],
+      "audio": false
     }
   ]
 }
