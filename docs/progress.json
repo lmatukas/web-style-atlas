@@ -6538,25 +6538,41 @@
     {
       "id": "P71",
       "title": "Full creation prompts: service and data group",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P70"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P71.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T04:57:34Z",
-      "updated_at": "2026-10-30T04:57:34.378Z",
+      "updated_at": "2026-10-30T05:02:38.017Z",
       "branch": "task/p71-service-prompts",
       "base_commit": "04f31910c77bdcb8415f0e6999a55f2e75bab577",
-      "evidence_commit": null,
+      "evidence_commit": "7c98aff7355cdb594e9473d0f3a4cfca97186c7e",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/191",
       "blocker": null,
-      "next_action": "Implement P71 on task/p71-service-prompts.",
-      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four full creation prompts. Waiting for CI."
     },
     {
       "id": "P72",
