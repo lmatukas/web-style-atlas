@@ -7232,7 +7232,7 @@
     {
       "id": "P87",
       "title": "Optional visual pass: glow, italic accents, fonts",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P86"
       ],
@@ -7263,15 +7263,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T11:13:18Z",
-      "updated_at": "2026-10-30T11:34:05.490Z",
+      "updated_at": "2026-10-30T11:39:05.099Z",
       "branch": "task/p87-visual-pass",
       "base_commit": "ea4ce7739eca6d4bd1698ff198ea6ddccdee6abb",
       "evidence_commit": "b45ee32d811357aa08578cf44a0ed1e529fe098c",
-      "merge_commit": null,
+      "merge_commit": "78ca3f3c11e3f1f6687ecb20433758f8bebaaccc",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/207",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Glow and italic parts done; font proposal awaits owner."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 78ca3f3. Glow and italic parts done; font proposal in evidence awaits owner."
     }
   ]
 }
