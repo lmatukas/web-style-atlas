@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.5.0 — prepared 2026-10-30
+
+50 ready directions, 100 working layout variants and 200 current previews.
+Every direction has a full creation prompt and copy without AI-template signs.
+
+- Full English creation prompts for all 50 directions (P66, P68–P74).
+- Gallery: an empty filter result lists each active filter with the count it
+  would bring back (P67); gallery copy rewritten in plain sentences (P81).
+- Seven demo brands that matched real names renamed; generated images replace
+  photographs of real buildings in Midnight Vestibule and Architectural
+  Monograph; Ember Course Room has its own B hero; Still Sanctuary repeats
+  fewer photographs (P75–P79).
+- An audit of AI-template signs (P80), then all 50 directions rewritten:
+  plain headlines with a fact from the page, the direction's own vocabulary,
+  one footer disclaimer plus one note per form, no arrows on in-page links,
+  fewer em dashes and no real city names (P82–P86). A copy-lint test guards
+  every page and the gallery; its backlog is empty.
+- Cursor-following glow removed where it was only atmosphere; decorative
+  italic heading words made upright in nine directions (P87).
+
+See [1.5.0 release notes](docs/releases/1.5.0.md).
+
 ## 1.4.0 — published 2026-10-25
 
 50 ready directions, 100 working layout variants and 200 current previews.

@@ -1,18 +1,15 @@
 # Web Style Atlas — kaip išbandyti
 
-**1.4.0 versija:** 50 dizaino krypčių, kiekviena su dviem veikiančiais maketo
-variantais (A ir B), ir 200 aktualių kompiuterio bei telefono peržiūrų.
-Visų krypčių puslapiai ir kūrimo promptai dabar yra anglų kalba;
-žr. [leidimo aprašą](docs/releases/1.4.0.md).
+**1.5.0 versija:** 50 dizaino krypčių, kiekviena su dviem veikiančiais maketo
+variantais (A ir B), pilnu kūrimo promptu ir 200 aktualių kompiuterio bei
+telefono peržiūrų. Visų puslapių tekstai perrašyti be šabloninių AI ženklų;
+žr. [leidimo aprašą](docs/releases/1.5.0.md).
 [Darbų būsena](docs/STATUS.md) saugo tikrus patikrų rezultatus.
 
 **[Atidaryk viešą galeriją](https://lmatukas.github.io/web-style-atlas/).**
 Publikavimo paleidimas ir gyvos svetainės patikros įrašomi
-[1.4.0 leidimo apraše](docs/releases/1.4.0.md). Ankstesnė
-[1.3.0](docs/releases/1.3.0.md), [1.2.0](docs/releases/1.2.0.md), [1.1.0](docs/releases/1.1.0.md) ir [1.0.0](docs/releases/1.0.0.md) istorija išsaugota.
-Po 1.4.0 sujungti pakeitimai (pilnas kūrimo promptas kiekvienai krypčiai,
-pervadinti demonstraciniai prekės ženklai ir sugeneruoti vaizdai vietoj tikrų
-pastatų nuotraukų) gyvoje galerijoje atsiras su kitu leidimu.
+[1.5.0 leidimo apraše](docs/releases/1.5.0.md). Ankstesnė
+[1.4.0](docs/releases/1.4.0.md), [1.3.0](docs/releases/1.3.0.md), [1.2.0](docs/releases/1.2.0.md), [1.1.0](docs/releases/1.1.0.md) ir [1.0.0](docs/releases/1.0.0.md) istorija išsaugota.
 
 Visas 50 krypčių jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)

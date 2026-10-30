@@ -3,18 +3,16 @@
 Distinct web design directions with working examples and practical instructions
 for AI coding agents. Use a direction to build a website in your own project.
 
-**Release 1.4.0: 50 ready directions, each with two working layout variants
-(A and B), and 200 current desktop/mobile previews.** Every direction's pages
-and creation prompt are now in English; see the [release notes](docs/releases/1.4.0.md).
+**Release 1.5.0: 50 ready directions, each with two working layout variants
+(A and B), a full creation prompt and 200 current desktop/mobile previews.**
+Every page's copy was rewritten without AI-template signs; see the
+[release notes](docs/releases/1.5.0.md).
 The [work board](docs/STATUS.md) tracks acceptance and publication separately.
 
 **Live gallery:** [open Web Style Atlas](https://lmatukas.github.io/web-style-atlas/).
-The [1.4.0 release notes](docs/releases/1.4.0.md) record the publication run and
-live checks. Earlier [1.3.0](docs/releases/1.3.0.md), [1.2.0](docs/releases/1.2.0.md), [1.1.0](docs/releases/1.1.0.md) and
+The [1.5.0 release notes](docs/releases/1.5.0.md) record the publication run and
+live checks. Earlier [1.4.0](docs/releases/1.4.0.md), [1.3.0](docs/releases/1.3.0.md), [1.2.0](docs/releases/1.2.0.md), [1.1.0](docs/releases/1.1.0.md) and
 [1.0.0](docs/releases/1.0.0.md) publication history is retained.
-Changes merged after 1.4.0 (a full creation prompt for every direction, renamed
-demo brands and generated images instead of photographs of real buildings)
-reach the live gallery with the next release.
 Use all 50 source directions through
 [the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
