@@ -594,7 +594,7 @@
       "task_id": "S09",
       "style_id": "field-notes",
       "name": "Field Notes",
-      "family": "editorial",
+      "family": "tactile",
       "language": "en",
       "prompt_path": "prompts/field-notes/prompt.en.md",
       "demo_brand": "Cairnwise",
