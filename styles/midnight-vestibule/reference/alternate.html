@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rooms — Kelvarre</title><meta name="description" content="Room gallery, comparison and booking drawer with an exact nightly total, for an invented hotel."><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"><script type="module" src="light.mjs"></script><script type="module" src="booking.mjs"></script></head>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rooms · Kelvarre</title><meta name="description" content="Room gallery, comparison and booking drawer with an exact nightly total, for an invented hotel."><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"><script type="module" src="light.mjs"></script><script type="module" src="booking.mjs"></script></head>
 <body data-variant="b"><a class="skip" href="#main">Skip to content</a>
 <header class="masthead"><a class="wordmark" href="index.html" aria-label="Kelvarre home">Kelvarre</a><nav aria-label="Main"><a href="index.html">Hotel</a><a href="alternate.html" aria-current="page">Rooms</a></nav><button type="button" class="primary" data-open-booking>Book</button></header>
 <main id="main">
@@ -26,11 +26,11 @@
     <tr><th scope="row">Bathroom</th><td>Shower</td><td>Bath and shower</td><td>Two bathrooms</td></tr>
     <tr><th scope="row">Price per night</th><td>€240</td><td>€360</td><td>€520</td></tr>
   </tbody></table></div>
-  <p class="compare-note">Breakfast under the dome: €28 per person per night. Late check-out until 16:00: €40. All prices are for demonstration.</p>
+  <p class="compare-note">Breakfast under the dome: €28 per person per night. Late check-out until 16:00: €40.</p>
 </section>
 </main>
 <a class="edge-tab" href="#booking" data-open-booking role="button">Book <span aria-hidden="true">›</span></a>
-<footer class="footer"><a class="wordmark" href="index.html">Kelvarre</a><p>Kelvarre keeps its lamps lit for an invented city. Rooms, prices and places are made up, and no booking is sent.</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
+<footer class="footer"><a class="wordmark" href="index.html">Kelvarre</a><p>Kelvarre keeps its lamps lit for an invented city. Rooms, prices and places are made up, and no booking is sent.</p><a href="#main">Back to top</a></footer>
 <div id="booking" class="drawer" hidden>
   <div class="drawer-backdrop" data-close></div>
   <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="booking-title">
@@ -53,7 +53,7 @@
         <label class="check"><input type="checkbox" name="late" value="yes"><span>Late check-out until 16:00 <small>€40 once</small></span></label>
       </fieldset>
       <dl class="summary"><div><dt>Dates</dt><dd data-out="dates"></dd></div><div><dt>Nights</dt><dd data-out="nights"></dd></div><div><dt>Room</dt><dd data-out="stay"></dd></div><div><dt>Breakfast</dt><dd data-out="meals"></dd></div><div><dt>Late check-out</dt><dd data-out="late"></dd></div></dl>
-      <p class="total"><span>Demonstration total</span><output id="booking-total" aria-live="polite">€0</output></p>
+      <p class="total"><span>Total</span><output id="booking-total" aria-live="polite">€0</output></p>
       <label class="check ack"><input type="checkbox" name="ack" value="yes"><span>I understand this is a demonstration booking and nothing will be sent.</span></label>
       <p id="booking-errors" class="errors" role="alert" hidden></p>
       <p id="booking-confirmation" class="confirmation" role="status" tabindex="-1" hidden></p>

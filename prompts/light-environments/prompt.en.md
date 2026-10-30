@@ -16,7 +16,7 @@ Composition A: an exhibition story of three different spaces. Composition B: a t
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the three spaces and the route rather than moods; use real facts only once the user provides reliable content.
 
 The project is VELUMBRE, an invented working brand for a virtual exhibition of light installations. Build three distinctive artistic 3D environments: a sand amphitheatre, a fabric vault and a shadow valley. A shifting light direction must connect them, but each must have its own silhouette, spatial rhythm and way of exploring. This is a demonstration virtual exhibition: do not make up real artists, event dates, awards or ticket offers. Sound is optional.
 

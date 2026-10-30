@@ -16,7 +16,7 @@ Composition A: a hand-kept personal portal with a sidebar directory. Composition
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Keep the personal voice, but write concrete entries rather than mood slogans; use real facts only once the user provides reliable content.
 
 The project is MARA'S LITTLE CORNER, the invented personal site of a fictional writer, Mara, who keeps six short observations and making notes. Nostalgia comes from information structure — a directory, boxed regions, underlined links, dates — not from imitating an operating system, browser errors or a visitor counter. Say in the footer that the person and entries are fictional and that nothing is live.
 

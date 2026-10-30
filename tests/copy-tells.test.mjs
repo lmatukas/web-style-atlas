@@ -6,13 +6,7 @@ import {execFileSync} from 'node:child_process';
 
 // P82–P86 remove IDs as their last failing reference is rewritten.
 // Never add directions or the gallery to this list.
-export const COPY_BACKLOG = [
-  "cinematic-photo",
-  "data-observatory",
-  "seasonal-terrain",
-  "spine-editions",
-  "swiss-grid"
-];
+export const COPY_BACKLOG = [];
 
 const root = new URL('../', import.meta.url);
 const read = path => readFileSync(new URL(path, root), 'utf8');
