@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.5.0 — prepared 2026-10-30
+## 1.5.0 — published 2026-10-30
 
 50 ready directions, 100 working layout variants and 200 current previews.
 Every direction has a full creation prompt and copy without AI-template signs.
@@ -20,7 +20,8 @@ Every direction has a full creation prompt and copy without AI-template signs.
 - Cursor-following glow removed where it was only atmosphere; decorative
   italic heading words made upright in nine directions (P87).
 
-See [1.5.0 release notes](docs/releases/1.5.0.md).
+Published on 2026-10-30: [release run 41052213639](https://github.com/lmatukas/web-style-atlas/actions/runs/41052213639)
+passed verify and deploy on `00e78fe`. See [1.5.0 release notes](docs/releases/1.5.0.md).
 
 ## 1.4.0 — published 2026-10-25
 
