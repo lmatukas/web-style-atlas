@@ -6758,7 +6758,7 @@
     {
       "id": "P76",
       "title": "Ember Course Room: own hero for layout B",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P75"
       ],
@@ -6766,16 +6766,16 @@
       "evidence_paths": [
         "docs/evidence/P76.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T05:58:59Z",
+      "updated_at": "2026-10-30T05:58:59.175Z",
+      "branch": "task/p76-ember-b-hero",
+      "base_commit": "74e49d81cff42afe37a7b04b19ae9603fb765353",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P76 and add the C-05 hero to layout B.",
+      "next_action": "Implement P76 on task/p76-ember-b-hero.",
       "handoff": "Image plan 2026-10-26/30: asset bank C-05 for Ember B."
     }
   ]
