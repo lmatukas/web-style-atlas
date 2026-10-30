@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 141/141.**
+**Baigta: 141/142.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P80](tasks/P80.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -151,5 +151,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P77](tasks/P77.md) | Still Sanctuary: fewer repeated photographs | Baigta | agent/015fh6w2uenf | task/p77-still-sanctuary-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/197) | 2026-10-30T06:10:32.387Z | None. Task done. |
 | [P78](tasks/P78.md) | Midnight Vestibule: generated night images instead of real buildings | Baigta | agent/015fh6w2uenf | task/p78-midnight-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/198) | 2026-10-30T06:18:33.392Z | None. Task done. |
 | [P79](tasks/P79.md) | Architectural Monograph: invented houses and generated photographs | Baigta | agent/015fh6w2uenf | task/p79-monograph-houses | [PR](https://github.com/lmatukas/web-style-atlas/pull/199) | 2026-10-30T06:24:11.276Z | None. Task done. |
+| [P80](tasks/P80.md) | Audit: AI-template tells and project description | Laukia | — | — | — | — | Claim P80 and write the audit. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

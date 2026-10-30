@@ -6930,6 +6930,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in 85edf63. Monograph rebuilt around invented houses with generated images."
+    },
+    {
+      "id": "P80",
+      "title": "Audit: AI-template tells and project description",
+      "status": "todo",
+      "depends_on": [
+        "P79"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P80.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P80 and write the audit.",
+      "handoff": "Owner request 2026-10-30: find AI-template tells, plan fixes, update description."
     }
   ]
 }
