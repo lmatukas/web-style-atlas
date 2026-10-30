@@ -7232,25 +7232,46 @@
     {
       "id": "P87",
       "title": "Optional visual pass: glow, italic accents, fonts",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P86"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews for eleven directions."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "115/115."
+        },
+        {
+          "name": "Direction QA",
+          "status": "pass",
+          "details": "Own QA, runtime QA and browser QA pass for all eleven; Acoustic asserts fixed light."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated through the canonical workflow and inspected."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P87.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T11:13:18Z",
-      "updated_at": "2026-10-30T11:13:18.565Z",
+      "updated_at": "2026-10-30T11:34:05.490Z",
       "branch": "task/p87-visual-pass",
       "base_commit": "ea4ce7739eca6d4bd1698ff198ea6ddccdee6abb",
-      "evidence_commit": null,
+      "evidence_commit": "b45ee32d811357aa08578cf44a0ed1e529fe098c",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/207",
       "blocker": null,
-      "next_action": "Implement P87 on task/p87-visual-pass.",
-      "handoff": "Planned in the P80 AI-template audit."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Glow and italic parts done; font proposal awaits owner."
     }
   ]
 }
