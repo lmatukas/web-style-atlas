@@ -224,6 +224,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Bauhaus Geometric",
+      "prompt_path": "prompts/bauhaus-geometric/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm paper, black, red, blue and yellow flat semantic planes.",
@@ -907,6 +908,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Industrial Spec",
+      "prompt_path": "prompts/industrial-spec/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Cool sheet surfaces, dark drawing ink and bounded yellow document strip.",
@@ -1333,6 +1335,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Neo Brutalist",
+      "prompt_path": "prompts/neo-brutalist/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Lemon field, violet signal, near-black thick borders and hard shadows.",
@@ -2285,6 +2288,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Swiss Grid",
+      "prompt_path": "prompts/swiss-grid/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm paper, near-black text, one red signal and hairline dividers.",

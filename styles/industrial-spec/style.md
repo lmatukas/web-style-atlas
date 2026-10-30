@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "A dimensional drawing beside a large product identifier and document tag; B aligned orthographic views over a comparison ledger.", "typography": "Plain industrial sans-serif display and monospaced document identifiers, units and revision labels.", "navigation": "Numbered document sections and an explicit assembly-comparison destination.", "content_rhythm": "Drawing, dimensional record, assembly rows and document boundaries; B views, comparison table and selection context.", "imagery": "Original inline vector elevations with consistent labeled envelope proportions.", "color_and_material": "Cool sheet surfaces, dark drawing ink and bounded yellow document strip.", "interaction": "Real sheet/section links and native concept-boundary disclosures, without fake download or specification selectors.", "motion": "Stable dimension lines and text; no rotating product or decorative scanning effect."}
 status: "ready"
+prompt_path: prompts/industrial-spec/prompt.en.md
 ---
 
 # Industrial Spec

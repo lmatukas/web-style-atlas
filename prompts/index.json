@@ -631,6 +631,90 @@
         "organic-craft"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S01",
+      "style_id": "swiss-grid",
+      "name": "Swiss Grid",
+      "family": "typographic",
+      "language": "en",
+      "prompt_path": "prompts/swiss-grid/prompt.en.md",
+      "demo_brand": "Form / Order",
+      "variants": {
+        "a": "A numbered service index with a large opening proposition",
+        "b": "An asymmetric work catalogue with a narrow identity rail"
+      },
+      "signature": "A strict column grid with oversized left-aligned type, numbered ruled service rows, one red signal shape and generous empty space; no cards, photos or rounded UI.",
+      "acceptance": "Navigation and the project index reach real sections; the engagement disclosure works with a keyboard; the contact area gives honest guidance instead of a fake form or broken email link.",
+      "enhancement": "static",
+      "closest_styles": [
+        "bauhaus-geometric",
+        "institutional-clear"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S08",
+      "style_id": "bauhaus-geometric",
+      "name": "Bauhaus Geometric",
+      "family": "expressive",
+      "language": "en",
+      "prompt_path": "prompts/bauhaus-geometric/prompt.en.md",
+      "demo_brand": "Gridmoot",
+      "variants": {
+        "a": "An event poster grid with a timed programme",
+        "b": "A modular exhibition of three geometric composition studies"
+      },
+      "signature": "Elementary circles, squares and triangles in red, blue and yellow that hold real grid modules beside large plain sans-serif type; a poster page and a three-study exhibition.",
+      "acceptance": "Programme and exhibition links reach real sections; the practical-details disclosure works with a keyboard; no shape covers a control or text; no fake ticketing.",
+      "enhancement": "static",
+      "closest_styles": [
+        "swiss-grid",
+        "playful-cutout"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S03",
+      "style_id": "neo-brutalist",
+      "name": "Neo Brutalist",
+      "family": "expressive",
+      "language": "en",
+      "prompt_path": "prompts/neo-brutalist/prompt.en.md",
+      "demo_brand": "Shoutmoot",
+      "variants": {
+        "a": "A loud event poster with a numbered manifesto",
+        "b": "A framed two-day programme with a working day filter"
+      },
+      "signature": "Oversized poster words, thick black outlines, hard offset shadows and a loud yellow and violet palette, with a programme that really filters by day.",
+      "acceptance": "The two day buttons show only that day’s sessions, expose aria-pressed and update a polite status line; the access disclosure works with a keyboard; the page states no tickets are sold and no data is collected.",
+      "enhancement": "static",
+      "closest_styles": [
+        "playful-cutout",
+        "pop-commerce"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S15",
+      "style_id": "industrial-spec",
+      "name": "Industrial Spec",
+      "family": "technical",
+      "language": "en",
+      "prompt_path": "prompts/industrial-spec/prompt.en.md",
+      "demo_brand": "Form / Systems",
+      "variants": {
+        "a": "A dimensioned component sheet with a numbered assembly sequence",
+        "b": "Orthographic views with a two-envelope comparison ledger"
+      },
+      "signature": "A technical document: a component ID beside an original dimensioned elevation, revision labels, unit-bearing spec rows and a comparison ledger whose drawings match the numbers.",
+      "acceptance": "Drawing geometry matches the stated dimensions; spec values are selectable text with units; the comparison is a real HTML table; document-note disclosures work with a keyboard; no download, quote or buy action exists without a real destination.",
+      "enhancement": "static",
+      "closest_styles": [
+        "terminal-utility",
+        "data-observatory"
+      ],
+      "audio": false
     }
   ]
 }

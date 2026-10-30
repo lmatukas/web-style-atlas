@@ -94,7 +94,7 @@ test('creation copy preserves every source instruction and resolves selected A/B
   assert.throws(()=>creationSelectionPrompt({...style,status:'draft'},'a',f.source));
   assert.match(selectionPrompt(style,'b'),/Composition: B/);
   const ready=JSON.parse(readFileSync(new URL('../catalog/index.json',import.meta.url))).styles;
-  const legacy=ready.find(s=>s.id==='swiss-grid');assert.ok(legacy);assert.equal(legacy.prompt_path,undefined);
+  const legacy={...ready.find(s=>s.id==='swiss-grid')};delete legacy.prompt_path;assert.ok(legacy.id);
   assert.match(selectionPrompt(legacy,'b'),/Composition: B/);
 });
 
