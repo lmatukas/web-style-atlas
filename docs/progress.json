@@ -6846,7 +6846,7 @@
     {
       "id": "P78",
       "title": "Midnight Vestibule: generated night images instead of real buildings",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P77"
       ],
@@ -6854,16 +6854,16 @@
       "evidence_paths": [
         "docs/evidence/P78.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T06:11:30Z",
+      "updated_at": "2026-10-30T06:11:30.314Z",
+      "branch": "task/p78-midnight-images",
+      "base_commit": "977f3e237eadfd5d155622ba7d0360ed9718b620",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P78 and replace four photographs.",
+      "next_action": "Implement P78 on task/p78-midnight-images.",
       "handoff": "Image plan: K-05, K-04, M-01, M-02 replace the four real-building photographs."
     }
   ]
