@@ -6670,7 +6670,7 @@
     {
       "id": "P74",
       "title": "Full creation prompts: image-led group",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P73"
       ],
@@ -6683,12 +6683,17 @@
         {
           "name": "Unit tests",
           "status": "pass",
-          "details": "All pass."
+          "details": "109/109."
         },
         {
           "name": "Gallery and creation-prompt browser tests",
           "status": "pass",
           "details": "7/7."
+        },
+        {
+          "name": "PR #194 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6696,15 +6701,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:23:55Z",
-      "updated_at": "2026-10-30T05:28:59.577Z",
+      "updated_at": "2026-10-30T05:31:40.528Z",
       "branch": "task/p74-image-prompts",
       "base_commit": "2417edb8cf67f42b10240d111642bb2b6132d218",
       "evidence_commit": "b4fea7f8c503028b6c2730f2e6f501037357a63c",
-      "merge_commit": null,
+      "merge_commit": "421178ce988f88a0c98b3d52a2c14c426a33209d",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/194",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Four full creation prompts. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 421178c. Four image-led prompts; all 50 directions have a full prompt."
     }
   ]
 }
