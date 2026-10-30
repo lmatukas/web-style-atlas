@@ -6450,7 +6450,7 @@
     {
       "id": "P69",
       "title": "Full creation prompts: editorial group",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P68"
       ],
@@ -6469,6 +6469,11 @@
           "name": "Gallery and creation-prompt browser tests",
           "status": "pass",
           "details": "7/7."
+        },
+        {
+          "name": "PR #189 CI",
+          "status": "pass",
+          "details": "All three checks passed on 252c330."
         }
       ],
       "evidence_paths": [
@@ -6476,15 +6481,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T04:08:49Z",
-      "updated_at": "2026-10-30T04:18:39.144Z",
+      "updated_at": "2026-10-30T04:44:50.843Z",
       "branch": "task/p69-editorial-prompts",
       "base_commit": "e183801216992e48d4b9d303e36be7710f8ca336",
       "evidence_commit": "4d9c33be13e0f148d13e3db9f4c1db14f57f5201",
-      "merge_commit": null,
+      "merge_commit": "6f935e9e2faa629c918d4f0007958b1027b5c4bd",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/189",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Four editorial prompts and static briefs. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 6f935e9. Four editorial prompts and the static brief enhancement; 30 full prompts."
     },
     {
       "id": "P70",
