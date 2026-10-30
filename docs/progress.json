@@ -6802,7 +6802,7 @@
     {
       "id": "P77",
       "title": "Still Sanctuary: fewer repeated photographs",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P76"
       ],
@@ -6821,6 +6821,11 @@
           "name": "Style QA, runtime and browser QA",
           "status": "pass",
           "details": "All pass."
+        },
+        {
+          "name": "PR #197 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6828,15 +6833,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:04:39Z",
-      "updated_at": "2026-10-30T06:08:21.390Z",
+      "updated_at": "2026-10-30T06:10:32.387Z",
       "branch": "task/p77-still-sanctuary-images",
       "base_commit": "0ff7f4a0f23912ca5c98984f24273a0a256504f3",
       "evidence_commit": "071de658fdf991fbe36ea1df9862ebee74076230",
-      "merge_commit": null,
+      "merge_commit": "e9ce340c09af1c04e61fde07b5cd9e03e4bcbf41",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/197",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Repeats replaced. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in e9ce340. Pines and stone bath replace repeats; pavilion lighter."
     }
   ]
 }
