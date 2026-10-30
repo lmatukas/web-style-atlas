@@ -6626,25 +6626,41 @@
     {
       "id": "P73",
       "title": "Full creation prompts: luxe and chrome group",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P72"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P73.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:13:39Z",
-      "updated_at": "2026-10-30T05:13:39.092Z",
+      "updated_at": "2026-10-30T05:19:13.495Z",
       "branch": "task/p73-luxe-prompts",
       "base_commit": "494458c3bc93f437dc94477a440127beee8bd997",
-      "evidence_commit": null,
+      "evidence_commit": "0ec8e1c219f24f73f36ba3f71f0b55bcb59c4112",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/193",
       "blocker": null,
-      "next_action": "Implement P73 on task/p73-luxe-prompts.",
-      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four full creation prompts. Waiting for CI."
     },
     {
       "id": "P74",
