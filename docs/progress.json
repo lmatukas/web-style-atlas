@@ -6582,25 +6582,41 @@
     {
       "id": "P72",
       "title": "Full creation prompts: bold and playful group",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P71"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P72.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:05:21Z",
-      "updated_at": "2026-10-30T05:05:22.002Z",
+      "updated_at": "2026-10-30T05:10:56.373Z",
       "branch": "task/p72-bold-prompts",
       "base_commit": "2884a762f30624a8311dcf9bf854765ca4b996b6",
-      "evidence_commit": null,
+      "evidence_commit": "ce5e8d5fb3697d25a5c0e9fd07109de552dce4bf",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/192",
       "blocker": null,
-      "next_action": "Implement P72 on task/p72-bold-prompts.",
-      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four full creation prompts. Waiting for CI."
     },
     {
       "id": "P73",
