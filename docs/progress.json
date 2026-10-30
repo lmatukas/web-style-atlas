@@ -6890,25 +6890,41 @@
     {
       "id": "P79",
       "title": "Architectural Monograph: invented houses and generated photographs",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P78"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        },
+        {
+          "name": "Browser QA",
+          "status": "pass",
+          "details": "6 pages."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P79.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:19:08Z",
-      "updated_at": "2026-10-30T06:19:08.402Z",
+      "updated_at": "2026-10-30T06:22:31.523Z",
       "branch": "task/p79-monograph-houses",
       "base_commit": "7c6c8ccbab398f5f5116346d28bee1ecd8f694a8",
-      "evidence_commit": null,
+      "evidence_commit": "9d37a8e217cc368f61a91b2fc5223d0c71f2397c",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/199",
       "blocker": null,
-      "next_action": "Implement P79 on task/p79-monograph-houses.",
-      "handoff": "Image plan: M-03 and M-04 replace the two real-house photographs."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Invented houses and generated images. Waiting for CI."
     }
   ]
 }
