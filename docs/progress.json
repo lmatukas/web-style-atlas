@@ -6670,7 +6670,7 @@
     {
       "id": "P74",
       "title": "Full creation prompts: image-led group",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P73"
       ],
@@ -6678,16 +6678,16 @@
       "evidence_paths": [
         "docs/evidence/P74.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T05:23:55Z",
+      "updated_at": "2026-10-30T05:23:55.131Z",
+      "branch": "task/p74-image-prompts",
+      "base_commit": "2417edb8cf67f42b10240d111642bb2b6132d218",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P74 and write four full creation prompts.",
+      "next_action": "Implement P74 on task/p74-image-prompts.",
       "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
     }
   ]
