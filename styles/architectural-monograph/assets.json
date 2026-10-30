@@ -2,41 +2,33 @@
   "schema_version": 1,
   "assets": [
     {
-      "id": "farnsworth",
-      "path": "assets/farnsworth.webp",
+      "id": "winter-house",
+      "path": "assets/winter-house.webp",
       "type": "image",
-      "origin": "third_party",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Farnsworth_House_2006.jpg",
-      "creator": "Carol M. Highsmith",
-      "license": "Public domain (Highsmith dedication)",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (invented low timber house in a snowy meadow), ChatGPT image generation (image_gen.imagegen, model label gpt-image), 2026-10-30, Web Style Atlas asset bank; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
       "license_file": "assets/RIGHTS.txt",
-      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-04118",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
       "redistribution_allowed": true,
       "modifications": [
-        "1280px Wikimedia derivative",
-        "Converted to monochrome",
-        "Metadata stripped",
-        "Lossless WebP with 64-step monochrome palette",
-        "Responsive CSS detail crop where labeled"
+        "Converted to monochrome, resized from 1672×941 to 1600×900 px, WebP quality 80, metadata stripped; no compositing or retouching."
       ]
     },
     {
-      "id": "glass-house",
-      "path": "assets/glass-house.webp",
+      "id": "slope-house",
+      "path": "assets/slope-house.webp",
       "type": "image",
-      "origin": "third_party",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg",
-      "creator": "Carol M. Highsmith",
-      "license": "Public domain (Highsmith dedication)",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (invented brick and white-render house on a wooded slope), ChatGPT image generation (image_gen.imagegen, model label gpt-image), 2026-10-30, Web Style Atlas asset bank; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
       "license_file": "assets/RIGHTS.txt",
-      "attribution": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-04817",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
       "redistribution_allowed": true,
       "modifications": [
-        "1280px Wikimedia derivative",
-        "Converted to monochrome",
-        "Metadata stripped",
-        "Lossless WebP with 64-step monochrome palette",
-        "Responsive CSS detail crop where labeled"
+        "Converted to monochrome, resized from 1672×941 to 1600×900 px, WebP quality 80, metadata stripped; no compositing or retouching."
       ]
     },
     {
@@ -49,7 +41,9 @@
       "license_file": "assets/RIGHTS.txt",
       "attribution": "Original interpretive plan relationship diagram; not measured survey",
       "redistribution_allowed": true,
-      "modifications": []
+      "modifications": [
+        "Redrawn 2026-10-30 (P79) for the invented Hallvarn House."
+      ]
     }
   ]
 }

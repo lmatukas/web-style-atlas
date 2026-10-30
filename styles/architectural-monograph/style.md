@@ -20,7 +20,7 @@ prompt_path: prompts/architectural-monograph/prompt.en.md
 
 ## Intent
 
-Architectural Monograph gives photographs, plans and notes distinct jobs within one calm reading system. The fictional Field / Measure publication studies two actual historic houses without claiming to have designed them. A develops a focused Edith Farnsworth House monograph; B opens an indexed atlas that also includes the Glass House. This direction suits architectural portfolios, building research and carefully documented project publications. It requires meaningful photographs and accurate attribution rather than a generic hero image placed above conventional promotional cards.
+Architectural Monograph gives photographs, plans and notes distinct jobs within one calm reading system. The fictional Field / Measure publication studies two invented houses shown in AI-generated illustrations. A develops a focused monograph of Hallvarn House, a long timber house in a snowy meadow; B opens an indexed atlas that also includes Corveline House, a brick and render house on a wooded slope. This direction suits architectural portfolios, building research and carefully documented project publications. It requires meaningful photographs and accurate attribution rather than a generic hero image placed above conventional promotional cards.
 
 ## Signature
 
@@ -36,19 +36,19 @@ Semantic tokens define the page, supporting surface, readable foreground, second
 
 ## Layout A
 
-A compact publication masthead introduces a project title and a small factual dossier. The broad winter exterior retains the building within its setting and gives the photographer a visible figure credit. An analytic reading changes to text before a plan relationship section. A labeled detail crop returns to the same photograph at closer scale, followed by source notes and a working disclosure. The sequence separates photographic observation, interpretation and verified building facts instead of presenting every statement as a measured record.
+A compact publication masthead introduces a project title and a small factual dossier. The broad winter exterior retains the building within its setting and carries a visible figure credit that names the image as an AI-generated illustration. An analytic reading changes to text before a plan relationship section. A labeled detail crop returns to the same photograph at closer scale, followed by source notes and a working disclosure. The sequence separates photographic observation, interpretation and verified building facts instead of presenting every statement as a measured record.
 
 ## Layout B
 
-A broad atlas title leads into an accessible two-row project index. Each row links to its building spread. The first spread puts a narrow title and observation beside a large Farnsworth photograph; the second gives the Glass House photograph a different width and places its note on the opposite side. A short method statement closes the reading sequence before source records. The index, two-project rhythm and cross-project comparison are structurally different from A’s sustained single-building and plan analysis.
+A broad atlas title leads into an accessible two-row project index. Each row links to its building spread. The first spread puts a narrow title and observation beside a large Hallvarn House image; the second gives the Corveline House image a different width and places its note on the opposite side. A short method statement closes the reading sequence before source records. The index, two-project rhythm and cross-project comparison are structurally different from A’s sustained single-building and plan analysis.
 
 ## Imagery
 
-Two local monochrome WebP photographs show the Edith Farnsworth House and the Glass House. Both are by Carol M. Highsmith, identified through Wikimedia Commons records and the Library of Congress public-domain dedication statement. The local rights file records reproduction identifiers, sources and conversion changes. An original SVG interprets broad enclosure, threshold and terrace relationships; it is explicitly not to scale or a survey. The detail crop is labeled as part of the same photograph rather than a newly photographed viewpoint.
+Two local monochrome WebP images show the invented Hallvarn House and Corveline House. Both are original AI-generated illustrations from the Web Style Atlas asset bank; they replaced public-domain photographs of real houses so the publication stays wholly invented. The local rights file records tool, date, full prompts and conversion changes. An original SVG interprets the enclosed volume, window band, recessed porch and base; it is explicitly not to scale or a survey. The detail crop is labeled as part of the same photograph rather than a newly photographed viewpoint.
 
 ## Navigation and interaction
 
-Visible links connect monograph and atlas. The atlas uses an actual semantic table with scoped column and row headers, meaningful building links and existing fragment destinations. The monograph links directly to its atlas entry and to the official building history. Native source disclosures expose full credit links and a bundled plain-text rights record. No carousel arrows, pretend project filters or enquiry controls imply missing functionality. A reader can move through the material using ordinary keyboard navigation and document headings.
+Visible links connect monograph and atlas. The atlas uses an actual semantic table with scoped column and row headers, meaningful building links and existing fragment destinations. The monograph links directly to its atlas entry and to the local source record. Native source disclosures expose full credit links and a bundled plain-text rights record. No carousel arrows, pretend project filters or enquiry controls imply missing functionality. A reader can move through the material using ordinary keyboard navigation and document headings.
 
 ## Motion
 
