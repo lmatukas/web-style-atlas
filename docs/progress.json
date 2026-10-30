@@ -6953,6 +6953,167 @@
       "blocker": null,
       "next_action": "Implement P80 on task/p80-ai-template-audit.",
       "handoff": "Owner request 2026-10-30: find AI-template tells, plan fixes, update description."
+    },
+    {
+      "id": "P81",
+      "title": "Gallery copy and copy-lint guard",
+      "status": "todo",
+      "depends_on": [
+        "P80"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P81.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P81 after P80 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
+    },
+    {
+      "id": "P82",
+      "title": "De-template copy, batch 1",
+      "status": "todo",
+      "depends_on": [
+        "P81"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P82.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P82 after P81 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
+    },
+    {
+      "id": "P83",
+      "title": "De-template copy, batch 2",
+      "status": "todo",
+      "depends_on": [
+        "P82"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P83.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P83 after P82 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
+    },
+    {
+      "id": "P84",
+      "title": "De-template copy, batch 3",
+      "status": "todo",
+      "depends_on": [
+        "P83"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P84.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P84 after P83 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
+    },
+    {
+      "id": "P85",
+      "title": "De-template copy, batch 4",
+      "status": "todo",
+      "depends_on": [
+        "P84"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P85.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P85 after P84 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
+    },
+    {
+      "id": "P86",
+      "title": "De-template copy, batch 5",
+      "status": "todo",
+      "depends_on": [
+        "P85"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P86.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P86 after P85 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
+    },
+    {
+      "id": "P87",
+      "title": "Optional visual pass: glow, italic accents, fonts",
+      "status": "todo",
+      "depends_on": [
+        "P86"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P87.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P87 after P86 is done.",
+      "handoff": "Planned in the P80 AI-template audit."
     }
   ]
 }

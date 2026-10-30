@@ -2,7 +2,7 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 141/142.**
+**Baigta: 141/149.**
 
 **Pirmiausia patikrinti P80: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
@@ -152,5 +152,12 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P78](tasks/P78.md) | Midnight Vestibule: generated night images instead of real buildings | Baigta | agent/015fh6w2uenf | task/p78-midnight-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/198) | 2026-10-30T06:18:33.392Z | None. Task done. |
 | [P79](tasks/P79.md) | Architectural Monograph: invented houses and generated photographs | Baigta | agent/015fh6w2uenf | task/p79-monograph-houses | [PR](https://github.com/lmatukas/web-style-atlas/pull/199) | 2026-10-30T06:24:11.276Z | None. Task done. |
 | [P80](tasks/P80.md) | Audit: AI-template tells and project description | Vykdoma | agent/015fh6w2uenf | task/p80-ai-template-audit | — | 2026-10-30T06:34:13.553Z | Implement P80 on task/p80-ai-template-audit. |
+| [P81](tasks/P81.md) | Gallery copy and copy-lint guard | Laukia | — | — | — | — | Claim P81 after P80 is done. |
+| [P82](tasks/P82.md) | De-template copy, batch 1 | Laukia | — | — | — | — | Claim P82 after P81 is done. |
+| [P83](tasks/P83.md) | De-template copy, batch 2 | Laukia | — | — | — | — | Claim P83 after P82 is done. |
+| [P84](tasks/P84.md) | De-template copy, batch 3 | Laukia | — | — | — | — | Claim P84 after P83 is done. |
+| [P85](tasks/P85.md) | De-template copy, batch 4 | Laukia | — | — | — | — | Claim P85 after P84 is done. |
+| [P86](tasks/P86.md) | De-template copy, batch 5 | Laukia | — | — | — | — | Claim P86 after P85 is done. |
+| [P87](tasks/P87.md) | Optional visual pass: glow, italic accents, fonts | Laukia | — | — | — | — | Claim P87 after P86 is done. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
