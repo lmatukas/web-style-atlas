@@ -26,7 +26,7 @@ On the first screen, a night photograph at full height. At the top, only a space
 
 Signature: the booking drawer slides in from the right. It holds a month grid (first tap sets arrival, the second sets departure, up to 14 nights), a guest count of 1–4, the room type and extras. Rooms: City room €240 a night for up to 2 guests; Gallery suite €360 for up to 3; Dome apartment €520 for up to 4. Breakfast €28 per person per night, late check-out €40 once. Total = nights × rate + breakfast + late check-out, recalculated at once. Errors: no dates chosen, no room chosen, too many guests for the room, demonstration not confirmed. The confirmation names the exact room, dates, nights, guests, extras and total, and says nothing was sent. Reset clears everything. The drawer is a modal dialog: focus stays inside, Escape closes it, focus returns to the button.
 
-Motion: on load, the lanterns in the photograph come on once over 1.6 s and stop; after that a warm glow follows the pointer. Pause stops both. Reduced-motion mode shows the lit photograph right away and the drawer opens without sliding. Stop work when the window or the scene is hidden; on pagehide, free the observers. No WebGL or audio is needed.
+Motion: on load, the lanterns in the photograph come on once over 1.6 s and stop; the glow stays on the bridge lamps and does not follow the pointer. Pause stops both. Reduced-motion mode shows the lit photograph right away and the drawer opens without sliding. Stop work when the window or the scene is hidden; on pagehide, free the observers. No WebGL or audio is needed.
 
 ## Final check
 

@@ -9,3 +9,6 @@
 .course-image{width:100%;min-width:0}
 .site-header::before{content:'';position:absolute;inset:-32px -64px -24px;z-index:-1;pointer-events:none;background:linear-gradient(180deg,color-mix(in srgb,var(--color-background) 88%,transparent),transparent)}
 .course-chapter::before{background:var(--color-glow);opacity:calc(var(--evening)*.025)}
+
+/* P87: heading accents keep their colour but stay upright (no decorative italic). */
+h1 em, h2 em { font-style: normal; }

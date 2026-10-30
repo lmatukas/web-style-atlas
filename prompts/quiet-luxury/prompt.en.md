@@ -16,7 +16,7 @@ Composition A: one whole object, an enlarged material junction and a companion p
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the chair, the bench, the seam and the sizes; restraint comes from the layout, not from words like quiet or soft; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Heading accent words stay upright; do not set one italic word in a headline. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the chair, the bench, the seam and the sizes; restraint comes from the layout, not from words like quiet or soft; use real facts only once the user provides reliable content.
 
 The project is VARROW EDITIONS, an invented seating collection: a Frame chair and a Long bench that share one idea — a soft cushion held just apart from an open timber frame. They are visual studies, not products: no price, availability, timber species, textile composition or manufacturing claim. Say so near the collection and in the study notes.
 

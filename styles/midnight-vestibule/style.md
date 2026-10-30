@@ -19,7 +19,7 @@ signature:
   imagery: Four public-domain night architecture and interior photographs, cropped so no real lettering appears, darkened and lit by a warm lamp glow.
   color_and_material: Night navy and black with cream text and one warm lamp amber for labels, prices and the drawer edge.
   interaction: A month grid picks arrival then departure; guests, room and extras recalculate an exact demonstration total; capacity and missing steps give clear errors.
-  motion: The photograph's lamps come on once in 1.6 seconds and stop; the glow then follows the pointer; the drawer slides in; reduced motion shows the lit image and opens the drawer without sliding.
+  motion: The photograph's lamps come on once in 1.6 seconds and stop; the glow stays on the bridge lamps; the drawer slides in; reduced motion shows the lit image and opens the drawer without sliding.
 status: ready
 prompt_path: prompts/midnight-vestibule/prompt.en.md
 ---
@@ -60,7 +60,7 @@ All booking buttons, the edge tab and the room buttons open one dialog. Focus mo
 
 ## Motion
 
-On load the photograph brightens and the lamp glow fades in over 1.6 seconds, then stops; there is no loop. Afterwards the glow follows a mouse pointer over the photograph. Pause stops the episode and the pointer glow. The drawer slides in over 420 milliseconds. With reduced motion the lit photograph appears at once and the drawer opens without sliding. Hidden tabs and off-screen scenes stop pending frames; pagehide removes listeners and observers.
+On load the photograph brightens and the lamp glow fades in over 1.6 seconds, then stops; there is no loop. Afterwards the glow stays on the bridge lamps. Pause stops the episode and the glow. The drawer slides in over 420 milliseconds. With reduced motion the lit photograph appears at once and the drawer opens without sliding. Hidden tabs and off-screen scenes stop pending frames; pagehide removes listeners and observers.
 
 ## Responsive behavior
 

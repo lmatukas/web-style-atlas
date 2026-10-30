@@ -16,7 +16,7 @@ Composition A: a making story led by one large uneven vessel. Composition B: an 
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the pieces, the clay and the glaze, not "soul" or slowness; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Heading accent words stay upright; do not set one italic word in a headline. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the pieces, the clay and the glaze, not "soul" or slowness; use real facts only once the user provides reliable content.
 
 The project is KILNRUE, an invented ceramics studio with three illustrated forms: the Arc pitcher, the Low bowl and the Quiet vase. They are drawings, not tested products: give no capacity, watertightness, food-contact or care guarantees, no prices and no stock. Say so in a care note and footer. Warmth comes from irregular forms, generous space and specific language about surfaces, not from texture over the text or simulated handwriting.
 

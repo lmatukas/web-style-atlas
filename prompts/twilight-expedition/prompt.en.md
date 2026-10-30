@@ -16,7 +16,7 @@ Composition A: a panorama from twilight to night and three arrival sections. Com
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the stops, times and gear; the dark sky is the subject, not a mood word; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Heading accent words stay upright; do not set one italic word in a headline. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the stops, times and gear; the dark sky is the subject, not a mood word; use real facts only once the user provides reliable content.
 
 Build an original, working, responsive website for the invented working brand "Hesperyn", a demonstration concept for small architectural mountain observatories and stargazing outings.
 

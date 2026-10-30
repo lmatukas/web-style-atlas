@@ -3,3 +3,6 @@
 .basket-summary{white-space:pre-line}
 
 @media(max-width:650px){.produce[data-count="5"]{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* P87: heading accents keep their colour but stay upright (no decorative italic). */
+h1 em, h2 em { font-style: normal; }
