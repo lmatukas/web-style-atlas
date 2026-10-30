@@ -23,11 +23,19 @@ Prompt: Calm mountain lake at dusk, mirror-smooth water reflecting distant mount
 peach and blue evening sky, low dark tree line along the shore, lots of open sky, no boats. No
 people, no text, no logos or signage, no recognisable real place, natural photographic look.
 
-pavilion.webp — 1280×916, monochrome conversion, 64 grey levels, lossless WebP.
+pavilion.webp — 1280×916, monochrome conversion, 64 grey levels; re-encoded on 2026-10-30 from the lossless file as lossy WebP quality 80 (638 KB → 312 KB).
 Prompt: Small minimalist glass and slim steel pavilion standing among tall trees on a green lawn,
 seen from a distance, overcast soft light, simple rectangular form, quiet architectural
 photography. No people, no text, no logos or signage, no recognisable real building.
 It shows a generic modernist form and is not a depiction of any specific existing house.
+
+Added 2026-10-30 from the Web Style Atlas asset bank (ChatGPT image generation (OpenAI); exact model/version not exposed by the tool; generated 2026-10-25):
+
+pines.webp — asset bank D-01 "foggy pine forest"; original 1672×941 cropped to the right 1463×941 and resized to 1400×900, WebP quality 80, metadata stripped. Used for A region 01.
+Prompt: ONE photorealistic editorial photograph, landscape 16:9, largest native output. A quiet non-specific pine forest in dense early morning fog, photographed naturally at ground level. A small group of tall real pine trunks and dark green needle branches forms the clear focus in the RIGHT half, moss and a few damp needles below. The forest fades into a broad smooth layer of pale cool grey mist on the LEFT, distant trunks barely perceptible and low contrast. Organic irregular spacing and convincing bark texture, muted forest greens, soft overcast light, no path signs, structures, people or animals. The left 40 to 45 percent is quiet low-detail space suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+
+stone-bath.webp — asset bank J-02 "stone bath with steam"; original 1672×941 cropped to the right 1338×941 and resized to 1280×900, WebP quality 80, metadata stripped. Used for B's bath villa card.
+Prompt: ONE photorealistic editorial photograph, landscape 16:9, largest native output. Quiet photographic interior detail of a fictional spa: a simple deep oval bath carved from plain dark grey stone fills the right third, holding still warm water just below its thick natural rim. A few delicate realistic wisps of steam rise into soft warm side light. Bath is empty of people, floor and background plain taupe plaster, left half a low-detail softly shadowed wall. Original simple handmade basin form, no faucets, fittings, towels, bottles or recognizable designer products. Restrained dim dusk atmosphere. The left 40 to 45 percent is quiet low-detail space suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
 
 Fonts
 Newsreader — The Newsreader Project Authors. Source: https://github.com/google/fonts/tree/main/ofl/newsreader
@@ -35,4 +43,4 @@ Newsreader[opsz,wght].ttf instanced at weight 400, optical size 48; Latin, Lithu
 Figtree — The Figtree Project Authors. Source: https://github.com/google/fonts/tree/main/ofl/figtree
 Existing weight-400 Latin/Lithuanian WOFF2 subset, unchanged. Full original OFL.txt alongside.
 
-Original interface, writing and implementation: Web Style Atlas contributors, MIT. Auvrėja, regions, villas and rituals are invented. The three images above are AI-generated. Name check: exact Auvreja/Auvrėja web searches on 2026-10-23 returned no matching business; see S56 evidence. No endorsement by any place or person is implied.
+Original interface, writing and implementation: Web Style Atlas contributors, MIT. Auvrėja, regions, villas and rituals are invented. The five images above are AI-generated. Name check: exact Auvreja/Auvrėja web searches on 2026-10-23 returned no matching business; see S56 evidence. No endorsement by any place or person is implied.
