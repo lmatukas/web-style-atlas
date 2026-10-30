@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Off-centre object scene with a lower margin note and enlarged material junction in A; full-width shared-scale collection document in B.", "typography": "Brief serif display against readable sans-serif labels, dimensions and material notes.", "navigation": "Visible detail/edition/document links; numbered records connected to the same object codes.", "content_rhythm": "One whole object, one enlarged junction and one companion; paired measured elevations replace the scene in B.", "imagery": "Original furniture silhouettes, a stitched cushion-to-timber macro illustration and front elevation studies.", "color_and_material": "Warm off-white, pale stone and dark timber; interface and inline drawings consume semantic tokens.", "interaction": "Real scene/document anchors and a native study-notes disclosure; no fictional commerce.", "motion": "Still objects and short link transitions, removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/quiet-luxury/prompt.en.md
 ---
 
 # Quiet Luxury

@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "A centred axial invitation in a double-rule frame; B pairs a house narrative with stepped elevation, followed by room records.", "typography": "Measured uppercase serif invitation and restrained sans-serif supporting labels.", "navigation": "Small balanced header links, programme anchors and a real house-story route.", "content_rhythm": "Ceremonial title, timed movements and house note versus architectural arrival, story and room concepts.", "imagery": "Original fan, diamond, stepped tower and repeated windows authored as CSS geometry.", "color_and_material": "Deep green field, warm pale type and restrained gold accents on clear architectural rules.", "interaction": "Actual programme/room destinations and native guest/room disclosures, without fake booking controls.", "motion": "Still symmetrical ornament and readable content; reduced motion removes smooth navigation."}
 status: "ready"
+prompt_path: prompts/art-deco/prompt.en.md
 ---
 
 # Art Deco

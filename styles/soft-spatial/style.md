@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "One sculptural object in a lit room dominates A; three indented layers, led by a primary first layer, organize B.", "typography": "Rounded-feeling plain system sans display, open line spacing and small measured object labels.", "navigation": "Visible object/layers links, anchored reading routes and native scope notes.", "content_rhythm": "Large object stage and fine form observations versus alternating layered service volumes and output records.", "imagery": "Original static CSS clay forms with diffuse highlights, recessed openings and grounded contact shadows.", "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.", "interaction": "Real page and section links, visible focus and working native disclosures.", "motion": "Still spatial composition; no perpetual float, camera orbit or required WebGL."}
 status: "ready"
+prompt_path: prompts/soft-spatial/prompt.en.md
 ---
 
 # Soft Spatial

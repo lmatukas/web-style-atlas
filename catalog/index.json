@@ -120,6 +120,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Art Deco",
+      "prompt_path": "prompts/art-deco/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Deep green field, warm pale type and restrained gold accents on clear architectural rules.",
@@ -1766,6 +1767,7 @@
       "image_dependency": "medium",
       "motion_level": "subtle",
       "name": "Quiet Luxury",
+      "prompt_path": "prompts/quiet-luxury/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Warm off-white, pale stone and dark timber; interface and inline drawings consume semantic tokens.",
@@ -2137,6 +2139,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Soft Spatial",
+      "prompt_path": "prompts/soft-spatial/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Chalk, sage and pale blush material studies against an airy warm background and dark green text.",
@@ -2615,6 +2618,7 @@
       "image_dependency": "low",
       "motion_level": "subtle",
       "name": "Y2K Chrome",
+      "prompt_path": "prompts/y2k-chrome/prompt.en.md",
       "schema_version": 1,
       "signature": {
         "color_and_material": "Pale periwinkle ground, silver highlights and deep violet actions; live text remains solid readable ink.",
