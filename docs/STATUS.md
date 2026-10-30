@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 132/136.**
+**Baigta: 133/136.**
 
-**Pirmiausia patikrinti P71: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P72](tasks/P72.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -142,7 +142,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P68](tasks/P68.md) | Link the four unlinked luxury prompts | Baigta | agent/015fh6w2uenf | task/p68-link-luxury-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/188) | 2026-10-26T07:30:40.969Z | None. Task done. |
 | [P69](tasks/P69.md) | Full creation prompts: editorial group | Baigta | agent/015fh6w2uenf | task/p69-editorial-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/189) | 2026-10-30T04:44:50.843Z | None. Task done. |
 | [P70](tasks/P70.md) | Full creation prompts: grid and structure group | Baigta | agent/015fh6w2uenf | task/p70-grid-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/190) | 2026-10-30T04:57:31.702Z | None. Task done. |
-| [P71](tasks/P71.md) | Full creation prompts: service and data group | Laukia peržiūros | agent/015fh6w2uenf | task/p71-service-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/191) | 2026-10-30T05:02:38.017Z | Wait for CI, merge, mark done. |
+| [P71](tasks/P71.md) | Full creation prompts: service and data group | Baigta | agent/015fh6w2uenf | task/p71-service-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/191) | 2026-10-30T05:05:19.234Z | None. Task done. |
 | [P72](tasks/P72.md) | Full creation prompts: bold and playful group | Laukia | — | — | — | — | Claim P72 and write four full creation prompts. |
 | [P73](tasks/P73.md) | Full creation prompts: luxe and chrome group | Laukia | — | — | — | — | Claim P73 and write four full creation prompts. |
 | [P74](tasks/P74.md) | Full creation prompts: image-led group | Laukia | — | — | — | — | Claim P74 and write four full creation prompts. |
