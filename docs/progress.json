@@ -7188,7 +7188,7 @@
     {
       "id": "P86",
       "title": "De-template copy, batch 5",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P85"
       ],
@@ -7219,15 +7219,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T10:35:18Z",
-      "updated_at": "2026-10-30T10:51:52.436Z",
+      "updated_at": "2026-10-30T10:55:50.007Z",
       "branch": "task/p86-copy-batch-5",
       "base_commit": "13c0a3aa0c50bbc56fca00a20afc2eb85ee12833",
       "evidence_commit": "c82c0e72b8599d43cf423a535c6abd5ab0a3bbf8",
-      "merge_commit": null,
+      "merge_commit": "5e94091063aee7eef7aece718ce7590dd344c6b0",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/206",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Last ten directions rewritten; COPY_BACKLOG empty."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 5e94091. Last ten directions rewritten; COPY_BACKLOG empty."
     },
     {
       "id": "P87",
