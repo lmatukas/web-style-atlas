@@ -6934,7 +6934,7 @@
     {
       "id": "P80",
       "title": "Audit: AI-template tells and project description",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P79"
       ],
@@ -6942,16 +6942,16 @@
       "evidence_paths": [
         "docs/evidence/P80.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T06:34:13Z",
+      "updated_at": "2026-10-30T06:34:13.553Z",
+      "branch": "task/p80-ai-template-audit",
+      "base_commit": "f2537f9e742cefa90a94c366bd17277c79e4f84f",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P80 and write the audit.",
+      "next_action": "Implement P80 on task/p80-ai-template-audit.",
       "handoff": "Owner request 2026-10-30: find AI-template tells, plan fixes, update description."
     }
   ]
