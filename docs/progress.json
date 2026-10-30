@@ -6710,6 +6710,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in 421178c. Four image-led prompts; all 50 directions have a full prompt."
+    },
+    {
+      "id": "P75",
+      "title": "Rename demo brands that match real names",
+      "status": "todo",
+      "depends_on": [
+        "P74"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P75.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P75 and rename seven demo brands.",
+      "handoff": "Found by web checks in P69-P74: seven demo names match real companies, labels, bands or venues."
     }
   ]
 }
