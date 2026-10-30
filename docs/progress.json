@@ -6758,25 +6758,41 @@
     {
       "id": "P76",
       "title": "Ember Course Room: own hero for layout B",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P75"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "All pass."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P76.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:58:59Z",
-      "updated_at": "2026-10-30T05:58:59.175Z",
+      "updated_at": "2026-10-30T06:02:01.840Z",
       "branch": "task/p76-ember-b-hero",
       "base_commit": "74e49d81cff42afe37a7b04b19ae9603fb765353",
-      "evidence_commit": null,
+      "evidence_commit": "4cc1c4885bea2b7df6364d7ab0a2f1a5d31ad6f1",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/196",
       "blocker": null,
-      "next_action": "Implement P76 on task/p76-ember-b-hero.",
-      "handoff": "Image plan 2026-10-26/30: asset bank C-05 for Ember B."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "B has its own hero. Waiting for CI."
     }
   ]
 }
