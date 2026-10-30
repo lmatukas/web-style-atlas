@@ -5,7 +5,7 @@ const status = document.querySelector('[data-runtime-status]');
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const DURATION = 1600;
 let raf = 0, start = 0, progress = 0, frames = 0, phase = 0, paused = false, disposed = false, inView = true;
-let gx = 0.5, gy = 0.62;
+let gx = 0.74, gy = 0.34; // start on the bridge lamps
 
 function apply() {
   const lit = 1 - Math.pow(1 - phase, 3);

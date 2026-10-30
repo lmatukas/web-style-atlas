@@ -1,35 +1,45 @@
 S55 / Midnight Vestibule — asset rights
 
-Photographs by Carol M. Highsmith, Library of Congress, Prints & Photographs Division.
+Photographs (replaced 2026-10-30 in P78). All five files are original AI-generated
+images of invented places, made for the Web Style Atlas asset bank. They show no
+real building, venue, brand, person or lettering. Creator: Web Style Atlas
+contributors. License: AI-generated, original, distributed under the repository MIT
+terms. The operator receives output rights to the extent permitted by law under the
+OpenAI Europe Terms of Use: https://openai.com/policies/eu-terms-of-use/
+This is a provenance record, not a guarantee of copyright protection; AI copyright
+status varies by jurisdiction.
 
-1. skyline.webp — City skyline at dusk, LC-DIG-highsm-13024
-Source: https://commons.wikimedia.org/wiki/File:Skyline_at_dusk,_San_Francisco,_California_LCCN2011631218.tif
-Primary record: http://lccn.loc.gov/2011631218
-Changes: 3840px Wikimedia derivative downscaled to 1920x1498; Metadata stripped; WebP quality 82.
+1. bridge-fog.webp and bridge-fog-portrait.webp — asset bank K-05 "bridge lights in fog".
+Tool: ChatGPT image generation (OpenAI); exact model/version not exposed by the tool.
+Date: 2026-10-25
+Prompt (16:9, bridge-fog.webp): ONE photorealistic editorial photograph, landscape 16:9, largest native output. Photographic night landscape of a small original anonymous straight pedestrian bridge emerging from the lower right and receding into thick blue-grey fog in the right half. Simple low concrete deck and plain vertical metal railing, a few evenly spaced small warm lamps glow through mist. No towers, arches, cables, statues or distinctive architecture. Calm dark river below with restrained soft reflections, left half mostly empty fog and dark smooth water. No people, vehicles, signs or skyline. The left 40 to 45 percent is quiet low-detail space suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Prompt (4:5, bridge-fog-portrait.webp; generated from the 16:9 image as reference): Create ONE PORTRAIT 4:5 photographic composition of the SAME SCENE shown in the reference. Subject: bridge lights in fog. Preserve the same physical objects, materials, colour palette and lighting, with coherent geometry and natural contact shadows. Recompose with the subject on the right side and the left 40 percent as quiet low-detail space for a future headline. Calm, one clear subject, exceptional photographic material detail, largest native output. No text, lettering, numerals, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings or artworks. No warped or melted forms, broken patterns or impossible shadows. Full-bleed portrait frame, no border.
+Modifications: 16:9 kept at native 1672×941; 4:5 resized from 1122×1402 to 900×1125; WebP quality 88, metadata stripped. No compositing or retouching.
 
-2. gallery.webp — Arcaded lobby hallway with lanterns, LC-DIG-highsm-13461
-Source: https://commons.wikimedia.org/wiki/File:Lobby_hallway_at_the_Sheraton_Palace_Hotel_in_San_Francisco,_California_LCCN2011631655.tif
-Primary record: http://lccn.loc.gov/2011631655
-Changes: 3840px Wikimedia derivative downscaled to 1280x1611 (bottom edge trimmed); Metadata stripped; WebP quality 82; Responsive CSS crops where labelled.
+2. windows.webp — asset bank K-04 "distant window grid".
+Tool: ChatGPT image generation (OpenAI); exact model/version not exposed by the tool.
+Date: 2026-10-25
+Prompt: ONE photorealistic editorial photograph, landscape 16:9, largest native output. Telephoto night photograph from far away of a plain fictional building facade. An orderly small grid of equally sized rectangular windows occupies the right third, some softly glowing warm amber and others dark, with straight coherent mullions and natural subtle brightness differences. Distance and curtains conceal all interior detail; no people or silhouettes. Left half is unlit blank charcoal facade fading into deep night. Crop excludes rooftop, skyline, entrance and recognizable architectural features. No signage, decorative lights, letters or numbers. The left 40 to 45 percent is quiet low-detail space suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Modifications: resized from 1672×941 to 1600×900; WebP quality 80, metadata stripped. No compositing or retouching.
 
-3. rotunda.webp — Glass dome above a lobby, LC-DIG-highsm-06471
-Source: https://commons.wikimedia.org/wiki/File:Ceiling_view_of_the_Battle_House_lobby_located_in_Mobile,_Alabama_LCCN2010637885.tif
-Primary record: http://lccn.loc.gov/2010637885
-Changes: 3840px Wikimedia derivative downscaled to 1560x851; Metadata stripped; WebP quality 82; Responsive CSS crops where labelled.
+3. dome.webp — asset bank M-01 "restaurant under a glass dome at night".
+Tool: ChatGPT image generation (OpenAI), tool image_gen.imagegen; model label recorded in the file metadata: gpt-image; exact model variant not exposed.
+Date: 2026-10-30
+Source file: M-01-dome-dining-night-16x9.png, sha256 7f56385b9fb07a7376ae8ce1287fc0837b5ed95a49dde3f4b02657eefc382583 (checked against M-01-M-04-generation-record.json).
+Prompt: ONE photorealistic editorial interior photograph, landscape 16:9, largest native output. Night view inside a small original anonymous hotel restaurant under a shallow glass dome. The dome is made of plain thin dark metal ribs and clear glass panes, deep navy night sky beyond with no stars or city skyline. A single ring of small warm brass pendant lamps hangs below the dome and glows softly. Below, a few round dark wood tables with white cloths and empty chairs, all placed in the RIGHT half. Dark plaster walls, deep blue and warm amber palette, low light, gentle reflections on the glass. No people. The left 40 to 45 percent is quiet low-detail dark space suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, menus, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Modifications: native 1672×941 kept; WebP quality 80, metadata stripped. No compositing or retouching.
 
-4. facade.webp — Dark metal facade at dusk, LC-DIG-highsm-32721
-Source: https://commons.wikimedia.org/wiki/File:Dusk_view_of_the_Robert_Hoag_Rawlings_Public_Library,_built_from_2000_to_2003_in_Pueblo,_Colorado_LCCN2015632736.tif
-Primary record: http://lccn.loc.gov/2015632736
-Changes: 3840px Wikimedia derivative downscaled to 1920 wide; Cropped to the upper facade (1120x690) so no lettering, road signs or names appear; Metadata stripped; WebP quality 82.
+4. lobby.webp — asset bank M-02 "night hotel lobby with a stone reception desk", portrait version.
+Tool: ChatGPT image generation (OpenAI), tool image_gen.imagegen; model label recorded in the file metadata: gpt-image; exact model variant not exposed.
+Date: 2026-10-30
+Source file: M-02-night-lobby-4x5.png, sha256 bc0188111887efef19070d85f7b794000a45d3201f44c847a406e6b1eef52cb5; generated from M-02-night-lobby-16x9.png as reference.
+Prompt (16:9 reference): ONE photorealistic editorial interior photograph, landscape 16:9, largest native output. Night view of an original anonymous small city hotel lobby, empty and quiet. Tall dark plaster walls, a low reception desk of dark stone with a thin brass edge in the RIGHT third, two warm wall lamps and one low armchair. Deep navy and warm amber palette, soft pools of light, polished dark floor with gentle reflections. Through a tall window on the right, only blurred warm lights of a night street, no readable shapes. No people. The left 40 to 45 percent is quiet low-detail dark wall suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, key boxes, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Prompt (4:5, this file): Create ONE PORTRAIT 4:5 photographic composition of the SAME SCENE shown in the reference. Subject: night hotel lobby with a stone reception desk. Preserve the same physical objects, materials, colour palette and lighting, with coherent geometry and natural contact shadows. Recompose with the subject on the right side and the left 40 percent as quiet low-detail space for a future headline. Calm, one clear subject, exceptional photographic material detail, largest native output. No text, lettering, numerals, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings or artworks. No warped or melted forms, broken patterns or impossible shadows. Full-bleed portrait frame, no border.
+Modifications: native 1122×1402 kept; WebP quality 80, metadata stripped. No compositing or retouching.
 
-The Commons records identify Highsmith and these reproduction numbers and mark the
-photographs public domain. The Library of Congress rights statement
-https://www.loc.gov/rr/print/res/482_high.html states that Highsmith dedicated her
-photographs to the public domain. No endorsement or project authorship is implied.
-The pages present the photographs as atmosphere for an invented hotel; they do not name
-or describe the real buildings. The facade image is cropped so no lettering is visible.
-Transfer: downscaled in a browser from the Commons 3840px derivatives and re-encoded
-locally; the conversions create no new restrictions.
+Inspection: all five checked visually; no lettering, signs, logos, people or
+recognisable buildings. CSS crops reuse them for room cards; a radial lamp glow over
+the hero and band uses blend modes, not extra files.
 
 Fonts
 Cinzel — The Cinzel Project Authors, SIL OFL 1.1, no Reserved Font Name.
