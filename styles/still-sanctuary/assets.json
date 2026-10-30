@@ -73,7 +73,37 @@
       "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
       "redistribution_allowed": true,
       "modifications": [
-        "Cropped to 1280×916 px, converted to monochrome with 64 grey levels, lossless WebP, metadata stripped."
+        "Cropped to 1280×916 px, converted to monochrome with 64 grey levels, metadata stripped; re-encoded 2026-10-30 as WebP quality 80."
+      ]
+    },
+    {
+      "id": "pines",
+      "path": "assets/pines.webp",
+      "type": "image",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (foggy pine forest), ChatGPT image generation, 2026-10-25, Web Style Atlas asset bank; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Cropped from 1672×941 to 1463×941 and resized to 1400×900 px, WebP quality 80, metadata stripped; no compositing or retouching."
+      ]
+    },
+    {
+      "id": "stone-bath",
+      "path": "assets/stone-bath.webp",
+      "type": "image",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (stone bath with steam), ChatGPT image generation, 2026-10-25, Web Style Atlas asset bank; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Cropped from 1672×941 to 1338×941 and resized to 1280×900 px, WebP quality 80, metadata stripped; no compositing or retouching."
       ]
     }
   ]
