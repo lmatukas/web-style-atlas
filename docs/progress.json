@@ -6626,7 +6626,7 @@
     {
       "id": "P73",
       "title": "Full creation prompts: luxe and chrome group",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P72"
       ],
@@ -6634,16 +6634,16 @@
       "evidence_paths": [
         "docs/evidence/P73.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T05:13:39Z",
+      "updated_at": "2026-10-30T05:13:39.092Z",
+      "branch": "task/p73-luxe-prompts",
+      "base_commit": "494458c3bc93f437dc94477a440127beee8bd997",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P73 and write four full creation prompts.",
+      "next_action": "Implement P73 on task/p73-luxe-prompts.",
       "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
     },
     {
