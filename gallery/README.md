@@ -45,3 +45,21 @@ language, and the short Lithuanian notice appears only for a Lithuanian brief. T
 cards render first, in the listed order, with a small badge; every other ready
 card follows in catalogue order. IDs that are not ready are skipped, and
 `tests/gallery.test.mjs` checks that the listed IDs are real and the order holds.
+
+Gallery copy states what the atlas provides and gives concrete instructions for
+comparing layouts and copying a prompt. Keep headings in plain sentences, without
+italic accent words, decorative step numbers or repeated all-caps overlines.
+In-page links use descriptive labels without arrows.
+
+`node --test tests/copy-tells.test.mjs` checks the template, the rendered gallery
+(including catalogue cards), and every HTML reference. It rejects short fragment
+headings, contrast/count formulas, "not just", arrow-only links and excessive em
+dashes. It ignores scripts, styles, comments and attributes; inline markup and
+common/numeric HTML entities do not hide a match. One em dash is allowed on a
+page shorter than 300 words; longer pages must stay at or below one per 300 words.
+
+`COPY_BACKLOG` contains exactly the directions whose references still fail.
+P82–P86 must remove an ID once all of its references pass; do not add IDs, grow
+the list or exempt the gallery. Failures name the file and offending copy.
+Gallery-only copy/CSS changes do not change style preview inputs, so they require
+a build and checks, not regenerated style screenshots.
