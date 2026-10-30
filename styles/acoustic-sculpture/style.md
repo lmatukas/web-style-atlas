@@ -52,7 +52,7 @@ Keep scenario choices, three character buttons and the enquiry route visible wit
 
 ## Motion
 
-On entry the plates settle from small offsets over 1.2 seconds and stop. Pointer movement changes light within a limited range; leaving restores the light. The scenario transition separates three plates and then settles, while character changes interpolate the spacing. Pause controls cancel active RAF work. Reduced motion draws the informative final state immediately. Sound starts only after a deliberate click, with real suspension and zero-gain mute. Offscreen or hidden scenes suspend work and sound without unsolicited audio restart.
+On entry the plates settle from small offsets over 1.2 seconds and stop. The light stays fixed and does not follow the pointer. The scenario transition separates three plates and then settles, while character changes interpolate the spacing. Pause controls cancel active RAF work. Reduced motion draws the informative final state immediately. Sound starts only after a deliberate click, with real suspension and zero-gain mute. Offscreen or hidden scenes suspend work and sound without unsolicited audio restart.
 
 ## Responsive behavior
 

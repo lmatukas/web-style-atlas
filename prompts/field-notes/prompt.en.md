@@ -16,7 +16,7 @@ Composition A: an annotated travel fragment with a margin of notes and a route s
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Write concrete observations with times and places on the walk, not reflections about slowing down; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Heading accent words stay upright; do not set one italic word in a headline. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Write concrete observations with times and places on the walk, not reflections about slowing down; use real facts only once the user provides reliable content.
 
 The project is CAIRNWISE, an invented notebook of small journeys. It records what was noticed and when, not a destination advertisement. All notes are fictional; the sketch illustrates a feeling and is never presented as evidence of a real place or route. Do not invent coordinates, distances or bookings.
 

@@ -16,7 +16,7 @@ Composition A: a soil section and a seasonal story. Composition B: a seasons cal
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name seasons, sizes and soil layers rather than slogans; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Heading accent words stay upright; do not set one italic word in a headline. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name seasons, sizes and soil layers rather than slogans; use real facts only once the user provides reliable content.
 
 Build a working, original, responsive website for the invented working brand "Glebora", a demonstration project for seasonal vegetable baskets and regenerative farming.
 

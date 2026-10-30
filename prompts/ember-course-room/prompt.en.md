@@ -9,7 +9,7 @@ Build a working website in the user's project. Do not change the atlas or its ta
 - Approved room plan, table capacity, opening hours and booking rules: [FILL IN].
 - Images, rights, technology and an authorised booking integration: [FILL IN].
 
-Without an approved integration the booking stays local, with no real sending, payment, order or storage of customer data. Search for the example business name to check it does not match a real company. Say once, in the footer, that the tasting room is invented, and once beside the booking that nothing is sent. Headings name courses, times, tables and seats, not "no hurry" or "a calm evening". Do not use real restaurants' marks, look or unapproved ratings. AI images are mood illustrations, not proof of a real dish, ingredients or a working restaurant.
+Without an approved integration the booking stays local, with no real sending, payment, order or storage of customer data. Search for the example business name to check it does not match a real company. Heading accent words stay upright; do not set one italic word in a headline, and keep italic for course names only. Say once, in the footer, that the tasting room is invented, and once beside the booking that nothing is sent. Headings name courses, times, tables and seats, not "no hurry" or "a calm evening". Do not use real restaurants' marks, look or unapproved ratings. AI images are mood illustrations, not proof of a real dish, ingredients or a working restaurant.
 
 ## Design direction
 

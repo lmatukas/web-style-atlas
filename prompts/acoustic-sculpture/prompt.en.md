@@ -26,7 +26,7 @@ Palette: warm ivory #F3EBDD, oxidised copper #9D5238, deep blue #142D40. Typogra
 
 Build the motion like this:
 • When the scene loads, the plates line up from small offsets within 1.2 s and stop in their final composition.
-• Moving the pointer shifts the light direction a little; the geometric scene stays stable. When the pointer leaves, the effect gently returns.
+• The light on the plates stays fixed; it does not follow the pointer, so phones and desktops see the same scene.
 • Scrolling slowly into the scenarios, three plates separate and become markers of different spaces; after this transition every block has a stable image.
 • Choosing "Calm", "Lively" or "Rich" changes the instrument's spacing and a short description. Sound starts only after a deliberate action by the visitor, with a clear way to turn it off.
 

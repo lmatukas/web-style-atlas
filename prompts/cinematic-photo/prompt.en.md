@@ -16,7 +16,7 @@ Composition A: a photographic cover with one dominant image and a selected scene
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings describe what is in each photograph, not "quiet" or "slow" moods; credit real photographers exactly; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Heading accent words stay upright; do not set one italic word in a headline. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings describe what is in each photograph, not "quiet" or "slow" moods; credit real photographers exactly; use real facts only once the user provides reliable content.
 
 The project is DUSKLORE, an invented visual journal that pairs landscape photographs with a few unhurried lines of reflection. The direction depends on real photography: use the user's own photographs, properly licensed ones, or clearly labelled generated images, and record the author, source, licence and changes of each one. Never use a gradient or grey box as a stand-in for a photograph. Do not present unrelated photographs as one real journey, and do not name real places unless the user supplies verified captions.
 
