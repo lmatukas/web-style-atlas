@@ -715,6 +715,90 @@
         "data-observatory"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S24",
+      "style_id": "humanist-service",
+      "name": "Humanist Service",
+      "family": "functional",
+      "language": "en",
+      "prompt_path": "prompts/humanist-service/prompt.en.md",
+      "demo_brand": "Neighbour",
+      "variants": {
+        "a": "A warm service introduction with tasks, people and a first step",
+        "b": "A patient three-step planner that builds a local session outline"
+      },
+      "signature": "Warm serif invitations, original illustrations of people helping each other, plain task rows and a three-step planner that changes its guidance and shows a local outline.",
+      "acceptance": "Topic radios replace the preparation list; the format radios change the note; submitting shows a local outline and focuses it; \"Change my choices\" returns focus to the topic; a service link can preselect a known topic; nothing is booked, saved or sent.",
+      "enhancement": "static",
+      "closest_styles": [
+        "institutional-clear",
+        "organic-craft"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S10",
+      "style_id": "institutional-clear",
+      "name": "Institutional Clear",
+      "family": "functional",
+      "language": "en",
+      "prompt_path": "prompts/institutional-clear/prompt.en.md",
+      "demo_brand": "Quillmere Community Centre",
+      "variants": {
+        "a": "A building directory with a lettered floor plan, search and visit notes",
+        "b": "One area guide with a zoomed plan, a numbered route rail and room options"
+      },
+      "signature": "A public-building wayfinding system: a lettered floor plan, matching letter tiles in the directory, heavy sign-like rails, a working local search and dotted numbered routes.",
+      "acceptance": "Search filters the four services by title and description, announces the count politely, shows an empty state and clears with a real button; plan letters, directory tiles and notes use the same codes; disclosures and route links work with a keyboard; no application or booking is implied.",
+      "enhancement": "static",
+      "closest_styles": [
+        "humanist-service",
+        "swiss-grid"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S06",
+      "style_id": "terminal-utility",
+      "name": "Terminal Utility",
+      "family": "technical",
+      "language": "en",
+      "prompt_path": "prompts/terminal-utility/prompt.en.md",
+      "demo_brand": "Shellwick",
+      "variants": {
+        "a": "A service index of expandable command descriptions and a runbook",
+        "b": "A filterable chronological operations log with a run summary"
+      },
+      "signature": "A readable command surface on dark green: monospace text index, expandable service commands with input and output, and a filterable timestamped log with text status labels.",
+      "acceptance": "Service disclosures open with a keyboard and link to matching log entries; the log filter buttons expose aria-pressed and combine with the text search; the count and status bar update politely; a ?q= link opens the log pre-filtered; an empty state appears; nothing pretends to execute commands.",
+      "enhancement": "static",
+      "closest_styles": [
+        "industrial-spec",
+        "data-observatory"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S12",
+      "style_id": "data-observatory",
+      "name": "Data Observatory",
+      "family": "technical",
+      "language": "en",
+      "prompt_path": "prompts/data-observatory/prompt.en.md",
+      "demo_brand": "Tallyhall Observatory",
+      "variants": {
+        "a": "An overview with summary measures, a paired-dot chart and period buttons",
+        "b": "A searchable, sortable comparison table with stated extremes"
+      },
+      "signature": "One small bundled dataset shown as plain-language findings, a paired-dot chart on a fixed scale with period buttons, and a sortable, searchable table with exact values.",
+      "acceptance": "Q1/Q2 buttons update pressed state, summary measures, exact values and a polite status; dots are positioned from the data on one fixed 0–500 scale; the table search filters names with a count and empty message; header sort buttons reorder rows, set aria-sort and keep focus; all numbers agree.",
+      "enhancement": "static",
+      "closest_styles": [
+        "newspaper-ledger",
+        "terminal-utility"
+      ],
+      "audio": false
     }
   ]
 }

@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Dense command index in A; chronological log beside a summary rail in B.", "typography": "System monospace throughout, with explicit timestamp and command hierarchy.", "navigation": "Plain text section links, command disclosures and a separate log index.", "content_rhythm": "Short input/output explanations or chronological events with supporting panels.", "imagery": "No image dependency; original text, rules and status notation.", "color_and_material": "Dark green-black surfaces, pale text and restrained green accents.", "interaction": "Native service details, a local log search and a filter with pressed state.", "motion": "Static output, no blinking cursor; brief transitions removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/terminal-utility/prompt.en.md
 ---
 
 # Terminal Utility
