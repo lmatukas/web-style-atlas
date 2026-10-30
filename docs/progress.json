@@ -6626,7 +6626,7 @@
     {
       "id": "P73",
       "title": "Full creation prompts: luxe and chrome group",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P72"
       ],
@@ -6639,12 +6639,17 @@
         {
           "name": "Unit tests",
           "status": "pass",
-          "details": "All pass."
+          "details": "109/109."
         },
         {
           "name": "Gallery and creation-prompt browser tests",
           "status": "pass",
           "details": "7/7."
+        },
+        {
+          "name": "PR #193 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6652,15 +6657,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:13:39Z",
-      "updated_at": "2026-10-30T05:19:13.495Z",
+      "updated_at": "2026-10-30T05:23:52.326Z",
       "branch": "task/p73-luxe-prompts",
       "base_commit": "494458c3bc93f437dc94477a440127beee8bd997",
       "evidence_commit": "0ec8e1c219f24f73f36ba3f71f0b55bcb59c4112",
-      "merge_commit": null,
+      "merge_commit": "0ced5bb4431570b53dc7a0cccfdf12184275e069",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/193",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Four full creation prompts. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 0ced5bb. Four luxe-group prompts; 46 full prompts."
     },
     {
       "id": "P74",
