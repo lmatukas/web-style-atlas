@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Full-width lead above an annotated four-branch plan; a brief strip whose centre column carries a bar chart. B uses article rail, argument and full-width numeric ledger.", "typography": "Serif masthead and compact headlines, sans-serif labels and tabular numbers.", "navigation": "Department strip and persistent visible article contents; mobile wraps into readable rows.", "content_rhythm": "Lead headline, plan beside copy, brief strip with chart, notebook and record; B argument, exact table and method.", "imagery": "Original inline SVG plan and bar chart with units and fictional totals instead of grey placeholder blocks.", "color_and_material": "Warm paper, dark editorial rules and restrained red identifiers.", "interaction": "Real story/section destinations and native editorial-method disclosures.", "motion": "Still reading surfaces with no animated ticker or automatic story changes."}
 status: "ready"
+prompt_path: prompts/newspaper-ledger/prompt.en.md
 ---
 
 # Newspaper Ledger

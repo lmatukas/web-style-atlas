@@ -78,8 +78,10 @@
               "svg-or-webgl",
               "svg",
               "html-svg",
-              "web-audio-2d"
-            ]
+              "web-audio-2d",
+              "static"
+            ],
+            "description": "Runtime capability the brief requires. 'static' means plain HTML/CSS with optional inline SVG and no runtime layer: the style must not declare runtime.json."
           },
           "closest_styles": {
             "type": "array",

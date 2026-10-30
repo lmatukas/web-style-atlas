@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Narrative fragment beside marginal annotations in A; chronological diary and preparation rail in B.", "typography": "Serif narrative headings, clear sans-serif copy and short monospace documentary labels.", "navigation": "Visible fragment/route links and a three-stop diary index.", "content_rhythm": "Sketch, observation, marginal cross-reference and schematic route; or timed entries.", "imagery": "An original pencil-style sketch and an original clearly schematic three-stop SVG.", "color_and_material": "Warm paper, sand notes, dark brown and restrained rust annotation marks.", "interaction": "Native source disclosures, local stop links and real local preparation checkboxes.", "motion": "Static notebook; brief link transitions removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/field-notes/prompt.en.md
 ---
 
 # Field Notes

@@ -34,6 +34,12 @@ symlinks or NUL bytes. The registry schema and the source of every brief it
 lists are checked even when their examples do not exist yet. The registry is
 not a source of ready status.
 
+Each brief in `prompts/index.json` declares an `enhancement`. Directions with
+an animated runtime layer (WebGL, SVG, canvas or audio) must ship a matching
+`runtime.json` and pass the runtime gate. A plain HTML/CSS direction with at
+most short link transitions uses `"enhancement": "static"` and `"audio": false`
+and must not declare `runtime.json`.
+
 Build carries this optional field into the generated ready index and copies
 into `dist` only the linked prompts of ready styles. The full planning registry
 and unlinked briefs never reach `dist`. When a ready link is removed, the
