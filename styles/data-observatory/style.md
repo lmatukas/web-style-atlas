@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "medium"
 signature: {"composition": "Quantitative overview with a paired-dot Q1/Q2 chart in A; exact filtered/sortable comparison table in B.", "typography": "Compact sans-serif headings, tabular numerals and explicit unit/period labels.", "navigation": "Stable overview/comparison/method links and local dataset controls.", "content_rhythm": "Synchronized metrics, chart, reading note and methodology; or exact comparison rows.", "imagery": "Code-native fixed-scale paired dots from one bundled six-location simulated dataset.", "color_and_material": "Pale survey-sheet ground, white measurement surfaces, deep green Q2 mark and hollow grey Q1 mark.", "interaction": "Actual period switching, location search and numeric/name sorting with accessible state.", "motion": "Immediate data updates, fixed chart scale and no count-up animation; reduced-motion honored."}
 status: "ready"
+prompt_path: prompts/data-observatory/prompt.en.md
 ---
 
 # Data Observatory

@@ -18,7 +18,7 @@ Use all 50 source directions through
 
 ## Full creation prompts
 
-[34 full creation prompts](prompts/README.md) accompany 34 of the 50
+[38 full creation prompts](prompts/README.md) accompany 38 of the 50
 directions. In the gallery, choose one, switch A/B, then use **Copy full
 creation prompt**. Fill in the project fields and give the complete copy to your
 coding agent. The text preserves the defining object, interaction, motion and

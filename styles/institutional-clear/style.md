@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "A: arrival text beside an original floor plan, then four lettered signage columns. B: one area zoomed in, with a route rail beside a reading column.", "typography": "Plain system sans-serif, sentence-case task headings and large bold letter tiles used like building signs.", "navigation": "White header on a heavy rule, plan letters matched to the directory, breadcrumb and a numbered route rail.", "content_rhythm": "Heavy sign rails start each group: plan, lettered columns, lettered disclosures and dotted three-stop routes.", "imagery": "Original inline SVG floor plans drawn from tokens; no photographs or external assets.", "color_and_material": "White reading surface, navy text rails, deep blue sign tiles and one yellow you-are-here mark.", "interaction": "Actual local service search with result count, empty state and reset; native disclosures and anchor routes.", "motion": "Static, settled information; short link transitions removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/institutional-clear/prompt.en.md
 ---
 
 # Institutional Clear
