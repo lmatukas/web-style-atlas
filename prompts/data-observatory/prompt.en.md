@@ -10,7 +10,7 @@ Build a working website in the user's project. This is a self-contained creation
 - Project technology and environment rules: [FILL IN OR FOLLOW THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields are left empty, use the "Tallyhall Observatory" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: explicit units and periods; consistent numeric alignment; restrained quantitative marks with readable labels; a clear path from overview to detailed comparison.
+If the fields are left empty, use the "Numberell Observatory" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: explicit units and periods; consistent numeric alignment; restrained quantitative marks with readable labels; a clear path from overview to detailed comparison.
 
 Composition A: an overview with summary measures, a paired-dot chart and period buttons. Composition B: a searchable, sortable comparison table with stated extremes. The brief below describes both; build the chosen one. B has a different content structure and flow of use, not just a different order. In both versions keep the same palette, type voice and honesty rules.
 
@@ -18,7 +18,7 @@ Composition A: an overview with summary measures, a paired-dot chart and period 
 
 Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
 
-The project is TALLYHALL OBSERVATORY, an invented public data page showing simulated quarterly visits to six fictional library locations. Every value is simulated and bundled with the page; say so in the header and method notes. No control may claim to refresh, export or fetch a live source.
+The project is NUMBERELL OBSERVATORY, an invented public data page showing simulated quarterly visits to six fictional library locations. Every value is simulated and bundled with the page; say so in the header and method notes. No control may claim to refresh, export or fetch a live source.
 
 Use one small data array as the single source for every view: North 280 → 330, East 240 → 280, Central 360 → 400, Riverside 180 → 220, Hill 160 → 190, West 280 → 300 (Q1 → Q2 visits). Q2 total is 1,720 across 6 locations; Central is largest; North grew most (+50) and West least (+20). Visits count entries, not unique people.
 

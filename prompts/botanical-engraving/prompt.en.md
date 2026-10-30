@@ -10,7 +10,7 @@ Build a working website in the user's project. This is a self-contained creation
 - Project technology and environment rules: [FILL IN OR FOLLOW THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields are left empty, use the "Folium" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: fine original line illustrations with room to inspect them; a plate number beside each image; an italic accepted name distinct from the common name; a short observation tied to a visible feature.
+If the fields are left empty, use the "Sprigvane" demonstration described below. If they are filled in, adapt the name, content and business metaphor to the real project. Keep these features of the direction: fine original line illustrations with room to inspect them; a plate number beside each image; an italic accepted name distinct from the common name; a short observation tied to a visible feature.
 
 Composition A: a plant and origin story led by one large leaf plate. Composition B: a classified three-plate herbarium with complete records. The brief below describes both; build the chosen one. B has a different content structure and flow of use, not just a different order. In both versions keep the same palette, type voice and honesty rules.
 
@@ -18,7 +18,7 @@ Composition A: a plant and origin story led by one large leaf plate. Composition
 
 Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
 
-The project is FOLIUM, an invented garden cabinet of three original line studies: garden sage (Salvia officinalis L.), lavender (Lavandula angustifolia Mill.) and rosemary (Salvia rosmarinus Spenn.). If you use other plants, check each accepted name against a botanical name database and link that source; do not copy its images or text. Plate numbers, the collection number and the notes are invented. State clearly that the drawings are stylised and that the page is not a guide for identifying or foraging plants. Give no care, medical or culinary advice.
+The project is SPRIGVANE, an invented garden cabinet of three original line studies: garden sage (Salvia officinalis L.), lavender (Lavandula angustifolia Mill.) and rosemary (Salvia rosmarinus Spenn.). If you use other plants, check each accepted name against a botanical name database and link that source; do not copy its images or text. Plate numbers, the collection number and the notes are invented. State clearly that the drawings are stylised and that the page is not a guide for identifying or foraging plants. Give no care, medical or culinary advice.
 
 Palette: pale herbarium paper #f2eee1, a sage-grey surface #e6e5d5, deep green-black text #263e32, secondary labels #57614c, a dark green accent #36523b, rules #78816d and a rust focus outline #8b341e. Use Georgia for titles and names (accepted names in italic) and Arial for body text and labels, with system fallbacks and no remote fonts.
 

@@ -20,7 +20,7 @@ prompt_path: prompts/soft-spatial/prompt.en.md
 
 ## Intent
 
-Soft Spatial introduces an object or a small practice through light, volume and breathing room. The fictional Morrow studio presents a Pebble ambient-object study, then explains three connected layers of spatial work. The page should feel approachable and tangible without claiming that a digital form is a manufactured product. Its dimensional quality comes from consistent illumination and well placed shadows, not from an expensive rendering engine or a continuous floating animation that competes with reading.
+Soft Spatial introduces an object or a small practice through light, volume and breathing room. The fictional Halvessa studio presents a Pebble ambient-object study, then explains three connected layers of spatial work. The page should feel approachable and tangible without claiming that a digital form is a manufactured product. Its dimensional quality comes from consistent illumination and well placed shadows, not from an expensive rendering engine or a continuous floating animation that competes with reading.
 
 ## Signature
 

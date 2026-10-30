@@ -20,7 +20,7 @@ prompt_path: prompts/humanist-service/prompt.en.md
 
 ## Intent
 
-Humanist Service helps a person take a practical next step without feeling rushed. The fictional Neighbour digital-help service introduces ordinary tasks, approachable illustrated people and a simple example session path. It suits people-led support, local services and practical guidance where confidence matters alongside clarity. The references do not provide a real support line or booking service. They demonstrate how a warm invitation can lead directly to a useful task, truthful expectations and a short plan without demanding private information.
+Humanist Service helps a person take a practical next step without feeling rushed. The fictional Nearwell digital-help service introduces ordinary tasks, approachable illustrated people and a simple example session path. It suits people-led support, local services and practical guidance where confidence matters alongside clarity. The references do not provide a real support line or booking service. They demonstrate how a warm invitation can lead directly to a useful task, truthful expectations and a short plan without demanding private information.
 
 ## Signature
 

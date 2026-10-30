@@ -20,7 +20,7 @@ prompt_path: prompts/art-deco/prompt.en.md
 
 ## Intent
 
-Art Deco presents hospitality or culture as a carefully ordered occasion. It suits a recital invitation, a venue identity or a small hotel story whose character can be expressed through proportion and ornament. The fictional Atrium combines an evening invitation with an imagined house and two room concepts. The visitor first encounters a ceremonial centre, then finds ordinary practical information. The historical reference is a geometric vocabulary, not a copied building, brand or authentic period programme.
+Art Deco presents hospitality or culture as a carefully ordered occasion. It suits a recital invitation, a venue identity or a small hotel story whose character can be expressed through proportion and ornament. The fictional Ardelune combines an evening invitation with an imagined house and two room concepts. The visitor first encounters a ceremonial centre, then finds ordinary practical information. The historical reference is a geometric vocabulary, not a copied building, brand or authentic period programme.
 
 ## Signature
 
