@@ -16,7 +16,7 @@ Composition A: a book-spine cover and three themed shelves. Composition B: an ex
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the books, themes and the reading list rather than slogans; use real facts only once the user provides reliable content.
 
 Build a finished English website for the invented working publishing project "RAŠTMĖ", which publishes small-run books about cities, architecture and the culture of everyday life. This is a concept demonstration with original sample editions. Work on your own according to the user's project environment instructions and deliver a private working preview. Do not publish publicly without a separate instruction.
 

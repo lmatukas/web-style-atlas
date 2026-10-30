@@ -16,13 +16,13 @@ Composition A: a soil section and a seasonal story. Composition B: a seasons cal
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name seasons, sizes and soil layers rather than slogans; use real facts only once the user provides reliable content.
 
 Build a working, original, responsive website for the invented working brand "Glebora", a demonstration project for seasonal vegetable baskets and regenerative farming.
 
 The new main motif is a relief of clay soil shown in cross-section, with three different layers and leaves growing on top. It is a warm, tactile object with no box or display-case shape.
 
-Use fired clay #B65F43, cream #F2E6CF, dark olive #344634 and near-black #22251D. Large, clear heading type must sit well with comfortable reading of English text. On the first screen, a large heading "A good harvest starts deeper", a short explanation and the relief scene below. Then develop the story through a band of seasons, three farming principles, a choice of basket contents and an explanation of delivery. Write the content originally; present promises as a demonstration offer, not as confirmed facts about a business.
+Use fired clay #B65F43, cream #F2E6CF, dark olive #344634 and near-black #22251D. Large, clear heading type must sit well with comfortable reading of English text. On the first screen, a large heading "Baskets that follow the four seasons", a short explanation and the relief scene below. Then develop the story through a band of seasons, three farming principles, a choice of basket contents and an explanation of delivery. Write the content originally; present promises as a demonstration offer, not as confirmed facts about a business.
 
 Build four considered interactions:
 • The first time the visitor scrolls to the relief, the soil layers open sideways by 30–50 px and stop, revealing short notes.

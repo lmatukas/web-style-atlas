@@ -16,7 +16,7 @@ Composition A: an overview with summary measures, a paired-dot chart and period 
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings state what the numbers show, as plain sentences; use real facts only once the user provides reliable content.
 
 The project is NUMBERELL OBSERVATORY, an invented public data page showing simulated quarterly visits to six fictional library locations. Every value is simulated and bundled with the page; say so in the header and method notes. No control may claim to refresh, export or fetch a live source.
 

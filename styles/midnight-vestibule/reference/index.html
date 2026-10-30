@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kelvarre — the night begins in the lobby</title><meta name="description" content="An invented city hotel, shown with night photographs and a booking drawer."><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"><script type="module" src="light.mjs"></script><script type="module" src="booking.mjs"></script></head>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kelvarre · City hotel</title><meta name="description" content="An invented city hotel, shown with night photographs and a booking drawer."><link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"><script type="module" src="light.mjs"></script><script type="module" src="booking.mjs"></script></head>
 <body data-variant="a"><a class="skip" href="#main">Skip to content</a>
 <header class="masthead overlay"><a class="wordmark" href="index.html" aria-label="Kelvarre home">Kelvarre</a><button type="button" class="primary" data-open-booking>Book</button></header>
 <main id="main">
@@ -37,8 +37,8 @@
 </section>
 
 <section class="spa" aria-labelledby="spa-title">
-  <div class="spa-head"><p class="eyebrow">04 · SPA</p><h2 id="spa-title">Warm marble and quiet.</h2><p>A pool, a steam room and two treatment rooms. After eleven at night, for booked guests only.</p></div>
-  <ol class="rituals"><li><span>19:00</span><b>Steam room</b><small>45 min · before dinner</small></li><li><span>21:30</span><b>Warm stone massage</b><small>60 min · treatment room</small></li><li><span>23:00</span><b>Quiet pool</b><small>until midnight · guests only</small></li></ol>
+  <div class="spa-head"><p class="eyebrow">04 · SPA</p><h2 id="spa-title">A pool, a steam room and two treatment rooms.</h2><p>Open late; after eleven at night, for booked guests only.</p></div>
+  <ol class="rituals"><li><span>19:00</span><b>Steam room</b><small>45 min · before dinner</small></li><li><span>21:30</span><b>Warm stone massage</b><small>60 min · treatment room</small></li><li><span>23:00</span><b>Pool</b><small>until midnight · guests only</small></li></ol>
 </section>
 
 <section class="district" aria-labelledby="district-title">
@@ -49,7 +49,7 @@
   </div>
 </section>
 </main>
-<footer class="footer"><a class="wordmark" href="index.html">Kelvarre</a><p>Kelvarre keeps its lamps lit for an invented city. Rooms, prices and places are made up, and no booking is sent.</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
+<footer class="footer"><a class="wordmark" href="index.html">Kelvarre</a><p>Kelvarre keeps its lamps lit for an invented city. Rooms, prices and places are made up, and no booking is sent.</p><a href="#main">Back to top</a></footer>
 <div id="booking" class="drawer" hidden>
   <div class="drawer-backdrop" data-close></div>
   <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="booking-title">
@@ -72,7 +72,7 @@
         <label class="check"><input type="checkbox" name="late" value="yes"><span>Late check-out until 16:00 <small>€40 once</small></span></label>
       </fieldset>
       <dl class="summary"><div><dt>Dates</dt><dd data-out="dates"></dd></div><div><dt>Nights</dt><dd data-out="nights"></dd></div><div><dt>Room</dt><dd data-out="stay"></dd></div><div><dt>Breakfast</dt><dd data-out="meals"></dd></div><div><dt>Late check-out</dt><dd data-out="late"></dd></div></dl>
-      <p class="total"><span>Demonstration total</span><output id="booking-total" aria-live="polite">€0</output></p>
+      <p class="total"><span>Total</span><output id="booking-total" aria-live="polite">€0</output></p>
       <label class="check ack"><input type="checkbox" name="ack" value="yes"><span>I understand this is a demonstration booking and nothing will be sent.</span></label>
       <p id="booking-errors" class="errors" role="alert" hidden></p>
       <p id="booking-confirmation" class="confirmation" role="status" tabindex="-1" hidden></p>

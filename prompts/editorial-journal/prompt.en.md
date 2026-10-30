@@ -16,7 +16,7 @@ Composition A: a literary issue cover with three departments and an editor's let
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headlines come from concrete details in the stories (a table, a cup, a courtyard), not "slower living" slogans; use real facts only once the user provides reliable content.
 
 The project is PLAINROOM, an invented small independent journal about ordinary spaces and the people who care for them. A visitor should want to read one substantial story slowly, not scan a product pitch. Write original English stories, a fictional byline and an editor's letter. Do not imply real reporting, research or contributors.
 

@@ -16,7 +16,7 @@ Composition A: a release poster with a chrome sphere and orbit and a track list.
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Keep the release title as the one shouted heading; other headings name tracks, durations and objects; use real facts only once the user provides reliable content.
 
 The project is VELLAXIS, an invented series of audio–visual editions imagined as objects from turn-of-the-century pop culture. Volume 02, "After the signal.", has three imagined tracks; volumes 03 and 04 are related object studies. There is no audio, playback, purchase or streaming: say so in the edition record. Never use borrowed album covers or stock renders.
 
@@ -26,7 +26,7 @@ Draw four original CSS or SVG material forms: a shaded reflective sphere, a tilt
 
 Composition A, the release poster: a compact header ("VELLAXIS / 02") with links (the release, collection, edition notes). A poster split between three stacked title lines ("AFTER THE SIGNAL."), one short line and an "Explore the edition" link, and the sphere-and-orbit composition, closed by a narrow transmission strip with a monospace identifier. Below, an editorial release introduction beside three numbered track rows with title and duration (01 Residual light 04:12, 02 Silver hour 05:08, 03 Return signal 03:40 — total 13:00), with no play buttons. A large slogan band changes the rhythm. A plain edition record and a native volume-notes disclosure finish the page, with a link to the collection.
 
-Composition B, the collection: a wide headline ("OBJECTS FROM ANOTHER HOUR.") with a numbered index (02, 03, 04). Edition 02 gets the dominant sphere and a narrow record (object language, sequence: 3 imagined tracks · 13:00, a link to the release). Editions 03 (reflective disc, "Soft impact.") and 04 (parallel capsules, "Parallel light.") use horizontal object / title / number rows, each with a native disclosure listing its imagined sequence. A short collection record and a return link close the page.
+Composition B, the collection: a wide headline ("OBJECTS FROM ANOTHER HOUR.") with a numbered index (02, 03, 04). Edition 02 gets the dominant sphere and a narrow record (object language, sequence: 3 tracks · 13:00, a link to the release). Editions 03 (reflective disc, "Soft impact.") and 04 (parallel capsules, "Parallel light.") use horizontal object / title / number rows, each with a native disclosure listing its imagined sequence. A short collection record and a return link close the page.
 
 Do not build a portal of tiny bevelled panels or animate every orbit. On a phone the title lines stay big but never overflow, the sphere follows the words at a size that fits, and collection rows stack object above text.
 
