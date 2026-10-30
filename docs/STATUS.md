@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 137/138.**
+**Baigta: 138/138.**
 
-**Pirmiausia patikrinti P76: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Visos užduotys baigtos.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -147,6 +147,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P73](tasks/P73.md) | Full creation prompts: luxe and chrome group | Baigta | agent/015fh6w2uenf | task/p73-luxe-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/193) | 2026-10-30T05:23:52.326Z | None. Task done. |
 | [P74](tasks/P74.md) | Full creation prompts: image-led group | Baigta | agent/015fh6w2uenf | task/p74-image-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/194) | 2026-10-30T05:31:40.528Z | None. Task done. |
 | [P75](tasks/P75.md) | Rename demo brands that match real names | Baigta | agent/015fh6w2uenf | task/p75-rename-brands | [PR](https://github.com/lmatukas/web-style-atlas/pull/195) | 2026-10-30T05:55:43.517Z | None. Task done. |
-| [P76](tasks/P76.md) | Ember Course Room: own hero for layout B | Laukia peržiūros | agent/015fh6w2uenf | task/p76-ember-b-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/196) | 2026-10-30T06:02:01.840Z | Wait for CI, merge, mark done. |
+| [P76](tasks/P76.md) | Ember Course Room: own hero for layout B | Baigta | agent/015fh6w2uenf | task/p76-ember-b-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/196) | 2026-10-30T06:04:17.789Z | None. Task done. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

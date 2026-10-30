@@ -6758,7 +6758,7 @@
     {
       "id": "P76",
       "title": "Ember Course Room: own hero for layout B",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P75"
       ],
@@ -6777,6 +6777,11 @@
           "name": "Style QA, runtime and browser QA",
           "status": "pass",
           "details": "All pass."
+        },
+        {
+          "name": "PR #196 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6784,15 +6789,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:58:59Z",
-      "updated_at": "2026-10-30T06:02:01.840Z",
+      "updated_at": "2026-10-30T06:04:17.789Z",
       "branch": "task/p76-ember-b-hero",
       "base_commit": "74e49d81cff42afe37a7b04b19ae9603fb765353",
       "evidence_commit": "4cc1c4885bea2b7df6364d7ab0a2f1a5d31ad6f1",
-      "merge_commit": null,
+      "merge_commit": "c9fc1d4cf3a555261f4fcc3ad7694a5e02c896cd",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/196",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "B has its own hero. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in c9fc1d4. Ember B opens on the candlelit dining room; A keeps the table."
     }
   ]
 }
