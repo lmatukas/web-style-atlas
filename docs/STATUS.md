@@ -4,7 +4,7 @@
 
 **Baigta: 144/149.**
 
-**Kita užduotis: [P83](tasks/P83.md).**
+**Pirmiausia patikrinti P83: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -154,7 +154,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P80](tasks/P80.md) | Audit: AI-template tells and project description | Baigta | agent/015fh6w2uenf | task/p80-ai-template-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/200) | 2026-10-30T06:39:52.269Z | None. Task done. |
 | [P81](tasks/P81.md) | Gallery copy and copy-lint guard | Baigta | agent/codex-p81-20261030 | task/p81-gallery-copy | [PR](https://github.com/lmatukas/web-style-atlas/pull/201) | 2026-10-30T07:59:20.149Z | None. Task done. |
 | [P82](tasks/P82.md) | De-template copy, batch 1 | Baigta | agent/015fh6w2uenf | task/p82-copy-batch-1 | [PR](https://github.com/lmatukas/web-style-atlas/pull/202) | 2026-10-30T09:17:58.341Z | None. Task done. |
-| [P83](tasks/P83.md) | De-template copy, batch 2 | Laukia | — | — | — | — | Claim P83 after P82 is done. |
+| [P83](tasks/P83.md) | De-template copy, batch 2 | Vykdoma | agent/015fh6w2uenf | task/p83-copy-batch-2 | — | 2026-10-30T09:18:11.006Z | Implement P83 on task/p83-copy-batch-2. |
 | [P84](tasks/P84.md) | De-template copy, batch 3 | Laukia | — | — | — | — | Claim P84 after P83 is done. |
 | [P85](tasks/P85.md) | De-template copy, batch 4 | Laukia | — | — | — | — | Claim P85 after P84 is done. |
 | [P86](tasks/P86.md) | De-template copy, batch 5 | Laukia | — | — | — | — | Claim P86 after P85 is done. |

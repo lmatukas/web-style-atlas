@@ -7056,7 +7056,7 @@
     {
       "id": "P83",
       "title": "De-template copy, batch 2",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P82"
       ],
@@ -7064,16 +7064,16 @@
       "evidence_paths": [
         "docs/evidence/P83.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T09:18:10Z",
+      "updated_at": "2026-10-30T09:18:11.006Z",
+      "branch": "task/p83-copy-batch-2",
+      "base_commit": "41c84d77fec2caec709fc840db266d975a345ed3",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P83 after P82 is done.",
+      "next_action": "Implement P83 on task/p83-copy-batch-2.",
       "handoff": "Planned in the P80 AI-template audit."
     },
     {
