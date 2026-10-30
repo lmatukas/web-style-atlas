@@ -799,6 +799,90 @@
         "terminal-utility"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S23",
+      "style_id": "pop-commerce",
+      "name": "Pop Commerce",
+      "family": "commercial",
+      "language": "en",
+      "prompt_path": "prompts/pop-commerce/prompt.en.md",
+      "demo_brand": "Loop",
+      "variants": {
+        "a": "A bright single-product offer with finish, quantity and a demo bag",
+        "b": "A filterable three-product shelf with a demo bag"
+      },
+      "signature": "Big saturated product stages with original illustrated objects, name and price side by side, a real finish and quantity choice and a local demo bag that calculates totals.",
+      "acceptance": "Finish changes the illustration; quantity accepts whole numbers 1–9 with a clear error; the demo bag lists lines and totals, updates a polite status and header count, and clears; category buttons filter the shelf with pressed state and count; nothing pretends to be checkout, stock or payment.",
+      "enhancement": "static",
+      "closest_styles": [
+        "neo-brutalist",
+        "playful-cutout"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S11",
+      "style_id": "playful-cutout",
+      "name": "Playful Cutout",
+      "family": "illustrative",
+      "language": "en",
+      "prompt_path": "prompts/playful-cutout/prompt.en.md",
+      "demo_brand": "Snipwhistle",
+      "variants": {
+        "a": "An assembled cutout scene inviting visitors to a making day",
+        "b": "An illustrated three-chapter story with sticker notes"
+      },
+      "signature": "Original paper-cutout illustrations with pale cut edges that overlap inside reserved stages, warm playful colours and friendly big headings, with clear practical text beside them.",
+      "acceptance": "Activity, notes and story links reach real sections; the chapter index works; practical disclosures open with a keyboard; no illustration covers text or a focused control, and none is a disguised button.",
+      "enhancement": "static",
+      "closest_styles": [
+        "bauhaus-geometric",
+        "pop-commerce"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S20",
+      "style_id": "kinetic-type",
+      "name": "Kinetic Type",
+      "family": "typographic",
+      "language": "en",
+      "prompt_path": "prompts/kinetic-type/prompt.en.md",
+      "demo_brand": "Open / Form",
+      "variants": {
+        "a": "An oversized word campaign with a manifesto and three verbs",
+        "b": "A two-day typographic programme with giant date numerals"
+      },
+      "signature": "Huge words on a dark green ground with one acid accent, a short finite settling of the headline, and a programme where giant date numerals switch between two days.",
+      "acceptance": "The headline settles once in under two seconds without fading or hiding; the two day buttons expose aria-pressed, keep focus, show only that day’s three sessions and update a polite status; reduced motion shows the final layout at once.",
+      "enhancement": "static",
+      "closest_styles": [
+        "swiss-grid",
+        "neo-brutalist"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S16",
+      "style_id": "retro-web",
+      "name": "Retro Web",
+      "family": "nostalgic",
+      "language": "en",
+      "prompt_path": "prompts/retro-web/prompt.en.md",
+      "demo_brand": "Mara's little corner",
+      "variants": {
+        "a": "A hand-kept personal portal with a sidebar directory",
+        "b": "A subject-filed archive with search and expandable entries"
+      },
+      "signature": "A small hand-kept personal site: a centred page with a boxed sidebar directory, underlined links, a tiny CSS night sky, dated entries and a searchable subject archive.",
+      "acceptance": "Subject buttons keep pressed state and combine with a case-insensitive search; the count, empty message and reset reflect the visible entries; each entry opens as a native disclosure; hidden entries leave the focus order; no fake guestbook, counter or live status.",
+      "enhancement": "static",
+      "closest_styles": [
+        "editorial-journal",
+        "terminal-utility"
+      ],
+      "audio": false
     }
   ]
 }

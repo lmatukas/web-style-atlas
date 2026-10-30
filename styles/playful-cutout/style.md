@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "medium"
 signature: {"composition": "Reserved overlapping cutout invitation scene in A; alternating illustrated story chapters in B.", "typography": "Friendly bold sans-serif display with plain readable supporting copy.", "navigation": "Visible activities/practical links and a three-chapter story index.", "content_rhythm": "Assembled scene and numbered activities, or short illustrated narrative chapters.", "imagery": "Three original coherent SVG tool/paper cutouts with pale edges and simple shading.", "color_and_material": "Cream, plum, soft yellow, coral and teal; cut-paper edges separate layers.", "interaction": "Real local anchors and native practical-note disclosures; objects remain illustrative.", "motion": "Still overlap creates energy; brief link transitions removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/playful-cutout/prompt.en.md
 ---
 
 # Playful Cutout
