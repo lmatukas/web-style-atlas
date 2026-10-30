@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Orthogonal poster modules and an unequal modular exhibition; shapes occupy real space.", "typography": "Large plain sans-serif display, short numbered labels and clear practical copy.", "navigation": "Visible programme/context links and a separate work index.", "content_rhythm": "Poster, compact timed rows and statement plane; or three unequal work stages.", "imagery": "Original code-native CSS geometric compositions, no external assets.", "color_and_material": "Warm paper, black, red, blue and yellow flat semantic planes.", "interaction": "Working local anchors and native practical-note disclosure; no fake ticketing.", "motion": "Static geometry and brief link-color transitions removed for reduced motion."}
 status: "ready"
+prompt_path: prompts/bauhaus-geometric/prompt.en.md
 ---
 
 # Bauhaus Geometric

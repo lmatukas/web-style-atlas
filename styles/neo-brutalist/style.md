@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "medium"
 signature: {"composition": "Oversized poster words and offset stamp; thick framed programme in B.", "typography": "Heavy sans-serif with abrupt display/body scale contrast.", "navigation": "Blunt utility links and accessible day-selector buttons.", "content_rhythm": "Manifesto bands and exposed rows replace generic feature cards.", "imagery": "Original CSS symbols and hard-edged type, without required photography.", "color_and_material": "Lemon field, violet signal, near-black thick borders and hard shadows.", "interaction": "Pressed-state day filtering, local links and native access disclosure.", "motion": "Short link changes; no flashing or running marquee."}
 status: "ready"
+prompt_path: prompts/neo-brutalist/prompt.en.md
 ---
 
 # Neo Brutalist

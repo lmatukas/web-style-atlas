@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Twelve-column alignment, oversized flush-left type and numbered horizontal divisions.", "typography": "One sans-serif family with abrupt scale changes and tight display tracking.", "navigation": "A visible compact numbered index; no hidden mobile drawer.", "content_rhythm": "Long ruled service rows in A; staggered project fields and a colophon in B.", "imagery": "Original CSS typographic studies instead of dependent photography.", "color_and_material": "Warm paper, near-black text, one red signal and hairline dividers.", "interaction": "Underlined text links, offset focus rings and native details disclosures.", "motion": "Only brief link-color changes; reduced motion removes transitions."}
 status: "ready"
+prompt_path: prompts/swiss-grid/prompt.en.md
 ---
 
 # Swiss Grid
