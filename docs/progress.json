@@ -6846,7 +6846,7 @@
     {
       "id": "P78",
       "title": "Midnight Vestibule: generated night images instead of real buildings",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P77"
       ],
@@ -6865,6 +6865,11 @@
           "name": "Style QA, runtime and browser QA",
           "status": "pass",
           "details": "All pass."
+        },
+        {
+          "name": "PR #198 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6872,15 +6877,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:11:30Z",
-      "updated_at": "2026-10-30T06:16:36.064Z",
+      "updated_at": "2026-10-30T06:18:33.392Z",
       "branch": "task/p78-midnight-images",
       "base_commit": "977f3e237eadfd5d155622ba7d0360ed9718b620",
       "evidence_commit": "a4e40713e5a8df284708d4ca281e197830ebc349",
-      "merge_commit": null,
+      "merge_commit": "9192e14dff7991c8e6b9433e1e4eeebf6c93a514",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/198",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Real-building photos replaced. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 9192e14. Four real-building photos replaced by generated night images."
     }
   ]
 }
