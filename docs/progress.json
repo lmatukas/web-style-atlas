@@ -6450,25 +6450,41 @@
     {
       "id": "P69",
       "title": "Full creation prompts: editorial group",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P68"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P69.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T04:08:49Z",
-      "updated_at": "2026-10-30T04:08:49.301Z",
+      "updated_at": "2026-10-30T04:18:39.144Z",
       "branch": "task/p69-editorial-prompts",
       "base_commit": "e183801216992e48d4b9d303e36be7710f8ca336",
-      "evidence_commit": null,
+      "evidence_commit": "4d9c33be13e0f148d13e3db9f4c1db14f57f5201",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/189",
       "blocker": null,
-      "next_action": "Implement P69 on task/p69-editorial-prompts.",
-      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four editorial prompts and static briefs. Waiting for CI."
     },
     {
       "id": "P70",
