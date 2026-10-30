@@ -883,6 +883,90 @@
         "terminal-utility"
       ],
       "audio": false
+    },
+    {
+      "task_id": "S07",
+      "style_id": "quiet-luxury",
+      "name": "Quiet Luxury",
+      "family": "restrained",
+      "language": "en",
+      "prompt_path": "prompts/quiet-luxury/prompt.en.md",
+      "demo_brand": "Varrow Editions",
+      "variants": {
+        "a": "One whole object, an enlarged material junction and a companion piece",
+        "b": "A collection document with shared-scale elevations and measured records"
+      },
+      "signature": "One large object, then a sudden change of scale to an enlarged seam and timber junction, with notes placed beside the detail they explain and a measured collection document.",
+      "acceptance": "Object codes and section links reach real destinations; elevations share one scale and match the dimensions written in HTML; the study-notes disclosure works with a keyboard; no price, purchase, availability or contact form.",
+      "enhancement": "static",
+      "closest_styles": [
+        "gallery-white-cube",
+        "architectural-monograph"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S18",
+      "style_id": "art-deco",
+      "name": "Art Deco",
+      "family": "ornamental",
+      "language": "en",
+      "prompt_path": "prompts/art-deco/prompt.en.md",
+      "demo_brand": "The Atrium",
+      "variants": {
+        "a": "An axial evening invitation with a timed programme",
+        "b": "A house story with a stepped elevation and two room concepts"
+      },
+      "signature": "A dark green and gold axial invitation crowned by a fan that links to the programme, fine double rules, stepped ornament that echoes the architecture, and a calm room index.",
+      "acceptance": "The fan links to the three timed movements and every ornament leads to content; house and room links reach real sections; room-concept disclosures work with a keyboard; no ticket, booking, price or availability is implied.",
+      "enhancement": "static",
+      "closest_styles": [
+        "quiet-luxury",
+        "editorial-journal"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S17",
+      "style_id": "y2k-chrome",
+      "name": "Y2K Chrome",
+      "family": "nostalgic",
+      "language": "en",
+      "prompt_path": "prompts/y2k-chrome/prompt.en.md",
+      "demo_brand": "Phase",
+      "variants": {
+        "a": "A release poster with a chrome sphere and orbit and a track list",
+        "b": "An indexed collection of three chrome object editions"
+      },
+      "signature": "Blunt oversized words beside a polished CSS chrome sphere with a tilted orbit, monospaced identifiers, and a real index of three object editions at changing scales.",
+      "acceptance": "Release and collection links reach real sections; the numbered index reaches all three editions; volume disclosures work with a keyboard; text stays solid and selectable; no play, buy, stream or ticket control exists.",
+      "enhancement": "static",
+      "closest_styles": [
+        "soft-spatial",
+        "retro-web"
+      ],
+      "audio": false
+    },
+    {
+      "task_id": "S21",
+      "style_id": "soft-spatial",
+      "name": "Soft Spatial",
+      "family": "spatial",
+      "language": "en",
+      "prompt_path": "prompts/soft-spatial/prompt.en.md",
+      "demo_brand": "Morrow",
+      "variants": {
+        "a": "A single ambient object lit in a small room",
+        "b": "A practice overview of three stepped layers"
+      },
+      "signature": "Soft rounded CSS volumes lit from one window with real contact shadows, chalk, sage and blush materials, and generous space; depth without WebGL or motion.",
+      "acceptance": "Every object shares one light direction and has a contact shadow; pill links reach real sections or pages; the scope disclosures work with a keyboard; text stays flat and readable; nothing can be booked or bought.",
+      "enhancement": "static",
+      "closest_styles": [
+        "y2k-chrome",
+        "quiet-luxury"
+      ],
+      "audio": false
     }
   ]
 }

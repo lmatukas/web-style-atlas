@@ -13,6 +13,7 @@ motion_level: "subtle"
 complexity: "low"
 signature: {"composition": "Large stacked poster words beside a metallic object and orbit; B uses one featured edition followed by object-led collection rows.", "typography": "Heavy tightly tracked sans-serif campaign display with small monospaced release identifiers.", "navigation": "Release and collection links; B adds a real numbered three-edition index.", "content_rhythm": "Poster, release sequence, slogan band and edition record versus featured object, two smaller forms and collection note.", "imagery": "Original CSS sphere, reflective orbit, disc and capsule forms with polished gradient material.", "color_and_material": "Pale periwinkle ground, silver highlights and deep violet actions; live text remains solid readable ink.", "interaction": "Actual edition/track-section links and native volume-note disclosures; no simulated audio player.", "motion": "Static metallic forms and light; nonessential transitions removed with reduced motion."}
 status: "ready"
+prompt_path: prompts/y2k-chrome/prompt.en.md
 ---
 
 # Y2K Chrome
