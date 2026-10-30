@@ -76,7 +76,7 @@ have nothing in common:
 | N things. One thing. | "Two sketches. One decision." (Acoustic Sculpture), "Four cabins. One horizon." (Openwater Deck), "Three parts. One idea." (Repair Atlas), "Two views. One object." (Industrial Spec), "A hundred years. One thread." (Heirloom Weave Ledger), "Three stops. One morning." (Field Notes), "Three themes. Four beginnings." (Spine Editions), "Two houses. Two horizons." (Architectural Monograph) |
 | Word. Word. Word. | "Notice. Try. Stop." (Choreographic Stage), "Observe. Change. Verify." (Terminal Utility), "Plane. Joint. Light." (Modular Light), "Image. Name. Observation." (Botanical Engraving), "Patina. Form. Provenance." (Patina Auction Room), "Volume. Band. Porch." (Architectural Monograph), three consecutive headings "LOOK." / "TRY." / "SHARE." (Kinetic Type) |
 
-Why it matters: this is the single strongest "written by a model" signal in
+Why it matters: this is the single strongest written-by-a-model signal in
 the atlas. The headlines are interchangeable between directions, so they
 also weaken each direction's identity.
 
