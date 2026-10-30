@@ -6494,7 +6494,7 @@
     {
       "id": "P70",
       "title": "Full creation prompts: grid and structure group",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P69"
       ],
@@ -6507,12 +6507,17 @@
         {
           "name": "Unit tests",
           "status": "pass",
-          "details": "All pass."
+          "details": "109/109."
         },
         {
           "name": "Gallery and creation-prompt browser tests",
           "status": "pass",
           "details": "7/7."
+        },
+        {
+          "name": "PR #190 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6520,15 +6525,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T04:45:18Z",
-      "updated_at": "2026-10-30T04:55:05.931Z",
+      "updated_at": "2026-10-30T04:57:31.702Z",
       "branch": "task/p70-grid-prompts",
       "base_commit": "61c74afaa6153806a7abc72df04a24f76a399b2f",
       "evidence_commit": "a720aa6439676359e61a3c39225d773c1ba76f6b",
-      "merge_commit": null,
+      "merge_commit": "5ee7e2506df4c2d9dbb52c5a04c342e55f8fdb0e",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/190",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Four full creation prompts. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 5ee7e25. Four grid-group prompts; 34 full prompts; legacy-path tests no longer depend on Swiss Grid lacking a prompt."
     },
     {
       "id": "P71",
