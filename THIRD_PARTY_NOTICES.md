@@ -15,7 +15,6 @@ business or benchmark portfolio as the source photographer.
 | --- | --- | --- | --- |
 | `cinematic-photo/assets/forest.webp` | Austin Schmid, “Mist around a forest” (Unsplash), via Wikimedia Commons | CC0-1.0 | [assets.json](styles/cinematic-photo/assets.json), [RIGHTS.txt](styles/cinematic-photo/assets/RIGHTS.txt) |
 | `cinematic-photo/assets/lake.webp` | NPS / M. Reed, “Sprague Lake at Sunset”, via Wikimedia Commons | Public domain U.S. government work (`PD-USGov`) | [assets.json](styles/cinematic-photo/assets.json), [RIGHTS.txt](styles/cinematic-photo/assets/RIGHTS.txt) |
-| `field-notes/assets/forest.webp` | Same Austin Schmid source photograph | CC0-1.0 | [assets.json](styles/field-notes/assets.json), [RIGHTS.txt](styles/field-notes/assets/RIGHTS.txt) |
 
 The atlas copies are resized, metadata-stripped WebP derivatives. References may
 apply additional CSS crops. Preserve source/creator information and applicable

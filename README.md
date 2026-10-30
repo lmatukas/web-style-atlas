@@ -12,18 +12,21 @@ The [work board](docs/STATUS.md) tracks acceptance and publication separately.
 The [1.4.0 release notes](docs/releases/1.4.0.md) record the publication run and
 live checks. Earlier [1.3.0](docs/releases/1.3.0.md), [1.2.0](docs/releases/1.2.0.md), [1.1.0](docs/releases/1.1.0.md) and
 [1.0.0](docs/releases/1.0.0.md) publication history is retained.
+Changes merged after 1.4.0 (a full creation prompt for every direction, renamed
+demo brands and generated images instead of photographs of real buildings)
+reach the live gallery with the next release.
 Use all 50 source directions through
 [the ready catalogue](catalog/index.md), [local gallery](#run-the-gallery), or a real
 [desktop preview](styles/swiss-grid/preview.png) / [mobile preview](styles/swiss-grid/preview-mobile.png).
 
 ## Full creation prompts
 
-[50 full creation prompts](prompts/README.md) accompany 50 of the 50
-directions. In the gallery, choose one, switch A/B, then use **Copy full
-creation prompt**. Fill in the project fields and give the complete copy to your
-coding agent. The text preserves the defining object, interaction, motion and
-runtime requirements; it also has a manual-copy fallback. The other directions keep the shorter selection
-prompt.
+Every direction has a [full creation prompt](prompts/README.md). In the
+gallery, choose one, switch A/B, then use **Copy full creation prompt**. Fill in
+the project fields and give the complete copy to your coding agent. The text
+keeps the direction's defining features, interaction, motion and runtime
+requirements; if the clipboard is blocked, the text is selected for manual
+copying.
 
 ## Start with one prompt
 
@@ -67,7 +70,7 @@ not need Chromium when using the committed previews. The gallery lets you:
 1. Search and filter the ready directions.
 2. Switch A/B composition and Desktop/Mobile previews.
 3. Compare up to three directions, then choose one and a variant.
-4. Use **Copy selection prompt**, fill in your brief and give it to your agent.
+4. Use **Copy full creation prompt**, fill in your brief and give it to your agent.
 
 For a nested local path, run `npm run dev -- --base /atlas/ --port 4173` and open
 http://127.0.0.1:4173/atlas/. This is a local preview, not a deployment command.
@@ -138,9 +141,13 @@ are not functioning booking, payment or contact backends. Your website still
 needs its own real content, integration and release checks.
 
 Original code, text and original SVG assets use [MIT](LICENSE).
-Third-party photographs keep their own licences. Read each selected style's
-`assets.json`, accompanying rights file and [third-party notices](THIRD_PARTY_NOTICES.md)
-before reuse. No font files are bundled; named system fonts depend on the device.
+AI-generated images are original demonstration imagery distributed under the
+repository terms; each style's rights file records the tool, date and full
+prompt. The few third-party photographs keep their own licences. Some
+directions bundle OFL font files with their licence; the others use system
+fonts that depend on the device. Read each selected style's `assets.json`,
+accompanying rights file and [third-party notices](THIRD_PARTY_NOTICES.md)
+before reuse.
 Do not copy reference test strings or fictional identity into a real site.
 
 ## Contribute or continue the atlas
@@ -151,5 +158,8 @@ For maintenance, the [workflow](docs/WORKFLOW.md) and [cost policy](docs/COST_PO
 apply; the remote [queue](docs/progress.json) is canonical. Task selection does
 not itself create a remote claim. The [full plan](docs/implementation-plan.md)
 is available for contributors, and is not required to use the catalogue.
+Known copy issues that make some pages read like generic AI-generated sites,
+and the plan to fix them, are in the
+[AI-template audit](docs/audits/ai-template-audit.md).
 
 [Lietuviška pradžia →](README.lt.md)
