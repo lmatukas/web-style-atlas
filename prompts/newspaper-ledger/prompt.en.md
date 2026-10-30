@@ -16,7 +16,7 @@ Composition A: a ruled multi-story front page with a lead plan, briefs and a cha
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Keep the reporting voice; do not repeat "fictional" or "illustrative" in every caption and byline; use real facts only once the user provides reliable content.
 
 The project is THE COMMON LEDGER, an invented local demonstration paper. Its lead story looks at an illustrative proposal to extend the opening hours of four fictional branch libraries around one square. Every person, place and number is invented; say so in the copy and in an editorial record. Never present the content as real news, a council decision or a forecast.
 

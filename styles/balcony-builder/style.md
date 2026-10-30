@@ -48,7 +48,7 @@ All imagery is original SVG geometry. Four modules show labelled growth stages (
 
 ## Navigation and interaction
 
-Visible builder, growth and question links and real sibling references remain ordinary HTML. Native light radios, area and experience fields update the actual box, result, reasons and included contents together. Area selects exactly one, two or four concept modules; beginner guidance uses one illustrative group, while experience allows two. Inclusion reveals a complete current composition rather than a false cart confirmation. Saving writes only this demonstration's versioned local-storage record. Both references restore validated saved choices. Editing leaves the old saved version until explicit save; removal deletes only this key. Blocked storage is reported without claiming success.
+Visible builder, growth and question links and real sibling references remain ordinary HTML. Native light radios, area and experience fields update the actual box, result, reasons and included contents together. Area selects exactly one, two or four modules; beginner guidance uses one illustrative group, while experience allows two. Inclusion reveals a complete current composition rather than a false cart confirmation. Saving writes only this demonstration's versioned local-storage record. Both references restore validated saved choices. Editing leaves the old saved version until explicit save; removal deletes only this key. Blocked storage is reported without claiming success.
 
 ## Motion
 

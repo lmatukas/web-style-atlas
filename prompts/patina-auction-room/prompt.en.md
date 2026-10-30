@@ -9,7 +9,7 @@ Build a working website in the user's project. Do not change the atlas or its ta
 - Viewing days, times, places and bid steps: [APPROVED DETAILS].
 - Technology, integrations and project rules: [FILL IN].
 
-Without an approved integration everything runs locally. Do not build payments, real bids, bookings or emails. Name the demonstration clearly. The museum objects are not for sale; the practice lot numbers and estimates have nothing to do with their real value.
+Without an approved integration everything runs locally. Do not build payments, real bids, bookings or emails. Say once, in the footer, that the auction studio is invented and the museum objects are not for sale; keep "demo" only on estimates, bids and the timer, because they sit next to real objects. Headings name the objects, dates and viewings. The museum objects are not for sale; the practice lot numbers and estimates have nothing to do with their real value.
 
 ## Design direction
 
