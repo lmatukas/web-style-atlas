@@ -6714,7 +6714,7 @@
     {
       "id": "P75",
       "title": "Rename demo brands that match real names",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P74"
       ],
@@ -6733,6 +6733,11 @@
           "name": "Browser QA (7 directions) and gallery tests",
           "status": "pass",
           "details": "All pass."
+        },
+        {
+          "name": "PR #195 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6740,15 +6745,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:40:20Z",
-      "updated_at": "2026-10-30T05:52:38.836Z",
+      "updated_at": "2026-10-30T05:55:43.517Z",
       "branch": "task/p75-rename-brands",
       "base_commit": "03d5d87e8bb4a70fae7154282cf96e95b1b4ac9b",
       "evidence_commit": "bfe44d4fafcea5dd51116d0a4cc0afe30570fd1e",
-      "merge_commit": null,
+      "merge_commit": "9975e1acabdf4dcc3b0b473e7db7d730c9b4a050",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/195",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Seven demo brands renamed. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 9975e1a. Seven demo brands renamed; Pop Commerce label resized."
     }
   ]
 }
