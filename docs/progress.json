@@ -6714,7 +6714,7 @@
     {
       "id": "P75",
       "title": "Rename demo brands that match real names",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P74"
       ],
@@ -6722,16 +6722,16 @@
       "evidence_paths": [
         "docs/evidence/P75.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T05:40:20Z",
+      "updated_at": "2026-10-30T05:40:20.771Z",
+      "branch": "task/p75-rename-brands",
+      "base_commit": "03d5d87e8bb4a70fae7154282cf96e95b1b4ac9b",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P75 and rename seven demo brands.",
+      "next_action": "Implement P75 on task/p75-rename-brands.",
       "handoff": "Found by web checks in P69-P74: seven demo names match real companies, labels, bands or venues."
     }
   ]
