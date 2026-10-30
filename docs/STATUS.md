@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 144/149.**
+**Baigta: 145/149.**
 
-**Pirmiausia patikrinti P83: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P84](tasks/P84.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -154,7 +154,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P80](tasks/P80.md) | Audit: AI-template tells and project description | Baigta | agent/015fh6w2uenf | task/p80-ai-template-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/200) | 2026-10-30T06:39:52.269Z | None. Task done. |
 | [P81](tasks/P81.md) | Gallery copy and copy-lint guard | Baigta | agent/codex-p81-20261030 | task/p81-gallery-copy | [PR](https://github.com/lmatukas/web-style-atlas/pull/201) | 2026-10-30T07:59:20.149Z | None. Task done. |
 | [P82](tasks/P82.md) | De-template copy, batch 1 | Baigta | agent/015fh6w2uenf | task/p82-copy-batch-1 | [PR](https://github.com/lmatukas/web-style-atlas/pull/202) | 2026-10-30T09:17:58.341Z | None. Task done. |
-| [P83](tasks/P83.md) | De-template copy, batch 2 | Laukia peržiūros | agent/015fh6w2uenf | task/p83-copy-batch-2 | [PR](https://github.com/lmatukas/web-style-atlas/pull/203) | 2026-10-30T09:40:23.536Z | Wait for CI, merge, mark done. |
+| [P83](tasks/P83.md) | De-template copy, batch 2 | Baigta | agent/015fh6w2uenf | task/p83-copy-batch-2 | [PR](https://github.com/lmatukas/web-style-atlas/pull/203) | 2026-10-30T09:44:46.505Z | None. Task done. |
 | [P84](tasks/P84.md) | De-template copy, batch 3 | Laukia | — | — | — | — | Claim P84 after P83 is done. |
 | [P85](tasks/P85.md) | De-template copy, batch 4 | Laukia | — | — | — | — | Claim P85 after P84 is done. |
 | [P86](tasks/P86.md) | De-template copy, batch 5 | Laukia | — | — | — | — | Claim P86 after P85 is done. |
