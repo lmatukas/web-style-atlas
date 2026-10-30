@@ -10,6 +10,9 @@ Visų krypčių puslapiai ir kūrimo promptai dabar yra anglų kalba;
 Publikavimo paleidimas ir gyvos svetainės patikros įrašomi
 [1.4.0 leidimo apraše](docs/releases/1.4.0.md). Ankstesnė
 [1.3.0](docs/releases/1.3.0.md), [1.2.0](docs/releases/1.2.0.md), [1.1.0](docs/releases/1.1.0.md) ir [1.0.0](docs/releases/1.0.0.md) istorija išsaugota.
+Po 1.4.0 sujungti pakeitimai (pilnas kūrimo promptas kiekvienai krypčiai,
+pervadinti demonstraciniai prekės ženklai ir sugeneruoti vaizdai vietoj tikrų
+pastatų nuotraukų) gyvoje galerijoje atsiras su kitu leidimu.
 
 Visas 50 krypčių jau galima naudoti iš [katalogo](catalog/index.md) arba
 paleisti vietinę galeriją. [Tikra kompiuterio peržiūra](styles/swiss-grid/preview.png)
@@ -17,12 +20,11 @@ ir [telefono peržiūra](styles/swiss-grid/preview-mobile.png).
 
 ## Pilni kūrimo promptai
 
-[50 pilni kūrimo promptai](prompts/README.md) turi veikiančius krypčių
-pavyzdžius. Galerijoje pasirink kryptį ir A/B variantą, spausk
-**Copy full creation prompt**, įrašyk savo projekto duomenis ir perduok visą
-tekstą agentui. Išlieka objekto, sąveikų, judesio ir vykdymo reikalavimai;
-neveikiant iškarpinei galima nukopijuoti ranka. Kitos kryptys išlaiko trumpą
-pasirinkimo promptą.
+Kiekviena kryptis turi [pilną kūrimo promptą](prompts/README.md). Galerijoje
+pasirink kryptį ir A/B variantą, spausk **Copy full creation prompt**, įrašyk
+savo projekto duomenis ir perduok visą tekstą agentui. Išlieka krypties
+skiriamieji bruožai, sąveikos, judesio ir vykdymo reikalavimai; neveikiant
+iškarpinei tekstas pažymimas, kad nukopijuotum ranka.
 
 ## Paprasčiausias praktinis bandymas
 
@@ -66,7 +68,7 @@ npm run dev
 
 Atidaryk **http://127.0.0.1:4173/**. Galima filtruoti, perjungti A/B ir
 Desktop/Mobile, palyginti iki trijų krypčių ir pasirinkus spausti
-**Copy selection prompt**. Į kopiją pridėk savo briefą ir perduok agentui.
+**Copy full creation prompt**. Į kopiją pridėk savo briefą ir perduok agentui.
 Paleidimas naudoja esamas peržiūras; Chromium galerijai nereikalingas.
 
 ## Kas patikrinta ir kokios ribos
@@ -88,9 +90,15 @@ Automatinės prieinamumo patikros nepakeičia pilnos WCAG peržiūros. Pavyzdži
 reikia įgyvendinti savo projekte. Originalumui ar tinkamumui visiems prekės
 ženklams garantijos nėra.
 
-Nuosavas kodas ir tekstai licencijuoti [MIT](LICENSE). Nuotraukoms galioja jų
-atskiros teisės: perskaityk pasirinkto stiliaus `assets.json`, teisių failą ir
-[pranešimus](THIRD_PARTY_NOTICES.md). Šrifto failų nepridedame.
+Nuosavas kodas ir tekstai licencijuoti [MIT](LICENSE). AI sugeneruoti vaizdai
+yra originalūs ir platinami pagal repo sąlygas; kiekvieno stiliaus teisių faile
+įrašytas įrankis, data ir pilnas promptas. Kelioms trečiųjų šalių nuotraukoms
+galioja jų atskiros teisės. Dalis krypčių pridėjo OFL šriftų failus su licencija,
+kitos naudoja įrenginio sistemos šriftus. Prieš naudodamas perskaityk pasirinkto
+stiliaus `assets.json`, teisių failą ir [pranešimus](THIRD_PARTY_NOTICES.md).
+
+Kur kai kurie puslapiai skamba kaip tipinės AI sugeneruotos svetainės ir kaip
+tai taisysime, aprašyta [AI šablonų audite](docs/audits/ai-template-audit.md).
 
 [English README ir patikrų komandos](README.md) ·
 [Naujo stiliaus papildymo eiga](CONTRIBUTING.md).
