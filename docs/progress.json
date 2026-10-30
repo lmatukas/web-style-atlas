@@ -6973,25 +6973,41 @@
     {
       "id": "P81",
       "title": "Gallery copy and copy-lint guard",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P80"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "Source, generated and unit gates",
+          "status": "pass",
+          "details": "PR #201 Actions run 41019391704, job 123943095523: validation/build/generated drift checks and all 116 unit tests passed on implementation 04bf5eb6716a35a8320ee7fd21f47057f5a040bb."
+        },
+        {
+          "name": "Gallery browser gates",
+          "status": "pass",
+          "details": "PR #201 Actions run 41019391704, job 123943257283: canonical gallery and creation-prompt browser suite passed."
+        },
+        {
+          "name": "Queue and scope",
+          "status": "pass",
+          "details": "PR #201 Actions run 41019391704, job 123943010525 passed."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P81.md"
       ],
       "worker": "agent/codex-p81-20261030",
       "claimed_at": "2026-10-30T07:11:16.507Z",
-      "updated_at": "2026-10-30T07:11:16.555Z",
+      "updated_at": "2026-10-30T07:21:55.067Z",
       "branch": "task/p81-gallery-copy",
       "base_commit": "b2a3a96e4969eb48545bfba8a575e6618a67e21b",
-      "evidence_commit": null,
+      "evidence_commit": "04bf5eb6716a35a8320ee7fd21f47057f5a040bb",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/201",
       "blocker": null,
-      "next_action": "Rewrite gallery copy and add the copy guard; run required checks.",
-      "handoff": "Claimed by agent/codex-p81-20261030."
+      "next_action": "Review and merge PR #201; after merge verify evidence and mark P81 done.",
+      "handoff": "PR #201 ready for review with all CI jobs green on 04bf5eb. Gallery copy rewritten; exact shrinking backlog of 42 directions. No style inputs/previews changed. Local visual inspection unavailable because browser connection timed out; canonical browser tests passed."
     },
     {
       "id": "P82",
