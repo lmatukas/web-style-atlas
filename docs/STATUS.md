@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 141/149.**
+**Baigta: 142/149.**
 
-**Pirmiausia patikrinti P80: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
+**Kita užduotis: [P81](tasks/P81.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -151,7 +151,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P77](tasks/P77.md) | Still Sanctuary: fewer repeated photographs | Baigta | agent/015fh6w2uenf | task/p77-still-sanctuary-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/197) | 2026-10-30T06:10:32.387Z | None. Task done. |
 | [P78](tasks/P78.md) | Midnight Vestibule: generated night images instead of real buildings | Baigta | agent/015fh6w2uenf | task/p78-midnight-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/198) | 2026-10-30T06:18:33.392Z | None. Task done. |
 | [P79](tasks/P79.md) | Architectural Monograph: invented houses and generated photographs | Baigta | agent/015fh6w2uenf | task/p79-monograph-houses | [PR](https://github.com/lmatukas/web-style-atlas/pull/199) | 2026-10-30T06:24:11.276Z | None. Task done. |
-| [P80](tasks/P80.md) | Audit: AI-template tells and project description | Laukia peržiūros | agent/015fh6w2uenf | task/p80-ai-template-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/200) | 2026-10-30T06:38:24.454Z | Wait for CI, merge, mark done. |
+| [P80](tasks/P80.md) | Audit: AI-template tells and project description | Baigta | agent/015fh6w2uenf | task/p80-ai-template-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/200) | 2026-10-30T06:39:52.269Z | None. Task done. |
 | [P81](tasks/P81.md) | Gallery copy and copy-lint guard | Laukia | — | — | — | — | Claim P81 after P80 is done. |
 | [P82](tasks/P82.md) | De-template copy, batch 1 | Laukia | — | — | — | — | Claim P82 after P81 is done. |
 | [P83](tasks/P83.md) | De-template copy, batch 2 | Laukia | — | — | — | — | Claim P83 after P82 is done. |
