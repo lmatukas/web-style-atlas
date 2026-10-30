@@ -16,7 +16,7 @@ Composition A: the making story of a single wooden ribbon. Composition B: a macr
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the workshop is invented, and once beside the enquiry that nothing is sent. Headings name the outline, the tone or the wood, not "Not louder. More character." slogans; use real facts only once the user provides reliable content.
 
 Build a distinctive, working website for the invented working brand "Tembrelo", a workshop for handmade musical instruments. This is a demonstration concept with original English content.
 

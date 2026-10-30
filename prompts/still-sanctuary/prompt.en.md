@@ -16,11 +16,11 @@ A: directions by region. After a large forest photograph and a short invitation,
 
 ## Original creative brief
 
-Write original copy and composition. Do not copy real resort names, logos or websites. Use three to five legally shareable CC0 or public-domain photographs of nature and architecture. Photograph rights, authors and sources belong in the rights file; the example page does not send visitors to source websites. Photographs up to 1.5 MB, WebP, without metadata. Keep illustrative photographs clearly apart from any offer for a real place.
+Write original copy and composition. Name places, times and rituals instead of announcing calm or slowness; one footer line says the brand is invented, and the form has one short note that nothing is booked. Do not copy real resort names, logos or websites. Use three to five legally shareable CC0 or public-domain photographs of nature and architecture. Photograph rights, authors and sources belong in the rights file; the example page does not send visitors to source websites. Photographs up to 1.5 MB, WebP, without metadata. Keep illustrative photographs clearly apart from any offer for a real place.
 
 Palette: sand #f3eee7, deep brown text #322f25, olive #49543a, daylight #f0e5d4, evening clay #e9d4c4. A calm local OFL serif 400 for headings and a humanist sans 400 for text, up to 200 KB, WOFF2 with Lithuanian letters and full OFL.txt files. Small uppercase labels 11–14 px with 2 px spacing. Headings mostly 32–50 px, one campaign heading up to 76 px. Plenty of air, thin lines, no row of generic rounded cards.
 
-On the first screen, one landscape fills at least 70% of the viewport height, on a phone too. A short heading: "Where time belongs to you." One main stay action. On a phone, B has its own full-frame composition, not a shrunken two-column view.
+On the first screen, one landscape fills at least 70% of the viewport height, on a phone too. A plain heading that names the places: "Retreats by a forest, a lake and a garden." One main stay action. On a phone, B has its own full-frame composition, not a shrunken two-column view.
 
 Signature: three buttons, Morning, Day, Evening. Morning 07:00–10:00 shows the forest photograph, a walk and breathing; Day 12:00–16:00 the pavilion, a light sand background and quiet reading; Evening 18:00–21:00 the lake, a clay tone and tea. Each choice changes the real photograph, its alt text, the time, the heading, the description and the light of the page. The buttons work with a mouse, touch and keyboard and show a clear selected state.
 

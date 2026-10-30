@@ -16,13 +16,13 @@ Composition A: a black single-device stage, five construction chapters and a lig
 
 ## Original creative brief
 
-Write your own copy, proportions, device, composition and motion. Do not copy a real manufacturer's silhouette, website or scenes. Veylqor is an invented demonstration project. Do not claim awards, real customers or manufacturing facts. Sample numbers and prices are clearly marked as demonstration values everywhere.
+Write your own copy, proportions, device, composition and motion. Do not copy a real manufacturer's silhouette, website or scenes. Veylqor is an invented demonstration project. Give each heading one concrete fact (grams, kHz, hours, layers, the one button) and avoid mood words such as quiet or seamless. Do not claim awards, real customers or manufacturing facts. Sample numbers and prices are clearly marked as demonstration values everywhere.
 
 Create an original handheld audio recorder: a slim rounded metal body, a large round ring of glass and light, microphone slots and one recessed record button. Draw the object with real native WebGL, without a CDN or an imported model. Use depth testing, real volumes, surface normals and directional light. Provide an SVG or PNG fallback with the same recognisable parts, plus an informative exploded view of the layers. No AI-generated images or photographs are needed.
 
 Palette: black #000000, graphite #1d1d1f, light text #f5f5f7 and one cool #a5d8f6 accent. The selection area is light, with dark text. Type: one local OFL geometric sans family, 400 for text and 600 for headings; no serif. Campaign heading up to 80 px, 36–56 px on a phone. Small uppercase labels have 1–3 px letter spacing; paragraphs stay within 32–36 characters. Local WOFF2 files must include Lithuanian letters and the full OFL.txt; total font size up to 200 KB.
 
-One large object owns the first screen, with a visible height of at least 70% of the viewport. Next to it: a small label and the short heading "Hold on to what remains." One main action: "Explore the device". Give the phone its own composition: a clear heading, a large object and reachable controls. Do not squeeze the desktop layout.
+One large object owns the first screen, with a visible height of at least 70% of the viewport. Next to it: a small label and the short plain heading "A pocket recorder with one button." One main action: "Explore the device". Give the phone its own composition: a clear heading, a large object and reachable controls. Do not squeeze the desktop layout.
 
 In layout A, after the intro, build five sticky scenes: form / 86 grams; construction / 3 layers; recording / 48 kHz; time / 18 hours; whole / 1 action. Each scene holds only one feature, one number and a short explanation. As the visitor scrolls, the device turns, its glass, electronics and body separate, then come back together. Do not hijack scrolling and do not trap keyboard focus. The last chapter is a light selection desk.
 

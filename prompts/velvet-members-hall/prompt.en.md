@@ -11,13 +11,13 @@ Build a working website in the user's project. This is a self-contained creation
 - Technology and project rules: [APPLY THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields stay empty, use the invented private club "Orvelleth", with a Vilnius house and a River house. Mark clearly that the programme, membership levels and seat limits are demonstrations. Do not invent prices, member counts, awards, real bookings or email sending.
+If the fields stay empty, use the invented private club "Orvelleth", with an Old Town house and a River house. One footer line says the club and its houses are invented; the booking and application forms each carry one short note that nothing is sent. Name rooms, dates, times and seat counts in the copy instead of mood words such as quiet or unhurried. Do not invent prices, member counts, awards, real bookings or email sending.
 
 Keep the five signature features: folds of cherry velvet running through the first screen, with a light the visitor controls; ink margins and restrained brass; a light serif with a true italic and a narrow sans; either a spacious club introduction or an asymmetric personal letter; real, working local membership and event-seat services.
 
 ## Original creative brief
 
-A: a full-height velvet scene with an invitation on the left, "An evening that belongs to you". One main action into the programme. Then three rooms in an uneven layout of text and entries, a two-month event programme with a booking table, two membership levels and native disclosures with practical notes. The event service is part of the programme, not a decorative link.
+A: a full-height velvet scene with a plain heading on the left, "Six club evenings across two houses". One main action into the programme. Then three rooms in an uneven layout of text and entries, a two-month event programme with a booking table, two membership levels and native disclosures with practical notes. The event service is part of the programme, not a decorative link.
 
 B: a vertical velvet scene on the left and a cream personal invitation letter on the right. On a phone, the scene has its own strong first screen and the letter follows it. Then a wide cream application table with a step indicator and one active form step, shared principles of conduct and practical notes. This is an application task, not a reshuffled club introduction.
 
@@ -31,7 +31,7 @@ Signature: the pointer moves a real light across the fabric. A clearly labelled 
 
 Event seat service: two months, at least three demonstration events each, with clear dates, times, club houses and different seat limits. Changing the month clears the previous choice. The chosen entry updates the event summary and the maximum number of seats. Require a name, a whole number of seats from 1 to the event limit and confirmation of the local demonstration. Errors move focus to the actual invalid control. The confirmation shows the exact name, event, date, time, house and seat count, and says no seats were booked, no data was sent and no payment is taken. Changing a choice hides the old summary. Reset clears the name, event and consent and returns to the first month and one seat.
 
-Membership application: step one asks for a full name, a valid email and a House member or House friend level. Step two asks for the preferred Vilnius house or River house and how we should meet. This can be an existing member's recommendation, which needs the recommender's name, or an equal introductory conversation without a recommendation. The hidden recommendation field must be disabled and not required. Step three shows an exact review of every choice, a way back to edit and a required confirmation of the local demonstration. Going back keeps the data and clears the old confirmation. Reset clears everything and returns to step one. Validate the earlier steps again before the final result. Insert names and other input with textContent, not HTML. Do not store or send any data.
+Membership application: step one asks for a full name, a valid email and a House member or House friend level. Step two asks for the preferred Old Town house or River house and how we should meet. This can be an existing member's recommendation, which needs the recommender's name, or an equal introductory conversation without a recommendation. The hidden recommendation field must be disabled and not required. Step three shows an exact review of every choice, a way back to edit and a required confirmation of the local demonstration. Going back keeps the data and clears the old confirmation. Reset clears everything and returns to step one. Validate the earlier steps again before the final result. Insert names and other input with textContent, not HTML. Do not store or send any data.
 
 ## Final check
 

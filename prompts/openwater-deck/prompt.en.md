@@ -9,7 +9,7 @@ Build a working website in the user's project. Do not change the atlas or its ta
 - Approved routes, weeks, guest limits, pricing and integrations: [FILL IN].
 - Technology and existing project rules: [FILL IN].
 
-Without an approved integration everything runs locally. No real availability, sending, booking or payment. Use an invented name, demonstration weeks and a clear local-demonstration label. The schematic map is not for navigation.
+Without an approved integration everything runs locally. No real availability, sending, booking or payment. Use an invented name and demonstration weeks. One footer line says the brand and routes are invented, and the enquiry has one short note that nothing is booked or sent. Write about cabins, knots, crew and routes; do not announce calm or slowness, and give headings a concrete fact each. The schematic map is not for navigation.
 
 ## Design direction
 
@@ -29,7 +29,7 @@ B — charter enquiry: a wide schematic island map next to a personal invitation
 
 Offer three clear demonstration weeks with start and end dates, 1–8 guests, a name and a required demonstration confirmation. No price or real availability until the owner approves them. The name has at least one letter; the guest count is a whole number within limits; the week must be from the allowed list. Errors are understandable, announced and move focus to the field.
 
-The confirmation repeats the exact name, route, every stop, the week dates, seven nights and the guest count. Insert input as text, not HTML. Say clearly that this is a local demonstration: the yacht was not booked, no data was sent and no payment is taken. Changing the route or input removes the old confirmation. "Edit" keeps the input and returns focus to the week; "Start over" returns the first route, an empty week and name, two guests and an unticked confirmation. Do not store data.
+The confirmation repeats the exact name, route, every stop, the week dates, seven nights and the guest count. Insert input as text, not HTML. Say plainly that nothing was booked, sent or paid. Changing the route or input removes the old confirmation. "Edit" keeps the input and returns focus to the week; "Start over" returns the first route, an empty week and name, two guests and an unticked confirmation. Do not store data.
 
 ## Motion and accessibility
 
