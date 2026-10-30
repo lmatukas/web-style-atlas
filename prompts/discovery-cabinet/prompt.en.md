@@ -16,7 +16,7 @@ Composition A: a radial table of six seed jars. Composition B: a vertical discov
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the seeds, jars and tray rather than "small thing, big discovery" slogans; use real facts only once the user provides reliable content.
 
 The project is GRANOVEL, an invented exhibition about getting to know plants, made for families. The core experience is a round table seen from above with six distinctive seed jars. The visitor picks a jar, looks at a stylised seed and moves it to a virtual growing tray. This is an introductory artistic interpretation; do not make up biological facts, and present unverified growing conditions only as a clearly marked demonstration.
 

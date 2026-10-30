@@ -16,7 +16,7 @@ Composition A: a plant and origin story led by one large leaf plate. Composition
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the plants and plates, not "a small world in a single leaf"; use real facts only once the user provides reliable content.
 
 The project is SPRIGVANE, an invented garden cabinet of three original line studies: garden sage (Salvia officinalis L.), lavender (Lavandula angustifolia Mill.) and rosemary (Salvia rosmarinus Spenn.). If you use other plants, check each accepted name against a botanical name database and link that source; do not copy its images or text. Plate numbers, the collection number and the notes are invented. State clearly that the drawings are stylised and that the page is not a guide for identifying or foraging plants. Give no care, medical or culinary advice.
 
