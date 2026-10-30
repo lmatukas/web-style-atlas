@@ -7012,25 +7012,46 @@
     {
       "id": "P82",
       "title": "De-template copy, batch 1",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P81"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "check passes with regenerated previews for ten directions."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "115/115; the ten directions pass copy-tells without a backlog entry."
+        },
+        {
+          "name": "Direction QA",
+          "status": "pass",
+          "details": "Own QA scripts, runtime QA and browser QA pass for all ten directions."
+        },
+        {
+          "name": "Previews",
+          "status": "pass",
+          "details": "Regenerated through the canonical workflow and inspected."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P82.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T07:59:42Z",
-      "updated_at": "2026-10-30T07:59:44.874Z",
+      "updated_at": "2026-10-30T09:12:54.648Z",
       "branch": "task/p82-copy-batch-1",
       "base_commit": "6606901f576dbda9201adc6999f9e8abdb61ad0f",
-      "evidence_commit": null,
+      "evidence_commit": "408535aecdb36ab8662b76f4376a42598687990e",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/202",
       "blocker": null,
-      "next_action": "Implement P82 on task/p82-copy-batch-1.",
-      "handoff": "Planned in the P80 AI-template audit."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Ten directions rewritten; COPY_BACKLOG down to 32. P83 next."
     },
     {
       "id": "P83",
