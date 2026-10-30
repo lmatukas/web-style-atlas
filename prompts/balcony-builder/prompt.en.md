@@ -16,7 +16,7 @@ Composition A: a bold planter box offer and how it grows. Composition B: a three
 
 ## Original creative brief
 
-Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, objects, composition and motion sequence. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name sun hours, modules and plants rather than slogans; use real facts only once the user provides reliable content.
 
 Build a finished, working English website for the invented working brand "SPROUVEL", which offers growing kits for city balconies. Work on your own according to the user's project environment instructions and the website tools suited to it. Deliver a working private preview. Do not publish publicly without a separate instruction.
 

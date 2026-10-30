@@ -16,7 +16,7 @@ Composition A: a single-house monograph with photograph, interpretive plan and d
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings describe the building, its plan and its dates, not word triplets; use real facts only once the user provides reliable content.
 
 The project is FIELD / MEASURE, an invented architectural reading room that studies two invented demonstration houses. Do not use real buildings, architects, photographers or places in the demonstration. If the user supplies real projects, use only verified names, dates and credits, never imply that the publisher designed buildings it only documents, and record the rights of every photograph.
 
@@ -26,7 +26,7 @@ Palette: warm white #faf9f5, a pale stone surface #eeede6, dark grey-green text 
 
 Composition A, the monograph: a compact masthead (FIELD / MEASURE, "architectural reading room") with links (monograph / 01, project atlas, sources). A project title for House 1 and a small dossier (architect, location, completed) — all invented and marked as such. A broad winter exterior photograph that keeps the house within its setting, with a figure caption attached to its frame (FIG. 01 / winter exterior / credit). An analytic reading in its own column ("Between a horizontal line and the landscape."). A plan section with an original SVG interpretive plan of enclosed volume, covered threshold and terrace, captioned "not to scale / not a survey". A labelled detail crop of the same photograph at closer scale with a short reading. Source notes with a native credits disclosure and a link to the atlas entry.
 
-Composition B, the atlas: a broad title ("Two houses. Two horizons.") and one line, then a project index as a semantic table (no., building, location / completed) whose building links jump to the spreads. Spread 1 puts a narrow title and observation beside a large House 1 photograph; spread 2 gives the House 2 photograph a different width and puts its note on the opposite side. A short method statement ("Image, drawing, then a note.") and atlas source records with a disclosure close the page.
+Composition B, the atlas: a broad title ("Two houses, from 1964 and 1971.") and one line, then a project index as a semantic table (no., building, location / completed) whose building links jump to the spreads. Spread 1 puts a narrow title and observation beside a large House 1 photograph; spread 2 gives the House 2 photograph a different width and puts its note on the opposite side. A short method statement ("Image, drawing, then a note.") and atlas source records with a disclosure close the page.
 
 Never treat the plan as a measured survey or invent construction dimensions, and never replace the photograph / plan / note hierarchy with equal cards or a slideshow. On a phone photographs run full width with captions directly below, the dossier follows the title, and the index table keeps short readable columns.
 
