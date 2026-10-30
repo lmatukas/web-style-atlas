@@ -28,7 +28,7 @@ prompt_path: prompts/midnight-vestibule/prompt.en.md
 
 ## Intent
 
-Midnight Vestibule presents a city hotel the way a guest meets it after dark: a lit skyline, a warm lobby, a dome above dinner and a quiet spa. The fictional Kelvarre has forty-two rooms and one promise, a calm arrival at any hour. Rooms, prices and nearby places are invented. The direction suits urban hotels, private clubs with rooms, late restaurants and venues whose value is atmosphere at night.
+Midnight Vestibule presents a city hotel the way a guest meets it after dark: a lamp-lit bridge in river fog, a warm lobby, a dome above dinner and a quiet spa. The fictional Kelvarre has forty-two rooms and one promise, a calm arrival at any hour. Rooms, prices and nearby places are invented. The direction suits urban hotels, private clubs with rooms, late restaurants and venues whose value is atmosphere at night.
 
 ## Signature
 
@@ -44,7 +44,7 @@ The room is night navy #0a0f1a; panels use #131b2c and the drawer #0f1626. Cream
 
 ## Layout A
 
-The first screen is the skyline photograph at full height. A gradient at the top holds the spaced name and one outlined pill; at the bottom an eyebrow, a two-line heading and one sentence sit on a darker gradient, with a thin tools row for the status and pause. Three ruled facts follow. Five chapters then alternate: the lobby as a tall portrait image beside text, three room cards on a navy panel, the dome restaurant as a full-bleed image with a left gradient, the spa with a marble crop, and the neighbourhood with a facade image and three short places.
+The first screen is the night bridge photograph at full height. A gradient at the top holds the spaced name and one outlined pill; at the bottom an eyebrow, a two-line heading and one sentence sit on a darker gradient, with a thin tools row for the status and pause. Three ruled facts follow. Five chapters then alternate: the lobby as a tall portrait image beside text, three room cards on a navy panel, the dome restaurant as a full-bleed image with a left gradient, the spa with a marble crop, and the neighbourhood with a facade image and three short places.
 
 ## Layout B
 
@@ -52,7 +52,7 @@ The room page starts with a shorter facade band holding the heading and a date s
 
 ## Imagery
 
-Four photographs by Carol M. Highsmith from the Library of Congress, dedicated to the public domain: a skyline at dusk, an arcaded lobby with lanterns, a glass dome and a dark facade. They were downscaled from 3840-pixel derivatives and the facade was cropped so no lettering or signs remain. CSS crops reuse them for room cards and the spa. A radial lamp glow over the hero and band uses blend modes, not extra files. Together the photographs weigh about 640 KB.
+Five original AI-generated images of invented places, from the Web Style Atlas asset bank: a footbridge with lamps in river fog (landscape and a portrait file for phones), a dark lobby with a stone desk, a restaurant under a glass dome and a dark facade with scattered lit windows. They replaced public-domain photographs of real buildings so the hotel stays wholly invented. CSS crops reuse them for room cards. A radial lamp glow over the hero and band uses blend modes, not extra files, and starts on the bridge lamps. Together the images weigh about 360 KB.
 
 ## Navigation and interaction
 
