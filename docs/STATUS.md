@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 140/140.**
+**Baigta: 140/141.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P79](tasks/P79.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -150,5 +150,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P76](tasks/P76.md) | Ember Course Room: own hero for layout B | Baigta | agent/015fh6w2uenf | task/p76-ember-b-hero | [PR](https://github.com/lmatukas/web-style-atlas/pull/196) | 2026-10-30T06:04:17.789Z | None. Task done. |
 | [P77](tasks/P77.md) | Still Sanctuary: fewer repeated photographs | Baigta | agent/015fh6w2uenf | task/p77-still-sanctuary-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/197) | 2026-10-30T06:10:32.387Z | None. Task done. |
 | [P78](tasks/P78.md) | Midnight Vestibule: generated night images instead of real buildings | Baigta | agent/015fh6w2uenf | task/p78-midnight-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/198) | 2026-10-30T06:18:33.392Z | None. Task done. |
+| [P79](tasks/P79.md) | Architectural Monograph: invented houses and generated photographs | Laukia | — | — | — | — | Claim P79 and rebuild the monograph around invented houses. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

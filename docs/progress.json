@@ -6886,6 +6886,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in 9192e14. Four real-building photos replaced by generated night images."
+    },
+    {
+      "id": "P79",
+      "title": "Architectural Monograph: invented houses and generated photographs",
+      "status": "todo",
+      "depends_on": [
+        "P78"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P79.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P79 and rebuild the monograph around invented houses.",
+      "handoff": "Image plan: M-03 and M-04 replace the two real-house photographs."
     }
   ]
 }
