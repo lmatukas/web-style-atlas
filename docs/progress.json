@@ -6802,25 +6802,41 @@
     {
       "id": "P77",
       "title": "Still Sanctuary: fewer repeated photographs",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P76"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "All pass."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P77.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:04:39Z",
-      "updated_at": "2026-10-30T06:04:39.252Z",
+      "updated_at": "2026-10-30T06:08:21.390Z",
       "branch": "task/p77-still-sanctuary-images",
       "base_commit": "0ff7f4a0f23912ca5c98984f24273a0a256504f3",
-      "evidence_commit": null,
+      "evidence_commit": "071de658fdf991fbe36ea1df9862ebee74076230",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/197",
       "blocker": null,
-      "next_action": "Implement P77 on task/p77-still-sanctuary-images.",
-      "handoff": "Image plan: D-01 for A region 01, J-02 for B villa card, recompress pavilion."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Repeats replaced. Waiting for CI."
     }
   ]
 }
