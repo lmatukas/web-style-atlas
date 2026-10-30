@@ -6890,7 +6890,7 @@
     {
       "id": "P79",
       "title": "Architectural Monograph: invented houses and generated photographs",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P78"
       ],
@@ -6909,6 +6909,11 @@
           "name": "Browser QA",
           "status": "pass",
           "details": "6 pages."
+        },
+        {
+          "name": "PR #199 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6916,15 +6921,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:19:08Z",
-      "updated_at": "2026-10-30T06:22:31.523Z",
+      "updated_at": "2026-10-30T06:24:11.276Z",
       "branch": "task/p79-monograph-houses",
       "base_commit": "7c6c8ccbab398f5f5116346d28bee1ecd8f694a8",
       "evidence_commit": "9d37a8e217cc368f61a91b2fc5223d0c71f2397c",
-      "merge_commit": null,
+      "merge_commit": "85edf63a02d0db567cfb60a632fe2474837dfae6",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/199",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Invented houses and generated images. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 85edf63. Monograph rebuilt around invented houses with generated images."
     }
   ]
 }
