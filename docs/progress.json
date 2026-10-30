@@ -6846,25 +6846,41 @@
     {
       "id": "P78",
       "title": "Midnight Vestibule: generated night images instead of real buildings",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P77"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        },
+        {
+          "name": "Style QA, runtime and browser QA",
+          "status": "pass",
+          "details": "All pass."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P78.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:11:30Z",
-      "updated_at": "2026-10-30T06:11:30.314Z",
+      "updated_at": "2026-10-30T06:16:36.064Z",
       "branch": "task/p78-midnight-images",
       "base_commit": "977f3e237eadfd5d155622ba7d0360ed9718b620",
-      "evidence_commit": null,
+      "evidence_commit": "a4e40713e5a8df284708d4ca281e197830ebc349",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/198",
       "blocker": null,
-      "next_action": "Implement P78 on task/p78-midnight-images.",
-      "handoff": "Image plan: K-05, K-04, M-01, M-02 replace the four real-building photographs."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Real-building photos replaced. Waiting for CI."
     }
   ]
 }
