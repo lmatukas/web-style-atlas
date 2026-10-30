@@ -7272,6 +7272,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in 78ca3f3. Glow and italic parts done; font proposal in evidence awaits owner."
+    },
+    {
+      "id": "P88",
+      "title": "Release 1.5.0: copy without AI-template signs",
+      "status": "todo",
+      "depends_on": [
+        "P87"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P88.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P88 after P87 is done.",
+      "handoff": "Owner asked to release after P87."
     }
   ]
 }

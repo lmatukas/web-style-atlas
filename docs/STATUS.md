@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 149/149.**
+**Baigta: 149/150.**
 
-**Visos užduotys baigtos.**
+**Kita užduotis: [P88](tasks/P88.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -159,5 +159,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P85](tasks/P85.md) | De-template copy, batch 4 | Baigta | agent/015fh6w2uenf | task/p85-copy-batch-4 | [PR](https://github.com/lmatukas/web-style-atlas/pull/205) | 2026-10-30T10:35:15.461Z | None. Task done. |
 | [P86](tasks/P86.md) | De-template copy, batch 5 | Baigta | agent/015fh6w2uenf | task/p86-copy-batch-5 | [PR](https://github.com/lmatukas/web-style-atlas/pull/206) | 2026-10-30T10:55:50.007Z | None. Task done. |
 | [P87](tasks/P87.md) | Optional visual pass: glow, italic accents, fonts | Baigta | agent/015fh6w2uenf | task/p87-visual-pass | [PR](https://github.com/lmatukas/web-style-atlas/pull/207) | 2026-10-30T11:39:05.099Z | None. Task done. |
+| [P88](tasks/P88.md) | Release 1.5.0: copy without AI-template signs | Laukia | — | — | — | — | Claim P88 after P87 is done. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
