@@ -9,7 +9,7 @@ Build a working website in the user's project. Do not change the atlas or its ta
 - Approved room plan, table capacity, opening hours and booking rules: [FILL IN].
 - Images, rights, technology and an authorised booking integration: [FILL IN].
 
-Without an approved integration the booking stays local, with no real sending, payment, order or storage of customer data. Search for the example business name to check it does not match a real company. Do not use real restaurants' marks, look or unapproved ratings. AI images are mood illustrations, not proof of a real dish, ingredients or a working restaurant.
+Without an approved integration the booking stays local, with no real sending, payment, order or storage of customer data. Search for the example business name to check it does not match a real company. Say once, in the footer, that the tasting room is invented, and once beside the booking that nothing is sent. Headings name courses, times, tables and seats, not "no hurry" or "a calm evening". Do not use real restaurants' marks, look or unapproved ratings. AI images are mood illustrations, not proof of a real dish, ingredients or a working restaurant.
 
 ## Design direction
 
@@ -38,7 +38,7 @@ One opening light episode ends within 1.5–2 s. No constant candle flicker, aut
 3. The room plan must make spatial sense: windows, the entrance, the kitchen, six tables in different places, their visible capacity and state. Only a free table of the right size can be chosen. Chosen, free, taken and too-small places are marked with text and shape, not colour alone.
 4. When the date or guest count changes, clear the old time and table; when the time changes, clear the old table. Say what needs choosing again. Check every constraint again on submit rather than trusting a greyed-out button.
 5. Errors are clear, tied to their controls, with a visible message and focus on the first invalid choice. Check the date against the local calendar, with no UTC day shift. The length is counted from the chosen time, not from the start of the menu story.
-6. Require a clear acknowledgement that this is a demonstration. The summary lists the date, start and end, guests, table number and place, the menu, the drink choice and the exact note. Label: "Local summary. The booking was not sent." Allergy arrangements are not treated as confirmed.
+6. Require a clear acknowledgement that this is a demonstration. The summary lists the date, start and end, guests, table number and place, the menu, the drink choice and the exact note. Label: "Summary · nothing was sent" Allergy arrangements are not treated as confirmed.
 7. "Edit" keeps the choices. "Clear" removes the summary and the choices so you can start again. Do not collect a name or email if the local demonstration does not need them. No localStorage or backend. Show notes as text, not HTML.
 8. Until JavaScript initialises, the form is disabled and cannot trigger an accidental GET or other submission. Noscript explains the limit; the menu and photographs are still visible.
 

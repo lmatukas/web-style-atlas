@@ -73,7 +73,7 @@ form.addEventListener('submit',e=>{e.preventDefault();clearErrors();confirmation
  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>254)issue('email','Enter a valid email address.');
  if(!data.has('ack'))issue('ack','Confirm that you understand this is a demonstration booking.');
  if(issues.length){errors.textContent=`Check ${issues.length} fields. Nothing was saved.`;errors.hidden=false;$(`#${issues[0]}`).focus();return;}
- const salon=data.get('salon')==='north'?'North salon · Vilnius':'River salon · Kaunas';
+ const salon=data.get('salon')==='north'?'North salon · Old Town':'River salon · Harbour';
  confirmation.textContent=`${name}, your local visit confirmation is ready.\n${salon}\n${day} · ${data.get('slot')} · 45 min.\n${$('[data-booking-choice]').textContent}\nContact: ${email}\nThis is a demonstration. No real visit was booked and no data was sent anywhere.`;confirmation.hidden=false;confirmation.focus();
 },{signal});
 form.addEventListener('input',()=>{confirmation.hidden=true;},{signal});

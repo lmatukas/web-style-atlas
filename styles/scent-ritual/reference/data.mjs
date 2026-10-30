@@ -1,6 +1,6 @@
 export const scents = [
   {id:'silkas',number:'01',name:'Dawn Silk',family:'Floral · soft',color:'rose',tint:[.97,.61,.43],top:'Pear · bergamot',heart:'Iris · white tea',base:'Musk · pale wood',description:'Light comes through the curtains. Cool pear meets soft iris and clean wood.',profile:[0,0,0]},
-  {id:'samanos',number:'02',name:'Quiet Moss',family:'Green · fresh',color:'green',tint:[.57,.74,.32],top:'Green leaf · lemon',heart:'Fig · sage',base:'Moss · cedar',description:'A garden still cool after rain. The edge of a green leaf, the calm of fig and an earthy cedar.',profile:[1,1,1]},
+  {id:'samanos',number:'02',name:'Quiet Moss',family:'Green · fresh',color:'green',tint:[.57,.74,.32],top:'Green leaf · lemon',heart:'Fig · sage',base:'Moss · cedar',description:'A garden still cool after rain. The edge of a green leaf, fig and an earthy cedar.',profile:[1,1,1]},
   {id:'gintaras',number:'03',name:'Slow Amber',family:'Woody · rich',color:'amber',tint:[.91,.52,.13],top:'Cardamom · orange',heart:'Tea · labdanum',base:'Amber accord · sandalwood',description:'The day slows down. Warm cardamom, steam from tea and the long softness of sandalwood.',profile:[2,2,2]},
   {id:'oras',number:'04',name:'White Air',family:'Clean · clear',color:'ivory',tint:[.81,.78,.60],top:'Lemon · pink pepper',heart:'Neroli · green tea',base:'White musk · vetiver',description:'An open window and clean paper. Lemon peel, bitter-sweet neroli and light musk.',profile:[1,0,0]}
 ];

@@ -10,7 +10,7 @@ Build a working website in the user's project. This is a self-contained creation
 - Project technology and environment rules: [FILL IN OR APPLY THE EXISTING ONES].
 - Composition: [A OR B; default A].
 
-If the fields stay empty, use the invented watch atelier "Zevraqelle" and an original concept watch, "Nocturne N.01". Mark the invented figures, prices and salons clearly. Make no real order, visit booking or payment.
+If the fields stay empty, use the invented watch atelier "Zevraqelle" and an original concept watch, "Nocturne N.01". Say once, in the footer, that the atelier, figures, prices and salons are invented, and once beside the visit form that nothing is booked. Salons get invented district names, not real cities. Headings name the dial, the movement, the specifications and the fitting. Make no real order, visit booking or payment.
 
 ## Direction and fixed features
 

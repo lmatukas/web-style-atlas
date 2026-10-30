@@ -16,7 +16,7 @@ Composition A: a loud event poster with a numbered manifesto. Composition B: a f
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Keep one shouted headline per page; other headings state facts about the sessions, and the venue is invented, not a real city; use real facts only once the user provides reliable content.
 
 The project is SHOUTMOOT, an invented independent ideas event that brings designers, organisers and curious neighbours into one working room. It should feel immediate, public and slightly unruly while staying fully usable. All dates, sessions and the venue are fictional; say so near the programme and in the attendance section.
 

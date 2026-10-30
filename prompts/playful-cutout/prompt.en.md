@@ -16,7 +16,7 @@ Composition A: an assembled cutout scene inviting visitors to a making day. Comp
 
 ## Original creative brief
 
-Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Mark the working demonstration name clearly as invented; use real facts only once the user provides reliable content.
+Create your own visual expression: original copy, illustrations, composition and details. Use only your own or properly licensed assets. Do not carry over other brands, code, recognisable scenes or combinations of them. Say once, in the footer, that the brand is invented, and once beside any form or download that nothing is sent. Headings name the tables, the paper and the day, keeping the playful tone without slogans; use real facts only once the user provides reliable content.
 
 The project is SNIPWHISTLE, an invented community making day with paper, pencils and scissors. The tone is lively and welcoming, but the interface stays predictable. The event, its day and its activities are fictional; say so in a practical note. There is no booking, ticket or registration.
 
@@ -24,7 +24,7 @@ Palette: warm paper #fff2d7, a mustard surface #f2d994, deep purple text #3b2255
 
 Draw three original vector cutouts with a consistent pale cut edge and simple shading: a yellow pencil with a coral eraser, coral-handled craft scissors and a teal folded paper plane. They are finished illustrations, not placeholders or traced clip art. Give each a descriptive alt text, or hide it when a caption already says the same.
 
-Composition A, the invitation: a compact identity with links (what happens, good to know, the story). A two-part opening: large friendly words such as "Make room for wonder." with one sentence and a link down the page, beside a reserved scene where the pencil, scissors and plane overlap deliberately. A short event strip with fictional context and a practical-note link. Three numbered activity rows (fold something, make a mark, change the shape), each with a heading and two plain sentences. A dark purple closing band links to the story. A native "What is this making day?" disclosure and a colophon finish the page.
+Composition A, the invitation: a compact identity with links (what happens, good to know, the story). A two-part opening: large friendly words such as "Fold, draw, cut for a whole Saturday." with one sentence and a link down the page, beside a reserved scene where the pencil, scissors and plane overlap deliberately. A short event strip with fictional context and a practical-note link. Three numbered activity rows (fold something, make a mark, change the shape), each with a heading and two plain sentences. A dark purple closing band links to the story. A native "What is this making day?" disclosure and a colophon finish the page.
 
 Composition B, the story: a story heading and three chapter links. Chapter 1 pairs the folded plane with a short narrative across the width. Chapter 2 reverses the image and text and adds a small sticker-like note outside the body measure. Chapter 3 puts a generous coloured note field beside the pencil. Close with a practical disclosure about the event and illustrations, and a return link.
 
