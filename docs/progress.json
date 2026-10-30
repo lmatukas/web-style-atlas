@@ -6582,7 +6582,7 @@
     {
       "id": "P72",
       "title": "Full creation prompts: bold and playful group",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P71"
       ],
@@ -6595,12 +6595,17 @@
         {
           "name": "Unit tests",
           "status": "pass",
-          "details": "All pass."
+          "details": "109/109."
         },
         {
           "name": "Gallery and creation-prompt browser tests",
           "status": "pass",
           "details": "7/7."
+        },
+        {
+          "name": "PR #192 CI",
+          "status": "pass",
+          "details": "All three checks passed."
         }
       ],
       "evidence_paths": [
@@ -6608,15 +6613,15 @@
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:05:21Z",
-      "updated_at": "2026-10-30T05:10:56.373Z",
+      "updated_at": "2026-10-30T05:13:36.406Z",
       "branch": "task/p72-bold-prompts",
       "base_commit": "2884a762f30624a8311dcf9bf854765ca4b996b6",
       "evidence_commit": "ce5e8d5fb3697d25a5c0e9fd07109de552dce4bf",
-      "merge_commit": null,
+      "merge_commit": "1a3a6aecd57e0fa3803e92f7495a173fcc5779ce",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/192",
       "blocker": null,
-      "next_action": "Wait for CI, merge, mark done.",
-      "handoff": "Four full creation prompts. Waiting for CI."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in 1a3a6ae. Four bold-group prompts; 42 full prompts."
     },
     {
       "id": "P73",
