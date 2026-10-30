@@ -2,7 +2,7 @@ EMBER COURSE ROOM — asset provenance
 Author: Web Style Atlas contributors
 Date: 2026-10-24
 
-All three food/table images are original AI-generated illustrations for a
+All food, table and room images are original AI-generated illustrations for a
 fictional venue. They are not photographs documenting an actual restaurant.
 License: AI-generated, original, distributed under the repository MIT terms.
 Tool: OpenAI built-in image_gen.imagegen; exact model/version not exposed by tool.
@@ -39,6 +39,16 @@ Prompt: Use case: photorealistic-natural. Asset type: landscape fine dining dess
 Modifications: ImageMagick convert, max 1000px width, WebP quality 84, metadata stripped. No retouching/compositing.
 Inspection: pear, ice cream and almond tuile checked visually; no fake letters,
 real logos, people or hands. Specular highlights are original generated light.
+
+Asset: dining.webp and dining-portrait.webp (layout B hero; added 2026-10-30)
+Source: Web Style Atlas asset bank image C-05 "candlelit dining room".
+Tool: ChatGPT image generation (OpenAI); exact model/version not exposed by the tool.
+Date: 2026-10-25
+Prompt (16:9, dining.webp): ONE photorealistic editorial photograph, landscape 16:9, largest native output. An entirely fictional small intimate dining room in the evening. One simple rectangular dark oak dining table with four plain original wooden chairs occupies the RIGHT half, two small unlabelled ivory pillar candles in plain dark holders casting a warm glow. Empty room, no diners; minimal white plates and clear plain glasses on the table, no menus, no bottles, no printed linens. The LEFT half is a soft dark umber plaster wall with restrained candlelight falloff. Grounded furniture legs, coherent table perspective, real flame glow and natural shadows. Quiet photographic low-light interior, no chandeliers or artworks. The left 40 to 45 percent is quiet low-detail space suitable for a future headline. Calm composition with one clear subject, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings, landmarks or artworks. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Prompt (4:5, dining-portrait.webp; generated from the 16:9 image as reference): Create ONE PORTRAIT 4:5 photographic composition of the SAME SCENE shown in the reference. Subject: empty dining room with candles. Preserve the same physical objects, materials, colour palette and lighting, with coherent geometry and natural contact shadows. Recompose with the subject on the right side and the left 40 percent as quiet low-detail space for a future headline. Calm, one clear subject, exceptional photographic material detail, largest native output. No text, lettering, numerals, logos, labels, signs, watermarks, real brands, iconic product shapes, faces, people, famous buildings or artworks. No warped or melted forms, broken patterns or impossible shadows. Full-bleed portrait frame, no border.
+Modifications: 16:9 original 1672×941 resized to 1600×900; 4:5 original 1122×1402 resized to 900×1125; WebP quality 80, metadata stripped. No compositing or retouching.
+Inspection: empty room, table, chairs, candles and window checked visually; no
+lettering, logos, people or real venue.
 
 FONT SOURCES
 Newsreader Regular and Italic 400, Latin/Lithuanian WOFF2 subsets, optical size

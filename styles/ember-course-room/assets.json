@@ -90,6 +90,36 @@
       "modifications": [
         "Resized to at most 1280 px (table) / 1000 px (courses), encoded as WebP quality 85/84 and stripped of metadata; no compositing or retouching."
       ]
+    },
+    {
+      "id": "dining",
+      "path": "assets/dining.webp",
+      "type": "image",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (candlelit dining room, landscape), ChatGPT image generation, 2026-10-25; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized from 1672×941 to 1600×900, WebP quality 80, metadata stripped; no compositing or retouching."
+      ]
+    },
+    {
+      "id": "dining-portrait",
+      "path": "assets/dining-portrait.webp",
+      "type": "image",
+      "origin": "generated",
+      "generation_note": "Original AI-generated image (candlelit dining room, portrait), ChatGPT image generation, 2026-10-25; complete prompt and tool details in RIGHTS.txt.",
+      "creator": "Web Style Atlas contributors",
+      "license": "AI-generated, original, distributed under the repository MIT terms",
+      "license_file": "assets/RIGHTS.txt",
+      "attribution": "Original AI-generated demonstration imagery; Web Style Atlas contributors",
+      "redistribution_allowed": true,
+      "modifications": [
+        "Resized from 1122×1402 to 900×1125, WebP quality 80, metadata stripped; no compositing or retouching."
+      ]
     }
   ]
 }
