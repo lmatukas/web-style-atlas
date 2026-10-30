@@ -6973,7 +6973,7 @@
     {
       "id": "P81",
       "title": "Gallery copy and copy-lint guard",
-      "status": "review",
+      "status": "done",
       "depends_on": [
         "P80"
       ],
@@ -6999,15 +6999,15 @@
       ],
       "worker": "agent/codex-p81-20261030",
       "claimed_at": "2026-10-30T07:11:16.507Z",
-      "updated_at": "2026-10-30T07:21:55.067Z",
+      "updated_at": "2026-10-30T07:59:20.149Z",
       "branch": "task/p81-gallery-copy",
       "base_commit": "b2a3a96e4969eb48545bfba8a575e6618a67e21b",
       "evidence_commit": "04bf5eb6716a35a8320ee7fd21f47057f5a040bb",
-      "merge_commit": null,
+      "merge_commit": "cbab08da683489489ecda804003691581dbb5811",
       "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/201",
       "blocker": null,
-      "next_action": "Review and merge PR #201; after merge verify evidence and mark P81 done.",
-      "handoff": "PR #201 ready for review with all CI jobs green on 04bf5eb. Gallery copy rewritten; exact shrinking backlog of 42 directions. No style inputs/previews changed. Local visual inspection unavailable because browser connection timed out; canonical browser tests passed."
+      "next_action": "None. Task done.",
+      "handoff": "Merged in cbab08d by the owner after green CI. Verified by agent/015fh6w2uenf."
     },
     {
       "id": "P82",

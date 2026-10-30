@@ -2,9 +2,9 @@
 
 <!-- GENERATED from docs/progress.json. Run node scripts/tasks.mjs render. -->
 
-**Baigta: 142/149.**
+**Baigta: 143/149.**
 
-**Pirmiausia patikrinti P81: Laukia peržiūros; vykdytojas agent/codex-p81-20261030.**
+**Kita užduotis: [P82](tasks/P82.md).**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -152,7 +152,7 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P78](tasks/P78.md) | Midnight Vestibule: generated night images instead of real buildings | Baigta | agent/015fh6w2uenf | task/p78-midnight-images | [PR](https://github.com/lmatukas/web-style-atlas/pull/198) | 2026-10-30T06:18:33.392Z | None. Task done. |
 | [P79](tasks/P79.md) | Architectural Monograph: invented houses and generated photographs | Baigta | agent/015fh6w2uenf | task/p79-monograph-houses | [PR](https://github.com/lmatukas/web-style-atlas/pull/199) | 2026-10-30T06:24:11.276Z | None. Task done. |
 | [P80](tasks/P80.md) | Audit: AI-template tells and project description | Baigta | agent/015fh6w2uenf | task/p80-ai-template-audit | [PR](https://github.com/lmatukas/web-style-atlas/pull/200) | 2026-10-30T06:39:52.269Z | None. Task done. |
-| [P81](tasks/P81.md) | Gallery copy and copy-lint guard | Laukia peržiūros | agent/codex-p81-20261030 | task/p81-gallery-copy | [PR](https://github.com/lmatukas/web-style-atlas/pull/201) | 2026-10-30T07:21:55.067Z | Review and merge PR #201; after merge verify evidence and mark P81 done. |
+| [P81](tasks/P81.md) | Gallery copy and copy-lint guard | Baigta | agent/codex-p81-20261030 | task/p81-gallery-copy | [PR](https://github.com/lmatukas/web-style-atlas/pull/201) | 2026-10-30T07:59:20.149Z | None. Task done. |
 | [P82](tasks/P82.md) | De-template copy, batch 1 | Laukia | — | — | — | — | Claim P82 after P81 is done. |
 | [P83](tasks/P83.md) | De-template copy, batch 2 | Laukia | — | — | — | — | Claim P83 after P82 is done. |
 | [P84](tasks/P84.md) | De-template copy, batch 3 | Laukia | — | — | — | — | Claim P84 after P83 is done. |
