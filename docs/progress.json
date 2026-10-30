@@ -7232,7 +7232,7 @@
     {
       "id": "P87",
       "title": "Optional visual pass: glow, italic accents, fonts",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P86"
       ],
@@ -7240,16 +7240,16 @@
       "evidence_paths": [
         "docs/evidence/P87.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T11:13:18Z",
+      "updated_at": "2026-10-30T11:13:18.565Z",
+      "branch": "task/p87-visual-pass",
+      "base_commit": "ea4ce7739eca6d4bd1698ff198ea6ddccdee6abb",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P87 after P86 is done.",
+      "next_action": "Implement P87 on task/p87-visual-pass.",
       "handoff": "Planned in the P80 AI-template audit."
     }
   ]

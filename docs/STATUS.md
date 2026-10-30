@@ -4,7 +4,7 @@
 
 **Baigta: 148/149.**
 
-**Kita užduotis: [P87](tasks/P87.md).**
+**Pirmiausia patikrinti P87: Vykdoma; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -158,6 +158,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P84](tasks/P84.md) | De-template copy, batch 3 | Baigta | agent/015fh6w2uenf | task/p84-copy-batch-3 | [PR](https://github.com/lmatukas/web-style-atlas/pull/204) | 2026-10-30T10:11:08.301Z | None. Task done. |
 | [P85](tasks/P85.md) | De-template copy, batch 4 | Baigta | agent/015fh6w2uenf | task/p85-copy-batch-4 | [PR](https://github.com/lmatukas/web-style-atlas/pull/205) | 2026-10-30T10:35:15.461Z | None. Task done. |
 | [P86](tasks/P86.md) | De-template copy, batch 5 | Baigta | agent/015fh6w2uenf | task/p86-copy-batch-5 | [PR](https://github.com/lmatukas/web-style-atlas/pull/206) | 2026-10-30T10:55:50.007Z | None. Task done. |
-| [P87](tasks/P87.md) | Optional visual pass: glow, italic accents, fonts | Laukia | — | — | — | — | Claim P87 after P86 is done. |
+| [P87](tasks/P87.md) | Optional visual pass: glow, italic accents, fonts | Vykdoma | agent/015fh6w2uenf | task/p87-visual-pass | — | 2026-10-30T11:13:18.565Z | Implement P87 on task/p87-visual-pass. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)
