@@ -6754,6 +6754,29 @@
       "blocker": null,
       "next_action": "None. Task done.",
       "handoff": "Merged in 9975e1a. Seven demo brands renamed; Pop Commerce label resized."
+    },
+    {
+      "id": "P76",
+      "title": "Ember Course Room: own hero for layout B",
+      "status": "todo",
+      "depends_on": [
+        "P75"
+      ],
+      "checks": [],
+      "evidence_paths": [
+        "docs/evidence/P76.md"
+      ],
+      "worker": null,
+      "claimed_at": null,
+      "updated_at": null,
+      "branch": null,
+      "base_commit": null,
+      "evidence_commit": null,
+      "merge_commit": null,
+      "pr_url": null,
+      "blocker": null,
+      "next_action": "Claim P76 and add the C-05 hero to layout B.",
+      "handoff": "Image plan 2026-10-26/30: asset bank C-05 for Ember B."
     }
   ]
 }
