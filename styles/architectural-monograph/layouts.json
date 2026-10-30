@@ -6,7 +6,7 @@
       "title": "Photograph and plan monograph",
       "page_type": "architecture",
       "reference_path": "reference/index.html",
-      "navigation": "Project atlas, plan anchor, official history and source disclosure.",
+      "navigation": "Project atlas, plan anchor, source record and source disclosure.",
       "ordered_sections": [
         {
           "purpose": "Identify project",
@@ -84,7 +84,7 @@
           "purpose": "Read first building",
           "pattern": "Large image beside narrow observation",
           "content_requirements": [
-            "Farnsworth authorship",
+            "Invented architect and date",
             "Monograph link"
           ]
         },
@@ -92,8 +92,8 @@
           "purpose": "Read second building",
           "pattern": "Unequal reversed photograph spread",
           "content_requirements": [
-            "Glass House authorship",
-            "Official source link"
+            "Invented architect and date",
+            "Source record link"
           ]
         },
         {

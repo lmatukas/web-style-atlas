@@ -1,29 +1,36 @@
-Architectural Monograph assets — verified 2026-10-21
+Architectural Monograph assets — updated 2026-10-30 (P79)
 
-Photographs by Carol M. Highsmith, Library of Congress, Prints & Photographs Division.
-1. Farnsworth House 2006.jpg, LC-DIG-highsm-04118
-Source: https://commons.wikimedia.org/wiki/File:Farnsworth_House_2006.jpg
-Primary record: https://www.loc.gov/pictures/collection/highsm/item/2010630115/
-Derivative downloaded: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Farnsworth_House_2006.jpg/1280px-Farnsworth_House_2006.jpg
-2. Glass House 2006.jpg, LC-DIG-highsm-04817
-Source: https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg
-Primary record: https://www.loc.gov/pictures/collection/highsm/item/2010630799/
-Derivative downloaded: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Glass_House_2006.jpg/1280px-Glass_House_2006.jpg
+The demonstration publication, both houses (Hallvarn House, Corveline House),
+their architects (Maren Ostvald, Kerrowe Studio), places and dates are invented.
+Name check 2026-10-30: web searches for each name found no building, architect
+or studio of that name. Bounded web check, not a trademark clearance.
 
-Both Commons source records identify Highsmith and the above reproduction numbers,
-and mark the photographs public domain. The primary collection rights statement
-https://wwws.loc.gov/rr/print/res/482_high.html states that Highsmith dedicated her
-photographs to the public domain. No endorsement or project authorship implied.
-Local changes: retain 1280px derivative dimensions, convert to monochrome, strip
-metadata, encode lossless WebP with a 64-step monochrome palette. A detail figure applies a labeled CSS crop of the
-same Farnsworth photograph. The local conversions do not create new restrictions.
+Images: original AI-generated illustrations of invented houses, made for the
+Web Style Atlas asset bank. They show no real building, person, brand or
+lettering. Creator: Web Style Atlas contributors. License: AI-generated,
+original, distributed under the repository MIT terms. The operator receives
+output rights to the extent permitted by law under the OpenAI Europe Terms of
+Use: https://openai.com/policies/eu-terms-of-use/
+This is a provenance record, not a guarantee of copyright protection; AI
+copyright status varies by jurisdiction.
+
+1. winter-house.webp — asset bank M-03 "invented low timber house in a snowy meadow".
+Tool: ChatGPT image generation (OpenAI), tool image_gen.imagegen; model label recorded in the file metadata: gpt-image; exact model variant not exposed.
+Date: 2026-10-30
+Source file: M-03-winter-house-16x9.png, 1672×941, sha256 f7d9bd52d1f5a9f949a2b8a3419ca342d5696958828b317962880039ce550938 (checked against M-01-M-04-generation-record.json).
+Prompt: ONE photorealistic architectural photograph, landscape 16:9, largest native output. A broad winter exterior of an original, invented single-storey modernist house, not based on any real or famous building. Long low horizontal volume sitting directly on a pale concrete base on the ground, not raised on columns. Flat roof with a thin dark timber fascia, walls of vertical larch boards weathered to silver grey, one long band of windows with dark frames, a deep recessed entrance porch at one end. The house sits in the RIGHT two thirds of the frame in a snowy meadow, a few bare birch trees behind, soft overcast winter light, muted grey, white and warm wood palette. Eye-level view from a distance so the house reads within its setting. No people, vehicles, fences or signs. The left third is quiet snowy ground and pale sky suitable for a future caption. Calm composition, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, faces, people, famous buildings, landmarks or artworks. No glass box on stilts, no steel I-beam columns. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Modifications: converted to monochrome (greyscale), resized to 1600×900, WebP quality 80, metadata stripped. No compositing or retouching. The detail figure applies a labelled CSS crop of the same image.
+
+2. slope-house.webp — asset bank M-04 "invented brick and white-render house on a wooded slope".
+Tool: ChatGPT image generation (OpenAI), tool image_gen.imagegen; model label recorded in the file metadata: gpt-image; exact model variant not exposed.
+Date: 2026-10-30
+Source file: M-04-slope-house-16x9.png, 1672×941, sha256 fb50e9478b2fb7b480170bfd27342808f49c12e14fe63d1ac3c70dabfdf9101c (checked against M-01-M-04-generation-record.json).
+Prompt: ONE photorealistic architectural photograph, landscape 16:9, largest native output. An original, invented two-storey modernist house, not based on any real or famous building, set on a gentle wooded slope in late autumn. Two stacked rectangular volumes: a lower one of dark brown brick and an upper one of smooth off-white render that cantilevers slightly over a terrace. Deep-set square windows with thin bronze frames, a straight concrete stair climbing the slope beside the house. Placed in the RIGHT half of the frame. Bare oaks and fallen copper leaves around, soft late-afternoon light, palette of brick brown, off-white, bronze and muted green. Three-quarter view from slightly below. No people, vehicles or signs. The left 40 percent is quiet trees and sky suitable for a future caption. Calm composition, natural textures, coherent perspective and lighting. No text, lettering, numbers, logos, labels, signs, watermarks, real brands, faces, people, famous buildings, landmarks or artworks. No glass box, no house over a waterfall. No warped or melted geometry, broken repeating patterns or impossible shadows. Full-bleed photograph, no frame or collage.
+Modifications: converted to monochrome (greyscale), resized to 1600×900, WebP quality 80, metadata stripped. No compositing or retouching.
 
 plan.svg: original MIT code-authored schematic by Web Style Atlas contributors
-(S22). It interprets enclosure, threshold and terrace relationships. It is
-not a survey, precise floor plan, reproduction of an archival drawing or source
-of construction dimensions. Do not use for construction or represent it as measured.
-Building information checked against the official Edith Farnsworth House history
-and The Glass House building account:
-https://edithfarnsworthhouse.org/history-farnsworth-house/
-https://theglasshouse.org/explore/the-glass-house/
+(S22, redrawn in P79 for Hallvarn House). It interprets the enclosed volume,
+window band, recessed porch and concrete base. It is not a survey, precise
+floor plan or source of construction dimensions. Do not use for construction
+or represent it as measured.
 The reference pages link to this record instead of external sites.
