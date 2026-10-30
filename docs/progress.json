@@ -6934,25 +6934,36 @@
     {
       "id": "P80",
       "title": "Audit: AI-template tells and project description",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P79"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "109/109."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P80.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T06:34:13Z",
-      "updated_at": "2026-10-30T06:34:13.553Z",
+      "updated_at": "2026-10-30T06:38:24.454Z",
       "branch": "task/p80-ai-template-audit",
       "base_commit": "f2537f9e742cefa90a94c366bd17277c79e4f84f",
-      "evidence_commit": null,
+      "evidence_commit": "64d63511be3de8e3c287b3dcae95f7dce5b1a4a3",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/200",
       "blocker": null,
-      "next_action": "Implement P80 on task/p80-ai-template-audit.",
-      "handoff": "Owner request 2026-10-30: find AI-template tells, plan fixes, update description."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Audit written, P81-P87 queued, READMEs corrected. Waiting for CI."
     },
     {
       "id": "P81",
