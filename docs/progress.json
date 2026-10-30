@@ -6802,7 +6802,7 @@
     {
       "id": "P77",
       "title": "Still Sanctuary: fewer repeated photographs",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "P76"
       ],
@@ -6810,16 +6810,16 @@
       "evidence_paths": [
         "docs/evidence/P77.md"
       ],
-      "worker": null,
-      "claimed_at": null,
-      "updated_at": null,
-      "branch": null,
-      "base_commit": null,
+      "worker": "agent/015fh6w2uenf",
+      "claimed_at": "2026-10-30T06:04:39Z",
+      "updated_at": "2026-10-30T06:04:39.252Z",
+      "branch": "task/p77-still-sanctuary-images",
+      "base_commit": "0ff7f4a0f23912ca5c98984f24273a0a256504f3",
       "evidence_commit": null,
       "merge_commit": null,
       "pr_url": null,
       "blocker": null,
-      "next_action": "Claim P77 and replace repeated photographs.",
+      "next_action": "Implement P77 on task/p77-still-sanctuary-images.",
       "handoff": "Image plan: D-01 for A region 01, J-02 for B villa card, recompress pavilion."
     }
   ]
