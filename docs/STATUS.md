@@ -4,7 +4,7 @@
 
 **Baigta: 135/136.**
 
-**Pirmiausia patikrinti P74: Vykdoma; vykdytojas agent/015fh6w2uenf.**
+**Pirmiausia patikrinti P74: Laukia peržiūros; vykdytojas agent/015fh6w2uenf.**
 
 Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus darbą.
 
@@ -145,6 +145,6 @@ Tai paskutinė repo užregistruota būsena. Vykdytojas ir PR atsiranda pradėjus
 | [P71](tasks/P71.md) | Full creation prompts: service and data group | Baigta | agent/015fh6w2uenf | task/p71-service-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/191) | 2026-10-30T05:05:19.234Z | None. Task done. |
 | [P72](tasks/P72.md) | Full creation prompts: bold and playful group | Baigta | agent/015fh6w2uenf | task/p72-bold-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/192) | 2026-10-30T05:13:36.406Z | None. Task done. |
 | [P73](tasks/P73.md) | Full creation prompts: luxe and chrome group | Baigta | agent/015fh6w2uenf | task/p73-luxe-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/193) | 2026-10-30T05:23:52.326Z | None. Task done. |
-| [P74](tasks/P74.md) | Full creation prompts: image-led group | Vykdoma | agent/015fh6w2uenf | task/p74-image-prompts | — | 2026-10-30T05:23:55.131Z | Implement P74 on task/p74-image-prompts. |
+| [P74](tasks/P74.md) | Full creation prompts: image-led group | Laukia peržiūros | agent/015fh6w2uenf | task/p74-image-prompts | [PR](https://github.com/lmatukas/web-style-atlas/pull/194) | 2026-10-30T05:28:59.577Z | Wait for CI, merge, mark done. |
 
 [Pradžia](../START_HERE.md) · [Darbo taisyklės](WORKFLOW.md) · [Visas planas](implementation-plan.md)

@@ -6670,25 +6670,41 @@
     {
       "id": "P74",
       "title": "Full creation prompts: image-led group",
-      "status": "in_progress",
+      "status": "review",
       "depends_on": [
         "P73"
       ],
-      "checks": [],
+      "checks": [
+        {
+          "name": "validate, build, check",
+          "status": "pass",
+          "details": "All pass after preview regeneration."
+        },
+        {
+          "name": "Unit tests",
+          "status": "pass",
+          "details": "All pass."
+        },
+        {
+          "name": "Gallery and creation-prompt browser tests",
+          "status": "pass",
+          "details": "7/7."
+        }
+      ],
       "evidence_paths": [
         "docs/evidence/P74.md"
       ],
       "worker": "agent/015fh6w2uenf",
       "claimed_at": "2026-10-30T05:23:55Z",
-      "updated_at": "2026-10-30T05:23:55.131Z",
+      "updated_at": "2026-10-30T05:28:59.577Z",
       "branch": "task/p74-image-prompts",
       "base_commit": "2417edb8cf67f42b10240d111642bb2b6132d218",
-      "evidence_commit": null,
+      "evidence_commit": "b4fea7f8c503028b6c2730f2e6f501037357a63c",
       "merge_commit": null,
-      "pr_url": null,
+      "pr_url": "https://github.com/lmatukas/web-style-atlas/pull/194",
       "blocker": null,
-      "next_action": "Implement P74 on task/p74-image-prompts.",
-      "handoff": "Series P69-P74: full creation prompts for the 24 early directions."
+      "next_action": "Wait for CI, merge, mark done.",
+      "handoff": "Four full creation prompts. Waiting for CI."
     }
   ]
 }
